@@ -16,6 +16,7 @@ Status values:
 | Action protocol validation | verified | `test/action-protocol.test.mjs` | `payrollFlow` remains a lab macro until primitive actions replace it. |
 | Cal confirmation gate | verified | Browser smoke on bridge and LiveKit paths | Cal iframe `src` is empty before confirmation and set only after `confirmBooking`. |
 | LiveKit token/config/SDK asset | verified | `npm run smoke:local`, `npm run smoke:livekit` | Local dev JWTs only; not LiveKit Cloud. |
+| Token server security guardrails | verified | `test/token-server.test.mjs` | Loopback-only host/LiveKit URL, hostile CORS rejection, bridge disable, JWT claims/signature, and bridge payload cap. |
 | LiveKit room/data-channel control | verified | `npm run smoke:livekit`, browser LiveKit smoke with `ENABLE_SIM_BRIDGE=0` | Proves control/data messages, not ASR or TTS. |
 | Browser LiveKit connection | verified | Browser smoke on `http://127.0.0.1:4193/direct` with bridge disabled | Browser joined local room and received `agent.action` over LiveKit. |
 | Browser mic publication | configured | `connectLiveKitRoom()` requests mic after `Connect` | Mic publication is not ASR proof; permission behavior varies by browser. |
@@ -31,5 +32,6 @@ Status values:
 
 ## Latest Evidence
 
-- `npm run smoke:livekit` passed with `bridgeDisabled: true` at `artifacts/smoke/livekit-2026-06-07T08-21-40-550Z/result.json`.
+- `npm run smoke:livekit` passed with `bridgeDisabled: true` at `artifacts/smoke/livekit-2026-06-07T08-24-28-928Z/result.json`.
+- `npm test` passed 18 tests, including token-server security guardrails.
 - Browser LiveKit smoke passed on June 7, 2026: `Connect` joined local LiveKit with `ENABLE_SIM_BRIDGE=0`, `Ask agent` received a LiveKit `agent.action`, the page scrolled/highlighted, Cal stayed unloaded before confirmation, and Cal opened after confirmation.

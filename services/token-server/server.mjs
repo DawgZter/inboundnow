@@ -12,10 +12,26 @@ const DEFAULT_ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
 const TOKEN_TTL_SECONDS = Number(process.env.LIVEKIT_TOKEN_TTL_SECONDS || 60 * 60);
 const ENABLE_SIM_BRIDGE = process.env.ENABLE_SIM_BRIDGE !== "0";
 const LIVEKIT_CLIENT_ASSET = "/__ocw-assets/livekit-client.esm.mjs";
+const MAX_BRIDGE_MESSAGE_BYTES = Number(process.env.MAX_BRIDGE_MESSAGE_BYTES || 32_000);
 
 const rooms = new Map();
 
-function assertNotLiveKitCloud(rawUrl) {
+function normalizedHost(hostname) {
+  return String(hostname || "").toLowerCase().replace(/^\[/, "").replace(/\]$/, "");
+}
+
+function isLoopbackHost(hostname) {
+  const host = normalizedHost(hostname);
+  return host === "localhost" || host === "::1" || host.endsWith(".localhost") || /^127(?:\.\d{1,3}){0,3}$/.test(host);
+}
+
+function assertLoopbackHost(hostname, name) {
+  if (!isLoopbackHost(hostname)) {
+    throw new Error(name + " must be loopback-only for the local MVP");
+  }
+}
+
+function assertLocalLiveKitUrl(rawUrl) {
   let parsed;
   try {
     parsed = new URL(rawUrl);
@@ -30,9 +46,12 @@ function assertNotLiveKitCloud(rawUrl) {
   if (/livekit\.cloud$/i.test(parsed.hostname)) {
     throw new Error("LIVEKIT_URL points at LiveKit Cloud; InboundNow local MVP requires self-hosted/local LiveKit.");
   }
+
+  assertLoopbackHost(parsed.hostname, "LIVEKIT_URL");
 }
 
-assertNotLiveKitCloud(LIVEKIT_URL);
+assertLoopbackHost(HOST, "TOKEN_SERVER_HOST");
+assertLocalLiveKitUrl(LIVEKIT_URL);
 
 function base64Url(input) {
   return Buffer.from(input)
@@ -75,14 +94,31 @@ function makeToken({ identity, name, room, canPublish = true, canSubscribe = tru
   });
 }
 
-function sendJson(res, status, payload) {
+function isLocalOrigin(origin) {
+  if (!origin) return false;
+  try {
+    const parsed = new URL(origin);
+    return ["http:", "https:"].includes(parsed.protocol) && isLoopbackHost(parsed.hostname);
+  } catch {
+    return false;
+  }
+}
+
+function corsHeaders(req) {
+  const origin = req.headers.origin || "";
+  return {
+    "access-control-allow-origin": isLocalOrigin(origin) ? origin : "null",
+    "access-control-allow-methods": "GET,POST,OPTIONS",
+    "access-control-allow-headers": "content-type",
+  };
+}
+
+function sendJson(req, res, status, payload) {
   const body = JSON.stringify(payload, null, 2);
   res.writeHead(status, {
     "content-type": "application/json; charset=utf-8",
     "cache-control": "no-store",
-    "access-control-allow-origin": "*",
-    "access-control-allow-methods": "GET,POST,OPTIONS",
-    "access-control-allow-headers": "content-type",
+    ...corsHeaders(req),
   });
   res.end(body);
 }
@@ -115,17 +151,13 @@ const server = createServer(async (req, res) => {
   const url = new URL(req.url || "/", "http://" + HOST + ":" + PORT);
 
   if (req.method === "OPTIONS") {
-    res.writeHead(204, {
-      "access-control-allow-origin": "*",
-      "access-control-allow-methods": "GET,POST,OPTIONS",
-      "access-control-allow-headers": "content-type",
-    });
+    res.writeHead(204, corsHeaders(req));
     res.end();
     return;
   }
 
   if (url.pathname === "/health") {
-    sendJson(res, 200, {
+    sendJson(req, res, 200, {
       ok: true,
       mode: "local-livekit-token-server",
       transport: "livekit",
@@ -139,7 +171,7 @@ const server = createServer(async (req, res) => {
 
   if (url.pathname === "/config") {
     const room = url.searchParams.get("room") || DEFAULT_ROOM;
-    sendJson(res, 200, {
+    sendJson(req, res, 200, {
       livekitUrl: LIVEKIT_URL,
       room,
       tokenEndpoint: "http://" + HOST + ":" + PORT + "/token",
@@ -159,7 +191,7 @@ const server = createServer(async (req, res) => {
     const role = url.searchParams.get("role") || "browser";
     const identity = url.searchParams.get("identity") || role + "-" + randomUUID().slice(0, 8);
     const name = url.searchParams.get("name") || identity;
-    sendJson(res, 200, {
+    sendJson(req, res, 200, {
       token: makeToken({ identity, name, room, role }),
       livekitUrl: LIVEKIT_URL,
       room,
@@ -170,7 +202,7 @@ const server = createServer(async (req, res) => {
     return;
   }
 
-  sendJson(res, 404, { error: "not_found" });
+  sendJson(req, res, 404, { error: "not_found" });
 });
 
 const wss = new WebSocketServer({ noServer: true });
@@ -213,8 +245,13 @@ server.on("upgrade", (req, socket, head) => {
 
     ws.on("message", (raw) => {
       let message;
+      const rawText = String(raw);
+      if (Buffer.byteLength(rawText, "utf8") > MAX_BRIDGE_MESSAGE_BYTES) {
+        safeSend(ws, { type: "bridge.error", error: "message_too_large", maxBytes: MAX_BRIDGE_MESSAGE_BYTES });
+        return;
+      }
       try {
-        message = JSON.parse(String(raw));
+        message = JSON.parse(rawText);
       } catch {
         safeSend(ws, { type: "bridge.error", error: "invalid_json" });
         return;

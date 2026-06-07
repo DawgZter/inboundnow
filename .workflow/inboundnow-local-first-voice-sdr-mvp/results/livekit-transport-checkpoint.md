@@ -38,7 +38,7 @@ Repeatable local smoke:
 
 - `npm run smoke:local` passed.
 - Artifact summary was written to
-  `artifacts/smoke/2026-06-07T08-21-39-747Z/result.json`.
+  `artifacts/smoke/2026-06-07T08-24-28-096Z/result.json`.
 - Checks covered token health, LiveKit config, token `canPublishData`, local
   LiveKit browser asset serving, and bridge agent answer/action loop.
 
@@ -46,7 +46,7 @@ Bridge-disabled LiveKit smoke:
 
 - `npm run smoke:livekit` passed after installing `livekit-server` locally via Homebrew.
 - Artifact summary was written to
-  `artifacts/smoke/livekit-2026-06-07T08-21-40-550Z/result.json`.
+  `artifacts/smoke/livekit-2026-06-07T08-24-28-928Z/result.json`.
 - Checks covered local `livekit-server --dev`, token health, `ENABLE_SIM_BRIDGE=0`, browser participant join, agent participant join, `agent.answer`, and `agent.action` over LiveKit data channels.
 
 Browser LiveKit smoke:
