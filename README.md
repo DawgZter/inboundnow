@@ -210,7 +210,8 @@ Current proof level:
 - LiveKit data-channel control is verified locally with `npm run smoke:livekit`, with the WebSocket fallback disabled.
 - The browser LiveKit path is verified locally: browser joins the local room, sends the payroll question, receives `agent.action`, guides the page, and keeps Cal gated until confirmation.
 - The WebSocket bridge remains as an honest fallback when LiveKit is unavailable.
-- Mic publication is requested from the browser `Connect local transport` action, but ASR is still not attached to the audio track.
+- Mic publication is requested from the browser `Connect local transport` action. The worker now has a turn-based LiveKit audio buffer and localhost Parakeet-compatible adapter path, but real browser mic-to-Parakeet proof still requires an H100-local ASR endpoint and captured audio smoke.
+- `Send simulated transcript` sends a final transcript message through the same agent path as future ASR final transcripts; this is transcript fallback proof, not Parakeet proof.
 - ASR, LLM, and TTS have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model proof.
 - Agent answers now emit `agent.speech.start/chunk/end` before page actions, and the browser queues chunks through `speechSynthesis` for lower perceived latency. This is streamed browser fallback speech, not VibeVoice model proof.
 - Local artifact retrieval is available through the Moss adapter boundary with `npm run smoke:moss:local`; this is local JSON artifact proof, not hosted Moss or Moss SDK proof.
@@ -226,6 +227,7 @@ Useful local adapter checks:
 npm run smoke:adapters
 npm run smoke:planner
 npm run smoke:moss:local
+npm run smoke:asr:local
 npm run smoke:tts:local
 npm run smoke:local
 npm run smoke:livekit
@@ -234,5 +236,7 @@ npm run dev:moss-runtime
 ```
 
 `AGENT_PLANNER=local-llm` opts the worker into the local Qwen/OpenAI-compatible JSON planner. The default remains the deterministic router, and malformed LLM output or invalid actions fall back before any LLM answer is sent.
+
+`ASR_PROVIDER=local-parakeet` opts the worker into a localhost-only Parakeet-compatible adapter boundary. Use `npm run smoke:asr:local` for the fake endpoint contract and `npm run dev:asr:parakeet` plus `ASR_SMOKE_AUDIO_PATH=/path/to.wav npm run smoke:asr:h100` on the Vast.ai H100 lane before claiming real `nvidia/parakeet-tdt-0.6b-v3` audio transcription.
 
 `TTS_PROVIDER=local-vibevoice` opts the agent into a localhost-only VibeVoice-compatible adapter boundary. Latency knobs include `TTS_TEXT_CHUNK_CHARS`, `TTS_PREWARM_TEXT`, `TTS_CACHE_DIR`, `TTS_DTYPE`, and `TTS_QUANTIZATION`. Supported quantization policies are intentionally fair to audio quality: `none`, `llm-int8`, and `llm-int4`, where quantization targets only the LLM trunk and preserves audio decoder precision. Use `npm run smoke:tts:h100` on the Vast.ai H100 lane before claiming real local VibeVoice audio.

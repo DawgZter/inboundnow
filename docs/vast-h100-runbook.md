@@ -62,6 +62,7 @@ Copy the direct SSH command from the Vast instance card and add port forwards:
       -L 7880:127.0.0.1:7880 \
       -L 4311:127.0.0.1:4311 \
       -L 4321:127.0.0.1:4321 \
+      -L 4341:127.0.0.1:4341 \
       -L 4331:127.0.0.1:4331
 
 In another local terminal, sync this repo to the instance:
@@ -104,6 +105,27 @@ Smoke it from another instance shell:
     node scripts/vast-h100/smoke-qwen-endpoint.mjs
 
 Passing this smoke proves the H100-hosted OpenAI-compatible Qwen endpoint is responding locally. It does not by itself prove the browser agent is using Qwen for planning until the worker is run with AGENT_PLANNER=local-llm and the browser/agent flow captures planner metadata.
+
+## Start Parakeet ASR On The H100
+
+Run this in a separate tmux window on the instance:
+
+    cd /workspace/inboundnow
+    npm run dev:asr:parakeet
+
+The default endpoint is:
+
+    http://127.0.0.1:4341
+
+The script uses `nvidia/parakeet-tdt-0.6b-v3`, installs NeMo ASR dependencies into `.venv-h100`, and exposes `/health` plus `/v1/asr/transcribe`. The endpoint expects local audio through `audioBase64` or `audioPath`; preferred audio is mono 16kHz WAV/FLAC.
+
+Smoke it from another instance shell with a real local audio file:
+
+    ASR_SMOKE_AUDIO_PATH=/workspace/inboundnow/artifacts/asr-smoke/global-payroll.wav \
+    ASR_EXPECTED_PATTERN='global payroll|Remote' \
+    npm run smoke:asr:h100
+
+Passing this smoke proves the local Parakeet-compatible endpoint returned a transcript for the supplied audio file. It still does not prove browser mic frames until the LiveKit browser turn captures and transcribes real microphone audio.
 
 ## Start VibeVoice-Realtime On The H100
 
@@ -151,15 +173,16 @@ The launcher refuses to run without an explicit training entrypoint because the 
 
 ## Start The Local InboundNow Stack
 
-Run on the instance after Qwen is serving. Add `ENABLE_TTS_RUNTIME=1` when you also want the VibeVoice tmux pane:
+Run on the instance after Qwen is serving. Add `ENABLE_ASR_RUNTIME=1` for the Parakeet pane and `ENABLE_TTS_RUNTIME=1` when you also want the VibeVoice tmux pane:
 
-    ENABLE_TTS_RUNTIME=1 bash scripts/vast-h100/start-dev-stack.sh
+    ENABLE_ASR_RUNTIME=1 ENABLE_TTS_RUNTIME=1 bash scripts/vast-h100/start-dev-stack.sh
 
 The script starts a tmux session with:
 
 - livekit-server --dev
 - bridge-disabled token server
 - local Moss artifact runtime after `npm run moss:index`
+- optional Parakeet ASR tmux pane when `ENABLE_ASR_RUNTIME=1`
 - optional VibeVoice-Realtime tmux pane when `ENABLE_TTS_RUNTIME=1`
 - LiveKit-mode agent worker configured for AGENT_PLANNER=local-llm, local Qwen, local Moss URLs, and `TTS_PROVIDER=local-vibevoice` only when the TTS pane is enabled
 - Remote website lab on port 4199
@@ -177,16 +200,19 @@ On the instance:
     npm run check
     npm run smoke:planner
     npm run smoke:moss:local
+    npm run smoke:asr:local
     npm run smoke:tts:local
     npm run smoke:livekit
     mkdir -p artifacts/smoke
     node scripts/vast-h100/smoke-qwen-endpoint.mjs | tee artifacts/smoke/qwen-h100.json
+    ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav npm run smoke:asr:h100
     npm run smoke:tts:h100
 
 Browser proof to capture manually:
 
 - transport chip says LiveKit data connected.
 - mic chip is either published - no ASR yet or honestly blocked.
+- ASR chip distinguishes typed transcript fallback, local fake endpoint contract, and real H100 ASR proof.
 - transcript appends prospect and agent turns.
 - proof line includes local adapter labels.
 - proof line includes streamed speech fallback or local-vibevoice adapter labels without claiming VibeVoice unless `smoke:tts:h100` passed.
@@ -204,11 +230,13 @@ Verified by this runbook today:
 - Local Moss artifact runtime wiring through the local-runtime-client boundary.
 - Streamed browser speech fallback and local VibeVoice adapter contract.
 - Dynamic voice switching metadata across browser and agent control messages.
+- Local Parakeet adapter contract and H100 launch/smoke scripts.
 - Miso One LoRA development setup and manifest validation.
 
 Not yet proven by this runbook:
 
 - Parakeet ASR from real browser audio frames.
+- Browser mic-to-Parakeet proof, until a LiveKit browser voice turn captures real microphone audio and `local-parakeet` returns the transcript.
 - VibeVoice local audio synthesis in the browser, until `smoke:tts:h100` and a LiveKit browser run with `TTS_PROVIDER=local-vibevoice` are captured.
 - Miso One LoRA training or generated audio, until a consented manifest, selected trainer, adapter artifact, and H100-local audio smoke are captured.
 - Browser proof that the H100 Qwen planner, not only the deterministic fallback, produced the accepted plan.
@@ -231,5 +259,6 @@ Destroying is irreversible and deletes the instance data. Copy artifacts first i
 - LiveKit local self-hosting guide: https://docs.livekit.io/transport/self-hosting/local/
 - Microsoft VibeVoice repository: https://github.com/microsoft/VibeVoice
 - VibeVoice-Realtime model card: https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B
+- Parakeet TDT v3 model card: https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3
 - MisoTTS Hugging Face model: https://huggingface.co/MisoLabs/MisoTTS
 - MisoTTS GitHub repository: https://github.com/MisoLabsAI/MisoTTS

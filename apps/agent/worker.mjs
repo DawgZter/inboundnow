@@ -1,8 +1,9 @@
 #!/usr/bin/env node
-import { Room, RoomEvent, dispose } from "@livekit/rtc-node";
+import { AudioStream, Room, RoomEvent, dispose } from "@livekit/rtc-node";
 import WebSocket from "ws";
 import { ActionProtocolError, prepareActionsForDispatch } from "../../packages/action-protocol/index.mjs";
 import { splitSpeechText } from "../../packages/speech-streaming/index.mjs";
+import { audioFrameToPcm16, encodePcm16WavBase64, wavDurationMs } from "../../packages/voice-input/index.mjs";
 import { detectVoiceSwitchIntent, isVoiceSwitchOnly, resolveVoiceProfile } from "../../packages/voice-session/index.mjs";
 import { createAdapterRegistry, adapterLabels, adapterStatusMap } from "./adapters/registry.mjs";
 import { planQuestion } from "./llm-planner.mjs";
@@ -20,9 +21,17 @@ const decoder = new TextDecoder();
 let speechGeneration = 0;
 const defaultVoiceProfile = resolveVoiceProfile(process.env.TTS_VOICE_PROFILE || "default");
 const sessionVoiceProfiles = new Map();
+const activeAsrTurns = new Map();
+const ASR_SAMPLE_RATE = Number(process.env.ASR_SAMPLE_RATE || process.env.PARAKEET_SAMPLE_RATE || 16000);
+const ASR_CHANNELS = Number(process.env.ASR_CHANNELS || 1);
+const ASR_MAX_TURN_MS = Number(process.env.ASR_MAX_TURN_MS || 15000);
 
 function voiceSessionKey(message = {}, context = {}) {
   return message.sessionId || message.from || context.senderIdentity || "default";
+}
+
+function messageTransport(message = {}) {
+  return message.transport || AGENT_TRANSPORT;
 }
 
 function bridgeUrl() {
@@ -241,6 +250,189 @@ async function handleQuestion(sendReply, message, context = {}) {
   }
 }
 
+async function sendAsrStatus(sendReply, message, context, status, detail = {}) {
+  const sessionId = voiceSessionKey(message, context);
+  await sendReply({
+    type: "agent.asr.status",
+    requestId: message.id || message.requestId || "",
+    sessionId,
+    transport: messageTransport(message),
+    status,
+    provider: adapters.asr?.provider || "asr",
+    asr: adapterStatusMap(adapters).asr,
+    ...detail,
+  });
+}
+
+async function handleFinalTranscript(sendReply, message, context = {}, transcriptResult = {}) {
+  const transcript = String(transcriptResult.transcript || message.transcript || message.text || message.question || "").trim();
+  const requestId = message.id || message.requestId || "";
+  const sessionId = voiceSessionKey(message, context);
+  const transport = messageTransport(message);
+
+  if (!transcript) {
+    await sendAsrStatus(sendReply, message, context, "empty_transcript", {
+      message: "No transcript text was available for this voice turn.",
+    });
+    return;
+  }
+
+  await sendReply({
+    type: "agent.asr.final",
+    requestId,
+    sessionId,
+    transport,
+    transcript,
+    provider: transcriptResult.provider || message.provider || "browser-transcript",
+    model: transcriptResult.model || "",
+    language: transcriptResult.language || message.language || "en",
+    confidence: transcriptResult.confidence ?? null,
+    simulated: transcriptResult.simulated ?? message.simulated ?? true,
+    proof: transcriptResult.proof || "transcript-message",
+    source: message.source || transcriptResult.source || "browser-transcript",
+  });
+
+  await handleQuestion(sendReply, {
+    ...message,
+    id: requestId,
+    type: "prospect.question",
+    question: transcript,
+    text: transcript,
+    transport,
+    sessionId,
+    simulatedVoice: transcriptResult.simulated ?? message.simulated ?? true,
+    asr: {
+      provider: transcriptResult.provider || message.provider || "browser-transcript",
+      model: transcriptResult.model || "",
+      proof: transcriptResult.proof || "transcript-message",
+      simulated: transcriptResult.simulated ?? message.simulated ?? true,
+    },
+  }, context);
+}
+
+async function transcribeAudioTurn(sendReply, message, context = {}, audioInput = {}) {
+  const requestId = message.id || message.requestId || "asr_" + Math.random().toString(36).slice(2, 10);
+  const sessionId = voiceSessionKey(message, context);
+  await sendAsrStatus(sendReply, { ...message, id: requestId, sessionId }, context, "transcribing", {
+    message: "Sending local audio turn to ASR adapter.",
+  });
+
+  try {
+    const result = await adapters.asr.transcribe({
+      requestId,
+      audioBase64: audioInput.audioBase64 || message.audioBase64 || "",
+      audioPath: audioInput.audioPath || message.audioPath || "",
+      mimeType: audioInput.mimeType || message.mimeType || "audio/wav",
+      sampleRate: Number(audioInput.sampleRate || message.sampleRate || ASR_SAMPLE_RATE),
+      language: audioInput.language || message.language || "en",
+      timestamps: message.timestamps !== false,
+    });
+    await handleFinalTranscript(sendReply, {
+      ...message,
+      id: requestId,
+      sessionId,
+      source: message.source || "local-audio-turn",
+    }, context, {
+      ...result,
+      proof: adapterStatusMap(adapters).asr?.proof || "configured",
+      simulated: result.simulated === true ? true : false,
+      source: message.source || "local-audio-turn",
+    });
+  } catch (error) {
+    await sendReply({
+      type: "agent.error",
+      requestId,
+      sessionId,
+      transport: messageTransport(message),
+      code: "asr_transcribe_error",
+      message: error.message,
+    });
+  }
+}
+
+async function stopAsrTurn(sendReply, message, context = {}) {
+  const sessionId = voiceSessionKey(message, context);
+  const turn = activeAsrTurns.get(sessionId);
+  activeAsrTurns.delete(sessionId);
+
+  if (!turn || !turn.chunks.length) {
+    await sendAsrStatus(sendReply, message, context, "no_audio", {
+      message: "No LiveKit audio frames were buffered for this voice turn.",
+    });
+    return;
+  }
+
+  const audioBase64 = encodePcm16WavBase64(turn.chunks, {
+    sampleRate: turn.sampleRate || ASR_SAMPLE_RATE,
+    channels: turn.channels || ASR_CHANNELS,
+  });
+  await transcribeAudioTurn(sendReply, {
+    ...message,
+    id: message.id || turn.requestId,
+    sessionId,
+    source: "livekit-audio-turn",
+  }, context, {
+    audioBase64,
+    mimeType: "audio/wav",
+    sampleRate: turn.sampleRate || ASR_SAMPLE_RATE,
+    durationMs: wavDurationMs(Buffer.from(audioBase64, "base64"), {
+      sampleRate: turn.sampleRate || ASR_SAMPLE_RATE,
+      channels: turn.channels || ASR_CHANNELS,
+    }),
+  });
+}
+
+function startAsrTurn(sendReply, message, context = {}) {
+  const sessionId = voiceSessionKey(message, context);
+  const requestId = message.id || message.requestId || "asr_" + Math.random().toString(36).slice(2, 10);
+  activeAsrTurns.set(sessionId, {
+    requestId,
+    chunks: [],
+    sampleRate: ASR_SAMPLE_RATE,
+    channels: ASR_CHANNELS,
+    startedAt: Date.now(),
+  });
+  sendAsrStatus(sendReply, { ...message, id: requestId, sessionId }, context, "listening", {
+    message: "Voice turn started; buffering LiveKit mic frames when available.",
+  }).catch(() => {});
+}
+
+function bufferAudioFrame(sessionId, frame) {
+  const turn = activeAsrTurns.get(sessionId);
+  if (!turn) return;
+  if (Date.now() - turn.startedAt > ASR_MAX_TURN_MS) {
+    activeAsrTurns.delete(sessionId);
+    return;
+  }
+  const chunk = audioFrameToPcm16(frame);
+  if (!chunk.length) return;
+  turn.sampleRate = frame.sampleRate || turn.sampleRate || ASR_SAMPLE_RATE;
+  turn.channels = frame.channels || turn.channels || ASR_CHANNELS;
+  turn.chunks.push(chunk);
+}
+
+function attachLiveKitAudioTrack(track, participant) {
+  const participantIdentity = participant?.identity || "default";
+  const stream = new AudioStream(track, {
+    sampleRate: ASR_SAMPLE_RATE,
+    numChannels: ASR_CHANNELS,
+  });
+  const reader = stream.getReader();
+  (async () => {
+    try {
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        bufferAudioFrame(participantIdentity, value);
+      }
+    } catch (error) {
+      console.error("LiveKit audio stream failed:", participantIdentity, error.message);
+    } finally {
+      try { reader.releaseLock(); } catch {}
+    }
+  })();
+}
+
 function handleControlMessage(sendReply, raw, context = {}) {
   let message;
   try {
@@ -256,6 +448,56 @@ function handleControlMessage(sendReply, raw, context = {}) {
         type: "agent.error",
         requestId: message.id || "",
         code: "question_handler_error",
+        message: error.message,
+      }).catch(() => {});
+    });
+    return;
+  }
+
+  if (message.type === "prospect.transcript.final") {
+    console.log("agent.transcript.final", message.transport || AGENT_TRANSPORT, message.id || "", CONTROL_TOPIC);
+    handleFinalTranscript(sendReply, message, context, {
+      transcript: message.transcript || message.text || "",
+      provider: message.provider || "browser-transcript",
+      language: message.language || "en",
+      simulated: message.simulated !== false,
+      proof: "transcript-message",
+      source: message.source || "typed-fallback",
+    }).catch((error) => {
+      sendReply({
+        type: "agent.error",
+        requestId: message.id || "",
+        code: "transcript_handler_error",
+        message: error.message,
+      }).catch(() => {});
+    });
+    return;
+  }
+
+  if (message.type === "prospect.audio") {
+    console.log("agent.audio", message.transport || AGENT_TRANSPORT, message.id || "", CONTROL_TOPIC);
+    transcribeAudioTurn(sendReply, message, context).catch((error) => {
+      sendReply({
+        type: "agent.error",
+        requestId: message.id || "",
+        code: "asr_handler_error",
+        message: error.message,
+      }).catch(() => {});
+    });
+    return;
+  }
+
+  if (message.type === "prospect.asr.start") {
+    startAsrTurn(sendReply, message, context);
+    return;
+  }
+
+  if (message.type === "prospect.asr.stop") {
+    stopAsrTurn(sendReply, message, context).catch((error) => {
+      sendReply({
+        type: "agent.error",
+        requestId: message.id || message.requestId || "",
+        code: "asr_stop_error",
         message: error.message,
       }).catch(() => {});
     });
@@ -287,6 +529,7 @@ function handleControlMessage(sendReply, raw, context = {}) {
 
   if (message.type === "prospect.interrupt") {
     speechGeneration += 1;
+    activeAsrTurns.delete(voiceSessionKey(message, context));
     sendReply({
       type: "agent.status",
       status: "interrupted",
@@ -355,6 +598,9 @@ async function connectLiveKit() {
 
   room.on(RoomEvent.TrackSubscribed, (track, publication, participant) => {
     console.log("livekit.trackSubscribed", participant?.identity || "", publication?.source || track?.kind || "");
+    if (String(track?.kind || "").toLowerCase().includes("audio") || String(publication?.source || "").toLowerCase().includes("microphone")) {
+      attachLiveKitAudioTrack(track, participant);
+    }
   });
 
   room.on(RoomEvent.Disconnected, () => {

@@ -6,7 +6,7 @@ This document is the proof boundary for the local voice-agent harness.
 
 - LiveKit token shape: implemented by `services/token-server` with local `devkey` / `secret` defaults.
 - Agent transport for the MVP: local LiveKit data channels are verified for control messages; the WebSocket bridge remains a simulated local fallback.
-- Prospect question input: browser text input or simulated transcript button. Browser mic publication is configured, but ASR is not attached yet.
+- Prospect question input: browser text input, simulated final transcript messages, and local ASR audio payload messages. Browser mic publication is configured; turn-based LiveKit audio buffering is wired, but real Parakeet model transcription still requires the H100 endpoint proof.
 - Agent reasoning: deterministic local keyword router.
 - Speech output: streamed browser `speechSynthesis` fallback chunks when available.
 - Voice switching: browser, bridge, and LiveKit messages carry a per-session voice profile; typed commands such as "switch to a warmer voice" update the session voice without restarting.
@@ -23,15 +23,22 @@ Real local-model proof requires an H100-class GPU, not a laptop-only smoke. The 
 
 Target model: `nvidia/parakeet-tdt-0.6b-v3`.
 
+The model card describes Parakeet v3 as a 600M-parameter multilingual ASR model. The MVP remains English-first, but the model itself supports more languages; use `ASR_LANGUAGE=en` unless deliberately testing another language.
+
 Responsibilities:
 
 - Consume local LiveKit audio frames or local microphone audio.
 - Produce partial/final English transcripts with timing/confidence metadata when available.
 - Expose model health and latency.
+- Keep endpoint calls localhost-only through `ASR_BASE_URL`, `ASR_HEALTH_PATH`, and `ASR_TRANSCRIBE_PATH` validation.
+- Accept explicit `prospect.transcript.final` messages as a transcript fallback without calling that Parakeet proof.
 
-The `parakeet-stub` adapter proves only registry wiring. It is not proven until
-the model is loaded locally and transcripts are produced from actual audio.
-Browser text input and `Send simulated transcript` are not Parakeet proof.
+The `parakeet-stub` adapter proves only registry wiring. `local-parakeet` proves only a localhost adapter contract until the model is loaded locally and transcripts are produced from actual audio. Browser text input, `Send simulated transcript`, and fake endpoint smokes are not Parakeet model proof.
+
+Local proof commands:
+
+- `npm run smoke:asr:local` validates transcript-final turns and a fake localhost Parakeet-compatible endpoint.
+- `npm run smoke:asr:h100` requires `ASR_SMOKE_AUDIO_PATH` and a real H100-local Parakeet endpoint before it can pass.
 
 ## Local LLM Adapter
 

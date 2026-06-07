@@ -1,4 +1,5 @@
 import { createUnavailableAdapter } from "./contracts.mjs";
+import { createLocalParakeetAdapter } from "./asr/local-parakeet.mjs";
 import { createParakeetStubAdapter } from "./asr/parakeet-stub.mjs";
 import { createQwenOpenAILocalAdapter } from "./llm/qwen-openai-local.mjs";
 import { createQwenStubAdapter } from "./llm/qwen-stub.mjs";
@@ -10,8 +11,9 @@ import { createVibeVoiceStubAdapter } from "./tts/vibevoice-stub.mjs";
 
 function asrAdapter(env) {
   const provider = env.ASR_PROVIDER || "parakeet-stub";
+  if (provider === "local-parakeet") return createLocalParakeetAdapter(env);
   if (provider === "parakeet-stub") return createParakeetStubAdapter(env);
-  return createUnavailableAdapter("asr", provider, "Unknown ASR provider; only parakeet-stub is wired.");
+  return createUnavailableAdapter("asr", provider, "Unknown ASR provider; use parakeet-stub or local-parakeet.");
 }
 
 function llmAdapter(env) {

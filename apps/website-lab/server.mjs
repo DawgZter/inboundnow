@@ -465,6 +465,8 @@ function injectedOpenClickyWeb() {
           <button data-ocw-action="connectagent" type="button">Connect local transport</button>
           <button data-ocw-action="disconnecttransport" type="button">Disconnect</button>
           <button data-ocw-action="askagent" type="button">Ask agent</button>
+          <button data-ocw-action="startvoiceturn" type="button">Start voice turn</button>
+          <button data-ocw-action="stopvoiceturn" type="button">Stop voice turn</button>
           <button data-ocw-action="simulatevoice" type="button">Send simulated transcript</button>
           <button data-ocw-action="interruptresponse" type="button">Interrupt</button>
         </div>
@@ -472,6 +474,7 @@ function injectedOpenClickyWeb() {
           <span class="ocw-chip" data-ocw-chip="transport" data-state="idle">Transport: idle</span>
           <span class="ocw-chip" data-ocw-chip="mic" data-state="off">Mic: not published</span>
           <span class="ocw-chip" data-ocw-chip="agent" data-state="offline">Agent: offline</span>
+          <span class="ocw-chip" data-ocw-chip="asr" data-state="stub">ASR: text fallback</span>
           <span class="ocw-chip" data-ocw-chip="turn" data-state="idle">Turn: idle</span>
           <span class="ocw-chip" data-ocw-chip="voice" data-state="idle">Voice: Default SDR</span>
         </div>
@@ -535,6 +538,7 @@ function injectedOpenClickyWeb() {
       transport: root.querySelector('[data-ocw-chip="transport"]'),
       mic: root.querySelector('[data-ocw-chip="mic"]'),
       agent: root.querySelector('[data-ocw-chip="agent"]'),
+      asr: root.querySelector('[data-ocw-chip="asr"]'),
       turn: root.querySelector('[data-ocw-chip="turn"]'),
       voice: root.querySelector('[data-ocw-chip="voice"]')
     };
@@ -564,6 +568,9 @@ function injectedOpenClickyWeb() {
     var textDecoder = new TextDecoder();
     var bookingState = 'none';
     var transcriptTurnLimit = 7;
+    var activeVoiceTurnRequestId = '';
+    var ignoredSpeechRequestIds = {};
+    var actionGeneration = 0;
     var lastAgentAnswer = '';
     var lastAdapterProof = '';
     var lastSpokenAgentAnswer = '';
@@ -645,6 +652,10 @@ function injectedOpenClickyWeb() {
 
     function setMicState(state, text) {
       setChip('mic', 'Mic: ' + text, state);
+    }
+
+    function setAsrState(state, text) {
+      setChip('asr', 'ASR: ' + text, state);
     }
 
     function setTurnState(state, text) {
@@ -879,6 +890,9 @@ function injectedOpenClickyWeb() {
     }
 
     function resetSpeechState(cancelSpeech) {
+      if (cancelSpeech && speechState.requestId) {
+        ignoredSpeechRequestIds[speechState.requestId] = Date.now();
+      }
       speechState.generation += 1;
       speechState.requestId = '';
       speechState.queue = [];
@@ -893,6 +907,9 @@ function injectedOpenClickyWeb() {
           if (window.speechSynthesis) window.speechSynthesis.cancel();
         } catch (e) {}
       }
+      Object.keys(ignoredSpeechRequestIds).forEach(function(requestId){
+        if (Date.now() - ignoredSpeechRequestIds[requestId] > 60000) delete ignoredSpeechRequestIds[requestId];
+      });
     }
 
     function stopSpeech() {
@@ -902,6 +919,10 @@ function injectedOpenClickyWeb() {
     }
 
     function startSpeechStream(message) {
+      if (message.requestId && ignoredSpeechRequestIds[message.requestId]) {
+        emit('speechStreamIgnored', { requestId: message.requestId, reason: 'interrupted' });
+        return;
+      }
       resetSpeechState(true);
       speechState.requestId = message.requestId || '';
       speechState.chunkCount = Number(message.chunkCount || 0);
@@ -979,9 +1000,18 @@ function injectedOpenClickyWeb() {
     }
 
     function queueSpeechChunk(message) {
+      if (message.requestId && ignoredSpeechRequestIds[message.requestId]) {
+        emit('speechChunkIgnored', {
+          requestId: message.requestId,
+          sequence: Number(message.sequence || 0),
+          reason: 'interrupted'
+        });
+        return;
+      }
       if (!speechState.requestId || speechState.requestId !== (message.requestId || '')) {
         startSpeechStream({ requestId: message.requestId || '', provider: message.provider || 'tts', chunkCount: 0 });
       }
+      if (!speechState.requestId) return;
       speechState.queue.push({ sequence: Number(message.sequence || 0), text: String(message.text || '') });
       applyVoiceProfile(message.voiceProfile, '');
       emit('speechChunkQueued', {
@@ -993,6 +1023,7 @@ function injectedOpenClickyWeb() {
     }
 
     function finishSpeechStream(message) {
+      if (message.requestId && ignoredSpeechRequestIds[message.requestId]) return;
       if (message.requestId && speechState.requestId && message.requestId !== speechState.requestId) return;
       speechState.ended = true;
       emit('speechStreamEnded', {
@@ -1204,10 +1235,12 @@ function injectedOpenClickyWeb() {
       liveKitReady = false;
       liveKitRoomInstance = null;
       transportMode = 'idle';
+      activeVoiceTurnRequestId = '';
       stopSpeech();
       setAgentState('offline', 'Local transport offline');
       setTransportState('idle', 'idle');
       setMicState('off', 'not published');
+      setAsrState('stub', 'text fallback');
       setTurnState('idle', 'idle');
       setProofLine('Disconnected. No audio is being sent.');
       setStatus('Disconnected. No audio is being sent.');
@@ -1215,8 +1248,12 @@ function injectedOpenClickyWeb() {
     }
 
     async function interruptResponse() {
+      actionGeneration += 1;
+      actionLock = Promise.resolve();
+      activeVoiceTurnRequestId = '';
       stopSpeech();
       setTurnState('interrupted', 'interrupted');
+      setAsrState('interrupted', 'interrupted');
       setStatus('Response stopped. Local audio playback halted.');
       setProofLine('Interrupted locally. Any connected agent is notified with prospect.interrupt.');
       try {
@@ -1249,6 +1286,81 @@ function injectedOpenClickyWeb() {
         return sendLiveKitMessage(payload);
       }
       return sendBridge(payload);
+    }
+
+    async function sendFinalTranscript(simulated) {
+      var transcriptText = commandInput.value || 'How does Remote help with global payroll?';
+      prewarmBrowserSpeech();
+      await connectAgentTransport();
+      var snapshot = snapshotPage();
+      updateTranscript((simulated ? 'Simulated transcript: ' : 'Transcript: ') + transcriptText, simulated ? 'simulated' : 'prospect');
+      setAsrState(simulated ? 'stub' : 'final', simulated ? 'typed fallback' : 'final transcript');
+      setTurnState('sent', 'transcript sent');
+      setStatus('Sent final transcript to local agent over ' + (liveKitReady ? 'LiveKit data channel.' : 'local WebSocket bridge.'));
+      await sendAgentMessage({
+        id: 'tr_' + Math.random().toString(36).slice(2, 10),
+        type: 'prospect.transcript.final',
+        sessionId: browserIdentity,
+        transcript: transcriptText,
+        simulated: !!simulated,
+        source: simulated ? 'typed-fallback' : 'browser-transcript',
+        transport: liveKitReady ? 'livekit' : 'bridge',
+        pageSnapshot: {
+          url: snapshot.url,
+          title: snapshot.title,
+          headings: snapshot.headings.slice(0, 12),
+          ctas: snapshot.ctas.slice(0, 20),
+          navLinks: snapshot.navLinks.slice(0, 12),
+        },
+        bookingState: bookingState,
+        voiceProfile: activeVoiceProfile,
+      });
+    }
+
+    async function startVoiceTurn() {
+      prewarmBrowserSpeech();
+      await connectAgentTransport();
+      activeVoiceTurnRequestId = 'asr_' + Math.random().toString(36).slice(2, 10);
+      setAsrState('listening', liveKitReady ? 'listening' : 'waiting for audio');
+      setTurnState('listening', 'listening');
+      setStatus(liveKitReady ? 'Voice turn started. Speak, then stop the turn.' : 'Voice turn started without LiveKit mic frames; text fallback remains available.');
+      updateTranscript('Voice turn started. Speak, then stop the turn.', 'system');
+      await sendAgentMessage({
+        id: activeVoiceTurnRequestId,
+        type: 'prospect.asr.start',
+        sessionId: browserIdentity,
+        transport: liveKitReady ? 'livekit' : 'bridge',
+        bookingState: bookingState,
+        voiceProfile: activeVoiceProfile,
+      });
+    }
+
+    async function stopVoiceTurn() {
+      if (!activeVoiceTurnRequestId) {
+        setStatus('No active voice turn to stop.');
+        return;
+      }
+      var requestId = activeVoiceTurnRequestId;
+      activeVoiceTurnRequestId = '';
+      var snapshot = snapshotPage();
+      setAsrState('transcribing', 'transcribing');
+      setTurnState('sent', 'audio sent');
+      setStatus('Stopped voice turn; waiting for local ASR transcript.');
+      await sendAgentMessage({
+        id: requestId,
+        type: 'prospect.asr.stop',
+        sessionId: browserIdentity,
+        transport: liveKitReady ? 'livekit' : 'bridge',
+        pageSnapshot: {
+          url: snapshot.url,
+          title: snapshot.title,
+          headings: snapshot.headings.slice(0, 12),
+          ctas: snapshot.ctas.slice(0, 20),
+          navLinks: snapshot.navLinks.slice(0, 12),
+        },
+        bookingState: bookingState,
+        voiceProfile: activeVoiceProfile,
+      });
     }
 
     function formatAdapterProof(message) {
@@ -1311,6 +1423,31 @@ function injectedOpenClickyWeb() {
         setTurnState('interrupted', 'error');
         setStatus(message.message || 'Agent error.');
         setProofLine('Agent error: ' + (message.code || 'unknown') + '.');
+        return;
+      }
+
+      if (message.type === 'agent.asr.status') {
+        var asrLabel = message.status === 'listening' ? 'listening' : message.status === 'transcribing' ? 'transcribing' : message.status || 'status';
+        setAsrState(message.status || 'waiting', asrLabel);
+        if (message.message) setStatus(message.message);
+        emit('asrStatusReceived', {
+          requestId: message.requestId || '',
+          status: message.status || '',
+          provider: message.provider || ''
+        });
+        return;
+      }
+
+      if (message.type === 'agent.asr.final') {
+        setAsrState(message.simulated ? 'stub' : 'final', message.simulated ? 'transcript fallback' : 'final transcript');
+        if (message.transcript) updateTranscript('Heard: ' + message.transcript, message.simulated ? 'simulated' : 'prospect');
+        setStatus('Final transcript received from ' + (message.provider || 'ASR') + '.');
+        emit('asrFinalReceived', {
+          requestId: message.requestId || '',
+          provider: message.provider || '',
+          simulated: !!message.simulated,
+          chars: String(message.transcript || '').length
+        });
         return;
       }
 
@@ -1763,6 +1900,12 @@ function injectedOpenClickyWeb() {
     }
 
     function openScheduler() {
+      if (bookingState !== 'confirmed') {
+        showBookingPrompt();
+        emit('calOpenBlocked', { reason: 'booking_not_confirmed' });
+        setStatus('Please confirm before opening Cal.com.');
+        return false;
+      }
       bookingState = 'cal_opened';
       if (bookingPrompt) bookingPrompt.classList.remove('is-open');
       var frame = scheduler && scheduler.querySelector('.ocw-cal-frame');
@@ -1770,6 +1913,7 @@ function injectedOpenClickyWeb() {
       scheduler.classList.add('is-open');
       setStatus('Opened Cal.com scheduler.');
       emit('calOpened', {});
+      return true;
     }
 
     function closeScheduler() {
@@ -1910,8 +2054,18 @@ function injectedOpenClickyWeb() {
         return;
       }
 
+      if (key === 'startvoiceturn' || key === 'start voice turn' || key === 'listen') {
+        await startVoiceTurn();
+        return;
+      }
+
+      if (key === 'stopvoiceturn' || key === 'stop voice turn' || key === 'stop listening') {
+        await stopVoiceTurn();
+        return;
+      }
+
       if (key === 'simulatevoice' || key === 'sim voice' || key === 'voice') {
-        await askLocalAgent(true);
+        await sendFinalTranscript(true);
         return;
       }
 
@@ -1920,7 +2074,20 @@ function injectedOpenClickyWeb() {
         return;
       }
 
+      if ((bookingState === 'prompt_shown' || bookingState === 'dismissed') && /^(yes|yes please|sure|book it|open cal|open calendar|confirm|confirm booking)$/.test(key)) {
+        bookingState = 'confirmed';
+        try { sendAgentMessage({ type: 'booking.confirmed', state: bookingState }); } catch (e) {}
+        openScheduler();
+        await moveCursor(Math.max(32, window.innerWidth - 344), Math.max(32, window.innerHeight - 228), 'Cal.com scheduler', 620);
+        return;
+      }
+
       if (key === 'confirmbooking') {
+        if (bookingState !== 'prompt_shown' && bookingState !== 'confirmed') {
+          showBookingPrompt();
+          setStatus('Booking confirmation is required before opening Cal.com.');
+          return;
+        }
         bookingState = 'confirmed';
         try { sendAgentMessage({ type: 'booking.confirmed', state: bookingState }); } catch (e) {}
         openScheduler();
@@ -2010,7 +2177,14 @@ function injectedOpenClickyWeb() {
     }
 
     function enqueue(action) {
-      actionLock = actionLock.then(function(){ return runDispatchedAction(action); }).catch(function(error){
+      var queuedGeneration = actionGeneration;
+      actionLock = actionLock.then(function(){
+        if (queuedGeneration !== actionGeneration) {
+          emit('actionIgnored', { reason: 'interrupted' });
+          return Promise.resolve();
+        }
+        return runDispatchedAction(action);
+      }).catch(function(error){
         setStatus(error && error.message ? error.message : String(error));
         emit('failed', { message: error && error.message ? error.message : String(error) });
       });
@@ -2034,8 +2208,16 @@ function injectedOpenClickyWeb() {
         askLocalAgent(false).catch(function(error){ setStatus(error.message || String(error)); });
         return;
       }
+      if (actionName === 'startvoiceturn') {
+        startVoiceTurn().catch(function(error){ setStatus(error.message || String(error)); });
+        return;
+      }
+      if (actionName === 'stopvoiceturn') {
+        stopVoiceTurn().catch(function(error){ setStatus(error.message || String(error)); });
+        return;
+      }
       if (actionName === 'simulatevoice') {
-        askLocalAgent(true).catch(function(error){ setStatus(error.message || String(error)); });
+        sendFinalTranscript(true).catch(function(error){ setStatus(error.message || String(error)); });
         return;
       }
       if (actionName === 'interruptresponse') {
@@ -2071,6 +2253,12 @@ function injectedOpenClickyWeb() {
       runPayrollFlow: function(){ return enqueue({ type: 'payrollFlow' }); },
       connectAgentTransport: connectAgentTransport,
       disconnectAgentTransport: disconnectAgentTransport,
+      sendFinalTranscript: function(text){
+        if (text) commandInput.value = text;
+        return sendFinalTranscript(true);
+      },
+      startVoiceTurn: startVoiceTurn,
+      stopVoiceTurn: stopVoiceTurn,
       interruptResponse: interruptResponse,
       setVoiceProfile: function(profile){ return setSessionVoiceProfile(resolveBrowserVoiceProfile(profile), 'api', true); },
       voiceProfile: function(){ return Object.assign({}, activeVoiceProfile); },
