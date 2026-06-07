@@ -1,12 +1,14 @@
 #!/usr/bin/env node
 import WebSocket from "ws";
 import { ActionProtocolError, prepareActionsForDispatch } from "../../packages/action-protocol/index.mjs";
+import { createAdapterRegistry, adapterLabels, adapterStatusMap } from "./adapters/registry.mjs";
 import { planForQuestion } from "./router.mjs";
 
 const TOKEN_SERVER_URL = process.env.TOKEN_SERVER_URL || "http://127.0.0.1:4301";
 const ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
 const IDENTITY = process.env.AGENT_IDENTITY || "inboundnow-agent";
 const MODE = process.env.AGENT_MODE || "simulated";
+const adapters = createAdapterRegistry(process.env);
 
 function bridgeUrl() {
   const base = new URL(TOKEN_SERVER_URL);
@@ -24,10 +26,25 @@ function send(ws, payload) {
   ws.send(JSON.stringify({ ...payload, from: IDENTITY }));
 }
 
-function handleQuestion(ws, message) {
+async function safeRetrieval(question) {
+  if (!adapters.moss || typeof adapters.moss.query !== "function") return null;
+  try {
+    return await adapters.moss.query(question, { topK: 3 });
+  } catch (error) {
+    return {
+      provider: adapters.moss.provider || "moss",
+      error: error.message,
+      snippets: [],
+    };
+  }
+}
+
+async function handleQuestion(ws, message) {
   const question = message.question || message.text || "";
-  const plan = planForQuestion(question);
+  const retrieval = await safeRetrieval(question);
+  const plan = planForQuestion(question, { retrieval });
   const requestId = message.id || "";
+  const adapterStatus = adapterStatusMap(adapters);
 
   send(ws, {
     type: "agent.answer",
@@ -35,12 +52,16 @@ function handleQuestion(ws, message) {
     intent: plan.intent,
     answer: plan.answer,
     simulated: MODE === "simulated",
-    adapters: {
-      asr: "simulated-text-input",
-      llm: "keyword-router",
-      tts: "browser-speech-fallback",
-      moss: "not-connected",
-    },
+    adapters: adapterLabels(adapters),
+    adapterStatus,
+    retrieval: retrieval
+      ? {
+          provider: retrieval.provider || "",
+          simulated: !!retrieval.simulated,
+          count: Array.isArray(retrieval.snippets) ? retrieval.snippets.length : 0,
+          snippets: Array.isArray(retrieval.snippets) ? retrieval.snippets.slice(0, 3) : [],
+        }
+      : null,
   });
 
   let actions;
@@ -90,7 +111,14 @@ function connect() {
     }
 
     if (message.type === "prospect.question") {
-      handleQuestion(ws, message);
+      handleQuestion(ws, message).catch((error) => {
+        send(ws, {
+          type: "agent.error",
+          requestId: message.id || "",
+          code: "question_handler_error",
+          message: error.message,
+        });
+      });
       return;
     }
 

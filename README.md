@@ -201,5 +201,13 @@ Current proof level:
 
 - LiveKit tokens are real local-dev JWTs for `ws://127.0.0.1:7880`.
 - The browser-agent action bridge is simulated over local WebSocket until LiveKit data-channel wiring is added.
-- ASR, LLM, TTS, and Moss adapters are documented in `docs/local-adapters.md` but not yet proven.
+- ASR, LLM, TTS, and Moss have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model/runtime proof.
 - Cal.com is not loaded until the user confirms the booking prompt.
+
+Useful local adapter checks:
+
+```bash
+npm run smoke:adapters
+npm run dev:qwen-stub
+npm run dev:moss-runtime
+```

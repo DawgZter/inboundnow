@@ -8,9 +8,12 @@
     "dev:lab": "node apps/website-lab/server.mjs",
     "dev:token": "node services/token-server/server.mjs",
     "dev:agent": "node apps/agent/worker.mjs",
+    "dev:qwen-stub": "node services/model-stubs/qwen-openai-compatible.mjs",
+    "dev:moss-runtime": "node services/moss-runtime/server.mjs",
+    "smoke:adapters": "node apps/agent/scripts/smoke-adapters.mjs",
     "start": "node apps/website-lab/server.mjs",
     "test": "node --test",
-    "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/worker.mjs && node --check packages/action-protocol/index.mjs && npm test"
+    "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/worker.mjs && node --check apps/agent/scripts/smoke-adapters.mjs && node --check services/moss-runtime/server.mjs && node --check services/model-stubs/qwen-openai-compatible.mjs && node --check packages/action-protocol/index.mjs && npm test && npm run smoke:adapters"
   },
   "dependencies": {
     "ws": "^8.21.0"

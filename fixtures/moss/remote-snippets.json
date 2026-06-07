@@ -1,0 +1,31 @@
+[
+  {
+    "id": "remote-global-payroll",
+    "title": "Global payroll",
+    "url": "https://remote.com/global-payroll",
+    "text": "Remote helps companies pay distributed teams, manage country-specific payroll rules, and keep payroll connected to HR and compliance workflows.",
+    "tags": ["payroll", "global", "compliance", "distributed teams"]
+  },
+  {
+    "id": "remote-employer-of-record",
+    "title": "Employer of Record",
+    "url": "https://remote.com/employer-of-record",
+    "text": "Remote supports hiring employees in countries where a company does not already have its own entity.",
+    "tags": ["hiring", "eor", "employees", "countries"]
+  },
+  {
+    "id": "remote-country-explorer",
+    "title": "Country explorer",
+    "url": "https://remote.com/country-explorer",
+    "text": "Remote's country explorer helps teams understand local hiring, payroll, benefits, and compliance requirements.",
+    "tags": ["country", "local rules", "benefits", "compliance"]
+  },
+  {
+    "id": "remote-pricing",
+    "title": "Pricing",
+    "url": "https://remote.com/pricing",
+    "text": "Remote pricing paths help buyers compare HR, payroll, contractor, and employer-of-record products.",
+    "tags": ["pricing", "payroll", "contractors", "eor"]
+  }
+]
+

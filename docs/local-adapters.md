@@ -9,6 +9,9 @@ This document is the proof boundary for the local voice-agent harness.
 - Prospect question input: browser text input or `Sim voice` button.
 - Agent reasoning: deterministic local keyword router.
 - Speech output: browser `speechSynthesis` fallback when available.
+- Adapter plumbing: dependency-free local stubs and status reporting under
+  `apps/agent/adapters`.
+- Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`.
 - Browser action execution: `window.OpenClickyWeb.dispatch(...)` inside the proxied Remote page.
 
 ## Parakeet ASR Adapter
@@ -21,7 +24,9 @@ Responsibilities:
 - Produce partial/final English transcripts with timing/confidence metadata when available.
 - Expose model health and latency.
 
-Not proven until the model is loaded locally and transcripts are produced from actual audio. Browser text input and `Sim voice` are not Parakeet proof.
+The `parakeet-stub` adapter proves only registry wiring. It is not proven until
+the model is loaded locally and transcripts are produced from actual audio.
+Browser text input and `Sim voice` are not Parakeet proof.
 
 ## Local LLM Adapter
 
@@ -33,7 +38,9 @@ Responsibilities:
 - Return answer text plus typed OpenClicky-Web actions.
 - Avoid hosted model calls unless explicitly labeled as a fallback.
 
-Current keyword routing in `apps/agent/router.mjs` is a simulated planner, not local LLM proof.
+Current keyword routing and `qwen-stub` are simulated planners, not local LLM
+proof. `qwen-openai-local` only becomes proof after a localhost vLLM/SGLang
+completion is exercised and captured.
 
 ## VibeVoice-Style TTS Adapter
 
@@ -43,7 +50,8 @@ Responsibilities:
 - Stream or play audio through the local browser/LiveKit session.
 - Report latency and fallback state.
 
-Browser `speechSynthesis` is only a demo fallback and must not be described as VibeVoice proof.
+`vibevoice-stub` and browser `speechSynthesis` are only demo fallbacks and
+must not be described as VibeVoice proof.
 
 ## Moss Runtime Adapter
 
@@ -53,7 +61,9 @@ Responsibilities:
 - Return source snippets for the agent planner.
 - Avoid `autoRefresh`, cloud polling, `pushIndex()`, runtime document uploads, session document uploads, and session embedding uploads.
 
-Current page snapshots are browser context, not Moss retrieval.
+The `local-fixture` adapter proves only local retrieval wiring against a checked
+in fixture. Real Moss proof requires querying a prebuilt local Moss artifact at
+runtime without the forbidden cloud/upload behaviors.
 
 ## Stagehand Boundary
 
