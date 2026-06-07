@@ -3,6 +3,7 @@ import { Room, RoomEvent, dispose } from "@livekit/rtc-node";
 import WebSocket from "ws";
 import { ActionProtocolError, prepareActionsForDispatch } from "../../packages/action-protocol/index.mjs";
 import { splitSpeechText } from "../../packages/speech-streaming/index.mjs";
+import { detectVoiceSwitchIntent, isVoiceSwitchOnly, resolveVoiceProfile } from "../../packages/voice-session/index.mjs";
 import { createAdapterRegistry, adapterLabels, adapterStatusMap } from "./adapters/registry.mjs";
 import { planQuestion } from "./llm-planner.mjs";
 
@@ -17,6 +18,12 @@ const adapters = createAdapterRegistry(process.env);
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
 let speechGeneration = 0;
+const defaultVoiceProfile = resolveVoiceProfile(process.env.TTS_VOICE_PROFILE || "default");
+const sessionVoiceProfiles = new Map();
+
+function voiceSessionKey(message = {}, context = {}) {
+  return message.sessionId || message.from || context.senderIdentity || "default";
+}
 
 function bridgeUrl() {
   const base = new URL(TOKEN_SERVER_URL);
@@ -72,7 +79,7 @@ function speechStreamingEnabled() {
   return !["0", "false", "no", "off"].includes(String(process.env.TTS_STREAMING || "1").trim().toLowerCase());
 }
 
-async function sendSpeechStream(sendReply, { requestId, transport, answer, adapterStatus }) {
+async function sendSpeechStream(sendReply, { requestId, transport, answer, adapterStatus, voiceProfile, voiceSwitch }) {
   if (!speechStreamingEnabled() || !answer) return;
 
   const generation = ++speechGeneration;
@@ -94,6 +101,8 @@ async function sendSpeechStream(sendReply, { requestId, transport, answer, adapt
     fallback: "browser-speech-synthesis",
     localVibeVoiceProven: false,
     chunkCount: chunks.length,
+    voiceProfile,
+    voiceSwitch: voiceSwitch || null,
   });
 
   for (let index = 0; index < chunks.length; index += 1) {
@@ -105,6 +114,7 @@ async function sendSpeechStream(sendReply, { requestId, transport, answer, adapt
       provider: adapters.tts?.provider || "tts",
       sequence: index,
       text: chunks[index],
+      voiceProfile,
     });
   }
 
@@ -115,18 +125,47 @@ async function sendSpeechStream(sendReply, { requestId, transport, answer, adapt
       transport,
       provider: adapters.tts?.provider || "tts",
       chunkCount: chunks.length,
+      voiceProfile,
     });
   }
 }
 
-async function handleQuestion(sendReply, message) {
+async function handleQuestion(sendReply, message, context = {}) {
   const question = message.question || message.text || "";
   const retrieval = await safeRetrieval(question);
   const requestId = message.id || "";
   const responseTransport = message.transport || AGENT_TRANSPORT;
+  const sessionId = voiceSessionKey(message, context);
   const adapterStatus = adapterStatusMap(adapters);
   const generateId = () => "act_" + Math.random().toString(36).slice(2, 10);
-  const planResult = await planQuestion({
+  const currentVoiceProfile = sessionVoiceProfiles.get(sessionId) || defaultVoiceProfile;
+  const incomingVoiceProfile = message.voiceProfile ? resolveVoiceProfile(message.voiceProfile, currentVoiceProfile) : currentVoiceProfile;
+  const voiceSwitch = detectVoiceSwitchIntent(question, incomingVoiceProfile);
+  const activeVoiceProfile = voiceSwitch.changed ? voiceSwitch.profile : incomingVoiceProfile;
+  sessionVoiceProfiles.set(sessionId, activeVoiceProfile);
+  const voiceSwitchMetadata = voiceSwitch.reason
+    ? {
+        changed: voiceSwitch.changed,
+        reason: voiceSwitch.reason,
+        acknowledgement: voiceSwitch.acknowledgement,
+      }
+    : null;
+  const planResult = isVoiceSwitchOnly(question) && voiceSwitch.reason
+    ? {
+        planner: { source: "voice-session-router", provider: "local-rule", fallback: false },
+        plan: {
+          intent: "voice_switch",
+          answer: voiceSwitch.acknowledgement,
+          actions: [
+            {
+              type: "showCaption",
+              text: voiceSwitch.acknowledgement,
+            },
+          ],
+        },
+        preparedActions: null,
+      }
+    : await planQuestion({
     question,
     retrieval,
     pageSnapshot: message.pageSnapshot,
@@ -136,6 +175,9 @@ async function handleQuestion(sendReply, message) {
     generateId,
   });
   const plan = planResult.plan;
+  if (voiceSwitch.changed && plan.intent !== "voice_switch") {
+    plan.answer = voiceSwitch.acknowledgement + " " + plan.answer;
+  }
   let actions = planResult.preparedActions;
 
   try {
@@ -159,6 +201,7 @@ async function handleQuestion(sendReply, message) {
   await sendReply({
     type: "agent.answer",
     requestId,
+    sessionId,
     transport: responseTransport,
     intent: plan.intent,
     answer: plan.answer,
@@ -166,6 +209,8 @@ async function handleQuestion(sendReply, message) {
     adapters: adapterLabels(adapters),
     adapterStatus,
     planner: planResult.planner,
+    voiceProfile: activeVoiceProfile,
+    voiceSwitch: voiceSwitchMetadata,
     retrieval: retrieval
       ? {
           provider: retrieval.provider || "",
@@ -181,19 +226,22 @@ async function handleQuestion(sendReply, message) {
     transport: responseTransport,
     answer: plan.answer,
     adapterStatus,
+    voiceProfile: activeVoiceProfile,
+    voiceSwitch: voiceSwitchMetadata,
   });
 
   for (const action of actions) {
     await sendReply({
-      type: "agent.action",
+    type: "agent.action",
       requestId,
+      sessionId,
       transport: responseTransport,
       action,
     });
   }
 }
 
-function handleControlMessage(sendReply, raw) {
+function handleControlMessage(sendReply, raw, context = {}) {
   let message;
   try {
     message = typeof raw === "string" ? JSON.parse(raw) : raw;
@@ -203,7 +251,7 @@ function handleControlMessage(sendReply, raw) {
 
   if (message.type === "prospect.question") {
     console.log("agent.question", message.transport || AGENT_TRANSPORT, message.id || "", CONTROL_TOPIC);
-    handleQuestion(sendReply, message).catch((error) => {
+    handleQuestion(sendReply, message, context).catch((error) => {
       sendReply({
         type: "agent.error",
         requestId: message.id || "",
@@ -211,6 +259,20 @@ function handleControlMessage(sendReply, raw) {
         message: error.message,
       }).catch(() => {});
     });
+    return;
+  }
+
+  if (message.type === "session.voice_profile.updated") {
+    const sessionId = voiceSessionKey(message, context);
+    const voiceProfile = resolveVoiceProfile(message.voiceProfile, sessionVoiceProfiles.get(sessionId) || defaultVoiceProfile);
+    sessionVoiceProfiles.set(sessionId, voiceProfile);
+    sendReply({
+      type: "agent.status",
+      status: "voice_profile_updated",
+      sessionId,
+      voiceProfile,
+      message: "Voice profile updated to " + voiceProfile.label + ".",
+    }).catch(() => {});
     return;
   }
 
@@ -253,7 +315,7 @@ function connectBridge() {
   });
 
   ws.on("message", (raw) => {
-    handleControlMessage(async (payload) => sendBridge(ws, payload), String(raw));
+    handleControlMessage(async (payload) => sendBridge(ws, payload), String(raw), { transport: "bridge" });
   });
 
   ws.on("close", () => {
@@ -285,7 +347,10 @@ async function connectLiveKit() {
   room.on(RoomEvent.DataReceived, (payload, participant, kind, topic) => {
     if (topic && topic !== CONTROL_TOPIC) return;
     const decoded = decoder.decode(payload);
-    handleControlMessage((reply) => publish(reply, participant), decoded);
+    handleControlMessage((reply) => publish(reply, participant), decoded, {
+      transport: "livekit",
+      senderIdentity: participant?.identity || "",
+    });
   });
 
   room.on(RoomEvent.TrackSubscribed, (track, publication, participant) => {

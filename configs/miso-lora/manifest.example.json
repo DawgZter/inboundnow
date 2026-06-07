@@ -1,0 +1,44 @@
+{
+  "schemaVersion": "inboundnow.miso-lora.v1",
+  "adapterId": "miso-one-lora-dev",
+  "baseModel": "MisoLabs/MisoTTS",
+  "localOnly": true,
+  "proof": "configured",
+  "consent": {
+    "subjectConsent": true,
+    "rightsOwner": "Miso One consenting speaker",
+    "allowedUse": "InboundNow local development and latency/quality evaluation only",
+    "retentionPolicy": "Keep raw samples and adapters on the Vast.ai instance or encrypted local storage; delete the instance after artifact export.",
+    "syntheticImpersonationAllowed": false,
+    "recordedAt": "2026-06-07"
+  },
+  "dataset": {
+    "root": "data/miso-lora/raw/miso-one",
+    "language": "en",
+    "sampleRate": 24000,
+    "samples": [
+      {
+        "id": "miso-one-001",
+        "audioPath": "data/miso-lora/raw/miso-one/audio/miso-one-001.wav",
+        "transcriptPath": "data/miso-lora/raw/miso-one/transcripts/miso-one-001.txt",
+        "speakerId": "miso-one",
+        "durationSeconds": 12
+      }
+    ]
+  },
+  "training": {
+    "rank": 16,
+    "alpha": 32,
+    "epochs": 2,
+    "learningRate": 0.0001,
+    "targetModules": ["backbone", "audio_decoder"],
+    "outputDir": "artifacts/miso-lora/adapters/miso-one-lora-dev",
+    "cacheDir": "artifacts/cache/miso-lora"
+  },
+  "runtime": {
+    "ttsVoice": "miso-one-lora-dev",
+    "ttsModel": "MisoLabs/MisoTTS",
+    "loraAdapter": "artifacts/miso-lora/adapters/miso-one-lora-dev",
+    "style": "miso-lora-dev"
+  }
+}

@@ -3,8 +3,12 @@ import { PROOF_LEVELS, assertLocalHttpUrl, status } from "../contracts.mjs";
 
 const DEFAULT_BASE_URL = "http://127.0.0.1:4331";
 
-function endpoint(base, pathname) {
-  return new URL(pathname, base).href;
+function endpoint(base, pathname, label) {
+  const value = String(pathname || "");
+  if (!value.startsWith("/") || value.startsWith("//") || /^[a-z][a-z0-9+.-]*:/i.test(value)) {
+    throw new Error(label + " must be a local absolute path");
+  }
+  return assertLocalHttpUrl(new URL(value, base).href, label).href;
 }
 
 async function* readNdjson(response) {
@@ -37,19 +41,31 @@ export function createLocalVibeVoiceAdapter(env = process.env) {
   const streamPath = env.TTS_STREAM_PATH || "/v1/tts/stream";
   const prewarmPath = env.TTS_PREWARM_PATH || "/prewarm";
   const healthPath = env.TTS_HEALTH_PATH || "/health";
+  const streamUrl = endpoint(base, streamPath, "TTS_STREAM_PATH");
+  const prewarmUrl = endpoint(base, prewarmPath, "TTS_PREWARM_PATH");
+  const healthUrl = endpoint(base, healthPath, "TTS_HEALTH_PATH");
 
   function payload(text, extra = {}) {
+    const voiceProfile = extra.voiceProfile && typeof extra.voiceProfile === "object" ? extra.voiceProfile : {};
+    const voice = String(extra.voice || voiceProfile.ttsVoice || options.voice);
+    const model = String(extra.model || voiceProfile.ttsModel || options.model);
+    const style = String(extra.style || voiceProfile.style || options.style);
+    const loraAdapter = String(extra.loraAdapter || voiceProfile.loraAdapter || options.loraAdapter || "");
     return {
       text,
-      model: options.model,
-      voice: options.voice,
+      model,
+      voice,
+      style,
+      loraAdapter,
       dtype: options.dtype,
       quantization: options.quantization.name,
       cacheDir: options.cacheDir,
       textChunkChars: options.textChunkChars,
       cacheKey: speechCacheKey(text, {
-        model: options.model,
-        voice: options.voice,
+        model,
+        voice,
+        style,
+        loraAdapter,
         quantization: options.quantization.name,
       }),
       ...extra,
@@ -70,6 +86,8 @@ export function createLocalVibeVoiceAdapter(env = process.env) {
           baseUrl,
           model: options.model,
           voice: options.voice,
+          style: options.style,
+          loraAdapter: options.loraAdapter,
           dtype: options.dtype,
           quantization: options.quantization,
           cacheDir: options.cacheDir,
@@ -79,12 +97,12 @@ export function createLocalVibeVoiceAdapter(env = process.env) {
       });
     },
     async health() {
-      const response = await fetch(endpoint(base, healthPath));
+      const response = await fetch(healthUrl);
       if (!response.ok) throw new Error("Local VibeVoice health returned HTTP " + response.status);
       return response.json();
     },
     async prewarm({ signal } = {}) {
-      const response = await fetch(endpoint(base, prewarmPath), {
+      const response = await fetch(prewarmUrl, {
         method: "POST",
         headers: { "content-type": "application/json" },
         signal,
@@ -93,12 +111,12 @@ export function createLocalVibeVoiceAdapter(env = process.env) {
       if (!response.ok) throw new Error("Local VibeVoice prewarm returned HTTP " + response.status);
       return response.json();
     },
-    async *stream({ text = "", requestId = "", signal } = {}) {
-      const response = await fetch(endpoint(base, streamPath), {
+    async *stream({ text = "", requestId = "", signal, voiceProfile } = {}) {
+      const response = await fetch(streamUrl, {
         method: "POST",
         headers: { "content-type": "application/json", accept: "application/x-ndjson, application/json" },
         signal,
-        body: JSON.stringify(payload(text, { requestId })),
+        body: JSON.stringify(payload(text, { requestId, voiceProfile })),
       });
 
       if (!response.ok) throw new Error("Local VibeVoice stream returned HTTP " + response.status);
@@ -107,22 +125,25 @@ export function createLocalVibeVoiceAdapter(env = process.env) {
         yield {
           provider: "local-vibevoice",
           simulated: false,
-          model: options.model,
-          voice: options.voice,
+          model: voiceProfile?.ttsModel || options.model,
+          voice: voiceProfile?.ttsVoice || options.voice,
+          style: voiceProfile?.style || options.style,
+          loraAdapter: voiceProfile?.loraAdapter || options.loraAdapter,
           dtype: options.dtype,
           quantization: options.quantization.name,
-          cacheKey: payload(text).cacheKey,
+          cacheKey: payload(text, { voiceProfile }).cacheKey,
           ...event,
         };
       }
     },
-    async synthesize({ text = "", signal } = {}) {
+    async synthesize({ text = "", signal, voiceProfile } = {}) {
       const events = [];
-      for await (const event of this.stream({ text, signal })) events.push(event);
+      for await (const event of this.stream({ text, signal, voiceProfile })) events.push(event);
       return {
         provider: "local-vibevoice",
         simulated: false,
         text,
+        voiceProfile,
         events,
       };
     },

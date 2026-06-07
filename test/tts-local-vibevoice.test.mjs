@@ -24,6 +24,20 @@ test("local VibeVoice adapter rejects non-local endpoints", () => {
     () => createLocalVibeVoiceAdapter({ TTS_BASE_URL: "https://tts.example.com" }),
     /must point at localhost/,
   );
+  assert.throws(
+    () => createLocalVibeVoiceAdapter({
+      TTS_BASE_URL: "http://127.0.0.1:4331",
+      TTS_STREAM_PATH: "https://tts.example.com/v1/tts/stream",
+    }),
+    /TTS_STREAM_PATH must be a local absolute path/,
+  );
+  assert.throws(
+    () => createLocalVibeVoiceAdapter({
+      TTS_BASE_URL: "http://127.0.0.1:4331",
+      TTS_HEALTH_PATH: "//tts.example.com/health",
+    }),
+    /TTS_HEALTH_PATH must be a local absolute path/,
+  );
 });
 
 test("local VibeVoice adapter streams localhost NDJSON and preserves optimization metadata", async () => {
@@ -93,8 +107,35 @@ test("local VibeVoice adapter streams localhost NDJSON and preserves optimizatio
     assert.equal(events[1].quantization, "llm-int8");
     assert.equal(events[1].dtype, "bfloat16");
     assert.equal(events[2].cacheHit, true);
+
+    const loraEvents = [];
+    for await (const event of adapter.stream({
+      text: "Remote helps with global payroll.",
+      requestId: "tts_lora_test",
+      voiceProfile: {
+        id: "miso_lora_dev",
+        ttsVoice: "miso-one-lora-dev",
+        ttsModel: "MisoLabs/MisoTTS",
+        style: "expressive",
+        loraAdapter: "artifacts/miso-lora/adapters/miso-one-lora-dev",
+      },
+    })) {
+      loraEvents.push(event);
+    }
+
+    assert.equal(loraEvents[0].model, "MisoLabs/MisoTTS");
+    assert.equal(loraEvents[0].voice, "miso-one-lora-dev");
+    assert.equal(loraEvents[0].style, "expressive");
+    assert.equal(loraEvents[0].loraAdapter, "artifacts/miso-lora/adapters/miso-one-lora-dev");
     assert.ok(seen.some((item) => item.path === "/prewarm" && item.body.quantization === "llm-int8"));
-    assert.ok(seen.some((item) => item.path === "/v1/tts/stream" && item.body.cacheKey));
+    const streamBodies = seen.filter((item) => item.path === "/v1/tts/stream").map((item) => item.body);
+    assert.equal(streamBodies.length, 2);
+    assert.ok(streamBodies[0].cacheKey);
+    assert.ok(streamBodies[1].cacheKey);
+    assert.notEqual(streamBodies[0].cacheKey, streamBodies[1].cacheKey);
+    assert.equal(streamBodies[1].voice, "miso-one-lora-dev");
+    assert.equal(streamBodies[1].style, "expressive");
+    assert.equal(streamBodies[1].loraAdapter, "artifacts/miso-lora/adapters/miso-one-lora-dev");
   } finally {
     await new Promise((resolve) => server.close(resolve));
   }

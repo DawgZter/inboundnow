@@ -77,12 +77,16 @@ try {
     TTS_QUANTIZATION: "llm-int8",
     TTS_CACHE_DIR: "artifacts/cache/tts-contract",
     TTS_TEXT_CHUNK_CHARS: "96",
+    TTS_VOICE_STYLE: "warm",
+    TTS_LORA_ADAPTER: "artifacts/miso-lora/adapters/miso-one-lora-dev",
   });
   const status = registry.tts.status();
   assert.equal(status.provider, "local-vibevoice");
   assert.equal(status.proof, "configured");
   assert.equal(status.detail.quantization.name, "llm-int8");
   assert.equal(status.detail.quantization.preserveAudioDecoderPrecision, true);
+  assert.equal(status.detail.style, "warm");
+  assert.equal(status.detail.loraAdapter, "artifacts/miso-lora/adapters/miso-one-lora-dev");
 
   const health = await registry.tts.health();
   assert.equal(health.ok, true);
@@ -105,6 +109,8 @@ try {
   assert.equal(events[1].provider, "local-vibevoice");
   assert.equal(events[1].quantization, "llm-int8");
   assert.ok(requestBodies.some((item) => item.path === "/v1/tts/stream" && item.body.cacheKey));
+  assert.ok(requestBodies.some((item) => item.path === "/v1/tts/stream" && item.body.style === "warm"));
+  assert.ok(requestBodies.some((item) => item.path === "/v1/tts/stream" && item.body.loraAdapter === "artifacts/miso-lora/adapters/miso-one-lora-dev"));
 
   const result = {
     ok: true,

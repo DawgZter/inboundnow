@@ -473,6 +473,7 @@ function injectedOpenClickyWeb() {
           <span class="ocw-chip" data-ocw-chip="mic" data-state="off">Mic: not published</span>
           <span class="ocw-chip" data-ocw-chip="agent" data-state="offline">Agent: offline</span>
           <span class="ocw-chip" data-ocw-chip="turn" data-state="idle">Turn: idle</span>
+          <span class="ocw-chip" data-ocw-chip="voice" data-state="idle">Voice: Default SDR</span>
         </div>
         <div class="ocw-proof-line">LiveKit data/control is local. Mic can publish when permitted; ASR is not attached yet.</div>
       </div>
@@ -534,7 +535,8 @@ function injectedOpenClickyWeb() {
       transport: root.querySelector('[data-ocw-chip="transport"]'),
       mic: root.querySelector('[data-ocw-chip="mic"]'),
       agent: root.querySelector('[data-ocw-chip="agent"]'),
-      turn: root.querySelector('[data-ocw-chip="turn"]')
+      turn: root.querySelector('[data-ocw-chip="turn"]'),
+      voice: root.querySelector('[data-ocw-chip="voice"]')
     };
     var scheduler = root.querySelector('.ocw-scheduler');
     var bookingPrompt = root.querySelector('.ocw-booking-prompt');
@@ -565,6 +567,26 @@ function injectedOpenClickyWeb() {
     var lastAgentAnswer = '';
     var lastAdapterProof = '';
     var lastSpokenAgentAnswer = '';
+    var voiceStorageKey = 'openClickyWebMvp.voiceProfileId';
+    var browserVoiceProfiles = {
+      default: { id: 'default', label: 'Default SDR', ttsVoice: 'Carter', style: 'clear', browserRate: 1.06, browserPitch: 1, browserLang: 'en-US', browserVoiceHints: ['en-US', 'en'], loraAdapter: '', proof: '' },
+      warm: { id: 'warm', label: 'Warm consultative', ttsVoice: 'Carter', style: 'warm', browserRate: 0.98, browserPitch: 0.92, browserLang: 'en-US', browserVoiceHints: ['en-US', 'en'], loraAdapter: '', proof: '' },
+      calm: { id: 'calm', label: 'Calm slower', ttsVoice: 'Carter', style: 'calm', browserRate: 0.9, browserPitch: 0.88, browserLang: 'en-US', browserVoiceHints: ['en-US', 'en'], loraAdapter: '', proof: '' },
+      bright: { id: 'bright', label: 'Bright upbeat', ttsVoice: 'Carter', style: 'bright', browserRate: 1.12, browserPitch: 1.08, browserLang: 'en-US', browserVoiceHints: ['en-US', 'en'], loraAdapter: '', proof: '' },
+      miso_lora_dev: { id: 'miso_lora_dev', label: 'Miso One LoRA dev', ttsVoice: 'miso-one-lora-dev', ttsModel: 'MisoLabs/MisoTTS', style: 'expressive', browserRate: 1, browserPitch: 1, browserLang: 'en-US', browserVoiceHints: ['en-US', 'en'], loraAdapter: 'artifacts/miso-lora/adapters/miso-one-lora-dev', proof: 'configured' }
+    };
+    var activeVoiceProfile = {
+      id: 'default',
+      label: 'Default SDR',
+      ttsVoice: 'Carter',
+      style: 'clear',
+      browserRate: 1.06,
+      browserPitch: 1,
+      browserLang: 'en-US',
+      browserVoiceHints: ['en-US', 'en'],
+      loraAdapter: '',
+      proof: ''
+    };
     var speechState = {
       generation: 0,
       requestId: '',
@@ -629,12 +651,115 @@ function injectedOpenClickyWeb() {
       setChip('turn', 'Turn: ' + text, state);
     }
 
+    function setVoiceState(state, text) {
+      setChip('voice', 'Voice: ' + text, state);
+    }
+
     function setProofLine(text) {
       if (proofLine) proofLine.textContent = text;
     }
 
     function setTtsProof(text) {
       setProofLine((lastAdapterProof ? lastAdapterProof + ' ' : '') + text);
+    }
+
+    function resolveBrowserVoiceProfile(value) {
+      if (value && typeof value === 'object') {
+        return Object.assign({}, browserVoiceProfiles[value.id] || activeVoiceProfile, value);
+      }
+      var key = normalized(value || '').replace(/\s+/g, '_');
+      var aliases = {
+        normal: 'default',
+        reset: 'default',
+        carter: 'default',
+        warmer: 'warm',
+        friendly: 'warm',
+        softer: 'warm',
+        calmer: 'calm',
+        slow: 'calm',
+        slower: 'calm',
+        deep: 'calm',
+        deeper: 'calm',
+        brighter: 'bright',
+        upbeat: 'bright',
+        energetic: 'bright',
+        excited: 'bright',
+        miso: 'miso_lora_dev',
+        miso_one: 'miso_lora_dev',
+        misotts: 'miso_lora_dev',
+        lora: 'miso_lora_dev'
+      };
+      return Object.assign({}, browserVoiceProfiles[aliases[key] || key] || browserVoiceProfiles.default);
+    }
+
+    function detectBrowserVoiceSwitchIntent(text) {
+      var value = normalized(text);
+      if (!value) return null;
+      var voiceMentioned = /\b(voice|tone|sound|speak|speaker|miso|lora)\b/.test(value);
+      var switchMentioned = /\b(switch|change|use|make|set|sound|speak|talk|be)\b/.test(value);
+      if (!voiceMentioned || !switchMentioned) return null;
+      var choices = [
+        ['miso_lora_dev', /\b(miso|miso one|misotts|lora)\b/],
+        ['warm', /\b(warm|warmer|friendly|softer)\b/],
+        ['calm', /\b(calm|calmer|slow|slower|deep|deeper)\b/],
+        ['bright', /\b(bright|brighter|upbeat|energetic|excited)\b/],
+        ['default', /\b(default|normal|reset|carter)\b/]
+      ];
+      for (var i = 0; i < choices.length; i += 1) {
+        if (choices[i][1].test(value)) {
+          return {
+            profile: resolveBrowserVoiceProfile(choices[i][0]),
+            acknowledgement: 'Sure, I will use the ' + resolveBrowserVoiceProfile(choices[i][0]).label + ' voice for this session.'
+          };
+        }
+      }
+      return null;
+    }
+
+    function applyVoiceProfile(profile, reason) {
+      if (!profile || typeof profile !== 'object') return activeVoiceProfile;
+      activeVoiceProfile = {
+        id: profile.id || activeVoiceProfile.id || 'default',
+        label: profile.label || activeVoiceProfile.label || 'Default SDR',
+        ttsVoice: profile.ttsVoice || activeVoiceProfile.ttsVoice || 'Carter',
+        ttsModel: profile.ttsModel || activeVoiceProfile.ttsModel || '',
+        style: profile.style || activeVoiceProfile.style || 'clear',
+        browserRate: Number(profile.browserRate || activeVoiceProfile.browserRate || 1.06),
+        browserPitch: Number(profile.browserPitch || activeVoiceProfile.browserPitch || 1),
+        browserLang: profile.browserLang || activeVoiceProfile.browserLang || 'en-US',
+        browserVoiceHints: Array.isArray(profile.browserVoiceHints) ? profile.browserVoiceHints : (activeVoiceProfile.browserVoiceHints || ['en-US', 'en']),
+        loraAdapter: profile.loraAdapter || '',
+        proof: profile.proof || ''
+      };
+      cachedSpeechVoice = null;
+      setVoiceState(activeVoiceProfile.id === 'miso_lora_dev' ? 'configured' : 'speaking', activeVoiceProfile.label);
+      try { window.localStorage.setItem(voiceStorageKey, activeVoiceProfile.id); } catch (e) {}
+      emit('voiceProfileChanged', {
+        id: activeVoiceProfile.id,
+        label: activeVoiceProfile.label,
+        style: activeVoiceProfile.style,
+        reason: reason || ''
+      });
+      return activeVoiceProfile;
+    }
+
+    async function setSessionVoiceProfile(profile, reason, notifyAgent) {
+      var next = applyVoiceProfile(profile, reason || 'local');
+      var acknowledgement = 'Voice switched to ' + next.label + '.';
+      updateTranscript(acknowledgement, 'system');
+      setStatus(acknowledgement);
+      setTtsProof('Voice profile is ' + next.label + '. Browser fallback will use rate ' + next.browserRate + ' and pitch ' + next.browserPitch + '.');
+      if (notifyAgent && (liveKitReady || (bridgeSocket && bridgeSocket.readyState === WebSocket.OPEN))) {
+        try {
+          await sendAgentMessage({
+            type: 'session.voice_profile.updated',
+            sessionId: browserIdentity,
+            voiceProfile: next,
+            bookingState: bookingState
+          });
+        } catch (e) {}
+      }
+      return next;
     }
 
     function emit(type, detail) {
@@ -681,7 +806,14 @@ function injectedOpenClickyWeb() {
       if (cachedSpeechVoice) return cachedSpeechVoice;
       try {
         var voices = window.speechSynthesis && window.speechSynthesis.getVoices ? window.speechSynthesis.getVoices() : [];
-        cachedSpeechVoice = voices.find(function(voice){ return /^en(-|_)?us/i.test(voice.lang || ''); }) ||
+        var hints = activeVoiceProfile.browserVoiceHints || ['en-US', 'en'];
+        cachedSpeechVoice = voices.find(function(voice){
+          return hints.some(function(hint){
+            return String(voice.name || '').toLowerCase().indexOf(String(hint || '').toLowerCase()) !== -1 ||
+              String(voice.lang || '').toLowerCase().indexOf(String(hint || '').toLowerCase()) === 0;
+          });
+        }) ||
+          voices.find(function(voice){ return /^en(-|_)?us/i.test(voice.lang || ''); }) ||
           voices.find(function(voice){ return /^en/i.test(voice.lang || ''); }) ||
           voices[0] ||
           null;
@@ -777,14 +909,16 @@ function injectedOpenClickyWeb() {
       speechState.proof = message.proof || '';
       speechState.startedAt = Date.now();
       speechState.ended = false;
+      applyVoiceProfile(message.voiceProfile, message.voiceSwitch && message.voiceSwitch.reason);
       if (lastAgentAnswer) lastSpokenAgentAnswer = lastAgentAnswer;
       window.__ocwLastSpeech = '';
       setTurnState('speaking', 'streaming speech');
-      setTtsProof('TTS: streamed browser speech synthesis fallback' + (speechState.chunkCount ? ' (' + speechState.chunkCount + ' chunks)' : '') + '. Local VibeVoice is not proven yet.');
+      setTtsProof('TTS: streamed browser speech synthesis fallback using ' + activeVoiceProfile.label + (speechState.chunkCount ? ' (' + speechState.chunkCount + ' chunks)' : '') + '. Local VibeVoice is not proven yet.');
       emit('speechStreamStarted', {
         requestId: speechState.requestId,
         provider: speechState.provider,
         chunkCount: speechState.chunkCount,
+        voiceProfile: activeVoiceProfile,
         fallback: message.fallback || 'browser-speech-synthesis'
       });
     }
@@ -811,8 +945,9 @@ function injectedOpenClickyWeb() {
 
       try {
         var utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'en-US';
-        utterance.rate = 1.06;
+        utterance.lang = activeVoiceProfile.browserLang || 'en-US';
+        utterance.rate = Number(activeVoiceProfile.browserRate || 1.06);
+        utterance.pitch = Number(activeVoiceProfile.browserPitch || 1);
         var voice = chooseSpeechVoice();
         if (voice) utterance.voice = voice;
         speechState.speaking = true;
@@ -848,6 +983,7 @@ function injectedOpenClickyWeb() {
         startSpeechStream({ requestId: message.requestId || '', provider: message.provider || 'tts', chunkCount: 0 });
       }
       speechState.queue.push({ sequence: Number(message.sequence || 0), text: String(message.text || '') });
+      applyVoiceProfile(message.voiceProfile, '');
       emit('speechChunkQueued', {
         requestId: speechState.requestId,
         sequence: Number(message.sequence || 0),
@@ -877,6 +1013,7 @@ function injectedOpenClickyWeb() {
         provider: 'browser-speech-fallback',
         proof: 'stub',
         chunkCount: chunks.length,
+        voiceProfile: activeVoiceProfile,
         fallback: 'browser-speech-synthesis'
       });
       chunks.forEach(function(chunk, index){
@@ -1194,6 +1331,7 @@ function injectedOpenClickyWeb() {
 
       if (message.type === 'agent.answer') {
         setAgentState('online', message.transport === 'livekit' ? 'LiveKit agent answered' : 'Local agent ready');
+        applyVoiceProfile(message.voiceProfile, message.voiceSwitch && message.voiceSwitch.reason);
         lastAgentAnswer = message.answer || '';
         updateTranscript(lastAgentAnswer, 'agent');
         setTurnState('answered', 'answered');
@@ -1204,6 +1342,8 @@ function injectedOpenClickyWeb() {
           intent: message.intent || '',
           simulated: !!message.simulated,
           adapters: message.adapters || {},
+          voiceProfile: activeVoiceProfile,
+          voiceSwitch: message.voiceSwitch || null,
           retrieval: message.retrieval || null
         });
         return;
@@ -1231,6 +1371,7 @@ function injectedOpenClickyWeb() {
       await sendAgentMessage({
         id: 'q_' + Math.random().toString(36).slice(2, 10),
         type: 'prospect.question',
+        sessionId: browserIdentity,
         question: question,
         simulatedVoice: !!simulatedVoice,
         transport: liveKitReady ? 'livekit' : 'bridge',
@@ -1242,6 +1383,7 @@ function injectedOpenClickyWeb() {
           navLinks: snapshot.navLinks.slice(0, 12),
         },
         bookingState: bookingState,
+        voiceProfile: activeVoiceProfile,
       });
     }
 
@@ -1711,6 +1853,13 @@ function injectedOpenClickyWeb() {
         showBookingPrompt();
         return Promise.resolve();
       }
+      if (action.type === 'setVoiceProfile') {
+        return setSessionVoiceProfile(
+          action.voiceProfile || action.profile || action.profileId || action.id || action.voice,
+          action.reason || 'agent-action',
+          true
+        );
+      }
       if (action.type === 'snapshotPage') return Promise.resolve(snapshotPage());
       if (action.type === 'payrollFlow') return runPayrollFlow(false, action.answer);
       throw new Error('Unknown action type: ' + action.type);
@@ -1718,6 +1867,11 @@ function injectedOpenClickyWeb() {
 
     async function runAction(action) {
       var key = normalized(action);
+      var voiceSwitch = detectBrowserVoiceSwitchIntent(action);
+      if (voiceSwitch) {
+        await setSessionVoiceProfile(voiceSwitch.profile, 'typed-command', true);
+        return;
+      }
 
       if (
         key === 'payrollflow' ||
@@ -1918,11 +2072,22 @@ function injectedOpenClickyWeb() {
       connectAgentTransport: connectAgentTransport,
       disconnectAgentTransport: disconnectAgentTransport,
       interruptResponse: interruptResponse,
+      setVoiceProfile: function(profile){ return setSessionVoiceProfile(resolveBrowserVoiceProfile(profile), 'api', true); },
+      voiceProfile: function(){ return Object.assign({}, activeVoiceProfile); },
+      voiceState: function(){
+        return Object.assign({}, activeVoiceProfile, {
+          selectedBrowserVoice: cachedSpeechVoice && cachedSpeechVoice.name || ''
+        });
+      },
       run: enqueue
     };
     window.OpenClickyWebMVP = window.OpenClickyWeb;
 
     window.setTimeout(function(){
+      try {
+        var savedVoiceProfile = window.localStorage.getItem(voiceStorageKey);
+        if (savedVoiceProfile) applyVoiceProfile(resolveBrowserVoiceProfile(savedVoiceProfile), 'saved');
+      } catch (e) {}
       var pending = '';
       try {
         pending = window.sessionStorage.getItem('ocwPendingAction') || '';

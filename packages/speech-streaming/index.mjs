@@ -91,8 +91,10 @@ export function speechCacheKey(text, options = {}) {
   const voice = String(options.voice || "default").trim().toLowerCase();
   const model = String(options.model || DEFAULT_MODEL).trim().toLowerCase();
   const policy = String(options.quantization || "none").trim().toLowerCase();
+  const style = String(options.style || "").trim().toLowerCase();
+  const loraAdapter = String(options.loraAdapter || "").trim().toLowerCase();
   return createHash("sha256")
-    .update([model, voice, policy, normalized].join("\n"))
+    .update([model, voice, policy, style, loraAdapter, normalized].join("\n"))
     .digest("hex");
 }
 
@@ -108,6 +110,8 @@ export function normalizeTtsOptimizationOptions(env = {}) {
   const model = String(env.TTS_MODEL || env.VIBEVOICE_MODEL || DEFAULT_MODEL);
   const dtype = String(env.TTS_DTYPE || env.VIBEVOICE_DTYPE || "bfloat16");
   const voice = String(env.TTS_VOICE || env.VIBEVOICE_VOICE || "Carter");
+  const style = String(env.TTS_VOICE_STYLE || env.VIBEVOICE_STYLE || "clear");
+  const loraAdapter = String(env.TTS_LORA_ADAPTER || env.MISO_LORA_ADAPTER || "");
   const warmupText = String(env.TTS_WARMUP_TEXT || "Thanks, I can help with that.");
   const prewarm = !["0", "false", "no", "off"].includes(String(env.TTS_PREWARM || "1").toLowerCase());
 
@@ -116,6 +120,8 @@ export function normalizeTtsOptimizationOptions(env = {}) {
     streaming: true,
     model,
     voice,
+    style,
+    loraAdapter,
     dtype,
     quantization,
     cacheDir,

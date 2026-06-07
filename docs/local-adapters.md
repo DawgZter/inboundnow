@@ -9,6 +9,7 @@ This document is the proof boundary for the local voice-agent harness.
 - Prospect question input: browser text input or simulated transcript button. Browser mic publication is configured, but ASR is not attached yet.
 - Agent reasoning: deterministic local keyword router.
 - Speech output: streamed browser `speechSynthesis` fallback chunks when available.
+- Voice switching: browser, bridge, and LiveKit messages carry a per-session voice profile; typed commands such as "switch to a warmer voice" update the session voice without restarting.
 - Adapter plumbing: dependency-free local stubs and status reporting under
   `apps/agent/adapters`.
 - Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`; local artifact retrieval is exercised by `npm run smoke:moss:local`; the partial Remote.com scrape corpus can be built with `npm run moss:index:remote` and fully smoked with `npm run smoke:moss:remote`.
@@ -58,7 +59,7 @@ Responsibilities:
 - Stream audio through a localhost-only VibeVoice-compatible endpoint.
 - Stream browser fallback speech in short text chunks when model audio is unavailable.
 - Prewarm the runtime before the first real answer.
-- Use stable cache keys that include text, model, voice, and quantization policy.
+- Use stable cache keys that include text, model, voice, style, LoRA adapter, and quantization policy.
 - Report latency, cache-hit, dtype, quantization, and fallback state.
 
 Latency controls:
@@ -68,6 +69,8 @@ Latency controls:
 - `TTS_CACHE_DIR`: local artifact cache for prompt/audio reuse.
 - `TTS_DTYPE`: model dtype hint; default `bfloat16` for the H100 lane.
 - `TTS_QUANTIZATION`: `none`, `llm-int8`, or `llm-int4`. The quantization policies intentionally target only the LLM trunk and preserve audio decoder precision to avoid unfair whole-model quantization quality loss.
+- `TTS_VOICE_STYLE`: voice style hint included in the local endpoint payload and cache key.
+- `TTS_LORA_ADAPTER` / `MISO_LORA_ADAPTER`: local adapter path included in the endpoint payload and cache key.
 
 Current verified behavior: the worker emits `agent.speech.start`, `agent.speech.chunk`, and `agent.speech.end` before actions, and the browser queues those chunks through `speechSynthesis`. This improves perceived latency but remains browser fallback speech.
 
@@ -75,6 +78,31 @@ Current verified behavior: the worker emits `agent.speech.start`, `agent.speech.
 must not be described as VibeVoice proof.
 
 `local-vibevoice` is configured only when `TTS_PROVIDER=local-vibevoice`; `TTS_BASE_URL` must point at localhost. `npm run smoke:tts:local` proves the streaming adapter contract against a fake local endpoint only. `npm run smoke:tts:h100` must pass against a real H100-local VibeVoice-compatible endpoint before changing this to model proof.
+
+## Dynamic Voice Session Adapter
+
+The shared voice profile registry lives in `packages/voice-session`. It supports:
+
+- default, warm, calm, and bright browser/TTS profiles.
+- `miso_lora_dev`, a configured Miso One LoRA development profile for `MisoLabs/MisoTTS`.
+- in-session voice switching based on user language such as "switch to a warmer voice" or "use Miso One".
+- per-session persistence in the worker keyed by `sessionId`, sender identity, or fallback default.
+
+`npm run smoke:voice:switching` proves the bridge path can switch to `warm`, stream speech metadata with that voice, and keep it for the next question. This remains metadata/browser fallback proof until real TTS audio is attached.
+
+## Miso One LoRA Development Adapter
+
+The Miso lane is development support, not voice-clone proof. See `docs/miso-lora-runbook.md`.
+
+Current configured pieces:
+
+- `configs/miso-lora/manifest.example.json`
+- `packages/miso-lora` manifest validator
+- `scripts/vast-h100/setup-miso-lora-dev.sh`
+- `scripts/vast-h100/launch-miso-lora-dev.sh`
+- `miso_lora_dev` voice profile metadata
+
+The manifest requires explicit consent, `localOnly: true`, `syntheticImpersonationAllowed: false`, and local filesystem paths. The launcher requires an explicit `MISO_LORA_TRAIN_ENTRYPOINT` because no MisoTTS LoRA trainer is proven in this repo yet.
 
 ## Moss Runtime Adapter
 

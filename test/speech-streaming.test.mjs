@@ -18,25 +18,43 @@ test("splitSpeechText creates bounded streaming chunks", () => {
   assert.match(chunks[0], /global payroll/i);
 });
 
-test("speechCacheKey is stable and varies by voice and quantization", () => {
+test("speechCacheKey is stable and varies by voice, style, LoRA, and quantization", () => {
   const first = speechCacheKey("Hello   payroll", {
     model: "microsoft/VibeVoice-Realtime-0.5B",
     voice: "Carter",
+    style: "clear",
     quantization: "llm-int8",
   });
   const second = speechCacheKey("hello payroll", {
     model: "microsoft/VibeVoice-Realtime-0.5B",
     voice: "Carter",
+    style: "clear",
     quantization: "llm-int8",
   });
-  const different = speechCacheKey("hello payroll", {
+  const differentVoice = speechCacheKey("hello payroll", {
     model: "microsoft/VibeVoice-Realtime-0.5B",
     voice: "Alice",
+    style: "clear",
     quantization: "llm-int8",
+  });
+  const differentStyle = speechCacheKey("hello payroll", {
+    model: "microsoft/VibeVoice-Realtime-0.5B",
+    voice: "Carter",
+    style: "warm",
+    quantization: "llm-int8",
+  });
+  const differentLora = speechCacheKey("hello payroll", {
+    model: "MisoLabs/MisoTTS",
+    voice: "miso-one-lora-dev",
+    style: "expressive",
+    loraAdapter: "artifacts/miso-lora/adapters/miso-one-lora-dev",
+    quantization: "none",
   });
 
   assert.equal(first, second);
-  assert.notEqual(first, different);
+  assert.notEqual(first, differentVoice);
+  assert.notEqual(first, differentStyle);
+  assert.notEqual(first, differentLora);
 });
 
 test("normalizeTtsOptimizationOptions applies fair quantization guardrails", () => {
@@ -45,6 +63,8 @@ test("normalizeTtsOptimizationOptions applies fair quantization guardrails", () 
     TTS_DTYPE: "bfloat16",
     TTS_TEXT_CHUNK_CHARS: "72",
     TTS_CACHE_DIR: "artifacts/cache/tts-smoke",
+    TTS_VOICE_STYLE: "warm",
+    TTS_LORA_ADAPTER: "artifacts/miso-lora/adapters/miso-one-lora-dev",
   });
 
   assert.equal(options.streaming, true);
@@ -52,6 +72,8 @@ test("normalizeTtsOptimizationOptions applies fair quantization guardrails", () 
   assert.equal(options.dtype, "bfloat16");
   assert.equal(options.textChunkChars, 72);
   assert.equal(options.cacheDir, "artifacts/cache/tts-smoke");
+  assert.equal(options.style, "warm");
+  assert.equal(options.loraAdapter, "artifacts/miso-lora/adapters/miso-one-lora-dev");
   assert.equal(options.quantization, QUANTIZATION_POLICIES["llm-int8"]);
   assert.equal(options.quantization.target, "llm");
   assert.equal(options.quantization.preserveAudioDecoderPrecision, true);

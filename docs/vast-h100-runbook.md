@@ -11,6 +11,7 @@ Use a single H100 with roughly 80 GB VRAM:
 - Recommended GPU names on Vast: H100_SXM, H100_PCIE, or H100_NVL.
 - Recommended template: Vast.ai PyTorch / PyTorch (cuDNN Devel) template.
 - Recommended disk: at least 180 GB; use more if downloading multiple model variants.
+- Recommended disk for Miso LoRA development: at least 220 GB for model files, datasets, checkpoints, and adapter artifacts.
 - Recommended access: verified host, direct SSH, direct ports, high reliability.
 
 Do not use H100 proof language unless scripts/vast-h100/bootstrap-instance.sh passes its H100 preflight and the relevant model smoke is captured.
@@ -127,6 +128,27 @@ Smoke the endpoint from another instance shell:
 
 Passing this smoke proves only that a localhost VibeVoice-compatible endpoint streamed audio chunks and reported cold/warm latency/cache metadata. Full browser TTS proof still requires the LiveKit browser run with `TTS_PROVIDER=local-vibevoice` and captured proof metadata.
 
+## Prepare Miso One LoRA Development
+
+This repo supports a guarded Miso One LoRA development lane for `MisoLabs/MisoTTS`. It is not model proof yet; it is the setup, manifest, and launch contract for developing or evaluating a trainer on the H100.
+
+Run on the Vast instance:
+
+    cd /workspace/inboundnow
+    bash scripts/vast-h100/setup-miso-lora-dev.sh
+
+Validate the consent/local-only manifest:
+
+    npm run miso:lora:validate
+
+Launch a selected trainer:
+
+    MISO_LORA_MANIFEST=configs/miso-lora/your-manifest.json \
+    MISO_LORA_TRAIN_ENTRYPOINT=experiments/train_miso_lora.py \
+    scripts/vast-h100/launch-miso-lora-dev.sh
+
+The launcher refuses to run without an explicit training entrypoint because the public MisoTTS release does not provide a proven LoRA trainer in this repo. See `docs/miso-lora-runbook.md` for the consent manifest, local path rules, runtime adapter fields, and proof boundary.
+
 ## Start The Local InboundNow Stack
 
 Run on the instance after Qwen is serving. Add `ENABLE_TTS_RUNTIME=1` when you also want the VibeVoice tmux pane:
@@ -168,6 +190,7 @@ Browser proof to capture manually:
 - transcript appends prospect and agent turns.
 - proof line includes local adapter labels.
 - proof line includes streamed speech fallback or local-vibevoice adapter labels without claiming VibeVoice unless `smoke:tts:h100` passed.
+- changing voice in-session, for example "switch to a warmer voice", updates the Voice chip and streamed speech metadata.
 - booking prompt appears.
 - Cal iframe src remains empty before confirmation and is set only after Yes, open Cal.
 
@@ -180,11 +203,14 @@ Verified by this runbook today:
 - Local Qwen OpenAI-compatible endpoint via vLLM when smoke-qwen-endpoint.mjs passes.
 - Local Moss artifact runtime wiring through the local-runtime-client boundary.
 - Streamed browser speech fallback and local VibeVoice adapter contract.
+- Dynamic voice switching metadata across browser and agent control messages.
+- Miso One LoRA development setup and manifest validation.
 
 Not yet proven by this runbook:
 
 - Parakeet ASR from real browser audio frames.
 - VibeVoice local audio synthesis in the browser, until `smoke:tts:h100` and a LiveKit browser run with `TTS_PROVIDER=local-vibevoice` are captured.
+- Miso One LoRA training or generated audio, until a consented manifest, selected trainer, adapter artifact, and H100-local audio smoke are captured.
 - Browser proof that the H100 Qwen planner, not only the deterministic fallback, produced the accepted plan.
 - Hosted or cloud Moss runtime behavior, which remains forbidden for runtime proof.
 
@@ -205,3 +231,5 @@ Destroying is irreversible and deletes the instance data. Copy artifacts first i
 - LiveKit local self-hosting guide: https://docs.livekit.io/transport/self-hosting/local/
 - Microsoft VibeVoice repository: https://github.com/microsoft/VibeVoice
 - VibeVoice-Realtime model card: https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B
+- MisoTTS Hugging Face model: https://huggingface.co/MisoLabs/MisoTTS
+- MisoTTS GitHub repository: https://github.com/MisoLabsAI/MisoTTS
