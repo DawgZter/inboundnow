@@ -19,12 +19,12 @@ What starts by default:
 - local Moss runtime over the Remote.com scrape index on 127.0.0.1:4321
 - inboundnow agent worker using streamed speech chunks and the browser action bus
 
-For the strongest voice path, run a local livekit-server --dev before npm start, open the page, and click Start AI Persona. With LiveKit and a published mic, inboundnow listens, auto-stops after silence, sends the turn through the local agent, and the blue cursor executes the returned actions. Without LiveKit, use Ask agent or Send simulated transcript; those still exercise the same planner, streamed answer, visible cursor, highlights, clicks, and booking gate.
+Click Start AI Persona on the default page. If local livekit-server is running, inboundnow uses the local LiveKit mic path, auto-stops after silence, sends the turn through the local agent, and the blue cursor executes the returned actions. If LiveKit is not running, Start AI Persona falls back to browser speech capture over the local bridge so the default flow is still click, talk, and watch inboundnow guide the page. The developer controls keep Ask agent and Send typed transcript available for quick operator input.
 
 ## The Default Product Loop
 
     Prospect talks
-    -> local LiveKit mic path or bridge fallback
+    -> local LiveKit mic path or browser speech capture over the local bridge
     -> Parakeet-compatible ASR boundary
     -> local Moss retrieval over the Remote.com scrape
     -> Qwen-class planner through an OpenAI-compatible local endpoint

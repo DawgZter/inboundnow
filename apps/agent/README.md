@@ -10,7 +10,7 @@ npm run dev:agent
 
 Current mode is `AGENT_MODE=simulated` by default. In this mode:
 
-- ASR is simulated by browser text input or the `Send simulated transcript` button.
+- ASR can be bypassed by browser text input or the `Send typed transcript` button.
 - LLM planning is the local keyword router in `router.mjs` by default.
 - `AGENT_PLANNER=local-llm` plus `LLM_PROVIDER=qwen-openai-local` enables the strict JSON planner against a localhost OpenAI-compatible endpoint.
 - TTS streams `agent.speech.start/chunk/end` text chunks to the browser `speechSynthesis` fallback when available.

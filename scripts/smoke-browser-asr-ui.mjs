@@ -305,7 +305,7 @@ try {
   const transcriptText = finalTranscript.transcript.map((turn) => turn.text).join("\n");
   assert.match(finalTranscript.asrChip, /transcript fallback/);
   assert.match(finalTranscript.voiceChip, /Warm consultative/);
-  assert.match(transcriptText, /Simulated transcript: How does Remote help with global payroll\?/);
+  assert.match(transcriptText, /Typed transcript: How does Remote help with global payroll\?/);
   assert.match(transcriptText, /Heard: How does Remote help with global payroll\?/);
   assert.match(transcriptText, /Remote helps with global payroll/i);
   assert.equal(finalTranscript.events.some((event) => event.type === "asrFinalReceived" && event.detail.simulated === true), true);

@@ -589,12 +589,12 @@ function embeddedInboundNow() {
   <div class="ocw-caption" role="status"></div>
   <div class="ocw-highlight" aria-hidden="true"></div>
 
-  <section class="ocw-panel" aria-label="inboundnow controls controls">
+  <section class="ocw-panel" aria-label="inboundnow controls">
     <div class="ocw-head">
       <img class="ocw-mark" src="${cursorUrl}" alt="" aria-hidden="true" />
       <div class="ocw-title">
-        <strong>Remote AI guide</strong>
-        <span>Local SDR guide</span>
+        <strong>inboundnow</strong>
+        <span>Local voice agent</span>
       </div>
     </div>
     <div class="ocw-body">
@@ -624,7 +624,7 @@ function embeddedInboundNow() {
             <button data-ocw-action="askagent" type="button">Ask agent</button>
             <button data-ocw-action="startvoiceturn" type="button">Start voice turn</button>
             <button data-ocw-action="stopvoiceturn" type="button">Stop voice turn</button>
-            <button data-ocw-action="simulatevoice" type="button">Send simulated transcript</button>
+            <button data-ocw-action="simulatevoice" type="button">Send typed transcript</button>
             <button data-ocw-action="interruptresponse" type="button">Interrupt</button>
           </div>
           <form class="ocw-command">
@@ -802,6 +802,14 @@ function embeddedInboundNow() {
       source: null,
       analyser: null,
       data: null
+    };
+    var browserSpeechCapture = {
+      active: false,
+      recognition: null,
+      finalText: '',
+      interimText: '',
+      startedAt: 0,
+      error: ''
     };
     var personaLoop = {
       active: false,
@@ -2152,6 +2160,7 @@ function embeddedInboundNow() {
       activeVoiceTurnRequestId = '';
       setPersonaLoopActive(false, 'disconnect');
       stopVoiceTurnAutomation('disconnect');
+      stopBrowserSpeechCapture('disconnect');
       stopSpeech();
       setAgentState('offline', 'Local transport offline');
       setTransportState('idle', 'idle');
@@ -2172,6 +2181,7 @@ function embeddedInboundNow() {
       activeVoiceTurnRequestId = '';
       setPersonaLoopActive(false, 'interrupt');
       stopVoiceTurnAutomation('interrupt');
+      stopBrowserSpeechCapture('interrupt');
       stopSpeech();
       setTurnState('interrupted', 'interrupted');
       setAsrState('interrupted', 'interrupted');
@@ -2209,12 +2219,136 @@ function embeddedInboundNow() {
       return sendBridge(payload);
     }
 
+    function browserSpeechRecognitionCtor() {
+      return window.SpeechRecognition || window.webkitSpeechRecognition || null;
+    }
+
+    function stopBrowserSpeechCapture(reason) {
+      if (!browserSpeechCapture.recognition) {
+        browserSpeechCapture.active = false;
+        return;
+      }
+      var recognition = browserSpeechCapture.recognition;
+      browserSpeechCapture.recognition = null;
+      browserSpeechCapture.active = false;
+      try { recognition.onresult = null; } catch (e) {}
+      try { recognition.onerror = null; } catch (e) {}
+      try { recognition.onend = null; } catch (e) {}
+      try { recognition.stop(); } catch (e) {}
+      emit('browserSpeechCaptureStopped', { reason: reason || 'stopped' });
+    }
+
+    async function startBrowserSpeechCapture(reason) {
+      var Recognition = browserSpeechRecognitionCtor();
+      await connectAgentTransport();
+      if (!Recognition) {
+        setPersonaLoopActive(false, 'speech_capture_unavailable');
+        setTurnState('blocked', 'speech capture unavailable');
+        setAsrState('blocked', 'browser speech unavailable');
+        setStatus('Browser speech capture is unavailable here. Type the question and press Run.');
+        setProofLine('Start AI Persona fell back to the local bridge, but this browser does not expose speech capture.');
+        emit('browserSpeechCaptureUnavailable', { reason: reason || 'unsupported' });
+        if (commandInput) commandInput.focus();
+        return false;
+      }
+
+      stopBrowserSpeechCapture('restart');
+      var recognition = new Recognition();
+      browserSpeechCapture.active = true;
+      browserSpeechCapture.recognition = recognition;
+      browserSpeechCapture.finalText = '';
+      browserSpeechCapture.interimText = '';
+      browserSpeechCapture.startedAt = Date.now();
+      browserSpeechCapture.error = '';
+      recognition.lang = activeVoiceProfile.browserLang || 'en-US';
+      recognition.continuous = false;
+      recognition.interimResults = true;
+      recognition.maxAlternatives = 1;
+      recognition.onstart = function(){
+        setTransportState('bridge', 'local bridge');
+        setMicState('published', 'browser capture');
+        setAsrState('listening', 'browser speech');
+        setTurnState('listening', 'listening');
+        cueCursorAtPanel('Listening now', 'listening', 520);
+        setStatus('Listening. Speak naturally and inboundnow will guide the page.');
+        setProofLine('Default Start AI Persona is using browser speech capture plus the local inboundnow bridge.');
+        updateTranscript('Listening. Speak naturally and inboundnow will guide the page.', 'system');
+        emit('browserSpeechCaptureStarted', { transport: transportMode, reason: reason || '' });
+      };
+      recognition.onresult = function(event){
+        var finalText = '';
+        var interimText = '';
+        for (var index = event.resultIndex || 0; index < event.results.length; index += 1) {
+          var result = event.results[index];
+          var text = result && result[0] && result[0].transcript || '';
+          if (result && result.isFinal) finalText += text;
+          else interimText += text;
+        }
+        if (finalText) browserSpeechCapture.finalText += (browserSpeechCapture.finalText ? ' ' : '') + finalText.trim();
+        browserSpeechCapture.interimText = interimText.trim();
+        var preview = browserSpeechCapture.finalText || browserSpeechCapture.interimText;
+        if (preview) {
+          commandInput.value = preview;
+          showCaption(preview, current.x, current.y);
+          emit('browserSpeechCaptureResult', { final: !!finalText, chars: preview.length });
+        }
+      };
+      recognition.onerror = function(event){
+        browserSpeechCapture.active = false;
+        browserSpeechCapture.error = event.error || 'speech error';
+        setTurnState('blocked', 'speech capture error');
+        setAsrState('blocked', event.error || 'speech error');
+        setStatus('Speech capture stopped: ' + (event.error || 'unknown error') + '. Type the question and press Run.');
+        emit('browserSpeechCaptureError', { error: event.error || '', message: event.message || '' });
+      };
+      recognition.onend = function(){
+        if (browserSpeechCapture.error) {
+          browserSpeechCapture.active = false;
+          browserSpeechCapture.recognition = null;
+          setPersonaLoopActive(false, 'speech_capture_error');
+          return;
+        }
+        var transcript = (browserSpeechCapture.finalText || browserSpeechCapture.interimText || commandInput.value || '').trim();
+        browserSpeechCapture.active = false;
+        browserSpeechCapture.recognition = null;
+        if (!transcript) {
+          setPersonaLoopActive(false, 'empty_speech_capture');
+          setTurnState('idle', 'no transcript');
+          setAsrState('idle', 'no transcript');
+          setStatus('I did not catch that. Click Start AI Persona and try again.');
+          emit('browserSpeechCaptureEmpty', { elapsedMs: Date.now() - browserSpeechCapture.startedAt });
+          return;
+        }
+        commandInput.value = transcript;
+        setAsrState('final', 'browser speech');
+        setTurnState('sent', 'transcript sent');
+        cueCursorAtPanel('Thinking with local models', 'thinking', 520);
+        emit('browserSpeechCaptureFinal', { chars: transcript.length, elapsedMs: Date.now() - browserSpeechCapture.startedAt });
+        sendFinalTranscript(false).catch(function(error){
+          setPersonaLoopActive(false, 'speech_capture_send_failed');
+          setStatus(error.message || String(error));
+          emit('browserSpeechCaptureSendFailed', { message: error.message || String(error) });
+        });
+      };
+      try {
+        recognition.start();
+      } catch (error) {
+        browserSpeechCapture.active = false;
+        browserSpeechCapture.recognition = null;
+        setPersonaLoopActive(false, 'speech_capture_start_failed');
+        setStatus(error.message || String(error));
+        emit('browserSpeechCaptureStartFailed', { message: error.message || String(error) });
+        return false;
+      }
+      return true;
+    }
+
     async function sendFinalTranscript(simulated) {
       var transcriptText = commandInput.value || 'How does Remote help with global payroll?';
       prewarmBrowserSpeech();
       await connectAgentTransport();
       var snapshot = snapshotPage();
-      updateTranscript((simulated ? 'Simulated transcript: ' : 'Transcript: ') + transcriptText, simulated ? 'simulated' : 'prospect');
+      updateTranscript((simulated ? 'Typed transcript: ' : 'Transcript: ') + transcriptText, simulated ? 'simulated' : 'prospect');
       setAsrState(simulated ? 'stub' : 'final', simulated ? 'typed fallback' : 'final transcript');
       setTurnState('sent', 'transcript sent');
       setStatus('Sent final transcript to local agent over ' + (liveKitReady ? 'LiveKit data channel.' : 'local WebSocket bridge.'));
@@ -2290,8 +2424,14 @@ function embeddedInboundNow() {
       try {
         await startVoiceTurn({ requireVoicePath: true, autoStop: true });
       } catch (error) {
-        setPersonaLoopActive(false, 'start_failed');
-        throw error;
+        if (requireLiveKit) {
+          setPersonaLoopActive(false, 'start_failed');
+          throw error;
+        }
+        emit('personaVoicePathFallback', { message: error.message || String(error), transportMode: transportMode });
+        var started = await startBrowserSpeechCapture(error.message || 'livekit_unavailable');
+        if (!started) throw error;
+        return;
       }
       if (activeVoiceTurnRequestId && liveKitReady && micPublished) {
         emit('personaStarted', { requestId: activeVoiceTurnRequestId, transport: 'livekit', micPublished: true, autoStop: true });
@@ -2301,6 +2441,7 @@ function embeddedInboundNow() {
     async function stopPersona() {
       setPersonaLoopActive(false, 'stop_persona');
       stopVoiceTurnAutomation('stop_persona');
+      stopBrowserSpeechCapture('stop_persona');
       if (activeVoiceTurnRequestId) {
         await stopVoiceTurn({ reason: 'stop_persona', auto: false });
       }
@@ -2568,7 +2709,7 @@ function embeddedInboundNow() {
       prewarmBrowserSpeech();
       await connectAgentTransport();
       var snapshot = snapshotPage();
-      updateTranscript((simulatedVoice ? 'Typed text sent as simulated transcript: ' : 'You asked: ') + question, simulatedVoice ? 'simulated' : 'prospect');
+      updateTranscript((simulatedVoice ? 'Typed transcript sent: ' : 'You asked: ') + question, simulatedVoice ? 'simulated' : 'prospect');
       setTurnState('sent', 'sent');
       setStatus('Sent question to local agent over ' + (liveKitReady ? 'LiveKit data channel.' : 'local WebSocket bridge.'));
       await sendAgentMessage({
@@ -3532,6 +3673,8 @@ function embeddedInboundNow() {
       },
       startVoiceTurn: startVoiceTurn,
       stopVoiceTurn: stopVoiceTurn,
+      startBrowserSpeechCapture: startBrowserSpeechCapture,
+      stopBrowserSpeechCapture: stopBrowserSpeechCapture,
       interruptResponse: interruptResponse,
       receiveAgentMessageForSmoke: function(message){ return handleAgentMessage(JSON.stringify(message || {})); },
       setVoiceProfile: function(profile){ return setSessionVoiceProfile(resolveBrowserVoiceProfile(profile), 'api', true); },
@@ -3549,6 +3692,7 @@ function embeddedInboundNow() {
           micPublished: micPublished,
           bridgeReady: bridgeReady,
           activeVoiceTurnRequestId: activeVoiceTurnRequestId,
+          browserSpeechCaptureActive: browserSpeechCapture.active,
           voiceAutomation: Object.assign({}, voiceAutomationConfig, voiceAutomationSummary(voiceAutomation.stopReason), {
             running: voiceAutomation.running
           }),
@@ -3567,7 +3711,7 @@ function embeddedInboundNow() {
       },
       run: enqueue
     };
-    window.InboundNow = window.InboundNow;
+    window.inboundnow = window.InboundNow;
 
     window.setTimeout(function(){
       try {

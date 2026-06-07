@@ -33,7 +33,7 @@ Responsibilities:
 - Keep endpoint calls localhost-only through `ASR_BASE_URL`, `ASR_HEALTH_PATH`, and `ASR_TRANSCRIBE_PATH` validation.
 - Accept explicit `prospect.transcript.final` messages as a transcript fallback without calling that Parakeet proof.
 
-The `parakeet-stub` adapter proves only registry wiring. `local-parakeet` proves only a localhost adapter contract until the model is loaded locally and transcripts are produced from actual audio. Browser text input, `Send simulated transcript`, and fake endpoint smokes are not Parakeet model proof.
+The `parakeet-stub` adapter proves only registry wiring. `local-parakeet` proves only a localhost adapter contract until the model is loaded locally and transcripts are produced from actual audio. Browser text input, `Send typed transcript`, and fake endpoint smokes are not Parakeet model proof.
 
 Local proof commands:
 

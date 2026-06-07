@@ -111,7 +111,6 @@ process.stdout.write("\n");
 process.stdout.write("inboundnow starting local talk-and-guide stack\n");
 process.stdout.write("Open http://localhost:" + port + "/direct\n");
 process.stdout.write("Click Start AI Persona for LiveKit mic mode when local livekit-server is running.\n");
-process.stdout.write("Without LiveKit, use Ask agent or Send simulated transcript; the same agent action bus drives the blue cursor.\n\n");
+process.stdout.write("Without LiveKit, Start AI Persona uses browser speech capture; Ask agent and Send typed transcript use the same action bus.\n\n");
 
 for (const service of processes) start(service);
-
