@@ -1,0 +1,11 @@
+{
+  "name": "inboundnow",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node apps/website-lab/server.mjs",
+    "start": "node apps/website-lab/server.mjs",
+    "check": "node --check apps/website-lab/server.mjs"
+  }
+}

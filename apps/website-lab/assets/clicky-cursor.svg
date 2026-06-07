@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="341" viewBox="0 0 96 128" role="img" aria-label="OpenClicky blue cursor">
+  <defs>
+    <filter id="clicky-blue-glow" x="-45%" y="-45%" width="190%" height="190%" color-interpolation-filters="sRGB">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3.8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.0196  0 0 0 0 0.3922  0 0 0 0 1  0 0 0 0.42 0" result="blueGlow"/>
+      <feMerge>
+        <feMergeNode in="blueGlow"/>
+      </feMerge>
+    </filter>
+    <filter id="clicky-drop-shadow" x="-30%" y="-30%" width="170%" height="170%" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="3.4" stdDeviation="2.8" flood-color="#000000" flood-opacity="0.24"/>
+    </filter>
+  </defs>
+
+  <path
+    d="M23.52 19 L23.52 96 L40.08 77 L50.88 110 L67.44 100 L56.64 70 L78.24 70 Z"
+    fill="none"
+    stroke="#0564FF"
+    stroke-width="12.6"
+    stroke-linejoin="round"
+    opacity="0.42"
+    filter="url(#clicky-blue-glow)"
+  />
+
+  <g filter="url(#clicky-drop-shadow)">
+    <path
+      d="M23.52 19 L23.52 96 L40.08 77 L50.88 110 L67.44 100 L56.64 70 L78.24 70 Z"
+      fill="#0564FF"
+    />
+    <path
+      d="M23.52 19 L23.52 96 L40.08 77 L50.88 110 L67.44 100 L56.64 70 L78.24 70 Z"
+      fill="none"
+      stroke="#FFFFFF"
+      stroke-width="4.35"
+      stroke-linejoin="round"
+      opacity="0.96"
+    />
+  </g>
+</svg>
