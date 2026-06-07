@@ -1,7 +1,7 @@
 import { PROOF_LEVELS, readJsonFile, status } from "../contracts.mjs";
 import { queryLocalIndex } from "../../../../packages/local-retrieval/index.mjs";
 
-const DEFAULT_INDEX = "artifacts/moss/remote-local-index.json";
+const DEFAULT_INDEX = "artifacts/moss/remote-com-local-index.json";
 
 export function createLocalArtifactMossAdapter(env = process.env) {
   const indexPath = env.MOSS_INDEX_PATH || DEFAULT_INDEX;

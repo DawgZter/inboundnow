@@ -16,7 +16,7 @@ What starts by default:
 - website lab on http://localhost:4199/direct
 - local token and browser/agent bridge on 127.0.0.1:4301
 - local Qwen-compatible planner stub on 127.0.0.1:4311
-- local Moss runtime over the Remote.com scrape index on 127.0.0.1:4321
+- local Moss runtime on 127.0.0.1:4321, with the Remote.com scrape index built locally on first start if the ignored artifact is missing
 - inboundnow agent worker using streamed speech chunks and the browser action bus
 
 Click Start AI Persona on the default page. If local livekit-server is running, inboundnow uses the local LiveKit mic path, auto-stops after silence, sends the turn through the local agent, and the blue cursor executes the returned actions. If LiveKit is not running, Start AI Persona falls back to browser speech capture over the local bridge. After each answer, inboundnow schedules the next listen automatically, so the default flow is click once, talk naturally, and watch inboundnow keep guiding the page until you stop it. The developer controls keep Ask agent and Send typed transcript available for quick operator input.
@@ -76,6 +76,7 @@ The cursor resolver accepts target keys, CSS selectors, planner labels, intent t
 ## Local Data
 
 The full Remote.com scrape is vendored at data/remote-com/scrape-2026-06-07.
+The generated local Moss index lives at artifacts/moss/remote-com-local-index.json. That artifact is ignored because it is large, so npm start rebuilds it from the committed scrape when needed.
 
 Useful commands:
 

@@ -3,7 +3,7 @@ import { buildLocalIndex, readJson, writeJson } from "../../packages/local-retri
 import { loadRemoteComScrapeDocuments } from "../../packages/remote-com-scrape/index.mjs";
 
 const SOURCE_PATH = process.env.MOSS_SOURCE_PATH || "fixtures/remote-site/remote-pages.json";
-const OUTPUT_PATH = process.env.MOSS_INDEX_PATH || "artifacts/moss/remote-local-index.json";
+const OUTPUT_PATH = process.env.MOSS_INDEX_PATH || "artifacts/moss/remote-com-local-index.json";
 const SOURCE_TYPE = process.env.MOSS_SOURCE_TYPE || "json";
 
 const documents = SOURCE_TYPE === "remote-com-scrape"

@@ -1,7 +1,12 @@
 #!/usr/bin/env node
-import { spawn } from "node:child_process";
+import { constants } from "node:fs";
+import { access } from "node:fs/promises";
+import { spawn, spawnSync } from "node:child_process";
+import { resolve } from "node:path";
+import { fileURLToPath } from "node:url";
 
 const root = new URL("..", import.meta.url);
+const rootPath = fileURLToPath(root);
 const node = process.execPath;
 const env = process.env;
 const port = env.PORT || "4199";
@@ -12,6 +17,7 @@ const tokenUrl = env.TOKEN_SERVER_URL || "http://127.0.0.1:" + tokenPort;
 const qwenBaseUrl = env.LLM_BASE_URL || "http://127.0.0.1:" + qwenPort + "/v1";
 const mossRuntimeUrl = env.MOSS_RUNTIME_URL || "http://127.0.0.1:" + mossPort;
 const mossIndexPath = env.MOSS_INDEX_PATH || "artifacts/moss/remote-com-local-index.json";
+const mossSourcePath = env.MOSS_SOURCE_PATH || "data/remote-com/scrape-2026-06-07";
 
 const processes = [
   {
@@ -81,7 +87,7 @@ function prefix(name, chunk) {
 
 function start(service) {
   const child = spawn(node, service.args, {
-    cwd: root,
+    cwd: rootPath,
     env: { ...env, ...service.env },
     stdio: ["ignore", "pipe", "pipe"],
   });
@@ -113,4 +119,39 @@ process.stdout.write("Open http://localhost:" + port + "/direct\n");
 process.stdout.write("Click Start AI Persona for LiveKit mic mode when local livekit-server is running.\n");
 process.stdout.write("Without LiveKit, Start AI Persona uses browser speech capture; Ask agent and Send typed transcript use the same action bus.\n\n");
 
+async function fileExists(pathname) {
+  try {
+    await access(resolve(rootPath, pathname), constants.R_OK);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+async function ensureMossIndex() {
+  if (env.INBOUNDNOW_SKIP_MOSS_INDEX === "1") return;
+  if (await fileExists(mossIndexPath)) {
+    process.stdout.write("[moss] local index ready at " + mossIndexPath + "\n");
+    return;
+  }
+  process.stdout.write("[moss] local index missing; building from " + mossSourcePath + "\n");
+  const result = spawnSync(node, ["services/moss-indexer/build-local-index.mjs"], {
+    cwd: rootPath,
+    env: {
+      ...env,
+      MOSS_SOURCE_TYPE: env.MOSS_SOURCE_TYPE || "remote-com-scrape",
+      MOSS_SOURCE_PATH: mossSourcePath,
+      MOSS_INDEX_PATH: mossIndexPath,
+    },
+    encoding: "utf8",
+    stdio: ["ignore", "pipe", "pipe"],
+  });
+  if (result.stdout) prefix("moss:index", result.stdout);
+  if (result.stderr) prefix("moss:index", result.stderr);
+  if (result.status !== 0) {
+    throw new Error("Local Moss index build failed with exit " + result.status);
+  }
+}
+
+await ensureMossIndex();
 for (const service of processes) start(service);
