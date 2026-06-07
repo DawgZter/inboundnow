@@ -699,6 +699,7 @@ function embeddedInboundNow() {
     var bridgePanel = root.querySelector('.ocw-bridge');
     var agentCopy = root.querySelector('.ocw-agent-copy');
     var commandInput = root.querySelector('.ocw-input');
+    var personaButton = root.querySelector('.ocw-persona-button');
     var sizeSlider = root.querySelector('.ocw-size-slider');
     var sizeValue = root.querySelector('.ocw-size-value');
     var current = { x: Math.max(24, window.innerWidth - 92), y: Math.max(24, window.innerHeight - 92) };
@@ -1346,6 +1347,13 @@ function embeddedInboundNow() {
       }
     }
 
+    function updatePersonaButton() {
+      if (!personaButton) return;
+      personaButton.textContent = personaLoop.active ? 'Stop AI Persona' : 'Start AI Persona';
+      personaButton.dataset.ocwAction = personaLoop.active ? 'stoppersona' : 'startpersona';
+      personaButton.setAttribute('aria-pressed', personaLoop.active ? 'true' : 'false');
+    }
+
     function setPersonaLoopActive(active, reason) {
       var nextActive = !!active;
       var changed = personaLoop.active !== nextActive;
@@ -1353,6 +1361,7 @@ function embeddedInboundNow() {
       personaLoop.waitingForResponse = false;
       personaLoop.lastTrigger = reason || '';
       if (!active) clearPersonaLoopRestart();
+      updatePersonaButton();
       if (!changed) return;
       emit(active ? 'personaLoopStarted' : 'personaLoopStopped', {
         reason: reason || '',
@@ -1370,7 +1379,7 @@ function embeddedInboundNow() {
     }
 
     function scheduleNextPersonaTurn(trigger) {
-      if (!personaLoop.active || activeVoiceTurnRequestId || !liveKitReady || !micPublished) return;
+      if (!personaLoop.active || activeVoiceTurnRequestId || browserSpeechCapture.active) return;
       clearPersonaLoopRestart();
       personaLoop.waitingForResponse = false;
       personaLoop.lastTrigger = trigger || '';
@@ -1381,15 +1390,23 @@ function embeddedInboundNow() {
       emit('personaLoopNextTurnScheduled', {
         trigger: trigger || '',
         delayMs: delayMs,
-        turnsStarted: personaLoop.turnsStarted || 0
+        turnsStarted: personaLoop.turnsStarted || 0,
+        path: liveKitReady && micPublished ? 'livekit' : 'browser-speech'
       });
       personaLoop.restartTimer = window.setTimeout(function(){
         personaLoop.restartTimer = null;
-        if (!personaLoop.active || activeVoiceTurnRequestId || !liveKitReady || !micPublished) return;
-        startVoiceTurn({ requireVoicePath: true, autoStop: true }).catch(function(error){
-          setStatus(error.message || String(error));
-          emit('personaLoopNextTurnFailed', { trigger: trigger || '', message: error.message || String(error) });
-        });
+        if (!personaLoop.active || activeVoiceTurnRequestId || browserSpeechCapture.active) return;
+        if (liveKitReady && micPublished) {
+          startVoiceTurn({ requireVoicePath: true, autoStop: true }).catch(function(error){
+            setStatus(error.message || String(error));
+            emit('personaLoopNextTurnFailed', { trigger: trigger || '', message: error.message || String(error), path: 'livekit' });
+          });
+        } else {
+          startBrowserSpeechCapture(trigger || 'persona_loop').catch(function(error){
+            setStatus(error.message || String(error));
+            emit('personaLoopNextTurnFailed', { trigger: trigger || '', message: error.message || String(error), path: 'browser-speech' });
+          });
+        }
       }, delayMs);
     }
 
@@ -2265,6 +2282,7 @@ function embeddedInboundNow() {
       recognition.interimResults = true;
       recognition.maxAlternatives = 1;
       recognition.onstart = function(){
+        if (personaLoop.active) personaLoop.turnsStarted += 1;
         setTransportState('bridge', 'local bridge');
         setMicState('published', 'browser capture');
         setAsrState('listening', 'browser speech');
@@ -2308,7 +2326,7 @@ function embeddedInboundNow() {
           setPersonaLoopActive(false, 'speech_capture_error');
           return;
         }
-        var transcript = (browserSpeechCapture.finalText || browserSpeechCapture.interimText || commandInput.value || '').trim();
+        var transcript = (browserSpeechCapture.finalText || browserSpeechCapture.interimText || '').trim();
         browserSpeechCapture.active = false;
         browserSpeechCapture.recognition = null;
         if (!transcript) {
@@ -2320,6 +2338,15 @@ function embeddedInboundNow() {
           return;
         }
         commandInput.value = transcript;
+        if (personaLoop.active) {
+          personaLoop.waitingForResponse = true;
+          emit('personaLoopTurnStopped', {
+            requestId: 'browser_speech_' + Math.random().toString(36).slice(2, 8),
+            reason: 'browser_speech_final',
+            auto: true,
+            turnsStarted: personaLoop.turnsStarted || 0
+          });
+        }
         setAsrState('final', 'browser speech');
         setTurnState('sent', 'transcript sent');
         cueCursorAtPanel('Thinking with local models', 'thinking', 520);
@@ -3443,6 +3470,11 @@ function embeddedInboundNow() {
         return;
       }
 
+      if (key === 'stoppersona' || key === 'stop ai persona' || key === 'stop persona') {
+        await stopPersona();
+        return;
+      }
+
       if (key === 'disconnecttransport' || key === 'disconnect' || key === 'disconnect agent') {
         await disconnectAgentTransport();
         return;
@@ -3604,6 +3636,10 @@ function embeddedInboundNow() {
       var actionName = button.getAttribute('data-ocw-action');
       if (actionName === 'startpersona') {
         startPersona().catch(function(error){ setStatus(error.message || String(error)); });
+        return;
+      }
+      if (actionName === 'stoppersona') {
+        stopPersona().catch(function(error){ setStatus(error.message || String(error)); });
         return;
       }
       if (actionName === 'connectagent') {

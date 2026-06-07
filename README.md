@@ -19,7 +19,7 @@ What starts by default:
 - local Moss runtime over the Remote.com scrape index on 127.0.0.1:4321
 - inboundnow agent worker using streamed speech chunks and the browser action bus
 
-Click Start AI Persona on the default page. If local livekit-server is running, inboundnow uses the local LiveKit mic path, auto-stops after silence, sends the turn through the local agent, and the blue cursor executes the returned actions. If LiveKit is not running, Start AI Persona falls back to browser speech capture over the local bridge so the default flow is still click, talk, and watch inboundnow guide the page. The developer controls keep Ask agent and Send typed transcript available for quick operator input.
+Click Start AI Persona on the default page. If local livekit-server is running, inboundnow uses the local LiveKit mic path, auto-stops after silence, sends the turn through the local agent, and the blue cursor executes the returned actions. If LiveKit is not running, Start AI Persona falls back to browser speech capture over the local bridge. After each answer, inboundnow schedules the next listen automatically, so the default flow is click once, talk naturally, and watch inboundnow keep guiding the page until you stop it. The developer controls keep Ask agent and Send typed transcript available for quick operator input.
 
 ## The Default Product Loop
 
