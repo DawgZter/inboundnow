@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 import base64
+import inspect
 import json
 import os
 import sys
+import threading
 import time
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -17,10 +19,26 @@ VENDOR_DIR = Path(os.environ.get("MISO_TTS_REPO_DIR", "artifacts/vendor/MisoTTS"
 MAX_AUDIO_MS = int(os.environ.get("MISO_TTS_MAX_AUDIO_MS", "12000"))
 CHUNK_BYTES = int(os.environ.get("TTS_PCM_CHUNK_BYTES", "24000"))
 REQUIRE_LORA = os.environ.get("MISO_REQUIRE_LORA", "0").lower() in ("1", "true", "yes", "on")
+TTS_DTYPE = os.environ.get("TTS_DTYPE", "bfloat16")
+TTS_QUANTIZATION = os.environ.get("TTS_QUANTIZATION", "none")
 
 
 generator = None
 generator_loaded_at = None
+generate_lock = threading.Lock()
+
+
+def requested_dtype():
+    value = str(TTS_DTYPE or "").lower()
+    if value in ("", "auto", "none"):
+        return None
+    if value in ("bf16", "bfloat16"):
+        return torch.bfloat16
+    if value in ("fp16", "float16", "half"):
+        return torch.float16
+    if value in ("fp32", "float32"):
+        return torch.float32
+    raise RuntimeError("Unsupported TTS_DTYPE for MisoTTS wrapper: %s" % TTS_DTYPE)
 
 
 def repo_import_path():
@@ -37,10 +55,15 @@ def load_generator():
     from generator import load_miso_8b
 
     device = "cuda" if torch.cuda.is_available() else "cpu"
-    generator = load_miso_8b(
-        device=device,
-        model_path_or_repo_id=MODEL,
-    )
+    kwargs = {"device": device, "model_path_or_repo_id": MODEL}
+    dtype = requested_dtype()
+    if dtype is not None:
+        signature = inspect.signature(load_miso_8b)
+        if "torch_dtype" in signature.parameters:
+            kwargs["torch_dtype"] = dtype
+        elif "dtype" in signature.parameters:
+            kwargs["dtype"] = dtype
+    generator = load_miso_8b(**kwargs)
     generator_loaded_at = time.time()
     return generator
 
@@ -62,6 +85,10 @@ def write_json(handler, status, payload, content_type="application/json"):
 
 
 def tensor_to_pcm16(audio):
+    if isinstance(audio, (list, tuple)) and audio:
+        audio = audio[0]
+    if isinstance(audio, dict):
+        audio = audio.get("audio") or audio.get("wav") or audio.get("samples")
     if hasattr(audio, "detach"):
         audio = audio.detach().float().cpu()
     audio = audio.reshape(-1).clamp(-1.0, 1.0)
@@ -83,6 +110,8 @@ def require_lora_path(payload):
     lora_adapter = str(payload.get("loraAdapter") or os.environ.get("MISO_LORA_ADAPTER") or "")
     if REQUIRE_LORA and (not lora_adapter or not Path(lora_adapter).exists()):
         raise RuntimeError("MISO_REQUIRE_LORA=1 but loraAdapter is missing or does not exist: %s" % lora_adapter)
+    if REQUIRE_LORA:
+        raise RuntimeError("MISO_REQUIRE_LORA=1 requested cloned-voice proof, but official MisoTTS LoRA adapter loading is not implemented in this wrapper yet. Leave MISO_REQUIRE_LORA=0 for base MisoTTS audio proof until a real adapter loader is added.")
     return lora_adapter
 
 
@@ -104,7 +133,11 @@ class Handler(BaseHTTPRequestHandler):
                 "loadedAt": generator_loaded_at,
                 "device": "cuda" if torch.cuda.is_available() else "cpu",
                 "loraMode": "required" if REQUIRE_LORA else "optional",
-                "boundary": "MisoTTS local inference wrapper; LoRA adapter loading must be proven by an H100 smoke artifact.",
+                "dtype": TTS_DTYPE,
+                "quantization": TTS_QUANTIZATION,
+                "quantizationApplied": False,
+                "loraRuntimeSupported": False,
+                "boundary": "MisoTTS local inference wrapper; official LoRA adapter loading and quantization are not implemented by this wrapper yet.",
             })
             return
         write_json(self, 404, {"ok": False, "error": "not found"})
@@ -132,12 +165,13 @@ class Handler(BaseHTTPRequestHandler):
                 lora_adapter = require_lora_path(payload)
                 gen = load_generator()
                 started = time.time()
-                audio = gen.generate(
-                    text=text,
-                    speaker=0,
-                    context=[],
-                    max_audio_length_ms=MAX_AUDIO_MS,
-                )
+                with generate_lock:
+                    audio = gen.generate(
+                        text=text,
+                        speaker=0,
+                        context=[],
+                        max_audio_length_ms=MAX_AUDIO_MS,
+                    )
                 sample_rate = int(getattr(gen, "sample_rate", 24000))
                 pcm = tensor_to_pcm16(audio)
                 events = [{
@@ -148,6 +182,9 @@ class Handler(BaseHTTPRequestHandler):
                     "style": payload.get("style") or "expressive",
                     "loraAdapter": lora_adapter,
                     "loraAdapterApplied": False,
+                    "dtype": TTS_DTYPE,
+                    "quantization": TTS_QUANTIZATION,
+                    "quantizationApplied": False,
                     "format": "pcm16",
                     "sampleRate": sample_rate,
                     "channels": 1,

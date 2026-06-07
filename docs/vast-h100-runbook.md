@@ -141,18 +141,18 @@ The primary voice target is local Miso One/MisoTTS (`MisoLabs/MisoTTS`) behind t
 Latency and quality knobs:
 
 - `TTS_DTYPE=bfloat16` is the H100 default.
-- `TTS_QUANTIZATION=llm-int8` is the current fair-quantization policy hint: quantize only language-model pieces, preserve audio decoder precision, and compare against `none` before using in demos.
+- `TTS_QUANTIZATION=none` is the default for the current public MisoTTS wrapper. Do not claim Miso quantization until the wrapper applies a real lower-level quantization path; use Qwen/vLLM quantization separately when needed.
 - `TTS_CACHE_DIR=artifacts/cache/miso-one-tts` is the local cache location.
 - `TTS_TEXT_CHUNK_CHARS=140` controls answer chunking before browser playback.
 - `TTS_PREWARM_TEXT` controls warmup text for the compatible endpoint.
 - `MISO_LORA_ADAPTER=artifacts/miso-lora/adapters/miso-one-lora-dev` points to the local LoRA adapter metadata/weights path.
-- `MISO_REQUIRE_LORA=1` makes the wrapper fail unless a local LoRA adapter path exists.
+- `MISO_REQUIRE_LORA=1` is intentionally fail-closed until a real MisoTTS LoRA loader is implemented. It should be used as the cloned-voice proof gate, not as a base-audio smoke flag.
 
 Smoke the endpoint from another instance shell:
 
     npm run smoke:tts:miso-one
 
-Passing this smoke proves only that a localhost Miso One/MisoTTS-compatible endpoint streamed audio chunks and reported latency/cache metadata. Full cloned-voice proof still requires a consented LoRA adapter artifact, `MISO_REQUIRE_LORA=1`, and evidence that the adapter was applied during generation.
+Passing this smoke proves only that a localhost Miso One/MisoTTS-compatible endpoint streamed base model audio chunks and reported latency/cache metadata. Full cloned-voice proof still requires a consented LoRA adapter artifact, an implemented MisoTTS adapter loader, `MISO_REQUIRE_LORA=1`, and evidence that the adapter was applied during generation.
 
 Legacy VibeVoice remains available as an older compatibility lane:
 
@@ -217,15 +217,18 @@ On the instance:
     ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav npm run smoke:asr:h100
     npm run smoke:tts:miso-one
     ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav npm run smoke:h100:persona
+    BROWSER_MIC_AUDIO_PATH=/path/to/known-transcript.wav ASR_EXPECTED_PATTERN="Remote|payroll|global" npm run smoke:h100:browser-persona
 
-Browser proof to capture manually:
+`smoke:h100:persona` proves the model-chain from an audio file through local ASR/Moss/Qwen/TTS without opening a browser. `smoke:h100:browser-persona` is the executable click-to-start browser harness: it opens the lab, clicks Connect local transport, clicks Start/Stop voice turn, publishes browser media through local LiveKit, rejects bridge fallback/stubs, asserts local Parakeet/Qwen/Moss/Miso metadata, checks primitive browser actions, saves `result.json`, logs, and a final screenshot. With `BROWSER_MIC_AUDIO_PATH`, it is still an automated browser media-fixture proof, not a human manual microphone proof. Use `REQUIRE_MANUAL_MIC=1 HEADLESS=0` when capturing a manual speaking artifact.
+
+Browser proof to capture manually after the automated harness:
 
 - transport chip says LiveKit data connected.
-- mic chip is either published - no ASR yet or honestly blocked.
-- ASR chip distinguishes typed transcript fallback, local fake endpoint contract, and real H100 ASR proof.
+- mic chip says published; blocked/no-audio is a failed H100 browser proof.
+- ASR final comes from `local-parakeet` with `source: livekit-audio-turn`, not typed transcript fallback.
 - transcript appends prospect and agent turns.
 - proof line includes local adapter labels.
-- proof line includes streamed speech fallback or local-miso-one adapter labels without claiming Miso One LoRA clone proof unless `smoke:tts:miso-one` passed with an applied LoRA artifact.
+- proof line includes `Planner local-llm-json via qwen-openai-local`, `Retrieval local-runtime-client`, and `TTS miso-one-local` without claiming Miso One LoRA clone proof unless an applied LoRA artifact is captured.
 - changing voice in-session, for example "switch to a warmer voice", updates the Voice chip and streamed speech metadata.
 - booking prompt appears.
 - Cal iframe src remains empty before confirmation and is set only after Yes, open Cal.
@@ -248,7 +251,7 @@ Not yet proven by this runbook:
 - Parakeet ASR from real browser audio frames.
 - Browser mic-to-Parakeet proof, until a LiveKit browser voice turn captures real microphone audio and `local-parakeet` returns the transcript.
 - Browser playback of Miso One audio, until `smoke:tts:miso-one` and a LiveKit browser run with `TTS_PROVIDER=local-miso-one` are captured.
-- Miso One LoRA training and cloned-voice audio, until a consented manifest, selected trainer, adapter artifact, and H100-local audio smoke with `MISO_REQUIRE_LORA=1` are captured.
+- Miso One LoRA training and cloned-voice audio, until a consented manifest, selected trainer/loader, adapter artifact, and H100-local audio smoke with `MISO_REQUIRE_LORA=1` plus `loraAdapterApplied: true` are captured.
 - Browser proof that the H100 Qwen planner, not only the deterministic fallback, produced the accepted plan.
 - Hosted or cloud Moss runtime behavior, which remains forbidden for runtime proof.
 

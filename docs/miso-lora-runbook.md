@@ -49,8 +49,8 @@ On the H100 instance:
 The setup script:
 
 - verifies an H100 unless `ALLOW_NON_H100=1` is set for dry-run setup
-- creates `.venv-miso-lora`
-- installs Torch, Accelerate, PEFT, bitsandbytes, datasets, soundfile/librosa, and safetensors
+- creates `.venv-miso-lora` with Python >=3.10,<3.13
+- installs the upstream MisoTTS package from the cloned repo, then adds LoRA-development extras such as Accelerate, PEFT, bitsandbytes, datasets, Hugging Face Hub, and safetensors
 - clones `MisoLabsAI/MisoTTS` into `artifacts/vendor/MisoTTS`
 - downloads `MisoLabs/MisoTTS` into `artifacts/models/MisoLabs-MisoTTS`
 - validates the manifest
@@ -82,6 +82,8 @@ The session voice profile `miso_lora_dev` passes these fields through the TTS bo
 
 The local Miso One TTS adapter includes `style` and `loraAdapter` in both the request body and the cache key. That prevents warmed/cache audio for one voice or adapter from being reused for another. The legacy VibeVoice adapter uses the same cache-key discipline.
 
+`MISO_REQUIRE_LORA=1` is currently a fail-closed clone-proof gate. The public MisoTTS inference API used by this repo does not expose a proven LoRA adapter loader yet, so base MisoTTS audio can be smoked with `MISO_REQUIRE_LORA=0`, but cloned-voice proof requires a future loader and `loraAdapterApplied: true` evidence.
+
 ## Proof Boundary
 
 Configured today:
@@ -91,12 +93,15 @@ Configured today:
 - launch wrapper for an explicitly selected trainer
 - runtime voice profile and cache-key metadata
 - browser/agent voice switching metadata
+- fail-closed runtime guard for clone-proof claims
 
 Not proven today:
 
 - a MisoTTS LoRA trainer
+- a MisoTTS LoRA runtime loader
 - real Miso One adapter weights
 - generated Miso One audio
+- `loraAdapterApplied: true` evidence
 - browser playback of a MisoTTS LoRA adapter
 
 ## References

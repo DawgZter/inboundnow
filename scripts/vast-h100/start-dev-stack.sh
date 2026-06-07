@@ -32,10 +32,13 @@ npm run moss:index
 if [[ "${ENABLE_TTS_RUNTIME:-0}" == "1" ]]; then
   if [[ "$TTS_RUNTIME" == "miso-one" ]]; then
     TTS_PROVIDER_NAME=local-miso-one
+    TTS_QUANTIZATION_NAME=${TTS_QUANTIZATION:-none}
   else
     TTS_PROVIDER_NAME=local-vibevoice
+    TTS_QUANTIZATION_NAME=${TTS_QUANTIZATION:-llm-int8}
   fi
 fi
+TTS_QUANTIZATION_NAME=${TTS_QUANTIZATION_NAME:-${TTS_QUANTIZATION:-llm-int8}}
 
 if [[ "${ENABLE_ASR_RUNTIME:-0}" == "1" ]]; then
   ASR_PROVIDER_NAME=local-parakeet
@@ -63,12 +66,12 @@ if [[ "${ENABLE_ASR_RUNTIME:-0}" == "1" ]]; then
 fi
 if [[ "${ENABLE_TTS_RUNTIME:-0}" == "1" ]]; then
   if [[ "$TTS_RUNTIME" == "miso-one" ]]; then
-    tmux new-window -t "$SESSION" -n tts "cd '$ROOT_DIR' && TTS_PORT=$TTS_PORT TTS_MODEL=${TTS_MODEL:-MisoLabs/MisoTTS} TTS_DTYPE=${TTS_DTYPE:-bfloat16} TTS_QUANTIZATION=${TTS_QUANTIZATION:-llm-int8} MISO_LORA_ADAPTER=${MISO_LORA_ADAPTER:-artifacts/miso-lora/adapters/miso-one-lora-dev} npm run dev:tts:miso-one"
+    tmux new-window -t "$SESSION" -n tts "cd '$ROOT_DIR' && TTS_PORT=$TTS_PORT TTS_MODEL=${TTS_MODEL:-MisoLabs/MisoTTS} TTS_DTYPE=${TTS_DTYPE:-bfloat16} TTS_QUANTIZATION=$TTS_QUANTIZATION_NAME MISO_LORA_ADAPTER=${MISO_LORA_ADAPTER:-artifacts/miso-lora/adapters/miso-one-lora-dev} npm run dev:tts:miso-one"
   else
-    tmux new-window -t "$SESSION" -n tts "cd '$ROOT_DIR' && TTS_PORT=$TTS_PORT TTS_MODEL=${TTS_MODEL:-microsoft/VibeVoice-Realtime-0.5B} TTS_DTYPE=${TTS_DTYPE:-bfloat16} TTS_QUANTIZATION=${TTS_QUANTIZATION:-llm-int8} npm run dev:tts:realtime"
+    tmux new-window -t "$SESSION" -n tts "cd '$ROOT_DIR' && TTS_PORT=$TTS_PORT TTS_MODEL=${TTS_MODEL:-microsoft/VibeVoice-Realtime-0.5B} TTS_DTYPE=${TTS_DTYPE:-bfloat16} TTS_QUANTIZATION=$TTS_QUANTIZATION_NAME npm run dev:tts:realtime"
   fi
 fi
-tmux new-window -t "$SESSION" -n agent "cd '$ROOT_DIR' && TOKEN_SERVER_URL=http://127.0.0.1:$TOKEN_PORT LIVEKIT_ROOM=$ROOM AGENT_MODE=$AGENT_MODE_NAME AGENT_TRANSPORT=livekit AGENT_PLANNER=local-llm AGENT_PLANNER_FAIL_CLOSED=$PROOF_MODE LLM_PROVIDER=qwen-openai-local LLM_BASE_URL=http://127.0.0.1:$LLM_PORT/v1 LLM_MODEL=$LLM_MODEL_NAME ASR_PROVIDER=$ASR_PROVIDER_NAME ASR_BASE_URL=http://127.0.0.1:$ASR_PORT MOSS_PROVIDER=local-runtime-client MOSS_RUNTIME_URL=http://127.0.0.1:$MOSS_PORT TTS_PROVIDER=$TTS_PROVIDER_NAME TTS_BASE_URL=http://127.0.0.1:$TTS_PORT TTS_MODEL=${TTS_MODEL:-MisoLabs/MisoTTS} TTS_REAL_MODEL_PROOF=$PROOF_MODE TTS_DTYPE=${TTS_DTYPE:-bfloat16} TTS_QUANTIZATION=${TTS_QUANTIZATION:-llm-int8} TTS_CACHE_DIR=${TTS_CACHE_DIR:-artifacts/cache/tts} MISO_LORA_ADAPTER=${MISO_LORA_ADAPTER:-artifacts/miso-lora/adapters/miso-one-lora-dev} npm run dev:agent:livekit"
+tmux new-window -t "$SESSION" -n agent "cd '$ROOT_DIR' && TOKEN_SERVER_URL=http://127.0.0.1:$TOKEN_PORT LIVEKIT_ROOM=$ROOM AGENT_MODE=$AGENT_MODE_NAME AGENT_TRANSPORT=livekit AGENT_PLANNER=local-llm AGENT_PLANNER_FAIL_CLOSED=$PROOF_MODE LLM_PROVIDER=qwen-openai-local LLM_BASE_URL=http://127.0.0.1:$LLM_PORT/v1 LLM_MODEL=$LLM_MODEL_NAME ASR_PROVIDER=$ASR_PROVIDER_NAME ASR_BASE_URL=http://127.0.0.1:$ASR_PORT MOSS_PROVIDER=local-runtime-client MOSS_RUNTIME_URL=http://127.0.0.1:$MOSS_PORT TTS_PROVIDER=$TTS_PROVIDER_NAME TTS_BASE_URL=http://127.0.0.1:$TTS_PORT TTS_MODEL=${TTS_MODEL:-MisoLabs/MisoTTS} TTS_REAL_MODEL_PROOF=$PROOF_MODE TTS_DTYPE=${TTS_DTYPE:-bfloat16} TTS_QUANTIZATION=$TTS_QUANTIZATION_NAME TTS_CACHE_DIR=${TTS_CACHE_DIR:-artifacts/cache/tts} MISO_LORA_ADAPTER=${MISO_LORA_ADAPTER:-artifacts/miso-lora/adapters/miso-one-lora-dev} npm run dev:agent:livekit"
 tmux new-window -t "$SESSION" -n lab "cd '$ROOT_DIR' && PORT=$LAB_PORT TOKEN_SERVER_URL=http://127.0.0.1:$TOKEN_PORT LIVEKIT_ROOM=$ROOM npm run dev:lab"
 
 echo "Started tmux session: $SESSION"

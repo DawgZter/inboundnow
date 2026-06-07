@@ -25,12 +25,19 @@ if ! nvidia-smi --query-gpu=name --format=csv,noheader | grep -qi "H100"; then
 fi
 
 export MISO_TTS_REPO_DIR="${MISO_TTS_REPO_DIR:-artifacts/vendor/MisoTTS}"
-export TTS_MODEL="${TTS_MODEL:-MisoLabs/MisoTTS}"
+DEFAULT_MISO_MODEL="MisoLabs/MisoTTS"
+if [[ -d "artifacts/models/MisoLabs-MisoTTS" ]]; then
+  DEFAULT_MISO_MODEL="artifacts/models/MisoLabs-MisoTTS"
+fi
+export TTS_MODEL="${TTS_MODEL:-${MISO_TTS_8B_MODEL:-$DEFAULT_MISO_MODEL}}"
+export MISO_TTS_8B_MODEL="${MISO_TTS_8B_MODEL:-$TTS_MODEL}"
 export TTS_HOST="${TTS_HOST:-127.0.0.1}"
 export TTS_PORT="${TTS_PORT:-4331}"
 export TTS_DTYPE="${TTS_DTYPE:-bfloat16}"
-export TTS_QUANTIZATION="${TTS_QUANTIZATION:-llm-int8}"
+export TTS_QUANTIZATION="${TTS_QUANTIZATION:-none}"
 export TTS_CACHE_DIR="${TTS_CACHE_DIR:-artifacts/cache/miso-one-tts}"
+export HF_HOME="${HF_HOME:-$TTS_CACHE_DIR/huggingface}"
+export HF_HUB_CACHE="${HF_HUB_CACHE:-$HF_HOME/hub}"
 export MISO_LORA_ADAPTER="${MISO_LORA_ADAPTER:-artifacts/miso-lora/adapters/miso-one-lora-dev}"
 
 echo "Starting Miso One/MisoTTS local endpoint:"
@@ -39,9 +46,11 @@ echo "  url: http://$TTS_HOST:$TTS_PORT"
 echo "  repo: $MISO_TTS_REPO_DIR"
 echo "  lora adapter metadata: $MISO_LORA_ADAPTER"
 echo "  require lora weights: ${MISO_REQUIRE_LORA:-0}"
+echo "  hf cache: $HF_HUB_CACHE"
 echo
 echo "This wrapper exposes /health, /prewarm, and /v1/tts/stream for the"
 echo "InboundNow local TTS adapter. It reports LoRA adapter application honestly;"
-echo "metadata alone is not treated as cloned-voice proof."
+echo "metadata alone is not treated as cloned-voice proof, and quantization is"
+echo "reported as unsupported until the public MisoTTS loader exposes that path."
 
 python scripts/vast-h100/miso-one-tts-server.py

@@ -4,7 +4,7 @@ import { readFile } from "node:fs/promises";
 
 const PORT = Number(process.env.PORT || 4188);
 const PREFIX = "/__remote";
-const DEFAULT_TARGET = "https://remote.com/";
+const DEFAULT_TARGET = process.env.REMOTE_TARGET_URL || process.env.TARGET_URL || "https://remote.com/";
 const CAL_EMBED_URL = process.env.CAL_URL || "https://cal.com/remote";
 const TOKEN_SERVER_URL = process.env.TOKEN_SERVER_URL || "http://127.0.0.1:4301";
 const LIVEKIT_ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
@@ -1218,6 +1218,8 @@ function injectedOpenClickyWeb() {
         requestId: message.requestId || '',
         provider: message.provider || '',
         proofLevel: message.proofLevel || 'contract',
+        localMisoOneProven: !!message.localMisoOneProven,
+        localVibeVoiceProven: !!message.localVibeVoiceProven,
         format: message.format || '',
         sampleRate: message.sampleRate || null,
         cacheHit: !!message.cacheHit,
@@ -1233,6 +1235,8 @@ function injectedOpenClickyWeb() {
         sequence: Number(message.sequence || 0),
         provider: message.provider || '',
         proofLevel: message.proofLevel || 'contract',
+        localMisoOneProven: !!message.localMisoOneProven,
+        localVibeVoiceProven: !!message.localVibeVoiceProven,
         format: message.format || '',
         sampleRate: message.sampleRate || null,
         bytesApprox: Math.floor(String(message.audioBase64 || message.audio || '').length * 0.75),
@@ -1290,6 +1294,8 @@ function injectedOpenClickyWeb() {
         requestId: message.requestId || '',
         provider: message.provider || '',
         proofLevel: message.proofLevel || 'contract',
+        localMisoOneProven: !!message.localMisoOneProven,
+        localVibeVoiceProven: !!message.localVibeVoiceProven,
         chunkCount: Number(message.chunkCount || 0),
         firstAudioMs: message.firstAudioMs,
         scheduledChunks: modelAudioState.chunkCount,
@@ -1719,6 +1725,11 @@ function injectedOpenClickyWeb() {
         emit('asrFinalReceived', {
           requestId: message.requestId || '',
           provider: message.provider || '',
+          model: message.model || '',
+          proof: message.proof || '',
+          source: message.source || '',
+          transcript: message.transcript || '',
+          confidence: message.confidence ?? null,
           simulated: !!message.simulated,
           chars: String(message.transcript || '').length
         });
@@ -1772,6 +1783,7 @@ function injectedOpenClickyWeb() {
         emit('agentAnswerReceived', {
           intent: message.intent || '',
           simulated: !!message.simulated,
+          planner: message.planner || null,
           adapters: message.adapters || {},
           voiceProfile: activeVoiceProfile,
           voiceSwitch: message.voiceSwitch || null,

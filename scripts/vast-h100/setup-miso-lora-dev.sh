@@ -17,21 +17,18 @@ if ! nvidia-smi --query-gpu=name --format=csv,noheader | grep -qi "H100"; then
   fi
 fi
 
-python3 -m venv .venv-miso-lora
+PYTHON_BIN="${PYTHON_BIN:-python3.10}"
+if ! command -v "$PYTHON_BIN" >/dev/null 2>&1; then
+  PYTHON_BIN=python3
+fi
+"$PYTHON_BIN" - <<'PY'
+import sys
+if sys.version_info < (3, 10) or sys.version_info >= (3, 13):
+    raise SystemExit("MisoTTS requires Python >=3.10,<3.13; got %s" % (sys.version.split()[0],))
+PY
+"$PYTHON_BIN" -m venv .venv-miso-lora
 source .venv-miso-lora/bin/activate
 python -m pip install --upgrade pip wheel setuptools
-python -m pip install \
-  "torch" \
-  "torchaudio" \
-  "transformers>=4.50" \
-  "accelerate" \
-  "peft" \
-  "bitsandbytes" \
-  "datasets" \
-  "soundfile" \
-  "librosa" \
-  "huggingface_hub" \
-  "safetensors"
 
 MISO_TTS_REPO_DIR="${MISO_TTS_REPO_DIR:-artifacts/vendor/MisoTTS}"
 if [[ ! -d "$MISO_TTS_REPO_DIR/.git" ]]; then
@@ -39,6 +36,13 @@ if [[ ! -d "$MISO_TTS_REPO_DIR/.git" ]]; then
   git clone https://github.com/MisoLabsAI/MisoTTS.git "$MISO_TTS_REPO_DIR"
 fi
 python -m pip install -e "$MISO_TTS_REPO_DIR"
+python -m pip install \
+  "accelerate" \
+  "peft" \
+  "bitsandbytes" \
+  "datasets" \
+  "huggingface_hub" \
+  "safetensors"
 
 python - <<'PY'
 from huggingface_hub import snapshot_download

@@ -76,7 +76,7 @@ Latency controls:
 - `TTS_PREWARM_TEXT`: warmup text for the local endpoint.
 - `TTS_CACHE_DIR`: local artifact cache for prompt/audio reuse.
 - `TTS_DTYPE`: model dtype hint; default `bfloat16` for the H100 lane.
-- `TTS_QUANTIZATION`: `none`, `llm-int8`, or `llm-int4`. The quantization policies intentionally target only the LLM trunk and preserve audio decoder precision to avoid unfair whole-model quantization quality loss.
+- `TTS_QUANTIZATION`: `none`, `llm-int8`, or `llm-int4`. For compatible endpoints that support it, quantization policies intentionally target only the LLM trunk and preserve audio decoder precision to avoid unfair whole-model quantization quality loss. The current public MisoTTS wrapper defaults to `none` and reports Miso quantization as unsupported until a real implementation exists.
 - `TTS_VOICE_STYLE`: voice style hint included in the local endpoint payload and cache key.
 - `TTS_LORA_ADAPTER` / `MISO_LORA_ADAPTER`: local adapter path included in the endpoint payload and cache key.
 
@@ -86,12 +86,12 @@ Current verified behavior:
 - With `local-miso-one` or `local-vibevoice` model audio enabled, the worker emits caption-only `agent.speech.*` immediately, starts a local model-audio stream in parallel, and emits `agent.tts.start/chunk/end` with base64 PCM16 chunks.
 - Browser actions are allowed to overlap pending or playing model audio for latency. The action bus must not wait for a slow prewarm or first audio chunk.
 - The browser suppresses duplicate `speechSynthesis` while model audio is active, schedules PCM16 chunks with Web Audio, buffers out-of-order chunks until the missing sequence arrives, ignores duplicate chunks, and ignores stale chunks after interruption.
-- Fake endpoint smokes are `proofLevel: contract` and must keep model-proof flags false. Set `TTS_REAL_MODEL_PROOF=1` only in an H100 evidence run that is explicitly being captured as real model proof.
+- Fake endpoint smokes are `proofLevel: contract` and must keep model-proof flags false. Set `TTS_REAL_MODEL_PROOF=1` only in an H100 evidence run that is explicitly being captured as real model proof, and pair it with endpoint health plus browser playback evidence.
 
 `vibevoice-stub` and browser `speechSynthesis` are only demo fallbacks and
 must not be described as VibeVoice proof.
 
-`local-miso-one` is configured with `TTS_PROVIDER=local-miso-one`; `TTS_BASE_URL` must point at localhost. `npm run smoke:tts:miso-one` or `npm run smoke:tts:h100` must pass against a real H100-local Miso endpoint before calling it generated-audio proof, and `MISO_REQUIRE_LORA=1` plus applied-adapter evidence is required before calling it cloned-voice proof. `local-vibevoice` and `npm run smoke:tts:vibevoice` remain legacy compatibility proof only.
+`local-miso-one` is configured with `TTS_PROVIDER=local-miso-one`; `TTS_BASE_URL` must point at localhost. `npm run smoke:tts:miso-one` or `npm run smoke:tts:h100` must pass against a real H100-local Miso endpoint before calling it generated-audio proof. `MISO_REQUIRE_LORA=1` is a fail-closed clone-proof gate until a real MisoTTS LoRA loader exists; cloned-voice proof requires applied-adapter evidence such as `loraAdapterApplied: true`. `local-vibevoice` and `npm run smoke:tts:vibevoice` remain legacy compatibility proof only.
 
 ## Dynamic Voice Session Adapter
 
