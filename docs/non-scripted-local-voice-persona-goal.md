@@ -54,7 +54,7 @@ The target experience is simple: open the local website lab, click to start the 
 - Replace the hardcoded deterministic router as the main path with a local planner loop.
 - The planner loop must use ASR transcript, page snapshot, local Moss snippets, conversation state, booking state, voice state, and the typed action schema.
 - The planner must output validated JSON only: answer plus typed OpenClicky-Web actions.
-- Invalid planner output must fall back safely before any action is executed.
+- Invalid planner output must fall back safely before any action is executed; in H100 proof mode, weak ASR/Moss/planner/TTS proof must fail closed before answer/action instead of falling back into a demo path.
 - Demote or remove scripted macros such as `payrollFlow` from the main success path. Prefer primitive typed actions: scroll, highlight, click, caption, prompt, safe navigation, and booking confirmation.
 - Wire local Qwen 3.6 27B planner support through vLLM or SGLang with an OpenAI-compatible API.
 - Wire local Miso One/MisoTTS streaming TTS into the worker and browser playback path.

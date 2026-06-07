@@ -224,6 +224,8 @@ try {
     TOKEN_SERVER_PORT: String(tokenPort),
     LIVEKIT_ROOM: room,
   });
+  const health = await waitForJson(tokenServerUrl + "/health");
+  assert.equal(health.ok, true);
   spawnLogged("agent", "node", ["apps/agent/worker.mjs"], {
     TOKEN_SERVER_URL: tokenServerUrl,
     LIVEKIT_ROOM: room,
@@ -245,8 +247,6 @@ try {
     OPENCLICKY_INJECT_HOSTS: "127.0.0.1,localhost",
   });
 
-  const health = await waitForJson(tokenServerUrl + "/health");
-  assert.equal(health.ok, true);
   await waitForHttp(labUrl + "/__ocw-assets/clicky-cursor.svg");
 
   browser = await chromium.launch({ headless: true });
@@ -265,8 +265,15 @@ try {
   await page.evaluate(() => window.OpenClickyWeb.setVoiceProfile("warm"));
   await page.waitForFunction(() => document.querySelector('[data-ocw-chip="voice"]')?.textContent.includes("Warm consultative"), null, { timeout: 5000 });
 
+  await page.evaluate(() => window.OpenClickyWeb.connectAgentTransport());
+  await page.waitForFunction(() => {
+    const debug = window.OpenClickyWeb.debugState();
+    const root = document.querySelector("#ocw-root");
+    return debug.bridgeReady && root?.dataset.agentState === "online";
+  }, null, { timeout: 20_000 });
+
   await page.evaluate(() => window.OpenClickyWeb.startVoiceTurn());
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrStatusReceived" && event.detail.status === "listening"), null, { timeout: 12_000 });
+  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrStatusReceived" && event.detail.status === "listening"), null, { timeout: 20_000 });
   const listening = await readUiState(page);
   assert.match(listening.asrChip, /listening/);
   assert.match(listening.turnChip, /listening/);

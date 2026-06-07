@@ -15,6 +15,7 @@ const query = process.env.PERSONA_SMOKE_QUERY || "How does Remote help with glob
 const audioPath = process.env.ASR_SMOKE_AUDIO_PATH || "";
 const expectedPattern = new RegExp(process.env.ASR_EXPECTED_PATTERN || "global payroll|Remote|payroll", "i");
 const mossRuntimeUrl = process.env.MOSS_RUNTIME_URL || "http://127.0.0.1:4321";
+const requireMisoLora = flag(process.env.MISO_REQUIRE_LORA || process.env.TTS_REQUIRE_LORA || process.env.MISO_LORA_PROOF);
 
 function flag(value) {
   return ["1", "true", "yes", "on"].includes(String(value || "").trim().toLowerCase());
@@ -58,6 +59,7 @@ async function collectTtsStream(adapter, text) {
     events.push(event);
   }
   const chunks = events.filter((event) => event.type === "chunk");
+  const audioEvents = events.filter((event) => event.audio || event.audioBase64);
   return {
     eventCount: events.length,
     chunkCount: chunks.length,
@@ -68,7 +70,19 @@ async function collectTtsStream(adapter, text) {
     format: events.find((event) => event.format)?.format || chunks[0]?.format || null,
     firstEvent: events[0] || null,
     lastEvent: events.at(-1) || null,
+    firstAudioEvent: audioEvents[0] || null,
+    lastAudioEvent: audioEvents.at(-1) || null,
   };
+}
+
+function assertVerifiedMisoEvent(event, label, requireAudio = false) {
+  assert.equal(event?.provider, "local-miso-one", label + " provider");
+  assert.equal(event?.localOnly, true, label + " localOnly");
+  assert.match(String(event?.model || ""), /miso/i, label + " model");
+  assert.match(String(event?.device || ""), /cuda/i, label + " device");
+  assert.match(String(event?.gpuName || event?.gpu || ""), /h100/i, label + " gpu");
+  if (requireMisoLora) assert.equal(event?.loraAdapterApplied, true, label + " LoRA applied");
+  if (requireAudio) assert.ok(event?.audio || event?.audioBase64, label + " audio");
 }
 
 if (!audioPath) {
@@ -97,7 +111,7 @@ const statuses = adapterStatusMap(adapters);
 assert.equal(statuses.asr.provider, "local-parakeet");
 assert.equal(statuses.llm.provider, "qwen-openai-local");
 assert.equal(statuses.moss.provider, "local-runtime-client");
-assert.ok(["local-miso-one", "local-vibevoice"].includes(statuses.tts.provider));
+assert.equal(statuses.tts.provider, "local-miso-one");
 
 const [asrHealth, mossHealth, ttsHealth] = await Promise.all([
   adapters.asr.health(),
@@ -107,6 +121,8 @@ const [asrHealth, mossHealth, ttsHealth] = await Promise.all([
 assert.equal(asrHealth.localOnly, true);
 assert.equal(mossHealth.localOnly, true);
 assert.equal(ttsHealth.ok, true);
+assert.equal(ttsHealth.localOnly, true);
+assert.equal(ttsHealth.provider, "local-miso-one");
 
 const audioBase64 = (await readFile(audioPath)).toString("base64");
 const asr = await adapters.asr.transcribe({
@@ -153,6 +169,8 @@ const ttsPrewarm = await adapters.tts.prewarm();
 const tts = await collectTtsStream(adapters.tts, planResult.plan.answer);
 assert.ok(tts.chunkCount > 0, "expected streamed local TTS audio chunks");
 assert.ok(tts.firstAudioMs !== null, "expected first audio latency");
+assertVerifiedMisoEvent(tts.firstEvent, "first TTS event", false);
+assertVerifiedMisoEvent(tts.lastAudioEvent, "last TTS audio event", true);
 
 const result = {
   ok: true,

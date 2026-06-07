@@ -94,7 +94,13 @@ async function runIndexer() {
 }
 
 function assertRemoteRetrieval(result) {
-  assert.equal(result.provider, "local-artifact");
+  if (result.adapterProvider === "local-runtime-client" || result.upstreamProvider) {
+    assert.equal(result.provider, "local-runtime-client");
+    assert.equal(result.upstreamProvider, "local-artifact");
+    assert.equal(result.adapterProvider, "local-runtime-client");
+  } else {
+    assert.equal(result.provider, "local-artifact");
+  }
   assert.equal(result.localOnly, true);
   assert.equal(result.simulated, false);
   assert.equal(result.artifact.schema, "inboundnow.local-retrieval.v1");

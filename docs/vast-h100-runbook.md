@@ -148,6 +148,8 @@ Latency and quality knobs:
 - `MISO_LORA_ADAPTER=artifacts/miso-lora/adapters/miso-one-lora-dev` points to the local LoRA adapter metadata/weights path.
 - `MISO_REQUIRE_LORA=1` is intentionally fail-closed until a real MisoTTS LoRA loader is implemented. It should be used as the cloned-voice proof gate, not as a base-audio smoke flag.
 
+The endpoint must report proof metadata from generation events, not only from environment variables: `provider: local-miso-one`, `localOnly: true`, Miso model name, `device: cuda`, an H100 `gpuName`, non-empty audio bytes, sample rate/format, fresh generation/cache metadata, and `loraAdapterApplied: true` when clone proof is required. `H100_PROOF_MODE=1` rejects contract-only TTS proof before the worker emits answer/action events.
+
 Smoke the endpoint from another instance shell:
 
     npm run smoke:tts:miso-one

@@ -24,7 +24,7 @@ function normalizeTranscription(payload = {}, fallbackProvider = "local-parakeet
   return {
     transcript: text,
     final: payload.final !== false,
-    simulated: false,
+    simulated: payload.simulated === true,
     provider: payload.provider || fallbackProvider,
     model: payload.model || DEFAULT_MODEL,
     language: payload.language || payload.lang || "en",

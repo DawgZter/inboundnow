@@ -29,8 +29,13 @@ export function createLocalRuntimeMossClient(env = process.env) {
         throw new Error(`Local Moss runtime returned HTTP ${response.status}`);
       }
 
-      return response.json();
+      const payload = await response.json();
+      return {
+        ...payload,
+        provider: "local-runtime-client",
+        upstreamProvider: payload.provider || "",
+        adapterProvider: "local-runtime-client",
+      };
     },
   };
 }
-

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import base64
+import hashlib
 import inspect
 import json
 import os
@@ -96,6 +97,16 @@ def tensor_to_pcm16(audio):
     return pcm
 
 
+def device_name():
+    return "cuda" if torch.cuda.is_available() else "cpu"
+
+
+def gpu_name():
+    if not torch.cuda.is_available():
+        return ""
+    return torch.cuda.get_device_name(0)
+
+
 def stream_ndjson(handler, events):
     handler.send_response(200)
     handler.send_header("content-type", "application/x-ndjson")
@@ -131,7 +142,8 @@ class Handler(BaseHTTPRequestHandler):
                 "repoDir": str(VENDOR_DIR),
                 "loaded": generator is not None,
                 "loadedAt": generator_loaded_at,
-                "device": "cuda" if torch.cuda.is_available() else "cpu",
+                "device": device_name(),
+                "gpuName": gpu_name(),
                 "loraMode": "required" if REQUIRE_LORA else "optional",
                 "dtype": TTS_DTYPE,
                 "quantization": TTS_QUANTIZATION,
@@ -174,8 +186,8 @@ class Handler(BaseHTTPRequestHandler):
                     )
                 sample_rate = int(getattr(gen, "sample_rate", 24000))
                 pcm = tensor_to_pcm16(audio)
-                events = [{
-                    "type": "start",
+                audio_sha256 = hashlib.sha256(pcm).hexdigest()
+                common = {
                     "provider": "local-miso-one",
                     "model": MODEL,
                     "voice": payload.get("voice") or "miso-one-lora-dev",
@@ -191,25 +203,33 @@ class Handler(BaseHTTPRequestHandler):
                     "cacheKey": payload.get("cacheKey") or "",
                     "cacheHit": False,
                     "localOnly": True,
-                    "firstAudioMs": round((time.time() - started) * 1000),
+                    "device": device_name(),
+                    "gpuName": gpu_name(),
+                    "pcmBytes": len(pcm),
+                    "audioSha256": audio_sha256,
+                    "generationSource": "fresh-model",
                     "boundary": "This wrapper uses local MisoTTS inference. LoRA adapter loading is reported separately and is not implied by loraAdapter metadata.",
+                }
+                events = [{
+                    **common,
+                    "type": "start",
+                    "firstAudioMs": round((time.time() - started) * 1000),
                 }]
                 for index in range(0, len(pcm), CHUNK_BYTES):
+                    chunk = pcm[index:index + CHUNK_BYTES]
                     events.append({
+                        **common,
                         "type": "chunk",
                         "sequence": index // CHUNK_BYTES,
-                        "audio": base64.b64encode(pcm[index:index + CHUNK_BYTES]).decode("ascii"),
-                        "format": "pcm16",
-                        "sampleRate": sample_rate,
-                        "channels": 1,
+                        "audio": base64.b64encode(chunk).decode("ascii"),
+                        "byteLength": len(chunk),
+                        "chunkSha256": hashlib.sha256(chunk).hexdigest(),
                     })
                 events.append({
+                    **common,
                     "type": "end",
                     "chunkCount": max(0, len(events) - 1),
                     "totalMs": round((time.time() - started) * 1000),
-                    "format": "pcm16",
-                    "sampleRate": sample_rate,
-                    "channels": 1,
                 })
                 stream_ndjson(self, events)
                 return

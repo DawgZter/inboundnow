@@ -61,6 +61,7 @@ test("local Parakeet adapter posts audio to localhost and normalizes transcript 
         language: body.language,
         confidence: 0.93,
         final: true,
+        simulated: body.requestId === "asr_simulated",
       }));
       return;
     }
@@ -103,6 +104,15 @@ test("local Parakeet adapter posts audio to localhost and normalizes transcript 
     assert.equal(seen[0].sampleRate, 16000);
     assert.equal(seen[0].model, "nvidia/parakeet-tdt-0.6b-v3");
     assert.ok(seen[0].audioBase64);
+
+    const simulated = await registry.asr.transcribe({
+      requestId: "asr_simulated",
+      audioBase64: Buffer.from("fake wav").toString("base64"),
+      mimeType: "audio/wav",
+    });
+
+    assert.equal(simulated.simulated, true);
+    assert.equal(seen.length, 2);
     await assert.rejects(
       () => registry.asr.transcribe({ audioPath: "https://example.com/audio.wav" }),
       /audioPath must be a local filesystem path/,

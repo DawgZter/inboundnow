@@ -85,8 +85,14 @@ async function runIndexer() {
   return JSON.parse(await readFile(indexPath, "utf8"));
 }
 
-function assertArtifactResult(result) {
-  assert.equal(result.provider, "local-artifact");
+function assertArtifactResult(result, options = {}) {
+  if (options.runtimeClient) {
+    assert.equal(result.provider, "local-runtime-client");
+    assert.equal(result.upstreamProvider, "local-artifact");
+    assert.equal(result.adapterProvider, "local-runtime-client");
+  } else {
+    assert.equal(result.provider, "local-artifact");
+  }
   assert.equal(result.localOnly, true);
   assert.equal(result.simulated, false);
   assert.equal(result.artifact.schema, "inboundnow.local-retrieval.v1");
@@ -154,7 +160,7 @@ try {
     MOSS_RUNTIME_URL: runtimeUrl,
   });
   const registryQuery = await registry.moss.query(query, { topK: 3 });
-  assertArtifactResult(registryQuery);
+  assertArtifactResult(registryQuery, { runtimeClient: true });
 
   const result = {
     ok: true,

@@ -26,6 +26,7 @@ const headless = process.env.HEADLESS !== "0";
 const allowNonH100 = ["1", "true", "yes", "on"].includes(String(process.env.ALLOW_NON_H100 || "").toLowerCase());
 const allowRemoteTarget = ["1", "true", "yes", "on"].includes(String(process.env.ALLOW_REMOTE_TARGET || "").toLowerCase());
 const requireManualMic = ["1", "true", "yes", "on"].includes(String(process.env.REQUIRE_MANUAL_MIC || "").toLowerCase());
+const requireMisoLora = ["1", "true", "yes", "on"].includes(String(process.env.MISO_REQUIRE_LORA || process.env.TTS_REQUIRE_LORA || process.env.MISO_LORA_PROOF || "").toLowerCase());
 const children = [];
 let browser;
 let targetServer;
@@ -250,6 +251,25 @@ function assertNoStubProof(state) {
   assert.equal(answer.detail.retrieval?.provider, "local-runtime-client", "retrieval provider must be local runtime client");
   assert.equal(answer.detail.retrieval?.simulated, false, "retrieval must not be fixture-simulated");
   assert.ok(Number(answer.detail.retrieval?.count || 0) > 0, "retrieval must include snippets");
+  assert.equal(answer.detail.retrieval?.localOnly, true, "retrieval must report localOnly=true");
+  assert.equal(answer.detail.retrieval?.error || "", "", "retrieval must not report an error");
+  assert.equal(answer.detail.retrieval?.upstreamProvider || "local-artifact", "local-artifact", "retrieval must use local artifact upstream");
+  assert.ok(Number(answer.detail.retrieval?.artifact?.documentCount || 0) > 0, "retrieval must include local artifact metadata");
+}
+
+function isVerifiedMisoEndpointDetail(detail = {}, requireAudio = false) {
+  const audioBytes = Number(detail.bytesApprox || detail.byteLength || 0);
+  const model = String(detail.model || "");
+  const device = String(detail.device || "");
+  const gpuName = String(detail.gpuName || "");
+  return detail.provider === "local-miso-one" &&
+    detail.proofLevel === "verified" &&
+    detail.localOnly === true &&
+    /miso/i.test(model) &&
+    /cuda/i.test(device) &&
+    /h100/i.test(gpuName) &&
+    (!requireAudio || audioBytes > 0) &&
+    (!requireMisoLora || detail.loraAdapterApplied === true);
 }
 
 await mkdir(artifactDir, { recursive: true });
@@ -364,10 +384,10 @@ try {
   assertNoStubProof(answered);
   assert.equal(hasEvent(answered, "speechStreamStarted", (detail) => detail.provider === "local-miso-one" && detail.modelAudio === true), true, "speech stream must be model-audio mode");
   assert.equal(hasEvent(answered, "speechStreamStarted", (detail) => detail.provider === "browser-speech-fallback"), false, "browser speech fallback cannot satisfy H100 proof");
-  assert.equal(hasEvent(answered, "ttsAudioStreamStarted", (detail) => detail.provider === "local-miso-one" && detail.proofLevel === "verified"), true, "TTS stream must be verified local Miso One");
-  assert.equal(hasEvent(answered, "ttsAudioChunkReceived", (detail) => detail.provider === "local-miso-one" && detail.proofLevel === "verified" && detail.bytesApprox > 0), true, "TTS chunks must be verified local Miso audio");
+  assert.equal(hasEvent(answered, "ttsAudioStreamStarted", (detail) => isVerifiedMisoEndpointDetail(detail, false)), true, "TTS stream must include verified local Miso One endpoint evidence");
+  assert.equal(hasEvent(answered, "ttsAudioChunkReceived", (detail) => isVerifiedMisoEndpointDetail(detail, true)), true, "TTS chunks must include verified local Miso audio evidence");
   assert.equal(hasEvent(answered, "ttsAudioChunkScheduled", (detail) => detail.provider === "local-miso-one" && detail.durationMs > 0), true, "verified Miso PCM chunks must be scheduled for playback");
-  assert.equal(hasEvent(answered, "ttsAudioStreamEnded", (detail) => detail.provider === "local-miso-one" && detail.proofLevel === "verified" && detail.localMisoOneProven === true), true, "TTS end must mark local Miso One proven");
+  assert.equal(hasEvent(answered, "ttsAudioStreamEnded", (detail) => isVerifiedMisoEndpointDetail(detail, true) && detail.localMisoOneProven === true), true, "TTS end must mark local Miso One proven with endpoint evidence");
   assert.equal(hasEvent(answered, "ttsAudioStreamFailed"), false, "TTS stream must not fail");
   assert.equal(hasEvent(answered, "agentAnswerReceived", (detail) => detail.adapters?.tts === "vibevoice-realtime-local"), false, "legacy VibeVoice must not satisfy primary H100 proof");
   const queuedActionTypes = answered.events.filter((event) => event.type === "queued").map((event) => event.detail.type);

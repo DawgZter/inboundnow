@@ -7,6 +7,18 @@ import { audioFrameToPcm16, encodePcm16WavBase64, wavDurationMs } from "../../pa
 import { detectVoiceSwitchIntent, isVoiceSwitchOnly, resolveVoiceProfile } from "../../packages/voice-session/index.mjs";
 import { createAdapterRegistry, adapterLabels, adapterStatusMap } from "./adapters/registry.mjs";
 import { planQuestion } from "./llm-planner.mjs";
+import {
+  ProofModeError,
+  assertH100ProofModeStartup,
+  assertProofModeAsr,
+  assertProofModePlanner,
+  assertProofModeRetrieval,
+  assertProofModeTtsEvent,
+  h100ProofModeEnabled,
+  localTtsModelProvenByEvent,
+  normalizeRetrievalForMessage,
+  ttsProofLevelForEvent,
+} from "./proof-mode.mjs";
 
 const TOKEN_SERVER_URL = process.env.TOKEN_SERVER_URL || "http://127.0.0.1:4301";
 const ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
@@ -16,6 +28,7 @@ const AGENT_TRANSPORT = process.env.AGENT_TRANSPORT || "bridge";
 const CONTROL_TOPIC = process.env.LIVEKIT_CONTROL_TOPIC || "inboundnow.control.v1";
 const SIMULATED_AGENT = !["verified", "real"].includes(MODE);
 const adapters = createAdapterRegistry(process.env);
+assertH100ProofModeStartup({ env: process.env, adapters });
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
 let speechGeneration = 0;
@@ -86,17 +99,7 @@ async function safeRetrieval(question) {
 }
 
 function retrievalForMessage(retrieval) {
-  if (!retrieval) return null;
-  const snippets = Array.isArray(retrieval.snippets) ? retrieval.snippets.slice(0, 3) : [];
-  return {
-    provider: retrieval.provider || "",
-    localOnly: retrieval.localOnly !== false,
-    simulated: !!retrieval.simulated,
-    artifact: retrieval.artifact || null,
-    error: retrieval.error || "",
-    count: snippets.length,
-    snippets,
-  };
+  return normalizeRetrievalForMessage(retrieval);
 }
 
 function speechStreamingEnabled() {
@@ -108,16 +111,19 @@ function localTtsAudioEnabled() {
   return ["local-vibevoice", "local-miso-one"].includes(adapters.tts?.provider) && typeof adapters.tts.stream === "function";
 }
 
-function realLocalTtsModelProofEnabled() {
-  return ["1", "true", "yes", "on"].includes(String(process.env.TTS_REAL_MODEL_PROOF || process.env.VIBEVOICE_REAL_MODEL_PROOF || "0").trim().toLowerCase());
-}
-
-function localTtsProofLevel() {
-  return realLocalTtsModelProofEnabled() ? "verified" : "contract";
+function localTtsProofLevel(event = {}, options = {}) {
+  return ttsProofLevelForEvent(event, {
+    env: process.env,
+    provider: adapters.tts?.provider || "tts",
+    ...options,
+  });
 }
 
 function localTtsModelProven(event = {}) {
-  return localTtsProofLevel() === "verified" && Boolean(event.audio || event.audioBase64 || event.chunkCount);
+  return localTtsModelProvenByEvent(event, {
+    env: process.env,
+    provider: adapters.tts?.provider || "tts",
+  });
 }
 
 async function prewarmLocalTts() {
@@ -136,12 +142,16 @@ function ttsEventPayload(event = {}) {
   return {
     eventType: event.type || "",
     provider: event.provider || adapters.tts?.provider || "tts",
-    proofLevel: localTtsProofLevel(),
+    proofLevel: localTtsProofLevel(event),
     simulated: event.simulated === true ? true : false,
     model: event.model || "",
     voice: event.voice || "",
     style: event.style || "",
     loraAdapter: event.loraAdapter || "",
+    loraAdapterApplied: event.loraAdapterApplied === true,
+    localOnly: event.localOnly === true,
+    device: event.device || event.deviceType || "",
+    gpuName: event.gpuName || event.gpu || "",
     dtype: event.dtype || "",
     quantization: event.quantization || "",
     cacheKey: event.cacheKey || "",
@@ -156,12 +166,83 @@ function ttsEventPayload(event = {}) {
   };
 }
 
-async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transport, answer, adapterStatus, voiceProfile, voiceSwitch, generation }) {
+async function prefetchVerifiedLocalTtsStream({ answer, requestId, voiceProfile, generation }) {
+  if (!speechStreamingEnabled() || !answer) {
+    throw new ProofModeError("proof_mode_tts_invalid", ["H100 proof mode requires speech streaming before answer"]);
+  }
+  if (!localTtsAudioEnabled()) {
+    throw new ProofModeError("proof_mode_tts_invalid", ["H100 proof mode requires local Miso One model-audio streaming"]);
+  }
+
+  await prewarmLocalTts();
+  const source = adapters.tts.stream({ text: answer, requestId, voiceProfile });
+  const iterator = source[Symbol.asyncIterator]();
+  const prefetched = [];
+  let streamMetadata = {};
+  let lastAudioEvent = {};
+
+  while (generation === speechGeneration) {
+    const next = await iterator.next();
+    if (next.done) break;
+    const event = next.value || {};
+    if (event.type === "start") {
+      streamMetadata = {
+        format: event.format || streamMetadata.format || "",
+        sampleRate: event.sampleRate || streamMetadata.sampleRate || null,
+        channels: event.channels || streamMetadata.channels || null,
+      };
+    }
+    const enrichedEvent = { ...streamMetadata, ...event };
+    if (event.type === "start") {
+      assertProofModeTtsEvent(enrichedEvent, {
+        env: process.env,
+        provider: adapters.tts?.provider || "tts",
+        requireAudio: false,
+      });
+    }
+    if (event.type === "chunk") {
+      assertProofModeTtsEvent(enrichedEvent, {
+        env: process.env,
+        provider: adapters.tts?.provider || "tts",
+        requireAudio: true,
+      });
+      lastAudioEvent = enrichedEvent;
+    }
+    prefetched.push(event);
+    if (lastAudioEvent.audio || lastAudioEvent.audioBase64) break;
+  }
+
+  assertProofModeTtsEvent(lastAudioEvent, {
+    env: process.env,
+    provider: adapters.tts?.provider || "tts",
+    requireAudio: true,
+  });
+
+  return { generation, prefetched, iterator };
+}
+
+async function* localTtsEventSource({ answer, requestId, voiceProfile, prefetchedTts }) {
+  if (prefetchedTts) {
+    for (const event of prefetchedTts.prefetched || []) yield event;
+    while (true) {
+      const next = await prefetchedTts.iterator.next();
+      if (next.done) break;
+      yield next.value;
+    }
+    return;
+  }
+
+  await prewarmLocalTts();
+  yield* adapters.tts.stream({ text: answer, requestId, voiceProfile });
+}
+
+async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transport, answer, adapterStatus, voiceProfile, voiceSwitch, generation, prefetchedTts = null }) {
   const ttsStatus = adapterStatus.tts || {};
   let started = false;
   let chunkCount = 0;
   let firstAudioMs = null;
   let lastEvent = {};
+  let lastAudioEvent = {};
   let streamMetadata = {};
 
   function startPayload(event = {}) {
@@ -173,7 +254,7 @@ async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transp
       streaming: true,
       mode: "audio-chunks",
       proof: ttsStatus.proof || "",
-      proofLevel: localTtsProofLevel(),
+      proofLevel: localTtsProofLevel(event, { requireAudio: false }),
       label: ttsStatus.label || "",
       localVibeVoiceProven: false,
       localMisoOneProven: false,
@@ -184,8 +265,7 @@ async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transp
   }
 
   try {
-    await prewarmLocalTts();
-    for await (const event of adapters.tts.stream({ text: answer, requestId, voiceProfile })) {
+    for await (const event of localTtsEventSource({ answer, requestId, voiceProfile, prefetchedTts })) {
       if (generation !== speechGeneration) break;
       if (event.type === "start") {
         streamMetadata = {
@@ -196,13 +276,28 @@ async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transp
       }
       const enrichedEvent = { ...streamMetadata, ...event };
       lastEvent = enrichedEvent;
+      if (event.type === "start") {
+        assertProofModeTtsEvent(enrichedEvent, {
+          env: process.env,
+          provider: adapters.tts?.provider || "tts",
+          requireAudio: false,
+        });
+      }
+      if (event.type === "chunk") {
+        assertProofModeTtsEvent(enrichedEvent, {
+          env: process.env,
+          provider: adapters.tts?.provider || "tts",
+          requireAudio: true,
+        });
+      }
       if (!started) {
-        await sendReply(startPayload(event.type === "start" ? enrichedEvent : streamMetadata));
+        await sendReply(startPayload(enrichedEvent));
         started = true;
       }
       if (event.type === "chunk") {
         chunkCount += 1;
         if (firstAudioMs === null && event.firstAudioMs !== undefined) firstAudioMs = event.firstAudioMs;
+        lastAudioEvent = enrichedEvent;
         await sendReply({
           type: "agent.tts.chunk",
           requestId,
@@ -211,7 +306,7 @@ async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transp
           sequence: Number(event.sequence ?? chunkCount - 1),
           audio: event.audio || "",
           audioBase64: event.audio || event.audioBase64 || "",
-          proofLevel: localTtsProofLevel(),
+          proofLevel: localTtsProofLevel(enrichedEvent, { requireAudio: true }),
           localVibeVoiceProven: localTtsModelProven(enrichedEvent),
           localMisoOneProven: adapters.tts?.provider === "local-miso-one" && localTtsModelProven(enrichedEvent),
           ...ttsEventPayload(enrichedEvent),
@@ -221,17 +316,23 @@ async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transp
     }
 
     if (generation === speechGeneration && started) {
+      const proofEvent = { ...lastEvent, ...lastAudioEvent, chunkCount };
+      assertProofModeTtsEvent(proofEvent, {
+        env: process.env,
+        provider: adapters.tts?.provider || "tts",
+        requireAudio: true,
+      });
       await sendReply({
         type: "agent.tts.end",
         requestId,
         sessionId,
         transport,
-        ...ttsEventPayload(lastEvent),
+        ...ttsEventPayload(proofEvent),
         chunkCount,
         firstAudioMs,
-        proofLevel: localTtsProofLevel(),
-        localVibeVoiceProven: localTtsModelProven({ ...lastEvent, chunkCount }),
-        localMisoOneProven: adapters.tts?.provider === "local-miso-one" && localTtsModelProven({ ...lastEvent, chunkCount }),
+        proofLevel: localTtsProofLevel(proofEvent, { requireAudio: true }),
+        localVibeVoiceProven: localTtsModelProven(proofEvent),
+        localMisoOneProven: adapters.tts?.provider === "local-miso-one" && localTtsModelProven(proofEvent),
         voiceProfile,
       });
     }
@@ -253,10 +354,10 @@ async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transp
   }
 }
 
-async function sendSpeechStream(sendReply, { requestId, sessionId, transport, answer, adapterStatus, voiceProfile, voiceSwitch }) {
+async function sendSpeechStream(sendReply, { requestId, sessionId, transport, answer, adapterStatus, voiceProfile, voiceSwitch, prefetchedTts = null }) {
   if (!speechStreamingEnabled() || !answer) return;
 
-  const generation = ++speechGeneration;
+  const generation = prefetchedTts?.generation || ++speechGeneration;
   const modelAudioEnabled = localTtsAudioEnabled();
   let modelAudioPromise = null;
   const chunks = splitSpeechText(answer, {
@@ -288,7 +389,7 @@ async function sendSpeechStream(sendReply, { requestId, sessionId, transport, an
   }
 
   if (modelAudioEnabled) {
-    modelAudioPromise = sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transport, answer, adapterStatus, voiceProfile, voiceSwitch, generation });
+    modelAudioPromise = sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transport, answer, adapterStatus, voiceProfile, voiceSwitch, generation, prefetchedTts });
     modelAudioPromise.catch(() => {});
   }
 
@@ -332,6 +433,24 @@ async function handleQuestion(sendReply, message, context = {}) {
   const voiceSwitch = detectVoiceSwitchIntent(question, incomingVoiceProfile);
   const activeVoiceProfile = voiceSwitch.changed ? voiceSwitch.profile : incomingVoiceProfile;
   sessionVoiceProfiles.set(sessionId, activeVoiceProfile);
+  const sendProofModeError = async (error) => {
+    await sendReply({
+      type: "agent.error",
+      requestId,
+      sessionId,
+      transport: responseTransport,
+      code: error instanceof ProofModeError ? error.code : "proof_mode_gate_failed",
+      message: error.message,
+      details: error.details || {},
+    });
+  };
+  try {
+    assertProofModeAsr(message.asr, { env: process.env });
+    assertProofModeRetrieval(retrieval, { env: process.env, adapterStatus });
+  } catch (error) {
+    await sendProofModeError(error);
+    return;
+  }
   const voiceSwitchMetadata = voiceSwitch.reason
     ? {
         changed: voiceSwitch.changed,
@@ -364,6 +483,12 @@ async function handleQuestion(sendReply, message, context = {}) {
     generateId,
   });
   const plan = planResult.plan;
+  try {
+    assertProofModePlanner(planResult.planner, { env: process.env });
+  } catch (error) {
+    await sendProofModeError(error);
+    return;
+  }
   if (voiceSwitch.changed && plan.intent !== "voice_switch") {
     plan.answer = voiceSwitch.acknowledgement + " " + plan.answer;
   }
@@ -385,6 +510,22 @@ async function handleQuestion(sendReply, message, context = {}) {
       details: error.details || {},
     });
     return;
+  }
+
+  let prefetchedTts = null;
+  if (h100ProofModeEnabled(process.env)) {
+    try {
+      const generation = ++speechGeneration;
+      prefetchedTts = await prefetchVerifiedLocalTtsStream({
+        answer: plan.answer,
+        requestId,
+        voiceProfile: activeVoiceProfile,
+        generation,
+      });
+    } catch (error) {
+      await sendProofModeError(error);
+      return;
+    }
   }
 
   await sendReply({
@@ -411,11 +552,12 @@ async function handleQuestion(sendReply, message, context = {}) {
     adapterStatus,
     voiceProfile: activeVoiceProfile,
     voiceSwitch: voiceSwitchMetadata,
+    prefetchedTts,
   });
 
   for (const action of actions) {
     await sendReply({
-    type: "agent.action",
+      type: "agent.action",
       requestId,
       sessionId,
       transport: responseTransport,
@@ -480,6 +622,8 @@ async function handleFinalTranscript(sendReply, message, context = {}, transcrip
       model: transcriptResult.model || "",
       proof: transcriptResult.proof || "transcript-message",
       simulated: transcriptResult.simulated ?? message.simulated ?? true,
+      source: message.source || transcriptResult.source || "browser-transcript",
+      transcript,
     },
   }, context);
 }

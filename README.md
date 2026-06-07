@@ -34,7 +34,7 @@ Use Stagehand as semantic resolver, not the visible UI:
 - LiveKit must be self-hosted/local-first, not LiveKit Cloud.
 - ASR: `nvidia/parakeet-tdt-0.6b-v3`, English-only.
 - LLM: local/open-weight Qwen-class model through vLLM/SGLang/OpenAI-compatible API.
-- TTS: VibeVoice-style local/realtime TTS if feasible; browser fallback speech must stream in chunks rather than waiting for the whole action flow.
+- TTS: local Miso One/MisoTTS streaming audio as the primary target, with consented LoRA finetunes for cloned voices. Legacy VibeVoice-compatible TTS can remain as a compatibility lane; browser fallback speech must stream in chunks rather than waiting for the whole action flow.
 - Real local-model proof requires an H100-class GPU; the recommended cloud path is Vast.ai with the PyTorch CUDA/cuDNN template. See docs/vast-h100-runbook.md.
 - Moss must use local runtime after initial index generation.
 - Moss runtime must not use `autoRefresh`, SDK cloud polling, `pushIndex()`, session doc upload, or session embeddings upload.
@@ -237,8 +237,8 @@ npm run dev:qwen-stub
 npm run dev:moss-runtime
 ```
 
-`AGENT_PLANNER=local-llm` opts the worker into the local Qwen/OpenAI-compatible JSON planner. The default remains the deterministic router, and malformed LLM output or invalid actions fall back before any LLM answer is sent.
+`AGENT_PLANNER=local-llm` opts the worker into the local Qwen/OpenAI-compatible JSON planner. The default remains the deterministic router, and malformed LLM output or invalid actions fall back before any LLM answer is sent. In `H100_PROOF_MODE=1`, the worker fails closed before answer/action if ASR, Moss, planner, or Miso endpoint proof is weak.
 
 `ASR_PROVIDER=local-parakeet` opts the worker into a localhost-only Parakeet-compatible adapter boundary. Use `npm run smoke:asr:local` for the fake endpoint contract and `npm run dev:asr:parakeet` plus `ASR_SMOKE_AUDIO_PATH=/path/to.wav npm run smoke:asr:h100` on the Vast.ai H100 lane before claiming real `nvidia/parakeet-tdt-0.6b-v3` audio transcription.
 
-`TTS_PROVIDER=local-vibevoice` opts the agent into a localhost-only VibeVoice-compatible adapter boundary. Latency knobs include `TTS_TEXT_CHUNK_CHARS`, `TTS_PREWARM_TEXT`, `TTS_CACHE_DIR`, `TTS_DTYPE`, and `TTS_QUANTIZATION`. Supported quantization policies are intentionally fair to audio quality: `none`, `llm-int8`, and `llm-int4`, where quantization targets only the LLM trunk and preserves audio decoder precision. Use `npm run smoke:tts:h100` on the Vast.ai H100 lane before claiming real local VibeVoice audio.
+`TTS_PROVIDER=local-miso-one` opts the agent into the localhost-only Miso One/MisoTTS adapter boundary. Latency knobs include `TTS_TEXT_CHUNK_CHARS`, `TTS_PREWARM_TEXT`, `TTS_CACHE_DIR`, `TTS_DTYPE`, and `TTS_QUANTIZATION`. Supported quantization policies are intentionally fair to audio quality: `none`, `llm-int8`, and `llm-int4`, where compatible endpoints target only the LLM trunk and preserve audio decoder precision. Use `npm run smoke:tts:h100` on the Vast.ai H100 lane before claiming real local Miso audio. `TTS_PROVIDER=local-vibevoice` remains the legacy compatibility lane.
