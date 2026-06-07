@@ -17,7 +17,7 @@ What starts by default:
 - local token and browser/agent bridge on 127.0.0.1:4301
 - local Qwen-compatible planner stub on 127.0.0.1:4311
 - local Moss runtime on 127.0.0.1:4321, with the Remote.com scrape index built locally on first start if the ignored artifact is missing
-- inboundnow agent worker using streamed speech chunks and the browser action bus
+- inboundnow agent worker using `MOSS_PROVIDER=local-runtime-client`, streamed speech chunks, and the browser action bus
 
 Click Start AI Persona on the default page. If local livekit-server is running, inboundnow uses the local LiveKit mic path, auto-stops after silence, sends the turn through the local agent, and the blue cursor executes the returned actions. If LiveKit is not running, Start AI Persona falls back to browser speech capture over the local bridge. After each answer, inboundnow schedules the next listen automatically, so the default flow is click once, talk naturally, and watch inboundnow keep guiding the page until you stop it. The developer controls keep Ask agent and Send typed transcript available for quick operator input.
 

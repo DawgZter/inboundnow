@@ -18,6 +18,8 @@ const qwenBaseUrl = env.LLM_BASE_URL || "http://127.0.0.1:" + qwenPort + "/v1";
 const mossRuntimeUrl = env.MOSS_RUNTIME_URL || "http://127.0.0.1:" + mossPort;
 const mossIndexPath = env.MOSS_INDEX_PATH || "artifacts/moss/remote-com-local-index.json";
 const mossSourcePath = env.MOSS_SOURCE_PATH || "data/remote-com/scrape-2026-06-07";
+const mossRuntimeProvider = env.MOSS_RUNTIME_PROVIDER || "local-artifact";
+const mossAgentProvider = env.MOSS_AGENT_PROVIDER || env.AGENT_MOSS_PROVIDER || env.MOSS_PROVIDER || "local-runtime-client";
 
 const processes = [
   {
@@ -43,7 +45,7 @@ const processes = [
     args: ["services/moss-runtime/server.mjs"],
     env: {
       MOSS_RUNTIME_PORT: mossPort,
-      MOSS_PROVIDER: env.MOSS_PROVIDER || "local-artifact",
+      MOSS_RUNTIME_PROVIDER: mossRuntimeProvider,
       MOSS_INDEX_PATH: mossIndexPath,
     },
   },
@@ -57,7 +59,7 @@ const processes = [
       LLM_PROVIDER: env.LLM_PROVIDER || "qwen-openai-local",
       LLM_BASE_URL: qwenBaseUrl,
       LLM_MODEL: env.LLM_MODEL || "qwen3-local-planner",
-      MOSS_PROVIDER: env.MOSS_PROVIDER || "local-runtime",
+      MOSS_PROVIDER: mossAgentProvider,
       MOSS_RUNTIME_URL: mossRuntimeUrl,
       TTS_STREAMING: env.TTS_STREAMING || "1",
       TTS_MODEL_AUDIO: env.TTS_MODEL_AUDIO || "0",
