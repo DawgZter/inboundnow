@@ -6,6 +6,8 @@ const PORT = Number(process.env.PORT || 4188);
 const PREFIX = "/__remote";
 const DEFAULT_TARGET = "https://remote.com/";
 const CAL_EMBED_URL = process.env.CAL_URL || "https://cal.com/remote";
+const TOKEN_SERVER_URL = process.env.TOKEN_SERVER_URL || "http://127.0.0.1:4301";
+const LIVEKIT_ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
 
 const CLICKY_CURSOR_PATH = "/__ocw-assets/clicky-cursor.svg";
 const CLICKY_CURSOR_IMAGE = new URL("./assets/clicky-cursor.svg", import.meta.url);
@@ -207,6 +209,8 @@ function injectedHelper(baseUrl) {
 function injectedOpenClickyWeb() {
   const cursorUrl = "http://localhost:" + PORT + CLICKY_CURSOR_PATH;
   const calUrl = escapeAttr(CAL_EMBED_URL);
+  const tokenServerUrl = escapeAttr(TOKEN_SERVER_URL);
+  const liveKitRoom = escapeAttr(LIVEKIT_ROOM);
   return `
 <div id="ocw-root" aria-live="polite">
   <style>
@@ -256,6 +260,30 @@ function injectedOpenClickyWeb() {
       height: 38px; padding: 0 12px; border-radius: 8px; border: 0; background: #111827; color: #fff;
       cursor: pointer; font-size: 12px; font-weight: 720;
     }
+    .ocw-bridge {
+      margin-top: 10px; padding: 10px; border-radius: 8px;
+      border: 1px solid rgba(17, 24, 39, 0.10); background: rgba(239, 246, 255, 0.68);
+    }
+    .ocw-agent-state {
+      display: flex; align-items: center; gap: 7px; margin-bottom: 8px;
+      color: #334155; font-size: 11px; font-weight: 680;
+    }
+    .ocw-agent-dot {
+      width: 8px; height: 8px; border-radius: 999px; background: #94a3b8;
+      box-shadow: 0 0 0 3px rgba(148, 163, 184, 0.18);
+    }
+    #ocw-root[data-agent-state="online"] .ocw-agent-dot {
+      background: #16a34a; box-shadow: 0 0 0 3px rgba(22, 163, 74, 0.18);
+    }
+    #ocw-root[data-agent-state="waiting"] .ocw-agent-dot {
+      background: #f59e0b; box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.18);
+    }
+    .ocw-bridge-actions { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 7px; }
+    .ocw-bridge-actions button {
+      min-height: 34px; border: 1px solid rgba(17, 24, 39, 0.12); border-radius: 8px;
+      background: #fff; color: #111827; cursor: pointer; font-size: 11px; font-weight: 730;
+    }
+    .ocw-bridge-actions button:hover { border-color: rgba(5, 100, 255, 0.45); }
     .ocw-size {
       margin-top: 10px; padding: 9px 10px 10px; border-radius: 8px;
       border: 1px solid rgba(17, 24, 39, 0.10); background: rgba(249, 250, 251, 0.82);
@@ -404,6 +432,14 @@ function injectedOpenClickyWeb() {
         <input class="ocw-input" value="How does Remote help with global payroll?" autocomplete="off" aria-label="Voice guide command" />
         <button class="ocw-run" type="submit">Run</button>
       </form>
+      <div class="ocw-bridge" data-token-server="${tokenServerUrl}" data-livekit-room="${liveKitRoom}">
+        <div class="ocw-agent-state"><span class="ocw-agent-dot"></span><span class="ocw-agent-copy">Simulated agent bridge offline</span></div>
+        <div class="ocw-bridge-actions">
+          <button data-ocw-action="connectAgent" type="button">Connect</button>
+          <button data-ocw-action="askAgent" type="button">Ask agent</button>
+          <button data-ocw-action="simulateVoice" type="button">Sim voice</button>
+        </div>
+      </div>
       <div class="ocw-size">
         <div class="ocw-size-row">
           <strong>Cursor size</strong>
@@ -421,7 +457,7 @@ function injectedOpenClickyWeb() {
       <button class="ocw-close" data-ocw-action="closeSchedule" type="button" aria-label="Close scheduler">x</button>
     </div>
     <div class="ocw-scheduler-body">
-      <iframe class="ocw-cal-frame" src="${calUrl}" title="Cal.com scheduling"></iframe>
+      <iframe class="ocw-cal-frame" data-src="${calUrl}" title="Cal.com scheduling"></iframe>
       <a class="ocw-cal-link" href="${calUrl}" target="_blank" rel="noreferrer">Open scheduler in a new tab</a>
     </div>
   </section>
@@ -449,6 +485,8 @@ function injectedOpenClickyWeb() {
     var transcript = root.querySelector('.ocw-transcript');
     var scheduler = root.querySelector('.ocw-scheduler');
     var bookingPrompt = root.querySelector('.ocw-booking-prompt');
+    var bridgePanel = root.querySelector('.ocw-bridge');
+    var agentCopy = root.querySelector('.ocw-agent-copy');
     var commandInput = root.querySelector('.ocw-input');
     var sizeSlider = root.querySelector('.ocw-size-slider');
     var sizeValue = root.querySelector('.ocw-size-value');
@@ -457,6 +495,11 @@ function injectedOpenClickyWeb() {
     var sizeStorageKey = 'openClickyWebMvp.cursorSizePercent';
     var events = [];
     var remoteBasePath = '/__remote/https/remote.com';
+    var tokenServerUrl = (bridgePanel && bridgePanel.dataset.tokenServer) || 'http://127.0.0.1:4301';
+    var liveKitRoom = (bridgePanel && bridgePanel.dataset.livekitRoom) || 'inboundnow-local';
+    var bridgeSocket = null;
+    var bridgeReady = false;
+    var bookingState = 'none';
 
     var specs = {
       demo: [
@@ -497,6 +540,11 @@ function injectedOpenClickyWeb() {
       events.push(event);
       if (events.length > 80) events.shift();
       try { window.dispatchEvent(new CustomEvent('openClickyWeb:event', { detail: event })); } catch (e) {}
+      try {
+        if (bridgeSocket && bridgeSocket.readyState === WebSocket.OPEN) {
+          bridgeSocket.send(JSON.stringify({ type: 'browser.event', event: event, bookingState: bookingState }));
+        }
+      } catch (e) {}
       return event;
     }
 
@@ -516,6 +564,141 @@ function injectedOpenClickyWeb() {
         utterance.rate = 1.03;
         window.speechSynthesis.speak(utterance);
       } catch (e) {}
+    }
+
+    function setAgentState(state, text) {
+      root.dataset.agentState = state;
+      if (agentCopy) agentCopy.textContent = text;
+    }
+
+    function bridgeWsUrl() {
+      var url = new URL(tokenServerUrl);
+      url.protocol = url.protocol === 'https:' ? 'wss:' : 'ws:';
+      url.pathname = '/agent-bridge';
+      url.search = new URLSearchParams({
+        role: 'browser',
+        room: liveKitRoom,
+        identity: 'browser-' + Math.random().toString(36).slice(2, 8)
+      }).toString();
+      return url.href;
+    }
+
+    async function fetchLocalToken() {
+      var url = new URL('/token', tokenServerUrl);
+      url.search = new URLSearchParams({
+        role: 'browser',
+        room: liveKitRoom,
+        identity: 'visitor-local'
+      }).toString();
+      var response = await fetch(url.href);
+      if (!response.ok) throw new Error('Token server returned ' + response.status);
+      var payload = await response.json();
+      window.__ocwLiveKitToken = payload;
+      return payload;
+    }
+
+    function connectAgentBridge() {
+      if (bridgeSocket && (bridgeSocket.readyState === WebSocket.OPEN || bridgeSocket.readyState === WebSocket.CONNECTING)) {
+        return Promise.resolve(bridgeSocket);
+      }
+
+      setAgentState('waiting', 'Connecting local simulated agent bridge...');
+      return fetchLocalToken().then(function(tokenPayload){
+        return new Promise(function(resolve, reject){
+          var socket = new WebSocket(bridgeWsUrl());
+          bridgeSocket = socket;
+          socket.addEventListener('open', function(){
+            bridgeReady = true;
+            setAgentState('waiting', 'Bridge connected; waiting for local agent worker.');
+            emit('bridgeConnected', { room: liveKitRoom, livekitUrl: tokenPayload.livekitUrl });
+            resolve(socket);
+          });
+          socket.addEventListener('message', function(event){
+            handleBridgeMessage(event.data);
+          });
+          socket.addEventListener('close', function(){
+            bridgeReady = false;
+            setAgentState('offline', 'Simulated agent bridge offline');
+          });
+          socket.addEventListener('error', function(){
+            bridgeReady = false;
+            setAgentState('offline', 'Could not reach token server bridge');
+            reject(new Error('Bridge connection failed'));
+          });
+        });
+      }).catch(function(error){
+        setAgentState('offline', error.message || 'Token server unavailable');
+        throw error;
+      });
+    }
+
+    function sendBridge(payload) {
+      if (!bridgeSocket || bridgeSocket.readyState !== WebSocket.OPEN) {
+        throw new Error('Agent bridge is not connected');
+      }
+      bridgeSocket.send(JSON.stringify(payload));
+    }
+
+    function handleBridgeMessage(raw) {
+      var message;
+      try {
+        message = JSON.parse(raw);
+      } catch (e) {
+        return;
+      }
+
+      if (message.type === 'bridge.ready') {
+        setAgentState(message.peers && message.peers.agents ? 'online' : 'waiting', message.peers && message.peers.agents ? 'Local agent ready' : 'Bridge connected; waiting for local agent worker.');
+        return;
+      }
+
+      if (message.type === 'bridge.peer_joined' && message.role === 'agent') {
+        setAgentState('online', 'Local agent worker connected');
+        return;
+      }
+
+      if (message.type === 'bridge.peer_left' && message.role === 'agent') {
+        setAgentState('waiting', 'Agent disconnected; bridge still online');
+        return;
+      }
+
+      if (message.type === 'agent.status') {
+        setAgentState(message.status === 'online' ? 'online' : 'waiting', message.message || message.status || 'Agent status updated');
+        return;
+      }
+
+      if (message.type === 'agent.answer') {
+        updateTranscript(message.answer || '');
+        setStatus(message.simulated ? 'Agent answered in simulated mode.' : 'Agent answered.');
+        emit('agentAnswerReceived', { intent: message.intent || '', simulated: !!message.simulated });
+        return;
+      }
+
+      if (message.type === 'agent.action' && message.action) {
+        enqueue(message.action);
+      }
+    }
+
+    async function askLocalAgent(simulatedVoice) {
+      var question = commandInput.value || 'How does Remote help with global payroll?';
+      await connectAgentBridge();
+      var snapshot = snapshotPage();
+      updateTranscript((simulatedVoice ? 'Simulated voice transcript: ' : 'You asked: ') + question);
+      setStatus('Sent question to local simulated agent.');
+      sendBridge({
+        id: 'q_' + Math.random().toString(36).slice(2, 10),
+        type: 'prospect.question',
+        question: question,
+        simulatedVoice: !!simulatedVoice,
+        pageSnapshot: {
+          url: snapshot.url,
+          title: snapshot.title,
+          headings: snapshot.headings.slice(0, 12),
+          ctas: snapshot.ctas.slice(0, 20),
+          navLinks: snapshot.navLinks.slice(0, 12),
+        },
+        bookingState: bookingState,
+      });
     }
 
     function clampSizePercent(value) {
@@ -880,6 +1063,7 @@ function injectedOpenClickyWeb() {
     }
 
     function showBookingPrompt() {
+      bookingState = 'prompt_shown';
       if (bookingPrompt) bookingPrompt.classList.add('is-open');
       setStatus('Asked for booking confirmation.');
       showCaption('Would you like to book a walkthrough?', Math.max(32, window.innerWidth - 330), Math.max(32, window.innerHeight - 180));
@@ -887,12 +1071,16 @@ function injectedOpenClickyWeb() {
     }
 
     function dismissBookingPrompt() {
+      bookingState = 'dismissed';
       if (bookingPrompt) bookingPrompt.classList.remove('is-open');
       setStatus('Booking prompt dismissed.');
     }
 
     function openScheduler() {
+      bookingState = 'cal_opened';
       if (bookingPrompt) bookingPrompt.classList.remove('is-open');
+      var frame = scheduler && scheduler.querySelector('.ocw-cal-frame');
+      if (frame && !frame.getAttribute('src')) frame.setAttribute('src', frame.getAttribute('data-src') || '');
       scheduler.classList.add('is-open');
       setStatus('Opened Cal.com scheduler.');
       emit('calOpened', {});
@@ -917,11 +1105,12 @@ function injectedOpenClickyWeb() {
 
     var payrollAnswer = 'Remote helps with global payroll by giving companies one place to pay distributed employees, handle local payroll rules, support multiple countries, and keep compliance work connected to hiring and HR operations.';
 
-    async function runPayrollFlow(afterNavigation) {
+    async function runPayrollFlow(afterNavigation, answerText) {
+      var answer = answerText || payrollAnswer;
       setStatus('Answering global payroll question.');
       snapshotPage();
-      speak(payrollAnswer);
-      emit('agentAnswered', { text: payrollAnswer });
+      speak(answer);
+      emit('agentAnswered', { text: answer });
       await sleep(afterNavigation ? 650 : 950);
 
       var payrollTarget = findTarget('payroll');
@@ -961,6 +1150,11 @@ function injectedOpenClickyWeb() {
         return Promise.resolve();
       }
       if (action.type === 'openCal') {
+        if (bookingState !== 'confirmed') {
+          showBookingPrompt();
+          emit('openCalDeferred', { reason: 'booking_not_confirmed' });
+          return Promise.resolve();
+        }
         openScheduler();
         return Promise.resolve();
       }
@@ -969,7 +1163,7 @@ function injectedOpenClickyWeb() {
         return Promise.resolve();
       }
       if (action.type === 'snapshotPage') return Promise.resolve(snapshotPage());
-      if (action.type === 'payrollFlow') return runPayrollFlow(false);
+      if (action.type === 'payrollFlow') return runPayrollFlow(false, action.answer);
       throw new Error('Unknown action type: ' + action.type);
     }
 
@@ -998,7 +1192,24 @@ function injectedOpenClickyWeb() {
         return;
       }
 
+      if (key === 'connectagent' || key === 'connect agent') {
+        await connectAgentBridge();
+        return;
+      }
+
+      if (key === 'askagent' || key === 'ask agent') {
+        await askLocalAgent(false);
+        return;
+      }
+
+      if (key === 'simulatevoice' || key === 'sim voice' || key === 'voice') {
+        await askLocalAgent(true);
+        return;
+      }
+
       if (key === 'confirmbooking') {
+        bookingState = 'confirmed';
+        try { sendBridge({ type: 'booking.confirmed', state: bookingState }); } catch (e) {}
         openScheduler();
         await moveCursor(Math.max(32, window.innerWidth - 344), Math.max(32, window.innerHeight - 228), 'Cal.com scheduler', 620);
         return;
@@ -1006,6 +1217,7 @@ function injectedOpenClickyWeb() {
 
       if (key === 'dismissbookingprompt') {
         dismissBookingPrompt();
+        try { sendBridge({ type: 'booking.dismissed', state: bookingState }); } catch (e) {}
         return;
       }
 

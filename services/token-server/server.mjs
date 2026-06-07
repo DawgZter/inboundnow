@@ -1,0 +1,237 @@
+#!/usr/bin/env node
+import { createServer } from "node:http";
+import { createHmac, randomUUID } from "node:crypto";
+import { WebSocketServer } from "ws";
+
+const PORT = Number(process.env.TOKEN_SERVER_PORT || 4301);
+const HOST = process.env.TOKEN_SERVER_HOST || "127.0.0.1";
+const LIVEKIT_URL = process.env.LIVEKIT_URL || "ws://127.0.0.1:7880";
+const LIVEKIT_API_KEY = process.env.LIVEKIT_API_KEY || "devkey";
+const LIVEKIT_API_SECRET = process.env.LIVEKIT_API_SECRET || "secret";
+const DEFAULT_ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
+const TOKEN_TTL_SECONDS = Number(process.env.LIVEKIT_TOKEN_TTL_SECONDS || 60 * 60);
+
+const rooms = new Map();
+
+function base64Url(input) {
+  return Buffer.from(input)
+    .toString("base64")
+    .replaceAll("+", "-")
+    .replaceAll("/", "_")
+    .replaceAll("=", "");
+}
+
+function signJwt(payload) {
+  const header = { alg: "HS256", typ: "JWT" };
+  const encodedHeader = base64Url(JSON.stringify(header));
+  const encodedPayload = base64Url(JSON.stringify(payload));
+  const signature = createHmac("sha256", LIVEKIT_API_SECRET)
+    .update(encodedHeader + "." + encodedPayload)
+    .digest("base64")
+    .replaceAll("+", "-")
+    .replaceAll("/", "_")
+    .replaceAll("=", "");
+  return encodedHeader + "." + encodedPayload + "." + signature;
+}
+
+function makeToken({ identity, name, room, canPublish = true, canSubscribe = true, role = "browser" }) {
+  const now = Math.floor(Date.now() / 1000);
+  return signJwt({
+    iss: LIVEKIT_API_KEY,
+    sub: identity,
+    name,
+    iat: now,
+    nbf: now,
+    exp: now + TOKEN_TTL_SECONDS,
+    metadata: JSON.stringify({ role, localHarness: true }),
+    video: {
+      room,
+      roomJoin: true,
+      canPublish,
+      canSubscribe,
+      canPublishData: true,
+    },
+  });
+}
+
+function sendJson(res, status, payload) {
+  const body = JSON.stringify(payload, null, 2);
+  res.writeHead(status, {
+    "content-type": "application/json; charset=utf-8",
+    "cache-control": "no-store",
+    "access-control-allow-origin": "*",
+    "access-control-allow-methods": "GET,POST,OPTIONS",
+    "access-control-allow-headers": "content-type",
+  });
+  res.end(body);
+}
+
+function getRoom(name) {
+  const room = name || DEFAULT_ROOM;
+  if (!rooms.has(room)) rooms.set(room, { browsers: new Set(), agents: new Set() });
+  return rooms.get(room);
+}
+
+function safeSend(ws, payload) {
+  if (ws.readyState !== ws.OPEN) return;
+  ws.send(JSON.stringify({ ...payload, ts: new Date().toISOString() }));
+}
+
+function broadcast(targets, payload) {
+  for (const ws of targets) safeSend(ws, payload);
+}
+
+function roomSnapshot(roomName) {
+  const room = getRoom(roomName);
+  return {
+    room: roomName,
+    browsers: room.browsers.size,
+    agents: room.agents.size,
+  };
+}
+
+const server = createServer(async (req, res) => {
+  const url = new URL(req.url || "/", "http://" + HOST + ":" + PORT);
+
+  if (req.method === "OPTIONS") {
+    res.writeHead(204, {
+      "access-control-allow-origin": "*",
+      "access-control-allow-methods": "GET,POST,OPTIONS",
+      "access-control-allow-headers": "content-type",
+    });
+    res.end();
+    return;
+  }
+
+  if (url.pathname === "/health") {
+    sendJson(res, 200, {
+      ok: true,
+      mode: "local-simulated-agent-bridge",
+      livekitUrl: LIVEKIT_URL,
+      defaultRoom: DEFAULT_ROOM,
+      rooms: Array.from(rooms.keys()).map(roomSnapshot),
+    });
+    return;
+  }
+
+  if (url.pathname === "/config") {
+    const room = url.searchParams.get("room") || DEFAULT_ROOM;
+    sendJson(res, 200, {
+      livekitUrl: LIVEKIT_URL,
+      room,
+      tokenEndpoint: "http://" + HOST + ":" + PORT + "/token",
+      bridgeUrl: "ws://" + HOST + ":" + PORT + "/agent-bridge?role=browser&room=" + encodeURIComponent(room),
+      simulated: true,
+      note: "LiveKit tokens are real local-dev JWTs. The browser-agent action bridge is simulated until local ASR/LLM/TTS adapters are attached.",
+    });
+    return;
+  }
+
+  if (url.pathname === "/token") {
+    const room = url.searchParams.get("room") || DEFAULT_ROOM;
+    const role = url.searchParams.get("role") || "browser";
+    const identity = url.searchParams.get("identity") || role + "-" + randomUUID().slice(0, 8);
+    const name = url.searchParams.get("name") || identity;
+    sendJson(res, 200, {
+      token: makeToken({ identity, name, room, role }),
+      livekitUrl: LIVEKIT_URL,
+      room,
+      identity,
+      role,
+      expiresIn: TOKEN_TTL_SECONDS,
+    });
+    return;
+  }
+
+  sendJson(res, 404, { error: "not_found" });
+});
+
+const wss = new WebSocketServer({ noServer: true });
+
+server.on("upgrade", (req, socket, head) => {
+  const url = new URL(req.url || "/", "http://" + HOST + ":" + PORT);
+  if (url.pathname !== "/agent-bridge") {
+    socket.destroy();
+    return;
+  }
+
+  wss.handleUpgrade(req, socket, head, (ws) => {
+    const role = url.searchParams.get("role") === "agent" ? "agent" : "browser";
+    const roomName = url.searchParams.get("room") || DEFAULT_ROOM;
+    const identity = url.searchParams.get("identity") || role + "-" + randomUUID().slice(0, 8);
+    ws.role = role;
+    ws.roomName = roomName;
+    ws.identity = identity;
+
+    const room = getRoom(roomName);
+    const set = role === "agent" ? room.agents : room.browsers;
+    set.add(ws);
+
+    safeSend(ws, {
+      type: "bridge.ready",
+      identity,
+      role,
+      room: roomName,
+      livekitUrl: LIVEKIT_URL,
+      simulated: true,
+      peers: roomSnapshot(roomName),
+    });
+    broadcast(role === "agent" ? room.browsers : room.agents, {
+      type: "bridge.peer_joined",
+      identity,
+      role,
+      room: roomName,
+      peers: roomSnapshot(roomName),
+    });
+
+    ws.on("message", (raw) => {
+      let message;
+      try {
+        message = JSON.parse(String(raw));
+      } catch {
+        safeSend(ws, { type: "bridge.error", error: "invalid_json" });
+        return;
+      }
+
+      const payload = {
+        ...message,
+        room: roomName,
+        from: identity,
+        fromRole: role,
+      };
+
+      if (role === "browser") {
+        if (room.agents.size === 0 && message.type === "prospect.question") {
+          safeSend(ws, {
+            type: "agent.status",
+            status: "waiting_for_agent",
+            message: "No local agent worker is connected yet.",
+          });
+        }
+        broadcast(room.agents, payload);
+        return;
+      }
+
+      broadcast(room.browsers, payload);
+    });
+
+    ws.on("close", () => {
+      const current = getRoom(roomName);
+      current.browsers.delete(ws);
+      current.agents.delete(ws);
+      broadcast([...current.browsers, ...current.agents], {
+        type: "bridge.peer_left",
+        identity,
+        role,
+        room: roomName,
+        peers: roomSnapshot(roomName),
+      });
+    });
+  });
+});
+
+server.listen(PORT, HOST, () => {
+  console.log("InboundNow token server running at http://" + HOST + ":" + PORT);
+  console.log("Bridge: ws://" + HOST + ":" + PORT + "/agent-bridge");
+  console.log("LiveKit local URL: " + LIVEKIT_URL);
+});

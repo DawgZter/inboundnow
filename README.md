@@ -169,3 +169,37 @@ The injected widget exposes `window.OpenClickyWeb` / `window.OpenClickyWebMVP` w
 The local proof flow is the `Ask payroll question` button or the command `How does Remote help with global payroll?`. It answers in the widget, speaks through browser speech synthesis when available, captures a page snapshot, scrolls to a payroll-related target, moves the visible cursor, highlights the target, asks for booking confirmation, then opens the configured Cal.com URL in an in-page modal.
 
 This proxy is a local lab surface only. It strips and rewrites security headers so Remote.com can be embedded and inspected locally; do not treat that proxy behavior as a production deployment pattern.
+
+## Local Voice-Agent Harness
+
+The next layer adds a local token server, simulated agent worker, and browser bridge around the existing website lab.
+
+Run the local pieces in separate terminals:
+
+```bash
+# Optional transport proof: self-hosted LiveKit, not LiveKit Cloud.
+livekit-server --dev
+
+# Local LiveKit token issuer plus simulated browser-agent bridge.
+npm run dev:token
+
+# Local simulated SDR worker.
+npm run dev:agent
+
+# Remote.com website lab with browser-native OpenClicky-Web widget.
+PORT=4199 TOKEN_SERVER_URL=http://127.0.0.1:4301 npm run dev:lab
+```
+
+Open `http://localhost:4199/direct`, then use:
+
+- `Ask payroll question` for deterministic local fallback.
+- `Connect` to connect the browser to the local token server bridge.
+- `Ask agent` to send the current text question to `apps/agent`.
+- `Sim voice` to send the same text as a simulated voice transcript.
+
+Current proof level:
+
+- LiveKit tokens are real local-dev JWTs for `ws://127.0.0.1:7880`.
+- The browser-agent action bridge is simulated over local WebSocket until LiveKit data-channel wiring is added.
+- ASR, LLM, TTS, and Moss adapters are documented in `docs/local-adapters.md` but not yet proven.
+- Cal.com is not loaded until the user confirms the booking prompt.

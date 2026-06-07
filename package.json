@@ -5,7 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "node apps/website-lab/server.mjs",
+    "dev:lab": "node apps/website-lab/server.mjs",
+    "dev:token": "node services/token-server/server.mjs",
+    "dev:agent": "node apps/agent/worker.mjs",
     "start": "node apps/website-lab/server.mjs",
-    "check": "node --check apps/website-lab/server.mjs"
+    "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/worker.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.21.0"
   }
 }
