@@ -16,7 +16,8 @@ What starts by default:
 - website lab on http://localhost:4199/direct
 - local token and browser/agent bridge on 127.0.0.1:4301
 - local Qwen-compatible planner stub on 127.0.0.1:4311
-- local Moss runtime on 127.0.0.1:4321, with the Remote.com scrape index built locally on first start if the ignored artifact is missing
+- if needed, a local build of the ignored Remote.com retrieval index at artifacts/moss/remote-com-local-index.json
+- local Moss artifact runtime on 127.0.0.1:4321 with MOSS_RUNTIME_PROVIDER=local-artifact
 - inboundnow agent worker using `MOSS_PROVIDER=local-runtime-client`, streamed speech chunks, and the browser action bus
 
 Click Start AI Persona on the default page. If local livekit-server is running, inboundnow uses the local LiveKit mic path, auto-stops after silence, sends the turn through the local agent, and the blue cursor executes the returned actions. If LiveKit is not running, Start AI Persona falls back to browser speech capture over the local bridge. After each answer, inboundnow schedules the next listen automatically, so the default flow is click once, talk naturally, and watch inboundnow keep guiding the page until you stop it. The developer controls keep Ask agent and Send typed transcript available for quick operator input.
@@ -32,7 +33,7 @@ Click Start AI Persona on the default page. If local livekit-server is running, 
     -> inboundnow browser action bus
     -> blue cursor scrolls, highlights, clicks, and opens gated scheduling
 
-The repo default is no longer a documentation-first lab. npm start launches the local inboundnow stack and points the operator at the talk-and-guide page.
+The repo default is no longer a documentation-first lab. npm start launches the local inboundnow stack, builds the local Remote.com retrieval index if it is missing, starts the local Moss artifact runtime on 127.0.0.1:4321, wires the agent through MOSS_PROVIDER=local-runtime-client, and points the operator at the talk-and-guide page.
 
 ## H100 Lane
 
@@ -85,6 +86,7 @@ Useful commands:
     npm run moss:upload:remote
 
 Do not put Moss project keys in client-side code or committed env files.
+Hosted Moss is not part of the default local runtime. The hosted upload path remains a CLI upload/index proof lane unless it is enabled separately.
 
 ## Vendored OSS References
 
