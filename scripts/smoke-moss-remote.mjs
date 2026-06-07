@@ -87,8 +87,18 @@ async function runIndexer() {
   return JSON.parse(await readFile(indexPath, "utf8"));
 }
 
-function assertRemoteResult(result) {
-  assert.equal(result.provider, "local-artifact");
+function assertRemoteResult(result, expected) {
+  assert.equal(result.provider, expected.provider);
+  if (expected.upstreamProvider) {
+    assert.equal(result.upstreamProvider, expected.upstreamProvider);
+  } else {
+    assert.equal(result.upstreamProvider, undefined);
+  }
+  if (expected.adapterProvider) {
+    assert.equal(result.adapterProvider, expected.adapterProvider);
+  } else {
+    assert.equal(result.adapterProvider, undefined);
+  }
   assert.equal(result.localOnly, true);
   assert.equal(result.simulated, false);
   assert.equal(result.artifact.schema, "inboundnow.local-retrieval.v1");
@@ -135,7 +145,9 @@ try {
     headers: { "content-type": "application/json" },
     body: JSON.stringify({ query, topK: 5 }),
   });
-  assertRemoteResult(directQuery);
+  assertRemoteResult(directQuery, {
+    provider: "local-artifact",
+  });
 
   const registry = createAdapterRegistry({
     ...process.env,
@@ -143,7 +155,11 @@ try {
     MOSS_RUNTIME_URL: runtimeUrl,
   });
   const registryQuery = await registry.moss.query(query, { topK: 5 });
-  assertRemoteResult(registryQuery);
+  assertRemoteResult(registryQuery, {
+    provider: "local-runtime-client",
+    upstreamProvider: "local-artifact",
+    adapterProvider: "local-runtime-client",
+  });
 
   const result = {
     ok: true,
