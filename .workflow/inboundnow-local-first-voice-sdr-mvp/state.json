@@ -12,12 +12,14 @@
     {
       "id": "livekit-integration",
       "agent": "Confucius",
-      "status": "running"
+      "status": "completed",
+      "result": "results/confucius-livekit-integration.md"
     },
     {
       "id": "protocol-tests",
       "agent": "Averroes",
-      "status": "running"
+      "status": "completed",
+      "result": "results/averroes-protocol-tests.md"
     },
     {
       "id": "local-models-moss",
@@ -28,7 +30,8 @@
     {
       "id": "e2e-verification",
       "agent": "Hilbert",
-      "status": "running"
+      "status": "completed",
+      "result": "results/hilbert-e2e-verification.md"
     }
   ],
   "verification": {

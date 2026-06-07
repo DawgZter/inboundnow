@@ -13,3 +13,6 @@ The protocol separates responsibilities:
 `gateActionForBooking()` rewrites it to `showBookingPrompt` so planner output
 cannot accidentally load or open Cal before the visitor confirms.
 
+The browser owns the configured Cal URL. Agent actions must not attach a URL to
+`openCal`; this keeps scheduling controlled by the site integration, not by
+model output.

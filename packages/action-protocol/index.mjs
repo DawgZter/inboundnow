@@ -13,6 +13,8 @@ const ACTION_TYPES = new Set([
 
 const TARGET_KEYS = new Set(["country", "demo", "eor", "payroll", "pricing"]);
 const CONFIRMED_BOOKING_STATE = "confirmed";
+const MAX_CAPTION_LENGTH = 360;
+const MAX_ANSWER_LENGTH = 1600;
 
 export class ActionProtocolError extends Error {
   constructor(message, details = {}) {
@@ -49,6 +51,12 @@ function hasText(value) {
   return false;
 }
 
+function textLength(value) {
+  if (typeof value === "string") return value.trim().length;
+  if (Array.isArray(value)) return value.map((item) => textLength(item)).reduce((sum, count) => sum + count, 0);
+  return 0;
+}
+
 export function validateTarget(target) {
   const errors = [];
 
@@ -62,6 +70,10 @@ export function validateTarget(target) {
 
   if ("ocwId" in target && cleanString(target.ocwId).length === 0) {
     errors.push("target.ocwId must be a non-empty string");
+  }
+
+  if ("ocwId" in target && cleanString(target.ocwId) && !/^ocw_[a-z0-9]+$/i.test(cleanString(target.ocwId))) {
+    errors.push("target.ocwId must match the widget-generated ocw_* shape");
   }
 
   if ("selector" in target) {
@@ -137,10 +149,19 @@ export function validateAction(action, options = {}) {
   if (action.type === "showCaption") {
     const text = cleanString(action.text || action.caption);
     if (!text) errors.push("showCaption requires text or caption");
+    if (text.length > MAX_CAPTION_LENGTH) errors.push(`showCaption text must be <= ${MAX_CAPTION_LENGTH} chars`);
   }
 
   if (action.type === "payrollFlow" && "answer" in action && cleanString(action.answer).length === 0) {
     errors.push("payrollFlow.answer must be non-empty when provided");
+  }
+
+  if (action.type === "payrollFlow" && textLength(action.answer) > MAX_ANSWER_LENGTH) {
+    errors.push(`payrollFlow.answer must be <= ${MAX_ANSWER_LENGTH} chars`);
+  }
+
+  if (action.type === "openCal" && ("url" in action || "href" in action || "target" in action)) {
+    errors.push("openCal must not include url, href, or target; the browser owns CAL_URL");
   }
 
   if (action.type === "openCal" && bookingState !== CONFIRMED_BOOKING_STATE) {
@@ -212,3 +233,41 @@ export function validateActionPlan(actions, options = {}) {
   return { ok: errors.length === 0, errors };
 }
 
+export function validateBrowserAction(action, options = {}) {
+  return validateAction(action, options);
+}
+
+export function assertBrowserAction(action, options = {}) {
+  return assertValidAction(action, options);
+}
+
+export function normalizeBrowserAction(action, options = {}) {
+  return prepareActionForDispatch(action, options);
+}
+
+export function validateAgentPlan(plan, options = {}) {
+  if (!isPlainObject(plan)) return { ok: false, errors: ["plan must be an object"] };
+
+  const errors = [];
+  if (!cleanString(plan.intent)) errors.push("plan.intent must be a non-empty string");
+  if (!cleanString(plan.answer)) errors.push("plan.answer must be a non-empty string");
+  if (textLength(plan.answer) > MAX_ANSWER_LENGTH) {
+    errors.push(`plan.answer must be <= ${MAX_ANSWER_LENGTH} chars`);
+  }
+
+  const actionResult = validateActionPlan(plan.actions, options);
+  errors.push(...actionResult.errors);
+
+  return { ok: errors.length === 0, errors };
+}
+
+export function assertAgentPlan(plan, options = {}) {
+  const result = validateAgentPlan(plan, options);
+  if (!result.ok) {
+    throw new ActionProtocolError("Invalid agent plan", {
+      plan,
+      errors: result.errors,
+    });
+  }
+  return plan;
+}
