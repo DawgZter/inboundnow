@@ -69,3 +69,47 @@ test("queryLocalIndex returns bounded excerpts around query terms", () => {
   assert.ok(result.snippets[0].metadata.documentChars > result.snippets[0].text.length);
   assert.deepEqual(result.snippets[0].metadata.matchedTokens, ["global", "payroll", "compliance"]);
 });
+
+test("local retrieval sanitizes workstation paths from document metadata", () => {
+  const localWorkstationPath = [
+    "",
+    "Users",
+    "someone",
+    "Documents",
+    "Codex",
+    "run",
+    "outputs",
+    "remote_com_scrape",
+  ].join("/");
+  const index = buildLocalIndex([
+    {
+      id: "remote-public-provenance",
+      title: "Remote global payroll",
+      url: "https://remote.com/global-payroll",
+      text: "Remote global payroll helps teams pay employees compliantly across countries.",
+      tags: ["remote.com", "payroll"],
+      metadata: {
+        source: "remote_com_scrape",
+        originalOutputDir: localWorkstationPath,
+        sourceURL: "https://remote.com/global-payroll",
+      },
+    },
+  ], {
+    source: "test",
+    builtAt: "2026-06-07T00:00:00.000Z",
+  });
+
+  const result = queryLocalIndex(index, "global payroll", { topK: 1 });
+  const serializedIndex = JSON.stringify(index);
+  const serializedResult = JSON.stringify(result);
+
+  assert.equal(index.documents[0].metadata.source, "remote_com_scrape");
+  assert.equal(index.documents[0].metadata.sourceURL, "https://remote.com/global-payroll");
+  assert.equal(index.documents[0].metadata.originalOutputDir, undefined);
+  assert.doesNotMatch(serializedIndex, /\/Users\//);
+  assert.doesNotMatch(serializedIndex, /Documents\/Codex/);
+  assert.equal(result.snippets[0].metadata.sourceURL, "https://remote.com/global-payroll");
+  assert.equal(result.snippets[0].metadata.originalOutputDir, undefined);
+  assert.doesNotMatch(serializedResult, /\/Users\//);
+  assert.doesNotMatch(serializedResult, /Documents\/Codex/);
+});

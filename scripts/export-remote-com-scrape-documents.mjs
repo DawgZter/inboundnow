@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { readJson, readJsonGzip, writeJson } from "../packages/local-retrieval/index.mjs";
+import { readJson, readJsonGzip, sanitizeRetrievalDocuments, writeJson } from "../packages/local-retrieval/index.mjs";
 import { writeRemoteComScrapeDocuments } from "../packages/remote-com-scrape/index.mjs";
 
 const SOURCE_PATH = process.env.REMOTE_COM_MOSS_DOCS_SOURCE ||
@@ -16,12 +16,13 @@ async function exportDocuments(sourcePath, outputPath) {
   const documents = sourcePath.endsWith(".gz")
     ? await readJsonGzip(sourcePath)
     : await readJson(sourcePath);
+  const sanitizedDocuments = sanitizeRetrievalDocuments(documents);
 
-  const outputPathResolved = await writeJson(outputPath, documents);
+  const outputPathResolved = await writeJson(outputPath, sanitizedDocuments);
   return {
     outputPath: outputPathResolved,
-    documentCount: documents.length,
-    bytes: Buffer.byteLength(JSON.stringify(documents, null, 2) + "\n"),
+    documentCount: sanitizedDocuments.length,
+    bytes: Buffer.byteLength(JSON.stringify(sanitizedDocuments, null, 2) + "\n"),
   };
 }
 
@@ -30,7 +31,7 @@ const result = await exportDocuments(SOURCE_PATH, OUTPUT_PATH);
 console.log(JSON.stringify({
   ok: true,
   sourcePath: SOURCE_PATH,
-  outputPath: result.outputPath,
+  outputPath: OUTPUT_PATH,
   documentCount: result.documentCount,
   bytes: result.bytes,
   mossCli: "moss index create remote-com-2026-06-07 -f " + OUTPUT_PATH + " --model moss-minilm --wait",

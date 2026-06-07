@@ -1,5 +1,6 @@
 import { readdir, readFile, stat, writeFile, mkdir } from "node:fs/promises";
 import { dirname, join, relative, resolve } from "node:path";
+import { sanitizeDocumentMetadata } from "../local-retrieval/index.mjs";
 
 const FRONTMATTER_PATTERN = /^---\n([\s\S]*?)\n---\n?/;
 
@@ -65,9 +66,9 @@ function compactText(value) {
 }
 
 function cleanMetadata(metadata) {
-  return Object.fromEntries(
+  return sanitizeDocumentMetadata(Object.fromEntries(
     Object.entries(metadata || {}).filter(([, value]) => value !== undefined && value !== null && value !== "")
-  );
+  ));
 }
 
 function mossCliMetadata(metadata) {
@@ -110,7 +111,6 @@ export async function loadRemoteComScrapeDocuments(sourcePath, options = {}) {
     const pageMetadata = await loadJsonIfPresent(metadataPath);
     const metadata = cleanMetadata({
       source: "remote_com_scrape",
-      originalOutputDir: manifest.outputDir,
       importedAt,
       category: pageMetadata.category || frontmatter.category,
       scrapeMethod: pageMetadata.scrapeMethod || frontmatter.scrapeMethod,

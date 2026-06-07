@@ -8,6 +8,13 @@ import { loadRemoteComScrapeDocuments, writeRemoteComScrapeDocuments } from "../
 
 const SCRAPE_PATH = "fixtures/remote-com-scrape-mini";
 
+function assertCleanMetadata(metadata) {
+  const serialized = JSON.stringify(metadata || {});
+  assert.equal(metadata.originalOutputDir, undefined);
+  assert.doesNotMatch(serialized, /\/Users\//);
+  assert.doesNotMatch(serialized, /Documents\/Codex/);
+}
+
 test("loadRemoteComScrapeDocuments converts imported scrape pages to Moss documents", async () => {
   const documents = await loadRemoteComScrapeDocuments(SCRAPE_PATH, { maxDocuments: 100 });
 
@@ -15,6 +22,10 @@ test("loadRemoteComScrapeDocuments converts imported scrape pages to Moss docume
   assert.ok(documents.every((document) => document.id.startsWith("remote-com:")));
   assert.ok(documents.every((document) => document.text.length > 0));
   assert.ok(documents.every((document) => document.metadata.source === "remote_com_scrape"));
+  assert.ok(documents.every((document) => {
+    assertCleanMetadata(document.metadata);
+    return true;
+  }));
   assert.ok(documents.some((document) => /Remote MCP/i.test(document.text)));
 });
 
@@ -33,6 +44,10 @@ test("Remote scrape documents can be queried through the local retrieval artifac
   assert.ok(result.snippets.length > 0);
   assert.ok(result.snippets.every((snippet) => snippet.text.length <= 760));
   assert.ok(result.snippets.every((snippet) => snippet.metadata.source === "remote_com_scrape"));
+  assert.ok(result.snippets.every((snippet) => {
+    assertCleanMetadata(snippet.metadata);
+    return true;
+  }));
   assert.ok(result.snippets.every((snippet) => snippet.metadata.documentChars >= snippet.text.length));
   assert.ok(result.snippets.some((snippet) => /Remote MCP|global payroll/i.test(snippet.title + " " + snippet.text)));
 });
@@ -46,6 +61,7 @@ test("writeRemoteComScrapeDocuments stringifies metadata for the Moss CLI", asyn
 
     assert.equal(documents.length, 2);
     for (const document of documents) {
+      assertCleanMetadata(document.metadata);
       for (const value of Object.values(document.metadata || {})) {
         assert.equal(typeof value, "string");
       }

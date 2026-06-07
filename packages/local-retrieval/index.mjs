@@ -21,6 +21,12 @@ const STOP_TOKENS = new Set([
   "with",
 ]);
 
+const PRIVATE_METADATA_KEYS = new Set(["originalOutputDir"]);
+const LOCAL_WORKSTATION_PATTERNS = [
+  /\/Users\//,
+  /Documents\/Codex/,
+];
+
 export function tokenize(value) {
   return String(value || "")
     .toLowerCase()
@@ -32,6 +38,28 @@ function uniqueTokens(values) {
   return Array.from(new Set(tokenize(values.join(" "))));
 }
 
+function metadataValueContainsLocalPath(value) {
+  if (value === undefined || value === null) return false;
+  const text = typeof value === "string" ? value : JSON.stringify(value);
+  return LOCAL_WORKSTATION_PATTERNS.some((pattern) => pattern.test(text));
+}
+
+export function sanitizeDocumentMetadata(metadata) {
+  return Object.fromEntries(
+    Object.entries(metadata || {}).filter(([key, value]) =>
+      !PRIVATE_METADATA_KEYS.has(key) &&
+      !metadataValueContainsLocalPath(value)
+    )
+  );
+}
+
+export function sanitizeRetrievalDocuments(documents) {
+  return (Array.isArray(documents) ? documents : []).map((document) => ({
+    ...document,
+    metadata: sanitizeDocumentMetadata(document.metadata),
+  }));
+}
+
 function normalizeDocument(document) {
   return {
     id: String(document.id || document.url || document.title || "").trim(),
@@ -39,7 +67,7 @@ function normalizeDocument(document) {
     url: String(document.url || "").trim(),
     text: String(document.text || "").replace(/\s+/g, " ").trim(),
     tags: Array.isArray(document.tags) ? document.tags.map(String) : [],
-    metadata: document.metadata && typeof document.metadata === "object" ? document.metadata : {},
+    metadata: sanitizeDocumentMetadata(document.metadata),
   };
 }
 
@@ -138,7 +166,7 @@ export function queryLocalIndex(index, query, options = {}) {
         text: excerptText(document.text, queryTokens, snippetChars),
         tags: document.tags || [],
         metadata: {
-          ...(document.metadata || {}),
+          ...sanitizeDocumentMetadata(document.metadata),
           documentChars: String(document.text || "").length,
           snippetChars,
           matchedTokens: matched,
