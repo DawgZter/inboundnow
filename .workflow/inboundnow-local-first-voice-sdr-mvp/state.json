@@ -58,6 +58,12 @@
         "evidence": "results/livekit-transport-checkpoint.md"
       },
       {
+        "id": "local-smoke-script",
+        "status": "passed",
+        "command": "npm run smoke:local",
+        "artifact": "artifacts/smoke/2026-06-07T08-09-42-551Z/result.json"
+      },
+      {
         "id": "livekit-room-data-channel",
         "status": "not_proven",
         "reason": "livekit-server is not installed or running in this environment"

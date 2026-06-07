@@ -34,6 +34,14 @@ Browser smoke on `http://127.0.0.1:4192/direct` with no local LiveKit server:
   `src="/__remote/https/cal.com/remote"`.
 - Nested widget in the Cal iframe was false.
 
+Repeatable local smoke:
+
+- `npm run smoke:local` passed.
+- Artifact summary was written to
+  `artifacts/smoke/2026-06-07T08-09-42-551Z/result.json`.
+- Checks covered token health, LiveKit config, token `canPublishData`, local
+  LiveKit browser asset serving, and bridge agent answer/action loop.
+
 ## Not Yet Proven
 
 - A real local LiveKit room join/data-channel round trip, because

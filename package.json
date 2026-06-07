@@ -12,9 +12,10 @@
     "dev:qwen-stub": "node services/model-stubs/qwen-openai-compatible.mjs",
     "dev:moss-runtime": "node services/moss-runtime/server.mjs",
     "smoke:adapters": "node apps/agent/scripts/smoke-adapters.mjs",
+    "smoke:local": "node scripts/smoke-local.mjs",
     "start": "node apps/website-lab/server.mjs",
     "test": "node --test",
-    "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/worker.mjs && node --check apps/agent/scripts/smoke-adapters.mjs && node --check services/moss-runtime/server.mjs && node --check services/model-stubs/qwen-openai-compatible.mjs && node --check packages/action-protocol/index.mjs && npm test && npm run smoke:adapters"
+    "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/worker.mjs && node --check apps/agent/scripts/smoke-adapters.mjs && node --check scripts/smoke-local.mjs && node --check services/moss-runtime/server.mjs && node --check services/model-stubs/qwen-openai-compatible.mjs && node --check packages/action-protocol/index.mjs && npm test && npm run smoke:adapters"
   },
   "dependencies": {
     "@livekit/rtc-node": "^0.13.29",

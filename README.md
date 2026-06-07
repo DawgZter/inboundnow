@@ -215,6 +215,7 @@ Useful local adapter checks:
 
 ```bash
 npm run smoke:adapters
+npm run smoke:local
 npm run dev:qwen-stub
 npm run dev:moss-runtime
 ```
