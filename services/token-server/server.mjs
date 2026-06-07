@@ -10,8 +10,29 @@ const LIVEKIT_API_KEY = process.env.LIVEKIT_API_KEY || "devkey";
 const LIVEKIT_API_SECRET = process.env.LIVEKIT_API_SECRET || "secret";
 const DEFAULT_ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
 const TOKEN_TTL_SECONDS = Number(process.env.LIVEKIT_TOKEN_TTL_SECONDS || 60 * 60);
+const ENABLE_SIM_BRIDGE = process.env.ENABLE_SIM_BRIDGE !== "0";
+const LIVEKIT_CLIENT_ASSET = "/__ocw-assets/livekit-client.esm.mjs";
 
 const rooms = new Map();
+
+function assertNotLiveKitCloud(rawUrl) {
+  let parsed;
+  try {
+    parsed = new URL(rawUrl);
+  } catch {
+    throw new Error("LIVEKIT_URL must be a valid ws:// or wss:// URL");
+  }
+
+  if (!["ws:", "wss:"].includes(parsed.protocol)) {
+    throw new Error("LIVEKIT_URL must use ws:// or wss://");
+  }
+
+  if (/livekit\.cloud$/i.test(parsed.hostname)) {
+    throw new Error("LIVEKIT_URL points at LiveKit Cloud; InboundNow local MVP requires self-hosted/local LiveKit.");
+  }
+}
+
+assertNotLiveKitCloud(LIVEKIT_URL);
 
 function base64Url(input) {
   return Buffer.from(input)
@@ -106,7 +127,9 @@ const server = createServer(async (req, res) => {
   if (url.pathname === "/health") {
     sendJson(res, 200, {
       ok: true,
-      mode: "local-simulated-agent-bridge",
+      mode: "local-livekit-token-server",
+      transport: "livekit",
+      simulatedBridgeEnabled: ENABLE_SIM_BRIDGE,
       livekitUrl: LIVEKIT_URL,
       defaultRoom: DEFAULT_ROOM,
       rooms: Array.from(rooms.keys()).map(roomSnapshot),
@@ -120,9 +143,13 @@ const server = createServer(async (req, res) => {
       livekitUrl: LIVEKIT_URL,
       room,
       tokenEndpoint: "http://" + HOST + ":" + PORT + "/token",
-      bridgeUrl: "ws://" + HOST + ":" + PORT + "/agent-bridge?role=browser&room=" + encodeURIComponent(room),
-      simulated: true,
-      note: "LiveKit tokens are real local-dev JWTs. The browser-agent action bridge is simulated until local ASR/LLM/TTS adapters are attached.",
+      livekitClientAsset: LIVEKIT_CLIENT_ASSET,
+      transport: "livekit",
+      bridgeUrl: ENABLE_SIM_BRIDGE
+        ? "ws://" + HOST + ":" + PORT + "/agent-bridge?role=browser&room=" + encodeURIComponent(room)
+        : null,
+      simulatedBridgeEnabled: ENABLE_SIM_BRIDGE,
+      note: "LiveKit tokens and local room config are real. WebSocket bridge is only a fallback when explicitly enabled or LiveKit is unavailable.",
     });
     return;
   }
@@ -150,7 +177,7 @@ const wss = new WebSocketServer({ noServer: true });
 
 server.on("upgrade", (req, socket, head) => {
   const url = new URL(req.url || "/", "http://" + HOST + ":" + PORT);
-  if (url.pathname !== "/agent-bridge") {
+  if (url.pathname !== "/agent-bridge" || !ENABLE_SIM_BRIDGE) {
     socket.destroy();
     return;
   }

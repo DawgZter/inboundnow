@@ -180,11 +180,16 @@ Run the local pieces in separate terminals:
 # Optional transport proof: self-hosted LiveKit, not LiveKit Cloud.
 livekit-server --dev
 
-# Local LiveKit token issuer plus simulated browser-agent bridge.
+# Local LiveKit token issuer plus WebSocket fallback bridge.
 npm run dev:token
 
-# Local simulated SDR worker.
+# Local SDR worker over WebSocket fallback.
 npm run dev:agent
+
+# Or, with livekit-server --dev running, local SDR worker over LiveKit data.
+AGENT_TRANSPORT=livekit npm run dev:agent
+# Equivalent helper:
+npm run dev:agent:livekit
 
 # Remote.com website lab with browser-native OpenClicky-Web widget.
 PORT=4199 TOKEN_SERVER_URL=http://127.0.0.1:4301 npm run dev:lab
@@ -193,14 +198,16 @@ PORT=4199 TOKEN_SERVER_URL=http://127.0.0.1:4301 npm run dev:lab
 Open `http://localhost:4199/direct`, then use:
 
 - `Ask payroll question` for deterministic local fallback.
-- `Connect` to connect the browser to the local token server bridge.
+- `Connect` to prefer the local LiveKit room, then fall back to the WebSocket bridge if LiveKit is unavailable.
 - `Ask agent` to send the current text question to `apps/agent`.
 - `Sim voice` to send the same text as a simulated voice transcript.
 
 Current proof level:
 
 - LiveKit tokens are real local-dev JWTs for `ws://127.0.0.1:7880`.
-- The browser-agent action bridge is simulated over local WebSocket until LiveKit data-channel wiring is added.
+- The browser can load the local LiveKit browser SDK bundle and publish JSON over LiveKit data channels when a local LiveKit server and `AGENT_TRANSPORT=livekit` worker are running.
+- The WebSocket bridge remains as an honest fallback when LiveKit is unavailable.
+- Mic publication is requested from the browser `Connect` action, but ASR is still not attached to the audio track.
 - ASR, LLM, TTS, and Moss have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model/runtime proof.
 - Cal.com is not loaded until the user confirms the booking prompt.
 

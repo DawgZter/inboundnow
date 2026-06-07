@@ -11,6 +11,8 @@ const LIVEKIT_ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
 
 const CLICKY_CURSOR_PATH = "/__ocw-assets/clicky-cursor.svg";
 const CLICKY_CURSOR_IMAGE = new URL("./assets/clicky-cursor.svg", import.meta.url);
+const LIVEKIT_CLIENT_PATH = "/__ocw-assets/livekit-client.esm.mjs";
+const LIVEKIT_CLIENT_BUNDLE = new URL("../../node_modules/livekit-client/dist/livekit-client.esm.mjs", import.meta.url);
 
 const HOP_BY_HOP_HEADERS = new Set([
   "connection",
@@ -495,6 +497,14 @@ function injectedOpenClickyWeb() {
     var liveKitRoom = (bridgePanel && bridgePanel.dataset.livekitRoom) || 'inboundnow-local';
     var bridgeSocket = null;
     var bridgeReady = false;
+    var liveKitClientModulePromise = null;
+    var liveKitRoomInstance = null;
+    var liveKitReady = false;
+    var transportMode = 'idle';
+    var controlTopic = 'inboundnow.control.v1';
+    var browserIdentity = 'browser-' + Math.random().toString(36).slice(2, 10);
+    var textEncoder = new TextEncoder();
+    var textDecoder = new TextDecoder();
     var bookingState = 'none';
 
     var specs = {
@@ -537,9 +547,7 @@ function injectedOpenClickyWeb() {
       if (events.length > 80) events.shift();
       try { window.dispatchEvent(new CustomEvent('openClickyWeb:event', { detail: event })); } catch (e) {}
       try {
-        if (bridgeSocket && bridgeSocket.readyState === WebSocket.OPEN) {
-          bridgeSocket.send(JSON.stringify({ type: 'browser.event', event: event, bookingState: bookingState }));
-        }
+        sendAgentMessage({ type: 'browser.event', event: event, bookingState: bookingState });
       } catch (e) {}
       return event;
     }
@@ -574,7 +582,7 @@ function injectedOpenClickyWeb() {
       url.search = new URLSearchParams({
         role: 'browser',
         room: liveKitRoom,
-        identity: 'browser-' + Math.random().toString(36).slice(2, 8)
+        identity: browserIdentity
       }).toString();
       return url.href;
     }
@@ -584,13 +592,72 @@ function injectedOpenClickyWeb() {
       url.search = new URLSearchParams({
         role: 'browser',
         room: liveKitRoom,
-        identity: 'visitor-local'
+        identity: browserIdentity
       }).toString();
       var response = await fetch(url.href);
       if (!response.ok) throw new Error('Token server returned ' + response.status);
       var payload = await response.json();
       window.__ocwLiveKitToken = payload;
       return payload;
+    }
+
+    function loadLiveKitClient() {
+      if (!liveKitClientModulePromise) {
+        liveKitClientModulePromise = import('/__ocw-assets/livekit-client.esm.mjs');
+      }
+      return liveKitClientModulePromise;
+    }
+
+    async function connectLiveKitRoom() {
+      if (liveKitReady && liveKitRoomInstance) return liveKitRoomInstance;
+
+      setAgentState('waiting', 'Connecting local LiveKit room...');
+      var tokenPayload = await fetchLocalToken();
+      var livekit = await loadLiveKitClient();
+      var Room = livekit.Room;
+      var RoomEvent = livekit.RoomEvent;
+      var room = new Room({ adaptiveStream: false, dynacast: false });
+      liveKitRoomInstance = room;
+
+      room.on(RoomEvent.DataReceived, function(payload, participant, kind, topic){
+        if (topic && topic !== controlTopic) return;
+        try {
+          handleAgentMessage(textDecoder.decode(payload));
+        } catch (e) {
+          emit('liveKitMessageFailed', { message: e.message || String(e) });
+        }
+      });
+
+      room.on(RoomEvent.Disconnected, function(){
+        liveKitReady = false;
+        if (transportMode === 'livekit') setAgentState('offline', 'LiveKit room disconnected');
+      });
+
+      await room.connect(tokenPayload.livekitUrl, tokenPayload.token);
+
+      try {
+        await room.startAudio();
+      } catch (e) {
+        emit('liveKitAudioStartSkipped', { message: e.message || String(e) });
+      }
+
+      try {
+        await room.localParticipant.setMicrophoneEnabled(true, {
+          echoCancellation: true,
+          noiseSuppression: true,
+          autoGainControl: true
+        });
+        emit('liveKitMicPublished', { room: liveKitRoom, identity: browserIdentity });
+      } catch (e) {
+        emit('liveKitMicPublishFailed', { message: e.message || String(e) });
+      }
+
+      liveKitReady = true;
+      transportMode = 'livekit';
+      bridgeReady = true;
+      setAgentState('waiting', 'LiveKit connected; waiting for local agent worker.');
+      emit('liveKitConnected', { room: liveKitRoom, livekitUrl: tokenPayload.livekitUrl, identity: browserIdentity });
+      return room;
     }
 
     function connectAgentBridge() {
@@ -605,12 +672,13 @@ function injectedOpenClickyWeb() {
           bridgeSocket = socket;
           socket.addEventListener('open', function(){
             bridgeReady = true;
+            transportMode = 'bridge';
             setAgentState('waiting', 'Bridge connected; waiting for local agent worker.');
             emit('bridgeConnected', { room: liveKitRoom, livekitUrl: tokenPayload.livekitUrl });
             resolve(socket);
           });
           socket.addEventListener('message', function(event){
-            handleBridgeMessage(event.data);
+            handleAgentMessage(event.data);
           });
           socket.addEventListener('close', function(){
             bridgeReady = false;
@@ -628,6 +696,21 @@ function injectedOpenClickyWeb() {
       });
     }
 
+    async function connectAgentTransport() {
+      if (liveKitReady && liveKitRoomInstance) return liveKitRoomInstance;
+      if (bridgeSocket && bridgeSocket.readyState === WebSocket.OPEN) return bridgeSocket;
+
+      try {
+        return await connectLiveKitRoom();
+      } catch (liveKitError) {
+        liveKitReady = false;
+        liveKitRoomInstance = null;
+        emit('liveKitConnectFailed', { message: liveKitError.message || String(liveKitError) });
+        setStatus('LiveKit unavailable; falling back to simulated bridge.');
+        return connectAgentBridge();
+      }
+    }
+
     function sendBridge(payload) {
       if (!bridgeSocket || bridgeSocket.readyState !== WebSocket.OPEN) {
         throw new Error('Agent bridge is not connected');
@@ -635,7 +718,24 @@ function injectedOpenClickyWeb() {
       bridgeSocket.send(JSON.stringify(payload));
     }
 
-    function handleBridgeMessage(raw) {
+    function sendLiveKitMessage(payload) {
+      if (!liveKitReady || !liveKitRoomInstance) {
+        throw new Error('LiveKit room is not connected');
+      }
+      return liveKitRoomInstance.localParticipant.publishData(textEncoder.encode(JSON.stringify(payload)), {
+        reliable: true,
+        topic: controlTopic
+      });
+    }
+
+    function sendAgentMessage(payload) {
+      if (liveKitReady && liveKitRoomInstance) {
+        return sendLiveKitMessage(payload);
+      }
+      return sendBridge(payload);
+    }
+
+    function handleAgentMessage(raw) {
       var message;
       try {
         message = JSON.parse(raw);
@@ -664,6 +764,7 @@ function injectedOpenClickyWeb() {
       }
 
       if (message.type === 'agent.answer') {
+        setAgentState('online', message.transport === 'livekit' ? 'LiveKit agent answered' : 'Local agent ready');
         updateTranscript(message.answer || '');
         setStatus(message.simulated ? 'Agent answered in simulated mode.' : 'Agent answered.');
         emit('agentAnswerReceived', { intent: message.intent || '', simulated: !!message.simulated });
@@ -671,21 +772,27 @@ function injectedOpenClickyWeb() {
       }
 
       if (message.type === 'agent.action' && message.action) {
+        setAgentState('online', message.transport === 'livekit' ? 'LiveKit agent action received' : 'Local agent ready');
         enqueue(message.action);
       }
     }
 
+    function handleBridgeMessage(raw) {
+      return handleAgentMessage(raw);
+    }
+
     async function askLocalAgent(simulatedVoice) {
       var question = commandInput.value || 'How does Remote help with global payroll?';
-      await connectAgentBridge();
+      await connectAgentTransport();
       var snapshot = snapshotPage();
       updateTranscript((simulatedVoice ? 'Simulated voice transcript: ' : 'You asked: ') + question);
-      setStatus('Sent question to local simulated agent.');
-      sendBridge({
+      setStatus('Sent question to local agent over ' + (liveKitReady ? 'LiveKit data channel.' : 'simulated bridge.'));
+      await sendAgentMessage({
         id: 'q_' + Math.random().toString(36).slice(2, 10),
         type: 'prospect.question',
         question: question,
         simulatedVoice: !!simulatedVoice,
+        transport: liveKitReady ? 'livekit' : 'bridge',
         pageSnapshot: {
           url: snapshot.url,
           title: snapshot.title,
@@ -1189,7 +1296,7 @@ function injectedOpenClickyWeb() {
       }
 
       if (key === 'connectagent' || key === 'connect agent') {
-        await connectAgentBridge();
+        await connectAgentTransport();
         return;
       }
 
@@ -1205,7 +1312,7 @@ function injectedOpenClickyWeb() {
 
       if (key === 'confirmbooking') {
         bookingState = 'confirmed';
-        try { sendBridge({ type: 'booking.confirmed', state: bookingState }); } catch (e) {}
+        try { sendAgentMessage({ type: 'booking.confirmed', state: bookingState }); } catch (e) {}
         openScheduler();
         await moveCursor(Math.max(32, window.innerWidth - 344), Math.max(32, window.innerHeight - 228), 'Cal.com scheduler', 620);
         return;
@@ -1213,7 +1320,7 @@ function injectedOpenClickyWeb() {
 
       if (key === 'dismissbookingprompt') {
         dismissBookingPrompt();
-        try { sendBridge({ type: 'booking.dismissed', state: bookingState }); } catch (e) {}
+        try { sendAgentMessage({ type: 'booking.dismissed', state: bookingState }); } catch (e) {}
         return;
       }
 
@@ -1306,7 +1413,7 @@ function injectedOpenClickyWeb() {
       event.preventDefault();
       var actionName = button.getAttribute('data-ocw-action');
       if (actionName === 'connectagent') {
-        connectAgentBridge().catch(function(error){ setStatus(error.message || String(error)); });
+        connectAgentTransport().catch(function(error){ setStatus(error.message || String(error)); });
         return;
       }
       if (actionName === 'askagent') {
@@ -1646,6 +1753,7 @@ const server = createServer(async (req, res) => {
 
     const localAsset =
       localUrl.pathname === CLICKY_CURSOR_PATH ? { url: CLICKY_CURSOR_IMAGE, contentType: "image/svg+xml; charset=utf-8" } :
+      localUrl.pathname === LIVEKIT_CLIENT_PATH ? { url: LIVEKIT_CLIENT_BUNDLE, contentType: "text/javascript; charset=utf-8" } :
       null;
     if (localAsset) {
       try {

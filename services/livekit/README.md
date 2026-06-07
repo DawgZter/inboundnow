@@ -18,6 +18,21 @@ That starts a local server on `ws://127.0.0.1:7880` with:
 
 If you want an explicit config file instead of `--dev`, run `livekit-server --config services/livekit/livekit.dev.yaml`.
 
+## Local Transport Smoke
+
+Run these in separate terminals:
+
+```bash
+livekit-server --dev
+npm run dev:token
+npm run dev:agent:livekit
+PORT=4199 TOKEN_SERVER_URL=http://127.0.0.1:4301 npm run dev:lab
+```
+
+Open `http://localhost:4199/direct` and click `Connect`, then `Ask agent`.
+The browser should prefer LiveKit data-channel messages and fall back to the
+WebSocket bridge only if local LiveKit is unavailable.
+
 ## Environment
 
 The local token server defaults to the same values:

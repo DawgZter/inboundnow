@@ -35,7 +35,33 @@
     }
   ],
   "verification": {
-    "status": "not_started",
-    "checks": []
+    "status": "in_progress",
+    "checks": [
+      {
+        "id": "protocol-tests",
+        "status": "passed",
+        "command": "npm test"
+      },
+      {
+        "id": "adapter-smoke",
+        "status": "passed",
+        "command": "npm run smoke:adapters"
+      },
+      {
+        "id": "token-config-asset-smoke",
+        "status": "passed",
+        "evidence": "results/livekit-transport-checkpoint.md"
+      },
+      {
+        "id": "browser-fallback-cal-gate",
+        "status": "passed",
+        "evidence": "results/livekit-transport-checkpoint.md"
+      },
+      {
+        "id": "livekit-room-data-channel",
+        "status": "not_proven",
+        "reason": "livekit-server is not installed or running in this environment"
+      }
+    ]
   }
 }

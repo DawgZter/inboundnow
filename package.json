@@ -8,6 +8,7 @@
     "dev:lab": "node apps/website-lab/server.mjs",
     "dev:token": "node services/token-server/server.mjs",
     "dev:agent": "node apps/agent/worker.mjs",
+    "dev:agent:livekit": "AGENT_TRANSPORT=livekit node apps/agent/worker.mjs",
     "dev:qwen-stub": "node services/model-stubs/qwen-openai-compatible.mjs",
     "dev:moss-runtime": "node services/moss-runtime/server.mjs",
     "smoke:adapters": "node apps/agent/scripts/smoke-adapters.mjs",
@@ -16,6 +17,8 @@
     "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/worker.mjs && node --check apps/agent/scripts/smoke-adapters.mjs && node --check services/moss-runtime/server.mjs && node --check services/model-stubs/qwen-openai-compatible.mjs && node --check packages/action-protocol/index.mjs && npm test && npm run smoke:adapters"
   },
   "dependencies": {
+    "@livekit/rtc-node": "^0.13.29",
+    "livekit-client": "^2.19.1",
     "ws": "^8.21.0"
   }
 }
