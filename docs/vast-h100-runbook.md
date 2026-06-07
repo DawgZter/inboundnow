@@ -219,7 +219,7 @@ On the instance:
     ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav npm run smoke:h100:persona
     BROWSER_MIC_AUDIO_PATH=/path/to/known-transcript.wav ASR_EXPECTED_PATTERN="Remote|payroll|global" npm run smoke:h100:browser-persona
 
-`smoke:h100:persona` proves the model-chain from an audio file through local ASR/Moss/Qwen/TTS without opening a browser. `smoke:h100:browser-persona` is the executable click-to-start browser harness: it opens the lab, clicks Connect local transport, clicks Start/Stop voice turn, publishes browser media through local LiveKit, rejects bridge fallback/stubs, asserts local Parakeet/Qwen/Moss/Miso metadata, checks primitive browser actions, saves `result.json`, logs, and a final screenshot. With `BROWSER_MIC_AUDIO_PATH`, it is still an automated browser media-fixture proof, not a human manual microphone proof. Use `REQUIRE_MANUAL_MIC=1 HEADLESS=0` when capturing a manual speaking artifact.
+`smoke:h100:persona` proves the model-chain from an audio file through local ASR/Moss/Qwen/TTS without opening a browser. `smoke:h100:browser-persona` is the executable click-to-start browser harness: it opens the lab, clicks the visible Start AI Persona control, requires LiveKit plus a published mic, publishes browser media through local LiveKit, rejects bridge fallback/stubs, asserts local Parakeet/Qwen/Moss/Miso metadata, checks primitive browser actions, saves `result.json`, logs, and a final screenshot. With `BROWSER_MIC_AUDIO_PATH`, it is still an automated browser media-fixture proof, not a human manual microphone proof. Use `REQUIRE_MANUAL_MIC=1 HEADLESS=0` when capturing a manual speaking artifact.
 
 Browser proof to capture manually after the automated harness:
 

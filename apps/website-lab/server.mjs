@@ -8,11 +8,25 @@ const DEFAULT_TARGET = process.env.REMOTE_TARGET_URL || process.env.TARGET_URL |
 const CAL_EMBED_URL = process.env.CAL_URL || "https://cal.com/remote";
 const TOKEN_SERVER_URL = process.env.TOKEN_SERVER_URL || "http://127.0.0.1:4301";
 const LIVEKIT_ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
+const REQUIRE_LIVEKIT = ["1", "true", "yes", "on"].includes(String(process.env.REQUIRE_LIVEKIT || process.env.H100_PROOF_MODE || "").toLowerCase());
+const DEFAULT_TARGET_URL = new URL(DEFAULT_TARGET);
 const OPENCLICKY_INJECT_HOSTS = new Set(
   (process.env.OPENCLICKY_INJECT_HOSTS || "")
     .split(",")
     .map((host) => host.trim().toLowerCase())
     .filter(Boolean),
+);
+const REMOTE_PROXY_ALLOW_HOSTS = new Set(
+  [
+    DEFAULT_TARGET_URL.hostname,
+    DEFAULT_TARGET_URL.host,
+    "remote.com",
+    ...OPENCLICKY_INJECT_HOSTS,
+    ...(process.env.REMOTE_PROXY_ALLOW_HOSTS || "")
+      .split(",")
+      .map((host) => host.trim().toLowerCase())
+      .filter(Boolean),
+  ].filter(Boolean),
 );
 
 const CLICKY_CURSOR_PATH = "/__ocw-assets/clicky-cursor.svg";
@@ -61,6 +75,49 @@ function parseProxyPath(requestUrl) {
   const encodedHost = match[2];
   const path = match[3] || "/";
   return new URL(scheme + "://" + decodeURIComponent(encodedHost) + path + local.search);
+}
+
+function isPrivateOrLocalHost(hostname) {
+  const host = String(hostname || "").trim().toLowerCase().replace(/^\[|\]$/g, "");
+  if (!host) return true;
+  if (host === "localhost" || host.endsWith(".localhost")) return true;
+  if (host === "::1" || host === "0:0:0:0:0:0:0:1") return true;
+  if (host === "0.0.0.0") return true;
+  if (host.startsWith("fc") || host.startsWith("fd") || host.startsWith("fe80:")) return true;
+
+  const ipv4 = host.match(/^(\d{1,3})\.(\d{1,3})\.(\d{1,3})\.(\d{1,3})$/);
+  if (!ipv4) return false;
+  const octets = ipv4.slice(1).map(Number);
+  if (octets.some((part) => part < 0 || part > 255)) return true;
+  const [a, b] = octets;
+  return (
+    a === 10 ||
+    a === 127 ||
+    a === 0 ||
+    (a === 169 && b === 254) ||
+    (a === 172 && b >= 16 && b <= 31) ||
+    (a === 192 && b === 168)
+  );
+}
+
+function isLikelyTopLevelNavigation(req, targetUrl) {
+  const dest = String(req.headers["sec-fetch-dest"] || "").toLowerCase();
+  if (dest === "document" || dest === "iframe") return true;
+  const mode = String(req.headers["sec-fetch-mode"] || "").toLowerCase();
+  if (mode === "navigate") return true;
+  const accept = String(req.headers.accept || "").toLowerCase();
+  const pathname = targetUrl.pathname.toLowerCase();
+  const assetExtension = /\.(?:css|js|mjs|json|map|png|jpe?g|gif|webp|avif|svg|ico|woff2?|ttf|otf|mp3|wav|mp4|webm|wasm|txt|xml)$/i;
+  return accept.includes("text/html") && !assetExtension.test(pathname);
+}
+
+function isAllowedProxyTarget(targetUrl, options = {}) {
+  const host = targetUrl.host.toLowerCase();
+  const hostname = targetUrl.hostname.toLowerCase();
+  if (hostname === "remote.com" || hostname.endsWith(".remote.com")) return true;
+  if (REMOTE_PROXY_ALLOW_HOSTS.has(host) || REMOTE_PROXY_ALLOW_HOSTS.has(hostname)) return true;
+  if (isPrivateOrLocalHost(hostname)) return false;
+  return !options.topLevelNavigation;
 }
 
 function shouldSkipUrl(raw) {
@@ -225,6 +282,7 @@ function injectedOpenClickyWeb() {
   const calUrl = escapeAttr(CAL_EMBED_URL);
   const tokenServerUrl = escapeAttr(TOKEN_SERVER_URL);
   const liveKitRoom = escapeAttr(LIVEKIT_ROOM);
+  const requireLiveKit = REQUIRE_LIVEKIT ? "true" : "false";
   return `
 <div id="ocw-root" aria-live="polite">
   <style>
@@ -278,6 +336,12 @@ function injectedOpenClickyWeb() {
       margin-top: 10px; padding: 10px; border-radius: 8px;
       border: 1px solid rgba(17, 24, 39, 0.10); background: rgba(239, 246, 255, 0.68);
     }
+    .ocw-persona-button {
+      width: 100%; min-height: 42px; margin-bottom: 8px; border: 0; border-radius: 8px;
+      background: #0564ff; color: #fff; cursor: pointer; font-size: 13px; font-weight: 800;
+      box-shadow: 0 10px 22px rgba(5, 100, 255, 0.24);
+    }
+    .ocw-persona-button:hover { background: #0457d8; }
     .ocw-agent-state {
       display: flex; align-items: center; gap: 7px; margin-bottom: 8px;
       color: #334155; font-size: 11px; font-weight: 680;
@@ -300,6 +364,14 @@ function injectedOpenClickyWeb() {
     }
     .ocw-bridge-actions button:hover { border-color: rgba(5, 100, 255, 0.45); }
     .ocw-bridge-actions button[data-ocw-action="interruptresponse"] { grid-column: span 2; }
+    .ocw-dev-controls { margin-top: 9px; }
+    .ocw-dev-controls summary {
+      cursor: pointer; color: #475569; font-size: 11px; font-weight: 760;
+      list-style-position: inside; user-select: none;
+    }
+    .ocw-dev-controls[open] summary { margin-bottom: 8px; }
+    .ocw-dev-controls .ocw-command { margin-top: 9px; }
+    .ocw-dev-controls .ocw-grid { margin-top: 8px; }
     .ocw-proof {
       display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px;
     }
@@ -469,19 +541,11 @@ function injectedOpenClickyWeb() {
     </div>
     <div class="ocw-body">
       <div class="ocw-transcript" role="log" aria-live="polite">
-        <div class="ocw-turn" data-role="system"><strong>System</strong>Ask how Remote helps with global payroll and I will guide the page while answering.</div>
+        <div class="ocw-turn" data-role="system"><strong>System</strong>Click Start AI Persona and speak naturally.</div>
       </div>
-      <div class="ocw-bridge" data-token-server="${tokenServerUrl}" data-livekit-room="${liveKitRoom}">
+      <div class="ocw-bridge" data-token-server="${tokenServerUrl}" data-livekit-room="${liveKitRoom}" data-require-livekit="${requireLiveKit}">
         <div class="ocw-agent-state"><span class="ocw-agent-dot"></span><span class="ocw-agent-copy">Local transport offline</span></div>
-        <div class="ocw-bridge-actions">
-          <button data-ocw-action="connectagent" type="button">Connect local transport</button>
-          <button data-ocw-action="disconnecttransport" type="button">Disconnect</button>
-          <button data-ocw-action="askagent" type="button">Ask agent</button>
-          <button data-ocw-action="startvoiceturn" type="button">Start voice turn</button>
-          <button data-ocw-action="stopvoiceturn" type="button">Stop voice turn</button>
-          <button data-ocw-action="simulatevoice" type="button">Send simulated transcript</button>
-          <button data-ocw-action="interruptresponse" type="button">Interrupt</button>
-        </div>
+        <button class="ocw-persona-button" data-ocw-action="startpersona" type="button">Start AI Persona</button>
         <div class="ocw-proof" aria-label="Local voice proof states">
           <span class="ocw-chip" data-ocw-chip="transport" data-state="idle">Transport: idle</span>
           <span class="ocw-chip" data-ocw-chip="mic" data-state="off">Mic: not published</span>
@@ -489,18 +553,33 @@ function injectedOpenClickyWeb() {
           <span class="ocw-chip" data-ocw-chip="asr" data-state="stub">ASR: text fallback</span>
           <span class="ocw-chip" data-ocw-chip="turn" data-state="idle">Turn: idle</span>
           <span class="ocw-chip" data-ocw-chip="voice" data-state="idle">Voice: Default SDR</span>
+          <span class="ocw-chip" data-ocw-chip="planner" data-state="idle">Planner: idle</span>
+          <span class="ocw-chip" data-ocw-chip="retrieval" data-state="idle">Moss: idle</span>
+          <span class="ocw-chip" data-ocw-chip="tts" data-state="idle">TTS: idle</span>
         </div>
         <div class="ocw-proof-line">LiveKit data/control is local. Mic can publish when permitted; ASR turns use local transcript or Parakeet adapter boundaries.</div>
-      </div>
-      <form class="ocw-command">
-        <input class="ocw-input" value="How does Remote help with global payroll?" autocomplete="off" aria-label="Voice guide command" />
-        <button class="ocw-run" type="submit">Run</button>
-      </form>
-      <div class="ocw-grid">
-        <button class="ocw-action primary" data-ocw-action="payrollflow" type="button">Scripted payroll demo</button>
-        <button class="ocw-action" data-ocw-action="showbookingprompt" type="button">Book meeting</button>
-        <button class="ocw-action" data-ocw-action="payroll" type="button">Show payroll</button>
-        <button class="ocw-action" data-ocw-action="snapshot" type="button">Snapshot</button>
+        <details class="ocw-dev-controls">
+          <summary>Developer controls</summary>
+          <div class="ocw-bridge-actions">
+            <button data-ocw-action="connectagent" type="button">Connect local transport</button>
+            <button data-ocw-action="disconnecttransport" type="button">Disconnect</button>
+            <button data-ocw-action="askagent" type="button">Ask agent</button>
+            <button data-ocw-action="startvoiceturn" type="button">Start voice turn</button>
+            <button data-ocw-action="stopvoiceturn" type="button">Stop voice turn</button>
+            <button data-ocw-action="simulatevoice" type="button">Send simulated transcript</button>
+            <button data-ocw-action="interruptresponse" type="button">Interrupt</button>
+          </div>
+          <form class="ocw-command">
+            <input class="ocw-input" value="How does Remote help with global payroll?" autocomplete="off" aria-label="Voice guide command" />
+            <button class="ocw-run" type="submit">Run</button>
+          </form>
+          <div class="ocw-grid">
+            <button class="ocw-action" data-ocw-action="payrollflow" type="button">Scripted payroll demo</button>
+            <button class="ocw-action" data-ocw-action="showbookingprompt" type="button">Book meeting</button>
+            <button class="ocw-action" data-ocw-action="payroll" type="button">Show payroll</button>
+            <button class="ocw-action" data-ocw-action="snapshot" type="button">Snapshot</button>
+          </div>
+        </details>
       </div>
       <div class="ocw-size">
         <div class="ocw-size-row">
@@ -552,7 +631,10 @@ function injectedOpenClickyWeb() {
       agent: root.querySelector('[data-ocw-chip="agent"]'),
       asr: root.querySelector('[data-ocw-chip="asr"]'),
       turn: root.querySelector('[data-ocw-chip="turn"]'),
-      voice: root.querySelector('[data-ocw-chip="voice"]')
+      voice: root.querySelector('[data-ocw-chip="voice"]'),
+      planner: root.querySelector('[data-ocw-chip="planner"]'),
+      retrieval: root.querySelector('[data-ocw-chip="retrieval"]'),
+      tts: root.querySelector('[data-ocw-chip="tts"]')
     };
     var scheduler = root.querySelector('.ocw-scheduler');
     var bookingPrompt = root.querySelector('.ocw-booking-prompt');
@@ -568,11 +650,13 @@ function injectedOpenClickyWeb() {
     var remoteBasePath = '/__remote/https/remote.com';
     var tokenServerUrl = (bridgePanel && bridgePanel.dataset.tokenServer) || 'http://127.0.0.1:4301';
     var liveKitRoom = (bridgePanel && bridgePanel.dataset.livekitRoom) || 'inboundnow-local';
+    var requireLiveKit = bridgePanel && bridgePanel.getAttribute('data-require-livekit') === 'true';
     var bridgeSocket = null;
     var bridgeReady = false;
     var liveKitClientModulePromise = null;
     var liveKitRoomInstance = null;
     var liveKitReady = false;
+    var micPublished = false;
     var transportMode = 'idle';
     var controlTopic = 'inboundnow.control.v1';
     var browserIdentity = 'browser-' + Math.random().toString(36).slice(2, 10);
@@ -689,6 +773,18 @@ function injectedOpenClickyWeb() {
 
     function setVoiceState(state, text) {
       setChip('voice', 'Voice: ' + text, state);
+    }
+
+    function setPlannerState(state, text) {
+      setChip('planner', 'Planner: ' + text, state);
+    }
+
+    function setRetrievalState(state, text) {
+      setChip('retrieval', 'Moss: ' + text, state);
+    }
+
+    function setTtsState(state, text) {
+      setChip('tts', 'TTS: ' + text, state);
     }
 
     function setProofLine(text) {
@@ -962,6 +1058,7 @@ function injectedOpenClickyWeb() {
       if (lastAgentAnswer) lastSpokenAgentAnswer = lastAgentAnswer;
       window.__ocwLastSpeech = '';
       setTurnState('speaking', 'streaming speech');
+      setTtsState('speaking', message.modelAudio ? 'awaiting model audio' : (speechState.provider || 'browser fallback'));
       if (message.modelAudio) {
         setTtsProof('TTS: text captions are streaming while local model-audio chunks are expected. Real Miso One audio still requires H100 proof.');
       } else {
@@ -998,6 +1095,7 @@ function injectedOpenClickyWeb() {
 
       if (!browserSpeechAvailable()) {
         setTtsProof('TTS: streamed text chunks received, but browser speech fallback is unavailable. Local Miso One audio is not proven yet.');
+        setTtsState('blocked', 'text only');
         speechState.spokenChunks += 1;
         emit('speechChunkDisplayed', { requestId: speechState.requestId, sequence: next.sequence, audible: false });
         window.setTimeout(function(){ pumpSpeechQueue(generation); }, 0);
@@ -1066,6 +1164,7 @@ function injectedOpenClickyWeb() {
       if (message.requestId && ignoredSpeechRequestIds[message.requestId]) return;
       if (message.requestId && speechState.requestId && message.requestId !== speechState.requestId) return;
       speechState.ended = true;
+      if (!modelAudioState.requestId) setTtsState('answered', 'stream ended');
       emit('speechStreamEnded', {
         requestId: speechState.requestId,
         chunkCount: message.chunkCount || speechState.chunkCount,
@@ -1213,6 +1312,7 @@ function injectedOpenClickyWeb() {
       resetModelAudioState(true);
       modelAudioState.requestId = message.requestId || '';
       modelAudioState.chunkCount = Number(message.chunkCount || 0);
+      setTtsState('speaking', (message.provider || 'model audio') + ' ' + (message.proofLevel || 'contract'));
       setTtsProof('TTS: local model-audio stream started (' + (message.provider || 'tts') + ', ' + (message.format || 'audio') + ', proof level: ' + (message.proofLevel || 'contract') + '). Real model proof depends on the H100 smoke.');
       emit('ttsAudioStreamStarted', {
         requestId: message.requestId || '',
@@ -1289,6 +1389,7 @@ function injectedOpenClickyWeb() {
 
     function finishTtsAudioStream(message) {
       if (shouldIgnoreTtsAudioMessage(message, 'ttsAudioStreamIgnored')) return;
+      setTtsState('answered', (message.provider || 'model audio') + ' ended');
       setTtsProof('TTS: local model-audio stream ended after ' + Number(message.chunkCount || 0) + ' chunks at proof level ' + (message.proofLevel || 'contract') + '. Real model proof depends on the H100 smoke.');
       emit('ttsAudioStreamEnded', {
         requestId: message.requestId || '',
@@ -1305,6 +1406,7 @@ function injectedOpenClickyWeb() {
 
     function failTtsAudioStream(message) {
       if (shouldIgnoreTtsAudioMessage(message, 'ttsAudioStreamIgnored')) return;
+      setTtsState('blocked', (message.provider || 'model audio') + ' failed');
       setTtsProof('TTS: local model-audio stream failed; text captions remain visible and browser speech is not replayed to avoid duplicate playback. ' + (message.message || ''));
       emit('ttsAudioStreamFailed', {
         requestId: message.requestId || '',
@@ -1396,6 +1498,7 @@ function injectedOpenClickyWeb() {
 
       room.on(RoomEvent.Disconnected, function(){
         liveKitReady = false;
+        micPublished = false;
         if (transportMode === 'livekit') {
           setAgentState('offline', 'LiveKit room disconnected');
           setTransportState('idle', 'disconnected');
@@ -1418,11 +1521,17 @@ function injectedOpenClickyWeb() {
           noiseSuppression: true,
           autoGainControl: true
         });
+        micPublished = true;
         setMicState('published', 'published');
         emit('liveKitMicPublished', { room: liveKitRoom, identity: browserIdentity });
       } catch (e) {
+        micPublished = false;
         setMicState('blocked', 'blocked');
         emit('liveKitMicPublishFailed', { message: e.message || String(e) });
+        if (requireLiveKit) {
+          try { await room.disconnect(); } catch (disconnectError) {}
+          throw e;
+        }
       }
 
       liveKitReady = true;
@@ -1488,6 +1597,13 @@ function injectedOpenClickyWeb() {
         liveKitReady = false;
         liveKitRoomInstance = null;
         emit('liveKitConnectFailed', { message: liveKitError.message || String(liveKitError) });
+        if (requireLiveKit) {
+          setAgentState('offline', 'LiveKit required for proof mode');
+          setTransportState('failed', 'LiveKit required');
+          setProofLine('LiveKit is required for this proof run; bridge fallback is disabled.');
+          setStatus('LiveKit connection failed and bridge fallback is disabled.');
+          throw liveKitError;
+        }
         setStatus('LiveKit unavailable; using local WebSocket bridge for text/control only.');
         return connectAgentBridge();
       }
@@ -1513,6 +1629,7 @@ function injectedOpenClickyWeb() {
       bridgeSocket = null;
       bridgeReady = false;
       liveKitReady = false;
+      micPublished = false;
       liveKitRoomInstance = null;
       transportMode = 'idle';
       activeVoiceTurnRequestId = '';
@@ -1522,6 +1639,9 @@ function injectedOpenClickyWeb() {
       setMicState('off', 'not published');
       setAsrState('stub', 'text fallback');
       setTurnState('idle', 'idle');
+      setPlannerState('idle', 'idle');
+      setRetrievalState('idle', 'idle');
+      setTtsState('idle', 'idle');
       setProofLine('Disconnected. No audio is being sent.');
       setStatus('Disconnected. No audio is being sent.');
       emit('transportDisconnected', { room: liveKitRoom });
@@ -1597,9 +1717,26 @@ function injectedOpenClickyWeb() {
       });
     }
 
-    async function startVoiceTurn() {
+    async function startVoiceTurn(options) {
+      var voiceOptions = options || {};
+      if (activeVoiceTurnRequestId) {
+        setStatus('Voice turn is already listening. Stop the turn before starting another.');
+        return;
+      }
       prewarmBrowserSpeech();
       await connectAgentTransport();
+      if (voiceOptions.requireVoicePath && (!liveKitReady || !micPublished)) {
+        setTurnState('blocked', 'voice path blocked');
+        setStatus('Start AI Persona requires LiveKit and a published microphone.');
+        setProofLine('Start AI Persona did not start: LiveKit transport and microphone publication are required.');
+        emit('personaStartBlocked', {
+          reason: 'livekit_mic_required',
+          transportMode: transportMode,
+          liveKitReady: liveKitReady,
+          micPublished: micPublished
+        });
+        throw new Error('Start AI Persona requires LiveKit and a published microphone.');
+      }
       activeVoiceTurnRequestId = 'asr_' + Math.random().toString(36).slice(2, 10);
       setAsrState('listening', liveKitReady ? 'listening' : 'waiting for audio');
       setTurnState('listening', 'listening');
@@ -1613,6 +1750,14 @@ function injectedOpenClickyWeb() {
         bookingState: bookingState,
         voiceProfile: activeVoiceProfile,
       });
+    }
+
+    async function startPersona() {
+      setStatus('Starting AI persona.');
+      await startVoiceTurn({ requireVoicePath: true });
+      if (activeVoiceTurnRequestId && liveKitReady && micPublished) {
+        emit('personaStarted', { requestId: activeVoiceTurnRequestId, transport: 'livekit', micPublished: true });
+      }
     }
 
     async function stopVoiceTurn() {
@@ -1773,6 +1918,20 @@ function injectedOpenClickyWeb() {
 
       if (message.type === 'agent.answer') {
         setAgentState('online', message.transport === 'livekit' ? 'LiveKit agent answered' : 'Local agent ready');
+        if (message.planner) {
+          var plannerLabel = message.planner.source || message.planner.provider || 'local';
+          if (message.planner.provider && message.planner.provider !== plannerLabel) plannerLabel += ' via ' + message.planner.provider;
+          setPlannerState(message.planner.fallback ? 'blocked' : 'answered', plannerLabel);
+        }
+        if (message.retrieval) {
+          var retrievalCount = typeof message.retrieval.count === 'number' ? ' (' + message.retrieval.count + ')' : '';
+          setRetrievalState(message.retrieval.error || message.retrieval.simulated ? 'blocked' : 'answered', (message.retrieval.provider || 'local') + retrievalCount);
+        } else if (message.adapters && message.adapters.moss) {
+          setRetrievalState('answered', message.adapters.moss);
+        }
+        if (message.adapters && message.adapters.tts && !modelAudioState.requestId && !speechState.requestId) {
+          setTtsState('waiting', message.adapters.tts);
+        }
         applyVoiceProfile(message.voiceProfile, message.voiceSwitch && message.voiceSwitch.reason);
         lastAgentAnswer = message.answer || '';
         updateTranscript(lastAgentAnswer, 'agent');
@@ -2015,6 +2174,58 @@ function injectedOpenClickyWeb() {
       };
     }
 
+    function originalUrlFromMaybeProxy(rawUrl) {
+      if (!rawUrl) return null;
+      try {
+        var url = new URL(rawUrl, location.href);
+        var proxied = url.origin === location.origin && url.pathname.match(/^\\/__remote\\/(https?)\\/([^/]+)(\\/.*)?$/);
+        if (proxied) {
+          return new URL(proxied[1] + '://' + decodeURIComponent(proxied[2]) + (proxied[3] || '/') + url.search + url.hash);
+        }
+        return url;
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function isCalUrl(rawUrl) {
+      var url = originalUrlFromMaybeProxy(rawUrl);
+      if (!url) return false;
+      var host = normalized(url.hostname);
+      return host === 'cal.com' || host.slice(-8) === '.cal.com';
+    }
+
+    function textLooksLikeBookingCta(text) {
+      return /\\b(book|booking|demo|schedule|calendar|cal\\.com|meeting|walkthrough|talk\\s+to\\s+sales|contact\\s+sales)\\b/i.test(String(text || ''));
+    }
+
+    function elementLooksLikeBookingCta(element, label) {
+      if (!element || isOurUi(element)) return false;
+      var anchor = element.closest && element.closest('a[href]');
+      var hrefs = [
+        element.getAttribute && element.getAttribute('href'),
+        element.getAttribute && element.getAttribute('data-href'),
+        anchor && anchor.getAttribute('href'),
+        anchor && anchor.href,
+        element.href
+      ].filter(Boolean);
+      if (hrefs.some(isCalUrl)) return true;
+      return textLooksLikeBookingCta([
+        label || '',
+        element.innerText || element.textContent || '',
+        element.getAttribute && (element.getAttribute('aria-label') || element.getAttribute('title') || '')
+      ].join(' '));
+    }
+
+    function blockSchedulerIntent(reason, detail) {
+      showBookingPrompt();
+      var payload = Object.assign({ reason: reason, bookingState: bookingState }, detail || {});
+      emit('calNavigationBlocked', payload);
+      emit('bookingNavigationBlocked', payload);
+      setStatus('Scheduler navigation is gated until the user confirms booking.');
+      return false;
+    }
+
     function collectElements(selector, limit) {
       return Array.prototype.slice.call(document.querySelectorAll(selector))
         .filter(isVisible)
@@ -2148,6 +2359,10 @@ function injectedOpenClickyWeb() {
     }
 
     async function clickElement(element, label) {
+      if (!element) throw new Error('Target not found');
+      if (elementLooksLikeBookingCta(element, label)) {
+        return blockSchedulerIntent('booking_cta_click', { target: elementSummary(element) });
+      }
       var point = await moveToElement(element, label || 'Clicking ' + targetLabel(element, 'target'));
       cursor.classList.add('is-pressing');
       dispatchMouse(element, 'mouseover', point);
@@ -2183,6 +2398,9 @@ function injectedOpenClickyWeb() {
     }
 
     function navigate(rawUrl, pendingAction) {
+      if (isCalUrl(rawUrl)) {
+        return blockSchedulerIntent('cal_navigation', { href: String(rawUrl || '') });
+      }
       var next = toProxyLocation(rawUrl);
       if (pendingAction) {
         try { window.sessionStorage.setItem('ocwPendingAction', pendingAction); } catch (e) {}
@@ -2361,6 +2579,11 @@ function injectedOpenClickyWeb() {
         return;
       }
 
+      if (key === 'startpersona' || key === 'start ai persona' || key === 'start persona') {
+        await startPersona();
+        return;
+      }
+
       if (key === 'disconnecttransport' || key === 'disconnect' || key === 'disconnect agent') {
         await disconnectAgentTransport();
         return;
@@ -2520,6 +2743,10 @@ function injectedOpenClickyWeb() {
       if (!button) return;
       event.preventDefault();
       var actionName = button.getAttribute('data-ocw-action');
+      if (actionName === 'startpersona') {
+        startPersona().catch(function(error){ setStatus(error.message || String(error)); });
+        return;
+      }
       if (actionName === 'connectagent') {
         connectAgentTransport().catch(function(error){ setStatus(error.message || String(error)); });
         return;
@@ -2575,6 +2802,7 @@ function injectedOpenClickyWeb() {
       openCal: function(){ return enqueue({ type: 'openCal' }); },
       showBookingPrompt: function(){ return enqueue({ type: 'showBookingPrompt' }); },
       runPayrollFlow: function(){ return enqueue({ type: 'payrollFlow' }); },
+      startPersona: startPersona,
       connectAgentTransport: connectAgentTransport,
       disconnectAgentTransport: disconnectAgentTransport,
       sendFinalTranscript: function(text){
@@ -2597,6 +2825,7 @@ function injectedOpenClickyWeb() {
           bookingState: bookingState,
           transportMode: transportMode,
           liveKitReady: liveKitReady,
+          micPublished: micPublished,
           bridgeReady: bridgeReady,
           activeVoiceTurnRequestId: activeVoiceTurnRequestId,
           actionGeneration: actionGeneration
@@ -2793,8 +3022,6 @@ function writeProxyHeaders(res, upstream, targetUrl, contentTypeOverride) {
   }
 
   res.setHeader("cache-control", "no-store");
-  res.setHeader("access-control-allow-origin", "*");
-  res.setHeader("access-control-allow-credentials", "true");
 }
 
 function renderEmbedPage() {
@@ -2946,6 +3173,12 @@ const server = createServer(async (req, res) => {
     if (!targetUrl) {
       res.writeHead(404, { "content-type": "text/plain; charset=utf-8" });
       res.end("Not found. Use / for the iframe wrapper or /direct for the direct proxied Remote page.");
+      return;
+    }
+
+    if (!isAllowedProxyTarget(targetUrl, { topLevelNavigation: isLikelyTopLevelNavigation(req, targetUrl) })) {
+      res.writeHead(403, { "content-type": "text/plain; charset=utf-8" });
+      res.end("Proxy target is not allowlisted for this local demo.\n");
       return;
     }
 

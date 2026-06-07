@@ -121,6 +121,7 @@ async function readCalState(page) {
     const events = window.OpenClickyWeb.events();
     const schedulerStyle = scheduler ? getComputedStyle(scheduler) : null;
     return {
+      pageUrl: location.href,
       frameSrc: frame?.getAttribute("src") || "",
       frameDataSrc: frame?.getAttribute("data-src") || "",
       schedulerOpen: scheduler?.classList.contains("is-open") || false,
@@ -185,6 +186,22 @@ try {
   assert(!deferredOpen.schedulerOpen, "openCal must not open scheduler before explicit yes");
   assert(!deferredOpen.schedulerVisible, "openCal must keep scheduler hidden before explicit yes");
 
+  await page.evaluate(() => window.OpenClickyWeb.navigate("https://cal.com/remote?smoke=nav-bypass"));
+  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "calNavigationBlocked"), null, { timeout: 5000 });
+  const navBlocked = await readCalState(page);
+  assert(navBlocked.promptOpen, "direct Cal navigation should show or keep the booking prompt open");
+  assert(!navBlocked.frameSrc, "direct Cal navigation must not load Cal before explicit yes");
+  assert(!navBlocked.schedulerOpen, "direct Cal navigation must not open scheduler before explicit yes");
+  assert(navBlocked.pageUrl === deferredOpen.pageUrl, "direct Cal navigation must not move the page before explicit yes");
+
+  await page.evaluate(() => window.OpenClickyWeb.clickElement({ text: "Book a demo" }, "Book a demo"));
+  await page.waitForFunction(() => window.OpenClickyWeb.events().filter((event) => event.type === "calNavigationBlocked").length >= 2, null, { timeout: 5000 });
+  const clickBlocked = await readCalState(page);
+  assert(clickBlocked.promptOpen, "booking CTA clicks should show or keep the booking prompt open");
+  assert(!clickBlocked.frameSrc, "booking CTA clicks must not load Cal before explicit yes");
+  assert(!clickBlocked.schedulerOpen, "booking CTA clicks must not open scheduler before explicit yes");
+  assert(clickBlocked.pageUrl === deferredOpen.pageUrl, "booking CTA clicks must not navigate before explicit yes");
+
   await page.evaluate(() => window.OpenClickyWeb.dispatch("dismissBookingPrompt"));
   await page.waitForFunction(() => !document.querySelector(".ocw-booking-prompt")?.classList.contains("is-open"), null, { timeout: 5000 });
   await page.evaluate(() => window.OpenClickyWeb.dispatch("yes"));
@@ -223,10 +240,12 @@ try {
       initialVoiceFallbackVisible: true,
       directConfirmBlocked: true,
       openCalDeferred: true,
+      directCalNavigationBlocked: true,
+      bookingCtaClickBlocked: true,
       dismissedYesReprompts: true,
       yesButtonLoadsCal: true,
     },
-    states: { initial, directConfirm, deferredOpen, dismissedYes, confirmed },
+    states: { initial, directConfirm, deferredOpen, navBlocked, clickBlocked, dismissedYes, confirmed },
     browserConsole,
   };
 

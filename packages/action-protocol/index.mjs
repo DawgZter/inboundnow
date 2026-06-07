@@ -16,6 +16,7 @@ const TARGET_KEYS = new Set(["country", "demo", "eor", "payroll", "pricing"]);
 const CONFIRMED_BOOKING_STATE = "confirmed";
 const MAX_CAPTION_LENGTH = 360;
 const MAX_ANSWER_LENGTH = 1600;
+const BOOKING_CTA_PATTERN = /\b(?:book|booking|demo|schedule|calendar|cal\.com|meeting|walkthrough|talk\s+to\s+sales|contact\s+sales)\b/i;
 
 export class ActionProtocolError extends Error {
   constructor(message, details = {}) {
@@ -67,6 +68,40 @@ function textLength(value) {
   if (typeof value === "string") return value.trim().length;
   if (Array.isArray(value)) return value.map((item) => textLength(item)).reduce((sum, count) => sum + count, 0);
   return 0;
+}
+
+function stringValues(value) {
+  if (typeof value === "string") return [value];
+  if (Array.isArray(value)) return value.filter((item) => typeof item === "string");
+  return [];
+}
+
+function isCalHost(hostname) {
+  const host = cleanString(hostname).toLowerCase();
+  return host === "cal.com" || host.endsWith(".cal.com");
+}
+
+export function isForbiddenSchedulerUrl(rawUrl) {
+  const raw = cleanString(rawUrl);
+  if (!raw) return false;
+
+  try {
+    const parsed = new URL(raw, "https://remote.com");
+    return isCalHost(parsed.hostname);
+  } catch {
+    return false;
+  }
+}
+
+function targetLooksLikeBookingCta(target) {
+  if (!isPlainObject(target)) return false;
+  if (target.key === "demo") return true;
+  if (stringValues(target.href).some((href) => isForbiddenSchedulerUrl(href) || BOOKING_CTA_PATTERN.test(href))) return true;
+  return [
+    ...stringValues(target.text),
+    ...stringValues(target.label),
+    ...stringValues(target.role),
+  ].some((value) => BOOKING_CTA_PATTERN.test(value));
 }
 
 export function validateTarget(target) {
@@ -127,6 +162,9 @@ function validateUrl(action) {
     if (["javascript:", "data:", "file:", "blob:"].includes(parsed.protocol)) {
       return ["navigate.url uses a forbidden protocol"];
     }
+    if (isCalHost(parsed.hostname)) {
+      return ["navigate.url must not point at Cal.com; use openCal after booking confirmation"];
+    }
   } catch {
     return ["navigate.url must be parseable"];
   }
@@ -152,6 +190,10 @@ export function validateAction(action, options = {}) {
 
   if (["clickElement", "highlightElement", "moveCursorToElement", "scrollToElement"].includes(action.type)) {
     errors.push(...validateTarget(action.target));
+  }
+
+  if (action.type === "clickElement" && targetLooksLikeBookingCta(action.target)) {
+    errors.push("clickElement.target must not click booking CTAs; use showBookingPrompt or openCal after confirmation");
   }
 
   if (action.type === "navigate") {

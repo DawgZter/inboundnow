@@ -296,6 +296,8 @@ try {
     PORT: String(labPort),
     TOKEN_SERVER_URL: tokenServerUrl,
     LIVEKIT_ROOM: room,
+    REQUIRE_LIVEKIT: "1",
+    H100_PROOF_MODE: "1",
     REMOTE_TARGET_URL: targetUrl(),
     OPENCLICKY_INJECT_HOSTS: new URL(targetUrl()).hostname,
   });
@@ -322,7 +324,11 @@ try {
   const initial = await readState(page);
   assert.equal(initial.cal.frameSrc, "", "Cal iframe must be unloaded at page start");
 
-  await page.click('[data-ocw-action="connectagent"]');
+  await page.evaluate(() => window.OpenClickyWeb.setVoiceProfile("miso_lora_dev"));
+  await page.waitForFunction(() => document.querySelector('[data-ocw-chip="voice"]')?.textContent.includes("Miso One"), null, { timeout: 10_000 });
+
+  await page.click('[data-ocw-action="startpersona"]');
+  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "personaStarted" && event.detail.transport === "livekit"), null, { timeout: 30_000 });
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "liveKitConnected"), null, { timeout: 30_000 });
   await page.waitForFunction(() => window.OpenClickyWeb.debugState().transportMode === "livekit", null, { timeout: 30_000 });
   if (!requireManualMic) {
@@ -335,13 +341,9 @@ try {
   assert.equal(hasEvent(connected, "liveKitMicPublishFailed"), false, "Mic publication must not fail");
   assert.match(connected.transportChip, /LiveKit data connected/);
 
-  await page.evaluate(() => window.OpenClickyWeb.setVoiceProfile("miso_lora_dev"));
-  await page.waitForFunction(() => document.querySelector('[data-ocw-chip="voice"]')?.textContent.includes("Miso One"), null, { timeout: 10_000 });
-
-  await page.click('[data-ocw-action="startvoiceturn"]');
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrStatusReceived" && event.detail.status === "listening"), null, { timeout: 30_000 });
   await page.waitForTimeout(Number(process.env.BROWSER_MIC_CAPTURE_MS || 3500));
-  await page.click('[data-ocw-action="stopvoiceturn"]');
+  await page.evaluate(() => window.OpenClickyWeb.stopVoiceTurn());
 
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrFinalReceived"), null, { timeout: Number(process.env.ASR_FINAL_TIMEOUT_MS || 120_000) });
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "agentAnswerReceived"), null, { timeout: Number(process.env.AGENT_ANSWER_TIMEOUT_MS || 120_000) });

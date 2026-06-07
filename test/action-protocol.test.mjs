@@ -45,6 +45,29 @@ test("rejects unsafe navigation protocols", () => {
   assert.match(result.errors.join("\n"), /forbidden protocol/);
 });
 
+test("rejects scheduler navigation bypasses", () => {
+  const result = validateAction({ type: "navigate", url: "https://cal.com/remote" });
+
+  assert.equal(result.ok, false);
+  assert.match(result.errors.join("\n"), /Cal\.com/);
+});
+
+test("rejects booking CTA click bypasses", () => {
+  const result = validateAction({
+    type: "clickElement",
+    target: { text: "Book a demo" },
+  });
+
+  assert.equal(result.ok, false);
+  assert.match(result.errors.join("\n"), /booking CTAs/);
+});
+
+test("allows ordinary navigation targets", () => {
+  const result = validateAction({ type: "navigate", url: "https://remote.com/pricing" });
+
+  assert.equal(result.ok, true, result.errors.join("\n"));
+});
+
 test("rejects malformed widget ids", () => {
   const result = validateAction({
     type: "scrollToElement",

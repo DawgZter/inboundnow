@@ -807,7 +807,7 @@ async function connectLiveKit() {
     status: "online",
     mode: MODE,
     transport: "livekit",
-    message: "Local LiveKit agent worker connected. Voice ASR is not attached yet.",
+    message: "Local LiveKit agent worker connected. Mic turns are buffered for the configured local ASR adapter.",
   });
 
   console.log("LiveKit agent connected:", tokenPayload.livekitUrl, ROOM, IDENTITY);
