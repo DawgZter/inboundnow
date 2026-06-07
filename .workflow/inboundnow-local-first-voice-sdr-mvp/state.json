@@ -117,6 +117,13 @@
         "command": "npm run smoke:asr:livekit",
         "artifact": "artifacts/smoke/livekit-asr-local-2026-06-07T13-14-51-130Z/result.json",
         "notes": "Synthetic microphone track buffered through AudioStream(track), encoded as WAV, sent to fake localhost Parakeet endpoint, and drove ASR final answer/action."
+      },
+      {
+        "id": "browser-asr-ui",
+        "status": "passed",
+        "command": "npm run smoke:browser:asr-ui",
+        "artifact": "artifacts/smoke/browser-asr-ui-2026-06-07T13-20-16-822Z/result.json",
+        "notes": "Browser-visible ASR proof copy, listening/no-audio chips, final transcript fallback, warm voice persistence, and streamed speech start verified."
       }
     ]
   }

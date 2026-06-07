@@ -490,7 +490,7 @@ function injectedOpenClickyWeb() {
           <span class="ocw-chip" data-ocw-chip="turn" data-state="idle">Turn: idle</span>
           <span class="ocw-chip" data-ocw-chip="voice" data-state="idle">Voice: Default SDR</span>
         </div>
-        <div class="ocw-proof-line">LiveKit data/control is local. Mic can publish when permitted; ASR is not attached yet.</div>
+        <div class="ocw-proof-line">LiveKit data/control is local. Mic can publish when permitted; ASR turns use local transcript or Parakeet adapter boundaries.</div>
       </div>
       <form class="ocw-command">
         <input class="ocw-input" value="How does Remote help with global payroll?" autocomplete="off" aria-label="Voice guide command" />
@@ -1150,7 +1150,7 @@ function injectedOpenClickyWeb() {
           noiseSuppression: true,
           autoGainControl: true
         });
-        setMicState('published', 'published - no ASR yet');
+        setMicState('published', 'published');
         emit('liveKitMicPublished', { room: liveKitRoom, identity: browserIdentity });
       } catch (e) {
         setMicState('blocked', 'blocked');
@@ -1162,7 +1162,7 @@ function injectedOpenClickyWeb() {
       bridgeReady = true;
       setAgentState('waiting', 'LiveKit connected; waiting for local agent worker.');
       setTransportState('livekit', 'LiveKit data connected');
-      setProofLine('LiveKit data/control is connected locally. Mic publication is visible separately; ASR is not attached yet.');
+      setProofLine('LiveKit data/control is connected locally. Mic publication is visible separately; ASR proof depends on the configured local transcript or Parakeet adapter path.');
       emit('liveKitConnected', { room: liveKitRoom, livekitUrl: tokenPayload.livekitUrl, identity: browserIdentity });
       return room;
     }

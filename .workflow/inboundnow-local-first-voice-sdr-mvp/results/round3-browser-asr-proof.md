@@ -85,3 +85,17 @@ Latest passing artifact:
 Boundary retained: this proves synthetic LiveKit audio frames reach the ASR
 adapter contract. It does not prove real browser microphone capture, real H100
 Parakeet transcription, VAD/partial streaming, latency, or model accuracy.
+
+## Browser ASR UI result
+
+Implemented `scripts/smoke-browser-asr-ui.mjs` and wired it as
+`npm run smoke:browser:asr-ui`. The smoke loads a local mocked Remote-like page
+through the real website lab, starts the token server and bridge agent, verifies
+the initial ASR proof copy no longer says ASR is unattached, exercises
+`startVoiceTurn` and `stopVoiceTurn` through the browser API, checks listening
+and no-audio chips, then sends a simulated final transcript. It asserts the
+visible `Heard: ...` transcript, ASR transcript-fallback chip, preserved warm
+voice profile, `agentAnswerReceived`, and `speechStreamStarted`.
+
+Latest passing artifact:
+`artifacts/smoke/browser-asr-ui-2026-06-07T13-20-16-822Z/result.json`.
