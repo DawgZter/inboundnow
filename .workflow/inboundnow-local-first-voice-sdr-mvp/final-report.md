@@ -2,6 +2,8 @@
 
 ## Outcome
 
+In progress. This file is not a completion claim; the active goal still requires real ASR/LLM/TTS/Moss work and final E2E completion audit.
+
 ## Accepted Results
 
 ## Rejected Results

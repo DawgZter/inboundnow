@@ -61,12 +61,24 @@
         "id": "local-smoke-script",
         "status": "passed",
         "command": "npm run smoke:local",
-        "artifact": "artifacts/smoke/2026-06-07T08-09-42-551Z/result.json"
+        "artifact": "artifacts/smoke/2026-06-07T08-21-39-747Z/result.json"
       },
       {
         "id": "livekit-room-data-channel",
+        "status": "passed",
+        "command": "npm run smoke:livekit",
+        "artifact": "artifacts/smoke/livekit-2026-06-07T08-21-40-550Z/result.json",
+        "notes": "Bridge disabled; LiveKit server, browser participant, agent participant, answer, and action verified over data channel."
+      },
+      {
+        "id": "browser-livekit-cal-gate",
+        "status": "passed",
+        "evidence": "Browser smoke on http://127.0.0.1:4193/direct with ENABLE_SIM_BRIDGE=0: LiveKit agent action received, highlight/prompt shown, Cal src empty before confirmation and set after confirmation."
+      },
+      {
+        "id": "real-asr-llm-tts-moss",
         "status": "not_proven",
-        "reason": "livekit-server is not installed or running in this environment"
+        "reason": "Parakeet, local Qwen runtime, VibeVoice, and real Moss runtime are still stubs/configured boundaries only."
       }
     ]
   }

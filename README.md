@@ -205,17 +205,21 @@ Open `http://localhost:4199/direct`, then use:
 Current proof level:
 
 - LiveKit tokens are real local-dev JWTs for `ws://127.0.0.1:7880`.
-- The browser can load the local LiveKit browser SDK bundle and publish JSON over LiveKit data channels when a local LiveKit server and `AGENT_TRANSPORT=livekit` worker are running.
+- LiveKit data-channel control is verified locally with `npm run smoke:livekit`, with the WebSocket fallback disabled.
+- The browser LiveKit path is verified locally: browser joins the local room, sends the payroll question, receives `agent.action`, guides the page, and keeps Cal gated until confirmation.
 - The WebSocket bridge remains as an honest fallback when LiveKit is unavailable.
 - Mic publication is requested from the browser `Connect` action, but ASR is still not attached to the audio track.
 - ASR, LLM, TTS, and Moss have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model/runtime proof.
 - Cal.com is not loaded until the user confirms the booking prompt.
+
+More detailed status lives in `docs/proof-matrix.md`.
 
 Useful local adapter checks:
 
 ```bash
 npm run smoke:adapters
 npm run smoke:local
+npm run smoke:livekit
 npm run dev:qwen-stub
 npm run dev:moss-runtime
 ```

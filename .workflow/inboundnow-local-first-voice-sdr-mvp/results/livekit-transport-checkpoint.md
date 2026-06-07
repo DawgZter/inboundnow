@@ -38,14 +38,28 @@ Repeatable local smoke:
 
 - `npm run smoke:local` passed.
 - Artifact summary was written to
-  `artifacts/smoke/2026-06-07T08-09-42-551Z/result.json`.
+  `artifacts/smoke/2026-06-07T08-21-39-747Z/result.json`.
 - Checks covered token health, LiveKit config, token `canPublishData`, local
   LiveKit browser asset serving, and bridge agent answer/action loop.
 
+Bridge-disabled LiveKit smoke:
+
+- `npm run smoke:livekit` passed after installing `livekit-server` locally via Homebrew.
+- Artifact summary was written to
+  `artifacts/smoke/livekit-2026-06-07T08-21-40-550Z/result.json`.
+- Checks covered local `livekit-server --dev`, token health, `ENABLE_SIM_BRIDGE=0`, browser participant join, agent participant join, `agent.answer`, and `agent.action` over LiveKit data channels.
+
+Browser LiveKit smoke:
+
+- Browser smoke passed on `http://127.0.0.1:4193/direct` with `ENABLE_SIM_BRIDGE=0`.
+- `Connect` joined the local LiveKit room with the browser JS client.
+- Agent log showed `LiveKit agent connected` and receipt of browser event data.
+- `Ask agent` produced `LiveKit agent action received`, page scroll/highlight, booking prompt, and empty Cal iframe `src` before confirmation.
+- `Yes, open Cal` opened the scheduler and set `src="/__remote/https/cal.com/remote"` with no nested widget.
+
 ## Not Yet Proven
 
-- A real local LiveKit room join/data-channel round trip, because
-  `livekit-server` is not installed or running in this environment.
+- Browser mic publication as an asserted media-track proof. The browser requests mic publication, but ASR is not attached and permission behavior can vary.
 - Real Parakeet ASR from browser audio.
 - Real local Qwen/vLLM or SGLang planning.
 - Real VibeVoice local TTS.

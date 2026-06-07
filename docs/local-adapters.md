@@ -5,8 +5,8 @@ This document is the proof boundary for the local voice-agent harness.
 ## Current Proof
 
 - LiveKit token shape: implemented by `services/token-server` with local `devkey` / `secret` defaults.
-- Agent transport for the MVP: simulated local WebSocket bridge, not LiveKit data channels yet.
-- Prospect question input: browser text input or `Sim voice` button.
+- Agent transport for the MVP: local LiveKit data channels are verified for control messages; the WebSocket bridge remains a simulated local fallback.
+- Prospect question input: browser text input or simulated transcript button. Browser mic publication is configured, but ASR is not attached yet.
 - Agent reasoning: deterministic local keyword router.
 - Speech output: browser `speechSynthesis` fallback when available.
 - Adapter plumbing: dependency-free local stubs and status reporting under

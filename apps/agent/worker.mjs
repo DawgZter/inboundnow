@@ -129,6 +129,7 @@ function handleControlMessage(sendReply, raw) {
   }
 
   if (message.type === "prospect.question") {
+    console.log("agent.question", message.transport || AGENT_TRANSPORT, message.id || "", CONTROL_TOPIC);
     handleQuestion(sendReply, message).catch((error) => {
       sendReply({
         type: "agent.error",

@@ -33,6 +33,12 @@ Open `http://localhost:4199/direct` and click `Connect`, then `Ask agent`.
 The browser should prefer LiveKit data-channel messages and fall back to the
 WebSocket bridge only if local LiveKit is unavailable.
 
+For a bridge-disabled automated proof of the room/data path, run:
+
+```bash
+npm run smoke:livekit
+```
+
 ## Environment
 
 The local token server defaults to the same values:
