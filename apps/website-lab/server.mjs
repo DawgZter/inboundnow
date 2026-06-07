@@ -920,6 +920,13 @@ function injectedOpenClickyWeb() {
     function formatAdapterProof(message) {
       var labels = message.adapters || {};
       var parts = [];
+      if (message.planner) {
+        var planner = message.planner;
+        var plannerText = 'Planner ' + (planner.source || 'unknown');
+        if (planner.provider) plannerText += ' via ' + planner.provider;
+        if (planner.fallback) plannerText += ' fallback';
+        parts.push(plannerText);
+      }
       if (labels.asr) parts.push('ASR ' + labels.asr);
       if (labels.llm) parts.push('LLM ' + labels.llm);
       if (labels.tts) parts.push('TTS ' + labels.tts);

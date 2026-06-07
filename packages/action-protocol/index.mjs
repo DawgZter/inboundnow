@@ -261,6 +261,59 @@ export function validateAgentPlan(plan, options = {}) {
   return { ok: errors.length === 0, errors };
 }
 
+export function parseStrictAgentPlanJson(raw) {
+  if (typeof raw !== "string") {
+    throw new ActionProtocolError("Agent plan JSON must be a string", { rawType: typeof raw });
+  }
+
+  let parsed;
+  try {
+    parsed = JSON.parse(raw.trim());
+  } catch (error) {
+    throw new ActionProtocolError("Agent plan must be strict JSON without markdown or trailing prose", {
+      error: error.message,
+    });
+  }
+
+  if (!isPlainObject(parsed)) {
+    throw new ActionProtocolError("Agent plan JSON must be an object", { plan: parsed });
+  }
+
+  return parsed;
+}
+
+function validateAgentPlanShape(plan) {
+  const errors = [];
+  if (!isPlainObject(plan)) return ["plan must be an object"];
+  if (!cleanString(plan.intent)) errors.push("plan.intent must be a non-empty string");
+  if (!cleanString(plan.answer)) errors.push("plan.answer must be a non-empty string");
+  if (textLength(plan.answer) > MAX_ANSWER_LENGTH) {
+    errors.push("plan.answer must be <= " + MAX_ANSWER_LENGTH + " chars");
+  }
+  if (!Array.isArray(plan.actions)) errors.push("plan.actions must be an array");
+  return errors;
+}
+
+export function prepareAgentPlanForDispatch(planOrJson, options = {}) {
+  const rawPlan = typeof planOrJson === "string" ? parseStrictAgentPlanJson(planOrJson) : cloneObject(planOrJson);
+  const shapeErrors = validateAgentPlanShape(rawPlan);
+  if (shapeErrors.length) {
+    throw new ActionProtocolError("Invalid agent plan", {
+      plan: rawPlan,
+      errors: shapeErrors,
+    });
+  }
+
+  const actions = prepareActionsForDispatch(rawPlan.actions, options);
+  const plan = {
+    intent: cleanString(rawPlan.intent),
+    answer: cleanString(rawPlan.answer),
+    actions,
+  };
+
+  return { plan, actions };
+}
+
 export function assertAgentPlan(plan, options = {}) {
   const result = validateAgentPlan(plan, options);
   if (!result.ok) {

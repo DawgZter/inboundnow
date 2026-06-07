@@ -18,16 +18,19 @@ export function createQwenOpenAILocalAdapter(env = process.env) {
         detail: { baseUrl: base.href.replace(/\/$/, ""), model },
       });
     },
-    async complete({ messages = [], temperature = 0.2 } = {}) {
+    async complete({ messages = [], temperature = 0.2, maxTokens } = {}) {
       const endpoint = new URL("chat/completions", base.href.endsWith("/") ? base.href : base.href + "/");
+      const body = {
+        model,
+        messages,
+        temperature,
+      };
+      if (Number.isFinite(Number(maxTokens))) body.max_tokens = Number(maxTokens);
+
       const response = await fetch(endpoint, {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({
-          model,
-          messages,
-          temperature,
-        }),
+        body: JSON.stringify(body),
       });
 
       if (!response.ok) {
@@ -38,4 +41,3 @@ export function createQwenOpenAILocalAdapter(env = process.env) {
     },
   };
 }
-

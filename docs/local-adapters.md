@@ -46,6 +46,8 @@ Current keyword routing and `qwen-stub` are simulated planners, not local LLM
 proof. `qwen-openai-local` only becomes proof after a localhost vLLM/SGLang
 completion is exercised and captured.
 
+The worker only uses the local LLM planner when `AGENT_PLANNER=local-llm` and `LLM_PROVIDER=qwen-openai-local`. Planner JSON is parsed strictly and validated through `packages/action-protocol` before the answer or actions are sent; malformed JSON or invalid actions fall back to the deterministic router.
+
 ## VibeVoice-Style TTS Adapter
 
 Responsibilities:

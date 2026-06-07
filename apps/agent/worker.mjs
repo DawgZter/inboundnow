@@ -3,7 +3,7 @@ import { Room, RoomEvent, dispose } from "@livekit/rtc-node";
 import WebSocket from "ws";
 import { ActionProtocolError, prepareActionsForDispatch } from "../../packages/action-protocol/index.mjs";
 import { createAdapterRegistry, adapterLabels, adapterStatusMap } from "./adapters/registry.mjs";
-import { planForQuestion } from "./router.mjs";
+import { planQuestion } from "./llm-planner.mjs";
 
 const TOKEN_SERVER_URL = process.env.TOKEN_SERVER_URL || "http://127.0.0.1:4301";
 const ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
@@ -69,36 +69,29 @@ async function safeRetrieval(question) {
 async function handleQuestion(sendReply, message) {
   const question = message.question || message.text || "";
   const retrieval = await safeRetrieval(question);
-  const plan = planForQuestion(question, { retrieval });
   const requestId = message.id || "";
   const responseTransport = message.transport || AGENT_TRANSPORT;
   const adapterStatus = adapterStatusMap(adapters);
-
-  await sendReply({
-    type: "agent.answer",
-    requestId,
-    transport: responseTransport,
-    intent: plan.intent,
-    answer: plan.answer,
-    simulated: SIMULATED_AGENT,
-    adapters: adapterLabels(adapters),
-    adapterStatus,
-    retrieval: retrieval
-      ? {
-          provider: retrieval.provider || "",
-          simulated: !!retrieval.simulated,
-          count: Array.isArray(retrieval.snippets) ? retrieval.snippets.length : 0,
-          snippets: Array.isArray(retrieval.snippets) ? retrieval.snippets.slice(0, 3) : [],
-        }
-      : null,
+  const generateId = () => "act_" + Math.random().toString(36).slice(2, 10);
+  const planResult = await planQuestion({
+    question,
+    retrieval,
+    pageSnapshot: message.pageSnapshot,
+    bookingState: message.bookingState || "none",
+    adapters,
+    env: process.env,
+    generateId,
   });
+  const plan = planResult.plan;
+  let actions = planResult.preparedActions;
 
-  let actions;
   try {
-    actions = prepareActionsForDispatch(plan.actions, {
-      bookingState: message.bookingState || "none",
-      generateId: () => "act_" + Math.random().toString(36).slice(2, 10),
-    });
+    if (!Array.isArray(actions) || !actions.length) {
+      actions = prepareActionsForDispatch(plan.actions, {
+        bookingState: message.bookingState || "none",
+        generateId,
+      });
+    }
   } catch (error) {
     await sendReply({
       type: "agent.error",
@@ -109,6 +102,26 @@ async function handleQuestion(sendReply, message) {
     });
     return;
   }
+
+  await sendReply({
+    type: "agent.answer",
+    requestId,
+    transport: responseTransport,
+    intent: plan.intent,
+    answer: plan.answer,
+    simulated: SIMULATED_AGENT,
+    adapters: adapterLabels(adapters),
+    adapterStatus,
+    planner: planResult.planner,
+    retrieval: retrieval
+      ? {
+          provider: retrieval.provider || "",
+          simulated: !!retrieval.simulated,
+          count: Array.isArray(retrieval.snippets) ? retrieval.snippets.length : 0,
+          snippets: Array.isArray(retrieval.snippets) ? retrieval.snippets.slice(0, 3) : [],
+        }
+      : null,
+  });
 
   for (const action of actions) {
     await sendReply({

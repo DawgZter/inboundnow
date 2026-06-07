@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
   ActionProtocolError,
+  parseStrictAgentPlanJson,
+  prepareAgentPlanForDispatch,
   prepareActionForDispatch,
   prepareActionsForDispatch,
   validateAction,
@@ -107,4 +109,58 @@ test("router payroll plan emits protocol-valid actions", () => {
 
   assert.equal(plan.intent, "global_payroll");
   assert.equal(result.ok, true, result.errors.join("\n"));
+});
+
+test("strict agent plan parser accepts object-only JSON", () => {
+  const parsed = parseStrictAgentPlanJson(JSON.stringify({
+    intent: "global_payroll",
+    answer: "A concise answer.",
+    actions: [{ type: "showCaption", text: "Hello" }],
+  }));
+
+  assert.equal(parsed.intent, "global_payroll");
+});
+
+test("strict agent plan parser rejects markdown fences and prose", () => {
+  assert.throws(
+    () => parseStrictAgentPlanJson('```json\n{"intent":"x"}\n```'),
+    ActionProtocolError,
+  );
+  assert.throws(
+    () => parseStrictAgentPlanJson('{"intent":"x"}\nextra'),
+    ActionProtocolError,
+  );
+});
+
+test("strict agent plan parser rejects top-level arrays", () => {
+  assert.throws(
+    () => parseStrictAgentPlanJson("[]"),
+    ActionProtocolError,
+  );
+});
+
+test("prepareAgentPlanForDispatch gates openCal before confirmation", () => {
+  const prepared = prepareAgentPlanForDispatch({
+    intent: "booking",
+    answer: "I can show the booking prompt.",
+    actions: [{ type: "openCal" }],
+  }, { bookingState: "none", generateId: () => "act_plan_gate" });
+
+  assert.deepEqual(prepared.actions, [{
+    id: "act_plan_gate",
+    type: "showBookingPrompt",
+    reason: "open_cal_requires_confirmation",
+    gatedFrom: "openCal",
+  }]);
+});
+
+test("prepareAgentPlanForDispatch rejects unsafe planner actions", () => {
+  assert.throws(
+    () => prepareAgentPlanForDispatch({
+      intent: "unsafe",
+      answer: "Bad navigation.",
+      actions: [{ type: "navigate", url: "javascript:alert(1)" }],
+    }),
+    ActionProtocolError,
+  );
 });

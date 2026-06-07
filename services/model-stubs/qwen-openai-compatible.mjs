@@ -3,6 +3,19 @@ import { createServer } from "node:http";
 
 const PORT = Number(process.env.QWEN_STUB_PORT || 4311);
 const MODEL = process.env.LLM_MODEL || "qwen-local-stub";
+const MODE = process.env.QWEN_STUB_MODE || "text";
+
+const PAYROLL_PLAN = {
+  intent: "global_payroll",
+  answer: "Remote helps centralize global payroll, country-specific compliance, and distributed team payments.",
+  actions: [
+    {
+      type: "payrollFlow",
+      answer: "Remote helps centralize global payroll, country-specific compliance, and distributed team payments.",
+      source: "services/model-stubs/qwen-openai-compatible",
+    },
+  ],
+};
 
 function readBody(request) {
   return new Promise((resolve, reject) => {
@@ -41,9 +54,21 @@ const server = createServer(async (request, response) => {
     try {
       const body = JSON.parse(await readBody(request) || "{}");
       const latest = (body.messages || []).map((message) => message.content || "").filter(Boolean).at(-1) || "";
-      const content = latest.toLowerCase().includes("payroll")
+      let content = latest.toLowerCase().includes("payroll")
         ? "Remote helps centralize global payroll, country-specific compliance, and distributed team payments."
         : "I can help with Remote payroll, hiring, compliance, pricing, and country workflows.";
+
+      if (MODE === "planner-json") {
+        content = JSON.stringify(PAYROLL_PLAN);
+      } else if (MODE === "planner-malformed") {
+        content = "{not valid json";
+      } else if (MODE === "planner-invalid-action") {
+        content = JSON.stringify({
+          intent: "unsafe",
+          answer: "I will try to use an unsafe action.",
+          actions: [{ type: "driveNativeDesktop", target: { key: "payroll" } }],
+        });
+      }
 
       send(response, 200, {
         id: "chatcmpl_local_stub",
@@ -69,4 +94,3 @@ const server = createServer(async (request, response) => {
 server.listen(PORT, "127.0.0.1", () => {
   console.log(`Qwen OpenAI-compatible stub listening on http://127.0.0.1:${PORT}/v1`);
 });
-

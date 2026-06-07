@@ -222,8 +222,11 @@ Useful local adapter checks:
 
 ```bash
 npm run smoke:adapters
+npm run smoke:planner
 npm run smoke:local
 npm run smoke:livekit
 npm run dev:qwen-stub
 npm run dev:moss-runtime
 ```
+
+`AGENT_PLANNER=local-llm` opts the worker into the local Qwen/OpenAI-compatible JSON planner. The default remains the deterministic router, and malformed LLM output or invalid actions fall back before any LLM answer is sent.

@@ -5,6 +5,7 @@
 ```bash
 npm run check
 npm run smoke:adapters
+npm run smoke:planner
 npm run smoke:local
 npm run smoke:livekit
 ```
@@ -37,6 +38,22 @@ Expected proof level in this mode: browser and agent exchange control messages o
 ## H100 Local-Model Lane
 
 The real model lane requires an H100-class GPU. Use docs/vast-h100-runbook.md for the Vast.ai PyTorch-template setup, H100 preflight, Qwen vLLM endpoint, port tunnels, and evidence capture.
+
+## Local LLM Planner Mode
+
+Run a local OpenAI-compatible endpoint first:
+
+```bash
+QWEN_STUB_MODE=planner-json npm run dev:qwen-stub
+```
+
+Then run the agent with the opt-in planner switch:
+
+```bash
+AGENT_PLANNER=local-llm LLM_PROVIDER=qwen-openai-local LLM_BASE_URL=http://127.0.0.1:4311/v1 npm run dev:agent
+```
+
+`npm run smoke:planner` starts the Qwen-compatible stub itself and proves strict planner JSON parsing, protocol validation, and fallback boundaries. This is still stub proof, not real Qwen model proof.
 
 ## Adapter Stubs
 
