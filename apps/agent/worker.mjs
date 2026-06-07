@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import WebSocket from "ws";
+import { ActionProtocolError, prepareActionsForDispatch } from "../../packages/action-protocol/index.mjs";
 import { planForQuestion } from "./router.mjs";
 
 const TOKEN_SERVER_URL = process.env.TOKEN_SERVER_URL || "http://127.0.0.1:4301";
@@ -26,10 +27,11 @@ function send(ws, payload) {
 function handleQuestion(ws, message) {
   const question = message.question || message.text || "";
   const plan = planForQuestion(question);
+  const requestId = message.id || "";
 
   send(ws, {
     type: "agent.answer",
-    requestId: message.id || "",
+    requestId,
     intent: plan.intent,
     answer: plan.answer,
     simulated: MODE === "simulated",
@@ -41,14 +43,28 @@ function handleQuestion(ws, message) {
     },
   });
 
-  for (const action of plan.actions) {
+  let actions;
+  try {
+    actions = prepareActionsForDispatch(plan.actions, {
+      bookingState: message.bookingState || "none",
+      generateId: () => "act_" + Math.random().toString(36).slice(2, 10),
+    });
+  } catch (error) {
+    send(ws, {
+      type: "agent.error",
+      requestId,
+      code: error instanceof ActionProtocolError ? "invalid_action_plan" : "planner_error",
+      message: error.message,
+      details: error.details || {},
+    });
+    return;
+  }
+
+  for (const action of actions) {
     send(ws, {
       type: "agent.action",
-      requestId: message.id || "",
-      action: {
-        id: "act_" + Math.random().toString(36).slice(2, 10),
-        ...action,
-      },
+      requestId,
+      action,
     });
   }
 }

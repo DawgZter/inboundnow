@@ -9,7 +9,8 @@
     "dev:token": "node services/token-server/server.mjs",
     "dev:agent": "node apps/agent/worker.mjs",
     "start": "node apps/website-lab/server.mjs",
-    "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/worker.mjs"
+    "test": "node --test",
+    "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/worker.mjs && node --check packages/action-protocol/index.mjs && npm test"
   },
   "dependencies": {
     "ws": "^8.21.0"
