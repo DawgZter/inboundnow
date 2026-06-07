@@ -86,7 +86,7 @@ if [[ -z "${SMOKE_TARGET_URL:-}" && "${ALLOW_FIXTURE_TARGET:-0}" != "1" ]]; then
   export ALLOW_REMOTE_TARGET="${ALLOW_REMOTE_TARGET:-1}"
   log "Using Remote.com as browser proof target via the local website lab proxy."
 elif [[ "${ALLOW_FIXTURE_TARGET:-0}" == "1" ]]; then
-  log "ALLOW_FIXTURE_TARGET=1: browser proof may use the local toy target."
+  log "ALLOW_FIXTURE_TARGET=1: browser proof may use the local sample target."
 fi
 
 preflight_attempts="${H100_PREFLIGHT_ATTEMPTS:-60}"

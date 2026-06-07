@@ -1,0 +1,1235 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 1834055,
+  "title": "Wereldwijd aannemen: landengidsen voor Compliance en groei",
+  "description": "Naadloos een globaal team aannemen, betalen en beheren. Blijf compliant met lokale arbeidswetten terwijl je je bedrijf internationaal opschaalt. Ontdek onze landengidsen om aan de slag te gaan.",
+  "links": [
+    {
+      "href": "https://www.remote.com/",
+      "text": "Try it now"
+    },
+    {
+      "href": "https://remote.com/nl-nl",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner",
+      "text": "Demo boeken"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/global-payroll",
+      "text": "Global Payroll Eenvoudig payroll uitvoeren"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/employer-of-record",
+      "text": "Employer of Record Internationaal uitbreiden zonder kosten voor entiteiten"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/contractor-of-record",
+      "text": "Contractor of Record Zzp'ers compliant internationaal aantrekken"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/contractor-management",
+      "text": "Contractor Management Zzp'ers internationaal onboarden en beheren"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/professional-employer-organization",
+      "text": "PEO Ingewikkelde HR-taken eenvoudig uitbesteden"
+    },
+    {
+      "href": "https://embedded.remote.com/",
+      "text": "Remote Embedded HR naadloos in workflows integreren"
+    },
+    {
+      "href": "https://remote.com/nl-nl/remote-mcp",
+      "text": "Verbinden Nieuw AI-tools koppelen aan Remote met onze MCP"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/integraties-voor-klanten",
+      "text": "Integraties Processen stroomlijnen met essentiële zakelijke tools"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/vraag-een-expert",
+      "text": "Vraag een expert Krijg hulp van global HR- en juridische experts"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/screenings",
+      "text": "Achtergrondonderzoek Vereenvoudig het screeningsproces van kandidaten"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/hr-compliance",
+      "text": "Compliance Watchtower Blijf compliance-risico's voor"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/apparatuurbeheer",
+      "text": "Apparaatbeheer Lever en track wereldwijd IT-middelen"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/internationaal-entiteiten-oprichten",
+      "text": "Entiteiten oprichten Stel snel compliant entiteiten op"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/globale-mobiliteit",
+      "text": "Mobiliteit en overplaatsing Plaats werknemers moeiteloos over"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/internationale-secundaire-arbeidsvoorwaarden",
+      "text": "Secundaire arbeidsvoorwaarden Eenvoudig secundaire arbeidsvoorwaarden beheren"
+    },
+    {
+      "href": "https://remote.com/us-state-explorer",
+      "text": "Statenverkenner VS Makkelijker mensen aannemen in alle staten van de VS"
+    },
+    {
+      "href": "https://remote.com/nl-nl/waarom-remote",
+      "text": "Remote vergelijken Bekijk hoe we presteren in vergelijking met anderen"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/start-ups",
+      "text": "Start-ups Flexibele global HR en payroll solutions voor groeiende bedrijven"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/middelgrote-bedrijven",
+      "text": "Mid-market Teams uitbreiden met HR solutions op maat"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/enterprise",
+      "text": "Enterprise Global HR voor grote bedrijven"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/remote-api",
+      "text": "Strategische technologiepartners Integreer global HR flexibel in je platform"
+    },
+    {
+      "href": "https://remote.com/nl-nl/partners",
+      "text": "Een partner worden Ontdek hoe je met ons kunt samenwerken"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/casestudys/remote-weaviate",
+      "text": "Hoe AI-pionier Weaviate zijn team met 120% liet groeien met Remote"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/casestudys/remote-reverse-tech",
+      "text": "De strategische samenwerking tussen Reverse Tech en Remote voor zzp- en payroll-beheer"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/tool-risico-verkeerde-classificatie",
+      "text": "Risicocalculator voor verkeerde classificatie Check de classificatierisico's per land"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/calculator-voor-werknemerskosten",
+      "text": "Calculator voor werknemerskosten Bereken de totale werknemerskosten in een land"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/betalingsverkenner-voor-zzpers",
+      "text": "Betalingscalculator voor zzp'ers Ontdek valuta-opties en betaalsnelheden voor internationale zzp'ers"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/onderzoek",
+      "text": "Onderzoek en gidsen"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/casestudys",
+      "text": "Casestudy's"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/hr-woordenlijst",
+      "text": "HR-woordenlijst"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/checklists-templates",
+      "text": "Checklists en templates"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen",
+      "text": "Bibliotheek met functiebeschrijvingen"
+    },
+    {
+      "href": "https://remote.com/resources/webinars",
+      "text": "Webinars"
+    },
+    {
+      "href": "https://remote.com/events",
+      "text": "Evenementen"
+    },
+    {
+      "href": "https://remote.com/nl-nl/news",
+      "text": "Newsroom"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us/sections/34243549052685-Talent-Insights",
+      "text": "Inzicht in salaris en talent"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/insights-center",
+      "text": "Inzichtencentrum"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us",
+      "text": "Support"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen",
+      "text": "Alle bronnen bekijken"
+    },
+    {
+      "href": "https://remote.com/nl-nl/blog/tag/payroll",
+      "text": "Global Payroll"
+    },
+    {
+      "href": "https://remote.com/nl-nl/blog/tag/eor-peo",
+      "text": "EOR en PEO"
+    },
+    {
+      "href": "https://remote.com/nl-nl/blog/tag/contractor-management",
+      "text": "Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/blog/tag/compliance",
+      "text": "Compliance"
+    },
+    {
+      "href": "https://remote.com/nl-nl/blog/tag/belasting",
+      "text": "Belastingen"
+    },
+    {
+      "href": "https://remote.com/nl-nl/blog/tag/overplaatsing",
+      "text": "Werkvisums en -vergunningen"
+    },
+    {
+      "href": "https://remote.com/blog/changelog",
+      "text": "Changelog"
+    },
+    {
+      "href": "https://remote.com/nl-nl/blog",
+      "text": "Naar de blog"
+    },
+    {
+      "href": "https://remote.com/nl-nl/blog/eor-peo/eigen-entiteiten-eor-compliance",
+      "text": "Waarom eigen entiteiten belangrijk zijn voor EOR-compliance"
+    },
+    {
+      "href": "https://remote.com/nl-nl/blog/global-hr/typen-organisatiestructuur",
+      "text": "Vier typen organisatiestructuur: welke past het beste bij jouw bedrijf?"
+    },
+    {
+      "href": "https://remote.com/nl-nl/tarieven",
+      "text": "Tarieven"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "Inloggen"
+    },
+    {
+      "href": "https://remote.com/country-explorer",
+      "text": "English"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays",
+      "text": "Français"
+    },
+    {
+      "href": "https://remote.com/de-de/country-explorer",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://remote.com/es-es/explorador-paises",
+      "text": "Español"
+    },
+    {
+      "href": "https://remote.com/it-it/esplora-paese",
+      "text": "Italiano"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais",
+      "text": "Português (Portugal)"
+    },
+    {
+      "href": "https://remote.com/ja-jp/country-explorer",
+      "text": "日本語"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer",
+      "text": "한국어"
+    },
+    {
+      "href": "https://remote.com/zh-cn/country-explorer",
+      "text": "中文（简体）"
+    },
+    {
+      "href": "https://remote.com/country-explorer/united-states",
+      "text": "Verenigde Staten"
+    },
+    {
+      "href": "https://remote.com/country-explorer/germany",
+      "text": "Duitsland"
+    },
+    {
+      "href": "https://remote.com/country-explorer/spain",
+      "text": "Spanje"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/albanie",
+      "text": "Albanië --> Hoofdstad: Tirana --> Valuta: Albanese lek --> Officiële talen: Albanees Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/algerije",
+      "text": "Algerije --> Hoofdstad: Algiers --> Valuta: Algerijnse dinar --> Officiële talen: Tamazight (Berbers), Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/andorra",
+      "text": "Andorra --> Hoofdstad: Andorra la Vella --> Valuta: Euro --> Officiële talen: Catalaans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/angola",
+      "text": "Angola --> Hoofdstad: Luanda --> Valuta: Angolese kwanza --> Officiële talen: Portugees Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/antigua-en-barbuda",
+      "text": "Antigua en Barbuda --> Hoofdstad: Saint John's --> Valuta: Oost-Caribische dollar --> Officiële talen: Antiguaans en Barbudaans Creools, Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/argentinie",
+      "text": "Argentinië --> Hoofdstad: Buenos Aires --> Valuta: Argentijnse peso --> Officiële talen: Spaans Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/armenie",
+      "text": "Armenië --> Hoofdstad: Yerevan --> Valuta: Armeense dram --> Officiële talen: Armeens Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/aruba",
+      "text": "Aruba --> Hoofdstad: Oranjestad --> Valuta: Arubaanse florin --> Officiële talen: Nederlands, Papiaments Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/australie",
+      "text": "Australië --> Hoofdstad: Canberra --> Valuta: Australische dollar --> Officiële talen: Engels Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/azerbeidzjan",
+      "text": "Azerbeidzjan --> Hoofdstad: Baku --> Valuta: Azerbeidzjaanse manat --> Officiële talen: Azerbeidzjaans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/bahamas",
+      "text": "Bahama's --> Hoofdstad: Nassau --> Valuta: Bahamaanse dollar --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/bahrein",
+      "text": "Bahrein --> Hoofdstad: Manama --> Valuta: Bahreinse dinar --> Officiële talen: Engels, Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/bangladesh",
+      "text": "Bangladesh --> Hoofdstad: Dhaka --> Valuta: Bengalese taka --> Officiële talen: Bengaals Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/barbados",
+      "text": "Barbados --> Hoofdstad: Bridgetown --> Valuta: Barbadiaanse dollar --> Officiële talen: Engels en Bajan Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/belgie",
+      "text": "België --> Hoofdstad: Brussel --> Valuta: Euro --> Officiële talen: Nederlands, Frans, Duits Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/belize",
+      "text": "Belize --> Hoofdstad: Belmopan --> Valuta: Belizaanse dollar --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/benin",
+      "text": "Benin --> Hoofdstad: Porto-Novo --> Valuta: West-Afrikaanse CFA-frank --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/bhutan",
+      "text": "Bhutan --> Hoofdstad: Thimphu --> Valuta: Bhutaanse ngultrum --> Officiële talen: Dzongkha Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/bolivia",
+      "text": "Bolivia --> Hoofdstad: La Paz --> Valuta: Boliviaanse boliviano --> Officiële talen: Spaans, Inheemse talen Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/bosnie-en-herzegovina",
+      "text": "Bosnië en Herzegovina --> Hoofdstad: Sarajevo --> Valuta: Bosnische inwisselbare mark --> Officiële talen: Bosnisch, Servisch, Kroatisch Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/botswana",
+      "text": "Botswana --> Hoofdstad: Gaborone --> Valuta: Botswaanse pula --> Officiële talen: Engels, Tswana Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/brazilie",
+      "text": "Brazilië --> Hoofdstad: Brasilia --> Valuta: Rial --> Officiële talen: Portugees Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/brunei",
+      "text": "Brunei --> Hoofdstad: Bandar Seri Begawan --> Valuta: Bruneise dollar --> Officiële talen: Maleis Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/bulgarije",
+      "text": "Bulgarije --> Hoofdstad: Sofia --> Valuta: Euro --> Officiële talen: Bulgaars Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/burkina-faso",
+      "text": "Burkina Faso --> Hoofdstad: Ouagadougou --> Valuta: West-Afrikaanse CFA-frank --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/burundi",
+      "text": "Burundi --> Hoofdstad: Gitega --> Valuta: Burundese frank --> Officiële talen: Kirundi en Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/cambodja",
+      "text": "Cambodja --> Hoofdstad: Phnom Penh --> Valuta: Cambodjaanse riel --> Officiële talen: Khmer Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/canada",
+      "text": "Canada --> Hoofdstad: Ottawa --> Valuta: Canadese dollar --> Officiële talen: Frans, Engels Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/centraal-afrikaanse-republiek",
+      "text": "Centraal-Afrikaanse Republiek --> Hoofdstad: Bangui --> Valuta: CFA-frank --> Officiële talen: Sango en Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/chili",
+      "text": "Chili --> Hoofdstad: Santiago --> Valuta: Chileense peso --> Officiële talen: Spaans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/china",
+      "text": "China --> Hoofdstad: Peking --> Valuta: Chinese yuan --> Officiële talen: Mandarijn (Putonghua) Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/colombia",
+      "text": "Colombia --> Hoofdstad: Bogota --> Valuta: Colombiaanse peso --> Officiële talen: Spaans Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/comoren",
+      "text": "Comoren --> Hoofdstad: Moroni --> Valuta: Comorese frank --> Officiële talen: Comorees, Frans, Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/congo",
+      "text": "Congo (Congo-Brazzaville) --> Hoofdstad: Brazzaville --> Valuta: CFA-frank --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/costa-rica",
+      "text": "Costa Rica --> Hoofdstad: San José --> Valuta: Costa Ricaanse colon --> Officiële talen: Spaans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/cyprus",
+      "text": "Cyprus --> Hoofdstad: Nicosia --> Valuta: Euro --> Officiële talen: Grieks, Turks Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/democratische-republiek-congo",
+      "text": "Democratische Republiek Congo --> Hoofdstad: Kinshasa --> Valuta: Congolese frank --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/denemarken",
+      "text": "Denemarken --> Hoofdstad: Kopenhagen --> Valuta: Deense kroon --> Officiële talen: Deens Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/djibouti",
+      "text": "Djibouti --> Hoofdstad: Djibouti --> Valuta: Djiboutiaanse frank --> Officiële talen: Frans en Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/dominica",
+      "text": "Dominica --> Hoofdstad: Roseau --> Valuta: Oost-Caribische dollar --> Officiële talen: Dominicaans Creools, Frans, Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/dominicaanse-republiek",
+      "text": "Dominicaanse Republiek --> Hoofdstad: Santo Domingo --> Valuta: Dominicaanse peso --> Officiële talen: Spaans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/duitsland",
+      "text": "Duitsland --> Hoofdstad: Berlijn --> Valuta: Euro --> Officiële talen: Duits Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/ecuador",
+      "text": "Ecuador --> Hoofdstad: Quito --> Valuta: Amerikaanse dollar --> Officiële talen: Spaans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/egypte",
+      "text": "Egypte --> Hoofdstad: Caïro --> Valuta: Egyptische pond --> Officiële talen: Arabisch Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/el-salvador",
+      "text": "El Salvador --> Hoofdstad: San Salvador --> Valuta: Amerikaanse dollar --> Officiële talen: Spaans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/equatoriaal-guinea",
+      "text": "Equatoriaal-Guinea --> Hoofdstad: Malabo --> Valuta: CFA-frank --> Officiële talen: Spaans, Frans, Portugees Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/eritrea",
+      "text": "Eritrea --> Hoofdstad: Asmara --> Valuta: Eritrese nakfa --> Officiële talen: Tigrinya, Tigre, Dahlik Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/estland",
+      "text": "Estland --> Hoofdstad: Tallinn --> Valuta: Euro --> Officiële talen: Ests Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/eswatini",
+      "text": "Eswatini --> Hoofdstad: Mbabane (bestuurlijk) Lobamba (koninklijk) --> Valuta: Swazische lilangeni --> Officiële talen: Swazi en Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/ethiopie",
+      "text": "Ethiopië --> Hoofdstad: Addis Ababa --> Valuta: Ethiopische birr --> Officiële talen: Amhaars Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/fiji",
+      "text": "Fiji --> Hoofdstad: Suva --> Valuta: Fijische dollar --> Officiële talen: Fijisch Hindoestani, Engels, Fijisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/filipijnen",
+      "text": "Filipijnen --> Hoofdstad: Manila --> Valuta: Filipijnse peso --> Officiële talen: Filipijns, Engels Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/finland",
+      "text": "Finland --> Hoofdstad: Helsinki --> Valuta: Euro --> Officiële talen: Zweeds, Fins Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/frankrijk",
+      "text": "Frankrijk --> Hoofdstad: Parijs --> Valuta: Euro --> Officiële talen: Frans Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/gabon",
+      "text": "Gabon --> Hoofdstad: Libreville --> Valuta: CFA-frank --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/gambia",
+      "text": "Gambia --> Hoofdstad: Banjul --> Valuta: Gambiaanse dalasi --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/georgie",
+      "text": "Georgië --> Hoofdstad: Tbilisi --> Valuta: Georgische lari --> Officiële talen: Georgiaans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/ghana",
+      "text": "Ghana --> Hoofdstad: Accra --> Valuta: Ghanese cedi --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/grenada",
+      "text": "Grenada --> Hoofdstad: Saint George's --> Valuta: Oost-Caribische dollar --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/griekenland",
+      "text": "Griekenland --> Hoofdstad: Athene --> Valuta: Euro --> Officiële talen: Grieks Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/guatemala",
+      "text": "Guatemala --> Hoofdstad: Guatemala-Stad --> Valuta: Guatemalteekse quetzal --> Officiële talen: Spaans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/guinee",
+      "text": "Guinee --> Hoofdstad: Conakry --> Valuta: Guineese frank --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/guinee-bissau",
+      "text": "Guinee-Bissau --> Hoofdstad: Bissau --> Valuta: West-Afrikaanse CFA-frank --> Officiële talen: Portugees Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/guyana",
+      "text": "Guyana --> Hoofdstad: Georgetown --> Valuta: Guyanese dollar --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/haiti",
+      "text": "Haïti --> Hoofdstad: Port-au-Prince --> Valuta: Haïtiaanse gourde --> Officiële talen: Haïtiaans Creools, Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/honduras",
+      "text": "Honduras --> Hoofdstad: Tegucigalpa --> Valuta: Hondurese lempira --> Officiële talen: Spaans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/hongarije",
+      "text": "Hongarije --> Hoofdstad: Boedapest --> Valuta: Hongaarse forint --> Officiële talen: Hongaars Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/hongkong",
+      "text": "Hongkong --> Hoofdstad: Hongkong --> Valuta: Hongkongse dollar --> Officiële talen: Kantonees, Engels Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/ierland",
+      "text": "Ierland --> Hoofdstad: Dublin --> Valuta: Euro --> Officiële talen: Engels, Iers Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/ijsland",
+      "text": "IJsland --> Hoofdstad: Reykjavík --> Valuta: IJslandse kroon --> Officiële talen: IJslands Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/india",
+      "text": "India --> Hoofdstad: New Delhi --> Valuta: Indiase roepie --> Officiële talen: Engels, Hindi, 22 regionale talen Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/indonesie",
+      "text": "Indonesië --> Hoofdstad: Jakarta --> Valuta: Indiase roepie --> Officiële talen: Indonesisch Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/israel",
+      "text": "Israël --> Hoofdstad: Jeruzalem --> Valuta: Israëlische sjekel --> Officiële talen: Hebreeuws, Arabisch, Engels Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/italie",
+      "text": "Italië --> Hoofdstad: Rome --> Valuta: Euro --> Officiële talen: Italiaans Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/ivoorkust",
+      "text": "Ivoorkust --> Hoofdstad: Yamoussoukro --> Valuta: West-Afrikaanse CFA-frank --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/jamaica",
+      "text": "Jamaica --> Hoofdstad: Kingston --> Valuta: Jamaicaanse dollar --> Officiële talen: Engels Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/japan",
+      "text": "Japan --> Hoofdstad: Tokio --> Valuta: Japanse yen --> Officiële talen: Japans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/jemen",
+      "text": "Jemen --> Hoofdstad: Sanaa en Aden (voormalige hoofdstad) --> Valuta: Jemenitische rial --> Officiële talen: Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/jordanie",
+      "text": "Jordanië --> Hoofdstad: Amman --> Valuta: Jordaanse dinar --> Officiële talen: Modern Standaardarabisch, Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/kaapverdie",
+      "text": "Kaapverdië --> Hoofdstad: Praia --> Valuta: Kaapverdische escudo --> Officiële talen: Portugees Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/kameroen",
+      "text": "Kameroen --> Hoofdstad: Yaoundé --> Valuta: CFA-frank --> Officiële talen: Engels, Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/kazachstan",
+      "text": "Kazachstan --> Hoofdstad: Nur-Sultan --> Valuta: Kazachse tenge --> Officiële talen: Russisch, Kazachs Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/kenia",
+      "text": "Kenia --> Hoofdstad: Nairobi --> Valuta: Keniaanse shilling --> Officiële talen: Swahili, Engels Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/kirgizie",
+      "text": "Kirgizië --> Hoofdstad: Bisjkek --> Valuta: Kirgizische som --> Officiële talen: Kirgizisch, Russisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/kiribati",
+      "text": "Kiribati --> Hoofdstad: Tarawa --> Valuta: Australische dollar --> Officiële talen: Kiribati, Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/koeweit",
+      "text": "Koeweit --> Hoofdstad: Koeweit (stad) --> Valuta: Koeweitse dinar --> Officiële talen: Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/kosovo",
+      "text": "Kosovo --> Hoofdstad: Pristina --> Valuta: Euro --> Officiële talen: Albanees, Servisch Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/kroatie",
+      "text": "Kroatië --> Hoofdstad: Zagreb --> Valuta: Euro --> Officiële talen: Kroatisch Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/laos",
+      "text": "Laos --> Hoofdstad: Vientiane --> Valuta: Laotiaanse kip --> Officiële talen: Laotiaans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/lesotho",
+      "text": "Lesotho --> Hoofdstad: Maseru --> Valuta: Lesothaanse loti --> Officiële talen: Engels, Zuid-Sotho Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/letland",
+      "text": "Letland --> Hoofdstad: Riga --> Valuta: Euro --> Officiële talen: Lets Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/libanon",
+      "text": "Libanon --> Hoofdstad: Beiroet --> Valuta: Libanese pond --> Officiële talen: Arabisch Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/liberia",
+      "text": "Liberia --> Hoofdstad: Monrovia --> Valuta: Liberiaanse dollar --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/libie",
+      "text": "Libië --> Hoofdstad: Tripoli --> Valuta: Libische dinar --> Officiële talen: Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/liechtenstein",
+      "text": "Liechtenstein --> Hoofdstad: Vaduz --> Valuta: Zwitserse frank --> Officiële talen: Duits Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/litouwen",
+      "text": "Litouwen --> Hoofdstad: Vilnius --> Valuta: Euro --> Officiële talen: Litouws Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/luxemburg",
+      "text": "Luxemburg --> Hoofdstad: Luxemburg-Stad --> Valuta: Euro --> Officiële talen: Luxemburgs, Frans, Duits Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/macau",
+      "text": "Macao --> Hoofdstad: Macao --> Valuta: Macause pataca --> Officiële talen: Chinees, Portugees Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/madagaskar",
+      "text": "Madagaskar --> Hoofdstad: Antananarivo --> Valuta: Malagassische ariary --> Officiële talen: Frans, Malagasitalen Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/malawi",
+      "text": "Malawi --> Hoofdstad: Lilongwe --> Valuta: Malawische kwacha --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/malediven",
+      "text": "Malediven --> Hoofdstad: Malé --> Valuta: Maldivische rufiyaa --> Officiële talen: Divehi Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/maleisie",
+      "text": "Maleisië --> Hoofdstad: Kuala Lumpur --> Valuta: Maleisische ringgit --> Officiële talen: Maleis Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/mali",
+      "text": "Mali --> Hoofdstad: Bamako --> Valuta: West-Afrikaanse CFA-frank --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/malta",
+      "text": "Malta --> Hoofdstad: Valletta --> Valuta: Euro --> Officiële talen: Maltees, Engels Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/marokko",
+      "text": "Marokko --> Hoofdstad: Rabat --> Valuta: Marokkaanse dirham --> Officiële talen: Arabisch Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/marshall-eilanden",
+      "text": "Marshalleilanden --> Hoofdstad: Majuro --> Valuta: Amerikaanse dollar --> Officiële talen: Marshallees, Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/mauritanie",
+      "text": "Mauritanië --> Hoofdstad: Nouakchott --> Valuta: Mauritaanse ouguiya --> Officiële talen: Arabisch, Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/mauritius",
+      "text": "Mauritius --> Hoofdstad: Port Louis --> Valuta: Mauritiaanse roepie --> Officiële talen: Mauritiaans Creools, Engels, Frans Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/mexico",
+      "text": "Mexico --> Hoofdstad: Mexico-Stad --> Valuta: Mexicaanse peso --> Officiële talen: Spaans Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/micronesie",
+      "text": "Micronesia --> Hoofdstad: Palikir --> Valuta: Amerikaanse dollar --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/moldavie",
+      "text": "Moldavië --> Hoofdstad: Chisinau --> Valuta: Moldavische leu --> Officiële talen: Roemeens Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/monaco",
+      "text": "Monaco --> Hoofdstad: Monaco --> Valuta: Euro --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/mongolie",
+      "text": "Mongolië --> Hoofdstad: Ulaanbaatar --> Valuta: Mongoolse tugrik --> Officiële talen: Mongools Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/montenegro",
+      "text": "Montenegro --> Hoofdstad: Podgorica --> Valuta: Euro --> Officiële talen: Servisch, Kroatisch, Bosnisch, Albanees Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/mozambique",
+      "text": "Mozambique --> Hoofdstad: Maputo --> Valuta: Mozambikaanse metical --> Officiële talen: Portugees Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/namibie",
+      "text": "Namibië --> Hoofdstad: Windhoek --> Valuta: Namibische dollar --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/nauru",
+      "text": "Nauru --> Hoofdstad: Yaren --> Valuta: Australische dollar --> Officiële talen: Nauruaans, Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/nederland",
+      "text": "Nederland --> Hoofdstad: Amsterdam --> Valuta: Euro --> Officiële talen: Engels , Nederlands (officiële taal), Fries (officiële taal in Friesland) Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/nepal",
+      "text": "Nepal --> Hoofdstad: Kathmandu --> Valuta: Nepalese roepie --> Officiële talen: Nepalees Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/nicaragua",
+      "text": "Nicaragua --> Hoofdstad: Managua --> Valuta: Nicaraguaanse córdoba --> Officiële talen: Spaans , Engels Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/nieuw-zeeland",
+      "text": "Nieuw-Zeeland --> Hoofdstad: Wellington --> Valuta: Nieuw-Zeelandse dollar --> Officiële talen: Maori, Engels Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/niger",
+      "text": "Niger --> Hoofdstad: Niamey --> Valuta: West-Afrikaanse CFA-frank --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/nigeria",
+      "text": "Nigeria --> Hoofdstad: Abuja --> Valuta: Nigeriaanse naira --> Officiële talen: Hausa, Engels Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/noord-macedonie",
+      "text": "Noord-Macedonië --> Hoofdstad: Skopje --> Valuta: Macedonische denar --> Officiële talen: Macedonisch, Albanees Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/noorwegen",
+      "text": "Noorwegen --> Hoofdstad: Oslo --> Valuta: Noorse kroon --> Officiële talen: Noors Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/oeganda",
+      "text": "Oeganda --> Hoofdstad: Kampala --> Valuta: Oegandese shilling --> Officiële talen: Swahili, Engels Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/oekraine",
+      "text": "Oekraïne --> Hoofdstad: Kiev --> Valuta: Ukrainian hryvnia --> Officiële talen: Oekraïens Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/oezbekistan",
+      "text": "Oezbekistan --> Hoofdstad: Tashkent --> Valuta: Oezbeekse sum --> Officiële talen: Oezbeeks Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/oman",
+      "text": "Oman --> Hoofdstad: Muscat --> Valuta: Omaanse rial --> Officiële talen: Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/oost-timor",
+      "text": "Oost-Timor --> Hoofdstad: Dili --> Valuta: Amerikaanse dollar --> Officiële talen: Tetun, Portugees Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/oostenrijk",
+      "text": "Oostenrijk --> Hoofdstad: Wenen --> Valuta: Euro --> Officiële talen: Duits Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/pakistan",
+      "text": "Pakistan --> Hoofdstad: Islamabad --> Valuta: Pakistaanse roepie --> Officiële talen: Punjabi, Urdu, Engels Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/palau",
+      "text": "Palau --> Hoofdstad: Ngerulmud --> Valuta: Amerikaanse dollar --> Officiële talen: Engels, Palaus Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/panama",
+      "text": "Panama --> Hoofdstad: Panama-Stad --> Valuta: Amerikaanse dollar --> Officiële talen: Spaans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/papoea-nieuw-guinea",
+      "text": "Papoea-Nieuw-Guinea --> Hoofdstad: Port Moresby --> Valuta: Papoea-Nieuw-Guinese kina --> Officiële talen: Engels, Hiri Motu, Gebarentaal Papoea-Nieuw-Guinea Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/paraguay",
+      "text": "Paraguay --> Hoofdstad: Asuncion --> Valuta: Paraguayaanse guarani --> Officiële talen: Spaans, Guaraní Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/peru",
+      "text": "Peru --> Hoofdstad: Lima --> Valuta: Peruviaanse sol --> Officiële talen: Quechua, Aymara, Spaans Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/polen",
+      "text": "Polen --> Hoofdstad: Warschau --> Valuta: Poolse złoty --> Officiële talen: Pools Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/portugal",
+      "text": "Portugal --> Hoofdstad: Lissabon --> Valuta: Euro --> Officiële talen: Portugees Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/puerto-rico",
+      "text": "Puerto Rico --> Hoofdstad: San Juan --> Valuta: Amerikaanse dollar --> Officiële talen: Engels, Spaans Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/qatar",
+      "text": "Qatar --> Hoofdstad: Doha --> Valuta: Qatarese rial --> Officiële talen: Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/roemenie",
+      "text": "Roemenië --> Hoofdstad: Boekarest --> Valuta: Roemeense leu --> Officiële talen: Roemeens Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/rwanda",
+      "text": "Rwanda --> Hoofdstad: Kigali --> Valuta: Rwandese frank --> Officiële talen: Engels, Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/saint-kitts-nevis",
+      "text": "Saint Kitts en Nevis --> Hoofdstad: Basseterre --> Valuta: Oost-Caribische dollar --> Officiële talen: Engels, Saint Kitts Creools Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/saint-lucia",
+      "text": "Saint Lucia --> Hoofdstad: Castries --> Valuta: Oost-Caribische dollar --> Officiële talen: Engels, Saint Lucia Creools, Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/saint-vincent-en-de-grenadines",
+      "text": "Saint Vincent en de Grenadines --> Hoofdstad: Kingstown --> Valuta: Oost-Caribische dollar --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/solomoneilanden",
+      "text": "Salomonseilanden --> Hoofdstad: Honiara --> Valuta: Salomon-dollar --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/samoa",
+      "text": "Samoa --> Hoofdstad: Apia --> Valuta: Samoaanse tala --> Officiële talen: Samoaans, Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/san-marino",
+      "text": "San Marino --> Hoofdstad: San Marino --> Valuta: Euro --> Officiële talen: Italiaans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/sao-tome-en-principe",
+      "text": "Sao Tomé en Principe --> Hoofdstad: Sao Tomé --> Valuta: Santomese dobra --> Officiële talen: Portugees Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/saoedi-arabie",
+      "text": "Saoedi-Arabië --> Hoofdstad: Riyad --> Valuta: Saoedi-Arabische riyal --> Officiële talen: Arabisch Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/senegal",
+      "text": "Senegal --> Hoofdstad: Dakar --> Valuta: West-Afrikaanse CFA-frank --> Officiële talen: Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/servie",
+      "text": "Servië --> Hoofdstad: Belgrado --> Valuta: Servische dinar --> Officiële talen: Servisch Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/seychellen",
+      "text": "Seychellen --> Hoofdstad: Victoria --> Valuta: Seychelse roepie --> Officiële talen: Engels, Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/sierra-leone",
+      "text": "Sierra Leone --> Hoofdstad: Freetown --> Valuta: Sierra Leoonse leone --> Officiële talen: Engels, Krio Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/singapore",
+      "text": "Singapore --> Hoofdstad: Singapore --> Valuta: Singaporese dollar --> Officiële talen: Tamil, Maleis, Engels, Mandarijn Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/slovenie",
+      "text": "Slovenië --> Hoofdstad: Ljubljana --> Valuta: Euro --> Officiële talen: Hongaars, Italiaans, Sloveens Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/slowakije",
+      "text": "Slowakije --> Hoofdstad: Bratislava --> Valuta: Euro --> Officiële talen: Slowaaks Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/soedan",
+      "text": "Soedan --> Hoofdstad: Khartoum --> Valuta: Soedanese pond --> Officiële talen: Arabisch en Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/somalie",
+      "text": "Somalië --> Hoofdstad: Mogadishu --> Valuta: Somalische shilling --> Officiële talen: Arabisch, Somalisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/spanje",
+      "text": "Spanje --> Hoofdstad: Madrid --> Valuta: Euro --> Officiële talen: Baskisch, Catalaans, Spaans, Galicisch Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/sri-lanka",
+      "text": "Sri Lanka --> Hoofdstad: Sri Jayawardenepura Kotte (bestuurlijke macht) Colombo (uitvoerende en rechterlijke macht) --> Valuta: Sri Lankaanse roepie --> Officiële talen: Sinhala, Engels, Tamil Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/suriname",
+      "text": "Suriname --> Hoofdstad: Paramaribo --> Valuta: Surinaamse dollar --> Officiële talen: Nederlands Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/tadzjikistan",
+      "text": "Tadzjikistan --> Hoofdstad: Doesjanbe --> Valuta: Tadzjiekse somoni --> Officiële talen: Tadzjieks Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/taiwan",
+      "text": "Taiwan --> Hoofdstad: Taipei --> Valuta: Nieuwe Taiwanese dollar --> Officiële talen: Mandarijn Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/tanzania",
+      "text": "Tanzania --> Hoofdstad: Dodoma --> Valuta: Tanzaniaanse shilling --> Officiële talen: Engels, Swahili Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/thailand",
+      "text": "Thailand --> Hoofdstad: Bangkok --> Valuta: Thaise baht --> Officiële talen: Thai Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/togo",
+      "text": "Togo --> Hoofdstad: Lomé --> Valuta: West-Afrikaanse CFA-frank --> Officiële talen: Ewe, Kabiye, Frans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/tonga",
+      "text": "Tonga --> Hoofdstad: Nukuʻalofa --> Valuta: Tongaanse paʻanga --> Officiële talen: Tongaans, Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/tsjaad",
+      "text": "Tsjaad --> Hoofdstad: Ndjamena --> Valuta: CFA-frank --> Officiële talen: Frans en Arabisch Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/tsjechische-republiek",
+      "text": "Tsjechische Republiek (Tsjechië) --> Hoofdstad: Praag --> Valuta: Tsjechische kroon --> Officiële talen: Tsjechisch Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/tunesie",
+      "text": "Tunesië --> Hoofdstad: Tunis --> Valuta: Tunesische dinar --> Officiële talen: Arabisch Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/turkije",
+      "text": "Turkije --> Hoofdstad: Ankara --> Valuta: Turkse lira --> Officiële talen: Turks Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/turkmenistan",
+      "text": "Turkmenistan --> Hoofdstad: Asjchabad --> Valuta: Turkmeense manat --> Officiële talen: Turkmeens Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/tuvalu",
+      "text": "Tuvalu --> Hoofdstad: Funafuti --> Valuta: Australische dollar --> Officiële talen: Engels, Tuvaluaans Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/uruguay",
+      "text": "Uruguay --> Hoofdstad: Montevideo --> Valuta: Uruguayaanse peso --> Officiële talen: Spaans Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/verenigd-koninkrijk",
+      "text": "Verenigd Koninkrijk --> Hoofdstad: Londen --> Valuta: Britse pond --> Officiële talen: Engels Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/verenigde-arabische-emiraten",
+      "text": "Verenigde Arabische Emiraten --> Hoofdstad: Abu Dhabi --> Valuta: VAE-dirham --> Officiële talen: Arabisch Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/verenigde-staten",
+      "text": "Verenigde Staten --> Hoofdstad: Washington, D.C. --> Valuta: Amerikaanse dollar --> Officiële talen: Engels Alle producten Payroll Contractor Management Employer of Record PEO"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/vietnam",
+      "text": "Vietnam --> Hoofdstad: Hanoi --> Valuta: Vietnamese dong --> Officiële talen: Vietnamees Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/zambia",
+      "text": "Zambia --> Hoofdstad: Lusaka --> Valuta: Zambiaanse kwacha --> Officiële talen: Engels Alle producten Contractor Management"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/zimbabwe",
+      "text": "Zimbabwe --> Hoofdstad: Harare --> Valuta: Zimbabwaans goud --> Officiële talen: Ndebele, Shona, Engels Alle producten Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/zuid-afrika",
+      "text": "Zuid-Afrika --> Hoofdstad: Pretoria (uitvoerende macht), Bloemfontein (rechterlijke macht), Kaapstad (wetgevende macht) --> Valuta: Zuid-Afrikaanse rand --> Officiële talen: Engels, 10 andere officiële talen Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/zuid-korea",
+      "text": "Zuid-Korea --> Hoofdstad: Seoul --> Valuta: Zuid-Koreaanse won --> Officiële talen: Koreaans Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/zweden",
+      "text": "Zweden --> Hoofdstad: Stockholm --> Valuta: Zweedse kroon --> Officiële talen: Zweeds Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/zwitserland",
+      "text": "Zwitserland --> Hoofdstad: Bern --> Valuta: Zwitserse frank --> Officiële talen: Reto-Romaans, Duits (Zwitserduits), Italiaans, Frans Alle producten Payroll Contractor Management Employer of Record"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/internationale-werknemers-aannemen",
+      "text": "Internationale werknemers werven"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/internationale-zzpers-werven",
+      "text": "Internationale zzp'ers werven"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/internationale-uitbreiding",
+      "text": "Wereldwijd uitbreiden"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/wereldwijde-teams-onboarden",
+      "text": "Wereldwijde teams onboarden"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/payroll-uitvoeren",
+      "text": "Payroll uitvoeren"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/aandelenopties-bieden/equity-essentials",
+      "text": "Aandelenopties aanbieden"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr",
+      "text": "Global HR"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/remote-relocation",
+      "text": "Overplaatsing via Remote"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/internationale-uitbreiding-consultancy",
+      "text": "Consultancydiensten voor uitbreiding"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/kleine-bedrijven",
+      "text": "Global HR voor kleine bedrijven"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/onderneming",
+      "text": "Global HR voor ondernemingen"
+    },
+    {
+      "href": "https://remote.com/blog/nl-nl",
+      "text": "Blog wereldwijd werven"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/webinars",
+      "text": "Webinars"
+    },
+    {
+      "href": "https://remote.com/resources/api/getting-started",
+      "text": "API-documentatie voor ontwikkelaars"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/remote-vergelijken",
+      "text": "Remote vergelijken"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/integraties-voor-klanten",
+      "text": "Techstack-integraties"
+    },
+    {
+      "href": "https://www.notion.so/remotecom/a3439c6ccaac4d5f8c7515c357345c11?v=8bb7f9be662f45da87ef4ab14a42be37",
+      "text": "Het handboek van Remote"
+    },
+    {
+      "href": "https://remote.com/nl-nl/waarom-remote/wereldwijde-infrastructuur",
+      "text": "Wereldwijde infrastructuur"
+    },
+    {
+      "href": "https://remote.com/nl-nl/waarom-remote/beveiliging-naleving",
+      "text": "Veiligheid en naleving"
+    },
+    {
+      "href": "https://trust.remote.com/?_gl=1*1chku5q*_ga*NTc1MDQ0MzMuMTczNzUzMDEzNA..*_ga_HDWRDTEGHY*MTczOTg4NzczMi40LjEuMTczOTg5MDQ1OC42MC4wLjYyNjMwMzc3Mg..*_gcl_au*MTk2MTM4MjI3Ny4xNzM3NTMwMTM0Ljc4Nzc0NDMwLjE3MzgwNTkwMDAuMTczODA1ODk5OQ..",
+      "text": "Veiligheid en naleving: Trust Portal"
+    },
+    {
+      "href": "https://remote.com/blog/transparent-price-guarantee",
+      "text": "Transparante prijsgarantie"
+    },
+    {
+      "href": "https://remote.com/nl-nl/waarom-remote/bescherming-van-intellectueel-eigendom",
+      "text": "Bescherming van intellectueel eigendom"
+    },
+    {
+      "href": "https://remote.com/nl-nl/waarom-remote/klantervaring",
+      "text": "Klantervaring"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/startup-founders",
+      "text": "Oprichters start-ups"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/employees",
+      "text": "Remote voor werknemers"
+    },
+    {
+      "href": "https://remote.com/nl-nl/global-hr/freelancer-hub",
+      "text": "Freelancer Hub"
+    },
+    {
+      "href": "https://remote.com/jobs",
+      "text": "Voor werkzoekenden"
+    },
+    {
+      "href": "https://remote.com/nl-nl/over",
+      "text": "Over"
+    },
+    {
+      "href": "https://remote.com/nl-nl/vacatures",
+      "text": "Vacatures"
+    },
+    {
+      "href": "https://remote.com/news/",
+      "text": "Nieuwsruimte"
+    },
+    {
+      "href": "https://remote.com/nl-nl/partners/marktplaats",
+      "text": "Marktplaats"
+    },
+    {
+      "href": "https://support.remote.com/hc/nl-nl?_gl=1*1tqmhs*_ga*NTc1MDQ0MzMuMTczNzUzMDEzNA..*_ga_HDWRDTEGHY*MTczOTg4NzczMi40LjEuMTczOTg5MjIzNy4zMi4wLjYyNjMwMzc3Mg..*_gcl_au*MTk2MTM4MjI3Ny4xNzM3NTMwMTM0Ljc4Nzc0NDMwLjE3MzgwNTkwMDAuMTczODA1ODk5OQ..",
+      "text": "Ondersteuning"
+    },
+    {
+      "href": "https://remote.com/status",
+      "text": "Status Remote"
+    },
+    {
+      "href": "https://remote.com/nl-nl/contact-opnemen",
+      "text": "Contact opnemen"
+    },
+    {
+      "href": "https://remote.com/nl-nl/toegankelijkheidsverklaring",
+      "text": "Toegankelijkheidsverklaring"
+    },
+    {
+      "href": "https://remote.com/nl-nl/partners/affiliates",
+      "text": "Affiliaties"
+    },
+    {
+      "href": "https://remote.com/nl-nl/partners/vc-partners",
+      "text": "VC-partners"
+    },
+    {
+      "href": "https://remote.com/nl-nl/partners/hr-adviseurs",
+      "text": "Adviespartners HR"
+    },
+    {
+      "href": "https://remote.com/nl-nl/partners/financiele-adviseurs",
+      "text": "Partners in financieel advies"
+    },
+    {
+      "href": "https://remote.com/nl-nl/partners/advocatenkantoren",
+      "text": "Partners advocatenkantoor"
+    },
+    {
+      "href": "https://remote.com/nl-nl/partners/perks-marketplace",
+      "text": "Partners Perks Marketplace"
+    },
+    {
+      "href": "https://remote.com/recruiters",
+      "text": "Remote Recruiter Network"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/nl-nl/privacybeleid",
+      "text": "Privacybeleid"
+    },
+    {
+      "href": "https://remote.com/nl-nl/cookiebeleid",
+      "text": "Cookiebeleid"
+    },
+    {
+      "href": "https://remote.com/nl-nl/gebruiksvoorwaarden",
+      "text": "Algemene voorwaarden"
+    },
+    {
+      "href": "https://remote.com/nl-nl/disclaimer",
+      "text": "Disclaimer"
+    },
+    {
+      "href": "https://remote.com/nl-nl/beleid/bedrijfsgegevens",
+      "text": "Bedrijfsgegevens"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2026-04-23",
+  "scrapedAt": "2026-06-07T09:14:56.652Z"
+}

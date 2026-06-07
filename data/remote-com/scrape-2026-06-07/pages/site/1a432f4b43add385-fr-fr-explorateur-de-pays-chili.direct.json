@@ -1,0 +1,515 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/chili",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/chili",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/chili",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 356219,
+  "title": "Employer of Record (EOR) et services de paie | Chili",
+  "description": "Recruter des employés et des freelances : Chili Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "links": [
+    {
+      "href": "https://remote.com/fr-fr",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays/chili",
+      "text": "Démo"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/paie-multipays",
+      "text": "Paie multipays Gérez la paie facilement et en toute conformité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/employer-of-record",
+      "text": "Employer of record Développez-vous à l’international sans frais liés aux entités"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/pilotage-360-des-freelances",
+      "text": "Pilotage 360 des freelances Sollicitez vos freelances en toute conformité part"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/gestion-des-freelances",
+      "text": "Gestion des freelances Intégrez et gérez vos freelances partout dans le monde"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/professional-employer-organization",
+      "text": "PEO Sous-traitez les opérations complexes liées à l’emploi"
+    },
+    {
+      "href": "https://embedded.remote.com/",
+      "text": "Intégration Remote Intégrez vos RH aux flux de travail en toute simplicité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/hr-core",
+      "text": "Plateforme Des fonctions RH clés intégrées pour votre équipe"
+    },
+    {
+      "href": "https://remote.com/fr-fr/remote-mcp/",
+      "text": "Connecter Nouveau Connectez n'importe quel outil d’IA à Remote grâce à notre MCP"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/integrations-pour-clients",
+      "text": "Intégrations Rationalisez vos processus avec des outils essentiels"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/demandez-aux-experts",
+      "text": "Demandez aux experts Recevez des conseils d’experts sur les RH à l’international et la conformité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/controles-antecedents",
+      "text": "Contrôles d’antécédents Simplifiez vos processus de présélection des candidats"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/conformite-rh",
+      "text": "Remote Watchtower Gardez un temps d’avance sur les risques en matière de conformité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/gestion-appareils",
+      "text": "Gestion des appareils Achetez et suivez vos équipements informatiques dans le monde entier"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/creation-entite-international",
+      "text": "Création d’entité Établissez des entités rapidement et en toute conformité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/mobilite-mondiale",
+      "text": "Mobilité et déménagement international Organisez facilement le déménagement de vos employés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays",
+      "text": "Explorateur de pays Toutes les informations sur l’emploi à l’international, pays par pays"
+    },
+    {
+      "href": "https://remote.com/us-state-explorer",
+      "text": "Explorateur des États-Unis (par État) Simplifiez l’embauche à travers les différents États des États-Unis"
+    },
+    {
+      "href": "https://remote.com/fr-fr/pourquoi-choisir-remote",
+      "text": "Comparer Remote Examinez notre service par rapport aux autres"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/start-up",
+      "text": "Start-ups Des solutions agiles et internationales pour les RH et la paie des entreprises en pleine croissance"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/intermediaire",
+      "text": "Entreprises intermédiaires Développez vos équipes avec des solutions RH sur mesure"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/entreprise",
+      "text": "Entreprise Les RH à l’international pour les grandes entreprises"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/api-remote",
+      "text": "Partenaires stratégiques de la tech Intégrez les RH à l’international de manière flexible"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires",
+      "text": "Devenir partenaire Explorez avec nous vos opportunités de partenariat"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/etudes-de-cas/remote-weaviate",
+      "text": "Comment Weaviate, l'as de l'IA, a développé ses effectifs de 120 % avec Remote"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/etudes-de-cas/revolutionner-gestion-freelances-reussite-agence-contenu-remote",
+      "text": "Révolutionner la gestion des freelances : la réussite d'une agence de contenu avec Remote"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/outil-calcul-risque-requalification-de-contrat-des-freelances",
+      "text": "Outil de calcul du risque de requalification de contrat Évaluez le risque de requalification de contrat par pays"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/calculateur-cout-employes",
+      "text": "Calculateur du coût des employés Calculez le coût total des employés dans n’importe quel pays"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/explorateur-paiement-freelances",
+      "text": "Calculateur de paiement des freelances Découvrez les devises disponibles et les vitesses de paiement pour vos freelances internationaux"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/recherche",
+      "text": "Recherche et guides"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/etudes-de-cas",
+      "text": "Études de cas"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh",
+      "text": "Glossaire RH"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/modeles-checklists",
+      "text": "Checklists et modèles"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/descriptions-postes",
+      "text": "Descriptions de postes"
+    },
+    {
+      "href": "https://remote.com/resources/webinars",
+      "text": "Webinaires"
+    },
+    {
+      "href": "https://remote.com/events",
+      "text": "Événements"
+    },
+    {
+      "href": "https://remote.com/fr-fr/news",
+      "text": "Salle de presse"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us/sections/34243549052685-Talent-Insights",
+      "text": "Données sur les salaires et les talents"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/centre-de-ressources",
+      "text": "Centre de ressources"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us",
+      "text": "Obtenir de l’aide"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources",
+      "text": "Voir toutes les ressources"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/paie",
+      "text": "Paie multipays"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/eor-peo",
+      "text": "EOR et PEO"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/gestion-des-freelances",
+      "text": "Gestion des freelances"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/conformite",
+      "text": "Conformité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/taxes",
+      "text": "Taxes"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/demenagement-relocalisation",
+      "text": "Visas et permis de travail"
+    },
+    {
+      "href": "https://remote.com/blog/changelog",
+      "text": "Journal des modifications"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog",
+      "text": "Explorer le blog"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/eor-peo/entites-propres-conformite-eor",
+      "text": "Pourquoi les entités propres sont essentielles à la conformité EOR ?"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/rh-international/types-structure-organisationnelle",
+      "text": "4 types de structure organisationnelle : que choisir pour votre entreprise ?"
+    },
+    {
+      "href": "https://remote.com/fr-fr/tarification",
+      "text": "Tarification"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "Connexion"
+    },
+    {
+      "href": "https://remote.com/country-explorer/chile",
+      "text": "English"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/chili",
+      "text": "Nederlands"
+    },
+    {
+      "href": "https://remote.com/de-de/country-explorer/chile",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://remote.com/es-es/explorador-paises/chile",
+      "text": "Español"
+    },
+    {
+      "href": "https://remote.com/it-it/esplora-paese/cile",
+      "text": "Italiano"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/chile",
+      "text": "Português (Portugal)"
+    },
+    {
+      "href": "https://remote.com/ja-jp/country-explorer/chile",
+      "text": "日本語"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer/chile",
+      "text": "한국어"
+    },
+    {
+      "href": "https://remote.com/zh-cn/country-explorer/chile",
+      "text": "中文（简体）"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays/chili/gestion-des-freelances",
+      "text": "Gestion des freelances"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays/chili/employer-of-record",
+      "text": "Employer of record"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays/chili/taxes",
+      "text": "Taxes"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays/chili/types-conges",
+      "text": "Types de congés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays/chili/rupture-contrat",
+      "text": "Rupture de contrat"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays/chili/guide-avantages",
+      "text": "Introduction"
+    },
+    {
+      "href": "https://remote.com/fr-fr/lp/demarrez-vos-embauches",
+      "text": "commencez l’intégration de votre premier salarié avec Remote dès aujourd’hui"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/recherche/guide-avantages-sociaux-mondiaux",
+      "text": "téléchargez notre guide mondial sur les avantages sociaux"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/recours-freelances-internationaux",
+      "text": "parlez à un expert"
+    },
+    {
+      "href": "https://employ.remote.com/sign-up/",
+      "text": "Inscrivez-vous gratuitement"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/embauche-employes-internationaux",
+      "text": "Embauche d’employés internationaux"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/developpement-international",
+      "text": "Développement international"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/integration-equipes-internationales",
+      "text": "Intégration d’équipes internationales"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/gestion-paie",
+      "text": "Gestion de la paie"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/avantages-sociaux-international",
+      "text": "Offrez des avantages à l’international"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/proposez-options-achat-actions/equity-essentials",
+      "text": "Proposez des options d’achat d’action"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international",
+      "text": "RH à l'international"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/remote-relocation",
+      "text": "Remote Relocation"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/conseil-developpement-international",
+      "text": "Services de conseil"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/petites-entreprises",
+      "text": "RH à l'international pour les petites entreprises"
+    },
+    {
+      "href": "https://remote.com/blog/fr-fr",
+      "text": "Blog consacré à l’emploi à l’international"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/webinaires",
+      "text": "Webinaires"
+    },
+    {
+      "href": "https://remote.com/resources/api/getting-started",
+      "text": "Documents API du développeur"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/comparer-remote",
+      "text": "Comparer Remote"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/integrations-pour-clients",
+      "text": "Intégration des applications"
+    },
+    {
+      "href": "https://www.notion.so/remotecom/a3439c6ccaac4d5f8c7515c357345c11?v=8bb7f9be662f45da87ef4ab14a42be37",
+      "text": "Livret Remote"
+    },
+    {
+      "href": "https://remote.com/fr-fr/pourquoi-choisir-remote/infrastructure-internationale",
+      "text": "Infrastructure internationale"
+    },
+    {
+      "href": "https://remote.com/fr-fr/pourquoi-choisir-remote/securite-et-conformite",
+      "text": "Sécurité et conformité"
+    },
+    {
+      "href": "https://trust.remote.com/?_gl=1*zkyzda*_ga*MjQ5ODA0MzEzNC4xOTYyMTIwNjMz*_ga_HDWRDTEGHY*MTczOTg5Mzg5OC4zLjEuMTczOTg5Nzc3OS40OS4wLjcxMzQyMjY2NQ..*_gcl_au*OTM1MTM5OTU2LjE3Mzk3OTc3NTA.",
+      "text": "Sécurité et conformité : Trust Portal"
+    },
+    {
+      "href": "https://remote.com/blog/transparent-price-guarantee",
+      "text": "Garantie de prix équitable"
+    },
+    {
+      "href": "https://remote.com/fr-fr/pourquoi-choisir-remote/protection-pi",
+      "text": "Protection de la propriété intellectuelle"
+    },
+    {
+      "href": "https://remote.com/fr-fr/pourquoi-choisir-remote/experience-client",
+      "text": "Expérience client"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/startup-founders",
+      "text": "Fondateurs de start-up"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/employees",
+      "text": "Remote pour les employés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/freelancer-hub",
+      "text": "Freelancer Hub"
+    },
+    {
+      "href": "https://remote.com/jobs",
+      "text": "Pour les candidats"
+    },
+    {
+      "href": "https://remote.com/fr-fr/a-propos",
+      "text": "À propos"
+    },
+    {
+      "href": "https://remote.com/fr-fr/offres-d-emploi",
+      "text": "Offres d’emploi"
+    },
+    {
+      "href": "https://remote.com/news",
+      "text": "Salle de presse"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/marketplace",
+      "text": "Marketplace"
+    },
+    {
+      "href": "https://support.remote.com/hc/fr-fr?_gl=1*nzy064*_ga*MjQ5ODA0MzEzNC4xOTYyMTIwNjMz*_ga_HDWRDTEGHY*MTczOTg5Mzg5OC4zLjEuMTczOTg5ODA1Ni42MC4wLjcxMzQyMjY2NQ..*_gcl_au*OTM1MTM5OTU2LjE3Mzk3OTc3NTA.",
+      "text": "Assistance"
+    },
+    {
+      "href": "https://remote.com/status",
+      "text": "Statut de Remote"
+    },
+    {
+      "href": "https://remote.com/fr-fr/nous-contacter",
+      "text": "Nous contacter"
+    },
+    {
+      "href": "https://remote.com/fr-fr/declaration-accessibilite",
+      "text": "Déclaration d'accessibilité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/affilies",
+      "text": "Affiliés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/partenaires-investisseurs",
+      "text": "Partenaires investisseurs"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/consultants-rh",
+      "text": "Consultants RH partenaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/conseillers-financiers",
+      "text": "Conseillers financiers partenaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/cabinets-juridiques",
+      "text": "Cabinets juridiques partenaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/marketplace-avantages",
+      "text": "Marketplace d’avantages partenaires"
+    },
+    {
+      "href": "https://remote.com/recruiters",
+      "text": "Réseau de recruteurs de Remote"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/fr-fr/politique-de-confidentialite",
+      "text": "Politique de confidentialité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/politique-cookie",
+      "text": "Politique d’utilisation des cookies"
+    },
+    {
+      "href": "https://remote.com/fr-fr/conditions-utilisation",
+      "text": "Conditions générales d'utilisation"
+    },
+    {
+      "href": "https://remote.com/fr-fr/clause-de-non-responsabilite",
+      "text": "Clause de non-responsabilité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/politique/mentiones-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2026-01-22",
+  "scrapedAt": "2026-06-07T09:02:30.865Z"
+}

@@ -1,0 +1,331 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/en-hk/lp/cost-calculator-europe",
+  "requestedURL": "https://remote.com/en-hk/lp/cost-calculator-europe",
+  "finalURL": "https://remote.com/en-hk/lp/cost-calculator-europe",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 228093,
+  "title": "Calculate Hiring Costs with Remote's Employee Cost Calculator | Remote",
+  "description": "With Remote’s employee cost calculator, you can get a full breakdown of mandatory social contributions and local taxes, as well as the average cost of benefits that are expected by employees in that country – all in just a few clicks!",
+  "links": [
+    {
+      "href": "https://remote.com/en-hk",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/lp/cost-calculator-europe#psp-hero-top",
+      "text": "Book Demo"
+    },
+    {
+      "href": "https://remote.com/en-hk/lp/cost-calculator-europe",
+      "text": "Close"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us/articles/30490907518477",
+      "text": "Learn more ↗"
+    },
+    {
+      "href": "https://remote.com/en-hk/lp/cost-calculator-europe#",
+      "text": "Calculate again"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "Book platform tour"
+    },
+    {
+      "href": "https://remote.com/blog/remote-semrush",
+      "text": "Read full customer story"
+    },
+    {
+      "href": "https://remote.com/blog/remote-fountain",
+      "text": "Read full customer story"
+    },
+    {
+      "href": "https://remote.com/resources/case-studies/remote-reverse-tech",
+      "text": "Read full customer story"
+    },
+    {
+      "href": "https://remote.com/blog/how-to-onboard-and-pay-hundreds-of-global-contractors-with-ease",
+      "text": "Read full customer story"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/hire-international-employees",
+      "text": "Hire International Employees"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/hire-international-contractors",
+      "text": "Hire International Contractors"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-expansion",
+      "text": "Expand Globally"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/onboard-global-teams",
+      "text": "Onboard Global Teams"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/remote-api",
+      "text": "Remote API"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/run-payroll",
+      "text": "Run Payroll"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-benefits",
+      "text": "Offer Global Benefits"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/offer-stock-options/equity-essentials",
+      "text": "Offer Stock Options"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/us-expansion",
+      "text": "US Expansion Offering"
+    },
+    {
+      "href": "https://remote.com/en-hk/pricing",
+      "text": "Pricing"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/employer-of-record",
+      "text": "Employer of Record (EOR)"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/contractor-management",
+      "text": "Contractor Management"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-payroll",
+      "text": "Payroll"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/remote-relocation",
+      "text": "Remote Relocation"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/international-expansion-consulting",
+      "text": "Expansion Consulting Services"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/startups",
+      "text": "Global HR for Startups"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/small-business",
+      "text": "Global HR for Small Business"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/enterprise",
+      "text": "Global HR for Enterprise"
+    },
+    {
+      "href": "https://remote.com/blog",
+      "text": "Global Employment Blog"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/research",
+      "text": "Research"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/case-studies",
+      "text": "Case Studies"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/webinars",
+      "text": "Webinars"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/remote-api/getting-started",
+      "text": "Developer API Docs"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/compare-remote",
+      "text": "Compare Remote"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/integrations-for-customers",
+      "text": "Tech Stack Integrations"
+    },
+    {
+      "href": "https://www.notion.so/remotecom/a3439c6ccaac4d5f8c7515c357345c11?v=8bb7f9be662f45da87ef4ab14a42be37",
+      "text": "Remote Handbook"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer",
+      "text": "Country Explorer"
+    },
+    {
+      "href": "https://remote.com/en-hk/us-state-explorer",
+      "text": "US State Explorer"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/employee-cost-calculator",
+      "text": "Employee Cost Calculator"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/employee-misclassification-risk-tool",
+      "text": "Misclassification Risk Tool"
+    },
+    {
+      "href": "https://remote.com/blog/changelog",
+      "text": "Changelog"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/global-infrastructure",
+      "text": "Global Infrastructure"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/security-compliance",
+      "text": "Security and Compliance"
+    },
+    {
+      "href": "https://trust.remote.com/",
+      "text": "Security and Compliance: Trust Portal"
+    },
+    {
+      "href": "https://remote.com/blog/fair-price-guarantee",
+      "text": "Transparent Price Guarantee"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/ip-protection",
+      "text": "IP Protection"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/customer-experience",
+      "text": "Customer Experience"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/startup-founders",
+      "text": "Startup Founders"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/employees",
+      "text": "Remote for Employees"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/freelancer-hub",
+      "text": "Freelancer Hub"
+    },
+    {
+      "href": "https://remote.com/jobs",
+      "text": "For Jobseekers"
+    },
+    {
+      "href": "https://remote.com/en-hk/about",
+      "text": "About"
+    },
+    {
+      "href": "https://remote.com/en-hk/careers",
+      "text": "Careers"
+    },
+    {
+      "href": "https://remote.com/news",
+      "text": "Newsroom"
+    },
+    {
+      "href": "https://remote.com/en-hk/events",
+      "text": "Events"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/marketplace",
+      "text": "Marketplace"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us",
+      "text": "Support"
+    },
+    {
+      "href": "https://remote.com/en-hk/status",
+      "text": "Remote Status"
+    },
+    {
+      "href": "https://remote.com/en-hk/contact-us",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://remote.com/en-hk/accessibility-statement",
+      "text": "Accessibility Statement"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners",
+      "text": "Partner Programs"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/affiliates",
+      "text": "Affiliates"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/vc-partners",
+      "text": "VC Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/hr-consultants",
+      "text": "HR Consultant Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/financial-advisors",
+      "text": "Financial Advisor Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/law-firms",
+      "text": "Law Firm Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/perks-marketplace",
+      "text": "Partner Perks Marketplace"
+    },
+    {
+      "href": "https://remote.com/recruiters",
+      "text": "Join Remote Recruiter Network"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "https://remote.com/en-hk/cookie-policy",
+      "text": "Cookie Policy"
+    },
+    {
+      "href": "https://remote.com/en-hk/terms-of-use",
+      "text": "Terms of Use"
+    },
+    {
+      "href": "https://remote.com/en-hk/disclaimer",
+      "text": "Disclaimer"
+    },
+    {
+      "href": "https://remote.com/en-hk/policy/imprint",
+      "text": "Imprint"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2026-05-04",
+  "scrapedAt": "2026-06-07T09:06:23.166Z"
+}

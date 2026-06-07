@@ -143,7 +143,7 @@ test("router payroll plan emits protocol-valid actions", () => {
   ]);
 });
 
-test("planner-facing primitive action types exclude deprecated demo macros", () => {
+test("planner-facing primitive action types exclude legacy macros", () => {
   assert.ok(actionTypes().includes("payrollFlow"));
   assert.ok(!primitiveActionTypes().includes("payrollFlow"));
   assert.ok(primitiveActionTypes().includes("scrollToElement"));

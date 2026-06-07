@@ -454,6 +454,36 @@ function injectedOpenClickyWeb() {
     .ocw-cursor.is-pressing img,
     .ocw-cursor.is-pressing .replaced-svg,
     .ocw-cursor.is-pressing svg { transform: scale(0.92); transform-origin: 50% 50%; }
+    .ocw-cursor.is-listening,
+    .ocw-cursor.is-thinking,
+    .ocw-cursor.is-speaking,
+    .ocw-cursor.is-guiding {
+      filter: drop-shadow(0 8px 18px rgba(5, 100, 255, 0.38));
+    }
+    .ocw-cursor.is-listening img,
+    .ocw-cursor.is-listening svg { animation: ocwCursorListen 980ms ease-in-out infinite; transform-origin: 42% 64%; }
+    .ocw-cursor.is-thinking img,
+    .ocw-cursor.is-thinking svg { animation: ocwCursorThink 760ms ease-in-out infinite; transform-origin: 42% 64%; }
+    .ocw-cursor.is-speaking img,
+    .ocw-cursor.is-speaking svg { animation: ocwCursorSpeak 620ms ease-in-out infinite; transform-origin: 42% 64%; }
+    .ocw-cursor.is-guiding img,
+    .ocw-cursor.is-guiding svg { animation: ocwCursorGuide 860ms ease-in-out infinite; transform-origin: 42% 64%; }
+    @keyframes ocwCursorListen {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.08); }
+    }
+    @keyframes ocwCursorThink {
+      0%, 100% { transform: rotate(-2deg) scale(1.02); }
+      50% { transform: rotate(3deg) scale(1.08); }
+    }
+    @keyframes ocwCursorSpeak {
+      0%, 100% { transform: translateY(0) scale(1.01); }
+      50% { transform: translateY(-2px) scale(1.09); }
+    }
+    @keyframes ocwCursorGuide {
+      0%, 100% { transform: rotate(0deg) scale(1.03); }
+      50% { transform: rotate(-4deg) scale(1.1); }
+    }
 
     .ocw-caption {
       position: fixed; left: 0; top: 0; max-width: min(310px, calc(100vw - 28px));
@@ -602,7 +632,7 @@ function injectedOpenClickyWeb() {
             <button class="ocw-run" type="submit">Run</button>
           </form>
           <div class="ocw-grid">
-            <button class="ocw-action" data-ocw-action="payrollflow" type="button">Scripted payroll demo</button>
+            <button class="ocw-action" data-ocw-action="payrollflow" type="button">Payroll guide</button>
             <button class="ocw-action" data-ocw-action="showbookingprompt" type="button">Book meeting</button>
             <button class="ocw-action" data-ocw-action="payroll" type="button">Show payroll</button>
             <button class="ocw-action" data-ocw-action="snapshot" type="button">Snapshot</button>
@@ -810,6 +840,24 @@ function injectedOpenClickyWeb() {
 
     function setStatus(text) {
       if (status) status.textContent = text;
+    }
+
+    function setCursorMode(mode, label) {
+      ['is-listening', 'is-thinking', 'is-speaking', 'is-guiding'].forEach(function(className){
+        cursor.classList.remove(className);
+      });
+      if (mode) cursor.classList.add('is-' + mode);
+      cursor.dataset.mode = mode || 'idle';
+      if (label) showCaption(label, current.x, current.y);
+      emit('cursorModeChanged', { mode: mode || 'idle', label: label || '' });
+    }
+
+    function cueCursorAtPanel(label, mode, duration) {
+      var rect = root.getBoundingClientRect();
+      var x = Math.max(28, Math.min(window.innerWidth - 28, rect.left + 34));
+      var y = Math.max(28, Math.min(window.innerHeight - 28, rect.top + 42));
+      setCursorMode(mode || 'thinking', label);
+      moveCursor(x, y, label, duration || 520);
     }
 
     function setChip(name, text, state) {
@@ -1313,6 +1361,7 @@ function injectedOpenClickyWeb() {
       var delayMs = Math.max(650, personaPlaybackTailMs() + 350);
       setTurnState('idle', 'ready');
       setStatus('Persona is ready for the next voice turn.');
+      setCursorMode('', '');
       emit('personaLoopNextTurnScheduled', {
         trigger: trigger || '',
         delayMs: delayMs,
@@ -1477,6 +1526,7 @@ function injectedOpenClickyWeb() {
       if (lastAgentAnswer) lastSpokenAgentAnswer = lastAgentAnswer;
       window.__ocwLastSpeech = '';
       setTurnState('speaking', 'streaming speech');
+      setCursorMode('speaking', 'Speaking back');
       setTtsState('speaking', message.modelAudio ? 'awaiting model audio' : (speechState.provider || 'browser fallback'));
       if (message.modelAudio) {
         setTtsProof('TTS: text captions are streaming while local model-audio chunks are expected. Real Miso One audio still requires H100 proof.');
@@ -1589,6 +1639,7 @@ function injectedOpenClickyWeb() {
       if (message.requestId && speechState.requestId && message.requestId !== speechState.requestId) return;
       speechState.ended = true;
       if (!modelAudioState.requestId) setTtsState('answered', 'stream ended');
+      if (!modelAudioState.requestId && !activeVoiceTurnRequestId) setCursorMode('', '');
       emit('speechStreamEnded', {
         requestId: speechState.requestId,
         chunkCount: message.chunkCount || speechState.chunkCount,
@@ -1736,6 +1787,7 @@ function injectedOpenClickyWeb() {
       resetModelAudioState(true);
       modelAudioState.requestId = message.requestId || '';
       modelAudioState.chunkCount = Number(message.chunkCount || 0);
+      setCursorMode('speaking', 'Local voice is streaming');
       setTtsState('speaking', (message.provider || 'model audio') + ' ' + (message.proofLevel || 'contract'));
       setTtsProof('TTS: local model-audio stream started (' + (message.provider || 'tts') + ', ' + (message.format || 'audio') + ', proof level: ' + (message.proofLevel || 'contract') + '). Real model proof depends on the H100 smoke.');
       emit('ttsAudioStreamStarted', {
@@ -1828,6 +1880,7 @@ function injectedOpenClickyWeb() {
     function finishTtsAudioStream(message) {
       if (shouldIgnoreTtsAudioMessage(message, 'ttsAudioStreamIgnored')) return;
       setTtsState('answered', (message.provider || 'model audio') + ' ended');
+      if (!activeVoiceTurnRequestId) setCursorMode('', '');
       setTtsProof('TTS: local model-audio stream ended after ' + Number(message.chunkCount || 0) + ' chunks at proof level ' + (message.proofLevel || 'contract') + '. Real model proof depends on the H100 smoke.');
       emit('ttsAudioStreamEnded', {
         requestId: message.requestId || '',
@@ -2200,6 +2253,7 @@ function injectedOpenClickyWeb() {
       activeVoiceTurnRequestId = 'asr_' + Math.random().toString(36).slice(2, 10);
       setAsrState('listening', liveKitReady ? 'listening' : 'waiting for audio');
       setTurnState('listening', 'listening');
+      cueCursorAtPanel('Listening now', 'listening', 520);
       var automatedTurn = voiceOptions.autoStop === true && liveKitReady && micPublished;
       setStatus(liveKitReady
         ? (automatedTurn ? 'Voice turn started. Speak naturally; I will stop after silence.' : 'Voice turn started. Speak, then stop the turn.')
@@ -2270,6 +2324,7 @@ function injectedOpenClickyWeb() {
       var snapshot = snapshotPage();
       setAsrState('transcribing', 'transcribing');
       setTurnState('sent', 'audio sent');
+      cueCursorAtPanel('Thinking with local models', 'thinking', 520);
       setStatus(stopOptions.auto ? 'Voice turn ended after silence; waiting for local ASR transcript.' : 'Stopped voice turn; waiting for local ASR transcript.');
       await sendAgentMessage({
         id: requestId,
@@ -2392,6 +2447,7 @@ function injectedOpenClickyWeb() {
         setAsrState(message.simulated ? 'stub' : 'final', message.simulated ? 'transcript fallback' : 'final transcript');
         if (message.transcript) updateTranscript('Heard: ' + message.transcript, message.simulated ? 'simulated' : 'prospect');
         setStatus('Final transcript received from ' + (message.provider || 'ASR') + '.');
+        cueCursorAtPanel('Planning the page guidance', 'thinking', 520);
         emit('asrFinalReceived', {
           requestId: message.requestId || '',
           provider: message.provider || '',
@@ -2471,6 +2527,7 @@ function injectedOpenClickyWeb() {
         lastAgentAnswer = message.answer || '';
         updateTranscript(lastAgentAnswer, 'agent');
         setTurnState('answered', 'answered');
+        setCursorMode('speaking', 'Answering with page guidance');
         lastAdapterProof = formatAdapterProof(message);
         setProofLine(lastAdapterProof);
         setStatus(message.simulated ? 'Agent answered using local stubs.' : 'Agent answered.');
@@ -2489,6 +2546,7 @@ function injectedOpenClickyWeb() {
       if (message.type === 'agent.action' && message.action) {
         setAgentState('online', message.transport === 'livekit' ? 'LiveKit agent action received' : 'Local agent ready');
         setTurnState('speaking', 'running action');
+        setCursorMode('guiding', 'Guiding the page');
         enqueue(message.action);
       }
     }

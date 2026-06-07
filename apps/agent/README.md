@@ -26,6 +26,6 @@ LIVEKIT_ROOM=inboundnow-local
 
 It listens for `prospect.question`, plans an answer plus typed browser actions, and sends `agent.answer`, `agent.speech.*`, and `agent.action` messages back to the browser bridge or LiveKit data channel.
 
-The LLM planner validates the full parsed plan before sending the answer. Malformed JSON, unsafe actions, deprecated demo macros, or unavailable local endpoints fall back to the deterministic router unless proof mode is fail-closed.
+The LLM planner validates the full parsed plan before sending the answer. Malformed JSON, unsafe actions, legacy macro actions, or unavailable local endpoints fall back to the deterministic router unless proof mode is fail-closed.
 
 For the payroll MVP, the worker emits primitive typed actions such as `showCaption`, `scrollToElement`, `highlightElement`, and `showBookingPrompt`. The browser widget still owns all visible cursor, scroll, highlight, caption, and booking UI. `payrollFlow` is a deprecated lab macro, not the main planner path.

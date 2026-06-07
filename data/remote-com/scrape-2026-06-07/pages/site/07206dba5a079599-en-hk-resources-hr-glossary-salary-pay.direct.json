@@ -1,0 +1,487 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/salary-pay",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/salary-pay",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/salary-pay",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254824,
+  "title": "How does salary pay work?",
+  "description": "Learn more about salaried employees and how salary pay works, including the exemptions and obligations your business may need to be aware of.",
+  "links": [
+    {
+      "href": "https://remote.com/en-hk",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary/salary-pay",
+      "text": "Book demo"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-payroll",
+      "text": "Global Payroll Run compliant payroll easily"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/employer-of-record",
+      "text": "Employer of Record Expand globally with zero entity cost"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/contractor-of-record",
+      "text": "Contractor of Record Compliantly engage contractors worldwide"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/contractor-management",
+      "text": "Contractor Management Onboard and manage contractors globally"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/professional-employer-organization",
+      "text": "PEO Outsource complex employment tasks"
+    },
+    {
+      "href": "https://embedded.remote.com/",
+      "text": "Remote Embedded Seamlessly integrate HR into workflows"
+    },
+    {
+      "href": "https://remote.com/en-hk/remote-mcp",
+      "text": "Connect New Connect any AI tool to Remote using our MCP"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/ask-an-expert",
+      "text": "Ask an expert Get expert help on global HR & compliance"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/background-checks",
+      "text": "Background checks Simplify your candidate screening processes"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/hr-compliance",
+      "text": "Compliance watchtower Stay ahead of compliance risks"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/device-management",
+      "text": "Device management Provision and track IT devices globally"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-entity-setup",
+      "text": "Entity setup Establish compliant entities fast"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-mobility",
+      "text": "Mobility & Relocation Relocate employees with ease"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer",
+      "text": "Country Explorer Find global employment support by country"
+    },
+    {
+      "href": "https://remote.com/en-hk/us-state-explorer",
+      "text": "US State Explorer Simplify hiring across all US states"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/compare-remote",
+      "text": "Compare Remote See how we stack up against others"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/startups",
+      "text": "Startups Agile global HR & payroll solutions for growing companies"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/midsize",
+      "text": "Mid-market Expand teams with tailored HR solutions"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/enterprise",
+      "text": "Enterprise Global HR for large businesses"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/remote-api",
+      "text": "Strategic technology partners Flexibly embed global HR into your platform"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners",
+      "text": "Become a partner Explore partnership opportunities with us"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/case-studies/bamboohr-remote-embedded-global-hiring",
+      "text": "Remote Embedded x BambooHR: From local to global hiring, with no platform switch"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/case-studies/cside-hire-best-people-any-location",
+      "text": "How cside were able to hire the best people, no matter the location"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/employee-misclassification-risk-tool",
+      "text": "Misclassification risk calculator Check employee misclassification risk by country"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/employee-cost-calculator",
+      "text": "Employee cost calculator Calculate total employee costs in any country"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/contractor-payout-explorer",
+      "text": "Contractor payout calculator Explore currency options and payout speeds for global contractors"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/research",
+      "text": "Research & Guides"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/case-studies",
+      "text": "Case studies"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary",
+      "text": "HR Glossary"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/checklists-templates",
+      "text": "Checklists & Templates"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/job-descriptions",
+      "text": "Job Description Library"
+    },
+    {
+      "href": "https://remote.com/resources/webinars",
+      "text": "Webinars"
+    },
+    {
+      "href": "https://remote.com/events",
+      "text": "Events"
+    },
+    {
+      "href": "https://remote.com/news",
+      "text": "Newsroom"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us/sections/34243549052685-Talent-Insights",
+      "text": "Salary & Talent Insights"
+    },
+    {
+      "href": "https://remote.com/resources/insights-center",
+      "text": "Insights center"
+    },
+    {
+      "href": "https://support.remote.com/",
+      "text": "Get support"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources",
+      "text": "See all resources"
+    },
+    {
+      "href": "https://remote.com/blog/tag/payroll",
+      "text": "Global Payroll"
+    },
+    {
+      "href": "https://remote.com/blog/tag/eor-peo",
+      "text": "EOR & PEO"
+    },
+    {
+      "href": "https://remote.com/blog/tag/contractor-management",
+      "text": "Contractor Management"
+    },
+    {
+      "href": "https://remote.com/blog/tag/compliance",
+      "text": "Compliance"
+    },
+    {
+      "href": "https://remote.com/blog/tag/taxes",
+      "text": "Taxes"
+    },
+    {
+      "href": "https://remote.com/blog/tag/relocation",
+      "text": "Work visas & permits"
+    },
+    {
+      "href": "https://remote.com/blog/changelog",
+      "text": "Changelog"
+    },
+    {
+      "href": "https://remote.com/blog",
+      "text": "Explore the blog"
+    },
+    {
+      "href": "https://remote.com/blog/legal/eu-ai-act",
+      "text": "EU AI Act: Why your employment data is your biggest compliance risk"
+    },
+    {
+      "href": "https://remote.com/blog/build-on-remote",
+      "text": "Build on Remote: 9 ways our team used Remote MCP this week"
+    },
+    {
+      "href": "https://remote.com/en-hk/pricing",
+      "text": "Pricing"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "Login"
+    },
+    {
+      "href": "https://remote.com/resources/hr-glossary/salary-pay",
+      "text": "English"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/salaris",
+      "text": "Nederlands"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-salaires",
+      "text": "Français"
+    },
+    {
+      "href": "https://remote.com/de-de/ressourcen/hr-glossar/gehaltszahlung",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh/salario-paga",
+      "text": "Español"
+    },
+    {
+      "href": "https://remote.com/ja-jp/resources/hr-glossary/salary-pay",
+      "text": "日本語"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/hr-glossary/salary-pay",
+      "text": "한국어"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary/en-hk/en-ph/resources/hr-glossary/employee-id-number",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary/take-home-pay",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary/social-security-wages-w2",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary/base-salary",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary/non-resident-alien",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary/global-mobility",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary/zero-hour-contract",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary/w-9-form",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/hire-international-employees",
+      "text": "Hire International Employees"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/hire-international-contractors",
+      "text": "Hire International Contractors"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-expansion",
+      "text": "Expand Globally"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/onboard-global-teams",
+      "text": "Onboard Global Teams"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/run-payroll",
+      "text": "Run Payroll"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-benefits",
+      "text": "Offer Global Benefits"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/offer-stock-options/equity-essentials",
+      "text": "Offer Stock Options"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/us-expansion",
+      "text": "US Expansion Offering"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/remote-relocation",
+      "text": "Remote Relocation"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/international-expansion-consulting",
+      "text": "Expansion Consulting Services"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/small-business",
+      "text": "Global HR for Small Business"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/webinars",
+      "text": "Webinars"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/remote-api/getting-started",
+      "text": "Developer API Docs"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/integrations-for-customers",
+      "text": "Tech Stack Integrations"
+    },
+    {
+      "href": "https://www.notion.so/remotecom/a3439c6ccaac4d5f8c7515c357345c11?v=8bb7f9be662f45da87ef4ab14a42be37",
+      "text": "Remote Handbook"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/global-infrastructure",
+      "text": "Global Infrastructure"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/security-compliance",
+      "text": "Security and Compliance"
+    },
+    {
+      "href": "https://trust.remote.com/",
+      "text": "Security and Compliance: Trust Portal"
+    },
+    {
+      "href": "https://remote.com/blog/fair-price-guarantee",
+      "text": "Transparent Price Guarantee"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/ip-protection",
+      "text": "IP Protection"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/customer-experience",
+      "text": "Customer Experience"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/startup-founders",
+      "text": "Startup Founders"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/employees",
+      "text": "Remote for Employees"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/freelancer-hub",
+      "text": "Freelancer Hub"
+    },
+    {
+      "href": "https://remote.com/jobs",
+      "text": "For Jobseekers"
+    },
+    {
+      "href": "https://remote.com/en-hk/about",
+      "text": "About"
+    },
+    {
+      "href": "https://remote.com/en-hk/careers",
+      "text": "Careers"
+    },
+    {
+      "href": "https://remote.com/en-hk/events",
+      "text": "Events"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/marketplace",
+      "text": "Marketplace"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us",
+      "text": "Support"
+    },
+    {
+      "href": "https://remote.com/en-hk/status",
+      "text": "Remote Status"
+    },
+    {
+      "href": "https://remote.com/en-hk/contact-us",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://remote.com/en-hk/accessibility-statement",
+      "text": "Accessibility Statement"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/affiliates",
+      "text": "Affiliates"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/vc-partners",
+      "text": "VC Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/hr-consultants",
+      "text": "HR Consultant Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/financial-advisors",
+      "text": "Financial Advisor Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/law-firms",
+      "text": "Law Firm Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/perks-marketplace",
+      "text": "Partner Perks Marketplace"
+    },
+    {
+      "href": "https://remote.com/recruiters",
+      "text": "Join Remote Recruiter Network"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "https://remote.com/en-hk/cookie-policy",
+      "text": "Cookie Policy"
+    },
+    {
+      "href": "https://remote.com/en-hk/terms-of-use",
+      "text": "Terms of Use"
+    },
+    {
+      "href": "https://remote.com/en-hk/disclaimer",
+      "text": "Disclaimer"
+    },
+    {
+      "href": "https://remote.com/en-hk/policy/imprint",
+      "text": "Imprint"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:08:46.886Z"
+}

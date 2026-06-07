@@ -1,0 +1,755 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/en-hk/resources/research/global-life-work-balance-index",
+  "requestedURL": "https://remote.com/en-hk/resources/research/global-life-work-balance-index",
+  "finalURL": "https://remote.com/en-hk/resources/research/global-life-work-balance-index",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 778915,
+  "title": "Global Life-Work Balance Index 2025 | Best Life-Work Balance Countries | Remote",
+  "description": "Looking to relocate for work in 2025? Discover the best countries in the world for life-work balance in Remote’s leading global study",
+  "links": [
+    {
+      "href": "https://remote.com/en-hk",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/research/global-life-work-balance-index",
+      "text": "Book demo"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-payroll",
+      "text": "Global Payroll Run compliant payroll easily"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/employer-of-record",
+      "text": "Employer of Record Expand globally with zero entity cost"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/contractor-of-record",
+      "text": "Contractor of Record Compliantly engage contractors worldwide"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/contractor-management",
+      "text": "Contractor Management Onboard and manage contractors globally"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/professional-employer-organization",
+      "text": "PEO Outsource complex employment tasks"
+    },
+    {
+      "href": "https://embedded.remote.com/",
+      "text": "Remote Embedded Seamlessly integrate HR into workflows"
+    },
+    {
+      "href": "https://remote.com/en-hk/remote-mcp",
+      "text": "Connect New Connect any AI tool to Remote using our MCP"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/ask-an-expert",
+      "text": "Ask an expert Get expert help on global HR & compliance"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/background-checks",
+      "text": "Background checks Simplify your candidate screening processes"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/hr-compliance",
+      "text": "Compliance watchtower Stay ahead of compliance risks"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/device-management",
+      "text": "Device management Provision and track IT devices globally"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-entity-setup",
+      "text": "Entity setup Establish compliant entities fast"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-mobility",
+      "text": "Mobility & Relocation Relocate employees with ease"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer",
+      "text": "Country Explorer Find global employment support by country"
+    },
+    {
+      "href": "https://remote.com/en-hk/us-state-explorer",
+      "text": "US State Explorer Simplify hiring across all US states"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/compare-remote",
+      "text": "Compare Remote See how we stack up against others"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/startups",
+      "text": "Startups Agile global HR & payroll solutions for growing companies"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/midsize",
+      "text": "Mid-market Expand teams with tailored HR solutions"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/enterprise",
+      "text": "Enterprise Global HR for large businesses"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/remote-api",
+      "text": "Strategic technology partners Flexibly embed global HR into your platform"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners",
+      "text": "Become a partner Explore partnership opportunities with us"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/case-studies/bamboohr-remote-embedded-global-hiring",
+      "text": "Remote Embedded x BambooHR: From local to global hiring, with no platform switch"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/case-studies/cside-hire-best-people-any-location",
+      "text": "How cside were able to hire the best people, no matter the location"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/employee-misclassification-risk-tool",
+      "text": "Misclassification risk calculator Check employee misclassification risk by country"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/employee-cost-calculator",
+      "text": "Employee cost calculator Calculate total employee costs in any country"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/contractor-payout-explorer",
+      "text": "Contractor payout calculator Explore currency options and payout speeds for global contractors"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/research",
+      "text": "Research & Guides"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/case-studies",
+      "text": "Case studies"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/hr-glossary",
+      "text": "HR Glossary"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/checklists-templates",
+      "text": "Checklists & Templates"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/job-descriptions",
+      "text": "Job Description Library"
+    },
+    {
+      "href": "https://remote.com/resources/webinars",
+      "text": "Webinars"
+    },
+    {
+      "href": "https://remote.com/events",
+      "text": "Events"
+    },
+    {
+      "href": "https://remote.com/news",
+      "text": "Newsroom"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us/sections/34243549052685-Talent-Insights",
+      "text": "Salary & Talent Insights"
+    },
+    {
+      "href": "https://remote.com/resources/insights-center",
+      "text": "Insights center"
+    },
+    {
+      "href": "https://support.remote.com/",
+      "text": "Get support"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources",
+      "text": "See all resources"
+    },
+    {
+      "href": "https://remote.com/blog/tag/payroll",
+      "text": "Global Payroll"
+    },
+    {
+      "href": "https://remote.com/blog/tag/eor-peo",
+      "text": "EOR & PEO"
+    },
+    {
+      "href": "https://remote.com/blog/tag/contractor-management",
+      "text": "Contractor Management"
+    },
+    {
+      "href": "https://remote.com/blog/tag/compliance",
+      "text": "Compliance"
+    },
+    {
+      "href": "https://remote.com/blog/tag/taxes",
+      "text": "Taxes"
+    },
+    {
+      "href": "https://remote.com/blog/tag/relocation",
+      "text": "Work visas & permits"
+    },
+    {
+      "href": "https://remote.com/blog/changelog",
+      "text": "Changelog"
+    },
+    {
+      "href": "https://remote.com/blog",
+      "text": "Explore the blog"
+    },
+    {
+      "href": "https://remote.com/blog/legal/eu-ai-act",
+      "text": "EU AI Act: Why your employment data is your biggest compliance risk"
+    },
+    {
+      "href": "https://remote.com/blog/build-on-remote",
+      "text": "Build on Remote: 9 ways our team used Remote MCP this week"
+    },
+    {
+      "href": "https://remote.com/en-hk/pricing",
+      "text": "Pricing"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "Login"
+    },
+    {
+      "href": "https://remote.com/resources/research/global-life-work-balance-index",
+      "text": "English"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/research/global-life-work-balance-index",
+      "text": "한국어"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/remote-relocation",
+      "text": "Relocate with Remote"
+    },
+    {
+      "href": "https://remote.com/country-explorer/new-zealand",
+      "text": "New Zealand, Wellington"
+    },
+    {
+      "href": "https://remote.com/country-explorer/ireland",
+      "text": "Ireland, Dublin"
+    },
+    {
+      "href": "https://remote.com/country-explorer/belgium",
+      "text": "Belgium, Brussels"
+    },
+    {
+      "href": "https://remote.com/country-explorer/germany",
+      "text": "Germany, Berlin"
+    },
+    {
+      "href": "https://remote.com/country-explorer/norway",
+      "text": "Norway, Oslo"
+    },
+    {
+      "href": "https://remote.com/country-explorer/denmark",
+      "text": "Denmark, Copenhagen"
+    },
+    {
+      "href": "https://remote.com/country-explorer/canada",
+      "text": "Canada, Ottawa"
+    },
+    {
+      "href": "https://remote.com/country-explorer/australia",
+      "text": "Australia, Canberra"
+    },
+    {
+      "href": "https://remote.com/country-explorer/finland",
+      "text": "Finland, Helsinki"
+    },
+    {
+      "href": "https://remote.com/country-explorer/spain",
+      "text": "Spain, Madrid"
+    },
+    {
+      "href": "https://remote.com/country-explorer/netherlands",
+      "text": "Netherlands, Amsterdam"
+    },
+    {
+      "href": "https://remote.com/country-explorer/portugal",
+      "text": "Portugal, Lisbon"
+    },
+    {
+      "href": "https://remote.com/country-explorer/united-kingdom",
+      "text": "United Kingdom, London"
+    },
+    {
+      "href": "https://remote.com/country-explorer/argentina",
+      "text": "Argentina, Buenos Aires"
+    },
+    {
+      "href": "https://remote.com/country-explorer/austria",
+      "text": "Austria, Vienna"
+    },
+    {
+      "href": "https://remote.com/country-explorer/france",
+      "text": "France, Paris"
+    },
+    {
+      "href": "https://remote.com/country-explorer/poland",
+      "text": "Poland, Warsaw"
+    },
+    {
+      "href": "https://remote.com/country-explorer/sweden",
+      "text": "Sweden, Stockholm"
+    },
+    {
+      "href": "https://remote.com/country-explorer/hungary",
+      "text": "Hungary, Budapest"
+    },
+    {
+      "href": "https://remote.com/country-explorer/greece",
+      "text": "Greece, Athens"
+    },
+    {
+      "href": "https://remote.com/country-explorer/czech-republic",
+      "text": "Czech Republic, Prague"
+    },
+    {
+      "href": "https://remote.com/country-explorer/italy",
+      "text": "Italy, Rome"
+    },
+    {
+      "href": "https://remote.com/country-explorer/japan",
+      "text": "Japan, Tokyo"
+    },
+    {
+      "href": "https://remote.com/country-explorer/switzerland",
+      "text": "Switzerland, Bern"
+    },
+    {
+      "href": "https://remote.com/country-explorer/brazil",
+      "text": "Brazil, Brasilia"
+    },
+    {
+      "href": "https://remote.com/country-explorer/chile",
+      "text": "Chile, Santiago"
+    },
+    {
+      "href": "https://remote.com/country-explorer/singapore",
+      "text": "Singapore, Singapore"
+    },
+    {
+      "href": "https://remote.com/country-explorer/romania",
+      "text": "Romania, Bucharest"
+    },
+    {
+      "href": "https://remote.com/country-explorer/malaysia",
+      "text": "Malaysia, Kuala Lumpur"
+    },
+    {
+      "href": "https://remote.com/country-explorer/taiwan",
+      "text": "Taiwan, Taipei"
+    },
+    {
+      "href": "https://remote.com/country-explorer/peru",
+      "text": "Peru, Lima"
+    },
+    {
+      "href": "https://remote.com/country-explorer/south-korea",
+      "text": "South Korea, Seoul"
+    },
+    {
+      "href": "https://remote.com/country-explorer/colombia",
+      "text": "Colombia, Bogota"
+    },
+    {
+      "href": "https://remote.com/country-explorer/south-africa",
+      "text": "South Africa, Pretoria"
+    },
+    {
+      "href": "https://remote.com/country-explorer/indonesia",
+      "text": "Indonesia, Jakarta"
+    },
+    {
+      "href": "https://remote.com/country-explorer/saudi-arabia",
+      "text": "Saudi Arabia, Riyadh"
+    },
+    {
+      "href": "https://remote.com/country-explorer/israel",
+      "text": "Israel, Jerusalem"
+    },
+    {
+      "href": "https://remote.com/country-explorer/ukraine",
+      "text": "Ukraine, Kyiv"
+    },
+    {
+      "href": "https://remote.com/country-explorer/vietnam",
+      "text": "Vietnam, Hanoi"
+    },
+    {
+      "href": "https://remote.com/country-explorer/thailand",
+      "text": "Thailand, Bangkok"
+    },
+    {
+      "href": "https://remote.com/country-explorer/philippines",
+      "text": "Philippines, Manila"
+    },
+    {
+      "href": "https://remote.com/country-explorer/russia",
+      "text": "Russia, Moscow"
+    },
+    {
+      "href": "https://remote.com/country-explorer/kazakhstan",
+      "text": "Kazakhstan, Nursultan"
+    },
+    {
+      "href": "https://remote.com/country-explorer/united-arab-emirates",
+      "text": "United Arab Emirates, Abu Dhabi"
+    },
+    {
+      "href": "https://remote.com/country-explorer/mexico",
+      "text": "Mexico, Mexico City"
+    },
+    {
+      "href": "https://remote.com/country-explorer/hong-kong",
+      "text": "Hong Kong, City of Victoria"
+    },
+    {
+      "href": "https://remote.com/country-explorer/algeria",
+      "text": "Algeria, Algiers"
+    },
+    {
+      "href": "https://remote.com/country-explorer/turkey",
+      "text": "Turkey, Ankara"
+    },
+    {
+      "href": "https://remote.com/country-explorer/iran",
+      "text": "Iran, Tehran"
+    },
+    {
+      "href": "https://remote.com/country-explorer/morocco",
+      "text": "Morocco, Rabat"
+    },
+    {
+      "href": "https://remote.com/country-explorer/china",
+      "text": "China, Beijing"
+    },
+    {
+      "href": "https://remote.com/country-explorer/india",
+      "text": "India, New Delhi"
+    },
+    {
+      "href": "https://remote.com/country-explorer/bangladesh",
+      "text": "Bangladesh, Dhaka"
+    },
+    {
+      "href": "https://remote.com/country-explorer/qatar",
+      "text": "Qatar, Doha"
+    },
+    {
+      "href": "https://remote.com/country-explorer/pakistan",
+      "text": "Pakistan, Islamabad"
+    },
+    {
+      "href": "https://remote.com/country-explorer/ethiopia",
+      "text": "Ethiopia, Addis Ababa"
+    },
+    {
+      "href": "https://remote.com/country-explorer/egypt",
+      "text": "Egypt, Cairo"
+    },
+    {
+      "href": "https://remote.com/country-explorer/united-states",
+      "text": "United States, Washington, D.C."
+    },
+    {
+      "href": "https://remote.com/country-explorer/nigeria",
+      "text": "Nigeria, Abuja"
+    },
+    {
+      "href": "https://www.live-work.immigration.govt.nz/work-in-new-zealand/our-nz-way-of-working",
+      "text": "guide to the NZ way of working"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer/new-zealand",
+      "text": "New Zealand employment guide"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer/ireland",
+      "text": "Ireland employment guide"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer/belgium",
+      "text": "Belgium employment guide"
+    },
+    {
+      "href": "https://parakar.eu/knowledge/de/changes-german-payroll-in-2025",
+      "text": "increase in statutory sick pay"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer/germany",
+      "text": "Germany employment guide"
+    },
+    {
+      "href": "https://knowledge.dlapiper.com/dlapiperknowledge/globalemploymentlatestdevelopments/2024/amendments-to-the-Cash-Benefit-Act",
+      "text": "extension of parental leave options"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer/norway",
+      "text": "Norway employment guide"
+    },
+    {
+      "href": "https://denmark.dk/people-and-culture/hygge",
+      "text": "hygge"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer/denmark",
+      "text": "Denmark employment guide"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer/canada",
+      "text": "Canada employment guide"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer/australia",
+      "text": "Australia employment guide"
+    },
+    {
+      "href": "https://worldpopulationreview.com/country-rankings/happiest-countries-in-the-world",
+      "text": "ecent study"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer/finland",
+      "text": "Finland employment guide"
+    },
+    {
+      "href": "https://www.bbc.co.uk/worklife/article/20170609-its-time-to-put-the-tired-spanish-siesta-stereotype-to-bed",
+      "text": "most Spaniards never take a midday nap"
+    },
+    {
+      "href": "https://remote.com/en-hk/country-explorer/spain",
+      "text": "Spain employment guide"
+    },
+    {
+      "href": "https://remote.com/hubfs/Remote%20Website%20-%202025/(Approved)%20Other%20Page%20Content/Documents/Global%20Life-Work%20Balance%20Index%202025.pdf",
+      "text": "Get the 2025 results"
+    },
+    {
+      "href": "https://remote.com/hubfs/email%20marketing/Non%20gated%20guides/Remote%20Global%20Life%20Work%20Balance%20(LWB)%20Index/Remote%20Global%20Life%20Work%20Balance%20Index%202024.pdf?_gl=1*lxashc*_ga*Njc4Mjc1NDE2LjE3NDQ2MjA5NTY.*_ga_HDWRDTEGHY*czE3NTAzNDE2MDEkbzEkZzEkdDE3NTAzNDMwMzIkajU5JGwwJGgzNzc0MzAzMzc.*_gcl_au*MzY0NzAwMTM0LjE3NDQ2MjA5NTk.",
+      "text": "Get the 2024 results"
+    },
+    {
+      "href": "https://www.theguardian.com/business/2025/jan/21/work-life-balance-pay-workers-covid-pandemic",
+      "text": "survey"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/research/remote-workforce-report",
+      "text": "Remote Workforce Report"
+    },
+    {
+      "href": "https://www.segalco.com/consulting-insights/q2-2025-trends-focus-cognitive-health-in-the-workplace",
+      "text": "of the global workforce"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/hire-international-employees",
+      "text": "Hire International Employees"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/hire-international-contractors",
+      "text": "Hire International Contractors"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-expansion",
+      "text": "Expand Globally"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/onboard-global-teams",
+      "text": "Onboard Global Teams"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/run-payroll",
+      "text": "Run Payroll"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/global-benefits",
+      "text": "Offer Global Benefits"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/offer-stock-options/equity-essentials",
+      "text": "Offer Stock Options"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/us-expansion",
+      "text": "US Expansion Offering"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/international-expansion-consulting",
+      "text": "Expansion Consulting Services"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/small-business",
+      "text": "Global HR for Small Business"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/webinars",
+      "text": "Webinars"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/remote-api/getting-started",
+      "text": "Developer API Docs"
+    },
+    {
+      "href": "https://remote.com/en-hk/resources/integrations-for-customers",
+      "text": "Tech Stack Integrations"
+    },
+    {
+      "href": "https://www.notion.so/remotecom/a3439c6ccaac4d5f8c7515c357345c11?v=8bb7f9be662f45da87ef4ab14a42be37",
+      "text": "Remote Handbook"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/global-infrastructure",
+      "text": "Global Infrastructure"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/security-compliance",
+      "text": "Security and Compliance"
+    },
+    {
+      "href": "https://trust.remote.com/",
+      "text": "Security and Compliance: Trust Portal"
+    },
+    {
+      "href": "https://remote.com/blog/fair-price-guarantee",
+      "text": "Transparent Price Guarantee"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/ip-protection",
+      "text": "IP Protection"
+    },
+    {
+      "href": "https://remote.com/en-hk/why-remote/customer-experience",
+      "text": "Customer Experience"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/startup-founders",
+      "text": "Startup Founders"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/employees",
+      "text": "Remote for Employees"
+    },
+    {
+      "href": "https://remote.com/en-hk/global-hr/freelancer-hub",
+      "text": "Freelancer Hub"
+    },
+    {
+      "href": "https://remote.com/jobs",
+      "text": "For Jobseekers"
+    },
+    {
+      "href": "https://remote.com/en-hk/about",
+      "text": "About"
+    },
+    {
+      "href": "https://remote.com/en-hk/careers",
+      "text": "Careers"
+    },
+    {
+      "href": "https://remote.com/en-hk/events",
+      "text": "Events"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/marketplace",
+      "text": "Marketplace"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us",
+      "text": "Support"
+    },
+    {
+      "href": "https://remote.com/en-hk/status",
+      "text": "Remote Status"
+    },
+    {
+      "href": "https://remote.com/en-hk/contact-us",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://remote.com/en-hk/accessibility-statement",
+      "text": "Accessibility Statement"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/affiliates",
+      "text": "Affiliates"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/vc-partners",
+      "text": "VC Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/hr-consultants",
+      "text": "HR Consultant Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/financial-advisors",
+      "text": "Financial Advisor Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/law-firms",
+      "text": "Law Firm Partners"
+    },
+    {
+      "href": "https://remote.com/en-hk/partners/perks-marketplace",
+      "text": "Partner Perks Marketplace"
+    },
+    {
+      "href": "https://remote.com/recruiters",
+      "text": "Join Remote Recruiter Network"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-hk/privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "https://remote.com/en-hk/cookie-policy",
+      "text": "Cookie Policy"
+    },
+    {
+      "href": "https://remote.com/en-hk/terms-of-use",
+      "text": "Terms of Use"
+    },
+    {
+      "href": "https://remote.com/en-hk/disclaimer",
+      "text": "Disclaimer"
+    },
+    {
+      "href": "https://remote.com/en-hk/policy/imprint",
+      "text": "Imprint"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:06:05.030Z"
+}

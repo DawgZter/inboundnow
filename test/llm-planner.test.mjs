@@ -89,7 +89,7 @@ test("fail-closed local LLM planner throws instead of using deterministic fallba
   );
 });
 
-test("local LLM planner rejects deprecated demo macros", async () => {
+test("local LLM planner rejects legacy macro actions", async () => {
   const macro = {
     intent: "global_payroll",
     answer: "Macro plan.",
@@ -103,7 +103,7 @@ test("local LLM planner rejects deprecated demo macros", async () => {
 
   assert.equal(result.planner.source, "deterministic-router");
   assert.equal(result.planner.fallback, true);
-  assert.match(result.planner.error, /deprecated demo macro/);
+  assert.match(result.planner.error, /legacy macro/);
   assert.ok(result.plan.actions.every((action) => action.type !== "payrollFlow"));
 });
 

@@ -1,0 +1,499 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/licencia-jardin",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/licencia-jardin",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/licencia-jardin",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255343,
+  "title": "Licencia de jardín",
+  "description": "El garden leave es cuando un empleado permanece en la nómina pero se le pide que no trabaje durante su período de preaviso. Descubre cómo y cuándo los empleadores pueden utilizar esta medida de forma efectiva.",
+  "links": [
+    {
+      "href": "https://remote.com/es-es",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh/licencia-jardin",
+      "text": "Concertar demo"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/global-payroll",
+      "text": "Nómina global Gestiona las nóminas de forma sencilla y conforme a la legalidad."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/employer-of-record",
+      "text": "Employer of Record Expándete en todo el mundo sin gastar en entidades."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/contractor-of-record",
+      "text": "Contractor of Record Contrata a autónomos en cualquier parte del mundo cumpliendo la normativa."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/contractor-management",
+      "text": "Contractor Management Integra y gestiona a autónomos globalmente."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/organizacion-profesional-empleadores",
+      "text": "PEO Externaliza tareas laborales complejas."
+    },
+    {
+      "href": "https://embedded.remote.com/",
+      "text": "Conexión Remote Integra los RR. HH. en tus flujos de trabajo sin complicaciones."
+    },
+    {
+      "href": "https://remote.com/es-es/remote-mcp",
+      "text": "Conectar Nuevo Conecta cualquier herramienta de IA con Remote mediante nuestro MCP."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/integraciones-para-clientes",
+      "text": "Integraciones Optimiza los procesos con herramientas empresariales esenciales."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/pregunta-experto",
+      "text": "Pregunta a un experto Obtén ayuda de gente experta en RR. HH. globales y cumplimiento normativo."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/comprobaciones-antecedentes",
+      "text": "Comprobaciones de antecedentes Simplifica los procesos de cribado de candidatos."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/cumplimiento-normativo-rrhh",
+      "text": "Cumplimiento normativo Adelántate a los riesgos de cumplimiento normativo."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/gestion-dispositivos",
+      "text": "Gestión de dispositivos Proporciona dispositivos tecnológicos y contrólalos en todo el mundo."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/apertura-entidades-globales",
+      "text": "Apertura de entidades Abre entidades conforme a la legalidad enseguida."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/movilidad-global",
+      "text": "Movilidad y reubicación Reubica a los empleados con facilidad."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/prestaciones-globales",
+      "text": "Prestaciones Gestiona las prestaciones de los empleados sin complicaciones."
+    },
+    {
+      "href": "https://remote.com/es-es/explorador-paises",
+      "text": "Explorador de países Consulta el soporte del empleo global según el país."
+    },
+    {
+      "href": "https://remote.com/us-state-explorer?service=all",
+      "text": "Explorador estatal de EE. UU. Simplifica la contratación en todos los estados de EE. UU."
+    },
+    {
+      "href": "https://remote.com/es-es/por-que-remote",
+      "text": "Comparador de Remote Compáranos con otras empresas."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/startups",
+      "text": "Startups Soluciones ágiles de RR. HH. globales y nóminas para empresas en crecimiento."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/medianas-empresas",
+      "text": "Mediana empresa Amplía tu equipo con soluciones de RR. HH. personalizadas."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/empresa",
+      "text": "Empresa RR. HH. globales para grandes empresas."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/api-remote",
+      "text": "Socios tecnológicos estratégicos Integra la gestión de los RR. HH. globales en tu plataforma de forma flexible."
+    },
+    {
+      "href": "https://remote.com/es-es/socios",
+      "text": "Asociarse Descubre oportunidades de colaborar con nosotros."
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/casos-practicos/remote-reverse-tech",
+      "text": "Colaboración estratégica de Reverse Tech con Remote para gestionar a autónomos y las nóminas"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/casos-practicos/remote-weaviate",
+      "text": "Cómo el personal de Weaviate, empresa pionera en IA, ha crecido un 120 % con Remote"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/herramienta-riesgo-clasificacion-erronea",
+      "text": "Calculadora del riesgo de clasificación errónea Consulta el riesgo de clasificación errónea por país."
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/calculadora-coste-empleado",
+      "text": "Calculadora del coste por empleado Calcula lo que cuestan los empleados en total en cualquier país."
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/explorador-pagos-autonomos",
+      "text": "Calculadora de pagos a autónomos Descubre opciones de divisas y tiempos de pago para autónomos globales."
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/investigacion",
+      "text": "Guías y recursos"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/casos-practicos",
+      "text": "Casos prácticos"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh",
+      "text": "Glosario de RR. HH."
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/listas-de-comprobacion-y-plantillas",
+      "text": "Listas de verificación y plantillas"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo",
+      "text": "Biblioteca de descripciones de puestos"
+    },
+    {
+      "href": "https://remote.com/resources/webinars",
+      "text": "Webinarios"
+    },
+    {
+      "href": "https://remote.com/events",
+      "text": "Eventos"
+    },
+    {
+      "href": "https://remote.com/news",
+      "text": "Sala de prensa"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us/sections/34243549052685-Talent-Insights",
+      "text": "Información sobre salarios y talento"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/insights-center",
+      "text": "Centro de información"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us",
+      "text": "Obtén ayuda"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos",
+      "text": "Consulta todos los recursos"
+    },
+    {
+      "href": "https://remote.com/es-es/blog/tag/nominas",
+      "text": "Nómina global"
+    },
+    {
+      "href": "https://remote.com/es-es/blog/tag/eor-peo",
+      "text": "EOR y PEO"
+    },
+    {
+      "href": "https://remote.com/es-es/blog/tag/gestion-autonomos",
+      "text": "Contractor Management"
+    },
+    {
+      "href": "https://remote.com/es-es/blog/tag/cumplimiento",
+      "text": "Cumplimiento normativo"
+    },
+    {
+      "href": "https://remote.com/es-es/blog/tag/impuestos",
+      "text": "Impuestos"
+    },
+    {
+      "href": "https://remote.com/es-es/blog/tag/reubicacion",
+      "text": "Visados y permisos de trabajo"
+    },
+    {
+      "href": "https://remote.com/blog/changelog",
+      "text": "Registro de cambios"
+    },
+    {
+      "href": "https://remote.com/es-es/blog",
+      "text": "Explora el blog"
+    },
+    {
+      "href": "https://remote.com/es-es/blog/eor-peo/entidades-propias-cumplimiento-eor",
+      "text": "Por qué las entidades propias son clave para mantener el cumplimiento normativo de EOR"
+    },
+    {
+      "href": "https://remote.com/es-es/blog/reubicacion/permisos-trabajo-visados-catar",
+      "text": "Permisos de trabajo y visados en Catar: Guía del empleador"
+    },
+    {
+      "href": "https://remote.com/es-es/precios",
+      "text": "Precios"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "Iniciar sesión"
+    },
+    {
+      "href": "https://remote.com/resources/hr-glossary/garden-leave",
+      "text": "English"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/garden-leave",
+      "text": "Nederlands"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-jardin",
+      "text": "Français"
+    },
+    {
+      "href": "https://remote.com/de-de/ressourcen/hr-glossar/freistellung",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://remote.com/ja-jp/resources/hr-glossary/garden-leave",
+      "text": "日本語"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/hr-glossary/garden-leave",
+      "text": "한국어"
+    },
+    {
+      "href": "https://remote.com/global-hr/employer-of-record",
+      "text": "Aprende más"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh/numero-empleado",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh/movilidad-global",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh/permiso-pagado",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh/form-941",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh/eor",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh/hr-empleo-compromiso",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh/traslado-trabajadores",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh/espacio-trabajo-hibrido",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/contratar-empleados-internacionales",
+      "text": "Contratar a empleados internacionales"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/contratar-trabajadores-por-cuenta-propia-internacionales",
+      "text": "Contratar a trabajadores por cuenta propia internacionales"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/expansion-internacional",
+      "text": "Expansión internacional"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/integrar-equipos-globales",
+      "text": "Integrar a equipos globales"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/gestion-de-nominas",
+      "text": "Gestión de nóminas"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/opciones-sobre-acciones/remote-equity-basico",
+      "text": "Ofrecer opciones sobre acciones"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/expansion-eeuu",
+      "text": "Oferta de expansión en EE. UU."
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales",
+      "text": "RR. HH. globales"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/programa-reubicacion-remote",
+      "text": "Reubicación de Remote"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/consultoria-expansion-internacional",
+      "text": "Servicios de consultoría de expansión"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/pequena-empresa",
+      "text": "Recursos humanos globales para pequeñas empresas"
+    },
+    {
+      "href": "https://remote.com/blog/es-es",
+      "text": "Blog de empleo global"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/webinarios",
+      "text": "Webinarios"
+    },
+    {
+      "href": "https://remote.com/resources/api/getting-started",
+      "text": "Documentación de la API para desarrolladores"
+    },
+    {
+      "href": "https://remote.com/resources/compare-remote",
+      "text": "Comparador de Remote"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/integraciones-para-clientes",
+      "text": "Integraciones de stack tecnológico"
+    },
+    {
+      "href": "https://www.notion.so/remotecom/a3439c6ccaac4d5f8c7515c357345c11?v=8bb7f9be662f45da87ef4ab14a42be37",
+      "text": "Manual de Remote"
+    },
+    {
+      "href": "https://remote.com/es-es/por-que-remote/infraestructura-global",
+      "text": "Infraestructura global"
+    },
+    {
+      "href": "https://remote.com/es-es/por-que-remote/seguridad-y-cumplimiento-normativo",
+      "text": "Seguridad y cumplimiento normativo"
+    },
+    {
+      "href": "https://trust.remote.com/?_gl=1*1caa6xo*_ga*MjQ5ODA0MzEzNC4xOTYyMTIwNjMz*_ga_HDWRDTEGHY*MTc0MDA0NjcxNC42LjEuMTc0MDA0ODA4NS4xMC4wLjE3ODcwOTA5OA..*_gcl_au*OTM1MTM5OTU2LjE3Mzk3OTc3NTA.",
+      "text": "Seguridad y cumplimiento normativo: portal de confianza"
+    },
+    {
+      "href": "https://remote.com/blog/fair-price-guarantee",
+      "text": "Garantía de precio transparente"
+    },
+    {
+      "href": "https://remote.com/es-es/por-que-remote/proteccion-pi",
+      "text": "Protección de la propiedad intelectual"
+    },
+    {
+      "href": "https://remote.com/es-es/por-que-remote/experiencia-cliente",
+      "text": "Experiencia del cliente"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/startup-founders",
+      "text": "Fundadores de startups"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/employees",
+      "text": "Remote para empleados"
+    },
+    {
+      "href": "https://remote.com/es-es/rrhh-globales/freelancer-hub",
+      "text": "Freelancer Hub"
+    },
+    {
+      "href": "https://remote.com/jobs",
+      "text": "Para gente que busca trabajo"
+    },
+    {
+      "href": "https://remote.com/es-es/about",
+      "text": "¿Quiénes somos?"
+    },
+    {
+      "href": "https://remote.com/es-es/empleo",
+      "text": "Empleo"
+    },
+    {
+      "href": "https://remote.com/es-es/mercado",
+      "text": "Mercado"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us?_gl=1*1otygs8*_ga*MjQ5ODA0MzEzNC4xOTYyMTIwNjMz*_ga_HDWRDTEGHY*MTc0MDA0NjcxNC42LjEuMTc0MDA1MDEyMi44LjAuMTc4NzA5MDk4*_gcl_au*OTM1MTM5OTU2LjE3Mzk3OTc3NTA.",
+      "text": "Asistencia"
+    },
+    {
+      "href": "https://remote.com/status",
+      "text": "Estado actual de Remote"
+    },
+    {
+      "href": "https://remote.com/es-es/contacto",
+      "text": "Contacta con nosotros"
+    },
+    {
+      "href": "https://remote.com/accessibility-statement",
+      "text": "Declaración de accesibilidad"
+    },
+    {
+      "href": "https://remote.com/es-es/socios/afiliados",
+      "text": "Afiliados"
+    },
+    {
+      "href": "https://remote.com/es-es/socios/socios-inversion",
+      "text": "Socios de inversión"
+    },
+    {
+      "href": "https://remote.com/es-es/socios/consultoria-rrhh",
+      "text": "Socios consultores de RR. HH."
+    },
+    {
+      "href": "https://remote.com/es-es/socios/asesores-financieros",
+      "text": "Socios asesores financieros"
+    },
+    {
+      "href": "https://remote.com/es-es/socios/bufetes-abogados",
+      "text": "Bufetes de abogados asociados"
+    },
+    {
+      "href": "https://remote.com/es-es/socios/mercado-ventajas",
+      "text": "Mercado de ventajas para socios"
+    },
+    {
+      "href": "https://remote.com/recruiters",
+      "text": "Red de reclutadores de Remote"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/es-es/politicas/politica-privacidad",
+      "text": "Política de privacidad"
+    },
+    {
+      "href": "https://remote.com/es-es/politica-cookies",
+      "text": "Política de cookies"
+    },
+    {
+      "href": "https://remote.com/es-es/terminos-y-condiciones",
+      "text": "Condiciones de uso"
+    },
+    {
+      "href": "https://remote.com/es-es/descargo-de-responsabilidad",
+      "text": "Descargo de responsabilidad"
+    },
+    {
+      "href": "https://remote.com/es-es/politica/aviso-legal",
+      "text": "Aviso legal"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2025-07-21",
+  "scrapedAt": "2026-06-07T09:12:32.184Z"
+}

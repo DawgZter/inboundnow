@@ -1,0 +1,503 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/lebanon/benefits-guide",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/lebanon/benefits-guide",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/lebanon/benefits-guide",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269788,
+  "title": "레바논의 직원 복리후생 | 복리후생 플랜",
+  "description": "레바논에서 필수적인 직원 복리후생을 확인하고, 의료보험·유급 휴가 및 우수 인재를 유치하고 유지하기 위한 기타 혜택을 소개합니다.",
+  "links": [
+    {
+      "href": "https://remote.com/ko-kr",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer/lebanon/benefits-guide",
+      "text": "데모 시연 예약"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/global-payroll",
+      "text": "글로벌 급여 규정을 준수하며 급여 지급을 손쉽게 처리"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/employer-of-record",
+      "text": "기록상 고용주(EOR) 법인 설립 비용 없이 전 세계로 사업을 확장"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/contractor-of-record",
+      "text": "기록상 계약자 전 세계에서 규정을 준수하며 계약자 고용"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/contractor-management",
+      "text": "계약자 관리 전 세계 계약자의 온보딩 및 관리"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/professional-employer-organization",
+      "text": "PEO 복잡한 고용 업무를 아웃소싱"
+    },
+    {
+      "href": "https://embedded.remote.com/",
+      "text": "Remote 통합 HR을 워크플로에 매끄럽게 통합"
+    },
+    {
+      "href": "https://remote.com/ko-kr/remote-mcp",
+      "text": "연결 새로운 MCP를 사용하여 모든 AI 도구를 Remote에 연결 가능"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/integrations-for-customers",
+      "text": "통합 핵심 비즈니스 도구로 프로세스를 간소화"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/ask-an-expert",
+      "text": "전문가 상담 글로벌 인사 및 규정 준수 업무 처리에 전문가 지원 제공"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/background-checks",
+      "text": "신원 조사 채용 후보자 심사 프로세스 간소화"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/hr-compliance",
+      "text": "Compliance Watchtower 규정 준수 관련 위험에 선제적으로 대응"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/device-management",
+      "text": "기기 관리 전 세계 IT 장비 제공 및 추적 관리"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/global-entity-setup",
+      "text": "법인 설립 법인 설립을 빠르고 준법적으로 지원"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/global-mobility",
+      "text": "글로벌 인재 이동 및 전근 직원 해외 이전을 간편하게 처리"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/global-benefits",
+      "text": "복리후생 손쉬운 직원 복리후생 관리"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer",
+      "text": "국가별 정보 국가별 글로벌 채용 지원 알아보기"
+    },
+    {
+      "href": "https://remote.com/us-state-explorer",
+      "text": "미국 주별 정보 미국 모든 주 전역에서 채용 업무를 간소화"
+    },
+    {
+      "href": "https://remote.com/ko-kr/why-remote",
+      "text": "Remote와 다른 솔루션 비교 다른 업체들과 비교해보기"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/startups",
+      "text": "스타트업 성장하는 기업을 위한 민첩한 글로벌 HR 및 급여 솔루션"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/midsize",
+      "text": "중견기업 맞춤형 HR 솔루션으로 팀 확장"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/enterprise",
+      "text": "엔터프라이즈 대기업을 위한 글로벌 HR"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/remote-api",
+      "text": "전략적 기술 파트너 플랫폼에 글로벌 HR을 유연하게 통합"
+    },
+    {
+      "href": "https://remote.com/ko-kr/partners",
+      "text": "파트너 되기 Remote와의 파트너십 기회 탐색"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/case-studies/remote-weaviate",
+      "text": "AI 분야의 선구자인 Weaviate가 Remote와 협력하여 조직 규모를 120% 성장시킨 방법"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/case-studies/remote-reverse-tech",
+      "text": "계약직 관리와 급여 업무를 위해 Remote와 전략적 파트너십을 맺은 Reverse Tech"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/employee-misclassification-risk-tool",
+      "text": "오분류 리스크 평가 도구 국가별 직원 오분류 리스크 확인"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/employee-cost-calculator",
+      "text": "직원 비용 계산기 국가별 총 인건비 계산"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/contractor-payout-explorer",
+      "text": "계약자 지급 계산기 글로벌 계약직을 위한 통화 옵션과 지급 소요 시간 확인"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/research",
+      "text": "리서치 및 가이드"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/case-studies",
+      "text": "사례 연구"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/hr-glossary",
+      "text": "HR 용어집"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/checklists-templates",
+      "text": "체크리스트 및 템플릿"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/job-descriptions",
+      "text": "직무 설명 라이브러리"
+    },
+    {
+      "href": "https://remote.com/resources/webinars",
+      "text": "웨비나"
+    },
+    {
+      "href": "https://remote.com/events",
+      "text": "이벤트"
+    },
+    {
+      "href": "https://remote.com/news",
+      "text": "뉴스룸"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us/sections/34243549052685-Talent-Insights",
+      "text": "급여 및 인재 인사이트"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/insights-center",
+      "text": "인사이트 센터"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us",
+      "text": "지원받기"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources",
+      "text": "모든 리소스 보기"
+    },
+    {
+      "href": "https://remote.com/ko-kr/blog/tag/payroll",
+      "text": "글로벌 급여"
+    },
+    {
+      "href": "https://remote.com/ko-kr/blog/tag/eor-peo",
+      "text": "EOR 및 PEO"
+    },
+    {
+      "href": "https://remote.com/ko-kr/blog/tag/contractor-management",
+      "text": "계약자 관리"
+    },
+    {
+      "href": "https://remote.com/blog/tag/compliance",
+      "text": "규정 준수"
+    },
+    {
+      "href": "https://remote.com/ko-kr/blog/tag/taxes",
+      "text": "세금"
+    },
+    {
+      "href": "https://remote.com/ko-kr/blog/tag/relocation",
+      "text": "취업 비자 및 취업허가"
+    },
+    {
+      "href": "https://remote.com/blog/changelog",
+      "text": "변경 로그"
+    },
+    {
+      "href": "https://remote.com/ko-kr/blog",
+      "text": "블로그 둘러보기"
+    },
+    {
+      "href": "https://remote.com/ko-kr/blog/relocation/work-permits-visas-qatar",
+      "text": "카타르에서의 취업허가 및 취업비자 신청 및 취득 고용주 가이드"
+    },
+    {
+      "href": "https://remote.com/ko-kr/blog/contractor-management/how-to-hire-pay-contractors-in-philippines",
+      "text": "필리핀에서 독립 계약자를 채용하고 급여를 지급하는 방법"
+    },
+    {
+      "href": "https://remote.com/ko-kr/pricing",
+      "text": "요금"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "로그인"
+    },
+    {
+      "href": "https://remote.com/country-explorer/lebanon/benefits-guide",
+      "text": "English"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/libanon/overzicht-secundaire-arbeidsvoorwaarden",
+      "text": "Nederlands"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays/liban/guide-avantages",
+      "text": "Français"
+    },
+    {
+      "href": "https://remote.com/de-de/country-explorer/libanon/benefits-leitfaden",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://remote.com/es-es/explorador-paises/libano/guia-prestaciones",
+      "text": "Español"
+    },
+    {
+      "href": "https://remote.com/it-it/esplora-paese/libano/guida-benefit",
+      "text": "Italiano"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/libano/guia-beneficios",
+      "text": "Português (Portugal)"
+    },
+    {
+      "href": "https://remote.com/ja-jp/country-explorer/lebanon/benefits-guide",
+      "text": "日本語"
+    },
+    {
+      "href": "https://remote.com/zh-cn/country-explorer/lebanon/benefits-guide",
+      "text": "中文（简体）"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer/lebanon/contractor-management",
+      "text": "계약자 관리"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer/lebanon/employer-of-record",
+      "text": "기록상 고용주(EOR)"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer/lebanon",
+      "text": "인력 확장"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer/lebanon/taxes",
+      "text": "세금"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer/lebanon/types-of-leave",
+      "text": "휴가 유형"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer/lebanon/employment-termination",
+      "text": "고용 해지"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/hire-international-employees",
+      "text": "해외 직원 채용"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/hire-international-contractors",
+      "text": "해외 계약직 직원 채용"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/global-expansion",
+      "text": "전 세계로 사업 확장"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/onboard-global-teams",
+      "text": "글로벌 팀 온보딩"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/run-payroll",
+      "text": "급여 지급 실행"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/offer-stock-options/equity-essentials",
+      "text": "스톡옵션 제공"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/us-expansion",
+      "text": "미국 사업 확장을 위한 서비스"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr",
+      "text": "글로벌 HR"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/remote-relocation",
+      "text": "Remote Relocation"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/international-expansion-consulting",
+      "text": "사업 확장 컨설팅 서비스"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/small-business",
+      "text": "중소기업을 위한 글로벌 HR"
+    },
+    {
+      "href": "https://remote.com/blog",
+      "text": "글로벌 채용 블로그"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/webinars",
+      "text": "웨비나"
+    },
+    {
+      "href": "https://remote.com/resources/api/getting-started",
+      "text": "개발자 API 문서"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/compare-remote",
+      "text": "Remote와 다른 솔루션 비교"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/integrations-for-customers",
+      "text": "기술 스택 통합"
+    },
+    {
+      "href": "https://www.notion.so/remotecom/a3439c6ccaac4d5f8c7515c357345c11?v=8bb7f9be662f45da87ef4ab14a42be37",
+      "text": "Remote 핸드북"
+    },
+    {
+      "href": "https://remote.com/ko-kr/why-remote/global-infrastructure",
+      "text": "글로벌 인프라"
+    },
+    {
+      "href": "https://remote.com/ko-kr/why-remote/security-compliance",
+      "text": "보안 및 규정 준수"
+    },
+    {
+      "href": "https://trust.remote.com/?_gl=1*1vljf3h*_ga*MjQ5ODA0MzEzNC4xOTYyMTIwNjMz*_ga_HDWRDTEGHY*MTc0MDA2MzY4NS43LjEuMTc0MDA2OTUxMS45LjAuMTU4Mjg5Njc4NA..*_gcl_au*OTM1MTM5OTU2LjE3Mzk3OTc3NTA.",
+      "text": "보안 및 규정 준수: 신뢰 포털"
+    },
+    {
+      "href": "https://remote.com/blog/fair-price-guarantee",
+      "text": "공정한 가격 보장"
+    },
+    {
+      "href": "https://remote.com/ko-kr/why-remote/ip-protection",
+      "text": "IP 보호"
+    },
+    {
+      "href": "https://remote.com/ko-kr/why-remote/customer-experience",
+      "text": "우수한 고객 경험"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/startup-founders",
+      "text": "스타트업 창업자"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/employees",
+      "text": "일반 직원"
+    },
+    {
+      "href": "https://remote.com/ko-kr/global-hr/freelancer-hub",
+      "text": "프리랜서 허브"
+    },
+    {
+      "href": "https://remote.com/jobs",
+      "text": "구직"
+    },
+    {
+      "href": "https://remote.com/ko-kr/about",
+      "text": "소개"
+    },
+    {
+      "href": "https://remote.com/ko-kr/careers",
+      "text": "채용 정보"
+    },
+    {
+      "href": "https://remote.com/news/",
+      "text": "뉴스룸"
+    },
+    {
+      "href": "https://remote.com/ko-kr/partners/marketplace",
+      "text": "마켓플레이스"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us?_gl=1*1wjcibq*_ga*MjQ5ODA0MzEzNC4xOTYyMTIwNjMz*_ga_HDWRDTEGHY*MTc0MDA2MzY4NS43LjEuMTc0MDA2OTcwMy4yLjAuMTU4Mjg5Njc4NA..*_gcl_au*OTM1MTM5OTU2LjE3Mzk3OTc3NTA.",
+      "text": "고객 지원"
+    },
+    {
+      "href": "https://remote.com/status",
+      "text": "Remote 현황"
+    },
+    {
+      "href": "https://remote.com/ko-kr/contact-us",
+      "text": "문의하기"
+    },
+    {
+      "href": "https://remote.com/accessibility-statement",
+      "text": "접근성 정책"
+    },
+    {
+      "href": "https://remote.com/ko-kr/partners/affiliates",
+      "text": "제휴"
+    },
+    {
+      "href": "https://remote.com/ko-kr/partners/vc-partners",
+      "text": "VC 파트너"
+    },
+    {
+      "href": "https://remote.com/ko-kr/partners/hr-consultants",
+      "text": "HR 컨설턴트 파트너"
+    },
+    {
+      "href": "https://remote.com/ko-kr/partners/financial-advisors",
+      "text": "재정 자문 파트너"
+    },
+    {
+      "href": "https://remote.com/ko-kr/partners/law-firms",
+      "text": "법률 회사 파트너"
+    },
+    {
+      "href": "https://remote.com/partners/perks-marketplace",
+      "text": "Perks Marketplace"
+    },
+    {
+      "href": "https://remote.com/recruiters",
+      "text": "Remote 리크루터 네트워크"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/ko-kr/privacy-policy",
+      "text": "개인정보 보호정책"
+    },
+    {
+      "href": "https://remote.com/ko-kr/cookie-policy",
+      "text": "쿠키 정책"
+    },
+    {
+      "href": "https://remote.com/ko-kr/terms-of-use",
+      "text": "이용 약관e"
+    },
+    {
+      "href": "https://remote.com/ko-kr/disclaimer",
+      "text": "면책 고지"
+    },
+    {
+      "href": "https://remote.com/ko-kr/policy/imprint",
+      "text": "사업자 정보"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:12:30.668Z"
+}

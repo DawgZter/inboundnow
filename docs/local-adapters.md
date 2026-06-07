@@ -54,7 +54,7 @@ Current keyword routing and `qwen-stub` are simulated planners, not local LLM
 proof. `qwen-openai-local` only becomes proof after a localhost vLLM/SGLang
 completion is exercised and captured.
 
-The worker only uses the local LLM planner when `AGENT_PLANNER=local-llm` and `LLM_PROVIDER=qwen-openai-local`. Planner JSON is parsed strictly and validated through `packages/action-protocol` before the answer or actions are sent. Deprecated demo macros are rejected. Malformed JSON or invalid actions fall back to the deterministic router unless `AGENT_PLANNER_FAIL_CLOSED=1` or `H100_PROOF_MODE=1` is set. In `H100_PROOF_MODE=1`, the worker also fails closed before answer/action if ASR is transcript/stub/simulated, Moss retrieval is missing/errored/simulated/non-local/empty, planner metadata is not local Qwen JSON, or the Miso endpoint has not produced verified H100-local audio evidence.
+The worker uses the local LLM planner when AGENT_PLANNER=local-llm, AGENT_MODE=verified, AGENT_MODE=real, or H100_PROOF_MODE=1 with LLM_PROVIDER=qwen-openai-local. Planner JSON is parsed strictly and validated through packages/action-protocol before the answer or actions are sent. Legacy macro actions are rejected. Malformed JSON or invalid actions fall back to the deterministic router unless AGENT_PLANNER_FAIL_CLOSED=1 or H100_PROOF_MODE=1 is set. In H100_PROOF_MODE=1, the worker also fails closed before answer/action if ASR is transcript/stub/simulated, Moss retrieval is missing/errored/simulated/non-local/empty, planner metadata is not local Qwen JSON, or the Miso endpoint has not produced verified H100-local audio evidence.
 
 ## Local Model-Audio TTS Adapter
 

@@ -1,0 +1,1363 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 673550,
+  "title": "Maitrisez le vocabulaire RH : explorez notre glossaire RH complet | Remote | Remote",
+  "description": "Découvrez notre glossaire RH et maitrisez la définition des termes clés. Approfondissez votre expertise avec ce guide essentiel, idéal pour les professionnels et les adeptes de RH. Commencez dès aujourd&#x27;hui à apprivoiser les concepts RH.",
+  "links": [
+    {
+      "href": "https://remote.com/fr-fr",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh",
+      "text": "Démo"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/paie-multipays",
+      "text": "Paie multipays Gérez la paie facilement et en toute conformité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/employer-of-record",
+      "text": "Employer of record Développez-vous à l’international sans frais liés aux entités"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/pilotage-360-des-freelances",
+      "text": "Pilotage 360 des freelances Sollicitez vos freelances en toute conformité part"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/gestion-des-freelances",
+      "text": "Gestion des freelances Intégrez et gérez vos freelances partout dans le monde"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/professional-employer-organization",
+      "text": "PEO Sous-traitez les opérations complexes liées à l’emploi"
+    },
+    {
+      "href": "https://embedded.remote.com/",
+      "text": "Intégration Remote Intégrez vos RH aux flux de travail en toute simplicité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/hr-core",
+      "text": "Plateforme Des fonctions RH clés intégrées pour votre équipe"
+    },
+    {
+      "href": "https://remote.com/fr-fr/remote-mcp/",
+      "text": "Connecter Nouveau Connectez n'importe quel outil d’IA à Remote grâce à notre MCP"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/integrations-pour-clients",
+      "text": "Intégrations Rationalisez vos processus avec des outils essentiels"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/demandez-aux-experts",
+      "text": "Demandez aux experts Recevez des conseils d’experts sur les RH à l’international et la conformité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/controles-antecedents",
+      "text": "Contrôles d’antécédents Simplifiez vos processus de présélection des candidats"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/conformite-rh",
+      "text": "Remote Watchtower Gardez un temps d’avance sur les risques en matière de conformité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/gestion-appareils",
+      "text": "Gestion des appareils Achetez et suivez vos équipements informatiques dans le monde entier"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/creation-entite-international",
+      "text": "Création d’entité Établissez des entités rapidement et en toute conformité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/mobilite-mondiale",
+      "text": "Mobilité et déménagement international Organisez facilement le déménagement de vos employés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays",
+      "text": "Explorateur de pays Toutes les informations sur l’emploi à l’international, pays par pays"
+    },
+    {
+      "href": "https://remote.com/us-state-explorer",
+      "text": "Explorateur des États-Unis (par État) Simplifiez l’embauche à travers les différents États des États-Unis"
+    },
+    {
+      "href": "https://remote.com/fr-fr/pourquoi-choisir-remote",
+      "text": "Comparer Remote Examinez notre service par rapport aux autres"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/start-up",
+      "text": "Start-ups Des solutions agiles et internationales pour les RH et la paie des entreprises en pleine croissance"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/intermediaire",
+      "text": "Entreprises intermédiaires Développez vos équipes avec des solutions RH sur mesure"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/entreprise",
+      "text": "Entreprise Les RH à l’international pour les grandes entreprises"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/api-remote",
+      "text": "Partenaires stratégiques de la tech Intégrez les RH à l’international de manière flexible"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires",
+      "text": "Devenir partenaire Explorez avec nous vos opportunités de partenariat"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/etudes-de-cas/remote-weaviate",
+      "text": "Comment Weaviate, l'as de l'IA, a développé ses effectifs de 120 % avec Remote"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/etudes-de-cas/revolutionner-gestion-freelances-reussite-agence-contenu-remote",
+      "text": "Révolutionner la gestion des freelances : la réussite d'une agence de contenu avec Remote"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/outil-calcul-risque-requalification-de-contrat-des-freelances",
+      "text": "Outil de calcul du risque de requalification de contrat Évaluez le risque de requalification de contrat par pays"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/calculateur-cout-employes",
+      "text": "Calculateur du coût des employés Calculez le coût total des employés dans n’importe quel pays"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/explorateur-paiement-freelances",
+      "text": "Calculateur de paiement des freelances Découvrez les devises disponibles et les vitesses de paiement pour vos freelances internationaux"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/recherche",
+      "text": "Recherche et guides"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/etudes-de-cas",
+      "text": "Études de cas"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/modeles-checklists",
+      "text": "Checklists et modèles"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/descriptions-postes",
+      "text": "Descriptions de postes"
+    },
+    {
+      "href": "https://remote.com/resources/webinars",
+      "text": "Webinaires"
+    },
+    {
+      "href": "https://remote.com/events",
+      "text": "Événements"
+    },
+    {
+      "href": "https://remote.com/fr-fr/news",
+      "text": "Salle de presse"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us/sections/34243549052685-Talent-Insights",
+      "text": "Données sur les salaires et les talents"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/centre-de-ressources",
+      "text": "Centre de ressources"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us",
+      "text": "Obtenir de l’aide"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources",
+      "text": "Voir toutes les ressources"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/paie",
+      "text": "Paie multipays"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/eor-peo",
+      "text": "EOR et PEO"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/gestion-des-freelances",
+      "text": "Gestion des freelances"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/conformite",
+      "text": "Conformité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/taxes",
+      "text": "Taxes"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/tag/demenagement-relocalisation",
+      "text": "Visas et permis de travail"
+    },
+    {
+      "href": "https://remote.com/blog/changelog",
+      "text": "Journal des modifications"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog",
+      "text": "Explorer le blog"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/eor-peo/entites-propres-conformite-eor",
+      "text": "Pourquoi les entités propres sont essentielles à la conformité EOR ?"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/rh-international/types-structure-organisationnelle",
+      "text": "4 types de structure organisationnelle : que choisir pour votre entreprise ?"
+    },
+    {
+      "href": "https://remote.com/fr-fr/tarification",
+      "text": "Tarification"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "Connexion"
+    },
+    {
+      "href": "https://remote.com/resources/hr-glossary",
+      "text": "English"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/hr-woordenlijst",
+      "text": "Nederlands"
+    },
+    {
+      "href": "https://remote.com/de-de/ressourcen/hr-glossar",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh",
+      "text": "Español"
+    },
+    {
+      "href": "https://remote.com/ja-jp/resources/hr-glossary",
+      "text": "日本語"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/hr-glossary",
+      "text": "한국어"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#hr-glossary-list",
+      "text": "Approfondissez vos connaissances en matière de ressources humaines !"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#top",
+      "text": "#"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#a",
+      "text": "A"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#b",
+      "text": "B"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#c",
+      "text": "C"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#d",
+      "text": "D"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#e",
+      "text": "E"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#f",
+      "text": "F"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#g",
+      "text": "G"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#h",
+      "text": "H"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#i",
+      "text": "I"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#j",
+      "text": "J"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#k",
+      "text": "K"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#l",
+      "text": "L"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#m",
+      "text": "M"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#n",
+      "text": "N"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#o",
+      "text": "O"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#p",
+      "text": "P"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#q",
+      "text": "Q"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#r",
+      "text": "R"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#s",
+      "text": "S"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#t",
+      "text": "T"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#u",
+      "text": "U"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#v",
+      "text": "V"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#w",
+      "text": "W"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#x",
+      "text": "X"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#y",
+      "text": "Y"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh#z",
+      "text": "Z"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/401k",
+      "text": "401(k)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/accessibilite",
+      "text": "Accessibilite"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/acquisition",
+      "text": "Acquisition"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/actions-conseils",
+      "text": "Actions de conseil"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/actions-diluees",
+      "text": "Actions diluées"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/agent-de-record",
+      "text": "Agent de dossier (AOR)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/agilite-main-doeuvre",
+      "text": "Agilité du personnel"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/allocation-teletravail",
+      "text": "Allocation teletravail"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/amelioration-performances",
+      "text": "Amélioration des performances"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/analyse-lecart-entre-hr-autres",
+      "text": "Analyse des écarts RH"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/anciennete-employe",
+      "text": "Anciennete employe"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/arret-maladie-remunere",
+      "text": "Arret maladie remunere"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/assurance-complementaire",
+      "text": "Assurance complementaire"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/subvention-equite",
+      "text": "Attribution d'actions"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/attrition",
+      "text": "Attrition"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/augmentation-merite",
+      "text": "Augmentation du mérite"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/autorisation-travail",
+      "text": "Autorisation travail"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/avantages-nature",
+      "text": "Avantages en nature"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/base-imposable-salaire",
+      "text": "Base salariale imposable"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/billets-convertibles-fonds-propres",
+      "text": "Billets convertibles"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/budget-fonctionnement",
+      "text": "Budget de fonctionnement"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/bulletin-salaire",
+      "text": "Bulletin salaire"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/carte-sejour",
+      "text": "Carte de séjour"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/classification-professionnelle",
+      "text": "Classification professionnelle"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/ratio-salaire-marche",
+      "text": "Compa-ratio"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/competences-interpersonnelles",
+      "text": "Compétences interpersonnelles"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conditions-salariales",
+      "text": "Conditions salariales"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-flottant",
+      "text": "Conge flottant"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-invalidite",
+      "text": "Conge invalidite"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conges-accumules",
+      "text": "Conges accumules"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-absence",
+      "text": "Congé autorisé"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-compensatoire",
+      "text": "Congé compensatoire"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/deuil-conge",
+      "text": "Congé de décès"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-jardin",
+      "text": "Congé de jardin"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-maladie",
+      "text": "Congé de maladie"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-paternite",
+      "text": "Congé de paternité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/maternity-leave",
+      "text": "Congé maternité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-solidaire",
+      "text": "Congés de bénévolat"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conges-payes",
+      "text": "Congés payés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/dpa",
+      "text": "Contrat informatique (DPA)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/contrat-zero-heure",
+      "text": "Contrat zéro heure"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/core-hr",
+      "text": "Core HR"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/creances",
+      "text": "Creances"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/resume",
+      "text": "Curriculum vitae"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/cycle-de-paie",
+      "text": "Cycle de paie"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/date-limite",
+      "text": "Date limite"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/definition-avantages-sociaux",
+      "text": "Definition avantages sociaux"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/delai-preavis",
+      "text": "Delai preavis"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/depot-direct",
+      "text": "Depot direct"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/description-du-poste",
+      "text": "Description de l'emploi"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/prime-equipe",
+      "text": "Différentiel de décalage"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/discrimination-positive",
+      "text": "Discrimination positive"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/discrimination-sur-lieu-travail",
+      "text": "Discrimination sur le lieu de travail"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/disregarded-entity",
+      "text": "Disregarded entity"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/droit-du-travail",
+      "text": "Droit du travail"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/retenues-nettes",
+      "text": "Déductions après impôts"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/deductions-avant-impots",
+      "text": "Déductions avant impôts"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/delocalisation",
+      "text": "Délocalisation"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/depenses",
+      "text": "Dépenses"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/effectifs",
+      "text": "Effectifs"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/embarquement",
+      "text": "Embarquement"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/employe-boomerang",
+      "text": "Employe boomerang"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/eor",
+      "text": "Employer of record (EOR)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/employe",
+      "text": "Employé"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/employe-exonere",
+      "text": "Employé exonéré"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/employe-exempt",
+      "text": "Employé non exonéré"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/employe-virtuel",
+      "text": "Employé virtuel"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/equipes-interfonctionnelles",
+      "text": "Equipes interfonctionnelles"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/equipes-managees",
+      "text": "Equipes managees"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/espace-travail-hybride",
+      "text": "Espace de travail hybride"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/evenement-admissible",
+      "text": "Evenement admissible"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/examen-resultats",
+      "text": "Examen des résultats"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/examen-salaires",
+      "text": "Examen salaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/exemple-tableau-comptes",
+      "text": "Exemple de plan comptable"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/expatrie",
+      "text": "Expatrié"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/externalisation-processus-entreprise-bpo",
+      "text": "Externalisation des processus d'entreprise (BPO)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/falaise",
+      "text": "Falaise"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/feuille-temps",
+      "text": "Feuille de temps"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/fonds-propres-entreprises",
+      "text": "Fonds propres des entreprises"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/form-8832",
+      "text": "Form 8832"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/form-w-3",
+      "text": "Form W-3"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/formulaires-1094-c-et-1095-c",
+      "text": "Formulaire 1095-C"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/1096-form",
+      "text": "Formulaire 1096"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/form-941",
+      "text": "Formulaire 941"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/formulaire-w-2",
+      "text": "Formulaire W-2"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/formulaire-w-9",
+      "text": "Formulaire W-9"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/frais-services-exterieurs",
+      "text": "Frais de services externes"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/futa",
+      "text": "FUTA"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/gestion-absences",
+      "text": "Gestion absences"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/paie",
+      "text": "gestion de la paie"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/gestion-capital-humain",
+      "text": "Gestion du capital humain (HCM)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/gestion-cycle-vie-contrats",
+      "text": "Gestion du cycle de vie des contrats"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/grand-livre-comptable",
+      "text": "Grand livre comptable"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/heures-supplementaires",
+      "text": "Heures supplementaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/9-80",
+      "text": "Horaire 9/80"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/horaire-employe",
+      "text": "Horaire employe"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/horaires-base",
+      "text": "Horaires base"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/heures-plein-temps",
+      "text": "Horaires à temps plein"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/implication-employes-rh",
+      "text": "Implication des employés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/imputation-revenu",
+      "text": "Imputation revenu"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/impot-salaires",
+      "text": "impôt sur les salaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/insubordination",
+      "text": "Insubordination"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/jour-ferie",
+      "text": "Jour férié fédéral"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-paye",
+      "text": "Les congés payés (PTO)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/lettre-offre",
+      "text": "Lettre d'offre"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/licenciement-abusif",
+      "text": "Licenciement abusif"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/logiciel-recrutement",
+      "text": "Logiciel de recrutement"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/logiciel-gestion-ressources-humaines",
+      "text": "Logiciel RH"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/americans-with-disabilities-act-ada-compliance",
+      "text": "Loi américaine sur les personnes handicapées (ADA)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/loi-sur-normes-travail-equitables-flsa",
+      "text": "Loi sur les normes de travail équitable (LNE)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/marche-du-travail",
+      "text": "Marche du travail"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/masse-salariale-a-payer",
+      "text": "Masse salariale a payer"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/mesure-disciplinaire",
+      "text": "Mesure disciplinaire"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/mobilite-ascendante",
+      "text": "Mobilite ascendante"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/amendement-fiscal",
+      "text": "Modification taxe"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/nepotisme",
+      "text": "Nepotisme"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/nomadisme-numerique",
+      "text": "Nomadisme numérique"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/numero-employe",
+      "text": "Numéro d'identification employé"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/numero-identification-fiscale",
+      "text": "Numéro d'identification fiscale"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/numero-iban",
+      "text": "Numéro IBAN"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/oasdi",
+      "text": "OASDI"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/organisation-professionnelle-employeurs-peo",
+      "text": "Organisation professionnelle des employeurs (PEO)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/orientation-employes",
+      "text": "Orientation employes"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/overhead-cost",
+      "text": "Overhead cost"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-partiel",
+      "text": "Paiement partiel"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-salaires",
+      "text": "Paiement salaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/paie-hors-cycle",
+      "text": "Paiements hors cycle"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/parcours-professionnel",
+      "text": "Parcours professionnel"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/partenaire-rh",
+      "text": "Partenaire RH"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/participation-benefices",
+      "text": "Participation aux bénéfices"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/pauses-pour-employes-distance",
+      "text": "Pauses pour les travailleurs à distance"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/philosophie-equite",
+      "text": "Philosophie de l'équité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/plans-incitation-actionnariat",
+      "text": "Plans d'incitation en actions"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/politique-absenteisme",
+      "text": "Politique absenteisme"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/prime-performance",
+      "text": "Prime de rendement"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/periode-probation",
+      "text": "Probation"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/processus-rh",
+      "text": "Processus RH"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/rapport-paie",
+      "text": "Rapport de paie"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/hr-reporting",
+      "text": "Rapports RH"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/recompenses-tangibles",
+      "text": "Recompenses tangibles"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/remuneration-complementaire",
+      "text": "Remuneration complementaire"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/remuneration-differee",
+      "text": "Remuneration differee"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/remuneration-globale",
+      "text": "Remuneration globale"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/remuneration-retroactive",
+      "text": "Remuneration retroactive"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/remuneration-taux-ordinaire",
+      "text": "Remuneration taux ordinaire"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/report-delai-paiement",
+      "text": "Report des congés payés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/responsabilite-sociale-entreprises",
+      "text": "Responsabilité sociale des entreprises"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/retenues-salariales",
+      "text": "Retenues salariales"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/impot-arriere",
+      "text": "Retour de taxe"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/rh-sourcing-talent",
+      "text": "RH talents sourcing"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/vacances-paye-vs-pto",
+      "text": "Rémunération des congés payés vs PTO"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/remuneration-incitative",
+      "text": "Rémunération incitative"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/remuneration-basee-competences",
+      "text": "Rémunération par compétences"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-commission",
+      "text": "Rémunération à la commission"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-demande",
+      "text": "Rémunération à la demande"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/repertoires-employes",
+      "text": "Répertoires des employés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/retention-employes",
+      "text": "Rétention des employés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/saisie-sur-salaire",
+      "text": "Saisie sur salaire"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/salaire-annualise",
+      "text": "Salaire annualisé"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-bihebdomadaire",
+      "text": "Salaire bihebdomadaire"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/salaire-brut",
+      "text": "Salaire brut"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/salaire-brut-vs-net",
+      "text": "Salaire brut et salaire net"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/salaire-fixe",
+      "text": "Salaire de base"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/indemnite-anticipation",
+      "text": "Salaire initial"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/minimum-wage",
+      "text": "Salaire minimum"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/net-pay",
+      "text": "Salaire net"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-domicile",
+      "text": "Salaire net"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/salaire-reference",
+      "text": "Salaire reference"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/social-security-wages-w2",
+      "text": "Salaires Sécurité sociale (W-2)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/mobilite-mondiale",
+      "text": "Services de mobilité mondiale"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/statut-emploi",
+      "text": "Situation professionnelle"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/stress-professionnel",
+      "text": "Stress professionnel"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/systeme-dinformation-sur-ressources-humaines",
+      "text": "Système d'information des ressources humaines (SIRH)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/systeme-gestion-apprentissage",
+      "text": "Système de gestion de l'apprentissage"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/systeme-gestion-connaissances",
+      "text": "Système de gestion des connaissances"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/ats",
+      "text": "Système de suivi des demandeurs (ATS)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/taux-rotation-personnel",
+      "text": "Taux de rotation du personnel"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/taux-desabonnement",
+      "text": "Taux désabonnement"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/taux-remuneration-piece",
+      "text": "Taux à la pièce"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/medicare-taxe",
+      "text": "Taxe Medicare"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/teletravail",
+      "text": "Teletravail"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/test-non-discrimination",
+      "text": "Test de non-discrimination"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/titre-vii",
+      "text": "Titre VII (Loi sur les droits civils)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/transfert-salaries",
+      "text": "Transfert employé"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/tef",
+      "text": "Transfert électronique de fonds (TEF)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/transparence-salaires",
+      "text": "Transparence salariale"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/travailleurs-occasionnels",
+      "text": "Travailleurs occasionnels"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/tele-travail",
+      "text": "Télétravail"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/restricted-stock-unit",
+      "text": "Unité de stock restreint (RSU)"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/valeur-duree-vie-salarie",
+      "text": "Valeur de l'employé tout au long de sa vie"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/visa-affaires",
+      "text": "Visa d'affaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh/tag/rh-international",
+      "text": "RH International"
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/rh-international/gestion-politique-conges-payes-illimites",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/rh-international/analyses-rh-rapports",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/rh-international/application-numerisation-recus",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/fr-fr/blog/rh-international/secrets-creation-entreprises-internationales",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/fr-fr/blog/rh-international/resolution-conflits",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/embauche-employes-internationaux",
+      "text": "Embauche d’employés internationaux"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/recours-freelances-internationaux",
+      "text": "Recours à des freelances internationaux"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/developpement-international",
+      "text": "Développement international"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/integration-equipes-internationales",
+      "text": "Intégration d’équipes internationales"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/gestion-paie",
+      "text": "Gestion de la paie"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/avantages-sociaux-international",
+      "text": "Offrez des avantages à l’international"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/proposez-options-achat-actions/equity-essentials",
+      "text": "Proposez des options d’achat d’action"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international",
+      "text": "RH à l'international"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/remote-relocation",
+      "text": "Remote Relocation"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/conseil-developpement-international",
+      "text": "Services de conseil"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/petites-entreprises",
+      "text": "RH à l'international pour les petites entreprises"
+    },
+    {
+      "href": "https://remote.com/blog/fr-fr",
+      "text": "Blog consacré à l’emploi à l’international"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/webinaires",
+      "text": "Webinaires"
+    },
+    {
+      "href": "https://remote.com/resources/api/getting-started",
+      "text": "Documents API du développeur"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/comparer-remote",
+      "text": "Comparer Remote"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/integrations-pour-clients",
+      "text": "Intégration des applications"
+    },
+    {
+      "href": "https://www.notion.so/remotecom/a3439c6ccaac4d5f8c7515c357345c11?v=8bb7f9be662f45da87ef4ab14a42be37",
+      "text": "Livret Remote"
+    },
+    {
+      "href": "https://remote.com/fr-fr/pourquoi-choisir-remote/infrastructure-internationale",
+      "text": "Infrastructure internationale"
+    },
+    {
+      "href": "https://remote.com/fr-fr/pourquoi-choisir-remote/securite-et-conformite",
+      "text": "Sécurité et conformité"
+    },
+    {
+      "href": "https://trust.remote.com/?_gl=1*zkyzda*_ga*MjQ5ODA0MzEzNC4xOTYyMTIwNjMz*_ga_HDWRDTEGHY*MTczOTg5Mzg5OC4zLjEuMTczOTg5Nzc3OS40OS4wLjcxMzQyMjY2NQ..*_gcl_au*OTM1MTM5OTU2LjE3Mzk3OTc3NTA.",
+      "text": "Sécurité et conformité : Trust Portal"
+    },
+    {
+      "href": "https://remote.com/blog/transparent-price-guarantee",
+      "text": "Garantie de prix équitable"
+    },
+    {
+      "href": "https://remote.com/fr-fr/pourquoi-choisir-remote/protection-pi",
+      "text": "Protection de la propriété intellectuelle"
+    },
+    {
+      "href": "https://remote.com/fr-fr/pourquoi-choisir-remote/experience-client",
+      "text": "Expérience client"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/startup-founders",
+      "text": "Fondateurs de start-up"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/employees",
+      "text": "Remote pour les employés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/rh-international/freelancer-hub",
+      "text": "Freelancer Hub"
+    },
+    {
+      "href": "https://remote.com/jobs",
+      "text": "Pour les candidats"
+    },
+    {
+      "href": "https://remote.com/fr-fr/a-propos",
+      "text": "À propos"
+    },
+    {
+      "href": "https://remote.com/fr-fr/offres-d-emploi",
+      "text": "Offres d’emploi"
+    },
+    {
+      "href": "https://remote.com/news",
+      "text": "Salle de presse"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/marketplace",
+      "text": "Marketplace"
+    },
+    {
+      "href": "https://support.remote.com/hc/fr-fr?_gl=1*nzy064*_ga*MjQ5ODA0MzEzNC4xOTYyMTIwNjMz*_ga_HDWRDTEGHY*MTczOTg5Mzg5OC4zLjEuMTczOTg5ODA1Ni42MC4wLjcxMzQyMjY2NQ..*_gcl_au*OTM1MTM5OTU2LjE3Mzk3OTc3NTA.",
+      "text": "Assistance"
+    },
+    {
+      "href": "https://remote.com/status",
+      "text": "Statut de Remote"
+    },
+    {
+      "href": "https://remote.com/fr-fr/nous-contacter",
+      "text": "Nous contacter"
+    },
+    {
+      "href": "https://remote.com/fr-fr/declaration-accessibilite",
+      "text": "Déclaration d'accessibilité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/affilies",
+      "text": "Affiliés"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/partenaires-investisseurs",
+      "text": "Partenaires investisseurs"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/consultants-rh",
+      "text": "Consultants RH partenaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/conseillers-financiers",
+      "text": "Conseillers financiers partenaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/cabinets-juridiques",
+      "text": "Cabinets juridiques partenaires"
+    },
+    {
+      "href": "https://remote.com/fr-fr/partenaires/marketplace-avantages",
+      "text": "Marketplace d’avantages partenaires"
+    },
+    {
+      "href": "https://remote.com/recruiters",
+      "text": "Réseau de recruteurs de Remote"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/fr-fr/politique-de-confidentialite",
+      "text": "Politique de confidentialité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/politique-cookie",
+      "text": "Politique d’utilisation des cookies"
+    },
+    {
+      "href": "https://remote.com/fr-fr/conditions-utilisation",
+      "text": "Conditions générales d'utilisation"
+    },
+    {
+      "href": "https://remote.com/fr-fr/clause-de-non-responsabilite",
+      "text": "Clause de non-responsabilité"
+    },
+    {
+      "href": "https://remote.com/fr-fr/politique/mentiones-legales",
+      "text": "Mentions légales"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:05:07.833Z"
+}

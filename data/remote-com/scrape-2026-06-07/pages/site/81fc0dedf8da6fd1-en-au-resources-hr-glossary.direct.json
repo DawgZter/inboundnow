@@ -1,0 +1,1379 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/en-au/resources/hr-glossary",
+  "requestedURL": "https://remote.com/en-au/resources/hr-glossary",
+  "finalURL": "https://remote.com/en-au/resources/hr-glossary",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 662657,
+  "title": "Master HR Terms: Explore Our Comprehensive HR Glossary | Remote",
+  "description": "Dive into our HR Glossary to master key HR terms and definitions. Elevate your expertise with this essential guide, ideal for HR professionals and enthusiasts. Start learning today and navigate HR concepts with ease.",
+  "links": [
+    {
+      "href": "https://remote.com/en-au",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary",
+      "text": "Book demo"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/global-payroll",
+      "text": "Global Payroll Run compliant payroll easily"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/employer-of-record",
+      "text": "Employer of Record Expand globally with zero entity cost"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/contractor-of-record",
+      "text": "Contractor of Record Compliantly engage contractors worldwide"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/contractor-management",
+      "text": "Contractor Management Onboard and manage contractors globally"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/professional-employer-organization",
+      "text": "PEO Outsource complex employment tasks"
+    },
+    {
+      "href": "https://embedded.remote.com/",
+      "text": "Remote Embedded Seamlessly integrate HR into workflows"
+    },
+    {
+      "href": "https://remote.com/en-au/remote-mcp",
+      "text": "Connect New Connect any AI tool to Remote using our MCP"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/ask-an-expert",
+      "text": "Ask an expert Get expert help on global HR & compliance"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/background-checks",
+      "text": "Background checks Simplify your candidate screening processes"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/hr-compliance",
+      "text": "Compliance watchtower Stay ahead of compliance risks"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/device-management",
+      "text": "Device management Provision and track IT devices globally"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/global-entity-setup",
+      "text": "Entity setup Establish compliant entities fast"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/global-mobility",
+      "text": "Mobility & Relocation Relocate employees with ease"
+    },
+    {
+      "href": "https://remote.com/en-au/country-explorer",
+      "text": "Country Explorer Find global employment support by country"
+    },
+    {
+      "href": "https://remote.com/en-au/us-state-explorer",
+      "text": "US State Explorer Simplify hiring across all US states"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/compare-remote",
+      "text": "Compare Remote See how we stack up against others"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/startups",
+      "text": "Startups Agile global HR & payroll solutions for growing companies"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/midsize",
+      "text": "Mid-market Expand teams with tailored HR solutions"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/enterprise",
+      "text": "Enterprise Global HR for large businesses"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/remote-api",
+      "text": "Strategic technology partners Flexibly embed global HR into your platform"
+    },
+    {
+      "href": "https://remote.com/en-au/partners",
+      "text": "Become a partner Explore partnership opportunities with us"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/case-studies/bamboohr-remote-embedded-global-hiring",
+      "text": "Remote Embedded x BambooHR: From local to global hiring, with no platform switch"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/case-studies/transforming-fragmented-payroll-into-a-single-source-of-truth-with-remote",
+      "text": "Transforming fragmented payroll into a single source of truth with Remote"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/employee-misclassification-risk-tool",
+      "text": "Misclassification risk calculator Check employee misclassification risk by country"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/employee-cost-calculator",
+      "text": "Employee cost calculator Calculate total employee costs in any country"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/contractor-payout-explorer",
+      "text": "Contractor payout calculator Explore currency options and payout speeds for global contractors"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/research",
+      "text": "Research & Guides"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/case-studies",
+      "text": "Case studies"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/checklists-templates",
+      "text": "Checklists & Templates"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/job-descriptions",
+      "text": "Job Description Library"
+    },
+    {
+      "href": "https://remote.com/resources/webinars",
+      "text": "Webinars"
+    },
+    {
+      "href": "https://remote.com/events",
+      "text": "Events"
+    },
+    {
+      "href": "https://remote.com/news",
+      "text": "Newsroom"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us/sections/34243549052685-Talent-Insights",
+      "text": "Salary & Talent Insights"
+    },
+    {
+      "href": "https://remote.com/resources/insights-center",
+      "text": "Insights center"
+    },
+    {
+      "href": "https://support.remote.com/",
+      "text": "Get support"
+    },
+    {
+      "href": "https://remote.com/en-au/resources",
+      "text": "See all resources"
+    },
+    {
+      "href": "https://remote.com/blog/tag/payroll",
+      "text": "Global Payroll"
+    },
+    {
+      "href": "https://remote.com/blog/tag/eor-peo",
+      "text": "EOR & PEO"
+    },
+    {
+      "href": "https://remote.com/blog/tag/contractor-management",
+      "text": "Contractor Management"
+    },
+    {
+      "href": "https://remote.com/blog/tag/compliance",
+      "text": "Compliance"
+    },
+    {
+      "href": "https://remote.com/blog/tag/taxes",
+      "text": "Taxes"
+    },
+    {
+      "href": "https://remote.com/blog/tag/relocation",
+      "text": "Work visas & permits"
+    },
+    {
+      "href": "https://remote.com/blog/changelog",
+      "text": "Changelog"
+    },
+    {
+      "href": "https://remote.com/blog",
+      "text": "Explore the blog"
+    },
+    {
+      "href": "https://remote.com/blog/legal/eu-ai-act",
+      "text": "EU AI Act: Why your employment data is your biggest compliance risk"
+    },
+    {
+      "href": "https://remote.com/blog/build-on-remote",
+      "text": "Build on Remote: 9 ways our team used Remote MCP this week"
+    },
+    {
+      "href": "https://remote.com/en-au/pricing",
+      "text": "Pricing"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "Login"
+    },
+    {
+      "href": "https://remote.com/resources/hr-glossary",
+      "text": "English"
+    },
+    {
+      "href": "https://remote.com/nl-nl/bronnen/hr-woordenlijst",
+      "text": "Nederlands"
+    },
+    {
+      "href": "https://remote.com/fr-fr/ressources/glossaire-rh",
+      "text": "Français"
+    },
+    {
+      "href": "https://remote.com/de-de/ressourcen/hr-glossar",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://remote.com/es-es/recursos/glosario-rrhh",
+      "text": "Español"
+    },
+    {
+      "href": "https://remote.com/ja-jp/resources/hr-glossary",
+      "text": "日本語"
+    },
+    {
+      "href": "https://remote.com/ko-kr/resources/hr-glossary",
+      "text": "한국어"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#hr-glossary-list",
+      "text": "Deepen your HR knowledge!"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#top",
+      "text": "#"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#a",
+      "text": "A"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#b",
+      "text": "B"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#c",
+      "text": "C"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#d",
+      "text": "D"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#e",
+      "text": "E"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#f",
+      "text": "F"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#g",
+      "text": "G"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#h",
+      "text": "H"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#i",
+      "text": "I"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#j",
+      "text": "J"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#k",
+      "text": "K"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#l",
+      "text": "L"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#m",
+      "text": "M"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#n",
+      "text": "N"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#o",
+      "text": "O"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#p",
+      "text": "P"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#q",
+      "text": "Q"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#r",
+      "text": "R"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#s",
+      "text": "S"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#t",
+      "text": "T"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#u",
+      "text": "U"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#v",
+      "text": "V"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#w",
+      "text": "W"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#x",
+      "text": "X"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#y",
+      "text": "Y"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary#z",
+      "text": "Z"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/401k",
+      "text": "401(k)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/9-80",
+      "text": "9/80 schedule"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/absence-management",
+      "text": "Absence management"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/absenteeism-policy",
+      "text": "Absenteeism policy"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/accounts-receivable",
+      "text": "Accounts receivable"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/accrued-leave",
+      "text": "Accrued leave"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/accrued-payroll",
+      "text": "Accrued payroll"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/advisory-shares",
+      "text": "Advisory shares"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/affirmative-action",
+      "text": "Affirmative action"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/agent-of-record",
+      "text": "Agent of record (AOR)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/americans-with-disabilities-act-ada-compliance",
+      "text": "Americans With Disabilities Act (ADA)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/annualized-salary",
+      "text": "Annualised Pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/ats",
+      "text": "Applicant tracking system (ATS)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/attrition",
+      "text": "Attrition"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/back-tax",
+      "text": "Back tax"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/base-salary",
+      "text": "Base salary"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/bereavement-leave",
+      "text": "Bereavement leave"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/bi-weekly-pay",
+      "text": "Bi-weekly pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/boomerang-employee",
+      "text": "Boomerang employee"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/breaks-for-remote-employees",
+      "text": "Breaks for remote employees"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/business-equity",
+      "text": "Business equity"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/business-process-outsourcing-bpo",
+      "text": "Business process outsourcing (BPO)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/business-visa",
+      "text": "Business visa"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/career-path-definition",
+      "text": "Career path"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/carryover-paid-time-off",
+      "text": "Carryover paid time off"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/churn-rate",
+      "text": "Churn rate"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/cliff",
+      "text": "Cliff"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/commission-pay",
+      "text": "Commission pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/compa-ratio",
+      "text": "Compa-ratio"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/compensatory-time-off",
+      "text": "Compensatory time off"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/competency-based-pay",
+      "text": "Competency-based pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/contingent-worker",
+      "text": "Contingent worker"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/contract-lifecycle-management",
+      "text": "Contract lifecycle management"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/convertible-notes-equity",
+      "text": "Convertible notes"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/core-hr",
+      "text": "Core HR"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/corporate-social-responsibility",
+      "text": "Corporate social responsibility"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/cross-functional-teams",
+      "text": "Cross functional teams"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/cut-off-date",
+      "text": "Cut off date"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/dpa",
+      "text": "Data processing agreement (DPA)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/deferred-compensation",
+      "text": "Deferred compensation"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/digital-nomadism",
+      "text": "Digital nomadism"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/diluted-shares",
+      "text": "Diluted shares"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/direct-deposit",
+      "text": "Direct deposit"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/direct-reports",
+      "text": "Direct reports"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/disability-leave",
+      "text": "Disability leave"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/disciplinary-action",
+      "text": "Disciplinary action"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/discrimination-in-workplace",
+      "text": "Discrimination in the workplace"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/disregarded-entity",
+      "text": "Disregarded entity"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/eft",
+      "text": "Electronic funds transfer (EFT)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/employee",
+      "text": "Employee"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/employee-directories",
+      "text": "Employee directories"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/hr-employee-engagement",
+      "text": "Employee engagement"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/en-au/en-ph/resources/hr-glossary/employee-id-number",
+      "text": "Employee ID number"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/employee-lifetime-value",
+      "text": "Employee lifetime value"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/employee-retention",
+      "text": "Employee retention"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/employee-tenure",
+      "text": "Employee tenure"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/employee-transfer",
+      "text": "Employee transfer"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/employee-turnover-rate",
+      "text": "Employee turnover rate"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/eor",
+      "text": "Employer of record (EOR)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/employment-conditions",
+      "text": "Employment conditions"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/employment-status",
+      "text": "Employment status"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/equity-grant",
+      "text": "Equity grant"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/equity-incentive-plans",
+      "text": "Equity incentive plans"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/equity-philosophy",
+      "text": "Equity philosophy"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/exempt-employee",
+      "text": "Exempt employee"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/expatriate",
+      "text": "Expatriate"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/expense",
+      "text": "Expense"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/fair-labor-standards-act-flsa",
+      "text": "Fair Labour Standards Act (FLSA)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/federal-holiday",
+      "text": "Federal holiday"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/floating-holiday",
+      "text": "Floating holiday"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/forms-1094-c-and-1095-c",
+      "text": "Form 1095-C"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/1096-form",
+      "text": "Form 1096"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/form-8832",
+      "text": "Form 8832"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/form-941",
+      "text": "Form 941"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/w-2-form",
+      "text": "Form W-2"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/form-w-3",
+      "text": "Form W-3"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/w-9-form",
+      "text": "Form W-9"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/fringe-benefits",
+      "text": "Fringe benefits"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/front-pay",
+      "text": "Front pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/fte",
+      "text": "Full-time equivalent (FTE)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/full-time-hours",
+      "text": "Full-time hours"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/futa",
+      "text": "FUTA"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/garden-leave",
+      "text": "Garden leave"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/garnishment",
+      "text": "Garnishment"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/general-accounting-ledger",
+      "text": "General accounting ledger"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/global-accessibility",
+      "text": "Global accessibility"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/global-mobility",
+      "text": "Global mobility services"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/gross-vs-net-pay",
+      "text": "Gross vs net pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/gross-wage",
+      "text": "Gross wage"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/headcount",
+      "text": "Headcount"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/holiday-pay-vs-pto",
+      "text": "Holiday pay vs PTO"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/hourly-pay-employee",
+      "text": "Hourly pay employee"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/hr-business-partner",
+      "text": "HR business partner"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/hr-gap-analysis",
+      "text": "HR gap analysis"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/hr-process",
+      "text": "HR process"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/hr-reporting",
+      "text": "HR reporting"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/human-resource-software",
+      "text": "HR software"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/hr-talent-sourcing",
+      "text": "HR talent sourcing"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/hcm-human-capital-management",
+      "text": "Human capital management (HCM)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/human-resource-information-system",
+      "text": "Human resources information system (HRIS)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/hybrid-workspace",
+      "text": "Hybrid workspace"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/iban-number",
+      "text": "IBAN number"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/imputed-income",
+      "text": "Imputed income"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/in-kind-benefits",
+      "text": "In-kind benefits"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/incentive-based-compensation",
+      "text": "Incentive-based compensation"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/insubordination",
+      "text": "Insubordination"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/interpersonal-skills",
+      "text": "Interpersonal skills"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/job-classification",
+      "text": "Job classification"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/job-description",
+      "text": "Job description"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/knowledge-management-system",
+      "text": "Knowledge management system"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/labor-law",
+      "text": "Labour law"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/labor-market",
+      "text": "Labour market"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/learning-management-system",
+      "text": "Learning management system"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/leave-of-absence",
+      "text": "Leave of absence"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/maternity-leave",
+      "text": "Maternity leave"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/medical-leave-of-absence",
+      "text": "Medical leave"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/medicare-tax",
+      "text": "Medicare tax"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/merit-increase",
+      "text": "Merit increase"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/minimum-wage",
+      "text": "Minimum wage"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/nepotism",
+      "text": "Nepotism"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/net-pay",
+      "text": "Net pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/new-employee-orientation",
+      "text": "New employee orientation"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/non-discrimination-testing",
+      "text": "Non-discrimination testing"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/non-exempt-employee",
+      "text": "Non-exempt employee"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/non-resident-alien",
+      "text": "Non-resident alien"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/notice-period",
+      "text": "Notice period"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/oasdi",
+      "text": "OASDI"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/occupational-stress",
+      "text": "Occupational stress"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/off-cycle-payroll",
+      "text": "Off-cycle payroll"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/offer-letter",
+      "text": "Offer letter"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/offshoring",
+      "text": "Offshoring"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/on-demand-pay",
+      "text": "On-demand pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/onboarding",
+      "text": "Onboarding"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/operating-budget",
+      "text": "Operating budget"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/outside-services-expenses",
+      "text": "Outside services expenses"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/overhead-cost",
+      "text": "Overhead cost"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/overtime",
+      "text": "Overtime"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/paid-holidays",
+      "text": "Paid holidays"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/paid-sick-leave",
+      "text": "Paid sick leave"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/pto",
+      "text": "Paid time off (PTO)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/partial-pay",
+      "text": "Partial pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/paternity-leave",
+      "text": "Paternity leave"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/salary-benchmarking",
+      "text": "Pay benchmarking"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/salary-pay",
+      "text": "Pay pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/pay-period",
+      "text": "Pay period"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/salary-review",
+      "text": "Pay review"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/pay-stub",
+      "text": "Pay stub"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/salary-transparency",
+      "text": "Pay transparency"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/payroll",
+      "text": "Payroll"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/payroll-cycle",
+      "text": "Payroll cycle"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/payroll-deductions",
+      "text": "Payroll deductions"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/payroll-report",
+      "text": "Payroll report"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/payroll-tax",
+      "text": "payroll tax"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/performance-bonus",
+      "text": "Performance bonus"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/performance-improvement",
+      "text": "Performance improvement"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/performance-review",
+      "text": "Performance review"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/piece-rate-pay",
+      "text": "Piece rate pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/post-money-valuation",
+      "text": "Post-money valuation"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/post-tax-deductions",
+      "text": "Post-tax deductions"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/pre-money-valuation",
+      "text": "Pre-money valuation"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/pre-tax-deductions",
+      "text": "Pre-tax deductions"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/probation",
+      "text": "Probation"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/peo",
+      "text": "Professional employer organisation (PEO)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/profit-sharing",
+      "text": "Profit sharing"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/qualifying-life-event",
+      "text": "Qualifying life event"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/recruitment-software",
+      "text": "Recruitment software"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/regular-time",
+      "text": "Regular time"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/remote-workforce",
+      "text": "Remote workforce"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/residence-card",
+      "text": "Residence Card"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/resident-alien",
+      "text": "Resident alien"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/restricted-stock-unit",
+      "text": "Restricted stock unit (RSU)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/resume",
+      "text": "Resume"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/retro-pay",
+      "text": "Retro pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/sample-chart-of-accounts",
+      "text": "Sample chart of accounts"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/secondary-insurance",
+      "text": "Secondary insurance"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/shift-differential",
+      "text": "Shift differential"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/social-security-wages-w2",
+      "text": "Social security wages (W-2)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/straight-time-pay",
+      "text": "Straight time pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/supplemental-pay",
+      "text": "Supplemental pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/take-home-pay",
+      "text": "Take-home pay"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/tangible-rewards",
+      "text": "Tangible rewards"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/tax-amendment",
+      "text": "Tax amendment"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/tax-identification-number",
+      "text": "Tax identification number"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/taxable-wage-base",
+      "text": "Taxable wage base"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/telecommuting",
+      "text": "Telecommuting"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/test-term",
+      "text": "Test term"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/timesheet",
+      "text": "Timesheet"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/title-vii",
+      "text": "Title VII (Civil Rights Act)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/total-remuneration",
+      "text": "Total remuneration"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/unfair-dismissal",
+      "text": "Unfair dismissal"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/upward-mobility",
+      "text": "Upward mobility"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/vesting",
+      "text": "Vesting"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/virtual-employee",
+      "text": "Virtual employee"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/vto-volunteer-time-off",
+      "text": "Volunteer time off (VTO)"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/work-from-home-stipend",
+      "text": "Work from home stipend"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/work-permit",
+      "text": "Work permit"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/workforce-agility",
+      "text": "Workforce agility"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/hr-glossary/zero-hour-contract",
+      "text": "Zero hour contract"
+    },
+    {
+      "href": "https://remote.com/blog/where-us-companies-hiring-globally-march-2026",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/blog/global-hr/lessons-global-company-building",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/blog/global-hr/small-business-expense-tracking",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/blog/global-hr/part-time-vs-full-time",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/blog/global-hr/how-remote-uses-ai-at-work",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/blog/global-hr/conflict-resolution",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/hire-international-employees",
+      "text": "Hire International Employees"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/hire-international-contractors",
+      "text": "Hire International Contractors"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/global-expansion",
+      "text": "Expand Globally"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/onboard-global-teams",
+      "text": "Onboard Global Teams"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/run-payroll",
+      "text": "Run Payroll"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/global-benefits",
+      "text": "Offer Global Benefits"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/offer-stock-options/equity-essentials",
+      "text": "Offer Stock Options"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/us-expansion",
+      "text": "US Expansion Offering"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/remote-relocation",
+      "text": "Remote Relocation"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/international-expansion-consulting",
+      "text": "Expansion Consulting Services"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/small-business",
+      "text": "Global HR for Small Business"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/webinars",
+      "text": "Webinars"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/remote-api/getting-started",
+      "text": "Developer API Docs"
+    },
+    {
+      "href": "https://remote.com/en-au/resources/integrations-for-customers",
+      "text": "Tech Stack Integrations"
+    },
+    {
+      "href": "https://www.notion.so/remotecom/a3439c6ccaac4d5f8c7515c357345c11?v=8bb7f9be662f45da87ef4ab14a42be37",
+      "text": "Remote Handbook"
+    },
+    {
+      "href": "https://remote.com/en-au/why-remote/global-infrastructure",
+      "text": "Global Infrastructure"
+    },
+    {
+      "href": "https://remote.com/en-au/why-remote/security-compliance",
+      "text": "Security and Compliance"
+    },
+    {
+      "href": "https://trust.remote.com/",
+      "text": "Security and Compliance: Trust Portal"
+    },
+    {
+      "href": "https://remote.com/blog/fair-price-guarantee",
+      "text": "Transparent Price Guarantee"
+    },
+    {
+      "href": "https://remote.com/en-au/why-remote/ip-protection",
+      "text": "IP Protection"
+    },
+    {
+      "href": "https://remote.com/en-au/why-remote/customer-experience",
+      "text": "Customer Experience"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/startup-founders",
+      "text": "Startup Founders"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/employees",
+      "text": "Remote for Employees"
+    },
+    {
+      "href": "https://remote.com/en-au/global-hr/freelancer-hub",
+      "text": "Freelancer Hub"
+    },
+    {
+      "href": "https://remote.com/jobs",
+      "text": "For Jobseekers"
+    },
+    {
+      "href": "https://remote.com/en-au/about",
+      "text": "About"
+    },
+    {
+      "href": "https://remote.com/en-au/careers",
+      "text": "Careers"
+    },
+    {
+      "href": "https://remote.com/en-au/events",
+      "text": "Events"
+    },
+    {
+      "href": "https://remote.com/en-au/partners/marketplace",
+      "text": "Marketplace"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us",
+      "text": "Support"
+    },
+    {
+      "href": "https://remote.com/en-au/status",
+      "text": "Remote Status"
+    },
+    {
+      "href": "https://remote.com/en-au/contact-us",
+      "text": "Contact Us"
+    },
+    {
+      "href": "https://remote.com/en-au/accessibility-statement",
+      "text": "Accessibility Statement"
+    },
+    {
+      "href": "https://remote.com/en-au/partners/affiliates",
+      "text": "Affiliates"
+    },
+    {
+      "href": "https://remote.com/en-au/partners/vc-partners",
+      "text": "VC Partners"
+    },
+    {
+      "href": "https://remote.com/en-au/partners/hr-consultants",
+      "text": "HR Consultant Partners"
+    },
+    {
+      "href": "https://remote.com/en-au/partners/financial-advisors",
+      "text": "Financial Advisor Partners"
+    },
+    {
+      "href": "https://remote.com/en-au/partners/law-firms",
+      "text": "Law Firm Partners"
+    },
+    {
+      "href": "https://remote.com/en-au/partners/perks-marketplace",
+      "text": "Partner Perks Marketplace"
+    },
+    {
+      "href": "https://remote.com/recruiters",
+      "text": "Remote Recruiter Network"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/en-au/privacy-policy",
+      "text": "Privacy Policy"
+    },
+    {
+      "href": "https://remote.com/en-au/cookie-policy",
+      "text": "Cookie Policy"
+    },
+    {
+      "href": "https://remote.com/en-au/terms-of-use",
+      "text": "Terms of Use"
+    },
+    {
+      "href": "https://remote.com/en-au/disclaimer",
+      "text": "Disclaimer"
+    },
+    {
+      "href": "https://remote.com/en-au/policy/imprint",
+      "text": "Imprint"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:10:34.203Z"
+}

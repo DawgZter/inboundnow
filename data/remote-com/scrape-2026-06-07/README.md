@@ -1,7 +1,5 @@
 # remote.com scrape
 
-Repo import note: this checked-in folder keeps the indexable scrape corpus, manifests, and logs. Raw per-page fetch payloads (`*.direct.json`, `*.firecrawl.json`) and Firecrawl job records are omitted from git because Moss indexing only needs markdown text plus metadata. See `data/remote-com/README.md`.
-
 Updated: 2026-06-07T09:19:45.903Z
 
 Stopped at user request. This folder contains the partial remote.com scrape completed so far.

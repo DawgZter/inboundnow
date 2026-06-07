@@ -1,0 +1,511 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/de-at/country-explorer/nigeria/benefits-leitfaden",
+  "requestedURL": "https://remote.com/de-at/country-explorer/nigeria/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-at/country-explorer/nigeria/benefits-leitfaden",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270704,
+  "title": "Sozialleistungen in Nigeria | Sozialleistungspläne",
+  "description": "Entdecke die wichtigsten Sozialleistungen in Nigeria. Erfahre mehr über Krankenversicherung, bezahlten Urlaub und weitere Zusatzleistungen, um erstklassige Mitarbeiter:innen anzuziehen und zu halten.",
+  "links": [
+    {
+      "href": "https://remote.com/de-at",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/de-at/country-explorer/nigeria/benefits-leitfaden",
+      "text": "Demo vereinbaren"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/globale-gehaltsabrechnung",
+      "text": "Globale Payroll Einfache, rechtssicher Payroll"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/employer-of-record",
+      "text": "Employer of Record Weltweites Wachstum ohne Kosten für Niederlassungen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/contractor-of-record",
+      "text": "Contractor of Record Rechtssichere, weltweite Arbeit mit Freelancer:innen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/auftragnehmer-management",
+      "text": "Contractor Management Globales Onboarding und Verwalten von Freelancer:innen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/professional-employer-organization",
+      "text": "PEO Auslagern von komplexen HR-Aufgaben"
+    },
+    {
+      "href": "https://embedded.remote.com/",
+      "text": "Remote Embedded Nahtlose Integration der HR in bestehende Abläufe"
+    },
+    {
+      "href": "https://remote.com/de-at/remote-mcp",
+      "text": "Verknüpfen Neu Verknüpfung beliebiger KI-Tools mit Remote über unser MCP"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/integrationen-fuer-kunden",
+      "text": "Integrationen Prozessoptimierung mit unverzichtbaren Business-Tools"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/experten_fragen",
+      "text": "Frag unsere Expert:innen Hilfe von Expert:innen für globale HR & Compliance"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/background-checks",
+      "text": "Background-Checks Einfacheres Bewerber:innen-Screening"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/hr-compliance",
+      "text": "Compliance Watchtower Lückenlose Compliance"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/geraeteverwaltung",
+      "text": "Geräteverwaltung Globale Bereitstellung und Verfolgung von IT-Geräten"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/weltweit-niederlassungen-gruenden",
+      "text": "Gründung von Niederlassungen Schnelle, rechtssichere Gründung von Niederlassungen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/globale-mobilitaet",
+      "text": "Mobilität und Relocation Mühelose Relocation von Mitarbeiter:innen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/globale-benefits",
+      "text": "Benefits Mühelose Verwaltung von Benefits"
+    },
+    {
+      "href": "https://remote.com/de-at/country-explorer",
+      "text": "Country Explorer Länderspezifische Unterstützung bei der Einstellung"
+    },
+    {
+      "href": "https://remote.com/us-state-explorer",
+      "text": "Explorer für US-Bundesstaaten Einfache Einstellung in allen US-Bundesstaaten"
+    },
+    {
+      "href": "https://remote.com/de-at/warum-remote",
+      "text": "Remote im Vergleich Vergleiche mit unseren Mitbewerbern"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/startups",
+      "text": "Startups Agile HR- und Payroll-Lösungen für wachsende Unternehmen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/mittelstand",
+      "text": "Mittelstand Maßgeschneiderte HR-Lösungen, um Teams zu vergrößern"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/grossunternehmen",
+      "text": "Enterprise Globale HR für Konzerne und Großunternehmen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/remote-api",
+      "text": "Strategische Technologiepartner Flexible Einbettung von Global-HR-Funktionen in deine Plattform"
+    },
+    {
+      "href": "https://remote.com/de-at/partner",
+      "text": "Partner werden Entdecke die Möglichkeiten einer Partnerschaft"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/erfolgsgeschichten/remote-weaviate",
+      "text": "So hat der KI-Vorreiter Weaviate sein Team mit Remote um 120 % vergrößert"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/erfolgsgeschichten/remote-reverse-tech",
+      "text": "Strategische Partnerschaft zwischen Reverse Tech und Remote für Contractor Management und Payroll"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/risikoeinschaetzung-scheinselbststaendigkeit",
+      "text": "Scheinselbstständigkeitsrisiko berechnen Länderspezifische Einschätzung des Scheinselbstständigkeitsrisikos"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/personalkostenrechner",
+      "text": "Personalkostenrechner Länderspezifische Berechnung der Gesamtbeschäftigungskosten"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/honorarrechner-freelancer-innen",
+      "text": "Honorarzahlungen berechnen Informationen zu möglichen Währungen und Abwicklungsfristen für globale Freelancer:innen"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/forschung",
+      "text": "Forschung und Leitfäden"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/erfolgsgeschichten",
+      "text": "Fallstudien"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/hr-glossar",
+      "text": "HR-Glossar"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/checklisten-vorlagen",
+      "text": "Checklisten und Vorlagen"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/stellenbeschreibungen",
+      "text": "Bibliothek für Stellenbeschreibungen"
+    },
+    {
+      "href": "https://remote.com/resources/webinars",
+      "text": "Webinare"
+    },
+    {
+      "href": "https://remote.com/events",
+      "text": "Events"
+    },
+    {
+      "href": "https://remote.com/de-de/news",
+      "text": "Newsroom"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us/sections/34243549052685-Talent-Insights",
+      "text": "Informationen zu Gehältern und Qualifikationen"
+    },
+    {
+      "href": "https://remote.com/de-de/ressourcen/insights-center",
+      "text": "Insights Center"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us",
+      "text": "Hol dir Unterstützung"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen",
+      "text": "Alle Ressourcen anzeigen"
+    },
+    {
+      "href": "https://remote.com/de-de/blog/tag/payroll",
+      "text": "Globale Payroll"
+    },
+    {
+      "href": "https://remote.com/de-de/blog/tag/eor-peo",
+      "text": "EOR und PEO"
+    },
+    {
+      "href": "https://remote.com/de-de/blog/tag/contractor-management",
+      "text": "Contractor Management"
+    },
+    {
+      "href": "https://remote.com/de-de/blog/tag/compliance",
+      "text": "Compliance"
+    },
+    {
+      "href": "https://remote.com/de-de/blog/tag/steuern",
+      "text": "Steuern"
+    },
+    {
+      "href": "https://remote.com/de-de/blog/tag/relocation",
+      "text": "Einreise- und Arbeitserlaubnis"
+    },
+    {
+      "href": "https://remote.com/blog/changelog",
+      "text": "Changelog"
+    },
+    {
+      "href": "https://remote.com/de-de/blog",
+      "text": "Den Blog erkunden"
+    },
+    {
+      "href": "https://remote.com/de-de/blog/blog/eor-peo/eigene-infrastruktur-rechtskonformer-eor",
+      "text": "Die eigene Beschäftigungsinfrastruktur: Grundvoraussetzung für einen rechtskonformen EOR-Service"
+    },
+    {
+      "href": "https://remote.com/de-de/blog/blog/globale-hr/organisationsstrukturen",
+      "text": "Vier Arten der Organisationsstruktur: Welche ist die richtige für dein Unternehmen?"
+    },
+    {
+      "href": "https://remote.com/de-at/preise",
+      "text": "Preise"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "Anmelden"
+    },
+    {
+      "href": "https://remote.com/country-explorer/nigeria/benefits-guide",
+      "text": "English"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/nigeria/overzicht-secundaire-arbeidsvoorwaarden",
+      "text": "Nederlands"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays/nigeria/guide-avantages",
+      "text": "Français"
+    },
+    {
+      "href": "https://remote.com/de-de/country-explorer/nigeria/benefits-leitfaden",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://remote.com/es-es/explorador-paises/nigeria/guia-prestaciones",
+      "text": "Español"
+    },
+    {
+      "href": "https://remote.com/it-it/esplora-paese/nigeria/guida-benefit",
+      "text": "Italiano"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/nigeria/guia-beneficios",
+      "text": "Português (Portugal)"
+    },
+    {
+      "href": "https://remote.com/ja-jp/country-explorer/nigeria/benefits-guide",
+      "text": "日本語"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer/nigeria/benefits-guide",
+      "text": "한국어"
+    },
+    {
+      "href": "https://remote.com/zh-cn/country-explorer/nigeria/benefits-guide",
+      "text": "中文（简体）"
+    },
+    {
+      "href": "https://remote.com/de-de/country-explorer",
+      "text": "Country Explorer"
+    },
+    {
+      "href": "https://remote.com/de-at/country-explorer/nigeria/payroll",
+      "text": "Payroll"
+    },
+    {
+      "href": "https://remote.com/de-at/country-explorer/nigeria/contractor-management",
+      "text": "Contractor Management"
+    },
+    {
+      "href": "https://remote.com/de-at/country-explorer/nigeria/employer-of-record",
+      "text": "Employer of Record"
+    },
+    {
+      "href": "https://remote.com/de-at/country-explorer/nigeria",
+      "text": "Erweitere dein Team"
+    },
+    {
+      "href": "https://remote.com/de-at/country-explorer/nigeria/steuern",
+      "text": "Steuern"
+    },
+    {
+      "href": "https://remote.com/de-at/country-explorer/nigeria/freistellungsarten",
+      "text": "Freistellungsarten"
+    },
+    {
+      "href": "https://remote.com/de-at/country-explorer/nigeria/beendigung-arbeitsverhaltnisses",
+      "text": "Beendigung des Arbeitsverhältnisses"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/internationale-mitarbeiter-innen-einstellen",
+      "text": "Internationale Mitarbeiter:innen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/internationale-auftragnehmer-innen-beauftragen",
+      "text": "Internationale Auftragnehmer:innen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/globale-expansion",
+      "text": "Globale Expansion"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/globale-teams-onboarden",
+      "text": "Globale Teams onboarden"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/gehaltsabrechnungen",
+      "text": "Gehaltsabrechnungen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/aktienoptionen-anbieten/equity-essentials",
+      "text": "Aktienoptionen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr",
+      "text": "Globale HR"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/remote-relocation",
+      "text": "Remote Relocation"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/consulting-internationale-expansion",
+      "text": "Consulting Services für Expansionen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/kmu",
+      "text": "Globale HR für KMU"
+    },
+    {
+      "href": "https://remote.com/blog/de-de",
+      "text": "Unser Blog"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/webinare",
+      "text": "Webinare"
+    },
+    {
+      "href": "https://remote.com/resources/api/getting-started",
+      "text": "API-Dokumentation für Entwickler"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/remote-im-vergleich",
+      "text": "Remote im Vergleich"
+    },
+    {
+      "href": "https://remote.com/de-at/ressourcen/integrationen-fuer-kunden",
+      "text": "Tech-Stack-Integrationen"
+    },
+    {
+      "href": "https://www.notion.so/remotecom/a3439c6ccaac4d5f8c7515c357345c11?v=8bb7f9be662f45da87ef4ab14a42be37",
+      "text": "Remote Handbook"
+    },
+    {
+      "href": "https://remote.com/de-at/warum-remote/globale-infrastruktur",
+      "text": "Globale Infrastruktur"
+    },
+    {
+      "href": "https://remote.com/de-at/warum-remote/datensicherheit-compliance",
+      "text": "Sicherheit und Compliance"
+    },
+    {
+      "href": "https://trust.remote.com/?_gl=1*1hg7gtd*_ga*MjQ5ODA0MzEzNC4xOTYyMTIwNjMz*_ga_HDWRDTEGHY*MTczOTk3OTY1OS41LjEuMTczOTk4MTEzMy4xNC4wLjE5MTk2Mjc4NDY.*_gcl_au*OTM1MTM5OTU2LjE3Mzk3OTc3NTA.",
+      "text": "Sicherheit und Compliance: Trust Portal"
+    },
+    {
+      "href": "https://remote.com/blog/fair-price-guarantee",
+      "text": "Fair-Preis-Garantie"
+    },
+    {
+      "href": "https://remote.com/de-at/warum-remote/schutz-geistiges-eigentum",
+      "text": "Geistiges Eigentum"
+    },
+    {
+      "href": "https://remote.com/de-at/warum-remote/kundenerfahrung",
+      "text": "Kundenerfahrung"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/startup-founders",
+      "text": "Startup-Gründer:innen"
+    },
+    {
+      "href": "https://remote.com/platform/use-case/employees",
+      "text": "Remote für Mitarbeiter:innen"
+    },
+    {
+      "href": "https://remote.com/de-at/globale-hr/freelancer-hub",
+      "text": "Freelancer Hub"
+    },
+    {
+      "href": "https://remote.com/jobs",
+      "text": "Für Jobsuchende"
+    },
+    {
+      "href": "https://remote.com/de-at/ueber-uns",
+      "text": "Über uns"
+    },
+    {
+      "href": "https://remote.com/de-at/karriere",
+      "text": "Karriere"
+    },
+    {
+      "href": "https://remote.com/news/de-de",
+      "text": "Newsroom"
+    },
+    {
+      "href": "https://remote.com/de-at/partner/marketplace",
+      "text": "Marketplace"
+    },
+    {
+      "href": "https://support.remote.com/hc/en-us?_gl=1*g5t8n4*_ga*MjQ5ODA0MzEzNC4xOTYyMTIwNjMz*_ga_HDWRDTEGHY*MTczOTk3OTY1OS41LjEuMTczOTk4MTM2Ni44LjAuMTkxOTYyNzg0Ng..*_gcl_au*OTM1MTM5OTU2LjE3Mzk3OTc3NTA.",
+      "text": "Support"
+    },
+    {
+      "href": "https://remote.com/status",
+      "text": "Aktueller Status"
+    },
+    {
+      "href": "https://remote.com/de-at/kontakt",
+      "text": "Kontakt"
+    },
+    {
+      "href": "https://remote.com/de-at/barrierefreiheit-bei-remote",
+      "text": "Barrierefreiheit bei Remote"
+    },
+    {
+      "href": "https://remote.com/de-at/partner/affiliates",
+      "text": "Affiliates"
+    },
+    {
+      "href": "https://remote.com/de-at/partner/risikokapitalpartner",
+      "text": "Risikokapitalpartner"
+    },
+    {
+      "href": "https://remote.com/de-at/partner/hr-berater",
+      "text": "Personalberatungen"
+    },
+    {
+      "href": "https://remote.com/de-at/partner/finanzberater",
+      "text": "Finanzberatungen"
+    },
+    {
+      "href": "https://remote.com/de-at/partner/rechtsdienstleister",
+      "text": "Anwaltskanzleien"
+    },
+    {
+      "href": "https://remote.com/de-at/partner/vorteile-marketplace",
+      "text": "Marketplace für Partnervorteile"
+    },
+    {
+      "href": "https://remote.com/recruiters",
+      "text": "Remote Recruiter Network"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/de-at/datenschutzrichtlinie",
+      "text": "Datenschutzerklärung"
+    },
+    {
+      "href": "https://remote.com/de-at/cookie-richtlinie",
+      "text": "Cookie-Richtlinie"
+    },
+    {
+      "href": "https://remote.com/de-at/agb",
+      "text": "Geschäftsbedingungen"
+    },
+    {
+      "href": "https://remote.com/de-at/haftungsausschluss",
+      "text": "Haftungsausschluss"
+    },
+    {
+      "href": "https://remote.com/de-at/richtlinie/impressum",
+      "text": "Impressum"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:01:22.360Z"
+}

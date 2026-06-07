@@ -1,0 +1,195 @@
+{
+  "scrapeMethod": "direct-fetch",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/suecia/impostos",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/suecia/impostos",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/suecia/impostos",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153092,
+  "title": "Gere o processamento salarial na Suécia | Conformidade fiscal",
+  "description": "Gere os impostos do processamento salarial na Suécia de forma eficaz e em conformidade. Minimiza erros no processamento salarial, cumpre a legislação local e evita coimas elevadas.",
+  "links": [
+    {
+      "href": "https://remote.com/pt-pt",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/suecia/impostos",
+      "text": "Agendar demonstração"
+    },
+    {
+      "href": "https://remote.com/pt-pt/rh-globais/processamento-salarial-global",
+      "text": "Processamento Salarial Processamento salarial fácil e em conformidade"
+    },
+    {
+      "href": "https://remote.com/pt-pt/rh-globais/employer-of-record",
+      "text": "Employer of Record Expanda globalmente sem custos de constituição de entidades"
+    },
+    {
+      "href": "https://remote.com/pt-pt/rh-globais/contractor-management",
+      "text": "Contractor Management Integra e gere trabalhadores independentes globalmente"
+    },
+    {
+      "href": "https://remote.com/pt-pt/rh-globais/perguntar-a-um-especialista",
+      "text": "Perguntar a um especialista Obtenha apoio especializado em RH e conformidade globais"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais",
+      "text": "Explorador de países Encontra apoio para emprego global por país"
+    },
+    {
+      "href": "https://remote.com/pt-pt/porque-a-remote",
+      "text": "Comparar a Remote Veja como nos comparamos com os outros"
+    },
+    {
+      "href": "https://remote.com/pt-pt/rh-globais/api-remote",
+      "text": "Parceiros tecnológicos estratégicos Integre os RH globais na sua plataforma de forma flexível"
+    },
+    {
+      "href": "https://remote.com/resources/case-studies/theydo-cultivating-a-thriving-remote-first-culture-in-partnership-with-remote",
+      "text": "Cultivating a Thriving Remote-First Culture in Partnership with Remote"
+    },
+    {
+      "href": "https://remote.com/resources/case-studies/remote-reverse-tech",
+      "text": "Reverse Tech's strategic partnership with Remote for contractor management and payroll"
+    },
+    {
+      "href": "https://remote.com/pt-pt/precos",
+      "text": "Preçário"
+    },
+    {
+      "href": "https://employ.remote.com/sign-in",
+      "text": "Início de sessão"
+    },
+    {
+      "href": "https://remote.com/country-explorer/sweden/taxes",
+      "text": "English"
+    },
+    {
+      "href": "https://remote.com/nl-nl/landenverkenner/zweden/belastingen",
+      "text": "Nederlands"
+    },
+    {
+      "href": "https://remote.com/fr-fr/explorateur-de-pays/suede/taxes",
+      "text": "Français"
+    },
+    {
+      "href": "https://remote.com/de-de/country-explorer/schweden/steuern",
+      "text": "Deutsch"
+    },
+    {
+      "href": "https://remote.com/es-es/explorador-paises/suecia/impuestos",
+      "text": "Español"
+    },
+    {
+      "href": "https://remote.com/it-it/esplora-paese/svezia/tasse",
+      "text": "Italiano"
+    },
+    {
+      "href": "https://remote.com/ja-jp/country-explorer/sweden/taxes",
+      "text": "日本語"
+    },
+    {
+      "href": "https://remote.com/ko-kr/country-explorer/sweden/taxes",
+      "text": "한국어"
+    },
+    {
+      "href": "https://remote.com/zh-cn/country-explorer/sweden/taxes",
+      "text": "中文（简体）"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/suecia/processamento-salarial",
+      "text": "Processamento salarial"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/suecia/contractor-management",
+      "text": "Contractor Management"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/suecia/employer-of-record",
+      "text": "Employer of Record"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/suecia/equity",
+      "text": "Equity"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/suecia",
+      "text": "Aumente sua equipe"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/suecia/tipos-licenca",
+      "text": "Tipos de licença"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/suecia/rescisao-contrato",
+      "text": "Rescisão de contrato"
+    },
+    {
+      "href": "https://remote.com/pt-pt/explorar-pais/suecia/guia-beneficios",
+      "text": "Visão geral"
+    },
+    {
+      "href": "https://remote.com/pt-pt/rh-globais/contratar-trabalhadores-internacionais",
+      "text": "Contrata trabalhadores internacionais"
+    },
+    {
+      "href": "https://remote.com/pt-pt/sobre",
+      "text": "Sobre"
+    },
+    {
+      "href": "https://remote.com/pt-pt/carreiras",
+      "text": "Carreiras"
+    },
+    {
+      "href": "https://remote.com/pt-pt/contacta-nos",
+      "text": "Contacte-nos"
+    },
+    {
+      "href": "https://apps.apple.com/app/apple-store/id1613496903?pt=122685638&ct=Remote.com&mt=8",
+      "text": ""
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.remote.employ&referrer=utm_source%3DRemote.com%26utm_medium%3Dbanner",
+      "text": ""
+    },
+    {
+      "href": "https://remote.com/policy/privacy-policy",
+      "text": "Política de privacidade"
+    },
+    {
+      "href": "https://remote.com/policy/cookie-policy",
+      "text": "Política de cookies"
+    },
+    {
+      "href": "https://remote.com/policy/terms-of-use",
+      "text": "Termos de Utilização"
+    },
+    {
+      "href": "https://remote.com/policy/disclaimer",
+      "text": "Renúncia de responsabilidade"
+    },
+    {
+      "href": "https://remote.com/imprint",
+      "text": "Impressão"
+    },
+    {
+      "href": "https://www.youtube.com/channel/UCPJsrP8zyttajAybEMQBNgA",
+      "text": ""
+    },
+    {
+      "href": "https://www.linkedin.com/company/remote.com",
+      "text": ""
+    },
+    {
+      "href": "https://twitter.com/remote",
+      "text": ""
+    },
+    {
+      "href": "https://www.instagram.com/remote/",
+      "text": ""
+    }
+  ],
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:00:59.776Z"
+}
