@@ -34,7 +34,7 @@ Use Stagehand as semantic resolver, not the visible UI:
 - LiveKit must be self-hosted/local-first, not LiveKit Cloud.
 - ASR: `nvidia/parakeet-tdt-0.6b-v3`, English-only.
 - LLM: local/open-weight Qwen-class model through vLLM/SGLang/OpenAI-compatible API.
-- TTS: VibeVoice-style local/realtime TTS if feasible.
+- TTS: VibeVoice-style local/realtime TTS if feasible; browser fallback speech must stream in chunks rather than waiting for the whole action flow.
 - Real local-model proof requires an H100-class GPU; the recommended cloud path is Vast.ai with the PyTorch CUDA/cuDNN template. See docs/vast-h100-runbook.md.
 - Moss must use local runtime after initial index generation.
 - Moss runtime must not use `autoRefresh`, SDK cloud polling, `pushIndex()`, session doc upload, or session embeddings upload.
@@ -212,6 +212,7 @@ Current proof level:
 - The WebSocket bridge remains as an honest fallback when LiveKit is unavailable.
 - Mic publication is requested from the browser `Connect local transport` action, but ASR is still not attached to the audio track.
 - ASR, LLM, and TTS have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model proof.
+- Agent answers now emit `agent.speech.start/chunk/end` before page actions, and the browser queues chunks through `speechSynthesis` for lower perceived latency. This is streamed browser fallback speech, not VibeVoice model proof.
 - Local artifact retrieval is available through the Moss adapter boundary with `npm run smoke:moss:local`; this is local JSON artifact proof, not hosted Moss or Moss SDK proof.
 - Cal.com is not loaded until the user confirms the booking prompt.
 
@@ -225,6 +226,7 @@ Useful local adapter checks:
 npm run smoke:adapters
 npm run smoke:planner
 npm run smoke:moss:local
+npm run smoke:tts:local
 npm run smoke:local
 npm run smoke:livekit
 npm run dev:qwen-stub
@@ -232,3 +234,5 @@ npm run dev:moss-runtime
 ```
 
 `AGENT_PLANNER=local-llm` opts the worker into the local Qwen/OpenAI-compatible JSON planner. The default remains the deterministic router, and malformed LLM output or invalid actions fall back before any LLM answer is sent.
+
+`TTS_PROVIDER=local-vibevoice` opts the agent into a localhost-only VibeVoice-compatible adapter boundary. Latency knobs include `TTS_TEXT_CHUNK_CHARS`, `TTS_PREWARM_TEXT`, `TTS_CACHE_DIR`, `TTS_DTYPE`, and `TTS_QUANTIZATION`. Supported quantization policies are intentionally fair to audio quality: `none`, `llm-int8`, and `llm-int4`, where quantization targets only the LLM trunk and preserves audio decoder precision. Use `npm run smoke:tts:h100` on the Vast.ai H100 lane before claiming real local VibeVoice audio.

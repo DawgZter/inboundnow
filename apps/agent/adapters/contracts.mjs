@@ -68,6 +68,32 @@ export function assertLocalHttpUrl(rawUrl, name = "url") {
   return parsed;
 }
 
+export function assertLocalWebSocketUrl(rawUrl, name = "url") {
+  let parsed;
+  try {
+    parsed = new URL(rawUrl);
+  } catch {
+    throw new Error(`${name} must be a valid URL`);
+  }
+
+  if (!["ws:", "wss:"].includes(parsed.protocol)) {
+    throw new Error(`${name} must use ws or wss`);
+  }
+
+  const host = parsed.hostname.toLowerCase();
+  const isLocal =
+    host === "localhost" ||
+    host === "127.0.0.1" ||
+    host === "::1" ||
+    host.endsWith(".localhost");
+
+  if (!isLocal) {
+    throw new Error(`${name} must point at localhost for local-first adapter mode`);
+  }
+
+  return parsed;
+}
+
 export function createUnavailableAdapter(kind, provider, message) {
   return {
     kind,
@@ -84,4 +110,3 @@ export function createUnavailableAdapter(kind, provider, message) {
     },
   };
 }
-

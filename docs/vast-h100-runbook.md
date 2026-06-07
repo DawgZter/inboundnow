@@ -60,7 +60,8 @@ Copy the direct SSH command from the Vast instance card and add port forwards:
       -L 4301:127.0.0.1:4301 \
       -L 7880:127.0.0.1:7880 \
       -L 4311:127.0.0.1:4311 \
-      -L 4321:127.0.0.1:4321
+      -L 4321:127.0.0.1:4321 \
+      -L 4331:127.0.0.1:4331
 
 In another local terminal, sync this repo to the instance:
 
@@ -103,18 +104,42 @@ Smoke it from another instance shell:
 
 Passing this smoke proves the H100-hosted OpenAI-compatible Qwen endpoint is responding locally. It does not by itself prove the browser agent is using Qwen for planning until the worker is run with AGENT_PLANNER=local-llm and the browser/agent flow captures planner metadata.
 
+## Start VibeVoice-Realtime On The H100
+
+Run this in a separate tmux window on the instance:
+
+    cd /workspace/inboundnow
+    ENABLE_TTS_RUNTIME=1 TTS_MODEL=microsoft/VibeVoice-Realtime-0.5B TTS_QUANTIZATION=llm-int8 npm run dev:tts:realtime
+
+The VibeVoice-Realtime target is the `microsoft/VibeVoice-Realtime-0.5B` streaming-input model. The script installs the official Microsoft VibeVoice repo with the `streamingtts` extra and launches the realtime demo on port `4331` by default.
+
+Latency and quality knobs:
+
+- `TTS_DTYPE=bfloat16` is the H100 default.
+- `TTS_QUANTIZATION=llm-int8` quantizes only the LLM trunk in the InboundNow policy; use `none` for a quality baseline or `llm-int4` only after listening tests.
+- `TTS_CACHE_DIR=artifacts/cache/tts` is the local cache location.
+- `TTS_TEXT_CHUNK_CHARS=140` controls answer chunking before browser playback.
+- `TTS_PREWARM_TEXT` controls warmup text for the compatible endpoint.
+
+Smoke the endpoint from another instance shell:
+
+    npm run smoke:tts:h100
+
+Passing this smoke proves only that a localhost VibeVoice-compatible endpoint streamed audio chunks and reported cold/warm latency/cache metadata. Full browser TTS proof still requires the LiveKit browser run with `TTS_PROVIDER=local-vibevoice` and captured proof metadata.
+
 ## Start The Local InboundNow Stack
 
-Run on the instance after Qwen is serving:
+Run on the instance after Qwen is serving. Add `ENABLE_TTS_RUNTIME=1` when you also want the VibeVoice tmux pane:
 
-    bash scripts/vast-h100/start-dev-stack.sh
+    ENABLE_TTS_RUNTIME=1 bash scripts/vast-h100/start-dev-stack.sh
 
 The script starts a tmux session with:
 
 - livekit-server --dev
 - bridge-disabled token server
 - local Moss artifact runtime after `npm run moss:index`
-- LiveKit-mode agent worker configured for AGENT_PLANNER=local-llm, local Qwen, and local Moss URLs
+- optional VibeVoice-Realtime tmux pane when `ENABLE_TTS_RUNTIME=1`
+- LiveKit-mode agent worker configured for AGENT_PLANNER=local-llm, local Qwen, local Moss URLs, and `TTS_PROVIDER=local-vibevoice` only when the TTS pane is enabled
 - Remote website lab on port 4199
 
 From your laptop, with the SSH tunnel open, visit:
@@ -130,9 +155,11 @@ On the instance:
     npm run check
     npm run smoke:planner
     npm run smoke:moss:local
+    npm run smoke:tts:local
     npm run smoke:livekit
     mkdir -p artifacts/smoke
     node scripts/vast-h100/smoke-qwen-endpoint.mjs | tee artifacts/smoke/qwen-h100.json
+    npm run smoke:tts:h100
 
 Browser proof to capture manually:
 
@@ -140,6 +167,7 @@ Browser proof to capture manually:
 - mic chip is either published - no ASR yet or honestly blocked.
 - transcript appends prospect and agent turns.
 - proof line includes local adapter labels.
+- proof line includes streamed speech fallback or local-vibevoice adapter labels without claiming VibeVoice unless `smoke:tts:h100` passed.
 - booking prompt appears.
 - Cal iframe src remains empty before confirmation and is set only after Yes, open Cal.
 
@@ -151,11 +179,12 @@ Verified by this runbook today:
 - Local self-hosted LiveKit control path.
 - Local Qwen OpenAI-compatible endpoint via vLLM when smoke-qwen-endpoint.mjs passes.
 - Local Moss artifact runtime wiring through the local-runtime-client boundary.
+- Streamed browser speech fallback and local VibeVoice adapter contract.
 
 Not yet proven by this runbook:
 
 - Parakeet ASR from real browser audio frames.
-- VibeVoice local audio synthesis.
+- VibeVoice local audio synthesis in the browser, until `smoke:tts:h100` and a LiveKit browser run with `TTS_PROVIDER=local-vibevoice` are captured.
 - Browser proof that the H100 Qwen planner, not only the deterministic fallback, produced the accepted plan.
 - Hosted or cloud Moss runtime behavior, which remains forbidden for runtime proof.
 
@@ -174,3 +203,5 @@ Destroying is irreversible and deletes the instance data. Copy artifacts first i
 - Vast.ai create instance reference: https://docs.vast.ai/cli/reference/create-instance
 - Vast.ai SSH and port forwarding guide: https://docs.vast.ai/guides/instances/connect/ssh
 - LiveKit local self-hosting guide: https://docs.livekit.io/transport/self-hosting/local/
+- Microsoft VibeVoice repository: https://github.com/microsoft/VibeVoice
+- VibeVoice-Realtime model card: https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B

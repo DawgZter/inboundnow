@@ -88,7 +88,7 @@ function waitForBridgeMessages() {
     const seen = [];
     const timer = setTimeout(() => {
       ws.close();
-      reject(new Error("Timed out waiting for agent answer/action"));
+      reject(new Error("Timed out waiting for agent answer/speech/action"));
     }, 8000);
 
     function sendQuestion() {
@@ -124,11 +124,25 @@ function waitForBridgeMessages() {
         return;
       }
       const answer = seen.find((item) => item.type === "agent.answer");
+      const speechStart = seen.find((item) => item.type === "agent.speech.start");
+      const speechChunk = seen.find((item) => item.type === "agent.speech.chunk");
+      const speechEnd = seen.find((item) => item.type === "agent.speech.end");
       const action = seen.find((item) => item.type === "agent.action");
-      if (answer && action) {
+      if (answer && speechStart && speechChunk && speechEnd && action) {
+        const answerIndex = seen.indexOf(answer);
+        const speechStartIndex = seen.indexOf(speechStart);
+        const speechChunkIndex = seen.indexOf(speechChunk);
+        const speechEndIndex = seen.indexOf(speechEnd);
+        const actionIndex = seen.indexOf(action);
+        if (!(answerIndex < speechStartIndex && speechStartIndex < speechChunkIndex && speechChunkIndex < speechEndIndex && speechEndIndex < actionIndex)) {
+          clearTimeout(timer);
+          ws.close();
+          reject(new Error("Expected answer -> speech stream -> action ordering"));
+          return;
+        }
         clearTimeout(timer);
         ws.close();
-        resolve({ answer, action, seenCount: seen.length });
+        resolve({ answer, action, speechStart, speechChunk, speechEnd, seenCount: seen.length });
       }
     });
 
@@ -188,10 +202,14 @@ try {
       tokenCanPublishData: true,
       liveKitAsset: true,
       bridgeAgentLoop: true,
+      streamedSpeechEvents: true,
     },
     bridge: {
       answerIntent: bridge.answer.intent,
       actionType: bridge.action.action.type,
+      speechProvider: bridge.speechStart.provider,
+      speechChunkCount: bridge.speechEnd.chunkCount,
+      firstSpeechChunk: bridge.speechChunk.text,
       adapterLabels: bridge.answer.adapters,
       retrievalCount: bridge.answer.retrieval?.count || 0,
     },

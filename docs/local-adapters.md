@@ -8,7 +8,7 @@ This document is the proof boundary for the local voice-agent harness.
 - Agent transport for the MVP: local LiveKit data channels are verified for control messages; the WebSocket bridge remains a simulated local fallback.
 - Prospect question input: browser text input or simulated transcript button. Browser mic publication is configured, but ASR is not attached yet.
 - Agent reasoning: deterministic local keyword router.
-- Speech output: browser `speechSynthesis` fallback when available.
+- Speech output: streamed browser `speechSynthesis` fallback chunks when available.
 - Adapter plumbing: dependency-free local stubs and status reporting under
   `apps/agent/adapters`.
 - Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`; local artifact retrieval is exercised by `npm run smoke:moss:local`.
@@ -50,14 +50,31 @@ The worker only uses the local LLM planner when `AGENT_PLANNER=local-llm` and `L
 
 ## VibeVoice-Style TTS Adapter
 
+Target model: `microsoft/VibeVoice-Realtime-0.5B`, because the official VibeVoice docs describe it as the realtime streaming-input TTS variant. It is still a proof target, not current model proof.
+
 Responsibilities:
 
 - Turn agent answer text into local audio.
-- Stream or play audio through the local browser/LiveKit session.
-- Report latency and fallback state.
+- Stream audio through a localhost-only VibeVoice-compatible endpoint.
+- Stream browser fallback speech in short text chunks when model audio is unavailable.
+- Prewarm the runtime before the first real answer.
+- Use stable cache keys that include text, model, voice, and quantization policy.
+- Report latency, cache-hit, dtype, quantization, and fallback state.
+
+Latency controls:
+
+- `TTS_TEXT_CHUNK_CHARS` / `VIBEVOICE_TEXT_CHUNK_CHARS`: max text chunk size for streaming speech events.
+- `TTS_PREWARM_TEXT`: warmup text for the local endpoint.
+- `TTS_CACHE_DIR`: local artifact cache for prompt/audio reuse.
+- `TTS_DTYPE`: model dtype hint; default `bfloat16` for the H100 lane.
+- `TTS_QUANTIZATION`: `none`, `llm-int8`, or `llm-int4`. The quantization policies intentionally target only the LLM trunk and preserve audio decoder precision to avoid unfair whole-model quantization quality loss.
+
+Current verified behavior: the worker emits `agent.speech.start`, `agent.speech.chunk`, and `agent.speech.end` before actions, and the browser queues those chunks through `speechSynthesis`. This improves perceived latency but remains browser fallback speech.
 
 `vibevoice-stub` and browser `speechSynthesis` are only demo fallbacks and
 must not be described as VibeVoice proof.
+
+`local-vibevoice` is configured only when `TTS_PROVIDER=local-vibevoice`; `TTS_BASE_URL` must point at localhost. `npm run smoke:tts:local` proves the streaming adapter contract against a fake local endpoint only. `npm run smoke:tts:h100` must pass against a real H100-local VibeVoice-compatible endpoint before changing this to model proof.
 
 ## Moss Runtime Adapter
 

@@ -24,7 +24,9 @@ Status values:
 | Parakeet ASR | not_proven | `apps/agent/adapters/asr/parakeet-stub.mjs` | Stub only; no audio frames transcribed by `nvidia/parakeet-tdt-0.6b-v3`. |
 | Qwen local LLM | not_proven | `qwen-stub`, `qwen-openai-local` adapter | Local OpenAI-compatible endpoint support exists; real vLLM/SGLang completion not captured. |
 | LLM planner JSON validation | verified | `test/llm-planner.test.mjs`, `npm run smoke:planner` | Proves strict JSON/action validation and deterministic fallback against a local stub, not real Qwen reasoning. |
-| VibeVoice-style TTS | not_proven | `vibevoice-stub`, browser speech fallback | Browser `speechSynthesis` is fallback only. |
+| Browser streamed speech fallback | verified | `npm run smoke:local`, `npm run smoke:livekit` | Worker emits `agent.speech.start/chunk/end`; browser queues chunks through `speechSynthesis`. This is streamed fallback speech, not VibeVoice model proof. |
+| Local VibeVoice TTS adapter contract | configured | `npm run smoke:tts:local`, `apps/agent/adapters/tts/local-vibevoice.mjs` | Localhost-only VibeVoice-compatible endpoint boundary with prewarm, cache key, dtype, and LLM-only quantization metadata. Fake endpoint smoke is not model proof. |
+| VibeVoice model audio | not_proven | `scripts/vast-h100/smoke-vibevoice-endpoint.mjs` | Requires an H100-local `microsoft/VibeVoice-Realtime-0.5B` compatible endpoint plus browser proof before claiming real audio. |
 | Moss fixture retrieval | verified | `npm run smoke:adapters`, `npm run smoke:local`, `npm run smoke:livekit` | Fixture retrieval proves wiring, not local artifact or hosted Moss runtime proof. |
 | Local retrieval artifact through Moss boundary | verified | `npm run smoke:moss:local` | Queries a prebuilt local JSON artifact through the local runtime/client path; not hosted Moss or Moss SDK proof. Runtime must not use `autoRefresh`, cloud polling, `pushIndex()`, runtime/session document upload, or session embedding upload. |
 | Vast.ai H100 local-model lane | configured | docs/vast-h100-runbook.md, scripts/vast-h100/ | Requires H100 preflight plus Qwen/ASR/TTS smokes before any real-model claim. |
@@ -34,10 +36,11 @@ Status values:
 
 ## Latest Evidence
 
-- `npm run smoke:local` passed at `artifacts/smoke/2026-06-07T09-17-18-587Z/result.json`.
-- `npm run smoke:livekit` passed with `bridgeDisabled: true` at `artifacts/smoke/livekit-2026-06-07T09-17-23-206Z/result.json`.
-- `npm test` passed 30 tests, including token-server security guardrails, local retrieval artifact queries, and LLM planner fallback cases.
+- `npm run smoke:local` passed at `artifacts/smoke/2026-06-07T09-37-27-916Z/result.json`, including `streamedSpeechEvents: true`.
+- `npm run smoke:livekit` passed with `bridgeDisabled: true` at `artifacts/smoke/livekit-2026-06-07T09-37-34-190Z/result.json`, including `dataChannelSpeechStream: true`.
+- `npm test` passed 36 tests, including token-server security guardrails, local retrieval artifact queries, speech chunking/cache/quantization guardrails, local VibeVoice localhost guards, and LLM planner fallback cases.
 - `npm run smoke:planner` passed against a temporary local Qwen-compatible stub, proving strict planner JSON parsing and validated action dispatch without real Qwen proof.
-- `npm run smoke:moss:local` passed at `artifacts/smoke/moss-local-2026-06-07T09-18-31-895Z/result.json`, proving `provider: local-artifact`, `localOnly: true`, `simulated: false`, local runtime health, direct runtime query, and agent `local-runtime-client` query against a deterministic local artifact.
+- `npm run smoke:moss:local` passed at `artifacts/smoke/moss-local-2026-06-07T09-37-16-067Z/result.json`, proving `provider: local-artifact`, `localOnly: true`, `simulated: false`, local runtime health, direct runtime query, and agent `local-runtime-client` query against a deterministic local artifact.
+- `npm run smoke:tts:local` passed at `artifacts/smoke/tts-streaming-2026-06-07T09-37-16-669Z/result.json`, proving the localhost streaming TTS adapter contract, prewarm call, stable cache key, `bfloat16`, and `llm-int8` LLM-only quantization metadata against a fake local endpoint only.
 - Browser planner smoke passed on June 7, 2026 with `AGENT_PLANNER=local-llm`, local Qwen-compatible stub, and bridge disabled: the proof line showed `Planner local-llm-json via qwen-openai-local`, booking prompt opened, and Cal stayed unloaded before confirmation.
 - Browser LiveKit smoke passed on June 7, 2026: `Connect local transport` joined local LiveKit with `ENABLE_SIM_BRIDGE=0`, `Ask agent` received a LiveKit `agent.action`, the page scrolled/highlighted, Cal stayed unloaded before confirmation, and Cal opened after confirmation.

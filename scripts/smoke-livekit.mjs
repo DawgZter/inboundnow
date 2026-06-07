@@ -105,7 +105,7 @@ async function waitForAnswerAndAction(room) {
   const seen = [];
   return new Promise((resolve, reject) => {
     const timer = setTimeout(() => {
-      reject(new Error("Timed out waiting for LiveKit answer/action"));
+      reject(new Error("Timed out waiting for LiveKit answer/speech/action"));
     }, 12_000);
 
     room.on(RoomEvent.DataReceived, (payload, participant, kind, topic) => {
@@ -113,10 +113,23 @@ async function waitForAnswerAndAction(room) {
       const message = JSON.parse(decoder.decode(payload));
       seen.push(message);
       const answer = seen.find((item) => item.type === "agent.answer");
+      const speechStart = seen.find((item) => item.type === "agent.speech.start");
+      const speechChunk = seen.find((item) => item.type === "agent.speech.chunk");
+      const speechEnd = seen.find((item) => item.type === "agent.speech.end");
       const action = seen.find((item) => item.type === "agent.action");
-      if (answer && action) {
+      if (answer && speechStart && speechChunk && speechEnd && action) {
+        const answerIndex = seen.indexOf(answer);
+        const speechStartIndex = seen.indexOf(speechStart);
+        const speechChunkIndex = seen.indexOf(speechChunk);
+        const speechEndIndex = seen.indexOf(speechEnd);
+        const actionIndex = seen.indexOf(action);
+        if (!(answerIndex < speechStartIndex && speechStartIndex < speechChunkIndex && speechChunkIndex < speechEndIndex && speechEndIndex < actionIndex)) {
+          clearTimeout(timer);
+          reject(new Error("Expected answer -> speech stream -> action ordering"));
+          return;
+        }
         clearTimeout(timer);
-        resolve({ answer, action, seen });
+        resolve({ answer, action, speechStart, speechChunk, speechEnd, seen });
       }
     });
   });
@@ -185,6 +198,7 @@ try {
       browserParticipantJoined: true,
       agentParticipantJoined: true,
       dataChannelAnswer: true,
+      dataChannelSpeechStream: true,
       dataChannelAction: true,
     },
     answer: {
@@ -193,6 +207,12 @@ try {
       simulated: result.answer.simulated,
       adapterLabels: result.answer.adapters,
       retrievalCount: result.answer.retrieval?.count || 0,
+    },
+    speech: {
+      provider: result.speechStart.provider,
+      proof: result.speechStart.proof,
+      chunkCount: result.speechEnd.chunkCount,
+      firstChunk: result.speechChunk.text,
     },
     action: {
       type: result.action.action.type,

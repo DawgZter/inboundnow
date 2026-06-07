@@ -7,6 +7,7 @@ npm run check
 npm run smoke:adapters
 npm run smoke:planner
 npm run smoke:moss:local
+npm run smoke:tts:local
 npm run smoke:local
 npm run smoke:livekit
 ```
@@ -58,6 +59,18 @@ MOSS_PROVIDER=local-runtime-client MOSS_RUNTIME_URL=http://127.0.0.1:4321 npm ru
 ```
 
 This proves local artifact retrieval only. It is not hosted Moss, not Moss SDK proof, and it must not use `autoRefresh`, cloud polling, `pushIndex()`, runtime document upload, session document upload, or session embedding upload.
+
+## Streamed Speech
+
+```bash
+npm run smoke:tts:local
+npm run smoke:local
+npm run smoke:livekit
+```
+
+`smoke:tts:local` proves the local VibeVoice-compatible adapter contract against a fake localhost endpoint, including prewarm, stable cache keys, and LLM-only quantization metadata. It is not VibeVoice model proof.
+
+`smoke:local` and `smoke:livekit` assert that the worker sends `agent.answer`, then `agent.speech.start/chunk/end`, then browser actions. The website lab queues those chunks through browser `speechSynthesis` so speech can begin before page guidance completes. Browser speech remains a fallback until an H100-local VibeVoice endpoint is smoked.
 
 ## Local LLM Planner Mode
 

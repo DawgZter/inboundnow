@@ -2,6 +2,7 @@
 import { Room, RoomEvent, dispose } from "@livekit/rtc-node";
 import WebSocket from "ws";
 import { ActionProtocolError, prepareActionsForDispatch } from "../../packages/action-protocol/index.mjs";
+import { splitSpeechText } from "../../packages/speech-streaming/index.mjs";
 import { createAdapterRegistry, adapterLabels, adapterStatusMap } from "./adapters/registry.mjs";
 import { planQuestion } from "./llm-planner.mjs";
 
@@ -15,6 +16,7 @@ const SIMULATED_AGENT = !["verified", "real"].includes(MODE);
 const adapters = createAdapterRegistry(process.env);
 const encoder = new TextEncoder();
 const decoder = new TextDecoder();
+let speechGeneration = 0;
 
 function bridgeUrl() {
   const base = new URL(TOKEN_SERVER_URL);
@@ -63,6 +65,57 @@ async function safeRetrieval(question) {
       error: error.message,
       snippets: [],
     };
+  }
+}
+
+function speechStreamingEnabled() {
+  return !["0", "false", "no", "off"].includes(String(process.env.TTS_STREAMING || "1").trim().toLowerCase());
+}
+
+async function sendSpeechStream(sendReply, { requestId, transport, answer, adapterStatus }) {
+  if (!speechStreamingEnabled() || !answer) return;
+
+  const generation = ++speechGeneration;
+  const chunks = splitSpeechText(answer, {
+    textChunkChars: process.env.TTS_TEXT_CHUNK_CHARS || process.env.VIBEVOICE_TEXT_CHUNK_CHARS,
+  });
+  if (!chunks.length) return;
+
+  const ttsStatus = adapterStatus.tts || {};
+  await sendReply({
+    type: "agent.speech.start",
+    requestId,
+    transport,
+    provider: adapters.tts?.provider || "tts",
+    label: ttsStatus.label || "",
+    proof: ttsStatus.proof || "",
+    streaming: true,
+    mode: "text-chunks",
+    fallback: "browser-speech-synthesis",
+    localVibeVoiceProven: false,
+    chunkCount: chunks.length,
+  });
+
+  for (let index = 0; index < chunks.length; index += 1) {
+    if (generation !== speechGeneration) break;
+    await sendReply({
+      type: "agent.speech.chunk",
+      requestId,
+      transport,
+      provider: adapters.tts?.provider || "tts",
+      sequence: index,
+      text: chunks[index],
+    });
+  }
+
+  if (generation === speechGeneration) {
+    await sendReply({
+      type: "agent.speech.end",
+      requestId,
+      transport,
+      provider: adapters.tts?.provider || "tts",
+      chunkCount: chunks.length,
+    });
   }
 }
 
@@ -123,6 +176,13 @@ async function handleQuestion(sendReply, message) {
       : null,
   });
 
+  await sendSpeechStream(sendReply, {
+    requestId,
+    transport: responseTransport,
+    answer: plan.answer,
+    adapterStatus,
+  });
+
   for (const action of actions) {
     await sendReply({
       type: "agent.action",
@@ -159,6 +219,16 @@ function handleControlMessage(sendReply, raw) {
       type: "agent.status",
       status: "booking_confirmed",
       message: "Browser confirmed booking; Cal can open in-page.",
+    }).catch(() => {});
+    return;
+  }
+
+  if (message.type === "prospect.interrupt") {
+    speechGeneration += 1;
+    sendReply({
+      type: "agent.status",
+      status: "interrupted",
+      message: "Prospect interrupted; pending streamed speech chunks were cancelled.",
     }).catch(() => {});
     return;
   }

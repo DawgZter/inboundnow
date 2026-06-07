@@ -22,11 +22,11 @@ Cal may block iframe behavior. The required gate is that the iframe `src` is emp
 
 ## Speech Output Is Silent
 
-Browser `speechSynthesis` is only a demo fallback. Silence is not VibeVoice proof failure because VibeVoice is not wired yet.
+Browser `speechSynthesis` is a streamed fallback. Silence can come from browser autoplay/voice availability, not from VibeVoice model proof. Real VibeVoice proof requires `TTS_PROVIDER=local-vibevoice`, an H100-local compatible endpoint, and `npm run smoke:tts:h100` evidence.
 
 ## Moss Or Model Claims Look Too Strong
 
-Check `docs/proof-matrix.md`. Fixture retrieval, `qwen-stub`, `vibevoice-stub`, and `parakeet-stub` prove wiring only.
+Check `docs/proof-matrix.md`. Fixture retrieval, the fake TTS contract smoke, `qwen-stub`, `vibevoice-stub`, and `parakeet-stub` prove wiring only.
 
 ## H100 Setup Fails On Vast
 

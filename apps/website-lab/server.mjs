@@ -564,6 +564,21 @@ function injectedOpenClickyWeb() {
     var transcriptTurnLimit = 7;
     var lastAgentAnswer = '';
     var lastAdapterProof = '';
+    var lastSpokenAgentAnswer = '';
+    var speechState = {
+      generation: 0,
+      requestId: '',
+      queue: [],
+      speaking: false,
+      ended: false,
+      chunkCount: 0,
+      spokenChunks: 0,
+      startedAt: 0,
+      firstChunkAt: 0,
+      provider: '',
+      proof: ''
+    };
+    var cachedSpeechVoice = null;
 
     var specs = {
       demo: [
@@ -658,34 +673,216 @@ function injectedOpenClickyWeb() {
       appendTranscript(role || 'agent', text);
     }
 
-    function stopSpeech() {
+    function browserSpeechAvailable() {
+      return !!(window.speechSynthesis && window.SpeechSynthesisUtterance);
+    }
+
+    function chooseSpeechVoice() {
+      if (cachedSpeechVoice) return cachedSpeechVoice;
       try {
-        if (window.speechSynthesis) window.speechSynthesis.cancel();
+        var voices = window.speechSynthesis && window.speechSynthesis.getVoices ? window.speechSynthesis.getVoices() : [];
+        cachedSpeechVoice = voices.find(function(voice){ return /^en(-|_)?us/i.test(voice.lang || ''); }) ||
+          voices.find(function(voice){ return /^en/i.test(voice.lang || ''); }) ||
+          voices[0] ||
+          null;
+      } catch (e) {
+        cachedSpeechVoice = null;
+      }
+      return cachedSpeechVoice;
+    }
+
+    function prewarmBrowserSpeech() {
+      if (!browserSpeechAvailable()) return;
+      try {
+        chooseSpeechVoice();
+        if (window.speechSynthesis.onvoiceschanged === null) {
+          window.speechSynthesis.onvoiceschanged = function(){
+            cachedSpeechVoice = null;
+            chooseSpeechVoice();
+          };
+        }
       } catch (e) {}
+    }
+
+    function splitBrowserSpeechText(text) {
+      var value = String(text || '').replace(/\s+/g, ' ').trim();
+      if (!value) return [];
+      var parts = value.match(/[^.!?;:]+[.!?;:]?/g) || [value];
+      var chunks = [];
+      var current = '';
+      var maxChars = 140;
+      function pushChunk(chunk) {
+        chunk = String(chunk || '').trim();
+        if (!chunk) return;
+        if (chunk.length <= maxChars) {
+          chunks.push(chunk);
+          return;
+        }
+        var words = chunk.split(' ');
+        var line = '';
+        words.forEach(function(word){
+          var next = line ? line + ' ' + word : word;
+          if (next.length > maxChars && line) {
+            chunks.push(line);
+            line = word;
+          } else {
+            line = next;
+          }
+        });
+        if (line) chunks.push(line);
+      }
+      parts.forEach(function(part){
+        var piece = part.trim();
+        var next = current ? current + ' ' + piece : piece;
+        if (next.length <= maxChars) {
+          current = next;
+        } else {
+          pushChunk(current);
+          current = '';
+          pushChunk(piece);
+        }
+      });
+      pushChunk(current);
+      return chunks;
+    }
+
+    function resetSpeechState(cancelSpeech) {
+      speechState.generation += 1;
+      speechState.requestId = '';
+      speechState.queue = [];
+      speechState.speaking = false;
+      speechState.ended = false;
+      speechState.chunkCount = 0;
+      speechState.spokenChunks = 0;
+      speechState.startedAt = 0;
+      speechState.firstChunkAt = 0;
+      if (cancelSpeech) {
+        try {
+          if (window.speechSynthesis) window.speechSynthesis.cancel();
+        } catch (e) {}
+      }
+    }
+
+    function stopSpeech() {
+      resetSpeechState(true);
       window.__ocwLastSpeech = '';
       showCaption('', current.x, current.y);
+    }
+
+    function startSpeechStream(message) {
+      resetSpeechState(true);
+      speechState.requestId = message.requestId || '';
+      speechState.chunkCount = Number(message.chunkCount || 0);
+      speechState.provider = message.provider || 'tts';
+      speechState.proof = message.proof || '';
+      speechState.startedAt = Date.now();
+      speechState.ended = false;
+      if (lastAgentAnswer) lastSpokenAgentAnswer = lastAgentAnswer;
+      window.__ocwLastSpeech = '';
+      setTurnState('speaking', 'streaming speech');
+      setTtsProof('TTS: streamed browser speech synthesis fallback' + (speechState.chunkCount ? ' (' + speechState.chunkCount + ' chunks)' : '') + '. Local VibeVoice is not proven yet.');
+      emit('speechStreamStarted', {
+        requestId: speechState.requestId,
+        provider: speechState.provider,
+        chunkCount: speechState.chunkCount,
+        fallback: message.fallback || 'browser-speech-synthesis'
+      });
+    }
+
+    function pumpSpeechQueue(generation) {
+      if (speechState.generation !== generation || speechState.speaking) return;
+      if (!speechState.queue.length) {
+        if (speechState.ended) setTurnState('idle', 'idle');
+        return;
+      }
+
+      var next = speechState.queue.shift();
+      var text = next.text || '';
+      showCaption(text, current.x, current.y);
+      window.__ocwLastSpeech = (window.__ocwLastSpeech ? window.__ocwLastSpeech + ' ' : '') + text;
+
+      if (!browserSpeechAvailable()) {
+        setTtsProof('TTS: streamed text chunks received, but browser speech fallback is unavailable. Local VibeVoice is not proven yet.');
+        speechState.spokenChunks += 1;
+        emit('speechChunkDisplayed', { requestId: speechState.requestId, sequence: next.sequence, audible: false });
+        window.setTimeout(function(){ pumpSpeechQueue(generation); }, 0);
+        return;
+      }
+
+      try {
+        var utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-US';
+        utterance.rate = 1.06;
+        var voice = chooseSpeechVoice();
+        if (voice) utterance.voice = voice;
+        speechState.speaking = true;
+        utterance.onstart = function(){
+          if (!speechState.firstChunkAt) {
+            speechState.firstChunkAt = Date.now();
+            emit('speechFirstChunkStarted', {
+              requestId: speechState.requestId,
+              firstChunkMs: speechState.firstChunkAt - speechState.startedAt
+            });
+          }
+        };
+        utterance.onend = function(){
+          speechState.speaking = false;
+          speechState.spokenChunks += 1;
+          pumpSpeechQueue(generation);
+        };
+        utterance.onerror = function(){
+          speechState.speaking = false;
+          setTurnState('idle', 'speech stopped');
+          pumpSpeechQueue(generation);
+        };
+        window.speechSynthesis.speak(utterance);
+      } catch (e) {
+        speechState.speaking = false;
+        setTtsProof('TTS: browser speech fallback failed; streamed text is shown only. Local VibeVoice is not proven yet.');
+        pumpSpeechQueue(generation);
+      }
+    }
+
+    function queueSpeechChunk(message) {
+      if (!speechState.requestId || speechState.requestId !== (message.requestId || '')) {
+        startSpeechStream({ requestId: message.requestId || '', provider: message.provider || 'tts', chunkCount: 0 });
+      }
+      speechState.queue.push({ sequence: Number(message.sequence || 0), text: String(message.text || '') });
+      emit('speechChunkQueued', {
+        requestId: speechState.requestId,
+        sequence: Number(message.sequence || 0),
+        chars: String(message.text || '').length
+      });
+      pumpSpeechQueue(speechState.generation);
+    }
+
+    function finishSpeechStream(message) {
+      if (message.requestId && speechState.requestId && message.requestId !== speechState.requestId) return;
+      speechState.ended = true;
+      emit('speechStreamEnded', {
+        requestId: speechState.requestId,
+        chunkCount: message.chunkCount || speechState.chunkCount,
+        spokenChunks: speechState.spokenChunks
+      });
+      pumpSpeechQueue(speechState.generation);
     }
 
     function speak(text, options) {
       var shouldAppendTranscript = !options || options.appendTranscript !== false;
       if (shouldAppendTranscript) updateTranscript(text, 'agent');
-      window.__ocwLastSpeech = text;
-      showCaption(text, current.x, current.y);
-      try {
-        if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) {
-          setTtsProof('TTS: browser speech fallback unavailable; answer shown as transcript only. Local VibeVoice is not proven yet.');
-          return;
-        }
-        window.speechSynthesis.cancel();
-        var utterance = new SpeechSynthesisUtterance(text);
-        utterance.lang = 'en-US';
-        utterance.rate = 1.03;
-        utterance.onend = function(){ setTurnState('idle', 'idle'); };
-        utterance.onerror = function(){ setTurnState('idle', 'speech stopped'); };
-        setTurnState('speaking', 'speaking');
-        setTtsProof('TTS: browser speech synthesis fallback. Local VibeVoice is not proven yet.');
-        window.speechSynthesis.speak(utterance);
-      } catch (e) {}
+      lastSpokenAgentAnswer = text;
+      var chunks = splitBrowserSpeechText(text);
+      startSpeechStream({
+        requestId: 'local_' + Math.random().toString(36).slice(2, 10),
+        provider: 'browser-speech-fallback',
+        proof: 'stub',
+        chunkCount: chunks.length,
+        fallback: 'browser-speech-synthesis'
+      });
+      chunks.forEach(function(chunk, index){
+        queueSpeechChunk({ requestId: speechState.requestId, provider: 'browser-speech-fallback', sequence: index, text: chunk });
+      });
+      finishSpeechStream({ requestId: speechState.requestId, chunkCount: chunks.length });
     }
 
     function setAgentState(state, text) {
@@ -980,6 +1177,21 @@ function injectedOpenClickyWeb() {
         return;
       }
 
+      if (message.type === 'agent.speech.start') {
+        startSpeechStream(message);
+        return;
+      }
+
+      if (message.type === 'agent.speech.chunk') {
+        queueSpeechChunk(message);
+        return;
+      }
+
+      if (message.type === 'agent.speech.end') {
+        finishSpeechStream(message);
+        return;
+      }
+
       if (message.type === 'agent.answer') {
         setAgentState('online', message.transport === 'livekit' ? 'LiveKit agent answered' : 'Local agent ready');
         lastAgentAnswer = message.answer || '';
@@ -1010,6 +1222,7 @@ function injectedOpenClickyWeb() {
 
     async function askLocalAgent(simulatedVoice) {
       var question = commandInput.value || 'How does Remote help with global payroll?';
+      prewarmBrowserSpeech();
       await connectAgentTransport();
       var snapshot = snapshotPage();
       updateTranscript((simulatedVoice ? 'Typed text sent as simulated transcript: ' : 'You asked: ') + question, simulatedVoice ? 'simulated' : 'prospect');
@@ -1440,8 +1653,13 @@ function injectedOpenClickyWeb() {
       var answer = answerText || payrollAnswer;
       setStatus('Answering global payroll question.');
       snapshotPage();
-      speak(answer, { appendTranscript: normalized(answer) !== normalized(lastAgentAnswer) });
-      emit('agentAnswered', { text: answer });
+      var answerAlreadySpoken = normalized(answer) === normalized(lastSpokenAgentAnswer);
+      if (!answerAlreadySpoken) {
+        speak(answer, { appendTranscript: normalized(answer) !== normalized(lastAgentAnswer) });
+      } else {
+        showCaption(answer, current.x, current.y);
+      }
+      emit('agentAnswered', { text: answer, alreadySpoken: answerAlreadySpoken });
       await sleep(afterNavigation ? 650 : 950);
 
       var payrollTarget = findTarget('payroll');
