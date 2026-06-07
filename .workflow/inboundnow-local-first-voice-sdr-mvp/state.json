@@ -68,6 +68,24 @@
       "agent": "Codex",
       "status": "completed",
       "result": "results/round6-hosted-moss-upload.md"
+    },
+    {
+      "id": "round9-h100-runtime-path",
+      "agent": "Godel (019ea2fd-aaf7-7f33-96fa-cb56a31c6b38)",
+      "status": "completed",
+      "result": "results/round9-h100-runtime-proof-plan.md"
+    },
+    {
+      "id": "round9-non-scripted-planner",
+      "agent": "Noether (019ea2fd-ad45-7801-bee5-fa0bc59ab31a)",
+      "status": "completed",
+      "result": "results/round9-h100-runtime-proof-plan.md"
+    },
+    {
+      "id": "round9-real-model-proof-gates",
+      "agent": "Carver (019ea2fd-afe5-73b3-9f45-0ed1547f7280)",
+      "status": "completed",
+      "result": "results/round9-h100-runtime-proof-plan.md"
     }
   ],
   "verification": {

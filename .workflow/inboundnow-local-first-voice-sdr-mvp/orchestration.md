@@ -28,6 +28,15 @@ Round 1 subagents:
 - Descartes: local models and Moss runtime boundary plan.
 - Hilbert: E2E verification and review plan.
 
+Round 9 subagents:
+
+- Godel: audit the Vast H100 one-command runtime/proof path for local stack
+  bringup, process orchestration, env validation, and artifact collection.
+- Noether: audit the non-scripted planner path and identify where
+  deterministic demo macros still sit on the H100 success path.
+- Carver: audit real model proof gates for local Parakeet, Qwen, Moss, and
+  Miso One/MisoTTS LoRA streaming evidence.
+
 ## Completion Audit
 
 Completion requires current evidence for every deliverable in `plan.md`.

@@ -89,3 +89,4 @@ echo "Enable Parakeet ASR tmux pane with: ENABLE_ASR_RUNTIME=1 bash scripts/vast
 echo "Enable Miso One tmux pane with: ENABLE_TTS_RUNTIME=1 TTS_RUNTIME=miso-one bash scripts/vast-h100/start-dev-stack.sh"
 echo "Enable legacy VibeVoice tmux pane with: ENABLE_TTS_RUNTIME=1 TTS_RUNTIME=vibevoice bash scripts/vast-h100/start-dev-stack.sh"
 echo "Full H100 proof-mode stack: H100_PROOF_MODE=1 bash scripts/vast-h100/start-dev-stack.sh"
+echo "After panes finish booting, run: H100_PROOF_MODE=1 npm run h100:preflight"

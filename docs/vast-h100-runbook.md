@@ -204,12 +204,31 @@ From your laptop, with the SSH tunnel open, visit:
 
 Click Start AI Persona, grant microphone access when prompted, then speak naturally.
 
+Before running the proof suite, verify that every local service is reachable and
+still inside the H100/local-only boundary:
+
+    H100_PROOF_MODE=1 npm run h100:preflight
+
+This writes artifacts/smoke/h100-stack-preflight-<timestamp>/result.json.
+It checks the H100 GPU, local LiveKit TCP readiness, bridge-disabled token
+server health, local Moss artifact runtime health, Qwen /v1/models,
+Parakeet /health, Miso One/MisoTTS /health, and the website lab. By default
+it allows lazily loaded ASR/TTS models to report loaded=false; add
+H100_PREFLIGHT_REQUIRE_LOADED=1 after prewarming if you want startup proof to
+require loaded models. If MISO_REQUIRE_LORA=1 is set, preflight fails until the
+Miso wrapper reports a real LoRA runtime loader instead of metadata-only clone
+configuration.
+
 ## Capture Evidence
 
 On the instance:
 
     npm run check
     ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav BROWSER_MIC_AUDIO_PATH=/path/to/known-transcript.wav ASR_EXPECTED_PATTERN="Remote|payroll|global" npm run smoke:h100:proof-suite
+
+The proof suite runs h100:preflight first so it fails quickly when a tmux pane
+is down, a service points off localhost, the token server bridge is enabled, or
+Miso LoRA clone proof is requested before the runtime can really apply LoRA.
 
 The proof suite writes `artifacts/smoke/h100-proof-suite-<timestamp>/manifest.json` and fails unless the Remote.com local Moss artifact, local Qwen endpoint, local Parakeet endpoint, local Miso endpoint, model-chain smoke, and browser persona smoke all produce durable `result.json` evidence. The browser persona smoke clicks the visible Start AI Persona control, requires LiveKit plus a published mic, waits for the browser auto-stop lifecycle instead of directly calling the developer stop function, rejects bridge fallback/stubs, asserts worker buffered-audio proof matches the ASR endpoint audio hash, checks primitive browser actions, saves `events.json`, `browser-mic-proof.json`, `worker-audio-proof.json`, `asr-proof.json`, `proof-chain.json`, `result.json`, logs, and a final screenshot. With `BROWSER_MIC_AUDIO_PATH`, it is still automated browser media-fixture proof, not a human manual microphone proof. Use `REQUIRE_MANUAL_MIC=1 HEADLESS=0` when capturing a manual speaking artifact.
 

@@ -170,6 +170,20 @@ function requireOk(payload, label) {
 function stepDefinitions() {
   const steps = [
     {
+      id: "h100-stack-preflight",
+      command: "npm",
+      args: ["run", "h100:preflight"],
+      validate(payload) {
+        requireOk(payload, "H100 stack preflight");
+        assert.equal(payload.dryRun, false);
+        assert.equal(payload.proof, "h100-stack-preflight");
+        assert.equal(payload.checks?.every((check) => check.ok === true), true, "all preflight checks must pass");
+      },
+      summary(payload) {
+        return { artifactDir: payload.artifactDir, checks: payload.checks?.map((check) => check.id) || [] };
+      },
+    },
+    {
       id: "moss-remote",
       command: "npm",
       args: ["run", "smoke:moss:remote"],

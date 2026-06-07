@@ -12,7 +12,10 @@ function compact(value, maxLength = 900) {
 }
 
 function plannerMode(env = process.env) {
-  return env.AGENT_PLANNER || (env.LLM_PLANNER_ENABLED ? "local-llm" : "deterministic");
+  if (env.AGENT_PLANNER) return env.AGENT_PLANNER;
+  if (envFlag(env.LLM_PLANNER_ENABLED) || envFlag(env.H100_PROOF_MODE)) return "local-llm";
+  if (["verified", "real"].includes(String(env.AGENT_MODE || "").trim().toLowerCase())) return "local-llm";
+  return "deterministic";
 }
 
 function envFlag(value) {
