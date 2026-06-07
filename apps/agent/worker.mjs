@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { AudioStream, Room, RoomEvent, dispose } from "@livekit/rtc-node";
+import { AudioStream, Room, RoomEvent, TrackKind, TrackSource, dispose } from "@livekit/rtc-node";
 import WebSocket from "ws";
 import { ActionProtocolError, prepareActionsForDispatch } from "../../packages/action-protocol/index.mjs";
 import { splitSpeechText } from "../../packages/speech-streaming/index.mjs";
@@ -433,6 +433,19 @@ function attachLiveKitAudioTrack(track, participant) {
   })();
 }
 
+function isLiveKitAudioPublication(track, publication) {
+  const kind = track?.kind ?? publication?.kind;
+  const source = publication?.source;
+  const kindText = String(kind || "").toLowerCase();
+  const sourceText = String(source || "").toLowerCase();
+  return kind === TrackKind.KIND_AUDIO ||
+    source === TrackSource.SOURCE_MICROPHONE ||
+    source === TrackSource.SOURCE_SCREENSHARE_AUDIO ||
+    kindText.includes("audio") ||
+    sourceText.includes("microphone") ||
+    sourceText.includes("screenshare_audio");
+}
+
 function handleControlMessage(sendReply, raw, context = {}) {
   let message;
   try {
@@ -598,7 +611,7 @@ async function connectLiveKit() {
 
   room.on(RoomEvent.TrackSubscribed, (track, publication, participant) => {
     console.log("livekit.trackSubscribed", participant?.identity || "", publication?.source || track?.kind || "");
-    if (String(track?.kind || "").toLowerCase().includes("audio") || String(publication?.source || "").toLowerCase().includes("microphone")) {
+    if (isLiveKitAudioPublication(track, publication)) {
       attachLiveKitAudioTrack(track, participant);
     }
   });

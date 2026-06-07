@@ -73,13 +73,13 @@
         "id": "local-smoke-script",
         "status": "passed",
         "command": "npm run smoke:local",
-        "artifact": "artifacts/smoke/2026-06-07T13-03-26-418Z/result.json"
+        "artifact": "artifacts/smoke/2026-06-07T13-15-39-821Z/result.json"
       },
       {
         "id": "livekit-room-data-channel",
         "status": "passed",
         "command": "npm run smoke:livekit",
-        "artifact": "artifacts/smoke/livekit-2026-06-07T13-03-32-478Z/result.json",
+        "artifact": "artifacts/smoke/livekit-2026-06-07T13-15-40-579Z/result.json",
         "notes": "Bridge disabled; LiveKit server, browser participant, agent participant, answer, and action verified over data channel."
       },
       {
@@ -100,16 +100,23 @@
       },
       {
         "id": "round3-browser-asr-proof",
-        "status": "in_progress",
+        "status": "passed",
         "evidence": "results/round3-browser-asr-proof.md",
-        "notes": "Browser Cal gate proof passed; LiveKit media-to-ASR proof remains in progress."
+        "notes": "Browser Cal gate proof and synthetic LiveKit media-to-ASR adapter proof passed; real browser mic and H100 Parakeet remain unproven."
       },
       {
         "id": "browser-cal-gate-playwright",
         "status": "passed",
         "command": "npm run smoke:browser:cal-gate",
-        "artifact": "artifacts/smoke/browser-cal-gate-2026-06-07T13-03-08-522Z/result.json",
+        "artifact": "artifacts/smoke/browser-cal-gate-2026-06-07T13-15-28-609Z/result.json",
         "notes": "Cal iframe src empty before confirmation, openCal deferred, dismissed prompt re-prompts, and Yes button loads Cal."
+      },
+      {
+        "id": "synthetic-livekit-audio-asr",
+        "status": "passed",
+        "command": "npm run smoke:asr:livekit",
+        "artifact": "artifacts/smoke/livekit-asr-local-2026-06-07T13-14-51-130Z/result.json",
+        "notes": "Synthetic microphone track buffered through AudioStream(track), encoded as WAV, sent to fake localhost Parakeet endpoint, and drove ASR final answer/action."
       }
     ]
   }

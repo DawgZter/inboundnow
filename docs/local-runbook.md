@@ -8,6 +8,7 @@ npm run smoke:adapters
 npm run smoke:planner
 npm run smoke:moss:local
 npm run smoke:tts:local
+npm run smoke:asr:livekit
 npm run smoke:browser:cal-gate
 npm run smoke:local
 npm run smoke:livekit
@@ -39,6 +40,8 @@ PORT=4199 TOKEN_SERVER_URL=http://127.0.0.1:4301 npm run dev:lab
 Open `http://localhost:4199/direct`, click `Connect local transport`, then `Ask agent`.
 
 Expected proof level in this mode: browser and agent exchange control messages over a local LiveKit room. ASR, local LLM, local TTS, and real Moss runtime remain unproven unless their dedicated smokes are run and captured.
+
+Run `npm run smoke:asr:livekit` to prove the worker's LiveKit media-track path without using a real browser microphone. It publishes a synthetic 16 kHz mono microphone track into the local room, buffers it with `AudioStream(track)`, sends WAV audio to a fake localhost Parakeet endpoint, and asserts `agent.asr.final` drives the normal answer/action path. This is still contract proof only: it is not real browser mic capture and not H100 Parakeet model proof.
 
 ## H100 Local-Model Lane
 

@@ -210,7 +210,7 @@ Current proof level:
 - LiveKit data-channel control is verified locally with `npm run smoke:livekit`, with the WebSocket fallback disabled.
 - The browser LiveKit path is verified locally: browser joins the local room, sends the payroll question, receives `agent.action`, guides the page, and keeps Cal gated until confirmation.
 - The WebSocket bridge remains as an honest fallback when LiveKit is unavailable.
-- Mic publication is requested from the browser `Connect local transport` action. The worker now has a turn-based LiveKit audio buffer and localhost Parakeet-compatible adapter path, but real browser mic-to-Parakeet proof still requires an H100-local ASR endpoint and captured audio smoke.
+- Mic publication is requested from the browser `Connect local transport` action. `npm run smoke:asr:livekit` proves synthetic LiveKit microphone frames reach the worker buffer and localhost Parakeet-compatible adapter contract, but real browser mic-to-Parakeet proof still requires browser-captured audio plus an H100-local ASR endpoint.
 - `Send simulated transcript` sends a final transcript message through the same agent path as future ASR final transcripts; this is transcript fallback proof, not Parakeet proof.
 - ASR, LLM, and TTS have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model proof.
 - Agent answers now emit `agent.speech.start/chunk/end` before page actions, and the browser queues chunks through `speechSynthesis` for lower perceived latency. This is streamed browser fallback speech, not VibeVoice model proof.

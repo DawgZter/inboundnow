@@ -43,7 +43,7 @@ page proxied through the real website lab. The smoke verifies:
   after `bookingPromptShown`.
 
 Latest passing artifact:
-`artifacts/smoke/browser-cal-gate-2026-06-07T13-03-08-522Z/result.json`.
+`artifacts/smoke/browser-cal-gate-2026-06-07T13-15-28-609Z/result.json`.
 
 Fixes found while adding this proof:
 
@@ -68,3 +68,20 @@ local room, sends `prospect.asr.start` and `prospect.asr.stop`, and asserts the
 fake localhost Parakeet endpoint receives a valid WAV before `agent.asr.final`.
 Even after that smoke, real browser microphone audio, real H100 Parakeet
 transcription, VAD/partial streaming, and model accuracy remain unproven.
+
+## Synthetic LiveKit audio ASR result
+
+Implemented `scripts/smoke-livekit-asr-local.mjs` and wired it as
+`npm run smoke:asr:livekit`. The smoke starts local LiveKit with the WebSocket
+fallback disabled, starts a fake localhost Parakeet-compatible endpoint,
+publishes a synthetic 16 kHz mono microphone track through `@livekit/rtc-node`,
+buffers it in the agent through `AudioStream(track)`, sends the encoded WAV to
+the local Parakeet adapter contract, and verifies `agent.asr.final` drives the
+normal answer/action path.
+
+Latest passing artifact:
+`artifacts/smoke/livekit-asr-local-2026-06-07T13-14-51-130Z/result.json`.
+
+Boundary retained: this proves synthetic LiveKit audio frames reach the ASR
+adapter contract. It does not prove real browser microphone capture, real H100
+Parakeet transcription, VAD/partial streaming, latency, or model accuracy.
