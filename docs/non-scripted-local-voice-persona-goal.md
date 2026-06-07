@@ -90,7 +90,7 @@ From a clean local run on an H100/Vast.ai setup, prove this path:
 - The browser visibly scrolls, highlights, captions, clicks, or prompts on the page.
 - Booking prompt appears when appropriate.
 - Cal opens only after explicit confirmation.
-- Evidence artifacts, logs, docs, and smoke outputs are committed.
+- Sanitized evidence manifests, result summaries, hashes, and docs are committed. Raw microphone audio, token-bearing logs, full browser traces, and bulky local smoke artifacts stay local or are attached privately.
 
 ## Completion Standard
 

@@ -211,12 +211,14 @@ On the instance:
     npm run check
     ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav BROWSER_MIC_AUDIO_PATH=/path/to/known-transcript.wav ASR_EXPECTED_PATTERN="Remote|payroll|global" npm run smoke:h100:proof-suite
 
-The proof suite writes `artifacts/smoke/h100-proof-suite-<timestamp>/manifest.json` and fails unless the Remote.com local Moss artifact, local Qwen endpoint, local Parakeet endpoint, local Miso endpoint, model-chain smoke, and browser persona smoke all produce durable `result.json` evidence. The browser persona smoke clicks the visible Start AI Persona control, requires LiveKit plus a published mic, rejects bridge fallback/stubs, asserts worker buffered-audio proof matches the ASR endpoint audio hash, checks primitive browser actions, saves `events.json`, `worker-audio-proof.json`, `asr-proof.json`, `result.json`, logs, and a final screenshot. With `BROWSER_MIC_AUDIO_PATH`, it is still automated browser media-fixture proof, not a human manual microphone proof. Use `REQUIRE_MANUAL_MIC=1 HEADLESS=0` when capturing a manual speaking artifact.
+The proof suite writes `artifacts/smoke/h100-proof-suite-<timestamp>/manifest.json` and fails unless the Remote.com local Moss artifact, local Qwen endpoint, local Parakeet endpoint, local Miso endpoint, model-chain smoke, and browser persona smoke all produce durable `result.json` evidence. The browser persona smoke clicks the visible Start AI Persona control, requires LiveKit plus a published mic, waits for the browser auto-stop lifecycle instead of directly calling the developer stop function, rejects bridge fallback/stubs, asserts worker buffered-audio proof matches the ASR endpoint audio hash, checks primitive browser actions, saves `events.json`, `browser-mic-proof.json`, `worker-audio-proof.json`, `asr-proof.json`, `proof-chain.json`, `result.json`, logs, and a final screenshot. With `BROWSER_MIC_AUDIO_PATH`, it is still automated browser media-fixture proof, not a human manual microphone proof. Use `REQUIRE_MANUAL_MIC=1 HEADLESS=0` when capturing a manual speaking artifact.
 
 Browser proof to capture manually after the automated harness:
 
 - transport chip says LiveKit data connected.
 - mic chip says published; blocked/no-audio is a failed H100 browser proof.
+- browser events include `browserMicMedia` for `published`, `turn_start`, and `turn_auto_stop`.
+- browser events include `browserVoiceTurnAutoStop`; a direct smoke-only `stopVoiceTurn()` is not proof of the product Start AI Persona lifecycle.
 - ASR final comes from `local-parakeet` with `source: livekit-audio-turn`, not typed transcript fallback.
 - transcript appends prospect and agent turns.
 - proof line includes local adapter labels.

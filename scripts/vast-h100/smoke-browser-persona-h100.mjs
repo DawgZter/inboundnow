@@ -346,6 +346,18 @@ try {
 
   await page.evaluate(() => window.OpenClickyWeb.setVoiceProfile("miso_lora_dev"));
   await page.waitForFunction(() => document.querySelector('[data-ocw-chip="voice"]')?.textContent.includes("Miso One"), null, { timeout: 10_000 });
+  const browserCaptureMs = Number(process.env.BROWSER_MIC_CAPTURE_MS || 3500);
+  const browserVadThreshold = Number(process.env.BROWSER_VAD_THRESHOLD || 0.012);
+  await page.evaluate(({ captureMs, vadThreshold }) => window.OpenClickyWeb.configureVoiceAutomation({
+    enabled: true,
+    intervalMs: 80,
+    threshold: vadThreshold,
+    minSpeechMs: 160,
+    minTurnMs: Math.min(800, Math.max(300, Math.floor(captureMs / 4))),
+    silenceMs: 650,
+    preSpeechTimeoutMs: Math.max(1200, captureMs),
+    maxTurnMs: captureMs,
+  }), { captureMs: browserCaptureMs, vadThreshold: browserVadThreshold });
 
   await page.click('[data-ocw-action="startpersona"]');
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "personaStarted" && event.detail.transport === "livekit"), null, { timeout: 30_000 });
@@ -362,8 +374,13 @@ try {
   assert.match(connected.transportChip, /LiveKit data connected/);
 
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrStatusReceived" && event.detail.status === "listening"), null, { timeout: 30_000 });
-  await page.waitForTimeout(Number(process.env.BROWSER_MIC_CAPTURE_MS || 3500));
-  await page.evaluate(() => window.OpenClickyWeb.stopVoiceTurn());
+  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "browserVoiceTurnAutomationStarted"), null, { timeout: 30_000 });
+  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "browserMicMedia" && event.detail.phase === "turn_start"), null, { timeout: 30_000 });
+  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "browserVoiceTurnAutoStop"), null, { timeout: Number(process.env.BROWSER_AUTO_STOP_TIMEOUT_MS || 30_000) });
+  await page.waitForFunction(() => {
+    return window.OpenClickyWeb.events().some((event) => event.type === "personaLoopTurnStopped" && event.detail.auto === true) &&
+      !window.OpenClickyWeb.debugState().activeVoiceTurnRequestId;
+  }, null, { timeout: 10_000 });
 
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrFinalReceived"), null, { timeout: Number(process.env.ASR_FINAL_TIMEOUT_MS || 120_000) });
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "agentAnswerReceived"), null, { timeout: Number(process.env.AGENT_ANSWER_TIMEOUT_MS || 120_000) });
@@ -374,10 +391,35 @@ try {
   const transcriptText = answered.transcript.map((turn) => turn.text).join("\n");
   assert.match(transcriptText, expectedTranscriptPattern, "transcript should include expected utterance content");
   assert.equal(hasEvent(answered, "asrStatusReceived", (detail) => ["no_audio", "empty_transcript"].includes(detail.status)), false, "H100 browser proof must not use no-audio or empty transcript fallback");
+  const browserMicProofs = answered.events
+    .filter((event) => event.type === "browserMicMedia")
+    .map((event) => event.detail);
+  const browserMicPublished = browserMicProofs.find((detail) => detail.phase === "published");
+  const browserMicStart = browserMicProofs.find((detail) => detail.phase === "turn_start");
+  const browserMicStop = browserMicProofs.find((detail) => detail.phase === "turn_auto_stop");
+  assert.ok(browserMicPublished, "browser must emit mic publication proof");
+  assert.ok(browserMicStart, "browser must emit mic proof at turn start");
+  assert.ok(browserMicStop, "browser must emit mic proof at automatic turn stop");
+  for (const proof of [browserMicPublished, browserMicStart, browserMicStop]) {
+    assert.match(String(proof.trackSource || ""), /microphone/i, "browser mic proof must identify microphone source");
+    assert.match(String(proof.trackKind || ""), /audio/i, "browser mic proof must identify an audio track");
+    assert.ok(proof.trackSid || proof.trackId, "browser mic proof must include track identity");
+    assert.equal(proof.readyState, "live", "browser mic track must be live during proof");
+    assert.equal(proof.enabled, true, "browser mic track must be enabled during proof");
+    assert.equal(proof.muted, false, "browser mic track must not be browser-muted during proof");
+  }
+  if (Number(browserMicStart.bytesSent || 0) > 0 && Number(browserMicStop.bytesSent || 0) > 0) {
+    assert.ok(Number(browserMicStop.bytesSent) >= Number(browserMicStart.bytesSent), "browser outbound audio bytes should not decrease during capture");
+  }
+  if (Number(browserMicStart.packetsSent || 0) > 0 && Number(browserMicStop.packetsSent || 0) > 0) {
+    assert.ok(Number(browserMicStop.packetsSent) >= Number(browserMicStart.packetsSent), "browser outbound audio packets should not decrease during capture");
+  }
+  assert.equal(hasEvent(answered, "browserVoiceTurnAutoStop"), true, "Start AI Persona must auto-stop the voice turn without direct smoke stop");
   const trackProof = eventOf(answered, "asrMediaReceived", (detail) => detail.phase === "track_subscribed");
   assert.ok(trackProof, "worker must report LiveKit audio track subscription");
   assert.ok(trackProof.detail.participantIdentity, "audio track proof must include participant identity");
   assert.ok(trackProof.detail.trackSid || trackProof.detail.trackSource || trackProof.detail.trackKind, "audio track proof must include track metadata");
+  assert.match(String(trackProof.detail.trackSource || ""), /microphone/i, "worker must subscribe to the browser microphone track");
   const mediaProof = eventOf(answered, "asrMediaReceived", (detail) => (
     detail.phase === "turn_stopped" &&
     Number(detail.frameCount || 0) > 0 &&
@@ -387,6 +429,13 @@ try {
     Boolean(detail.audioSha256)
   ));
   assert.ok(mediaProof, "worker must report non-empty buffered audio proof for the stopped turn");
+  assert.equal(mediaProof.detail.participantIdentity, trackProof.detail.participantIdentity, "worker media proof must use the subscribed participant");
+  if (mediaProof.detail.trackSid && trackProof.detail.trackSid) {
+    assert.equal(mediaProof.detail.trackSid, trackProof.detail.trackSid, "worker media proof must use the subscribed track");
+  }
+  assert.equal(Number(mediaProof.detail.sampleRate), 16000, "worker audio proof must use Parakeet sample rate");
+  assert.equal(Number(mediaProof.detail.channels), 1, "worker audio proof must be mono");
+  assert.ok(Number(mediaProof.detail.pcmBytes) >= Math.max(1, Math.floor(Number(mediaProof.detail.durationMs || 0) * 16)), "worker PCM bytes must be plausible for the captured duration");
   const asrFinal = eventOf(answered, "asrFinalReceived", (detail) => (
     detail.provider === "local-parakeet" &&
     detail.simulated === false &&
@@ -401,6 +450,7 @@ try {
     /h100/i.test(String(detail.gpuName || ""))
   ));
   assert.ok(asrFinal, "ASR final must come from browser LiveKit audio through real local Parakeet with endpoint provenance");
+  assert.equal(mediaProof.detail.requestId, asrFinal.detail.requestId, "worker media proof must carry the ASR request id");
   assert.equal(asrFinal.detail.inputAudioSha256, mediaProof.detail.audioSha256, "ASR endpoint must transcribe the same WAV bytes buffered by the worker");
   assert.equal(Number(asrFinal.detail.audioBytes), Number(mediaProof.detail.audioBytes), "ASR endpoint audio byte count must match worker WAV proof");
   assert.equal(asrFinal.detail.audioProof?.audioSha256 || "", mediaProof.detail.audioSha256, "ASR final must carry worker audio proof");
@@ -434,11 +484,34 @@ try {
   const screenshotPath = join(artifactDir, "final.png");
   await page.screenshot({ path: screenshotPath, fullPage: true });
   const eventsPath = join(artifactDir, "events.json");
+  const browserMicProofPath = join(artifactDir, "browser-mic-proof.json");
   const workerAudioProofPath = join(artifactDir, "worker-audio-proof.json");
   const asrProofPath = join(artifactDir, "asr-proof.json");
+  const proofChainPath = join(artifactDir, "proof-chain.json");
   await writeFile(eventsPath, JSON.stringify(answered.events, null, 2));
+  await writeFile(browserMicProofPath, JSON.stringify(browserMicProofs, null, 2));
   await writeFile(workerAudioProofPath, JSON.stringify(mediaProof.detail, null, 2));
   await writeFile(asrProofPath, JSON.stringify(asrFinal.detail, null, 2));
+  await writeFile(proofChainPath, JSON.stringify({
+    browser: {
+      published: browserMicPublished,
+      turnStart: browserMicStart,
+      turnStop: browserMicStop,
+    },
+    worker: {
+      trackSubscribed: trackProof.detail,
+      turnStopped: mediaProof.detail,
+    },
+    asr: asrFinal.detail,
+    checks: {
+      requestId: asrFinal.detail.requestId,
+      browserTrackId: browserMicStop.trackId || browserMicStart.trackId || "",
+      workerTrackSid: mediaProof.detail.trackSid || trackProof.detail.trackSid || "",
+      workerAudioSha256: mediaProof.detail.audioSha256,
+      asrInputAudioSha256: asrFinal.detail.inputAudioSha256,
+      audioHashMatched: mediaProof.detail.audioSha256 === asrFinal.detail.inputAudioSha256,
+    },
+  }, null, 2));
 
   const summary = {
     ok: true,
@@ -454,8 +527,10 @@ try {
     micAudioPath: requireManualMic ? "manual" : resolve(micAudioPath),
     screenshotPath,
     eventsPath,
+    browserMicProofPath,
     workerAudioProofPath,
     asrProofPath,
+    proofChainPath,
     services: {
       token: tokenHealth,
       moss: mossHealth,
@@ -468,6 +543,8 @@ try {
       bridgeDisabled: true,
       liveKitConnected: true,
       micPublished: requireManualMic ? "manual" : true,
+      startPersonaAutoStoppedTurn: true,
+      browserMicProof: true,
       workerAudioTrackSubscribed: true,
       workerBufferedAudioProof: true,
       asrEndpointMatchedWorkerAudioHash: true,

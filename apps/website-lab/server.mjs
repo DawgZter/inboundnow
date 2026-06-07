@@ -655,6 +655,7 @@ function injectedOpenClickyWeb() {
     var bridgeReady = false;
     var liveKitClientModulePromise = null;
     var liveKitRoomInstance = null;
+    var localMicPublication = null;
     var liveKitReady = false;
     var micPublished = false;
     var transportMode = 'idle';
@@ -717,6 +718,41 @@ function injectedOpenClickyWeb() {
       sources: []
     };
     var cachedSpeechVoice = null;
+    var voiceAutomationConfig = {
+      enabled: true,
+      intervalMs: 100,
+      silenceMs: 900,
+      minSpeechMs: 220,
+      minTurnMs: 800,
+      preSpeechTimeoutMs: 6000,
+      maxTurnMs: 12000,
+      threshold: 0.018
+    };
+    var voiceAutomation = {
+      running: false,
+      requestId: '',
+      startedAt: 0,
+      firstSpeechAt: 0,
+      lastSpeechAt: 0,
+      frames: 0,
+      speechFrames: 0,
+      peakLevel: 0,
+      lastLevel: 0,
+      stopReason: '',
+      timer: null,
+      context: null,
+      source: null,
+      analyser: null,
+      data: null
+    };
+    var personaLoop = {
+      active: false,
+      waitingForResponse: false,
+      restartTimer: null,
+      turnsStarted: 0,
+      lastTrigger: ''
+    };
+    var lastBrowserMicProof = null;
 
     var specs = {
       demo: [
@@ -761,6 +797,126 @@ function injectedOpenClickyWeb() {
 
     function setMicState(state, text) {
       setChip('mic', 'Mic: ' + text, state);
+    }
+
+    function currentMicPublication() {
+      if (localMicPublication) return localMicPublication;
+      var participant = liveKitRoomInstance && liveKitRoomInstance.localParticipant;
+      if (!participant) return null;
+      try {
+        if (participant.getTrackPublication) {
+          localMicPublication = participant.getTrackPublication('microphone') || localMicPublication;
+          if (localMicPublication) return localMicPublication;
+        }
+      } catch (e) {}
+      try {
+        var publications = participant.audioTrackPublications || participant.trackPublications;
+        if (publications && publications.forEach) {
+          publications.forEach(function(publication){
+            if (!localMicPublication && publication && (!publication.source || publication.source === 'microphone' || publication.kind === 'audio')) {
+              localMicPublication = publication;
+            }
+          });
+        }
+      } catch (e) {}
+      return localMicPublication;
+    }
+
+    function currentMicTrack() {
+      var publication = currentMicPublication();
+      return publication && (publication.audioTrack || publication.track) || null;
+    }
+
+    function currentMicMediaStreamTrack() {
+      var track = currentMicTrack();
+      return track && track.mediaStreamTrack || null;
+    }
+
+    function baseMicProof(requestId, phase) {
+      var publication = currentMicPublication();
+      var track = currentMicTrack();
+      var mediaTrack = currentMicMediaStreamTrack();
+      var settings = {};
+      try {
+        settings = mediaTrack && mediaTrack.getSettings ? mediaTrack.getSettings() : {};
+      } catch (e) {
+        settings = {};
+      }
+      return {
+        requestId: requestId || activeVoiceTurnRequestId || '',
+        phase: phase || '',
+        room: liveKitRoom,
+        identity: browserIdentity,
+        transport: transportMode,
+        trackSid: publication && (publication.trackSid || publication.sid || (publication.track && publication.track.sid)) || '',
+        trackName: publication && publication.trackName || '',
+        trackSource: publication && publication.source || track && track.source || 'microphone',
+        trackKind: publication && publication.kind || track && track.kind || mediaTrack && mediaTrack.kind || 'audio',
+        trackId: mediaTrack && mediaTrack.id || track && track.id || '',
+        readyState: mediaTrack && mediaTrack.readyState || '',
+        enabled: mediaTrack ? mediaTrack.enabled !== false : false,
+        muted: mediaTrack ? mediaTrack.muted === true : false,
+        settings: {
+          deviceId: settings.deviceId ? '[redacted-device-id]' : '',
+          sampleRate: settings.sampleRate || null,
+          channelCount: settings.channelCount || null,
+          echoCancellation: settings.echoCancellation ?? null,
+          noiseSuppression: settings.noiseSuppression ?? null,
+          autoGainControl: settings.autoGainControl ?? null,
+        },
+        bytesSent: null,
+        packetsSent: null,
+        audioLevel: null,
+        totalAudioEnergy: null,
+        totalSamplesDuration: null,
+        statsTimestamp: null
+      };
+    }
+
+    async function collectBrowserMicProof(requestId, phase) {
+      var proof = baseMicProof(requestId, phase);
+      var track = currentMicTrack();
+      try {
+        if (track && typeof track.getSenderStats === 'function') {
+          var senderStats = await track.getSenderStats();
+          if (senderStats) {
+            proof.bytesSent = Number(senderStats.bytesSent || 0);
+            proof.packetsSent = Number(senderStats.packetsSent || 0);
+            proof.statsTimestamp = senderStats.timestamp || proof.statsTimestamp;
+          }
+        }
+      } catch (e) {
+        proof.statsError = e.message || String(e);
+      }
+      try {
+        if (track && typeof track.getRTCStatsReport === 'function') {
+          var report = await track.getRTCStatsReport();
+          if (report && report.forEach) {
+            report.forEach(function(stat){
+              if (stat.type === 'outbound-rtp' && (stat.kind === 'audio' || stat.mediaType === 'audio')) {
+                proof.bytesSent = Number(stat.bytesSent || proof.bytesSent || 0);
+                proof.packetsSent = Number(stat.packetsSent || proof.packetsSent || 0);
+                proof.statsTimestamp = stat.timestamp || proof.statsTimestamp;
+              }
+              if ((stat.type === 'media-source' || stat.type === 'track') && (stat.kind === 'audio' || stat.mediaType === 'audio')) {
+                if (stat.audioLevel !== undefined) proof.audioLevel = Number(stat.audioLevel);
+                if (stat.totalAudioEnergy !== undefined) proof.totalAudioEnergy = Number(stat.totalAudioEnergy);
+                if (stat.totalSamplesDuration !== undefined) proof.totalSamplesDuration = Number(stat.totalSamplesDuration);
+              }
+            });
+          }
+        }
+      } catch (e) {
+        proof.rtcStatsError = e.message || String(e);
+      }
+      lastBrowserMicProof = proof;
+      return proof;
+    }
+
+    async function emitBrowserMicMedia(phase, requestId, extra) {
+      var proof = await collectBrowserMicProof(requestId, phase);
+      emit('browserMicMedia', Object.assign({}, proof, extra || {}));
+      return proof;
     }
 
     function setAsrState(state, text) {
@@ -901,12 +1057,247 @@ function injectedOpenClickyWeb() {
         ts: new Date().toISOString()
       };
       events.push(event);
-      if (events.length > 80) events.shift();
+      if (events.length > 300) events.shift();
       try { window.dispatchEvent(new CustomEvent('openClickyWeb:event', { detail: event })); } catch (e) {}
       try {
         sendAgentMessage({ type: 'browser.event', event: event, bookingState: bookingState });
       } catch (e) {}
       return event;
+    }
+
+    function voiceAutomationSummary(reason) {
+      var now = Date.now();
+      return {
+        requestId: voiceAutomation.requestId || '',
+        reason: reason || voiceAutomation.stopReason || '',
+        elapsedMs: voiceAutomation.startedAt ? Math.max(0, now - voiceAutomation.startedAt) : 0,
+        firstSpeechMs: voiceAutomation.firstSpeechAt && voiceAutomation.startedAt ? Math.max(0, voiceAutomation.firstSpeechAt - voiceAutomation.startedAt) : null,
+        lastSpeechMs: voiceAutomation.lastSpeechAt && voiceAutomation.startedAt ? Math.max(0, voiceAutomation.lastSpeechAt - voiceAutomation.startedAt) : null,
+        frames: voiceAutomation.frames || 0,
+        speechFrames: voiceAutomation.speechFrames || 0,
+        peakLevel: Number((voiceAutomation.peakLevel || 0).toFixed(4)),
+        lastLevel: Number((voiceAutomation.lastLevel || 0).toFixed(4))
+      };
+    }
+
+    function closeVoiceAutomationAudio() {
+      if (voiceAutomation.timer) {
+        window.clearTimeout(voiceAutomation.timer);
+        voiceAutomation.timer = null;
+      }
+      try {
+        if (voiceAutomation.source) voiceAutomation.source.disconnect();
+      } catch (e) {}
+      try {
+        if (voiceAutomation.analyser) voiceAutomation.analyser.disconnect();
+      } catch (e) {}
+      try {
+        if (voiceAutomation.context && voiceAutomation.context.state !== 'closed') voiceAutomation.context.close();
+      } catch (e) {}
+      voiceAutomation.source = null;
+      voiceAutomation.analyser = null;
+      voiceAutomation.context = null;
+      voiceAutomation.data = null;
+    }
+
+    function stopVoiceTurnAutomation(reason, emitEvent) {
+      var wasRunning = voiceAutomation.running;
+      var summary = voiceAutomationSummary(reason || 'stopped');
+      closeVoiceAutomationAudio();
+      voiceAutomation.running = false;
+      voiceAutomation.requestId = '';
+      voiceAutomation.stopReason = reason || '';
+      if (wasRunning && emitEvent !== false) emit('browserVoiceTurnAutomationStopped', summary);
+      return summary;
+    }
+
+    function configureVoiceAutomation(options) {
+      if (!options || typeof options !== 'object') return Object.assign({}, voiceAutomationConfig);
+      ['intervalMs', 'silenceMs', 'minSpeechMs', 'minTurnMs', 'preSpeechTimeoutMs', 'maxTurnMs', 'threshold'].forEach(function(key){
+        if (options[key] !== undefined && Number(options[key]) >= 0) voiceAutomationConfig[key] = Number(options[key]);
+      });
+      if (options.enabled !== undefined) voiceAutomationConfig.enabled = !!options.enabled;
+      emit('browserVoiceAutomationConfigured', Object.assign({}, voiceAutomationConfig));
+      return Object.assign({}, voiceAutomationConfig);
+    }
+
+    function scheduleVoiceAutomationTick() {
+      if (!voiceAutomation.running) return;
+      voiceAutomation.timer = window.setTimeout(runVoiceAutomationTick, Math.max(40, Number(voiceAutomationConfig.intervalMs || 100)));
+    }
+
+    function completeVoiceTurnAutomatically(reason) {
+      if (!voiceAutomation.running || !activeVoiceTurnRequestId) return;
+      var requestId = activeVoiceTurnRequestId;
+      var summary = voiceAutomationSummary(reason);
+      emit('browserVoiceTurnAutoStop', summary);
+      Promise.resolve(stopVoiceTurn({ reason: reason || 'auto_silence', auto: true, requestId: requestId })).catch(function(error){
+        setStatus(error.message || String(error));
+        emit('browserVoiceTurnAutoStopFailed', { requestId: requestId, reason: reason || '', message: error.message || String(error) });
+      });
+    }
+
+    function runVoiceAutomationTick() {
+      if (!voiceAutomation.running || !voiceAutomation.analyser || !voiceAutomation.data) return;
+      var now = Date.now();
+      var level = 0;
+      try {
+        voiceAutomation.analyser.getByteTimeDomainData(voiceAutomation.data);
+        var total = 0;
+        for (var index = 0; index < voiceAutomation.data.length; index += 1) {
+          var sample = (voiceAutomation.data[index] - 128) / 128;
+          total += sample * sample;
+        }
+        level = Math.sqrt(total / Math.max(1, voiceAutomation.data.length));
+      } catch (e) {
+        emit('browserVoiceTurnAutomationFailed', { requestId: voiceAutomation.requestId, message: e.message || String(e) });
+        stopVoiceTurnAutomation('analyser_failed');
+        return;
+      }
+      voiceAutomation.frames += 1;
+      voiceAutomation.lastLevel = level;
+      voiceAutomation.peakLevel = Math.max(voiceAutomation.peakLevel || 0, level);
+      var threshold = Number(voiceAutomationConfig.threshold || 0.018);
+      if (level >= threshold) {
+        voiceAutomation.speechFrames += 1;
+        if (!voiceAutomation.firstSpeechAt) {
+          voiceAutomation.firstSpeechAt = now;
+          emit('browserVoiceActivityStarted', voiceAutomationSummary('speech_detected'));
+        }
+        voiceAutomation.lastSpeechAt = now;
+      }
+      var elapsedMs = now - voiceAutomation.startedAt;
+      var speechMs = voiceAutomation.firstSpeechAt ? now - voiceAutomation.firstSpeechAt : 0;
+      var silenceMs = voiceAutomation.lastSpeechAt ? now - voiceAutomation.lastSpeechAt : 0;
+      if (
+        voiceAutomation.firstSpeechAt &&
+        speechMs >= Number(voiceAutomationConfig.minSpeechMs || 0) &&
+        elapsedMs >= Number(voiceAutomationConfig.minTurnMs || 0) &&
+        silenceMs >= Number(voiceAutomationConfig.silenceMs || 900)
+      ) {
+        completeVoiceTurnAutomatically('silence');
+        return;
+      }
+      if (!voiceAutomation.firstSpeechAt && elapsedMs >= Number(voiceAutomationConfig.preSpeechTimeoutMs || 6000)) {
+        completeVoiceTurnAutomatically('no_speech_timeout');
+        return;
+      }
+      if (elapsedMs >= Number(voiceAutomationConfig.maxTurnMs || 12000)) {
+        completeVoiceTurnAutomatically('max_turn_ms');
+        return;
+      }
+      scheduleVoiceAutomationTick();
+    }
+
+    function startVoiceTurnAutomation(requestId, options) {
+      var nextConfig = Object.assign({}, options || {});
+      if (nextConfig.enabled === undefined) nextConfig.enabled = voiceAutomationConfig.enabled;
+      var config = configureVoiceAutomation(nextConfig);
+      if (!config.enabled) return false;
+      stopVoiceTurnAutomation('restart', false);
+      var mediaTrack = currentMicMediaStreamTrack();
+      if (!mediaTrack) {
+        emit('browserVoiceTurnAutomationUnavailable', { requestId: requestId, reason: 'missing_microphone_track' });
+        return false;
+      }
+      var AudioContextCtor = window.AudioContext || window.webkitAudioContext;
+      if (!AudioContextCtor || !window.MediaStream) {
+        emit('browserVoiceTurnAutomationUnavailable', { requestId: requestId, reason: 'web_audio_unavailable' });
+        return false;
+      }
+      try {
+        var context = new AudioContextCtor();
+        try {
+          if (context.state === 'suspended' && context.resume) context.resume().catch(function(){});
+        } catch (e) {}
+        var stream = new MediaStream([mediaTrack]);
+        var source = context.createMediaStreamSource(stream);
+        var analyser = context.createAnalyser();
+        analyser.fftSize = 1024;
+        analyser.smoothingTimeConstant = 0.25;
+        source.connect(analyser);
+        voiceAutomation.running = true;
+        voiceAutomation.requestId = requestId;
+        voiceAutomation.startedAt = Date.now();
+        voiceAutomation.firstSpeechAt = 0;
+        voiceAutomation.lastSpeechAt = 0;
+        voiceAutomation.frames = 0;
+        voiceAutomation.speechFrames = 0;
+        voiceAutomation.peakLevel = 0;
+        voiceAutomation.lastLevel = 0;
+        voiceAutomation.stopReason = '';
+        voiceAutomation.context = context;
+        voiceAutomation.source = source;
+        voiceAutomation.analyser = analyser;
+        voiceAutomation.data = new Uint8Array(analyser.fftSize);
+        emit('browserVoiceTurnAutomationStarted', {
+          requestId: requestId,
+          threshold: config.threshold,
+          silenceMs: config.silenceMs,
+          maxTurnMs: config.maxTurnMs,
+          trackId: mediaTrack.id || '',
+          readyState: mediaTrack.readyState || ''
+        });
+        scheduleVoiceAutomationTick();
+        return true;
+      } catch (e) {
+        stopVoiceTurnAutomation('start_failed', false);
+        emit('browserVoiceTurnAutomationUnavailable', { requestId: requestId, reason: 'start_failed', message: e.message || String(e) });
+        return false;
+      }
+    }
+
+    function clearPersonaLoopRestart() {
+      if (personaLoop.restartTimer) {
+        window.clearTimeout(personaLoop.restartTimer);
+        personaLoop.restartTimer = null;
+      }
+    }
+
+    function setPersonaLoopActive(active, reason) {
+      var nextActive = !!active;
+      var changed = personaLoop.active !== nextActive;
+      personaLoop.active = nextActive;
+      personaLoop.waitingForResponse = false;
+      personaLoop.lastTrigger = reason || '';
+      if (!active) clearPersonaLoopRestart();
+      if (!changed) return;
+      emit(active ? 'personaLoopStarted' : 'personaLoopStopped', {
+        reason: reason || '',
+        turnsStarted: personaLoop.turnsStarted || 0
+      });
+    }
+
+    function personaPlaybackTailMs() {
+      try {
+        if (modelAudioState.context && modelAudioState.nextStartTime) {
+          return Math.max(0, Math.ceil((modelAudioState.nextStartTime - modelAudioState.context.currentTime) * 1000));
+        }
+      } catch (e) {}
+      return 0;
+    }
+
+    function scheduleNextPersonaTurn(trigger) {
+      if (!personaLoop.active || activeVoiceTurnRequestId || !liveKitReady || !micPublished) return;
+      clearPersonaLoopRestart();
+      personaLoop.waitingForResponse = false;
+      personaLoop.lastTrigger = trigger || '';
+      var delayMs = Math.max(650, personaPlaybackTailMs() + 350);
+      setTurnState('idle', 'ready');
+      setStatus('Persona is ready for the next voice turn.');
+      emit('personaLoopNextTurnScheduled', {
+        trigger: trigger || '',
+        delayMs: delayMs,
+        turnsStarted: personaLoop.turnsStarted || 0
+      });
+      personaLoop.restartTimer = window.setTimeout(function(){
+        personaLoop.restartTimer = null;
+        if (!personaLoop.active || activeVoiceTurnRequestId || !liveKitReady || !micPublished) return;
+        startVoiceTurn({ requireVoicePath: true, autoStop: true }).catch(function(error){
+          setStatus(error.message || String(error));
+          emit('personaLoopNextTurnFailed', { trigger: trigger || '', message: error.message || String(error) });
+        });
+      }, delayMs);
     }
 
     function appendTranscript(role, text) {
@@ -1077,7 +1468,12 @@ function injectedOpenClickyWeb() {
     function pumpSpeechQueue(generation) {
       if (speechState.generation !== generation || speechState.speaking) return;
       if (!speechState.queue.length) {
-        if (speechState.ended) setTurnState('idle', 'idle');
+        if (speechState.ended) {
+          setTurnState('idle', 'idle');
+          if (personaLoop.active && personaLoop.waitingForResponse && !modelAudioState.requestId) {
+            scheduleNextPersonaTurn('speech_stream_ended');
+          }
+        }
         return;
       }
 
@@ -1423,6 +1819,9 @@ function injectedOpenClickyWeb() {
         scheduledChunks: modelAudioState.chunkCount,
         playedChunks: modelAudioState.playedChunks
       });
+      if (personaLoop.active && personaLoop.waitingForResponse) {
+        scheduleNextPersonaTurn('tts_audio_ended');
+      }
     }
 
     function failTtsAudioStream(message) {
@@ -1520,6 +1919,8 @@ function injectedOpenClickyWeb() {
       room.on(RoomEvent.Disconnected, function(){
         liveKitReady = false;
         micPublished = false;
+        localMicPublication = null;
+        stopVoiceTurnAutomation('livekit_disconnected');
         if (transportMode === 'livekit') {
           setAgentState('offline', 'LiveKit room disconnected');
           setTransportState('idle', 'disconnected');
@@ -1537,16 +1938,21 @@ function injectedOpenClickyWeb() {
 
       try {
         setMicState('connecting', 'requesting');
-        await room.localParticipant.setMicrophoneEnabled(true, {
+        localMicPublication = await room.localParticipant.setMicrophoneEnabled(true, {
           echoCancellation: true,
           noiseSuppression: true,
           autoGainControl: true
         });
+        currentMicPublication();
         micPublished = true;
         setMicState('published', 'published');
-        emit('liveKitMicPublished', { room: liveKitRoom, identity: browserIdentity });
+        emit('liveKitMicPublished', baseMicProof('', 'published'));
+        emitBrowserMicMedia('published', '').catch(function(error){
+          emit('browserMicMediaFailed', { phase: 'published', message: error.message || String(error) });
+        });
       } catch (e) {
         micPublished = false;
+        localMicPublication = null;
         setMicState('blocked', 'blocked');
         emit('liveKitMicPublishFailed', { message: e.message || String(e) });
         if (requireLiveKit) {
@@ -1651,9 +2057,12 @@ function injectedOpenClickyWeb() {
       bridgeReady = false;
       liveKitReady = false;
       micPublished = false;
+      localMicPublication = null;
       liveKitRoomInstance = null;
       transportMode = 'idle';
       activeVoiceTurnRequestId = '';
+      setPersonaLoopActive(false, 'disconnect');
+      stopVoiceTurnAutomation('disconnect');
       stopSpeech();
       setAgentState('offline', 'Local transport offline');
       setTransportState('idle', 'idle');
@@ -1672,6 +2081,8 @@ function injectedOpenClickyWeb() {
       actionGeneration += 1;
       actionLock = Promise.resolve();
       activeVoiceTurnRequestId = '';
+      setPersonaLoopActive(false, 'interrupt');
+      stopVoiceTurnAutomation('interrupt');
       stopSpeech();
       setTurnState('interrupted', 'interrupted');
       setAsrState('interrupted', 'interrupted');
@@ -1761,8 +2172,15 @@ function injectedOpenClickyWeb() {
       activeVoiceTurnRequestId = 'asr_' + Math.random().toString(36).slice(2, 10);
       setAsrState('listening', liveKitReady ? 'listening' : 'waiting for audio');
       setTurnState('listening', 'listening');
-      setStatus(liveKitReady ? 'Voice turn started. Speak, then stop the turn.' : 'Voice turn started without LiveKit mic frames; text fallback remains available.');
-      updateTranscript('Voice turn started. Speak, then stop the turn.', 'system');
+      var automatedTurn = voiceOptions.autoStop === true && liveKitReady && micPublished;
+      setStatus(liveKitReady
+        ? (automatedTurn ? 'Voice turn started. Speak naturally; I will stop after silence.' : 'Voice turn started. Speak, then stop the turn.')
+        : 'Voice turn started without LiveKit mic frames; text fallback remains available.');
+      updateTranscript(automatedTurn ? 'Voice turn started. Speak naturally; I will stop after silence.' : 'Voice turn started. Speak, then stop the turn.', 'system');
+      var browserMicProof = null;
+      if (liveKitReady && micPublished) {
+        browserMicProof = await emitBrowserMicMedia('turn_start', activeVoiceTurnRequestId, { automatedTurn: automatedTurn });
+      }
       await sendAgentMessage({
         id: activeVoiceTurnRequestId,
         type: 'prospect.asr.start',
@@ -1770,28 +2188,61 @@ function injectedOpenClickyWeb() {
         transport: liveKitReady ? 'livekit' : 'bridge',
         bookingState: bookingState,
         voiceProfile: activeVoiceProfile,
+        browserMicProof: browserMicProof,
       });
+      if (automatedTurn) startVoiceTurnAutomation(activeVoiceTurnRequestId, voiceOptions.automation || {});
+      if (automatedTurn && personaLoop.active) personaLoop.turnsStarted += 1;
     }
 
     async function startPersona() {
       setStatus('Starting AI persona.');
-      await startVoiceTurn({ requireVoicePath: true });
+      setPersonaLoopActive(true, 'start_persona');
+      try {
+        await startVoiceTurn({ requireVoicePath: true, autoStop: true });
+      } catch (error) {
+        setPersonaLoopActive(false, 'start_failed');
+        throw error;
+      }
       if (activeVoiceTurnRequestId && liveKitReady && micPublished) {
-        emit('personaStarted', { requestId: activeVoiceTurnRequestId, transport: 'livekit', micPublished: true });
+        emit('personaStarted', { requestId: activeVoiceTurnRequestId, transport: 'livekit', micPublished: true, autoStop: true });
       }
     }
 
-    async function stopVoiceTurn() {
+    async function stopPersona() {
+      setPersonaLoopActive(false, 'stop_persona');
+      stopVoiceTurnAutomation('stop_persona');
+      if (activeVoiceTurnRequestId) {
+        await stopVoiceTurn({ reason: 'stop_persona', auto: false });
+      }
+      setStatus('AI persona stopped. Local transport remains connected.');
+    }
+
+    async function stopVoiceTurn(options) {
+      var stopOptions = options || {};
       if (!activeVoiceTurnRequestId) {
         setStatus('No active voice turn to stop.');
         return;
       }
       var requestId = activeVoiceTurnRequestId;
       activeVoiceTurnRequestId = '';
+      var automationSummary = stopVoiceTurnAutomation(stopOptions.reason || (stopOptions.auto ? 'auto' : 'manual'));
+      var browserMicProof = null;
+      if (liveKitReady && micPublished) {
+        browserMicProof = await emitBrowserMicMedia(stopOptions.auto ? 'turn_auto_stop' : 'turn_stop', requestId, automationSummary);
+      }
+      if (personaLoop.active) {
+        personaLoop.waitingForResponse = true;
+        emit('personaLoopTurnStopped', {
+          requestId: requestId,
+          reason: automationSummary.reason || '',
+          auto: stopOptions.auto === true,
+          turnsStarted: personaLoop.turnsStarted || 0
+        });
+      }
       var snapshot = snapshotPage();
       setAsrState('transcribing', 'transcribing');
       setTurnState('sent', 'audio sent');
-      setStatus('Stopped voice turn; waiting for local ASR transcript.');
+      setStatus(stopOptions.auto ? 'Voice turn ended after silence; waiting for local ASR transcript.' : 'Stopped voice turn; waiting for local ASR transcript.');
       await sendAgentMessage({
         id: requestId,
         type: 'prospect.asr.stop',
@@ -1806,6 +2257,8 @@ function injectedOpenClickyWeb() {
         },
         bookingState: bookingState,
         voiceProfile: activeVoiceProfile,
+        browserMicProof: browserMicProof,
+        automation: automationSummary,
       });
     }
 
@@ -1867,6 +2320,8 @@ function injectedOpenClickyWeb() {
       if (message.type === 'agent.error') {
         setAgentState('waiting', 'Agent reported an error');
         setTurnState('interrupted', 'error');
+        setPersonaLoopActive(false, 'agent_error');
+        stopVoiceTurnAutomation('agent_error');
         setStatus(message.message || 'Agent error.');
         setProofLine('Agent error: ' + (message.code || 'unknown') + '.');
         return;
@@ -2855,8 +3310,11 @@ function injectedOpenClickyWeb() {
       showBookingPrompt: function(){ return enqueue({ type: 'showBookingPrompt' }); },
       runPayrollFlow: function(){ return enqueue({ type: 'payrollFlow' }); },
       startPersona: startPersona,
+      stopPersona: stopPersona,
       connectAgentTransport: connectAgentTransport,
       disconnectAgentTransport: disconnectAgentTransport,
+      configureVoiceAutomation: configureVoiceAutomation,
+      browserMicProof: function(){ return lastBrowserMicProof ? Object.assign({}, lastBrowserMicProof) : null; },
       sendFinalTranscript: function(text){
         if (text) commandInput.value = text;
         return sendFinalTranscript(true);
@@ -2880,6 +3338,19 @@ function injectedOpenClickyWeb() {
           micPublished: micPublished,
           bridgeReady: bridgeReady,
           activeVoiceTurnRequestId: activeVoiceTurnRequestId,
+          voiceAutomation: Object.assign({}, voiceAutomationConfig, voiceAutomationSummary(voiceAutomation.stopReason), {
+            running: voiceAutomation.running
+          }),
+          lastBrowserMicProof: lastBrowserMicProof ? {
+            phase: lastBrowserMicProof.phase || '',
+            trackSid: lastBrowserMicProof.trackSid || '',
+            trackSource: lastBrowserMicProof.trackSource || '',
+            trackId: lastBrowserMicProof.trackId || '',
+            bytesSent: lastBrowserMicProof.bytesSent,
+            packetsSent: lastBrowserMicProof.packetsSent,
+            audioLevel: lastBrowserMicProof.audioLevel,
+            totalAudioEnergy: lastBrowserMicProof.totalAudioEnergy
+          } : null,
           actionGeneration: actionGeneration
         };
       },

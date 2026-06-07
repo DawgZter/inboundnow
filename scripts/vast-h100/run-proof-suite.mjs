@@ -250,10 +250,19 @@ function stepDefinitions() {
       validate(payload) {
         requireOk(payload, "H100 browser persona smoke");
         assert.equal(payload.checks?.liveKitConnected, true);
+        assert.equal(payload.checks?.startPersonaAutoStoppedTurn, true);
+        assert.equal(payload.checks?.browserMicProof, true);
         assert.equal(payload.checks?.workerBufferedAudioProof, true);
         assert.equal(payload.checks?.asrEndpointMatchedWorkerAudioHash, true);
+        assert.equal(payload.checks?.asrFinalLocalParakeet, true);
+        assert.equal(payload.checks?.qwenPlannerNoFallback, true);
+        assert.equal(payload.checks?.primitiveActionsOnly, true);
         assert.equal(payload.checks?.localMisoOneVerifiedAudio, true);
         assert.equal(payload.checks?.calGatedBeforeConfirmation, true);
+        assert.equal(payload.checks?.calLoadsAfterExplicitConfirmation, true);
+        assert.ok(payload.browserMicProofPath, "browser proof must save browser mic stats");
+        assert.ok(payload.proofChainPath, "browser proof must save a browser-worker-ASR proof chain");
+        assert.match(String(payload.boundary || ""), /media-fixture|Manual browser microphone/i, "browser proof boundary must identify manual vs media-fixture mode");
       },
       summary(payload) {
         return { artifactDir: payload.artifactDir, screenshotPath: payload.screenshotPath, boundary: payload.boundary };

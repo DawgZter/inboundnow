@@ -10,7 +10,7 @@ Confirm `livekit-server --dev` is running and listening on `ws://127.0.0.1:7880`
 
 ## Mic Is Blocked Or Missing
 
-The browser requests mic publication from the `Connect local transport` action. Mic failure does not mean ASR failed, because ASR is not wired yet. It only means browser audio publication was not available in that run.
+The browser requests mic publication from `Start AI Persona` in the product path, with `Connect local transport` kept as a developer control. Mic failure does not mean Parakeet failed; it means browser audio publication was not available for the LiveKit ASR turn. In H100 proof mode, a valid run must show browser mic proof, worker audio proof, and local Parakeet endpoint provenance.
 
 ## Remote Page Target Drift
 
