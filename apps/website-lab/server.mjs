@@ -280,12 +280,43 @@ function injectedOpenClickyWeb() {
     #ocw-root[data-agent-state="waiting"] .ocw-agent-dot {
       background: #f59e0b; box-shadow: 0 0 0 3px rgba(245, 158, 11, 0.18);
     }
-    .ocw-bridge-actions { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 7px; }
+    .ocw-bridge-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 7px; }
     .ocw-bridge-actions button {
-      min-height: 34px; border: 1px solid rgba(17, 24, 39, 0.12); border-radius: 8px;
+      min-height: 36px; border: 1px solid rgba(17, 24, 39, 0.12); border-radius: 8px;
       background: #fff; color: #111827; cursor: pointer; font-size: 11px; font-weight: 730;
+      line-height: 1.15; white-space: normal;
     }
     .ocw-bridge-actions button:hover { border-color: rgba(5, 100, 255, 0.45); }
+    .ocw-bridge-actions button[data-ocw-action="interruptresponse"] { grid-column: span 2; }
+    .ocw-proof {
+      display: flex; flex-wrap: wrap; gap: 6px; margin-top: 9px;
+    }
+    .ocw-chip {
+      display: inline-flex; align-items: center; min-height: 23px; max-width: 100%;
+      padding: 4px 7px; border-radius: 999px; border: 1px solid rgba(17, 24, 39, 0.10);
+      background: rgba(255, 255, 255, 0.72); color: #475569; font-size: 10px; font-weight: 720;
+      line-height: 1.15; overflow-wrap: anywhere;
+    }
+    .ocw-chip[data-state="livekit"],
+    .ocw-chip[data-state="online"],
+    .ocw-chip[data-state="published"],
+    .ocw-chip[data-state="answered"] {
+      border-color: rgba(22, 163, 74, 0.24); background: rgba(240, 253, 244, 0.88); color: #166534;
+    }
+    .ocw-chip[data-state="connecting"],
+    .ocw-chip[data-state="waiting"],
+    .ocw-chip[data-state="sent"],
+    .ocw-chip[data-state="speaking"] {
+      border-color: rgba(245, 158, 11, 0.26); background: rgba(255, 251, 235, 0.9); color: #92400e;
+    }
+    .ocw-chip[data-state="bridge"],
+    .ocw-chip[data-state="interrupted"],
+    .ocw-chip[data-state="blocked"] {
+      border-color: rgba(5, 100, 255, 0.24); background: rgba(239, 246, 255, 0.9); color: #1d4ed8;
+    }
+    .ocw-proof-line {
+      margin-top: 7px; color: #64748b; font-size: 10px; line-height: 1.35; overflow-wrap: anywhere;
+    }
     .ocw-size {
       margin-top: 10px; padding: 9px 10px 10px; border-radius: 8px;
       border: 1px solid rgba(17, 24, 39, 0.10); background: rgba(249, 250, 251, 0.82);
@@ -304,12 +335,18 @@ function injectedOpenClickyWeb() {
     }
     .ocw-status {
       margin-top: 10px; min-height: 18px; font-size: 11px; color: #4b5563;
-      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      line-height: 1.35; overflow-wrap: anywhere;
     }
     .ocw-transcript {
-      margin: 0 0 10px; min-height: 54px; padding: 10px 11px; border-radius: 8px;
+      display: grid; gap: 7px; margin: 0 0 10px; min-height: 54px; max-height: 132px;
+      overflow: auto; padding: 10px 11px; border-radius: 8px;
       border: 1px solid rgba(17, 24, 39, 0.10); background: rgba(249, 250, 251, 0.88);
       color: #253041; font-size: 12px; line-height: 1.45;
+    }
+    .ocw-turn { overflow-wrap: anywhere; }
+    .ocw-turn strong {
+      display: block; margin-bottom: 1px; color: #64748b; font-size: 10px; font-weight: 760;
+      text-transform: uppercase;
     }
 
     .ocw-cursor {
@@ -415,25 +452,36 @@ function injectedOpenClickyWeb() {
       <img class="ocw-mark" src="${cursorUrl}" alt="" aria-hidden="true" />
       <div class="ocw-title">
         <strong>Remote AI guide</strong>
-        <span>Voice-ready website co-pilot</span>
+        <span>Local SDR guide</span>
       </div>
     </div>
     <div class="ocw-body">
-      <p class="ocw-transcript">Ask how Remote helps with global payroll and I will guide the page while answering.</p>
+      <div class="ocw-transcript" role="log" aria-live="polite">
+        <div class="ocw-turn" data-role="system"><strong>System</strong>Ask how Remote helps with global payroll and I will guide the page while answering.</div>
+      </div>
       <div class="ocw-bridge" data-token-server="${tokenServerUrl}" data-livekit-room="${liveKitRoom}">
-        <div class="ocw-agent-state"><span class="ocw-agent-dot"></span><span class="ocw-agent-copy">Simulated agent bridge offline</span></div>
+        <div class="ocw-agent-state"><span class="ocw-agent-dot"></span><span class="ocw-agent-copy">Local transport offline</span></div>
         <div class="ocw-bridge-actions">
-          <button data-ocw-action="connectagent" type="button">Connect</button>
+          <button data-ocw-action="connectagent" type="button">Connect local transport</button>
+          <button data-ocw-action="disconnecttransport" type="button">Disconnect</button>
           <button data-ocw-action="askagent" type="button">Ask agent</button>
-          <button data-ocw-action="simulatevoice" type="button">Sim voice</button>
+          <button data-ocw-action="simulatevoice" type="button">Send simulated transcript</button>
+          <button data-ocw-action="interruptresponse" type="button">Interrupt</button>
         </div>
+        <div class="ocw-proof" aria-label="Local voice proof states">
+          <span class="ocw-chip" data-ocw-chip="transport" data-state="idle">Transport: idle</span>
+          <span class="ocw-chip" data-ocw-chip="mic" data-state="off">Mic: not published</span>
+          <span class="ocw-chip" data-ocw-chip="agent" data-state="offline">Agent: offline</span>
+          <span class="ocw-chip" data-ocw-chip="turn" data-state="idle">Turn: idle</span>
+        </div>
+        <div class="ocw-proof-line">LiveKit data/control is local. Mic can publish when permitted; ASR is not attached yet.</div>
       </div>
       <form class="ocw-command">
         <input class="ocw-input" value="How does Remote help with global payroll?" autocomplete="off" aria-label="Voice guide command" />
         <button class="ocw-run" type="submit">Run</button>
       </form>
       <div class="ocw-grid">
-        <button class="ocw-action primary" data-ocw-action="payrollflow" type="button">Deterministic fallback</button>
+        <button class="ocw-action primary" data-ocw-action="payrollflow" type="button">Scripted payroll demo</button>
         <button class="ocw-action" data-ocw-action="showbookingprompt" type="button">Book meeting</button>
         <button class="ocw-action" data-ocw-action="payroll" type="button">Show payroll</button>
         <button class="ocw-action" data-ocw-action="snapshot" type="button">Snapshot</button>
@@ -481,6 +529,13 @@ function injectedOpenClickyWeb() {
     var highlight = root.querySelector('.ocw-highlight');
     var status = root.querySelector('.ocw-status');
     var transcript = root.querySelector('.ocw-transcript');
+    var proofLine = root.querySelector('.ocw-proof-line');
+    var proofChips = {
+      transport: root.querySelector('[data-ocw-chip="transport"]'),
+      mic: root.querySelector('[data-ocw-chip="mic"]'),
+      agent: root.querySelector('[data-ocw-chip="agent"]'),
+      turn: root.querySelector('[data-ocw-chip="turn"]')
+    };
     var scheduler = root.querySelector('.ocw-scheduler');
     var bookingPrompt = root.querySelector('.ocw-booking-prompt');
     var bridgePanel = root.querySelector('.ocw-bridge');
@@ -506,6 +561,9 @@ function injectedOpenClickyWeb() {
     var textEncoder = new TextEncoder();
     var textDecoder = new TextDecoder();
     var bookingState = 'none';
+    var transcriptTurnLimit = 7;
+    var lastAgentAnswer = '';
+    var lastAdapterProof = '';
 
     var specs = {
       demo: [
@@ -537,6 +595,33 @@ function injectedOpenClickyWeb() {
       if (status) status.textContent = text;
     }
 
+    function setChip(name, text, state) {
+      var chip = proofChips[name];
+      if (!chip) return;
+      chip.textContent = text;
+      chip.dataset.state = state || 'idle';
+    }
+
+    function setTransportState(state, text) {
+      setChip('transport', 'Transport: ' + text, state);
+    }
+
+    function setMicState(state, text) {
+      setChip('mic', 'Mic: ' + text, state);
+    }
+
+    function setTurnState(state, text) {
+      setChip('turn', 'Turn: ' + text, state);
+    }
+
+    function setProofLine(text) {
+      if (proofLine) proofLine.textContent = text;
+    }
+
+    function setTtsProof(text) {
+      setProofLine((lastAdapterProof ? lastAdapterProof + ' ' : '') + text);
+    }
+
     function emit(type, detail) {
       var event = {
         type: type,
@@ -552,20 +637,53 @@ function injectedOpenClickyWeb() {
       return event;
     }
 
-    function updateTranscript(text) {
-      if (transcript) transcript.textContent = text;
+    function appendTranscript(role, text) {
+      if (!transcript || !text) return;
+      var turn = document.createElement('div');
+      turn.className = 'ocw-turn';
+      turn.dataset.role = role || 'system';
+      var label = role === 'prospect' ? 'Prospect' : role === 'agent' ? 'Agent' : role === 'simulated' ? 'Simulated' : 'System';
+      var strong = document.createElement('strong');
+      strong.textContent = label;
+      turn.appendChild(strong);
+      turn.appendChild(document.createTextNode(String(text)));
+      transcript.appendChild(turn);
+      while (transcript.children.length > transcriptTurnLimit && transcript.firstElementChild) {
+        transcript.removeChild(transcript.firstElementChild);
+      }
+      transcript.scrollTop = transcript.scrollHeight;
     }
 
-    function speak(text) {
-      updateTranscript(text);
+    function updateTranscript(text, role) {
+      appendTranscript(role || 'agent', text);
+    }
+
+    function stopSpeech() {
+      try {
+        if (window.speechSynthesis) window.speechSynthesis.cancel();
+      } catch (e) {}
+      window.__ocwLastSpeech = '';
+      showCaption('', current.x, current.y);
+    }
+
+    function speak(text, options) {
+      var shouldAppendTranscript = !options || options.appendTranscript !== false;
+      if (shouldAppendTranscript) updateTranscript(text, 'agent');
       window.__ocwLastSpeech = text;
       showCaption(text, current.x, current.y);
       try {
-        if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) return;
+        if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) {
+          setTtsProof('TTS: browser speech fallback unavailable; answer shown as transcript only. Local VibeVoice is not proven yet.');
+          return;
+        }
         window.speechSynthesis.cancel();
         var utterance = new SpeechSynthesisUtterance(text);
         utterance.lang = 'en-US';
         utterance.rate = 1.03;
+        utterance.onend = function(){ setTurnState('idle', 'idle'); };
+        utterance.onerror = function(){ setTurnState('idle', 'speech stopped'); };
+        setTurnState('speaking', 'speaking');
+        setTtsProof('TTS: browser speech synthesis fallback. Local VibeVoice is not proven yet.');
         window.speechSynthesis.speak(utterance);
       } catch (e) {}
     }
@@ -573,6 +691,7 @@ function injectedOpenClickyWeb() {
     function setAgentState(state, text) {
       root.dataset.agentState = state;
       if (agentCopy) agentCopy.textContent = text;
+      setChip('agent', 'Agent: ' + (text || state), state);
     }
 
     function bridgeWsUrl() {
@@ -612,6 +731,8 @@ function injectedOpenClickyWeb() {
       if (liveKitReady && liveKitRoomInstance) return liveKitRoomInstance;
 
       setAgentState('waiting', 'Connecting local LiveKit room...');
+      setTransportState('connecting', 'connecting...');
+      setMicState('off', 'not published');
       var tokenPayload = await fetchLocalToken();
       var livekit = await loadLiveKitClient();
       var Room = livekit.Room;
@@ -630,7 +751,11 @@ function injectedOpenClickyWeb() {
 
       room.on(RoomEvent.Disconnected, function(){
         liveKitReady = false;
-        if (transportMode === 'livekit') setAgentState('offline', 'LiveKit room disconnected');
+        if (transportMode === 'livekit') {
+          setAgentState('offline', 'LiveKit room disconnected');
+          setTransportState('idle', 'disconnected');
+          setMicState('off', 'not published');
+        }
       });
 
       await room.connect(tokenPayload.livekitUrl, tokenPayload.token);
@@ -642,13 +767,16 @@ function injectedOpenClickyWeb() {
       }
 
       try {
+        setMicState('connecting', 'requesting');
         await room.localParticipant.setMicrophoneEnabled(true, {
           echoCancellation: true,
           noiseSuppression: true,
           autoGainControl: true
         });
+        setMicState('published', 'published - no ASR yet');
         emit('liveKitMicPublished', { room: liveKitRoom, identity: browserIdentity });
       } catch (e) {
+        setMicState('blocked', 'blocked');
         emit('liveKitMicPublishFailed', { message: e.message || String(e) });
       }
 
@@ -656,6 +784,8 @@ function injectedOpenClickyWeb() {
       transportMode = 'livekit';
       bridgeReady = true;
       setAgentState('waiting', 'LiveKit connected; waiting for local agent worker.');
+      setTransportState('livekit', 'LiveKit data connected');
+      setProofLine('LiveKit data/control is connected locally. Mic publication is visible separately; ASR is not attached yet.');
       emit('liveKitConnected', { room: liveKitRoom, livekitUrl: tokenPayload.livekitUrl, identity: browserIdentity });
       return room;
     }
@@ -665,7 +795,8 @@ function injectedOpenClickyWeb() {
         return Promise.resolve(bridgeSocket);
       }
 
-      setAgentState('waiting', 'Connecting local simulated agent bridge...');
+      setAgentState('waiting', 'Connecting local text/control bridge...');
+      setTransportState('connecting', 'bridge connecting...');
       return fetchLocalToken().then(function(tokenPayload){
         return new Promise(function(resolve, reject){
           var socket = new WebSocket(bridgeWsUrl());
@@ -674,6 +805,8 @@ function injectedOpenClickyWeb() {
             bridgeReady = true;
             transportMode = 'bridge';
             setAgentState('waiting', 'Bridge connected; waiting for local agent worker.');
+            setTransportState('bridge', 'text/control bridge');
+            setProofLine('LiveKit unavailable; using local WebSocket bridge for text/control only.');
             emit('bridgeConnected', { room: liveKitRoom, livekitUrl: tokenPayload.livekitUrl });
             resolve(socket);
           });
@@ -682,11 +815,15 @@ function injectedOpenClickyWeb() {
           });
           socket.addEventListener('close', function(){
             bridgeReady = false;
-            setAgentState('offline', 'Simulated agent bridge offline');
+            if (transportMode === 'bridge') {
+              setAgentState('offline', 'Local text/control bridge offline');
+              setTransportState('idle', 'idle');
+            }
           });
           socket.addEventListener('error', function(){
             bridgeReady = false;
             setAgentState('offline', 'Could not reach token server bridge');
+            setTransportState('idle', 'bridge failed');
             reject(new Error('Bridge connection failed'));
           });
         });
@@ -706,9 +843,54 @@ function injectedOpenClickyWeb() {
         liveKitReady = false;
         liveKitRoomInstance = null;
         emit('liveKitConnectFailed', { message: liveKitError.message || String(liveKitError) });
-        setStatus('LiveKit unavailable; falling back to simulated bridge.');
+        setStatus('LiveKit unavailable; using local WebSocket bridge for text/control only.');
         return connectAgentBridge();
       }
+    }
+
+    async function disconnectAgentTransport() {
+      try {
+        if (liveKitReady || (bridgeSocket && bridgeSocket.readyState === WebSocket.OPEN)) {
+          await sendAgentMessage({ type: 'prospect.disconnect', bookingState: bookingState });
+        }
+      } catch (e) {}
+      try {
+        if (liveKitRoomInstance && liveKitRoomInstance.localParticipant) {
+          await liveKitRoomInstance.localParticipant.setMicrophoneEnabled(false);
+        }
+      } catch (e) {}
+      try {
+        if (liveKitRoomInstance) await liveKitRoomInstance.disconnect();
+      } catch (e) {}
+      try {
+        if (bridgeSocket) bridgeSocket.close();
+      } catch (e) {}
+      bridgeSocket = null;
+      bridgeReady = false;
+      liveKitReady = false;
+      liveKitRoomInstance = null;
+      transportMode = 'idle';
+      stopSpeech();
+      setAgentState('offline', 'Local transport offline');
+      setTransportState('idle', 'idle');
+      setMicState('off', 'not published');
+      setTurnState('idle', 'idle');
+      setProofLine('Disconnected. No audio is being sent.');
+      setStatus('Disconnected. No audio is being sent.');
+      emit('transportDisconnected', { room: liveKitRoom });
+    }
+
+    async function interruptResponse() {
+      stopSpeech();
+      setTurnState('interrupted', 'interrupted');
+      setStatus('Response stopped. Local audio playback halted.');
+      setProofLine('Interrupted locally. Any connected agent is notified with prospect.interrupt.');
+      try {
+        if (liveKitReady || (bridgeSocket && bridgeSocket.readyState === WebSocket.OPEN)) {
+          await sendAgentMessage({ type: 'prospect.interrupt', bookingState: bookingState });
+        }
+      } catch (e) {}
+      emit('prospectInterrupted', { room: liveKitRoom });
     }
 
     function sendBridge(payload) {
@@ -735,6 +917,25 @@ function injectedOpenClickyWeb() {
       return sendBridge(payload);
     }
 
+    function formatAdapterProof(message) {
+      var labels = message.adapters || {};
+      var parts = [];
+      if (labels.asr) parts.push('ASR ' + labels.asr);
+      if (labels.llm) parts.push('LLM ' + labels.llm);
+      if (labels.tts) parts.push('TTS ' + labels.tts);
+      if (message.retrieval) {
+        var retrieval = message.retrieval;
+        var retrievalText = 'Moss ' + (retrieval.provider || 'retrieval');
+        if (retrieval.simulated) retrievalText += ' fixture';
+        if (typeof retrieval.count === 'number') retrievalText += ' (' + retrieval.count + ' snippets)';
+        parts.push(retrievalText);
+      } else if (labels.moss) {
+        parts.push('Moss ' + labels.moss);
+      }
+      if (!parts.length) return 'Proof metadata unavailable from agent answer.';
+      return 'Proof: ' + parts.join('; ') + '.';
+    }
+
     function handleAgentMessage(raw) {
       var message;
       try {
@@ -745,6 +946,7 @@ function injectedOpenClickyWeb() {
 
       if (message.type === 'bridge.ready') {
         setAgentState(message.peers && message.peers.agents ? 'online' : 'waiting', message.peers && message.peers.agents ? 'Local agent ready' : 'Bridge connected; waiting for local agent worker.');
+        setTransportState('bridge', 'text/control bridge');
         return;
       }
 
@@ -763,16 +965,34 @@ function injectedOpenClickyWeb() {
         return;
       }
 
+      if (message.type === 'agent.error') {
+        setAgentState('waiting', 'Agent reported an error');
+        setTurnState('interrupted', 'error');
+        setStatus(message.message || 'Agent error.');
+        setProofLine('Agent error: ' + (message.code || 'unknown') + '.');
+        return;
+      }
+
       if (message.type === 'agent.answer') {
         setAgentState('online', message.transport === 'livekit' ? 'LiveKit agent answered' : 'Local agent ready');
-        updateTranscript(message.answer || '');
-        setStatus(message.simulated ? 'Agent answered in simulated mode.' : 'Agent answered.');
-        emit('agentAnswerReceived', { intent: message.intent || '', simulated: !!message.simulated });
+        lastAgentAnswer = message.answer || '';
+        updateTranscript(lastAgentAnswer, 'agent');
+        setTurnState('answered', 'answered');
+        lastAdapterProof = formatAdapterProof(message);
+        setProofLine(lastAdapterProof);
+        setStatus(message.simulated ? 'Agent answered using local stubs.' : 'Agent answered.');
+        emit('agentAnswerReceived', {
+          intent: message.intent || '',
+          simulated: !!message.simulated,
+          adapters: message.adapters || {},
+          retrieval: message.retrieval || null
+        });
         return;
       }
 
       if (message.type === 'agent.action' && message.action) {
         setAgentState('online', message.transport === 'livekit' ? 'LiveKit agent action received' : 'Local agent ready');
+        setTurnState('speaking', 'running action');
         enqueue(message.action);
       }
     }
@@ -785,8 +1005,9 @@ function injectedOpenClickyWeb() {
       var question = commandInput.value || 'How does Remote help with global payroll?';
       await connectAgentTransport();
       var snapshot = snapshotPage();
-      updateTranscript((simulatedVoice ? 'Simulated voice transcript: ' : 'You asked: ') + question);
-      setStatus('Sent question to local agent over ' + (liveKitReady ? 'LiveKit data channel.' : 'simulated bridge.'));
+      updateTranscript((simulatedVoice ? 'Typed text sent as simulated transcript: ' : 'You asked: ') + question, simulatedVoice ? 'simulated' : 'prospect');
+      setTurnState('sent', 'sent');
+      setStatus('Sent question to local agent over ' + (liveKitReady ? 'LiveKit data channel.' : 'local WebSocket bridge.'));
       await sendAgentMessage({
         id: 'q_' + Math.random().toString(36).slice(2, 10),
         type: 'prospect.question',
@@ -1212,7 +1433,7 @@ function injectedOpenClickyWeb() {
       var answer = answerText || payrollAnswer;
       setStatus('Answering global payroll question.');
       snapshotPage();
-      speak(answer);
+      speak(answer, { appendTranscript: normalized(answer) !== normalized(lastAgentAnswer) });
       emit('agentAnswered', { text: answer });
       await sleep(afterNavigation ? 650 : 950);
 
@@ -1300,6 +1521,11 @@ function injectedOpenClickyWeb() {
         return;
       }
 
+      if (key === 'disconnecttransport' || key === 'disconnect' || key === 'disconnect agent') {
+        await disconnectAgentTransport();
+        return;
+      }
+
       if (key === 'askagent' || key === 'ask agent') {
         await askLocalAgent(false);
         return;
@@ -1307,6 +1533,11 @@ function injectedOpenClickyWeb() {
 
       if (key === 'simulatevoice' || key === 'sim voice' || key === 'voice') {
         await askLocalAgent(true);
+        return;
+      }
+
+      if (key === 'interruptresponse' || key === 'interrupt' || key === 'stop response') {
+        await interruptResponse();
         return;
       }
 
@@ -1416,12 +1647,20 @@ function injectedOpenClickyWeb() {
         connectAgentTransport().catch(function(error){ setStatus(error.message || String(error)); });
         return;
       }
+      if (actionName === 'disconnecttransport') {
+        disconnectAgentTransport().catch(function(error){ setStatus(error.message || String(error)); });
+        return;
+      }
       if (actionName === 'askagent') {
         askLocalAgent(false).catch(function(error){ setStatus(error.message || String(error)); });
         return;
       }
       if (actionName === 'simulatevoice') {
         askLocalAgent(true).catch(function(error){ setStatus(error.message || String(error)); });
+        return;
+      }
+      if (actionName === 'interruptresponse') {
+        interruptResponse().catch(function(error){ setStatus(error.message || String(error)); });
         return;
       }
       enqueue(actionName);
@@ -1451,6 +1690,9 @@ function injectedOpenClickyWeb() {
       openCal: function(){ return enqueue({ type: 'openCal' }); },
       showBookingPrompt: function(){ return enqueue({ type: 'showBookingPrompt' }); },
       runPayrollFlow: function(){ return enqueue({ type: 'payrollFlow' }); },
+      connectAgentTransport: connectAgentTransport,
+      disconnectAgentTransport: disconnectAgentTransport,
+      interruptResponse: interruptResponse,
       run: enqueue
     };
     window.OpenClickyWebMVP = window.OpenClickyWeb;

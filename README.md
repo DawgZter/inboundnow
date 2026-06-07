@@ -35,6 +35,7 @@ Use Stagehand as semantic resolver, not the visible UI:
 - ASR: `nvidia/parakeet-tdt-0.6b-v3`, English-only.
 - LLM: local/open-weight Qwen-class model through vLLM/SGLang/OpenAI-compatible API.
 - TTS: VibeVoice-style local/realtime TTS if feasible.
+- Real local-model proof requires an H100-class GPU; the recommended cloud path is Vast.ai with the PyTorch CUDA/cuDNN template. See docs/vast-h100-runbook.md.
 - Moss must use local runtime after initial index generation.
 - Moss runtime must not use `autoRefresh`, SDK cloud polling, `pushIndex()`, session doc upload, or session embeddings upload.
 - Cal.com included for scheduling.
@@ -198,9 +199,10 @@ PORT=4199 TOKEN_SERVER_URL=http://127.0.0.1:4301 npm run dev:lab
 Open `http://localhost:4199/direct`, then use:
 
 - `Ask payroll question` for deterministic local fallback.
-- `Connect` to prefer the local LiveKit room, then fall back to the WebSocket bridge if LiveKit is unavailable.
+- `Connect local transport` to prefer the local LiveKit room, then fall back to the WebSocket bridge if LiveKit is unavailable.
 - `Ask agent` to send the current text question to `apps/agent`.
-- `Sim voice` to send the same text as a simulated voice transcript.
+- `Send simulated transcript` to send the same text as typed transcript input.
+- `Disconnect` and `Interrupt` to stop local transport/audio playback without implying ASR is proven.
 
 Current proof level:
 
@@ -208,9 +210,11 @@ Current proof level:
 - LiveKit data-channel control is verified locally with `npm run smoke:livekit`, with the WebSocket fallback disabled.
 - The browser LiveKit path is verified locally: browser joins the local room, sends the payroll question, receives `agent.action`, guides the page, and keeps Cal gated until confirmation.
 - The WebSocket bridge remains as an honest fallback when LiveKit is unavailable.
-- Mic publication is requested from the browser `Connect` action, but ASR is still not attached to the audio track.
+- Mic publication is requested from the browser `Connect local transport` action, but ASR is still not attached to the audio track.
 - ASR, LLM, TTS, and Moss have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model/runtime proof.
 - Cal.com is not loaded until the user confirms the booking prompt.
+
+For the real local-model GPU lane, use docs/vast-h100-runbook.md and the scripts under scripts/vast-h100/.
 
 More detailed status lives in `docs/proof-matrix.md`.
 

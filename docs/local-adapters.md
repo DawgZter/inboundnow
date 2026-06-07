@@ -14,6 +14,10 @@ This document is the proof boundary for the local voice-agent harness.
 - Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`.
 - Browser action execution: `window.OpenClickyWeb.dispatch(...)` inside the proxied Remote page.
 
+## GPU Requirement
+
+Real local-model proof requires an H100-class GPU, not a laptop-only smoke. The recommended path is Vast.ai with the PyTorch CUDA/cuDNN template; see docs/vast-h100-runbook.md and scripts/vast-h100/.
+
 ## Parakeet ASR Adapter
 
 Target model: `nvidia/parakeet-tdt-0.6b-v3`.
@@ -26,7 +30,7 @@ Responsibilities:
 
 The `parakeet-stub` adapter proves only registry wiring. It is not proven until
 the model is loaded locally and transcripts are produced from actual audio.
-Browser text input and `Sim voice` are not Parakeet proof.
+Browser text input and `Send simulated transcript` are not Parakeet proof.
 
 ## Local LLM Adapter
 

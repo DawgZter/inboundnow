@@ -10,7 +10,7 @@ npm run dev:agent
 
 Current mode is `AGENT_MODE=simulated` by default. In this mode:
 
-- ASR is simulated by browser text input or the `Sim voice` button.
+- ASR is simulated by browser text input or the `Send simulated transcript` button.
 - LLM planning is a local keyword router in `router.mjs`.
 - TTS is browser `speechSynthesis` in the website lab when available.
 - Moss is not connected yet.

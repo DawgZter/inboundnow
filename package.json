@@ -14,6 +14,7 @@
     "smoke:adapters": "node apps/agent/scripts/smoke-adapters.mjs",
     "smoke:local": "node scripts/smoke-local.mjs",
     "smoke:livekit": "node scripts/smoke-livekit.mjs",
+    "smoke:qwen:h100": "node scripts/vast-h100/smoke-qwen-endpoint.mjs",
     "start": "node apps/website-lab/server.mjs",
     "test": "node --test",
     "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/worker.mjs && node --check apps/agent/scripts/smoke-adapters.mjs && node --check scripts/smoke-local.mjs && node --check scripts/smoke-livekit.mjs && node --check services/moss-runtime/server.mjs && node --check services/model-stubs/qwen-openai-compatible.mjs && node --check packages/action-protocol/index.mjs && npm test && npm run smoke:adapters"

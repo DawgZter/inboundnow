@@ -19,7 +19,7 @@ npm run dev:agent
 PORT=4199 TOKEN_SERVER_URL=http://127.0.0.1:4301 npm run dev:lab
 ```
 
-Open `http://localhost:4199/direct`, click `Connect`, then `Ask agent`.
+Open `http://localhost:4199/direct`, click `Connect local transport`, then `Ask agent`.
 
 ## LiveKit Mode
 
@@ -30,9 +30,13 @@ npm run dev:agent:livekit
 PORT=4199 TOKEN_SERVER_URL=http://127.0.0.1:4301 npm run dev:lab
 ```
 
-Open `http://localhost:4199/direct`, click `Connect`, then `Ask agent`.
+Open `http://localhost:4199/direct`, click `Connect local transport`, then `Ask agent`.
 
 Expected proof level in this mode: browser and agent exchange control messages over a local LiveKit room. ASR, local LLM, local TTS, and real Moss runtime remain unproven unless their dedicated smokes are run and captured.
+
+## H100 Local-Model Lane
+
+The real model lane requires an H100-class GPU. Use docs/vast-h100-runbook.md for the Vast.ai PyTorch-template setup, H100 preflight, Qwen vLLM endpoint, port tunnels, and evidence capture.
 
 ## Adapter Stubs
 
@@ -44,4 +48,3 @@ npm run smoke:adapters
 ```
 
 These prove wiring and guardrails only.
-

@@ -10,7 +10,7 @@ Confirm `livekit-server --dev` is running and listening on `ws://127.0.0.1:7880`
 
 ## Mic Is Blocked Or Missing
 
-The browser requests mic publication from the `Connect` action. Mic failure does not mean ASR failed, because ASR is not wired yet. It only means browser audio publication was not available in that run.
+The browser requests mic publication from the `Connect local transport` action. Mic failure does not mean ASR failed, because ASR is not wired yet. It only means browser audio publication was not available in that run.
 
 ## Remote Page Target Drift
 
@@ -28,3 +28,6 @@ Browser `speechSynthesis` is only a demo fallback. Silence is not VibeVoice proo
 
 Check `docs/proof-matrix.md`. Fixture retrieval, `qwen-stub`, `vibevoice-stub`, and `parakeet-stub` prove wiring only.
 
+## H100 Setup Fails On Vast
+
+Use docs/vast-h100-runbook.md. The bootstrap script intentionally exits unless nvidia-smi reports an H100. If Vast template setup changes, prefer the UI path: Templates -> PyTorch -> H100 offer -> direct SSH -> run scripts/vast-h100/bootstrap-instance.sh on the instance.
