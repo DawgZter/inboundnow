@@ -8,7 +8,7 @@ This document is the proof boundary for the local voice-agent harness.
 - Agent transport for the MVP: local LiveKit data channels are verified for control messages; the WebSocket bridge remains a simulated local fallback.
 - Prospect question input: browser text input, simulated final transcript messages, and local ASR audio payload messages. Browser mic publication is configured; turn-based LiveKit audio buffering is wired, but real Parakeet model transcription still requires the H100 endpoint proof.
 - Agent reasoning: deterministic local keyword router.
-- Speech output: streamed browser `speechSynthesis` fallback chunks when available.
+- Speech output: streamed browser `speechSynthesis` fallback chunks when model audio is unavailable; caption-only `agent.speech.*` plus `agent.tts.*` PCM16 audio chunks when the local VibeVoice-compatible model-audio path is enabled.
 - Voice switching: browser, bridge, and LiveKit messages carry a per-session voice profile; typed commands such as "switch to a warmer voice" update the session voice without restarting.
 - Adapter plumbing: dependency-free local stubs and status reporting under
   `apps/agent/adapters`.
@@ -65,6 +65,7 @@ Responsibilities:
 - Turn agent answer text into local audio.
 - Stream audio through a localhost-only VibeVoice-compatible endpoint.
 - Stream browser fallback speech in short text chunks when model audio is unavailable.
+- Emit `agent.tts.start`, `agent.tts.chunk`, and `agent.tts.end` audio events when `TTS_PROVIDER=local-vibevoice` and model audio is enabled.
 - Prewarm the runtime before the first real answer.
 - Use stable cache keys that include text, model, voice, style, LoRA adapter, and quantization policy.
 - Report latency, cache-hit, dtype, quantization, and fallback state.
@@ -79,12 +80,18 @@ Latency controls:
 - `TTS_VOICE_STYLE`: voice style hint included in the local endpoint payload and cache key.
 - `TTS_LORA_ADAPTER` / `MISO_LORA_ADAPTER`: local adapter path included in the endpoint payload and cache key.
 
-Current verified behavior: the worker emits `agent.speech.start`, `agent.speech.chunk`, and `agent.speech.end` before actions, and the browser queues those chunks through `speechSynthesis`. This improves perceived latency but remains browser fallback speech.
+Current verified behavior:
+
+- Without model audio, the worker emits `agent.speech.start`, `agent.speech.chunk`, and `agent.speech.end`; the browser queues chunks through `speechSynthesis`.
+- With `local-vibevoice` model audio enabled, the worker emits caption-only `agent.speech.*` immediately, starts a local VibeVoice-compatible stream in parallel, and emits `agent.tts.start/chunk/end` with base64 PCM16 chunks.
+- Browser actions are allowed to overlap pending or playing model audio for latency. The action bus must not wait for a slow prewarm or first audio chunk.
+- The browser suppresses duplicate `speechSynthesis` while model audio is active, schedules PCM16 chunks with Web Audio, buffers out-of-order chunks until the missing sequence arrives, ignores duplicate chunks, and ignores stale chunks after interruption.
+- Fake endpoint smokes are `proofLevel: contract` and must keep `localVibeVoiceProven: false`. Set `TTS_REAL_MODEL_PROOF=1` only in an H100 evidence run that is explicitly being captured as real model proof.
 
 `vibevoice-stub` and browser `speechSynthesis` are only demo fallbacks and
 must not be described as VibeVoice proof.
 
-`local-vibevoice` is configured only when `TTS_PROVIDER=local-vibevoice`; `TTS_BASE_URL` must point at localhost. `npm run smoke:tts:local` proves the streaming adapter contract against a fake local endpoint only. `npm run smoke:tts:h100` must pass against a real H100-local VibeVoice-compatible endpoint before changing this to model proof.
+`local-vibevoice` is configured only when `TTS_PROVIDER=local-vibevoice`; `TTS_BASE_URL` must point at localhost. `npm run smoke:tts:local` proves the adapter contract, `npm run smoke:tts:agent` proves the worker audio-event contract, and `npm run smoke:browser:asr-ui` proves browser scheduling/ignore behavior against a fake local endpoint only. `npm run smoke:tts:h100` must pass against a real H100-local VibeVoice-compatible endpoint before changing this to model proof.
 
 ## Dynamic Voice Session Adapter
 

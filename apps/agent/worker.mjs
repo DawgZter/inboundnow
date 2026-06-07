@@ -22,6 +22,7 @@ let speechGeneration = 0;
 const defaultVoiceProfile = resolveVoiceProfile(process.env.TTS_VOICE_PROFILE || "default");
 const sessionVoiceProfiles = new Map();
 const activeAsrTurns = new Map();
+let ttsPrewarmPromise = null;
 const ASR_SAMPLE_RATE = Number(process.env.ASR_SAMPLE_RATE || process.env.PARAKEET_SAMPLE_RATE || 16000);
 const ASR_CHANNELS = Number(process.env.ASR_CHANNELS || 1);
 const ASR_MAX_TURN_MS = Number(process.env.ASR_MAX_TURN_MS || 15000);
@@ -102,37 +103,197 @@ function speechStreamingEnabled() {
   return !["0", "false", "no", "off"].includes(String(process.env.TTS_STREAMING || "1").trim().toLowerCase());
 }
 
-async function sendSpeechStream(sendReply, { requestId, transport, answer, adapterStatus, voiceProfile, voiceSwitch }) {
+function localTtsAudioEnabled() {
+  if (["0", "false", "no", "off"].includes(String(process.env.TTS_MODEL_AUDIO || "1").trim().toLowerCase())) return false;
+  return adapters.tts?.provider === "local-vibevoice" && typeof adapters.tts.stream === "function";
+}
+
+function realLocalTtsModelProofEnabled() {
+  return ["1", "true", "yes", "on"].includes(String(process.env.TTS_REAL_MODEL_PROOF || process.env.VIBEVOICE_REAL_MODEL_PROOF || "0").trim().toLowerCase());
+}
+
+function localTtsProofLevel() {
+  return realLocalTtsModelProofEnabled() ? "verified" : "contract";
+}
+
+function localTtsModelProven(event = {}) {
+  return localTtsProofLevel() === "verified" && Boolean(event.audio || event.audioBase64 || event.chunkCount);
+}
+
+async function prewarmLocalTts() {
+  if (!adapters.tts || typeof adapters.tts.prewarm !== "function") return null;
+  if (!ttsPrewarmPromise) {
+    ttsPrewarmPromise = adapters.tts.prewarm().catch((error) => {
+      ttsPrewarmPromise = null;
+      throw error;
+    });
+  }
+  return ttsPrewarmPromise;
+}
+
+function ttsEventPayload(event = {}) {
+  const audioBase64 = String(event.audio || event.audioBase64 || "");
+  return {
+    eventType: event.type || "",
+    provider: event.provider || adapters.tts?.provider || "tts",
+    proofLevel: localTtsProofLevel(),
+    simulated: event.simulated === true ? true : false,
+    model: event.model || "",
+    voice: event.voice || "",
+    style: event.style || "",
+    loraAdapter: event.loraAdapter || "",
+    dtype: event.dtype || "",
+    quantization: event.quantization || "",
+    cacheKey: event.cacheKey || "",
+    cacheHit: event.cacheHit === true,
+    format: event.format || "",
+    sampleRate: event.sampleRate || null,
+    channels: event.channels || null,
+    chunkEncoding: audioBase64 ? "base64" : "",
+    byteLength: audioBase64 ? Math.floor(audioBase64.length * 0.75) : 0,
+    firstAudioMs: event.firstAudioMs ?? null,
+    totalMs: event.totalMs ?? null,
+  };
+}
+
+async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transport, answer, adapterStatus, voiceProfile, voiceSwitch, generation }) {
+  const ttsStatus = adapterStatus.tts || {};
+  let started = false;
+  let chunkCount = 0;
+  let firstAudioMs = null;
+  let lastEvent = {};
+  let streamMetadata = {};
+
+  function startPayload(event = {}) {
+    return {
+      type: "agent.tts.start",
+      requestId,
+      sessionId,
+      transport,
+      streaming: true,
+      mode: "audio-chunks",
+      proof: ttsStatus.proof || "",
+      proofLevel: localTtsProofLevel(),
+      label: ttsStatus.label || "",
+      localVibeVoiceProven: false,
+      voiceProfile,
+      voiceSwitch: voiceSwitch || null,
+      ...ttsEventPayload(event),
+    };
+  }
+
+  try {
+    await prewarmLocalTts();
+    for await (const event of adapters.tts.stream({ text: answer, requestId, voiceProfile })) {
+      if (generation !== speechGeneration) break;
+      if (event.type === "start") {
+        streamMetadata = {
+          format: event.format || streamMetadata.format || "",
+          sampleRate: event.sampleRate || streamMetadata.sampleRate || null,
+          channels: event.channels || streamMetadata.channels || null,
+        };
+      }
+      const enrichedEvent = { ...streamMetadata, ...event };
+      lastEvent = enrichedEvent;
+      if (!started) {
+        await sendReply(startPayload(event.type === "start" ? enrichedEvent : streamMetadata));
+        started = true;
+      }
+      if (event.type === "chunk") {
+        chunkCount += 1;
+        if (firstAudioMs === null && event.firstAudioMs !== undefined) firstAudioMs = event.firstAudioMs;
+        await sendReply({
+          type: "agent.tts.chunk",
+          requestId,
+          sessionId,
+          transport,
+          sequence: Number(event.sequence ?? chunkCount - 1),
+          audio: event.audio || "",
+          audioBase64: event.audio || event.audioBase64 || "",
+          proofLevel: localTtsProofLevel(),
+          localVibeVoiceProven: localTtsModelProven(enrichedEvent),
+          ...ttsEventPayload(enrichedEvent),
+          voiceProfile,
+        });
+      }
+    }
+
+    if (generation === speechGeneration && started) {
+      await sendReply({
+        type: "agent.tts.end",
+        requestId,
+        sessionId,
+        transport,
+        ...ttsEventPayload(lastEvent),
+        chunkCount,
+        firstAudioMs,
+        proofLevel: localTtsProofLevel(),
+        localVibeVoiceProven: localTtsModelProven({ ...lastEvent, chunkCount }),
+        voiceProfile,
+      });
+    }
+  } catch (error) {
+    if (generation !== speechGeneration) return;
+    await sendReply({
+      type: "agent.tts.error",
+      requestId,
+      sessionId,
+      transport,
+      provider: adapters.tts?.provider || "tts",
+      proof: ttsStatus.proof || "",
+      proofLevel: localTtsProofLevel(),
+      code: "local_tts_stream_error",
+      message: error.message || String(error),
+      fallback: "text-caption-only",
+      voiceProfile,
+    });
+  }
+}
+
+async function sendSpeechStream(sendReply, { requestId, sessionId, transport, answer, adapterStatus, voiceProfile, voiceSwitch }) {
   if (!speechStreamingEnabled() || !answer) return;
 
   const generation = ++speechGeneration;
+  const modelAudioEnabled = localTtsAudioEnabled();
+  let modelAudioPromise = null;
   const chunks = splitSpeechText(answer, {
     textChunkChars: process.env.TTS_TEXT_CHUNK_CHARS || process.env.VIBEVOICE_TEXT_CHUNK_CHARS,
   });
-  if (!chunks.length) return;
+  if (!chunks.length && !modelAudioEnabled) return;
 
   const ttsStatus = adapterStatus.tts || {};
-  await sendReply({
-    type: "agent.speech.start",
-    requestId,
-    transport,
-    provider: adapters.tts?.provider || "tts",
-    label: ttsStatus.label || "",
-    proof: ttsStatus.proof || "",
-    streaming: true,
-    mode: "text-chunks",
-    fallback: "browser-speech-synthesis",
-    localVibeVoiceProven: false,
-    chunkCount: chunks.length,
-    voiceProfile,
-    voiceSwitch: voiceSwitch || null,
-  });
+  if (chunks.length) {
+    await sendReply({
+      type: "agent.speech.start",
+      requestId,
+      sessionId,
+      transport,
+      provider: adapters.tts?.provider || "tts",
+      label: ttsStatus.label || "",
+      proof: ttsStatus.proof || "",
+      proofLevel: modelAudioEnabled ? localTtsProofLevel() : ttsStatus.proof || "",
+      streaming: true,
+      mode: "text-chunks",
+      fallback: modelAudioEnabled ? "text-caption-only" : "browser-speech-synthesis",
+      modelAudio: modelAudioEnabled,
+      localVibeVoiceProven: false,
+      chunkCount: chunks.length,
+      voiceProfile,
+      voiceSwitch: voiceSwitch || null,
+    });
+  }
+
+  if (modelAudioEnabled) {
+    modelAudioPromise = sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transport, answer, adapterStatus, voiceProfile, voiceSwitch, generation });
+    modelAudioPromise.catch(() => {});
+  }
 
   for (let index = 0; index < chunks.length; index += 1) {
     if (generation !== speechGeneration) break;
     await sendReply({
       type: "agent.speech.chunk",
       requestId,
+      sessionId,
       transport,
       provider: adapters.tts?.provider || "tts",
       sequence: index,
@@ -145,6 +306,7 @@ async function sendSpeechStream(sendReply, { requestId, transport, answer, adapt
     await sendReply({
       type: "agent.speech.end",
       requestId,
+      sessionId,
       transport,
       provider: adapters.tts?.provider || "tts",
       chunkCount: chunks.length,
@@ -239,6 +401,7 @@ async function handleQuestion(sendReply, message, context = {}) {
 
   await sendSpeechStream(sendReply, {
     requestId,
+    sessionId,
     transport: responseTransport,
     answer: plan.answer,
     adapterStatus,

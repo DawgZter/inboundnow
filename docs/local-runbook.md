@@ -8,6 +8,7 @@ npm run smoke:adapters
 npm run smoke:planner
 npm run smoke:moss:local
 npm run smoke:tts:local
+npm run smoke:tts:agent
 npm run smoke:asr:livekit
 npm run smoke:browser:cal-gate
 npm run smoke:browser:asr-ui
@@ -44,7 +45,7 @@ Expected proof level in this mode: browser and agent exchange control messages o
 
 Run `npm run smoke:asr:livekit` to prove the worker's LiveKit media-track path without using a real browser microphone. It publishes a synthetic 16 kHz mono microphone track into the local room, buffers it with `AudioStream(track)`, sends WAV audio to a fake localhost Parakeet endpoint, and asserts `agent.asr.final` drives the normal answer/action path. This is still contract proof only: it is not real browser mic capture and not H100 Parakeet model proof.
 
-Run `npm run smoke:browser:asr-ui` to prove the browser-visible ASR state path: listening/no-audio chips, final transcript fallback display, selected voice profile persistence, and streamed speech start after an ASR final transcript.
+Run `npm run smoke:browser:asr-ui` to prove the browser-visible ASR state path: listening/no-audio chips, final transcript fallback display, selected voice profile persistence, caption-only streamed speech when model audio is active, local PCM16 TTS scheduling, stale interrupted audio ignore, and out-of-order/duplicate chunk handling.
 
 ## H100 Local-Model Lane
 
@@ -121,13 +122,19 @@ Cost estimate as of 2026-06-07, using Moss's published pricing at `https://docs.
 
 ```bash
 npm run smoke:tts:local
+npm run smoke:tts:agent
+npm run smoke:browser:asr-ui
 npm run smoke:local
 npm run smoke:livekit
 ```
 
 `smoke:tts:local` proves the local VibeVoice-compatible adapter contract against a fake localhost endpoint, including prewarm, stable cache keys, and LLM-only quantization metadata. It is not VibeVoice model proof.
 
-`smoke:local` and `smoke:livekit` assert that the worker sends `agent.answer`, then `agent.speech.start/chunk/end`, then browser actions. The website lab queues those chunks through browser `speechSynthesis` so speech can begin before page guidance completes. Browser speech remains a fallback until an H100-local VibeVoice endpoint is smoked.
+`smoke:tts:agent` proves the worker prewarms a localhost VibeVoice-compatible endpoint, emits `agent.tts.start/chunk/end` with base64 PCM16 chunks, marks fake endpoint proof as `proofLevel: contract`, and allows page actions to overlap model-audio streaming for latency.
+
+`smoke:browser:asr-ui` additionally proves the browser suppresses duplicate `speechSynthesis` when model audio is active, schedules PCM16 chunks through Web Audio, rejects stale interrupted audio, and handles out-of-order/duplicate chunks.
+
+`smoke:local` and `smoke:livekit` assert that the worker sends `agent.answer`, then `agent.speech.start/chunk/end`, then browser actions. The website lab queues those chunks through browser `speechSynthesis` when model audio is unavailable so speech can begin before page guidance completes. Browser speech remains a fallback until an H100-local VibeVoice endpoint is smoked.
 
 ## Local LLM Planner Mode
 

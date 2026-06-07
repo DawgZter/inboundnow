@@ -18,6 +18,8 @@ const mockRemoteUrl = "http://127.0.0.1:" + mockRemotePort + "/";
 const room = "browser-asr-ui-smoke";
 const children = [];
 let mockServer;
+let fakeTtsServer;
+const fakeTtsRequests = [];
 let browser;
 
 function logPath(name) {
@@ -100,10 +102,73 @@ function startMockRemote() {
   return new Promise((resolve) => mockServer.listen(mockRemotePort, "127.0.0.1", resolve));
 }
 
+async function readBody(request) {
+  let body = "";
+  for await (const chunk of request) body += chunk;
+  return body ? JSON.parse(body) : {};
+}
+
+function writeJson(response, payload) {
+  response.writeHead(200, { "content-type": "application/json", "cache-control": "no-store" });
+  response.end(JSON.stringify(payload));
+}
+
+function pcm16Base64(samples = 1200, phase = 0) {
+  const buffer = Buffer.alloc(samples * 2);
+  for (let index = 0; index < samples; index += 1) {
+    const value = Math.round(Math.sin((index + phase) / 12) * 9000);
+    buffer.writeInt16LE(value, index * 2);
+  }
+  return buffer.toString("base64");
+}
+
+const pcmChunkA = pcm16Base64(1200, 0);
+const pcmChunkB = pcm16Base64(1200, 6);
+
+function startFakeTtsServer() {
+  fakeTtsServer = createServer(async (req, res) => {
+    if (req.method === "GET" && req.url === "/health") {
+      writeJson(res, { ok: true, provider: "fake-vibevoice-browser-contract", localOnly: true, streaming: true });
+      return;
+    }
+    if (req.method === "POST" && req.url === "/prewarm") {
+      const body = await readBody(req);
+      fakeTtsRequests.push({ path: req.url, body });
+      writeJson(res, { ok: true, warmed: true, cacheHit: false, firstAudioMs: 0 });
+      return;
+    }
+    if (req.method === "POST" && req.url === "/v1/tts/stream") {
+      const body = await readBody(req);
+      fakeTtsRequests.push({ path: req.url, body });
+      res.writeHead(200, { "content-type": "application/x-ndjson", "cache-control": "no-store" });
+      res.write(JSON.stringify({ type: "start", sampleRate: 24000, channels: 1, format: "pcm16", cacheHit: false, proofLevel: "contract" }) + "\n");
+      res.write(JSON.stringify({ type: "chunk", sequence: 0, audio: pcmChunkA, firstAudioMs: 19, proofLevel: "contract" }) + "\n");
+      res.write(JSON.stringify({ type: "chunk", sequence: 1, audio: pcmChunkB, cacheHit: true, proofLevel: "contract" }) + "\n");
+      res.write(JSON.stringify({ type: "end", totalMs: 47, cacheHit: true, proofLevel: "contract" }) + "\n");
+      res.end();
+      return;
+    }
+    res.writeHead(404);
+    res.end();
+  });
+  return new Promise((resolve) => {
+    fakeTtsServer.listen(0, "127.0.0.1", () => {
+      const address = fakeTtsServer.address();
+      resolve("http://127.0.0.1:" + address.port);
+    });
+  });
+}
+
 async function closeMockRemote() {
   if (!mockServer) return;
   await new Promise((resolve) => mockServer.close(resolve));
   mockServer = null;
+}
+
+async function closeFakeTtsServer() {
+  if (!fakeTtsServer) return;
+  await new Promise((resolve) => fakeTtsServer.close(resolve));
+  fakeTtsServer = null;
 }
 
 async function stopAll() {
@@ -112,6 +177,7 @@ async function stopAll() {
   }
   if (browser) await browser.close().catch(() => {});
   await closeMockRemote();
+  await closeFakeTtsServer();
 }
 
 function proxiedMockPath() {
@@ -153,6 +219,7 @@ await mkdir(artifactDir, { recursive: true });
 
 try {
   await startMockRemote();
+  const ttsBaseUrl = await startFakeTtsServer();
   spawnLogged("token", "node", ["services/token-server/server.mjs"], {
     TOKEN_SERVER_PORT: String(tokenPort),
     LIVEKIT_ROOM: room,
@@ -161,6 +228,15 @@ try {
     TOKEN_SERVER_URL: tokenServerUrl,
     LIVEKIT_ROOM: room,
     AGENT_TRANSPORT: "bridge",
+    TTS_PROVIDER: "local-vibevoice",
+    TTS_BASE_URL: ttsBaseUrl,
+    TTS_MODEL: "microsoft/VibeVoice-Realtime-0.5B",
+    TTS_VOICE: "Carter",
+    TTS_DTYPE: "bfloat16",
+    TTS_QUANTIZATION: "llm-int8",
+    TTS_CACHE_DIR: "artifacts/cache/tts-browser-contract",
+    TTS_VOICE_STYLE: "warm",
+    TTS_TEXT_CHUNK_CHARS: "96",
   });
   spawnLogged("lab", "node", ["apps/website-lab/server.mjs"], {
     PORT: String(labPort),
@@ -205,6 +281,7 @@ try {
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrFinalReceived"), null, { timeout: 12_000 });
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "agentAnswerReceived"), null, { timeout: 12_000 });
   await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "speechStreamStarted"), null, { timeout: 12_000 });
+  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "ttsAudioStreamEnded"), null, { timeout: 12_000 });
   const finalTranscript = await readUiState(page);
   const transcriptText = finalTranscript.transcript.map((turn) => turn.text).join("\n");
   assert.match(finalTranscript.asrChip, /transcript fallback/);
@@ -214,6 +291,113 @@ try {
   assert.match(transcriptText, /Remote helps with global payroll/i);
   assert.equal(finalTranscript.events.some((event) => event.type === "asrFinalReceived" && event.detail.simulated === true), true);
   assert.equal(finalTranscript.events.some((event) => event.type === "agentAnswerReceived" && event.detail.intent === "global_payroll"), true);
+  assert.equal(finalTranscript.events.some((event) => event.type === "speechStreamStarted" && event.detail.modelAudio === true && event.detail.fallback === "text-caption-only"), true);
+  assert.equal(finalTranscript.events.some((event) => event.type === "speechChunkDisplayed" && event.detail.reason === "model-audio-active"), true);
+  assert.equal(finalTranscript.events.some((event) => event.type === "ttsAudioStreamStarted" && event.detail.provider === "local-vibevoice" && event.detail.proofLevel === "contract"), true);
+  assert.equal(finalTranscript.events.some((event) => event.type === "ttsAudioChunkReceived" && event.detail.bytesApprox > 1000 && event.detail.proofLevel === "contract"), true);
+  assert.equal(finalTranscript.events.some((event) => event.type === "ttsAudioChunkScheduled" && event.detail.durationMs > 0), true);
+  assert.equal(finalTranscript.events.some((event) => event.type === "ttsAudioStreamEnded" && event.detail.chunkCount === 2 && event.detail.proofLevel === "contract"), true);
+  assert.ok(fakeTtsRequests.some((request) => request.path === "/prewarm"));
+  assert.ok(fakeTtsRequests.some((request) => request.path === "/v1/tts/stream" && request.body.requestId && request.body.cacheKey));
+
+  await page.evaluate(({ audio0, audio1 }) => {
+    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+      type: "agent.tts.start",
+      requestId: "order_smoke",
+      provider: "local-vibevoice",
+      proofLevel: "contract",
+      format: "pcm16",
+      sampleRate: 24000,
+      channels: 1,
+    });
+    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+      type: "agent.tts.chunk",
+      requestId: "order_smoke",
+      provider: "local-vibevoice",
+      proofLevel: "contract",
+      format: "pcm16",
+      sampleRate: 24000,
+      channels: 1,
+      sequence: 1,
+      audioBase64: audio1,
+    });
+    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+      type: "agent.tts.chunk",
+      requestId: "order_smoke",
+      provider: "local-vibevoice",
+      proofLevel: "contract",
+      format: "pcm16",
+      sampleRate: 24000,
+      channels: 1,
+      sequence: 0,
+      audioBase64: audio0,
+    });
+    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+      type: "agent.tts.chunk",
+      requestId: "order_smoke",
+      provider: "local-vibevoice",
+      proofLevel: "contract",
+      format: "pcm16",
+      sampleRate: 24000,
+      channels: 1,
+      sequence: 0,
+      audioBase64: audio0,
+    });
+    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+      type: "agent.tts.end",
+      requestId: "order_smoke",
+      provider: "local-vibevoice",
+      proofLevel: "contract",
+      chunkCount: 2,
+      firstAudioMs: 12,
+    });
+  }, { audio0: pcmChunkA, audio1: pcmChunkB });
+  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "ttsAudioStreamEnded" && event.detail.requestId === "order_smoke"), null, { timeout: 5000 });
+  const afterOrderingProbe = await readUiState(page);
+  const orderingEvents = afterOrderingProbe.events.filter((event) => event.detail.requestId === "order_smoke");
+  assert.deepEqual(
+    orderingEvents.filter((event) => event.type === "ttsAudioChunkScheduled").map((event) => event.detail.sequence),
+    [0, 1],
+  );
+  assert.equal(orderingEvents.some((event) => event.type === "ttsAudioChunkBuffered" && event.detail.sequence === 1), true);
+  assert.equal(orderingEvents.some((event) => event.type === "ttsAudioChunkIgnored" && event.detail.reason === "duplicate-sequence"), true);
+
+  const answeredRequestId = finalTranscript.events.find((event) => event.type === "speechStreamStarted")?.detail.requestId;
+  assert.ok(answeredRequestId);
+  await page.evaluate(async ({ requestId, audio }) => {
+    await window.OpenClickyWeb.interruptResponse();
+    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+      type: "agent.tts.start",
+      requestId,
+      provider: "local-vibevoice",
+      proofLevel: "contract",
+      format: "pcm16",
+      sampleRate: 24000,
+      channels: 1,
+    });
+    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+      type: "agent.tts.chunk",
+      requestId,
+      provider: "local-vibevoice",
+      proofLevel: "contract",
+      format: "pcm16",
+      sampleRate: 24000,
+      channels: 1,
+      sequence: 99,
+      audioBase64: audio,
+    });
+    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+      type: "agent.tts.end",
+      requestId,
+      provider: "local-vibevoice",
+      proofLevel: "contract",
+      chunkCount: 1,
+    });
+  }, { requestId: answeredRequestId, audio: pcmChunkA });
+  const afterInterruptProbe = await readUiState(page);
+  const staleEvents = afterInterruptProbe.events.filter((event) => event.detail.requestId === answeredRequestId);
+  assert.equal(staleEvents.some((event) => event.type === "ttsAudioChunkIgnored" && event.detail.reason === "interrupted"), true);
+  assert.equal(staleEvents.some((event) => event.type === "ttsAudioChunkScheduled" && event.detail.sequence === 99), false);
 
   const summary = {
     ok: true,
@@ -227,8 +411,15 @@ try {
       finalTranscriptUi: true,
       voiceProfilePreserved: true,
       speechStreamStarted: true,
+      browserTtsAudioEvents: true,
+      browserTtsAudioScheduled: true,
+      browserSpeechSuppressedForModelAudio: true,
+      modelAudioProofLevelContract: true,
+      staleModelAudioIgnored: true,
+      modelAudioOrderingAndDedupe: true,
     },
-    states: { initial, listening, noAudio, finalTranscript },
+    states: { initial, listening, noAudio, finalTranscript, afterOrderingProbe, afterInterruptProbe },
+    fakeTtsRequests,
     browserConsole,
   };
 

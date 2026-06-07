@@ -617,7 +617,20 @@ function injectedOpenClickyWeb() {
       startedAt: 0,
       firstChunkAt: 0,
       provider: '',
-      proof: ''
+      proof: '',
+      audible: true
+    };
+    var modelAudioState = {
+      generation: 0,
+      requestId: '',
+      context: null,
+      nextStartTime: 0,
+      chunkCount: 0,
+      playedChunks: 0,
+      expectedSequence: 0,
+      seenSequences: {},
+      pendingChunks: {},
+      sources: []
     };
     var cachedSpeechVoice = null;
 
@@ -914,10 +927,12 @@ function injectedOpenClickyWeb() {
       speechState.spokenChunks = 0;
       speechState.startedAt = 0;
       speechState.firstChunkAt = 0;
+      speechState.audible = true;
       if (cancelSpeech) {
         try {
           if (window.speechSynthesis) window.speechSynthesis.cancel();
         } catch (e) {}
+        resetModelAudioState(true);
       }
       Object.keys(ignoredSpeechRequestIds).forEach(function(requestId){
         if (Date.now() - ignoredSpeechRequestIds[requestId] > 60000) delete ignoredSpeechRequestIds[requestId];
@@ -940,19 +955,25 @@ function injectedOpenClickyWeb() {
       speechState.chunkCount = Number(message.chunkCount || 0);
       speechState.provider = message.provider || 'tts';
       speechState.proof = message.proof || '';
+      speechState.audible = message.fallback !== 'text-caption-only';
       speechState.startedAt = Date.now();
       speechState.ended = false;
       applyVoiceProfile(message.voiceProfile, message.voiceSwitch && message.voiceSwitch.reason);
       if (lastAgentAnswer) lastSpokenAgentAnswer = lastAgentAnswer;
       window.__ocwLastSpeech = '';
       setTurnState('speaking', 'streaming speech');
-      setTtsProof('TTS: streamed browser speech synthesis fallback using ' + activeVoiceProfile.label + (speechState.chunkCount ? ' (' + speechState.chunkCount + ' chunks)' : '') + '. Local VibeVoice is not proven yet.');
+      if (message.modelAudio) {
+        setTtsProof('TTS: text captions are streaming while local VibeVoice-compatible audio chunks are expected. Real model audio still requires H100 proof.');
+      } else {
+        setTtsProof('TTS: streamed browser speech synthesis fallback using ' + activeVoiceProfile.label + (speechState.chunkCount ? ' (' + speechState.chunkCount + ' chunks)' : '') + '. Local VibeVoice is not proven yet.');
+      }
       emit('speechStreamStarted', {
         requestId: speechState.requestId,
         provider: speechState.provider,
         chunkCount: speechState.chunkCount,
         voiceProfile: activeVoiceProfile,
-        fallback: message.fallback || 'browser-speech-synthesis'
+        fallback: message.fallback || 'browser-speech-synthesis',
+        modelAudio: !!message.modelAudio
       });
     }
 
@@ -967,6 +988,13 @@ function injectedOpenClickyWeb() {
       var text = next.text || '';
       showCaption(text, current.x, current.y);
       window.__ocwLastSpeech = (window.__ocwLastSpeech ? window.__ocwLastSpeech + ' ' : '') + text;
+
+      if (!speechState.audible) {
+        speechState.spokenChunks += 1;
+        emit('speechChunkDisplayed', { requestId: speechState.requestId, sequence: next.sequence, audible: false, reason: 'model-audio-active' });
+        window.setTimeout(function(){ pumpSpeechQueue(generation); }, 0);
+        return;
+      }
 
       if (!browserSpeechAvailable()) {
         setTtsProof('TTS: streamed text chunks received, but browser speech fallback is unavailable. Local VibeVoice is not proven yet.');
@@ -1044,6 +1072,240 @@ function injectedOpenClickyWeb() {
         spokenChunks: speechState.spokenChunks
       });
       pumpSpeechQueue(speechState.generation);
+    }
+
+    function resetModelAudioState(stopAudio) {
+      modelAudioState.generation += 1;
+      modelAudioState.requestId = '';
+      modelAudioState.nextStartTime = 0;
+      modelAudioState.chunkCount = 0;
+      modelAudioState.playedChunks = 0;
+      modelAudioState.expectedSequence = 0;
+      modelAudioState.seenSequences = {};
+      modelAudioState.pendingChunks = {};
+      if (stopAudio) {
+        modelAudioState.sources.forEach(function(source){
+          try { source.stop(); } catch (e) {}
+        });
+      }
+      modelAudioState.sources = [];
+    }
+
+    function shouldIgnoreTtsAudioMessage(message, eventType, allowNewRequest) {
+      var requestId = message.requestId || '';
+      if (requestId && ignoredSpeechRequestIds[requestId]) {
+        emit(eventType || 'ttsAudioMessageIgnored', {
+          requestId: requestId,
+          sequence: Number(message.sequence || 0),
+          reason: 'interrupted'
+        });
+        return true;
+      }
+      if (!allowNewRequest && requestId && modelAudioState.requestId && requestId !== modelAudioState.requestId) {
+        emit(eventType || 'ttsAudioMessageIgnored', {
+          requestId: requestId,
+          activeRequestId: modelAudioState.requestId,
+          sequence: Number(message.sequence || 0),
+          reason: 'stale-request'
+        });
+        return true;
+      }
+      return false;
+    }
+
+    function base64ToBytes(value) {
+      try {
+        var binary = window.atob(String(value || ''));
+        var bytes = new Uint8Array(binary.length);
+        for (var index = 0; index < binary.length; index += 1) {
+          bytes[index] = binary.charCodeAt(index);
+        }
+        return bytes;
+      } catch (e) {
+        return new Uint8Array(0);
+      }
+    }
+
+    function ensureModelAudioContext() {
+      var AudioContextCtor = window.AudioContext || window.webkitAudioContext;
+      if (!AudioContextCtor) return null;
+      if (!modelAudioState.context) modelAudioState.context = new AudioContextCtor();
+      if (modelAudioState.context.state === 'suspended') {
+        try {
+          var resume = modelAudioState.context.resume();
+          if (resume && typeof resume.catch === 'function') resume.catch(function(){});
+        } catch (e) {}
+      }
+      return modelAudioState.context;
+    }
+
+    function schedulePcm16AudioChunk(message) {
+      var audioBase64 = message.audioBase64 || message.audio || '';
+      var bytes = base64ToBytes(audioBase64);
+      if (bytes.length < 2) {
+        emit('ttsAudioChunkDisplayed', {
+          requestId: message.requestId || '',
+          sequence: Number(message.sequence || 0),
+          audible: false,
+          reason: 'empty-audio'
+        });
+        return;
+      }
+      var context = ensureModelAudioContext();
+      if (!context) {
+        emit('ttsAudioChunkDisplayed', {
+          requestId: message.requestId || '',
+          sequence: Number(message.sequence || 0),
+          audible: false,
+          reason: 'audio-context-unavailable'
+        });
+        return;
+      }
+
+      var sampleRate = Number(message.sampleRate || 24000);
+      var channels = Math.max(1, Number(message.channels || 1));
+      var sampleCount = Math.floor(bytes.length / 2 / channels);
+      if (!sampleCount) return;
+
+      var audioBuffer = context.createBuffer(channels, sampleCount, sampleRate);
+      for (var channel = 0; channel < channels; channel += 1) {
+        var data = audioBuffer.getChannelData(channel);
+        for (var sample = 0; sample < sampleCount; sample += 1) {
+          var byteOffset = (sample * channels + channel) * 2;
+          var value = bytes[byteOffset] | (bytes[byteOffset + 1] << 8);
+          if (value >= 0x8000) value -= 0x10000;
+          data[sample] = Math.max(-1, Math.min(1, value / 32768));
+        }
+      }
+
+      var source = context.createBufferSource();
+      source.buffer = audioBuffer;
+      source.connect(context.destination);
+      var startAt = Math.max(context.currentTime + 0.01, modelAudioState.nextStartTime || 0);
+      source.onended = function(){
+        modelAudioState.playedChunks += 1;
+      };
+      modelAudioState.sources.push(source);
+      modelAudioState.nextStartTime = startAt + audioBuffer.duration;
+      try {
+        source.start(startAt);
+        emit('ttsAudioChunkScheduled', {
+          requestId: message.requestId || '',
+          sequence: Number(message.sequence || 0),
+          audible: true,
+          sampleRate: sampleRate,
+          channels: channels,
+          durationMs: Math.round(audioBuffer.duration * 1000)
+        });
+      } catch (e) {
+        emit('ttsAudioChunkDisplayed', {
+          requestId: message.requestId || '',
+          sequence: Number(message.sequence || 0),
+          audible: false,
+          reason: e.message || 'schedule-failed'
+        });
+      }
+    }
+
+    function startTtsAudioStream(message) {
+      if (shouldIgnoreTtsAudioMessage(message, 'ttsAudioStreamIgnored', true)) return;
+      applyVoiceProfile(message.voiceProfile, '');
+      resetModelAudioState(true);
+      modelAudioState.requestId = message.requestId || '';
+      modelAudioState.chunkCount = Number(message.chunkCount || 0);
+      setTtsProof('TTS: local VibeVoice-compatible audio stream started (' + (message.format || 'audio') + ', proof level: ' + (message.proofLevel || 'contract') + '). Real model proof depends on the H100 smoke.');
+      emit('ttsAudioStreamStarted', {
+        requestId: message.requestId || '',
+        provider: message.provider || '',
+        proofLevel: message.proofLevel || 'contract',
+        format: message.format || '',
+        sampleRate: message.sampleRate || null,
+        cacheHit: !!message.cacheHit,
+        voiceProfile: activeVoiceProfile
+      });
+    }
+
+    function acceptTtsAudioChunk(message) {
+      modelAudioState.chunkCount += 1;
+      if ((message.format || '').toLowerCase() === 'pcm16') schedulePcm16AudioChunk(message);
+      emit('ttsAudioChunkReceived', {
+        requestId: message.requestId || '',
+        sequence: Number(message.sequence || 0),
+        provider: message.provider || '',
+        proofLevel: message.proofLevel || 'contract',
+        format: message.format || '',
+        sampleRate: message.sampleRate || null,
+        bytesApprox: Math.floor(String(message.audioBase64 || message.audio || '').length * 0.75),
+        cacheHit: !!message.cacheHit
+      });
+      modelAudioState.expectedSequence += 1;
+    }
+
+    function flushPendingTtsAudioChunks() {
+      while (Object.prototype.hasOwnProperty.call(modelAudioState.pendingChunks, String(modelAudioState.expectedSequence))) {
+        var next = modelAudioState.pendingChunks[String(modelAudioState.expectedSequence)];
+        delete modelAudioState.pendingChunks[String(modelAudioState.expectedSequence)];
+        acceptTtsAudioChunk(next);
+      }
+    }
+
+    function queueTtsAudioChunk(message) {
+      if (shouldIgnoreTtsAudioMessage(message, 'ttsAudioChunkIgnored')) return;
+      var sequence = Number(message.sequence || 0);
+      var sequenceKey = String(sequence);
+      if (modelAudioState.seenSequences[sequenceKey]) {
+        emit('ttsAudioChunkIgnored', {
+          requestId: message.requestId || '',
+          sequence: sequence,
+          reason: 'duplicate-sequence'
+        });
+        return;
+      }
+      modelAudioState.seenSequences[sequenceKey] = true;
+      if (sequence > modelAudioState.expectedSequence) {
+        modelAudioState.pendingChunks[sequenceKey] = message;
+        emit('ttsAudioChunkBuffered', {
+          requestId: message.requestId || '',
+          sequence: sequence,
+          expectedSequence: modelAudioState.expectedSequence
+        });
+        return;
+      }
+      if (sequence < modelAudioState.expectedSequence) {
+        emit('ttsAudioChunkIgnored', {
+          requestId: message.requestId || '',
+          sequence: sequence,
+          reason: 'late-sequence'
+        });
+        return;
+      }
+      acceptTtsAudioChunk(message);
+      flushPendingTtsAudioChunks();
+    }
+
+    function finishTtsAudioStream(message) {
+      if (shouldIgnoreTtsAudioMessage(message, 'ttsAudioStreamIgnored')) return;
+      setTtsProof('TTS: local VibeVoice-compatible audio stream ended after ' + Number(message.chunkCount || 0) + ' chunks at proof level ' + (message.proofLevel || 'contract') + '. Real model proof depends on the H100 smoke.');
+      emit('ttsAudioStreamEnded', {
+        requestId: message.requestId || '',
+        provider: message.provider || '',
+        proofLevel: message.proofLevel || 'contract',
+        chunkCount: Number(message.chunkCount || 0),
+        firstAudioMs: message.firstAudioMs,
+        scheduledChunks: modelAudioState.chunkCount,
+        playedChunks: modelAudioState.playedChunks
+      });
+    }
+
+    function failTtsAudioStream(message) {
+      if (shouldIgnoreTtsAudioMessage(message, 'ttsAudioStreamIgnored')) return;
+      setTtsProof('TTS: local VibeVoice-compatible audio stream failed; text captions remain visible and browser speech is not replayed to avoid duplicate playback. ' + (message.message || ''));
+      emit('ttsAudioStreamFailed', {
+        requestId: message.requestId || '',
+        provider: message.provider || '',
+        proofLevel: message.proofLevel || 'contract',
+        message: message.message || ''
+      });
     }
 
     function speak(text, options) {
@@ -1475,6 +1737,26 @@ function injectedOpenClickyWeb() {
 
       if (message.type === 'agent.speech.end') {
         finishSpeechStream(message);
+        return;
+      }
+
+      if (message.type === 'agent.tts.start') {
+        startTtsAudioStream(message);
+        return;
+      }
+
+      if (message.type === 'agent.tts.chunk') {
+        queueTtsAudioChunk(message);
+        return;
+      }
+
+      if (message.type === 'agent.tts.end') {
+        finishTtsAudioStream(message);
+        return;
+      }
+
+      if (message.type === 'agent.tts.error') {
+        failTtsAudioStream(message);
         return;
       }
 
@@ -2290,6 +2572,7 @@ function injectedOpenClickyWeb() {
       startVoiceTurn: startVoiceTurn,
       stopVoiceTurn: stopVoiceTurn,
       interruptResponse: interruptResponse,
+      receiveAgentMessageForSmoke: function(message){ return handleAgentMessage(JSON.stringify(message || {})); },
       setVoiceProfile: function(profile){ return setSessionVoiceProfile(resolveBrowserVoiceProfile(profile), 'api', true); },
       voiceProfile: function(){ return Object.assign({}, activeVoiceProfile); },
       voiceState: function(){

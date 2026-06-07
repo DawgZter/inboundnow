@@ -56,6 +56,12 @@
       "agent": "Banach (019ea240-7a50-7af2-8a0b-872506db5ccc)",
       "status": "completed",
       "result": "results/round4-livekit-remote-moss-proof.md"
+    },
+    {
+      "id": "round5-local-tts-audio-review",
+      "agent": "James (019ea258-a9c9-79a2-8695-3cba92ac0668)",
+      "status": "completed",
+      "result": "results/round5-local-tts-audio-proof.md"
     }
   ],
   "verification": {
@@ -134,8 +140,15 @@
         "id": "browser-asr-ui",
         "status": "passed",
         "command": "npm run smoke:browser:asr-ui",
-        "artifact": "artifacts/smoke/browser-asr-ui-2026-06-07T13-20-16-822Z/result.json",
-        "notes": "Browser-visible ASR proof copy, listening/no-audio chips, final transcript fallback, warm voice persistence, and streamed speech start verified."
+        "artifact": "artifacts/smoke/browser-asr-ui-2026-06-07T14-04-27-938Z/result.json",
+        "notes": "Browser-visible ASR proof copy, listening/no-audio chips, final transcript fallback, warm voice persistence, caption-only speech while model audio is active, PCM16 TTS scheduling, stale-audio ignore, and out-of-order/duplicate chunk handling verified."
+      },
+      {
+        "id": "local-tts-agent-audio-events",
+        "status": "passed",
+        "command": "npm run smoke:tts:agent",
+        "artifact": "artifacts/smoke/agent-tts-local-2026-06-07T14-04-22-864Z/result.json",
+        "notes": "Worker prewarmed and streamed from a localhost VibeVoice-compatible fake endpoint, emitted agent.tts audio events with PCM16 chunks, kept proofLevel=contract and localVibeVoiceProven=false, and allowed actions to overlap model audio for latency."
       },
       {
         "id": "remote-moss-bounded-snippets",
