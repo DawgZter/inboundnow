@@ -88,18 +88,16 @@ Useful commands:
 Do not put Moss project keys in client-side code or committed env files.
 Hosted Moss is not part of the default local runtime. The hosted upload path remains a CLI upload/index proof lane unless it is enabled separately.
 
-## Vendored OSS References
+## External OSS References
 
-The repo includes source snapshots under vendor/open-source/ for work that is relevant to inboundnow:
+The active runtime does not import vendored OSS snapshots. Keep these upstream projects as lightweight implementation references instead:
 
-- Stagehand for semantic browser action resolution
-- Voicebox for voice-product reference material
-- vLLM for H100 local model serving
-- FlashInfer for CUDA attention/sampling kernels
-- AWQ and llm-compressor for quantization/compression experiments
-- Qwen3 for Qwen-family model reference material
-
-These snapshots are local source references. The active runtime does not import them directly yet.
+- [Stagehand](https://github.com/browserbase/stagehand) for semantic browser action resolution
+- [Voicebox](https://github.com/jamiepine/voicebox) for local-first voice product reference material
+- [vLLM](https://github.com/vllm-project/vllm) for H100 local model serving
+- [FlashInfer](https://github.com/flashinfer-ai/flashinfer) for CUDA attention/sampling kernels
+- [AWQ](https://github.com/mit-han-lab/llm-awq) and [llm-compressor](https://github.com/vllm-project/llm-compressor) for quantization/compression experiments
+- [Qwen3](https://github.com/QwenLM/Qwen3) for Qwen-family model reference material
 
 ## Useful Scripts
 
