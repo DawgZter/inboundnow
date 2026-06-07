@@ -227,7 +227,7 @@ function injectedOpenClickyWeb() {
       pointer-events: auto; background: rgba(255, 255, 255, 0.94);
       border: 1px solid rgba(17, 24, 39, 0.12); border-radius: 8px;
       box-shadow: 0 20px 50px rgba(15, 23, 42, 0.18), 0 2px 10px rgba(15, 23, 42, 0.08);
-      backdrop-filter: blur(14px); overflow: hidden;
+      backdrop-filter: blur(14px); overflow: hidden; max-height: calc(100vh - 36px);
     }
     .ocw-head {
       display: flex; align-items: center; gap: 10px; padding: 13px 14px 11px;
@@ -240,7 +240,7 @@ function injectedOpenClickyWeb() {
     .ocw-title { min-width: 0; }
     .ocw-title strong { display: block; font-size: 13px; font-weight: 760; color: #111827; }
     .ocw-title span { display: block; margin-top: 1px; font-size: 11px; color: #6b7280; }
-    .ocw-body { padding: 12px 12px 13px; }
+    .ocw-body { padding: 12px 12px 13px; max-height: calc(100vh - 96px); overflow-y: auto; }
     .ocw-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
     .ocw-action {
       min-height: 38px; border: 1px solid rgba(17, 24, 39, 0.12); border-radius: 8px;
@@ -418,27 +418,23 @@ function injectedOpenClickyWeb() {
     </div>
     <div class="ocw-body">
       <p class="ocw-transcript">Ask how Remote helps with global payroll and I will guide the page while answering.</p>
-      <div class="ocw-grid">
-        <button class="ocw-action primary" data-ocw-action="payrollFlow" type="button">Ask payroll question</button>
-        <button class="ocw-action" data-ocw-action="payroll" type="button">Show payroll</button>
-        <button class="ocw-action" data-ocw-action="showBookingPrompt" type="button">Book meeting</button>
-        <button class="ocw-action" data-ocw-action="snapshot" type="button">Snapshot</button>
-        <button class="ocw-action" data-ocw-action="demo" type="button">Point demo</button>
-        <button class="ocw-action" data-ocw-action="country" type="button">Country explorer</button>
-        <button class="ocw-action" data-ocw-action="pricing" type="button">Pricing</button>
-        <button class="ocw-action" data-ocw-action="clickDemo" type="button">Click demo</button>
+      <div class="ocw-bridge" data-token-server="${tokenServerUrl}" data-livekit-room="${liveKitRoom}">
+        <div class="ocw-agent-state"><span class="ocw-agent-dot"></span><span class="ocw-agent-copy">Simulated agent bridge offline</span></div>
+        <div class="ocw-bridge-actions">
+          <button data-ocw-action="connectagent" type="button">Connect</button>
+          <button data-ocw-action="askagent" type="button">Ask agent</button>
+          <button data-ocw-action="simulatevoice" type="button">Sim voice</button>
+        </div>
       </div>
       <form class="ocw-command">
         <input class="ocw-input" value="How does Remote help with global payroll?" autocomplete="off" aria-label="Voice guide command" />
         <button class="ocw-run" type="submit">Run</button>
       </form>
-      <div class="ocw-bridge" data-token-server="${tokenServerUrl}" data-livekit-room="${liveKitRoom}">
-        <div class="ocw-agent-state"><span class="ocw-agent-dot"></span><span class="ocw-agent-copy">Simulated agent bridge offline</span></div>
-        <div class="ocw-bridge-actions">
-          <button data-ocw-action="connectAgent" type="button">Connect</button>
-          <button data-ocw-action="askAgent" type="button">Ask agent</button>
-          <button data-ocw-action="simulateVoice" type="button">Sim voice</button>
-        </div>
+      <div class="ocw-grid">
+        <button class="ocw-action primary" data-ocw-action="payrollflow" type="button">Deterministic fallback</button>
+        <button class="ocw-action" data-ocw-action="showbookingprompt" type="button">Book meeting</button>
+        <button class="ocw-action" data-ocw-action="payroll" type="button">Show payroll</button>
+        <button class="ocw-action" data-ocw-action="snapshot" type="button">Snapshot</button>
       </div>
       <div class="ocw-size">
         <div class="ocw-size-row">
@@ -1308,7 +1304,20 @@ function injectedOpenClickyWeb() {
       var button = event.target.closest && event.target.closest('[data-ocw-action]');
       if (!button) return;
       event.preventDefault();
-      enqueue(button.getAttribute('data-ocw-action'));
+      var actionName = button.getAttribute('data-ocw-action');
+      if (actionName === 'connectagent') {
+        connectAgentBridge().catch(function(error){ setStatus(error.message || String(error)); });
+        return;
+      }
+      if (actionName === 'askagent') {
+        askLocalAgent(false).catch(function(error){ setStatus(error.message || String(error)); });
+        return;
+      }
+      if (actionName === 'simulatevoice') {
+        askLocalAgent(true).catch(function(error){ setStatus(error.message || String(error)); });
+        return;
+      }
+      enqueue(actionName);
     });
 
     var form = root.querySelector('.ocw-command');
