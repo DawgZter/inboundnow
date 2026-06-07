@@ -932,12 +932,12 @@ function injectedOpenClickyWeb() {
       if (labels.tts) parts.push('TTS ' + labels.tts);
       if (message.retrieval) {
         var retrieval = message.retrieval;
-        var retrievalText = 'Moss ' + (retrieval.provider || 'retrieval');
+        var retrievalText = 'Retrieval ' + (retrieval.provider || 'retrieval');
         if (retrieval.simulated) retrievalText += ' fixture';
         if (typeof retrieval.count === 'number') retrievalText += ' (' + retrieval.count + ' snippets)';
         parts.push(retrievalText);
       } else if (labels.moss) {
-        parts.push('Moss ' + labels.moss);
+        parts.push('Retrieval ' + labels.moss);
       }
       if (!parts.length) return 'Proof metadata unavailable from agent answer.';
       return 'Proof: ' + parts.join('; ') + '.';

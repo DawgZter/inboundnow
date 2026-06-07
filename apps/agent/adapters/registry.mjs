@@ -2,6 +2,7 @@ import { createUnavailableAdapter } from "./contracts.mjs";
 import { createParakeetStubAdapter } from "./asr/parakeet-stub.mjs";
 import { createQwenOpenAILocalAdapter } from "./llm/qwen-openai-local.mjs";
 import { createQwenStubAdapter } from "./llm/qwen-stub.mjs";
+import { createLocalArtifactMossAdapter } from "./moss/local-artifact.mjs";
 import { createLocalFixtureMossAdapter } from "./moss/local-fixture.mjs";
 import { createLocalRuntimeMossClient } from "./moss/local-runtime-client.mjs";
 import { createVibeVoiceStubAdapter } from "./tts/vibevoice-stub.mjs";
@@ -27,10 +28,11 @@ function ttsAdapter(env) {
 
 function mossAdapter(env) {
   const provider = env.MOSS_PROVIDER || "local-fixture";
+  if (provider === "local-artifact") return createLocalArtifactMossAdapter(env);
   if (provider === "local-fixture") return createLocalFixtureMossAdapter(env);
   if (provider === "local-runtime-client") return createLocalRuntimeMossClient(env);
   if (provider === "none") return createUnavailableAdapter("moss", provider, "Moss retrieval disabled.");
-  return createUnavailableAdapter("moss", provider, "Unknown Moss provider; use local-fixture or local-runtime-client.");
+  return createUnavailableAdapter("moss", provider, "Unknown Moss provider; use local-fixture, local-artifact, or local-runtime-client.");
 }
 
 export function createAdapterRegistry(env = process.env) {
@@ -53,4 +55,3 @@ export function adapterLabels(registry) {
     Object.entries(adapterStatusMap(registry)).map(([key, value]) => [key, value.label]),
   );
 }
-

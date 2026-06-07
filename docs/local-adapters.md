@@ -11,7 +11,7 @@ This document is the proof boundary for the local voice-agent harness.
 - Speech output: browser `speechSynthesis` fallback when available.
 - Adapter plumbing: dependency-free local stubs and status reporting under
   `apps/agent/adapters`.
-- Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`.
+- Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`; local artifact retrieval is exercised by `npm run smoke:moss:local`.
 - Browser action execution: `window.OpenClickyWeb.dispatch(...)` inside the proxied Remote page.
 
 ## GPU Requirement
@@ -70,6 +70,8 @@ Responsibilities:
 The `local-fixture` adapter proves only local retrieval wiring against a checked
 in fixture. Real Moss proof requires querying a prebuilt local Moss artifact at
 runtime without the forbidden cloud/upload behaviors.
+
+Local artifact retrieval is not hosted Moss and not Moss SDK proof; it only proves querying a prebuilt local JSON retrieval artifact through the Moss adapter boundary.
 
 ## Stagehand Boundary
 

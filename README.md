@@ -211,7 +211,8 @@ Current proof level:
 - The browser LiveKit path is verified locally: browser joins the local room, sends the payroll question, receives `agent.action`, guides the page, and keeps Cal gated until confirmation.
 - The WebSocket bridge remains as an honest fallback when LiveKit is unavailable.
 - Mic publication is requested from the browser `Connect local transport` action, but ASR is still not attached to the audio track.
-- ASR, LLM, TTS, and Moss have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model/runtime proof.
+- ASR, LLM, and TTS have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model proof.
+- Local artifact retrieval is available through the Moss adapter boundary with `npm run smoke:moss:local`; this is local JSON artifact proof, not hosted Moss or Moss SDK proof.
 - Cal.com is not loaded until the user confirms the booking prompt.
 
 For the real local-model GPU lane, use docs/vast-h100-runbook.md and the scripts under scripts/vast-h100/.
@@ -223,6 +224,7 @@ Useful local adapter checks:
 ```bash
 npm run smoke:adapters
 npm run smoke:planner
+npm run smoke:moss:local
 npm run smoke:local
 npm run smoke:livekit
 npm run dev:qwen-stub

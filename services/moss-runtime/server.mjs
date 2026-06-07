@@ -1,9 +1,13 @@
 #!/usr/bin/env node
 import { createServer } from "node:http";
+import { createLocalArtifactMossAdapter } from "../../apps/agent/adapters/moss/local-artifact.mjs";
 import { createLocalFixtureMossAdapter } from "../../apps/agent/adapters/moss/local-fixture.mjs";
 
 const PORT = Number(process.env.MOSS_RUNTIME_PORT || 4321);
-const adapter = createLocalFixtureMossAdapter(process.env);
+const PROVIDER = process.env.MOSS_RUNTIME_PROVIDER || process.env.MOSS_PROVIDER || "local-fixture";
+const adapter = PROVIDER === "local-artifact"
+  ? createLocalArtifactMossAdapter(process.env)
+  : createLocalFixtureMossAdapter(process.env);
 
 function readBody(request) {
   return new Promise((resolve, reject) => {
@@ -39,6 +43,7 @@ const server = createServer(async (request, response) => {
         "cloud polling",
         "pushIndex()",
         "runtime document upload",
+        "session document upload",
         "session embedding upload",
       ],
       adapter: adapter.status(),
@@ -61,6 +66,5 @@ const server = createServer(async (request, response) => {
 });
 
 server.listen(PORT, "127.0.0.1", () => {
-  console.log(`Local Moss fixture runtime listening on http://127.0.0.1:${PORT}`);
+  console.log(`Local Moss ${PROVIDER} runtime listening on http://127.0.0.1:${PORT}`);
 });
-

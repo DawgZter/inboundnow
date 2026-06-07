@@ -11,15 +11,17 @@
     "dev:agent:livekit": "AGENT_TRANSPORT=livekit node apps/agent/worker.mjs",
     "dev:qwen-stub": "node services/model-stubs/qwen-openai-compatible.mjs",
     "dev:moss-runtime": "node services/moss-runtime/server.mjs",
+    "moss:index": "node services/moss-indexer/build-local-index.mjs",
     "smoke:adapters": "node apps/agent/scripts/smoke-adapters.mjs",
     "smoke:planner": "node scripts/smoke-llm-planner.mjs",
+    "smoke:moss:local": "node scripts/smoke-moss-local.mjs",
     "smoke:local": "node scripts/smoke-local.mjs",
     "smoke:livekit": "node scripts/smoke-livekit.mjs",
     "smoke:qwen:local": "node scripts/vast-h100/smoke-qwen-endpoint.mjs",
     "smoke:qwen:h100": "node scripts/vast-h100/smoke-qwen-endpoint.mjs",
     "start": "node apps/website-lab/server.mjs",
     "test": "node --test",
-    "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/llm-planner.mjs && node --check apps/agent/worker.mjs && node --check apps/agent/scripts/smoke-adapters.mjs && node --check scripts/smoke-local.mjs && node --check scripts/smoke-livekit.mjs && node --check scripts/smoke-llm-planner.mjs && node --check services/moss-runtime/server.mjs && node --check services/model-stubs/qwen-openai-compatible.mjs && node --check packages/action-protocol/index.mjs && npm test && npm run smoke:adapters && npm run smoke:planner"
+    "check": "node --check apps/website-lab/server.mjs && node --check services/token-server/server.mjs && node --check apps/agent/router.mjs && node --check apps/agent/llm-planner.mjs && node --check apps/agent/worker.mjs && node --check apps/agent/scripts/smoke-adapters.mjs && node --check scripts/smoke-local.mjs && node --check scripts/smoke-livekit.mjs && node --check scripts/smoke-llm-planner.mjs && node --check scripts/smoke-moss-local.mjs && node --check services/moss-runtime/server.mjs && node --check services/moss-indexer/build-local-index.mjs && node --check services/model-stubs/qwen-openai-compatible.mjs && node --check packages/action-protocol/index.mjs && node --check packages/local-retrieval/index.mjs && npm test && npm run smoke:adapters && npm run smoke:planner && npm run smoke:moss:local"
   },
   "dependencies": {
     "@livekit/rtc-node": "^0.13.29",

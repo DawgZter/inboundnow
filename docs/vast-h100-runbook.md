@@ -113,7 +113,7 @@ The script starts a tmux session with:
 
 - livekit-server --dev
 - bridge-disabled token server
-- local Moss fixture runtime
+- local Moss artifact runtime after `npm run moss:index`
 - LiveKit-mode agent worker configured for AGENT_PLANNER=local-llm, local Qwen, and local Moss URLs
 - Remote website lab on port 4199
 
@@ -129,6 +129,7 @@ On the instance:
 
     npm run check
     npm run smoke:planner
+    npm run smoke:moss:local
     npm run smoke:livekit
     mkdir -p artifacts/smoke
     node scripts/vast-h100/smoke-qwen-endpoint.mjs | tee artifacts/smoke/qwen-h100.json
@@ -149,7 +150,7 @@ Verified by this runbook today:
 - H100 machine selection and preflight.
 - Local self-hosted LiveKit control path.
 - Local Qwen OpenAI-compatible endpoint via vLLM when smoke-qwen-endpoint.mjs passes.
-- Local Moss fixture runtime wiring.
+- Local Moss artifact runtime wiring through the local-runtime-client boundary.
 
 Not yet proven by this runbook:
 

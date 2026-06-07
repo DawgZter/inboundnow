@@ -1,0 +1,37 @@
+[
+  {
+    "id": "remote-global-payroll",
+    "title": "Global payroll",
+    "url": "https://remote.com/global-payroll",
+    "text": "Remote helps companies run global payroll for distributed employees and contractors. Teams can pay workers in multiple countries, manage country-specific payroll rules, keep payroll connected to HR workflows, and reduce manual compliance work when hiring internationally.",
+    "tags": ["payroll", "global", "compliance", "distributed teams", "employees"]
+  },
+  {
+    "id": "remote-employer-of-record",
+    "title": "Employer of Record",
+    "url": "https://remote.com/employer-of-record",
+    "text": "Remote's employer of record service helps companies hire employees in countries where they do not have a local entity. It supports onboarding, employment documentation, local payroll, benefits, and compliance obligations.",
+    "tags": ["hiring", "eor", "employees", "countries", "compliance"]
+  },
+  {
+    "id": "remote-country-explorer",
+    "title": "Country explorer",
+    "url": "https://remote.com/country-explorer",
+    "text": "Remote's country explorer helps teams understand local hiring, payroll, benefits, public holidays, taxes, and compliance requirements before expanding into a new country.",
+    "tags": ["country", "local rules", "benefits", "tax", "compliance"]
+  },
+  {
+    "id": "remote-pricing",
+    "title": "Pricing",
+    "url": "https://remote.com/pricing",
+    "text": "Remote pricing paths help buyers compare HR, payroll, contractor management, and employer-of-record products. Buyers can review product packages and choose the right plan before booking a walkthrough.",
+    "tags": ["pricing", "payroll", "contractors", "eor", "packages"]
+  },
+  {
+    "id": "remote-contractors",
+    "title": "Contractor management",
+    "url": "https://remote.com/contractor-management",
+    "text": "Remote helps companies onboard, manage, and pay international contractors while keeping contractor workflows connected to HR operations and compliance review.",
+    "tags": ["contractors", "payments", "onboarding", "compliance"]
+  }
+]

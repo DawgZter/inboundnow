@@ -6,6 +6,7 @@
 npm run check
 npm run smoke:adapters
 npm run smoke:planner
+npm run smoke:moss:local
 npm run smoke:local
 npm run smoke:livekit
 ```
@@ -38,6 +39,25 @@ Expected proof level in this mode: browser and agent exchange control messages o
 ## H100 Local-Model Lane
 
 The real model lane requires an H100-class GPU. Use docs/vast-h100-runbook.md for the Vast.ai PyTorch-template setup, H100 preflight, Qwen vLLM endpoint, port tunnels, and evidence capture.
+
+## Local Retrieval Artifact
+
+```bash
+npm run moss:index
+npm run smoke:moss:local
+```
+
+`npm run moss:index` builds `artifacts/moss/remote-local-index.json` from the checked-in Remote fixture pages. `npm run smoke:moss:local` builds a deterministic smoke artifact, starts `services/moss-runtime` with `MOSS_RUNTIME_PROVIDER=local-artifact`, queries `/health` and `/query`, then queries the same runtime through the agent `local-runtime-client`.
+
+Manual runtime mode:
+
+```bash
+npm run moss:index
+MOSS_RUNTIME_PROVIDER=local-artifact npm run dev:moss-runtime
+MOSS_PROVIDER=local-runtime-client MOSS_RUNTIME_URL=http://127.0.0.1:4321 npm run dev:agent
+```
+
+This proves local artifact retrieval only. It is not hosted Moss, not Moss SDK proof, and it must not use `autoRefresh`, cloud polling, `pushIndex()`, runtime document upload, session document upload, or session embedding upload.
 
 ## Local LLM Planner Mode
 
