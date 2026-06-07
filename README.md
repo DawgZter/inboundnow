@@ -1,244 +1,112 @@
-# InboundNow Project Brief
+# inboundnow
 
-Build a voice-first AI SDR website guide: a prospect lands on a B2B website, talks naturally to an AI persona, and the agent answers in realtime while visually navigating the page with a polished moving cursor, highlights, scrolling, clicks, and scheduling through Cal.com.
+inboundnow is a local conversational website agent: you open a site, click Start AI Persona, talk to it, and the blue cursor drives the page while the agent answers. The target submission experience is simple: a buyer speaks naturally, inboundnow answers with a local voice stack, scrolls, highlights, clicks the real page, and gates scheduling until the buyer confirms.
 
-This is not a chatbot. It is a conversational website co-pilot that behaves like an inbound SDR: answers questions, pulls site/product context from local Moss, guides the prospect around the actual page, qualifies intent, and books a meeting.
+Default run:
 
-## Core Decision
-
-Use OpenClicky as inspiration/local sidecar, not the production website controller.
-
-Build a browser-native OpenClicky-Web layer:
-
-```text
-LiveKit voice loop
--> ASR / LLM / TTS
--> Moss local retrieval
--> planner/tool router
--> browser action bus
--> custom cursor/highlight/scroll/click widget
--> Cal.com scheduling
-```
-
-Use Stagehand as semantic resolver, not the visible UI:
-
-```text
-"Show me payroll pricing"
--> Stagehand/Playwright observes page
--> returns likely selector/action
--> browser widget executes visibly with cursor + highlight
-```
-
-## Hard Constraints
-
-- LiveKit must be self-hosted/local-first, not LiveKit Cloud.
-- ASR: `nvidia/parakeet-tdt-0.6b-v3`, English-only.
-- LLM: local/open-weight Qwen-class model through vLLM/SGLang/OpenAI-compatible API.
-- TTS: local Miso One/MisoTTS streaming audio as the primary target, with consented LoRA finetunes for cloned voices. Legacy VibeVoice-compatible TTS can remain as a compatibility lane; browser fallback speech must stream in chunks rather than waiting for the whole action flow.
-- Real local-model proof requires an H100-class GPU; the recommended cloud path is Vast.ai with the PyTorch CUDA/cuDNN template. See docs/vast-h100-runbook.md.
-- Moss must use local runtime after initial index generation.
-- Moss runtime must not use `autoRefresh`, SDK cloud polling, `pushIndex()`, session doc upload, or session embeddings upload.
-- Cal.com included for scheduling.
-- Production visitor experience should be browser-native, not macOS desktop control.
-- Native OpenClicky can remain a local testing/demo/operator-assist sidecar.
-
-## Existing Prototype Entry
-
-Use this as the first local lab surface:
-
-`/Users/karimyahia/Documents/Codex/2026-06-06/could-u-create-a-page-locally-2/outputs/remote-live-proxy.mjs`
-
-It currently proxies Remote.com locally, strips CSP/frame headers, rewrites assets, and injects a support/AI persona widget. This is the right starting point for proving the embedded experience before building a cleaner app structure.
-
-## Recommended MVP
-
-1. Keep the existing Remote.com proxy lab running.
-2. Replace the current static support widget with an OpenClicky-Web widget.
-3. Add a browser-native cursor overlay using the exported Clicky cursor style.
-4. Add action bus methods:
-   - `moveCursorToElement`
-   - `highlightElement`
-   - `scrollToElement`
-   - `clickElement`
-   - `navigate`
-   - `showCaption`
-   - `openCal`
-   - `showBookingPrompt`
-5. Add page snapshot/context extraction:
-   - headings
-   - CTAs
-   - nav links
-   - visible text
-   - element bounds
-   - ARIA roles / labels
-6. Connect LiveKit local voice room to the widget.
-7. Add agent worker:
-   - Parakeet ASR
-   - local LLM
-   - Moss query tool
-   - browser action tool
-   - Cal.com scheduling tool
-8. Add Stagehand later as an offscreen resolver for arbitrary pages.
-
-## Suggested Repo Shape
-
-```text
-apps/
-  website-lab/          # Remote.com proxy/demo page
-  widget/               # OpenClicky-Web browser widget
-  agent/                # LiveKit agent worker
-
-services/
-  livekit/              # local LiveKit config/scripts
-  token-server/         # issues LiveKit tokens
-  moss-runtime/         # local-only Moss query wrapper
-  moss-indexer/         # cloud/index build only, not runtime
-  cal/                  # Cal.com scheduling API/embed helpers
-  browser-resolver/     # Stagehand/Playwright selector resolver
-
-packages/
-  action-protocol/      # typed browser action schema
-  page-snapshot/        # DOM/ARIA snapshot utilities
-  cursor-ui/            # cursor, captions, highlights
-```
-
-## Key Implementation Rule
-
-The browser widget owns the prospect-facing illusion.
-
-Stagehand/Browser Use/Playwright may discover what to do, but the widget should execute the visible action. The prospect should see a smooth cursor fly to a CTA, a section highlight, a scroll, or a Cal.com modal. They should not see a raw automation harness.
-
-## Recommended Libraries
-
-- Stagehand: semantic browser action resolution.
-- Playwright: test harness and locator philosophy.
-- Driver.js: highlights/attention overlays, if useful.
-- rrweb: local replay/debug mode.
-- Cal.com embed first, API second.
-- OpenClicky native app: local sidecar only.
-
-## Non-Goals For MVP
-
-- Do not build a full Slack/Hermes gateway.
-- Do not hardcode every Remote.com path.
-- Do not make native OpenClicky drive real prospects' machines.
-- Do not make Cal.com booking happen through coordinate clicks.
-- Do not depend on hosted Moss runtime behavior.
-
-## First Codex Task
-
-Start by turning the current proxy prototype into a proper local app with an injected OpenClicky-Web action bus and visible cursor. Prove this flow first:
-
-```text
-User asks: "How does Remote help with global payroll?"
-Agent answers aloud.
-Widget scrolls to/payroll-related section or nav item.
-Cursor moves there.
-Relevant text/CTA is highlighted.
-Agent offers to book a meeting.
-Cal.com opens in-page/modal after confirmation.
-```
-
-That is the spine. Once that feels good, wire LiveKit + Moss + local models around it.
-
-## Local MVP Lab
-
-The current repo implements the first proof as a lean local Node app:
-
-```bash
-npm run check
-PORT=4199 CAL_URL=https://cal.com/remote npm run dev
-```
+    npm install
+    npm start
 
 Open:
 
-- Wrapper page: `http://localhost:4199/`
-- Direct proxied Remote page: `http://localhost:4199/direct`
+    http://localhost:4199/direct
 
-The injected widget exposes `window.OpenClickyWeb` / `window.OpenClickyWebMVP` with the first action-bus methods:
+What starts by default:
 
-- `moveCursorToElement`
-- `highlightElement`
-- `scrollToElement`
-- `clickElement`
-- `navigate`
-- `showCaption`
-- `openCal`
-- `showBookingPrompt`
-- `snapshotPage`
+- website lab on http://localhost:4199/direct
+- local token and browser/agent bridge on 127.0.0.1:4301
+- local Qwen-compatible planner stub on 127.0.0.1:4311
+- local Moss runtime over the Remote.com scrape index on 127.0.0.1:4321
+- inboundnow agent worker using streamed speech chunks and the browser action bus
 
-The local proof flow is the `Ask payroll question` button or the command `How does Remote help with global payroll?`. It answers in the widget, speaks through browser speech synthesis when available, captures a page snapshot, scrolls to a payroll-related target, moves the visible cursor, highlights the target, asks for booking confirmation, then opens the configured Cal.com URL in an in-page modal.
+For the strongest voice path, run a local livekit-server --dev before npm start, open the page, and click Start AI Persona. With LiveKit and a published mic, inboundnow listens, auto-stops after silence, sends the turn through the local agent, and the blue cursor executes the returned actions. Without LiveKit, use Ask agent or Send simulated transcript; those still exercise the same planner, streamed answer, visible cursor, highlights, clicks, and booking gate.
 
-This proxy is a local lab surface only. It strips and rewrites security headers so Remote.com can be embedded and inspected locally; do not treat that proxy behavior as a production deployment pattern.
+## The Default Product Loop
 
-## Local Voice-Agent Harness
+    Prospect talks
+    -> local LiveKit mic path or bridge fallback
+    -> Parakeet-compatible ASR boundary
+    -> local Moss retrieval over the Remote.com scrape
+    -> Qwen-class planner through an OpenAI-compatible local endpoint
+    -> streamed Miso One / VibeVoice-compatible TTS boundary or browser fallback chunks
+    -> inboundnow browser action bus
+    -> blue cursor scrolls, highlights, clicks, and opens gated scheduling
 
-The next layer adds a local token server, simulated agent worker, and browser bridge around the existing website lab.
+The repo default is no longer a documentation-first lab. npm start launches the local inboundnow stack and points the operator at the talk-and-guide page.
 
-Run the local pieces in separate terminals:
+## H100 Lane
 
-```bash
-# Optional transport proof: self-hosted LiveKit, not LiveKit Cloud.
-livekit-server --dev
+Real local-model proof requires an H100-class GPU. The recommended setup is Vast.ai with the PyTorch CUDA/cuDNN template.
 
-# Local LiveKit token issuer plus WebSocket fallback bridge.
-npm run dev:token
+Use:
 
-# Local SDR worker over WebSocket fallback.
-npm run dev:agent
+    bash scripts/vast-h100/search-offers.sh
+    bash scripts/vast-h100/create-instance.example.sh
+    bash scripts/vast-h100/bootstrap-instance.sh
+    bash scripts/vast-h100/start-dev-stack.sh
+    bash scripts/vast-h100/run-h100-proof.sh
 
-# Or, with livekit-server --dev running, local SDR worker over LiveKit data.
-AGENT_TRANSPORT=livekit npm run dev:agent
-# Equivalent helper:
-npm run dev:agent:livekit
+The H100 lane targets:
 
-# Remote.com website lab with browser-native OpenClicky-Web widget.
-PORT=4199 TOKEN_SERVER_URL=http://127.0.0.1:4301 npm run dev:lab
-```
+- nvidia/parakeet-tdt-0.6b-v3 for ASR
+- local Qwen-class serving through vLLM/SGLang/OpenAI-compatible APIs
+- local Moss runtime after index generation
+- Miso One / MisoTTS streaming audio
+- consented LoRA finetunes for cloned voices
+- fair quantization knobs that avoid wrecking speech quality while improving latency
 
-Open `http://localhost:4199/direct`, then use:
+Details live in docs/vast-h100-runbook.md, docs/miso-lora-runbook.md, and docs/local-adapters.md.
 
-- `Ask payroll question` for deterministic local fallback.
-- `Connect local transport` to prefer the local LiveKit room, then fall back to the WebSocket bridge if LiveKit is unavailable.
-- `Ask agent` to send the current text question to `apps/agent`.
-- `Send simulated transcript` to send the same text as typed transcript input.
-- `Disconnect` and `Interrupt` to stop local transport/audio playback without implying ASR is proven.
+## Voice And Cursor Behavior
 
-Current proof level:
+The browser widget owns the user-facing interaction. Planners and resolver tools may decide what should happen, but the visible result is always executed by inboundnow in the page:
 
-- LiveKit tokens are real local-dev JWTs for `ws://127.0.0.1:7880`.
-- LiveKit data-channel control is verified locally with `npm run smoke:livekit`, with the WebSocket fallback disabled.
-- The browser LiveKit path is verified locally: browser joins the local room, sends the payroll question, receives `agent.action`, guides the page, and keeps Cal gated until confirmation.
-- The WebSocket bridge remains as an honest fallback when LiveKit is unavailable.
-- Mic publication is requested by `Start AI Persona`. The browser now emits mic media proof events for publication, turn start, and automatic turn stop, and the H100 browser harness requires Start AI Persona to end the turn through the browser automation path rather than a direct smoke-only stop call. `npm run smoke:asr:livekit` still proves only synthetic LiveKit microphone frames reach the worker buffer and localhost Parakeet-compatible adapter contract; real browser mic-to-Parakeet proof still requires browser-captured audio plus an H100-local ASR endpoint.
-- `Send simulated transcript` sends a final transcript message through the same agent path as future ASR final transcripts; this is transcript fallback proof, not Parakeet proof.
-- ASR, LLM, and TTS have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model proof.
-- Agent answers now emit `agent.speech.start/chunk/end` before page actions, and the browser queues chunks through `speechSynthesis` for lower perceived latency. This is streamed browser fallback speech, not VibeVoice model proof.
-- Local artifact retrieval is available through the Moss adapter boundary with `npm run smoke:moss:local`; `npm run smoke:moss:remote` and `npm run smoke:livekit:moss-remote` prove the imported Remote.com scrape corpus can ground an agent turn through the local Moss runtime client. This is local JSON artifact proof, not hosted Moss or Moss SDK proof.
-- Cal.com is not loaded until the user confirms the booking prompt.
+- moveCursorToElement
+- scrollToElement
+- highlightElement
+- clickElement
+- navigate
+- showCaption
+- showBookingPrompt
+- openCal
+- snapshotPage
 
-For the real local-model GPU lane, use docs/vast-h100-runbook.md and the scripts under scripts/vast-h100/.
+The cursor resolver accepts target keys, CSS selectors, planner labels, intent text, href hints, and element ids. That means planner outputs like "show payroll pricing", "open booking", or "go to employer of record" resolve against the live page before the cursor moves.
 
-More detailed status lives in `docs/proof-matrix.md`.
+## Local Data
 
-Useful local adapter checks:
+The full Remote.com scrape is vendored at data/remote-com/scrape-2026-06-07.
 
-```bash
-npm run smoke:adapters
-npm run smoke:planner
-npm run smoke:moss:local
-npm run smoke:moss:remote
-npm run smoke:livekit:moss-remote
-npm run smoke:asr:local
-npm run smoke:tts:local
-npm run smoke:local
-npm run smoke:livekit
-npm run dev:qwen-stub
-npm run dev:moss-runtime
-```
+Useful commands:
 
-`AGENT_PLANNER=local-llm` opts the worker into the local Qwen/OpenAI-compatible JSON planner. The default remains the deterministic router, and malformed LLM output or invalid actions fall back before any LLM answer is sent. In `H100_PROOF_MODE=1`, the worker fails closed before answer/action if ASR, Moss, planner, or Miso endpoint proof is weak.
+    npm run moss:index:remote
+    npm run moss:docs:remote
+    npm run moss:upload:remote
 
-`ASR_PROVIDER=local-parakeet` opts the worker into a localhost-only Parakeet-compatible adapter boundary. Use `npm run smoke:asr:local` for the fake endpoint contract and `npm run dev:asr:parakeet` plus `ASR_SMOKE_AUDIO_PATH=/path/to.wav npm run smoke:asr:h100` on the Vast.ai H100 lane before claiming real `nvidia/parakeet-tdt-0.6b-v3` audio transcription.
+Do not put Moss project keys in client-side code or committed env files.
 
-`TTS_PROVIDER=local-miso-one` opts the agent into the localhost-only Miso One/MisoTTS adapter boundary. Latency knobs include `TTS_TEXT_CHUNK_CHARS`, `TTS_PREWARM_TEXT`, `TTS_CACHE_DIR`, `TTS_DTYPE`, and `TTS_QUANTIZATION`. Supported quantization policies are intentionally fair to audio quality: `none`, `llm-int8`, and `llm-int4`, where compatible endpoints target only the LLM trunk and preserve audio decoder precision. Use `npm run smoke:tts:h100` on the Vast.ai H100 lane before claiming real local Miso audio. `TTS_PROVIDER=local-vibevoice` remains the legacy compatibility lane.
+## Vendored OSS References
+
+The repo includes source snapshots under vendor/open-source/ for work that is relevant to inboundnow:
+
+- Stagehand for semantic browser action resolution
+- Voicebox for voice-product reference material
+- vLLM for H100 local model serving
+- FlashInfer for CUDA attention/sampling kernels
+- AWQ and llm-compressor for quantization/compression experiments
+- Qwen3 for Qwen-family model reference material
+
+These snapshots are local source references. The active runtime does not import them directly yet.
+
+## Useful Scripts
+
+    npm start
+    npm run start:lab
+    npm run dev:token
+    npm run dev:agent
+    npm run dev:agent:livekit
+    npm run dev:qwen-stub
+    npm run dev:moss-runtime
+    npm run h100:prove
+
+npm run check still exists for a broad local validation pass, but the fast submission path is npm start plus browser verification of the talk-and-guide loop.

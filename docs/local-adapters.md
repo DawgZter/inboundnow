@@ -13,7 +13,7 @@ This document is the proof boundary for the local voice-agent harness.
 - Adapter plumbing: dependency-free local stubs and status reporting under
   `apps/agent/adapters`.
 - Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`; local artifact retrieval is exercised by `npm run smoke:moss:local`; the partial Remote.com scrape corpus can be built with `npm run moss:index:remote`, smoked through the local runtime with `npm run smoke:moss:remote`, and smoked through a LiveKit agent turn with `npm run smoke:livekit:moss-remote`.
-- Browser action execution: `window.OpenClickyWeb.dispatch(...)` inside the proxied Remote page.
+- Browser action execution: `window.InboundNow.dispatch(...)` inside the proxied Remote page.
 
 ## GPU Requirement
 
@@ -47,7 +47,7 @@ Target runtime: local Qwen 3.6 27B behind a vLLM or SGLang OpenAI-compatible `/v
 Responsibilities:
 
 - Accept transcript, page snapshot, Moss snippets, and session state.
-- Return answer text plus typed OpenClicky-Web actions.
+- Return answer text plus typed inboundnow browser layer actions.
 - Avoid hosted model calls unless explicitly labeled as a fallback.
 
 Current keyword routing and `qwen-stub` are simulated planners, not local LLM

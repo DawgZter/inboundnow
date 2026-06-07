@@ -220,8 +220,8 @@ async function readUiState(page) {
       turnChip: chipText("turn"),
       voiceChip: chipText("voice"),
       transcript,
-      events: window.OpenClickyWeb.events(),
-      debug: window.OpenClickyWeb.debugState(),
+      events: window.InboundNow.events(),
+      debug: window.InboundNow.debugState(),
     };
   });
 }
@@ -256,10 +256,10 @@ try {
     PORT: String(labPort),
     TOKEN_SERVER_URL: tokenServerUrl,
     LIVEKIT_ROOM: room,
-    OPENCLICKY_INJECT_HOSTS: "127.0.0.1,localhost",
+    INBOUNDNOW_EMBED_HOSTS: "127.0.0.1,localhost",
   });
 
-  await waitForHttp(labUrl + "/__ocw-assets/clicky-cursor.svg");
+  await waitForHttp(labUrl + "/__ocw-assets/inboundnow-cursor.svg");
 
   browser = await chromium.launch({ headless: true });
   const page = await browser.newPage({ viewport: { width: 1280, height: 900 } });
@@ -268,39 +268,39 @@ try {
   page.on("pageerror", (error) => browserConsole.push({ type: "pageerror", text: sanitizeConsoleText(error.message) }));
 
   await page.goto(proxiedMockPath(), { waitUntil: "domcontentloaded" });
-  await page.waitForFunction(() => Boolean(window.OpenClickyWeb), null, { timeout: 10_000 });
+  await page.waitForFunction(() => Boolean(window.InboundNow), null, { timeout: 10_000 });
   const initial = await readUiState(page);
   assert.equal(initial.asrChip, "ASR: text fallback");
   assert.match(initial.proofLine, /ASR turns use local transcript or Parakeet adapter boundaries/);
   assert.doesNotMatch(initial.proofLine, /ASR is not attached/i);
 
-  await page.evaluate(() => window.OpenClickyWeb.setVoiceProfile("warm"));
+  await page.evaluate(() => window.InboundNow.setVoiceProfile("warm"));
   await page.waitForFunction(() => document.querySelector('[data-ocw-chip="voice"]')?.textContent.includes("Warm consultative"), null, { timeout: 5000 });
 
-  await page.evaluate(() => window.OpenClickyWeb.connectAgentTransport());
+  await page.evaluate(() => window.InboundNow.connectAgentTransport());
   await page.waitForFunction(() => {
-    const debug = window.OpenClickyWeb.debugState();
+    const debug = window.InboundNow.debugState();
     const root = document.querySelector("#ocw-root");
     return debug.bridgeReady && root?.dataset.agentState === "online";
   }, null, { timeout: 20_000 });
 
-  await page.evaluate(() => window.OpenClickyWeb.startVoiceTurn());
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrStatusReceived" && event.detail.status === "listening"), null, { timeout: 20_000 });
+  await page.evaluate(() => window.InboundNow.startVoiceTurn());
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "asrStatusReceived" && event.detail.status === "listening"), null, { timeout: 20_000 });
   const listening = await readUiState(page);
   assert.match(listening.asrChip, /listening/);
   assert.match(listening.turnChip, /listening/);
   assert.match(listening.transcript.map((turn) => turn.text).join("\n"), /Voice turn started/);
 
-  await page.evaluate(() => window.OpenClickyWeb.stopVoiceTurn());
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrStatusReceived" && event.detail.status === "no_audio"), null, { timeout: 12_000 });
+  await page.evaluate(() => window.InboundNow.stopVoiceTurn());
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "asrStatusReceived" && event.detail.status === "no_audio"), null, { timeout: 12_000 });
   const noAudio = await readUiState(page);
   assert.match(noAudio.asrChip, /no_audio/);
 
-  await page.evaluate(() => window.OpenClickyWeb.sendFinalTranscript("How does Remote help with global payroll?"));
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrFinalReceived"), null, { timeout: 12_000 });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "agentAnswerReceived"), null, { timeout: 12_000 });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "speechStreamStarted"), null, { timeout: 12_000 });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "ttsAudioStreamEnded"), null, { timeout: 12_000 });
+  await page.evaluate(() => window.InboundNow.sendFinalTranscript("How does Remote help with global payroll?"));
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "asrFinalReceived"), null, { timeout: 12_000 });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "agentAnswerReceived"), null, { timeout: 12_000 });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "speechStreamStarted"), null, { timeout: 12_000 });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "ttsAudioStreamEnded"), null, { timeout: 12_000 });
   const finalTranscript = await readUiState(page);
   const transcriptText = finalTranscript.transcript.map((turn) => turn.text).join("\n");
   assert.match(finalTranscript.asrChip, /transcript fallback/);
@@ -320,7 +320,7 @@ try {
   assert.ok(fakeTtsRequests.some((request) => request.path === "/v1/tts/stream" && request.body.requestId && request.body.cacheKey));
 
   await page.evaluate(({ audio0, audio1 }) => {
-    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+    window.InboundNow.receiveAgentMessageForSmoke({
       type: "agent.tts.start",
       requestId: "order_smoke",
       provider: "local-vibevoice",
@@ -329,7 +329,7 @@ try {
       sampleRate: 24000,
       channels: 1,
     });
-    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+    window.InboundNow.receiveAgentMessageForSmoke({
       type: "agent.tts.chunk",
       requestId: "order_smoke",
       provider: "local-vibevoice",
@@ -340,7 +340,7 @@ try {
       sequence: 1,
       audioBase64: audio1,
     });
-    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+    window.InboundNow.receiveAgentMessageForSmoke({
       type: "agent.tts.chunk",
       requestId: "order_smoke",
       provider: "local-vibevoice",
@@ -351,7 +351,7 @@ try {
       sequence: 0,
       audioBase64: audio0,
     });
-    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+    window.InboundNow.receiveAgentMessageForSmoke({
       type: "agent.tts.chunk",
       requestId: "order_smoke",
       provider: "local-vibevoice",
@@ -362,7 +362,7 @@ try {
       sequence: 0,
       audioBase64: audio0,
     });
-    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+    window.InboundNow.receiveAgentMessageForSmoke({
       type: "agent.tts.end",
       requestId: "order_smoke",
       provider: "local-vibevoice",
@@ -371,7 +371,7 @@ try {
       firstAudioMs: 12,
     });
   }, { audio0: pcmChunkA, audio1: pcmChunkB });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "ttsAudioStreamEnded" && event.detail.requestId === "order_smoke"), null, { timeout: 5000 });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "ttsAudioStreamEnded" && event.detail.requestId === "order_smoke"), null, { timeout: 5000 });
   const afterOrderingProbe = await readUiState(page);
   const orderingEvents = afterOrderingProbe.events.filter((event) => event.detail.requestId === "order_smoke");
   assert.deepEqual(
@@ -384,8 +384,8 @@ try {
   const answeredRequestId = finalTranscript.events.find((event) => event.type === "speechStreamStarted")?.detail.requestId;
   assert.ok(answeredRequestId);
   await page.evaluate(async ({ requestId, audio }) => {
-    await window.OpenClickyWeb.interruptResponse();
-    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+    await window.InboundNow.interruptResponse();
+    window.InboundNow.receiveAgentMessageForSmoke({
       type: "agent.tts.start",
       requestId,
       provider: "local-vibevoice",
@@ -394,7 +394,7 @@ try {
       sampleRate: 24000,
       channels: 1,
     });
-    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+    window.InboundNow.receiveAgentMessageForSmoke({
       type: "agent.tts.chunk",
       requestId,
       provider: "local-vibevoice",
@@ -405,7 +405,7 @@ try {
       sequence: 99,
       audioBase64: audio,
     });
-    window.OpenClickyWeb.receiveAgentMessageForSmoke({
+    window.InboundNow.receiveAgentMessageForSmoke({
       type: "agent.tts.end",
       requestId,
       provider: "local-vibevoice",

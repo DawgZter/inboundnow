@@ -10,8 +10,8 @@ const TOKEN_SERVER_URL = process.env.TOKEN_SERVER_URL || "http://127.0.0.1:4301"
 const LIVEKIT_ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
 const REQUIRE_LIVEKIT = ["1", "true", "yes", "on"].includes(String(process.env.REQUIRE_LIVEKIT || process.env.H100_PROOF_MODE || "").toLowerCase());
 const DEFAULT_TARGET_URL = new URL(DEFAULT_TARGET);
-const OPENCLICKY_INJECT_HOSTS = new Set(
-  (process.env.OPENCLICKY_INJECT_HOSTS || "")
+const INBOUNDNOW_EMBED_HOSTS = new Set(
+  (process.env.INBOUNDNOW_EMBED_HOSTS || "")
     .split(",")
     .map((host) => host.trim().toLowerCase())
     .filter(Boolean),
@@ -21,7 +21,7 @@ const REMOTE_PROXY_ALLOW_HOSTS = new Set(
     DEFAULT_TARGET_URL.hostname,
     DEFAULT_TARGET_URL.host,
     "remote.com",
-    ...OPENCLICKY_INJECT_HOSTS,
+    ...INBOUNDNOW_EMBED_HOSTS,
     ...(process.env.REMOTE_PROXY_ALLOW_HOSTS || "")
       .split(",")
       .map((host) => host.trim().toLowerCase())
@@ -29,8 +29,8 @@ const REMOTE_PROXY_ALLOW_HOSTS = new Set(
   ].filter(Boolean),
 );
 
-const CLICKY_CURSOR_PATH = "/__ocw-assets/clicky-cursor.svg";
-const CLICKY_CURSOR_IMAGE = new URL("./assets/clicky-cursor.svg", import.meta.url);
+const INBOUNDNOW_CURSOR_PATH = "/__ocw-assets/inboundnow-cursor.svg";
+const INBOUNDNOW_CURSOR_IMAGE = new URL("./assets/inboundnow-cursor.svg", import.meta.url);
 const LIVEKIT_CLIENT_PATH = "/__ocw-assets/livekit-client.esm.mjs";
 const LIVEKIT_CLIENT_BUNDLE = new URL("../../node_modules/livekit-client/dist/livekit-client.esm.mjs", import.meta.url);
 
@@ -193,7 +193,7 @@ function rewriteCss(css, baseUrl) {
     });
 }
 
-function injectedHelper(baseUrl) {
+function embeddedHelper(baseUrl) {
   return [
     "<script>",
     "(() => {",
@@ -212,12 +212,12 @@ function injectedHelper(baseUrl) {
     "      return raw;",
     "    }",
     "  }",
-    "  function isOpenClickyNode(node) {",
+    "  function isinboundnowNode(node) {",
     "    return Boolean(node && node.nodeType === 1 && (node.id === 'ocw-root' || (node.closest && node.closest('#ocw-root'))));",
     "  }",
     "  function rewriteNode(node) {",
     "    if (!node || node.nodeType !== 1) return;",
-    "    if (isOpenClickyNode(node)) return;",
+    "    if (isinboundnowNode(node)) return;",
     "    const attrs = ['href', 'src', 'action', 'poster', 'data-src', 'data-href', 'data-media-src', 'data-lottie'];",
     "    for (const attr of attrs) {",
     "      if (node.hasAttribute(attr)) node.setAttribute(attr, toProxy(node.getAttribute(attr)));",
@@ -244,7 +244,7 @@ function injectedHelper(baseUrl) {
     "    }",
     "  }",
     "  function rewriteTree(root) {",
-    "    if (isOpenClickyNode(root)) return;",
+    "    if (isinboundnowNode(root)) return;",
     "    rewriteNode(root);",
     "    if (root.querySelectorAll) root.querySelectorAll('[href], [src], [action], [poster], [srcset], [data-src], [data-href], [data-media-src], [data-lottie]').forEach(rewriteNode);",
     "  }",
@@ -277,8 +277,8 @@ function injectedHelper(baseUrl) {
   ].join("\n");
 }
 
-function injectedOpenClickyWeb() {
-  const cursorUrl = "http://localhost:" + PORT + CLICKY_CURSOR_PATH;
+function embeddedInboundNow() {
+  const cursorUrl = "http://localhost:" + PORT + INBOUNDNOW_CURSOR_PATH;
   const calUrl = escapeAttr(CAL_EMBED_URL);
   const tokenServerUrl = escapeAttr(TOKEN_SERVER_URL);
   const liveKitRoom = escapeAttr(LIVEKIT_ROOM);
@@ -589,7 +589,7 @@ function injectedOpenClickyWeb() {
   <div class="ocw-caption" role="status"></div>
   <div class="ocw-highlight" aria-hidden="true"></div>
 
-  <section class="ocw-panel" aria-label="OpenClicky Web MVP controls">
+  <section class="ocw-panel" aria-label="inboundnow controls controls">
     <div class="ocw-head">
       <img class="ocw-mark" src="${cursorUrl}" alt="" aria-hidden="true" />
       <div class="ocw-title">
@@ -703,7 +703,7 @@ function injectedOpenClickyWeb() {
     var sizeValue = root.querySelector('.ocw-size-value');
     var current = { x: Math.max(24, window.innerWidth - 92), y: Math.max(24, window.innerHeight - 92) };
     var actionLock = Promise.resolve();
-    var sizeStorageKey = 'openClickyWebMvp.cursorSizePercent';
+    var sizeStorageKey = 'inboundnow.cursorSizePercent';
     var events = [];
     var remoteBasePath = '/__remote/https/remote.com';
     var tokenServerUrl = (bridgePanel && bridgePanel.dataset.tokenServer) || 'http://127.0.0.1:4301';
@@ -729,7 +729,7 @@ function injectedOpenClickyWeb() {
     var lastAgentAnswer = '';
     var lastAdapterProof = '';
     var lastSpokenAgentAnswer = '';
-    var voiceStorageKey = 'openClickyWebMvp.voiceProfileId';
+    var voiceStorageKey = 'inboundnow.voiceProfileId';
     var browserVoiceProfiles = {
       default: { id: 'default', label: 'Default SDR', ttsVoice: 'Carter', style: 'clear', browserRate: 1.06, browserPitch: 1, browserLang: 'en-US', browserVoiceHints: ['en-US', 'en'], loraAdapter: '', proof: '' },
       warm: { id: 'warm', label: 'Warm consultative', ttsVoice: 'Carter', style: 'warm', browserRate: 0.98, browserPitch: 0.92, browserLang: 'en-US', browserVoiceHints: ['en-US', 'en'], loraAdapter: '', proof: '' },
@@ -831,6 +831,14 @@ function injectedOpenClickyWeb() {
       eor: [
         { selector: 'a[href],button,[role="button"]', text: ['employer of record', 'eor'], href: ['employer-of-record', 'eor'] },
         { selector: 'h1,h2,h3,h4,section,p,span,div', text: ['employer of record', 'eor'], href: ['employer-of-record', 'eor'] }
+      ],
+      hiring: [
+        { selector: 'a[href],button,[role="button"]', text: ['hire employees', 'global hiring', 'hire globally', 'contractors'], href: ['hire', 'contractor'] },
+        { selector: 'h1,h2,h3,h4,section,p,span,div', text: ['hire employees', 'global hiring', 'hire globally', 'contractors'], href: ['hire', 'contractor'] }
+      ],
+      compliance: [
+        { selector: 'a[href],button,[role="button"]', text: ['compliance', 'local compliance', 'employment law'], href: ['compliance'] },
+        { selector: 'h1,h2,h3,h4,section,p,span,div', text: ['compliance', 'local compliance', 'employment law'], href: ['compliance'] }
       ]
     };
 
@@ -1134,7 +1142,7 @@ function injectedOpenClickyWeb() {
       };
       events.push(event);
       if (events.length > 300) events.shift();
-      try { window.dispatchEvent(new CustomEvent('openClickyWeb:event', { detail: event })); } catch (e) {}
+      try { window.dispatchEvent(new CustomEvent('inboundnow:event', { detail: event })); } catch (e) {}
       try {
         sendAgentMessage({ type: 'browser.event', event: event, bookingState: bookingState });
       } catch (e) {}
@@ -2616,6 +2624,47 @@ function injectedOpenClickyWeb() {
       return String(value || '').replace(/\\s+/g, ' ').trim().toLowerCase();
     }
 
+    function targetKeyFromText(value) {
+      var text = normalized(value);
+      if (!text) return '';
+      if (/\\b(payroll|pay employees|global pay)\\b/.test(text)) return 'payroll';
+      if (/\\b(price|pricing|cost|plan)\\b/.test(text)) return 'pricing';
+      if (/\\b(country|countries|country explorer|where can|location)\\b/.test(text)) return 'country';
+      if (/\\b(eor|employer of record|record employer)\\b/.test(text)) return 'eor';
+      if (/\\b(book|booking|demo|meeting|sales|walkthrough)\\b/.test(text)) return 'demo';
+      if (/\\b(hire|hiring|contractor|contractors)\\b/.test(text)) return 'hiring';
+      if (/\\b(compliance|law|risk|legal)\\b/.test(text)) return 'compliance';
+      return '';
+    }
+
+    function targetAliases(target) {
+      var values = [];
+      function add(value) {
+        if (value === undefined || value === null) return;
+        if (Array.isArray(value)) {
+          value.forEach(add);
+          return;
+        }
+        var text = String(value || '').trim();
+        if (text) values.push(text);
+      }
+      if (typeof target === 'string') add(target);
+      if (target && typeof target === 'object') {
+        add(target.key);
+        add(target.intent);
+        add(target.name);
+        add(target.label);
+        add(target.caption);
+        add(target.text);
+        add(target.query);
+        add(target.description);
+        add(target.href);
+        add(target.url);
+        add(target.selector);
+      }
+      return values;
+    }
+
     function compactText(value, maxLength) {
       var text = String(value || '').replace(/\\s+/g, ' ').trim();
       var max = maxLength || 180;
@@ -2674,7 +2723,8 @@ function injectedOpenClickyWeb() {
     }
 
     function findTarget(key) {
-      var rules = specs[key] || [];
+      var resolvedKey = specs[key] ? key : targetKeyFromText(key);
+      var rules = specs[resolvedKey] || [];
       var best = null;
 
       rules.forEach(function(rule){
@@ -2688,6 +2738,39 @@ function injectedOpenClickyWeb() {
         });
       });
 
+      return best && best.element;
+    }
+
+    function findByIntentText(values) {
+      var key = '';
+      values.some(function(value){
+        key = targetKeyFromText(value);
+        return !!key;
+      });
+      if (key) {
+        var keyed = findTarget(key);
+        if (keyed) return keyed;
+      }
+
+      var textTerms = values
+        .map(normalized)
+        .filter(function(value){ return value && value.length > 1 && value.indexOf('#') !== 0 && value.indexOf('.') !== 0; })
+        .slice(0, 6);
+      if (!textTerms.length) return null;
+
+      var rule = {
+        selector: 'a[href],button,[role="button"],h1,h2,h3,h4,section,p,span,div',
+        text: textTerms,
+        href: textTerms
+      };
+      var best = null;
+      Array.prototype.slice.call(document.querySelectorAll(rule.selector)).forEach(function(element){
+        var score = scoreElement(element, rule);
+        if (score <= 0) return;
+        var rect = element.getBoundingClientRect();
+        var rank = score - Math.max(0, rect.top) / 5000;
+        if (!best || rank > best.rank) best = { element: element, rank: rank };
+      });
       return best && best.element;
     }
 
@@ -2899,10 +2982,12 @@ function injectedOpenClickyWeb() {
           var selected = document.querySelector(target);
           if (selected && isVisible(selected)) return selected;
         } catch (e) {}
-        return findTarget(key) || resolveTarget({ text: [target] });
+        return findTarget(key) || findByIntentText([target]);
       }
       if (!target || typeof target !== 'object') return null;
-      if (target.key) return findTarget(target.key);
+      var aliasTarget = findByIntentText(targetAliases(target));
+      if (target.key && specs[normalized(target.key)]) return findTarget(normalized(target.key));
+      if (aliasTarget) return aliasTarget;
       if (target.ocwId) {
         var byId = document.querySelector('[data-ocw-id="' + String(target.ocwId).replace(/"/g, '') + '"]');
         if (byId && isVisible(byId)) return byId;
@@ -2963,6 +3048,7 @@ function injectedOpenClickyWeb() {
 
     async function moveToElement(element, label) {
       if (!element) throw new Error('Target not found');
+      setCursorMode('guiding', label || 'Guiding the page');
       await scrollToElement(element);
       showHighlight(element);
       var point = viewportPointFor(element);
@@ -3162,7 +3248,6 @@ function injectedOpenClickyWeb() {
         );
       }
       if (action.type === 'snapshotPage') return Promise.resolve(snapshotPage());
-      if (action.type === 'payrollFlow') return runPayrollFlow(false, action.answer);
       throw new Error('Unknown action type: ' + action.type);
     }
 
@@ -3421,7 +3506,7 @@ function injectedOpenClickyWeb() {
       moveCursor(Math.min(current.x, window.innerWidth - 16), Math.min(current.y, window.innerHeight - 16), caption.textContent, 120);
     });
 
-    window.OpenClickyWeb = {
+    window.InboundNow = {
       dispatch: enqueue,
       events: function(){ return events.slice(); },
       snapshotPage: snapshotPage,
@@ -3434,7 +3519,7 @@ function injectedOpenClickyWeb() {
       showCaption: function(text){ return enqueue({ type: 'showCaption', text: text }); },
       openCal: function(){ return enqueue({ type: 'openCal' }); },
       showBookingPrompt: function(){ return enqueue({ type: 'showBookingPrompt' }); },
-      runPayrollFlow: function(){ return enqueue({ type: 'payrollFlow' }); },
+      askPayroll: function(){ commandInput.value = 'How does Remote help with global payroll?'; return askLocalAgent(false); },
       startPersona: startPersona,
       stopPersona: stopPersona,
       connectAgentTransport: connectAgentTransport,
@@ -3482,7 +3567,7 @@ function injectedOpenClickyWeb() {
       },
       run: enqueue
     };
-    window.OpenClickyWebMVP = window.OpenClickyWeb;
+    window.InboundNow = window.InboundNow;
 
     window.setTimeout(function(){
       try {
@@ -3529,7 +3614,7 @@ function rewriteHtml(html, baseUrl) {
       return "style=" + quote + escapeAttr(rewriteCss(value, baseUrl)) + quote;
     });
 
-  const helper = injectedHelper(baseUrl);
+  const helper = embeddedHelper(baseUrl);
 
   if (/<\/head>/i.test(rewritten)) {
     rewritten = rewritten.replace(/<\/head>/i, helper + "</head>");
@@ -3537,9 +3622,9 @@ function rewriteHtml(html, baseUrl) {
     rewritten = helper + rewritten;
   }
 
-  if (shouldInjectOpenClicky(baseUrl)) {
+  if (shouldEmbedInboundNow(baseUrl)) {
     // Inject after URL rewriting so the widget's own local asset URLs are left intact.
-    const widget = injectedOpenClickyWeb();
+    const widget = embeddedInboundNow();
     if (/<\/body>/i.test(rewritten)) {
       rewritten = rewritten.replace(/<\/body>/i, widget + "</body>");
     } else {
@@ -3560,9 +3645,9 @@ function rewriteScript(script, baseUrl) {
     .replaceAll(escapedOrigin, escapedProxy);
 }
 
-function shouldInjectOpenClicky(baseUrl) {
+function shouldEmbedInboundNow(baseUrl) {
   const hostname = baseUrl.hostname.toLowerCase();
-  return hostname === "remote.com" || hostname.endsWith(".remote.com") || OPENCLICKY_INJECT_HOSTS.has(hostname);
+  return hostname === "remote.com" || hostname.endsWith(".remote.com") || INBOUNDNOW_EMBED_HOSTS.has(hostname);
 }
 
 function rewriteLocalReferrer(value, targetUrl) {
@@ -3784,7 +3869,7 @@ const server = createServer(async (req, res) => {
     }
 
     const localAsset =
-      localUrl.pathname === CLICKY_CURSOR_PATH ? { url: CLICKY_CURSOR_IMAGE, contentType: "image/svg+xml; charset=utf-8" } :
+      localUrl.pathname === INBOUNDNOW_CURSOR_PATH ? { url: INBOUNDNOW_CURSOR_IMAGE, contentType: "image/svg+xml; charset=utf-8" } :
       localUrl.pathname === LIVEKIT_CLIENT_PATH ? { url: LIVEKIT_CLIENT_BUNDLE, contentType: "text/javascript; charset=utf-8" } :
       null;
     if (localAsset) {

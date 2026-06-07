@@ -228,7 +228,7 @@ export function validateAction(action, options = {}) {
 export function assertValidAction(action, options = {}) {
   const result = validateAction(action, options);
   if (!result.ok) {
-    throw new ActionProtocolError("Invalid OpenClicky-Web action", {
+    throw new ActionProtocolError("Invalid inboundnow browser layer action", {
       action,
       errors: result.errors,
     });

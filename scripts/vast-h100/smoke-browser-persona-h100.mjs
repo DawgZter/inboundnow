@@ -217,8 +217,8 @@ async function readState(page) {
       turnChip: chipText("turn"),
       voiceChip: chipText("voice"),
       transcript,
-      events: window.OpenClickyWeb.events(),
-      debug: window.OpenClickyWeb.debugState(),
+      events: window.InboundNow.events(),
+      debug: window.InboundNow.debugState(),
       cal: {
         frameSrc: frame?.getAttribute("src") || "",
         frameDataSrc: frame?.getAttribute("data-src") || "",
@@ -319,9 +319,9 @@ try {
     REQUIRE_LIVEKIT: "1",
     H100_PROOF_MODE: "1",
     REMOTE_TARGET_URL: targetUrl(),
-    OPENCLICKY_INJECT_HOSTS: new URL(targetUrl()).hostname,
+    INBOUNDNOW_EMBED_HOSTS: new URL(targetUrl()).hostname,
   });
-  await waitForHttp(labUrl + "/__ocw-assets/clicky-cursor.svg");
+  await waitForHttp(labUrl + "/__ocw-assets/inboundnow-cursor.svg");
 
   const launchArgs = ["--autoplay-policy=no-user-gesture-required"];
   if (!requireManualMic) {
@@ -339,16 +339,16 @@ try {
   page.on("pageerror", (error) => browserConsole.push({ type: "pageerror", text: sanitizeConsoleText(error.message) }));
 
   await page.goto(proxiedTargetUrl(), { waitUntil: "domcontentloaded" });
-  await page.waitForFunction(() => Boolean(window.OpenClickyWeb), null, { timeout: 30_000 });
+  await page.waitForFunction(() => Boolean(window.InboundNow), null, { timeout: 30_000 });
   await page.waitForTimeout(500);
   const initial = await readState(page);
   assert.equal(initial.cal.frameSrc, "", "Cal iframe must be unloaded at page start");
 
-  await page.evaluate(() => window.OpenClickyWeb.setVoiceProfile("miso_lora_dev"));
+  await page.evaluate(() => window.InboundNow.setVoiceProfile("miso_lora_dev"));
   await page.waitForFunction(() => document.querySelector('[data-ocw-chip="voice"]')?.textContent.includes("Miso One"), null, { timeout: 10_000 });
   const browserCaptureMs = Number(process.env.BROWSER_MIC_CAPTURE_MS || 3500);
   const browserVadThreshold = Number(process.env.BROWSER_VAD_THRESHOLD || 0.012);
-  await page.evaluate(({ captureMs, vadThreshold }) => window.OpenClickyWeb.configureVoiceAutomation({
+  await page.evaluate(({ captureMs, vadThreshold }) => window.InboundNow.configureVoiceAutomation({
     enabled: true,
     intervalMs: 80,
     threshold: vadThreshold,
@@ -360,11 +360,11 @@ try {
   }), { captureMs: browserCaptureMs, vadThreshold: browserVadThreshold });
 
   await page.click('[data-ocw-action="startpersona"]');
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "personaStarted" && event.detail.transport === "livekit"), null, { timeout: 30_000 });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "liveKitConnected"), null, { timeout: 30_000 });
-  await page.waitForFunction(() => window.OpenClickyWeb.debugState().transportMode === "livekit", null, { timeout: 30_000 });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "personaStarted" && event.detail.transport === "livekit"), null, { timeout: 30_000 });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "liveKitConnected"), null, { timeout: 30_000 });
+  await page.waitForFunction(() => window.InboundNow.debugState().transportMode === "livekit", null, { timeout: 30_000 });
   if (!requireManualMic) {
-    await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "liveKitMicPublished"), null, { timeout: 30_000 });
+    await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "liveKitMicPublished"), null, { timeout: 30_000 });
   }
   const connected = await readState(page);
   assert.equal(connected.debug.transportMode, "livekit");
@@ -373,19 +373,19 @@ try {
   assert.equal(hasEvent(connected, "liveKitMicPublishFailed"), false, "Mic publication must not fail");
   assert.match(connected.transportChip, /LiveKit data connected/);
 
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrStatusReceived" && event.detail.status === "listening"), null, { timeout: 30_000 });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "browserVoiceTurnAutomationStarted"), null, { timeout: 30_000 });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "browserMicMedia" && event.detail.phase === "turn_start"), null, { timeout: 30_000 });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "browserVoiceTurnAutoStop"), null, { timeout: Number(process.env.BROWSER_AUTO_STOP_TIMEOUT_MS || 30_000) });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "asrStatusReceived" && event.detail.status === "listening"), null, { timeout: 30_000 });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "browserVoiceTurnAutomationStarted"), null, { timeout: 30_000 });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "browserMicMedia" && event.detail.phase === "turn_start"), null, { timeout: 30_000 });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "browserVoiceTurnAutoStop"), null, { timeout: Number(process.env.BROWSER_AUTO_STOP_TIMEOUT_MS || 30_000) });
   await page.waitForFunction(() => {
-    return window.OpenClickyWeb.events().some((event) => event.type === "personaLoopTurnStopped" && event.detail.auto === true) &&
-      !window.OpenClickyWeb.debugState().activeVoiceTurnRequestId;
+    return window.InboundNow.events().some((event) => event.type === "personaLoopTurnStopped" && event.detail.auto === true) &&
+      !window.InboundNow.debugState().activeVoiceTurnRequestId;
   }, null, { timeout: 10_000 });
 
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "asrFinalReceived"), null, { timeout: Number(process.env.ASR_FINAL_TIMEOUT_MS || 120_000) });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "agentAnswerReceived"), null, { timeout: Number(process.env.AGENT_ANSWER_TIMEOUT_MS || 120_000) });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "ttsAudioStreamEnded"), null, { timeout: Number(process.env.TTS_END_TIMEOUT_MS || 180_000) });
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "queued"), null, { timeout: 30_000 });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "asrFinalReceived"), null, { timeout: Number(process.env.ASR_FINAL_TIMEOUT_MS || 120_000) });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "agentAnswerReceived"), null, { timeout: Number(process.env.AGENT_ANSWER_TIMEOUT_MS || 120_000) });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "ttsAudioStreamEnded"), null, { timeout: Number(process.env.TTS_END_TIMEOUT_MS || 180_000) });
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "queued"), null, { timeout: 30_000 });
 
   const answered = await readState(page);
   const transcriptText = answered.transcript.map((turn) => turn.text).join("\n");
@@ -469,15 +469,15 @@ try {
   assert.ok(queuedActionTypes.some((type) => ["showCaption", "scrollToElement", "highlightElement", "showBookingPrompt", "clickElement"].includes(type)), "expected primitive browser actions");
   assert.equal(answered.cal.frameSrc, "", "Cal must remain unloaded before explicit confirmation");
 
-  await page.evaluate(() => window.OpenClickyWeb.openCal());
-  await page.waitForFunction(() => window.OpenClickyWeb.events().some((event) => event.type === "openCalDeferred"), null, { timeout: 10_000 });
+  await page.evaluate(() => window.InboundNow.openCal());
+  await page.waitForFunction(() => window.InboundNow.events().some((event) => event.type === "openCalDeferred"), null, { timeout: 10_000 });
   const calDeferred = await readState(page);
   assert.equal(calDeferred.cal.frameSrc, "", "openCal must defer before explicit confirmation");
   assert.equal(calDeferred.cal.promptOpen, true, "booking prompt should be visible after deferred openCal");
   await page.click('[data-ocw-action="confirmBooking"]');
   await page.waitForFunction(() => {
     const frame = document.querySelector(".ocw-cal-frame");
-    return window.OpenClickyWeb.events().some((event) => event.type === "calOpened") && Boolean(frame?.getAttribute("src"));
+    return window.InboundNow.events().some((event) => event.type === "calOpened") && Boolean(frame?.getAttribute("src"));
   }, null, { timeout: 10_000 });
   const calConfirmed = await readState(page);
   assert.ok(calConfirmed.cal.frameSrc, "Cal iframe should load only after explicit confirmation");

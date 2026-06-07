@@ -1,7 +1,7 @@
 # Action Protocol
 
 This package defines the typed action envelope shared by the local agent worker,
-tests, and browser-side OpenClicky-Web bridge.
+tests, and browser-side inboundnow browser layer bridge.
 
 The protocol separates responsibilities:
 

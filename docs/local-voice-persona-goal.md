@@ -32,7 +32,7 @@ The target experience is simple: open the local website lab, click to start the 
 - Use local Qwen 3.6 27B through a vLLM or SGLang OpenAI-compatible planner endpoint.
 - Use local Miso One/MisoTTS streaming TTS with cloned voices represented by consented LoRA finetunes, not in-context voice cloning. Legacy VibeVoice can remain as a compatibility lane only.
 - Use H100-class GPU hardware for real local-model proof. The recommended setup path is Vast.ai with the PyTorch CUDA/cuDNN template, following the repo runbooks and scripts.
-- Production visitor control must stay browser-native through OpenClicky-Web. No native desktop control for production visitors.
+- Production visitor control must stay browser-native through inboundnow browser layer. No native desktop control for production visitors.
 
 ## Product Experience
 
@@ -53,7 +53,7 @@ The target experience is simple: open the local website lab, click to start the 
 - Index the Remote.com scrape/page corpus for local Moss retrieval and query it at runtime with bounded snippets and source metadata.
 - Use the local planner loop as the main path instead of the deterministic compatibility router.
 - The planner loop must use ASR transcript, page snapshot, local Moss snippets, conversation state, booking state, voice state, and the typed action schema.
-- The planner must output validated JSON only: answer plus typed OpenClicky-Web actions.
+- The planner must output validated JSON only: answer plus typed inboundnow browser layer actions.
 - Invalid planner output must fall back safely before any action is executed; in H100 proof mode, weak ASR/Moss/planner/TTS proof must fail closed before answer/action instead of falling back into a demo path.
 - Keep legacy macro actions such as payrollFlow out of the main success path. Prefer primitive typed actions: scroll, highlight, click, caption, prompt, safe navigation, and booking confirmation.
 - Wire local Qwen 3.6 27B planner support through vLLM or SGLang with an OpenAI-compatible API.
