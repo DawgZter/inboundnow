@@ -76,7 +76,7 @@ The cursor resolver accepts target keys, CSS selectors, planner labels, intent t
 
 ## Local Data
 
-The full Remote.com scrape is vendored at data/remote-com/scrape-2026-06-07.
+The imported Remote.com retrieval corpus is committed at data/remote-com/scrape-2026-06-07.
 The generated local Moss index lives at artifacts/moss/remote-com-local-index.json. That artifact is ignored because it is large, so npm start rebuilds it from the committed scrape when needed.
 
 Useful commands:

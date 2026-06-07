@@ -36,11 +36,9 @@ Firecrawl was used until the available key reached 0 remaining credits. Remainin
 
 ## Contents
 
-- sitemap_urls.json: all crawlable remote.com sitemap URLs discovered.
-- selected_urls.json: all non-blog URLs plus the latest 50 blog URLs.
-- latest_50_blog_urls.json: the capped blog article list.
-- pages/blog/: 50 latest blog pages.
-- pages/site/: non-blog pages saved before stop.
-- logs/success.jsonl: saved-page log.
-- logs/errors.high_concurrency_403_*.jsonl: archived transient errors from the first too-fast fallback attempt.
-- jobs/: Firecrawl job records.
+- manifest.json: scrape summary metadata used by the local Moss importer.
+- pages/blog/: 50 latest blog pages saved as markdown plus matching metadata JSON.
+- pages/site/: non-blog pages saved as markdown plus matching metadata JSON.
+- README.md: this committed corpus summary.
+
+Raw fetch payloads, Firecrawl job records, crawl logs, sitemap URL lists, selected URL lists, and latest-blog URL lists are intentionally omitted from the committed retrieval corpus. The local Moss indexer reads the markdown files and matching metadata JSON only.
