@@ -1176,12 +1176,14 @@ function rewriteHtml(html, baseUrl) {
     rewritten = helper + rewritten;
   }
 
-  // Inject after URL rewriting so the widget's own local asset URLs are left intact.
-  const widget = injectedOpenClickyWeb();
-  if (/<\/body>/i.test(rewritten)) {
-    rewritten = rewritten.replace(/<\/body>/i, widget + "</body>");
-  } else {
-    rewritten = rewritten + widget;
+  if (shouldInjectOpenClicky(baseUrl)) {
+    // Inject after URL rewriting so the widget's own local asset URLs are left intact.
+    const widget = injectedOpenClickyWeb();
+    if (/<\/body>/i.test(rewritten)) {
+      rewritten = rewritten.replace(/<\/body>/i, widget + "</body>");
+    } else {
+      rewritten = rewritten + widget;
+    }
   }
 
   return rewritten;
@@ -1195,6 +1197,10 @@ function rewriteScript(script, baseUrl) {
   return script
     .replaceAll(baseUrl.origin, proxiedOrigin)
     .replaceAll(escapedOrigin, escapedProxy);
+}
+
+function shouldInjectOpenClicky(baseUrl) {
+  return baseUrl.hostname === "remote.com" || baseUrl.hostname.endsWith(".remote.com");
 }
 
 function rewriteLocalReferrer(value, targetUrl) {

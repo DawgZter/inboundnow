@@ -139,3 +139,33 @@ Cal.com opens in-page/modal after confirmation.
 ```
 
 That is the spine. Once that feels good, wire LiveKit + Moss + local models around it.
+
+## Local MVP Lab
+
+The current repo implements the first proof as a lean local Node app:
+
+```bash
+npm run check
+PORT=4199 CAL_URL=https://cal.com/remote npm run dev
+```
+
+Open:
+
+- Wrapper page: `http://localhost:4199/`
+- Direct proxied Remote page: `http://localhost:4199/direct`
+
+The injected widget exposes `window.OpenClickyWeb` / `window.OpenClickyWebMVP` with the first action-bus methods:
+
+- `moveCursorToElement`
+- `highlightElement`
+- `scrollToElement`
+- `clickElement`
+- `navigate`
+- `showCaption`
+- `openCal`
+- `showBookingPrompt`
+- `snapshotPage`
+
+The local proof flow is the `Ask payroll question` button or the command `How does Remote help with global payroll?`. It answers in the widget, speaks through browser speech synthesis when available, captures a page snapshot, scrolls to a payroll-related target, moves the visible cursor, highlights the target, asks for booking confirmation, then opens the configured Cal.com URL in an in-page modal.
+
+This proxy is a local lab surface only. It strips and rewrites security headers so Remote.com can be embedded and inspected locally; do not treat that proxy behavior as a production deployment pattern.
