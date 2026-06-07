@@ -442,6 +442,7 @@ function injectedOpenClickyWeb() {
       transform: translate3d(calc(100vw - 90px), calc(100vh - 92px), 0);
       transition: transform 720ms cubic-bezier(0.2, 0.9, 0.18, 1), filter 180ms ease;
       will-change: transform; filter: drop-shadow(0 7px 14px rgba(5, 100, 255, 0.28));
+      z-index: 2147483000;
     }
     .ocw-cursor img,
     .ocw-cursor .replaced-svg,
@@ -461,6 +462,7 @@ function injectedOpenClickyWeb() {
       box-shadow: 0 12px 24px rgba(15, 23, 42, 0.2); opacity: 0;
       transform: translate3d(-999px, -999px, 0) translateY(5px);
       transition: opacity 150ms ease, transform 720ms cubic-bezier(0.2, 0.9, 0.18, 1);
+      z-index: 2147482999;
     }
     .ocw-caption.is-visible { opacity: 1; transform: var(--ocw-caption-transform); }
 
@@ -469,8 +471,34 @@ function injectedOpenClickyWeb() {
       border: 2px solid #0564ff; border-radius: 10px; background: rgba(5, 100, 255, 0.08);
       box-shadow: 0 0 0 9999px rgba(15, 23, 42, 0.08), 0 0 0 7px rgba(5, 100, 255, 0.16);
       transition: opacity 160ms ease, transform 360ms ease, width 360ms ease, height 360ms ease;
+      z-index: 2147482998;
     }
     .ocw-highlight.is-visible { opacity: 1; }
+
+    .ocw-cursor-trail,
+    .ocw-click-ripple {
+      position: fixed; left: 0; top: 0; pointer-events: none; border-radius: 999px;
+      z-index: 2147482997; transform: translate3d(-999px, -999px, 0);
+    }
+    .ocw-cursor-trail {
+      width: 12px; height: 12px; margin: -6px 0 0 -6px;
+      background: radial-gradient(circle, rgba(5, 100, 255, 0.34), rgba(5, 100, 255, 0));
+      opacity: 0.8; animation: ocwTrailFade 520ms ease-out forwards;
+    }
+    .ocw-click-ripple {
+      width: 14px; height: 14px; margin: -7px 0 0 -7px;
+      border: 2px solid rgba(5, 100, 255, 0.74);
+      box-shadow: 0 0 0 5px rgba(5, 100, 255, 0.12);
+      animation: ocwClickRipple 560ms ease-out forwards;
+    }
+    @keyframes ocwTrailFade {
+      from { opacity: 0.84; transform: translate3d(var(--ocw-trail-x), var(--ocw-trail-y), 0) scale(1); }
+      to { opacity: 0; transform: translate3d(var(--ocw-trail-x), var(--ocw-trail-y), 0) scale(2.5); }
+    }
+    @keyframes ocwClickRipple {
+      from { opacity: 0.9; transform: translate3d(var(--ocw-ripple-x), var(--ocw-ripple-y), 0) scale(0.7); }
+      to { opacity: 0; transform: translate3d(var(--ocw-ripple-x), var(--ocw-ripple-y), 0) scale(5.8); }
+    }
 
     .ocw-scheduler {
       position: fixed; right: 18px; bottom: 18px; width: 520px; max-width: calc(100vw - 36px);
@@ -2630,14 +2658,53 @@ function injectedOpenClickyWeb() {
       caption.classList.toggle('is-visible', !!text);
     }
 
+    function addCursorTrail(x, y) {
+      var dot = document.createElement('div');
+      dot.className = 'ocw-cursor-trail';
+      dot.style.setProperty('--ocw-trail-x', Math.round(x) + 'px');
+      dot.style.setProperty('--ocw-trail-y', Math.round(y) + 'px');
+      root.appendChild(dot);
+      window.setTimeout(function(){ if (dot.parentNode) dot.parentNode.removeChild(dot); }, 650);
+    }
+
+    function addClickRipple(x, y) {
+      var ripple = document.createElement('div');
+      ripple.className = 'ocw-click-ripple';
+      ripple.style.setProperty('--ocw-ripple-x', Math.round(x) + 'px');
+      ripple.style.setProperty('--ocw-ripple-y', Math.round(y) + 'px');
+      root.appendChild(ripple);
+      window.setTimeout(function(){ if (ripple.parentNode) ripple.parentNode.removeChild(ripple); }, 720);
+    }
+
+    function animateCursorTrail(from, to, duration) {
+      var steps = Math.max(5, Math.min(18, Math.round((duration || 720) / 70)));
+      for (var i = 1; i <= steps; i += 1) {
+        (function(step){
+          var delay = Math.round((duration || 720) * (step / steps));
+          window.setTimeout(function(){
+            var progress = step / steps;
+            var eased = 1 - Math.pow(1 - progress, 3);
+            addCursorTrail(
+              from.x + (to.x - from.x) * eased,
+              from.y + (to.y - from.y) * eased
+            );
+          }, delay);
+        })(i);
+      }
+    }
+
     function moveCursor(x, y, label, duration) {
+      var ms = duration || 720;
+      var from = { x: current.x, y: current.y };
       current = { x: x, y: y };
-      cursor.style.transitionDuration = String(duration || 720) + 'ms';
+      cursor.style.transitionDuration = String(ms) + 'ms';
       var width = cursor.offsetWidth || 24;
       var height = cursor.offsetHeight || 31;
       cursor.style.transform = 'translate3d(' + Math.round(x - width / 2) + 'px, ' + Math.round(y - height / 2) + 'px, 0)';
       showCaption(label, x, y);
-      return sleep((duration || 720) + 80);
+      animateCursorTrail(from, current, ms);
+      emit('cursorGlideStarted', { from: { x: Math.round(from.x), y: Math.round(from.y) }, to: { x: Math.round(x), y: Math.round(y) }, durationMs: ms, label: label || '' });
+      return sleep(ms + 80);
     }
 
     function showHighlight(element) {
@@ -2871,6 +2938,7 @@ function injectedOpenClickyWeb() {
         return blockSchedulerIntent('booking_cta_click', { target: elementSummary(element) });
       }
       var point = await moveToElement(element, label || 'Clicking ' + targetLabel(element, 'target'));
+      addClickRipple(point.x, point.y);
       cursor.classList.add('is-pressing');
       dispatchMouse(element, 'mouseover', point);
       dispatchMouse(element, 'mousemove', point);
@@ -3006,8 +3074,8 @@ function injectedOpenClickyWeb() {
       emit('queued', { id: action.id || '', type: action.type });
 
       if (action.type === 'moveCursorToElement') return moveCursorToElement(action.target, action.caption);
-      if (action.type === 'highlightElement') return highlightElement(action.target);
-      if (action.type === 'scrollToElement') return scrollToElement(action.target);
+      if (action.type === 'highlightElement') return moveCursorToElement(action.target, action.caption || 'Highlighting this section');
+      if (action.type === 'scrollToElement') return moveCursorToElement(action.target, action.caption || 'Showing this on the page');
       if (action.type === 'clickElement') return clickElement(resolveTarget(action.target), action.caption);
       if (action.type === 'navigate') return navigate(action.url || action.href || action.target);
       if (action.type === 'showCaption') {
