@@ -229,7 +229,7 @@ try {
   assert.equal(transcriptTurn.asrFinal.provider, "browser-transcript");
   assert.equal(transcriptTurn.asrFinal.simulated, true);
   assert.equal(transcriptTurn.answer.intent, "global_payroll");
-  assert.equal(transcriptTurn.action.action?.type, "payrollFlow");
+  assert.equal(transcriptTurn.action.action?.type, "showCaption");
 
   const silence = Buffer.alloc(1600 * 2);
   const audioBase64 = encodePcm16WavBase64([silence], { sampleRate: 16000, channels: 1 });
@@ -256,7 +256,7 @@ try {
   assert.equal(audioTurn.asrFinal.simulated, false);
   assert.match(audioTurn.asrFinal.transcript, /global payroll/i);
   assert.equal(audioTurn.answer.intent, "global_payroll");
-  assert.equal(audioTurn.action.action?.type, "payrollFlow");
+  assert.equal(audioTurn.action.action?.type, "showCaption");
   assert.equal(asrBodies.length, 1);
   assert.equal(asrBodies[0].requestId, "q_audio_asr");
   assert.equal(asrBodies[0].sampleRate, 16000);

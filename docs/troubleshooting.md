@@ -22,7 +22,7 @@ Cal may block iframe behavior. The required gate is that the iframe `src` is emp
 
 ## Speech Output Is Silent
 
-Browser `speechSynthesis` is a streamed fallback. Silence can come from browser autoplay/voice availability, not from VibeVoice model proof. Real VibeVoice proof requires `TTS_PROVIDER=local-vibevoice`, an H100-local compatible endpoint, and `npm run smoke:tts:h100` evidence.
+Browser `speechSynthesis` is a streamed fallback. Silence can come from browser autoplay/voice availability, not from Miso One model proof. Real Miso One proof requires `TTS_PROVIDER=local-miso-one`, an H100-local compatible endpoint, and `npm run smoke:tts:miso-one` evidence. LoRA cloned-voice proof also requires a consented adapter artifact and applied-adapter evidence.
 
 ## Moss Or Model Claims Look Too Strong
 

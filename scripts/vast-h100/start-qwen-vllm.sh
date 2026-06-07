@@ -11,22 +11,33 @@ fi
 
 source .venv-h100/bin/activate
 
-MODEL=${LLM_MODEL:-Qwen/Qwen2.5-7B-Instruct}
-SERVED_MODEL_NAME=${LLM_SERVED_MODEL_NAME:-qwen-local}
+MODEL=${LLM_MODEL:-Qwen/Qwen3.6-27B}
+SERVED_MODEL_NAME=${LLM_SERVED_MODEL_NAME:-qwen3.6-27b}
 PORT=${LLM_PORT:-4311}
 MAX_MODEL_LEN=${LLM_MAX_MODEL_LEN:-8192}
 GPU_MEMORY_UTILIZATION=${LLM_GPU_MEMORY_UTILIZATION:-0.72}
+DTYPE=${LLM_DTYPE:-auto}
+QUANTIZATION=${LLM_QUANTIZATION:-}
 
 echo "Starting vLLM OpenAI-compatible endpoint:"
 echo "  model: $MODEL"
 echo "  served name: $SERVED_MODEL_NAME"
 echo "  url: http://127.0.0.1:$PORT/v1"
+if [[ -n "$QUANTIZATION" ]]; then
+  echo "  quantization: $QUANTIZATION"
+fi
 
-python -m vllm.entrypoints.openai.api_server \
-  --host 127.0.0.1 \
-  --port "$PORT" \
-  --model "$MODEL" \
-  --served-model-name "$SERVED_MODEL_NAME" \
-  --max-model-len "$MAX_MODEL_LEN" \
-  --gpu-memory-utilization "$GPU_MEMORY_UTILIZATION" \
-  --dtype auto
+args=(
+  -m vllm.entrypoints.openai.api_server
+  --host 127.0.0.1
+  --port "$PORT"
+  --model "$MODEL"
+  --served-model-name "$SERVED_MODEL_NAME"
+  --max-model-len "$MAX_MODEL_LEN"
+  --gpu-memory-utilization "$GPU_MEMORY_UTILIZATION"
+  --dtype "$DTYPE"
+)
+if [[ -n "$QUANTIZATION" ]]; then
+  args+=(--quantization "$QUANTIZATION")
+fi
+python "${args[@]}"

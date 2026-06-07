@@ -94,7 +94,9 @@ If model access requires Hugging Face auth:
 Run this in a tmux window on the instance:
 
     cd /workspace/inboundnow
-    LLM_MODEL=Qwen/Qwen2.5-7B-Instruct scripts/vast-h100/start-qwen-vllm.sh
+    LLM_MODEL=Qwen/Qwen3.6-27B LLM_SERVED_MODEL_NAME=qwen3.6-27b scripts/vast-h100/start-qwen-vllm.sh
+
+When co-hosting ASR and Miso One TTS on the same H100, test full precision first if memory allows. If latency or memory pressure is too high, use an explicit vLLM quantization setting such as `LLM_QUANTIZATION=fp8` or an FP8 model variant, and record that in the proof artifact.
 
 The default endpoint is:
 
@@ -127,28 +129,34 @@ Smoke it from another instance shell with a real local audio file:
 
 Passing this smoke proves the local Parakeet-compatible endpoint returned a transcript for the supplied audio file. It still does not prove browser mic frames until the LiveKit browser turn captures and transcribes real microphone audio.
 
-## Start VibeVoice-Realtime On The H100
+## Start Miso One TTS On The H100
 
 Run this in a separate tmux window on the instance:
 
     cd /workspace/inboundnow
-    ENABLE_TTS_RUNTIME=1 TTS_MODEL=microsoft/VibeVoice-Realtime-0.5B TTS_QUANTIZATION=llm-int8 npm run dev:tts:realtime
+    npm run dev:tts:miso-one
 
-The VibeVoice-Realtime target is the `microsoft/VibeVoice-Realtime-0.5B` streaming-input model. The script installs the official Microsoft VibeVoice repo with the `streamingtts` extra and launches the realtime demo on port `4331` by default.
+The primary voice target is local Miso One/MisoTTS (`MisoLabs/MisoTTS`) behind the repo-owned localhost HTTP contract: `/health`, `/prewarm`, and `/v1/tts/stream`. Cloned voices must be consented LoRA adapter artifacts, not in-context voice prompt cloning.
 
 Latency and quality knobs:
 
 - `TTS_DTYPE=bfloat16` is the H100 default.
-- `TTS_QUANTIZATION=llm-int8` quantizes only the LLM trunk in the InboundNow policy; use `none` for a quality baseline or `llm-int4` only after listening tests.
-- `TTS_CACHE_DIR=artifacts/cache/tts` is the local cache location.
+- `TTS_QUANTIZATION=llm-int8` is the current fair-quantization policy hint: quantize only language-model pieces, preserve audio decoder precision, and compare against `none` before using in demos.
+- `TTS_CACHE_DIR=artifacts/cache/miso-one-tts` is the local cache location.
 - `TTS_TEXT_CHUNK_CHARS=140` controls answer chunking before browser playback.
 - `TTS_PREWARM_TEXT` controls warmup text for the compatible endpoint.
+- `MISO_LORA_ADAPTER=artifacts/miso-lora/adapters/miso-one-lora-dev` points to the local LoRA adapter metadata/weights path.
+- `MISO_REQUIRE_LORA=1` makes the wrapper fail unless a local LoRA adapter path exists.
 
 Smoke the endpoint from another instance shell:
 
-    npm run smoke:tts:h100
+    npm run smoke:tts:miso-one
 
-Passing this smoke proves only that a localhost VibeVoice-compatible endpoint streamed audio chunks and reported cold/warm latency/cache metadata. Full browser TTS proof still requires the LiveKit browser run with `TTS_PROVIDER=local-vibevoice` and captured proof metadata.
+Passing this smoke proves only that a localhost Miso One/MisoTTS-compatible endpoint streamed audio chunks and reported latency/cache metadata. Full cloned-voice proof still requires a consented LoRA adapter artifact, `MISO_REQUIRE_LORA=1`, and evidence that the adapter was applied during generation.
+
+Legacy VibeVoice remains available as an older compatibility lane:
+
+    ENABLE_TTS_RUNTIME=1 TTS_RUNTIME=vibevoice npm run dev:tts:realtime
 
 ## Prepare Miso One LoRA Development
 
@@ -173,18 +181,19 @@ The launcher refuses to run without an explicit training entrypoint because the 
 
 ## Start The Local InboundNow Stack
 
-Run on the instance after Qwen is serving. Add `ENABLE_ASR_RUNTIME=1` for the Parakeet pane and `ENABLE_TTS_RUNTIME=1` when you also want the VibeVoice tmux pane:
+Run on the instance after bootstrap. Proof mode starts Qwen, Parakeet, Miso One TTS, local Moss, LiveKit, token server, the LiveKit agent, and the website lab:
 
-    ENABLE_ASR_RUNTIME=1 ENABLE_TTS_RUNTIME=1 bash scripts/vast-h100/start-dev-stack.sh
+    H100_PROOF_MODE=1 bash scripts/vast-h100/start-dev-stack.sh
 
 The script starts a tmux session with:
 
 - livekit-server --dev
 - bridge-disabled token server
 - local Moss artifact runtime after `npm run moss:index`
+- optional Qwen 3.6 27B vLLM tmux pane when `ENABLE_LLM_RUNTIME=1` or `H100_PROOF_MODE=1`
 - optional Parakeet ASR tmux pane when `ENABLE_ASR_RUNTIME=1`
-- optional VibeVoice-Realtime tmux pane when `ENABLE_TTS_RUNTIME=1`
-- LiveKit-mode agent worker configured for AGENT_PLANNER=local-llm, local Qwen, local Moss URLs, and `TTS_PROVIDER=local-vibevoice` only when the TTS pane is enabled
+- optional Miso One/MisoTTS tmux pane when `ENABLE_TTS_RUNTIME=1`; use `TTS_RUNTIME=vibevoice` only for the legacy VibeVoice lane
+- LiveKit-mode agent worker configured for `AGENT_PLANNER=local-llm`, fail-closed planner proof mode, local Qwen, local Moss URLs, and `TTS_PROVIDER=local-miso-one` in proof mode
 - Remote website lab on port 4199
 
 From your laptop, with the SSH tunnel open, visit:
@@ -206,7 +215,8 @@ On the instance:
     mkdir -p artifacts/smoke
     node scripts/vast-h100/smoke-qwen-endpoint.mjs | tee artifacts/smoke/qwen-h100.json
     ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav npm run smoke:asr:h100
-    npm run smoke:tts:h100
+    npm run smoke:tts:miso-one
+    ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav npm run smoke:h100:persona
 
 Browser proof to capture manually:
 
@@ -215,7 +225,7 @@ Browser proof to capture manually:
 - ASR chip distinguishes typed transcript fallback, local fake endpoint contract, and real H100 ASR proof.
 - transcript appends prospect and agent turns.
 - proof line includes local adapter labels.
-- proof line includes streamed speech fallback or local-vibevoice adapter labels without claiming VibeVoice unless `smoke:tts:h100` passed.
+- proof line includes streamed speech fallback or local-miso-one adapter labels without claiming Miso One LoRA clone proof unless `smoke:tts:miso-one` passed with an applied LoRA artifact.
 - changing voice in-session, for example "switch to a warmer voice", updates the Voice chip and streamed speech metadata.
 - booking prompt appears.
 - Cal iframe src remains empty before confirmation and is set only after Yes, open Cal.
@@ -226,9 +236,9 @@ Verified by this runbook today:
 
 - H100 machine selection and preflight.
 - Local self-hosted LiveKit control path.
-- Local Qwen OpenAI-compatible endpoint via vLLM when smoke-qwen-endpoint.mjs passes.
+- Local Qwen 3.6 27B OpenAI-compatible endpoint via vLLM when smoke-qwen-endpoint.mjs passes.
 - Local Moss artifact runtime wiring through the local-runtime-client boundary.
-- Streamed browser speech fallback and local VibeVoice adapter contract.
+- Streamed browser speech fallback, local Miso One adapter contract, and legacy VibeVoice adapter contract.
 - Dynamic voice switching metadata across browser and agent control messages.
 - Local Parakeet adapter contract and H100 launch/smoke scripts.
 - Miso One LoRA development setup and manifest validation.
@@ -237,8 +247,8 @@ Not yet proven by this runbook:
 
 - Parakeet ASR from real browser audio frames.
 - Browser mic-to-Parakeet proof, until a LiveKit browser voice turn captures real microphone audio and `local-parakeet` returns the transcript.
-- VibeVoice local audio synthesis in the browser, until `smoke:tts:h100` and a LiveKit browser run with `TTS_PROVIDER=local-vibevoice` are captured.
-- Miso One LoRA training or generated audio, until a consented manifest, selected trainer, adapter artifact, and H100-local audio smoke are captured.
+- Browser playback of Miso One audio, until `smoke:tts:miso-one` and a LiveKit browser run with `TTS_PROVIDER=local-miso-one` are captured.
+- Miso One LoRA training and cloned-voice audio, until a consented manifest, selected trainer, adapter artifact, and H100-local audio smoke with `MISO_REQUIRE_LORA=1` are captured.
 - Browser proof that the H100 Qwen planner, not only the deterministic fallback, produced the accepted plan.
 - Hosted or cloud Moss runtime behavior, which remains forbidden for runtime proof.
 
@@ -257,6 +267,8 @@ Destroying is irreversible and deletes the instance data. Copy artifacts first i
 - Vast.ai create instance reference: https://docs.vast.ai/cli/reference/create-instance
 - Vast.ai SSH and port forwarding guide: https://docs.vast.ai/guides/instances/connect/ssh
 - LiveKit local self-hosting guide: https://docs.livekit.io/transport/self-hosting/local/
+- Qwen 3.6 27B model card: https://huggingface.co/Qwen/Qwen3.6-27B
+- Qwen 3.6 27B FP8 model card: https://huggingface.co/Qwen/Qwen3.6-27B-FP8
 - Microsoft VibeVoice repository: https://github.com/microsoft/VibeVoice
 - VibeVoice-Realtime model card: https://huggingface.co/microsoft/VibeVoice-Realtime-0.5B
 - Parakeet TDT v3 model card: https://huggingface.co/nvidia/parakeet-tdt-0.6b-v3

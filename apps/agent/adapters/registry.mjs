@@ -6,6 +6,7 @@ import { createQwenStubAdapter } from "./llm/qwen-stub.mjs";
 import { createLocalArtifactMossAdapter } from "./moss/local-artifact.mjs";
 import { createLocalFixtureMossAdapter } from "./moss/local-fixture.mjs";
 import { createLocalRuntimeMossClient } from "./moss/local-runtime-client.mjs";
+import { createLocalMisoOneAdapter } from "./tts/local-miso-one.mjs";
 import { createLocalVibeVoiceAdapter } from "./tts/local-vibevoice.mjs";
 import { createVibeVoiceStubAdapter } from "./tts/vibevoice-stub.mjs";
 
@@ -25,9 +26,10 @@ function llmAdapter(env) {
 
 function ttsAdapter(env) {
   const provider = env.TTS_PROVIDER || "vibevoice-stub";
+  if (provider === "local-miso-one") return createLocalMisoOneAdapter(env);
   if (provider === "local-vibevoice") return createLocalVibeVoiceAdapter(env);
   if (provider === "vibevoice-stub") return createVibeVoiceStubAdapter(env);
-  return createUnavailableAdapter("tts", provider, "Unknown TTS provider; use vibevoice-stub or local-vibevoice.");
+  return createUnavailableAdapter("tts", provider, "Unknown TTS provider; use vibevoice-stub, local-vibevoice, or local-miso-one.");
 }
 
 function mossAdapter(env) {

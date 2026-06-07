@@ -38,6 +38,7 @@ if [[ ! -d "$MISO_TTS_REPO_DIR/.git" ]]; then
   mkdir -p "$(dirname "$MISO_TTS_REPO_DIR")"
   git clone https://github.com/MisoLabsAI/MisoTTS.git "$MISO_TTS_REPO_DIR"
 fi
+python -m pip install -e "$MISO_TTS_REPO_DIR"
 
 python - <<'PY'
 from huggingface_hub import snapshot_download

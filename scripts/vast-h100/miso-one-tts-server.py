@@ -1,0 +1,188 @@
+#!/usr/bin/env python3
+import base64
+import json
+import os
+import sys
+import time
+from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
+from pathlib import Path
+
+import torch
+
+
+HOST = os.environ.get("TTS_HOST", "127.0.0.1")
+PORT = int(os.environ.get("TTS_PORT", "4331"))
+MODEL = os.environ.get("TTS_MODEL") or os.environ.get("MISO_TTS_MODEL") or "MisoLabs/MisoTTS"
+VENDOR_DIR = Path(os.environ.get("MISO_TTS_REPO_DIR", "artifacts/vendor/MisoTTS")).resolve()
+MAX_AUDIO_MS = int(os.environ.get("MISO_TTS_MAX_AUDIO_MS", "12000"))
+CHUNK_BYTES = int(os.environ.get("TTS_PCM_CHUNK_BYTES", "24000"))
+REQUIRE_LORA = os.environ.get("MISO_REQUIRE_LORA", "0").lower() in ("1", "true", "yes", "on")
+
+
+generator = None
+generator_loaded_at = None
+
+
+def repo_import_path():
+    if not VENDOR_DIR.exists():
+        raise RuntimeError("MisoTTS repo is missing at %s; run scripts/vast-h100/setup-miso-lora-dev.sh" % VENDOR_DIR)
+    sys.path.insert(0, str(VENDOR_DIR))
+
+
+def load_generator():
+    global generator, generator_loaded_at
+    if generator is not None:
+        return generator
+    repo_import_path()
+    from generator import load_miso_8b
+
+    device = "cuda" if torch.cuda.is_available() else "cpu"
+    generator = load_miso_8b(
+        device=device,
+        model_path_or_repo_id=MODEL,
+    )
+    generator_loaded_at = time.time()
+    return generator
+
+
+def read_json(handler):
+    length = int(handler.headers.get("content-length") or "0")
+    body = handler.rfile.read(length).decode("utf-8") if length else "{}"
+    return json.loads(body or "{}")
+
+
+def write_json(handler, status, payload, content_type="application/json"):
+    data = json.dumps(payload).encode("utf-8")
+    handler.send_response(status)
+    handler.send_header("content-type", content_type)
+    handler.send_header("cache-control", "no-store")
+    handler.send_header("content-length", str(len(data)))
+    handler.end_headers()
+    handler.wfile.write(data)
+
+
+def tensor_to_pcm16(audio):
+    if hasattr(audio, "detach"):
+        audio = audio.detach().float().cpu()
+    audio = audio.reshape(-1).clamp(-1.0, 1.0)
+    pcm = (audio * 32767.0).to(torch.int16).numpy().tobytes()
+    return pcm
+
+
+def stream_ndjson(handler, events):
+    handler.send_response(200)
+    handler.send_header("content-type", "application/x-ndjson")
+    handler.send_header("cache-control", "no-store")
+    handler.end_headers()
+    for event in events:
+        handler.wfile.write((json.dumps(event) + "\n").encode("utf-8"))
+        handler.wfile.flush()
+
+
+def require_lora_path(payload):
+    lora_adapter = str(payload.get("loraAdapter") or os.environ.get("MISO_LORA_ADAPTER") or "")
+    if REQUIRE_LORA and (not lora_adapter or not Path(lora_adapter).exists()):
+        raise RuntimeError("MISO_REQUIRE_LORA=1 but loraAdapter is missing or does not exist: %s" % lora_adapter)
+    return lora_adapter
+
+
+class Handler(BaseHTTPRequestHandler):
+    server_version = "InboundNowMisoOneTTS/0.1"
+
+    def log_message(self, fmt, *args):
+        sys.stderr.write("%s - %s\n" % (self.address_string(), fmt % args))
+
+    def do_GET(self):
+        if self.path == "/health":
+            write_json(self, 200, {
+                "ok": True,
+                "provider": "local-miso-one",
+                "model": MODEL,
+                "localOnly": True,
+                "repoDir": str(VENDOR_DIR),
+                "loaded": generator is not None,
+                "loadedAt": generator_loaded_at,
+                "device": "cuda" if torch.cuda.is_available() else "cpu",
+                "loraMode": "required" if REQUIRE_LORA else "optional",
+                "boundary": "MisoTTS local inference wrapper; LoRA adapter loading must be proven by an H100 smoke artifact.",
+            })
+            return
+        write_json(self, 404, {"ok": False, "error": "not found"})
+
+    def do_POST(self):
+        try:
+            if self.path == "/prewarm":
+                start = time.time()
+                load_generator()
+                write_json(self, 200, {
+                    "ok": True,
+                    "provider": "local-miso-one",
+                    "model": MODEL,
+                    "prewarmMs": round((time.time() - start) * 1000),
+                    "localOnly": True,
+                })
+                return
+
+            if self.path == "/v1/tts/stream":
+                payload = read_json(self)
+                text = str(payload.get("text") or "").strip()
+                if not text:
+                    write_json(self, 400, {"ok": False, "error": "text is required"})
+                    return
+                lora_adapter = require_lora_path(payload)
+                gen = load_generator()
+                started = time.time()
+                audio = gen.generate(
+                    text=text,
+                    speaker=0,
+                    context=[],
+                    max_audio_length_ms=MAX_AUDIO_MS,
+                )
+                sample_rate = int(getattr(gen, "sample_rate", 24000))
+                pcm = tensor_to_pcm16(audio)
+                events = [{
+                    "type": "start",
+                    "provider": "local-miso-one",
+                    "model": MODEL,
+                    "voice": payload.get("voice") or "miso-one-lora-dev",
+                    "style": payload.get("style") or "expressive",
+                    "loraAdapter": lora_adapter,
+                    "loraAdapterApplied": False,
+                    "format": "pcm16",
+                    "sampleRate": sample_rate,
+                    "channels": 1,
+                    "cacheKey": payload.get("cacheKey") or "",
+                    "cacheHit": False,
+                    "localOnly": True,
+                    "firstAudioMs": round((time.time() - started) * 1000),
+                    "boundary": "This wrapper uses local MisoTTS inference. LoRA adapter loading is reported separately and is not implied by loraAdapter metadata.",
+                }]
+                for index in range(0, len(pcm), CHUNK_BYTES):
+                    events.append({
+                        "type": "chunk",
+                        "sequence": index // CHUNK_BYTES,
+                        "audio": base64.b64encode(pcm[index:index + CHUNK_BYTES]).decode("ascii"),
+                        "format": "pcm16",
+                        "sampleRate": sample_rate,
+                        "channels": 1,
+                    })
+                events.append({
+                    "type": "end",
+                    "chunkCount": max(0, len(events) - 1),
+                    "totalMs": round((time.time() - started) * 1000),
+                    "format": "pcm16",
+                    "sampleRate": sample_rate,
+                    "channels": 1,
+                })
+                stream_ndjson(self, events)
+                return
+
+            write_json(self, 404, {"ok": False, "error": "not found"})
+        except Exception as error:
+            write_json(self, 500, {"ok": False, "error": str(error), "provider": "local-miso-one", "model": MODEL})
+
+
+if __name__ == "__main__":
+    server = ThreadingHTTPServer((HOST, PORT), Handler)
+    print("Miso One TTS endpoint listening on http://%s:%s" % (HOST, PORT), flush=True)
+    server.serve_forever()

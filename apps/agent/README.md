@@ -14,7 +14,7 @@ Current mode is `AGENT_MODE=simulated` by default. In this mode:
 - LLM planning is the local keyword router in `router.mjs` by default.
 - `AGENT_PLANNER=local-llm` plus `LLM_PROVIDER=qwen-openai-local` enables the strict JSON planner against a localhost OpenAI-compatible endpoint.
 - TTS streams `agent.speech.start/chunk/end` text chunks to the browser `speechSynthesis` fallback when available.
-- `TTS_PROVIDER=local-vibevoice` configures a localhost-only VibeVoice-compatible boundary; real model audio is not proven until the H100 smoke passes.
+- `TTS_PROVIDER=local-miso-one` configures the primary localhost-only Miso One/MisoTTS boundary; real generated audio and LoRA clone proof require the H100 smokes. `local-vibevoice` remains a legacy compatibility provider.
 - Moss uses local fixture retrieval by default, with local artifact/runtime-client modes documented in `docs/local-adapters.md`.
 
 The worker connects to:
@@ -26,6 +26,6 @@ LIVEKIT_ROOM=inboundnow-local
 
 It listens for `prospect.question`, plans an answer plus typed browser actions, and sends `agent.answer`, `agent.speech.*`, and `agent.action` messages back to the browser bridge or LiveKit data channel.
 
-The LLM planner validates the full parsed plan before sending the answer. Malformed JSON, unsafe actions, or unavailable local endpoints fall back to the deterministic router.
+The LLM planner validates the full parsed plan before sending the answer. Malformed JSON, unsafe actions, deprecated demo macros, or unavailable local endpoints fall back to the deterministic router unless proof mode is fail-closed.
 
-For the payroll MVP, the worker emits a `payrollFlow` action with an agent-owned answer. The browser widget still owns all visible cursor, scroll, highlight, caption, and booking UI.
+For the payroll MVP, the worker emits primitive typed actions such as `showCaption`, `scrollToElement`, `highlightElement`, and `showBookingPrompt`. The browser widget still owns all visible cursor, scroll, highlight, caption, and booking UI. `payrollFlow` is a deprecated lab macro, not the main planner path.

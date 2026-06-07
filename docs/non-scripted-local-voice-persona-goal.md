@@ -29,8 +29,8 @@ The target experience is simple: open the local website lab, click to start the 
 - Use local LiveKit, not LiveKit Cloud.
 - Use local Moss runtime/artifacts, not hosted Moss runtime behavior.
 - Use local Parakeet v3 for ASR.
-- Use a local Qwen-class OpenAI-compatible planner endpoint through vLLM or SGLang.
-- Use local VibeVoice streaming TTS and/or a consented Miso LoRA voice profile.
+- Use local Qwen 3.6 27B through a vLLM or SGLang OpenAI-compatible planner endpoint.
+- Use local Miso One/MisoTTS streaming TTS with cloned voices represented by consented LoRA finetunes, not in-context voice cloning. Legacy VibeVoice can remain as a compatibility lane only.
 - Use H100-class GPU hardware for real local-model proof. The recommended setup path is Vast.ai with the PyTorch CUDA/cuDNN template, following the repo runbooks and scripts.
 - Production visitor control must stay browser-native through OpenClicky-Web. No native desktop control for production visitors.
 
@@ -56,8 +56,8 @@ The target experience is simple: open the local website lab, click to start the 
 - The planner must output validated JSON only: answer plus typed OpenClicky-Web actions.
 - Invalid planner output must fall back safely before any action is executed.
 - Demote or remove scripted macros such as `payrollFlow` from the main success path. Prefer primitive typed actions: scroll, highlight, click, caption, prompt, safe navigation, and booking confirmation.
-- Wire local Qwen-class planner support through vLLM or SGLang with an OpenAI-compatible API.
-- Wire local VibeVoice streaming TTS into the worker and browser playback path.
+- Wire local Qwen 3.6 27B planner support through vLLM or SGLang with an OpenAI-compatible API.
+- Wire local Miso One/MisoTTS streaming TTS into the worker and browser playback path.
 - Support a consented Miso LoRA voice development path: manifest validation, local-only data paths, training/inference scripts, runtime profile metadata, cache keys, and clear non-impersonation boundaries.
 - Add voice switching that can change voice style/profile mid-session without restarting.
 - Add latency optimizations: ASR/LLM/TTS prewarm, local retrieval index caching, TTS cache keys, streaming text/audio, and fair quantization policies that preserve audio quality.
@@ -78,7 +78,7 @@ The target experience is simple: open the local website lab, click to start the 
 
 From a clean local run on an H100/Vast.ai setup, prove this path:
 
-- Start local LiveKit, Moss runtime, Parakeet v3 ASR, Qwen planner, and VibeVoice/Miso TTS.
+- Start local LiveKit, Moss runtime, Parakeet v3 ASR, Qwen 3.6 27B planner, and Miso One/MisoTTS.
 - Open the local website lab.
 - Click Start AI Persona.
 - Grant microphone access.

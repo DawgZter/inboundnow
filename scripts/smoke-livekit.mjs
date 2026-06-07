@@ -182,7 +182,7 @@ try {
   if (result.answer.intent !== "global_payroll") throw new Error("Expected global_payroll intent");
   if (result.answer.transport !== "livekit") throw new Error("Expected livekit answer transport");
   if (result.action.transport !== "livekit") throw new Error("Expected livekit action transport");
-  if (result.action.action?.type !== "payrollFlow") throw new Error("Expected payrollFlow action");
+  if (result.action.action?.type !== "showCaption") throw new Error("Expected primitive showCaption action");
 
   const summary = {
     ok: true,

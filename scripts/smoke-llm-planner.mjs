@@ -75,14 +75,19 @@ try {
   assert.equal(result.planner.source, "local-llm-json");
   assert.equal(result.planner.fallback, false);
   assert.equal(result.plan.intent, "global_payroll");
-  assert.equal(result.preparedActions[0].type, "payrollFlow");
+  assert.deepEqual(result.preparedActions.map((action) => action.type), [
+    "showCaption",
+    "scrollToElement",
+    "highlightElement",
+    "showBookingPrompt",
+  ]);
 
   console.log(JSON.stringify({
     ok: true,
     baseUrl: baseUrl + "/v1",
     planner: result.planner,
     intent: result.plan.intent,
-    actionType: result.preparedActions[0].type,
+    actionTypes: result.preparedActions.map((action) => action.type),
   }, null, 2));
 } finally {
   child.kill("SIGTERM");

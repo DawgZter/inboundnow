@@ -254,7 +254,7 @@ try {
   assert.equal(result.answer.intent, "global_payroll");
   assert.equal(result.answer.transport, "livekit");
   assert.equal(result.action.transport, "livekit");
-  assert.equal(result.action.action?.type, "payrollFlow");
+  assert.equal(result.action.action?.type, "showCaption");
   assert.equal(result.answer.adapters?.moss, "local-runtime-client");
   assertRemoteRetrieval(result.answer.retrieval);
 

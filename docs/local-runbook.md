@@ -49,7 +49,7 @@ Run `npm run smoke:browser:asr-ui` to prove the browser-visible ASR state path: 
 
 ## H100 Local-Model Lane
 
-The real model lane requires an H100-class GPU. Use docs/vast-h100-runbook.md for the Vast.ai PyTorch-template setup, H100 preflight, Qwen vLLM endpoint, port tunnels, and evidence capture.
+The real model lane requires an H100-class GPU. Use docs/vast-h100-runbook.md for the Vast.ai PyTorch-template setup, H100 preflight, Qwen 3.6 27B vLLM endpoint, local Parakeet v3, local Miso One/MisoTTS, port tunnels, and evidence capture.
 
 ## Local Retrieval Artifact
 
@@ -130,13 +130,13 @@ npm run smoke:local
 npm run smoke:livekit
 ```
 
-`smoke:tts:local` proves the local VibeVoice-compatible adapter contract against a fake localhost endpoint, including prewarm, stable cache keys, and LLM-only quantization metadata. It is not VibeVoice model proof.
+`smoke:tts:local` proves the legacy local VibeVoice-compatible adapter contract against a fake localhost endpoint, including prewarm, stable cache keys, and LLM-only quantization metadata. It is not VibeVoice or Miso One model proof.
 
-`smoke:tts:agent` proves the worker prewarms a localhost VibeVoice-compatible endpoint, emits `agent.tts.start/chunk/end` with base64 PCM16 chunks, marks fake endpoint proof as `proofLevel: contract`, and allows page actions to overlap model-audio streaming for latency.
+`smoke:tts:agent` proves the worker prewarms a localhost model-audio endpoint, emits `agent.tts.start/chunk/end` with base64 PCM16 chunks, marks fake endpoint proof as `proofLevel: contract`, and allows page actions to overlap model-audio streaming for latency.
 
 `smoke:browser:asr-ui` additionally proves the browser suppresses duplicate `speechSynthesis` when model audio is active, schedules PCM16 chunks through Web Audio, rejects stale interrupted audio, and handles out-of-order/duplicate chunks.
 
-`smoke:local` and `smoke:livekit` assert that the worker sends `agent.answer`, then `agent.speech.start/chunk/end`, then browser actions. The website lab queues those chunks through browser `speechSynthesis` when model audio is unavailable so speech can begin before page guidance completes. Browser speech remains a fallback until an H100-local VibeVoice endpoint is smoked.
+`smoke:local` and `smoke:livekit` assert that the worker sends `agent.answer`, then `agent.speech.start/chunk/end`, then primitive browser actions. The website lab queues those chunks through browser `speechSynthesis` when model audio is unavailable so speech can begin before page guidance completes. Browser speech remains a fallback until an H100-local Miso One endpoint and browser playback proof are captured.
 
 ## Local LLM Planner Mode
 

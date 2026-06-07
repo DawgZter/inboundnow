@@ -80,7 +80,7 @@ The session voice profile `miso_lora_dev` passes these fields through the TTS bo
 - `style: expressive`
 - `loraAdapter: artifacts/miso-lora/adapters/miso-one-lora-dev`
 
-The local VibeVoice-compatible TTS adapter now includes `style` and `loraAdapter` in both the request body and the cache key. That prevents warmed/cache audio for one voice or adapter from being reused for another.
+The local Miso One TTS adapter includes `style` and `loraAdapter` in both the request body and the cache key. That prevents warmed/cache audio for one voice or adapter from being reused for another. The legacy VibeVoice adapter uses the same cache-key discipline.
 
 ## Proof Boundary
 

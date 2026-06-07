@@ -190,7 +190,7 @@ try {
 
   const bridge = await waitForBridgeMessages();
   if (bridge.answer.intent !== "global_payroll") throw new Error("Expected global_payroll intent");
-  if (bridge.action.action?.type !== "payrollFlow") throw new Error("Expected payrollFlow action");
+  if (bridge.action.action?.type !== "showCaption") throw new Error("Expected primitive showCaption action");
 
   const result = {
     ok: true,

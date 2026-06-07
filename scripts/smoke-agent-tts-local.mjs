@@ -282,7 +282,7 @@ try {
   assert.equal(turn.ttsEnd.proofLevel, "contract");
   assert.equal(turn.ttsEnd.localVibeVoiceProven, false);
   assert.equal(turn.ttsStart.sessionId, "tts-agent-local-session");
-  assert.equal(turn.action.action.type, "payrollFlow");
+  assert.equal(turn.action.action.type, "showCaption");
 
   const speechEndIndex = seen.indexOf(turn.speechEnd);
   const ttsEndIndex = seen.indexOf(turn.ttsEnd);

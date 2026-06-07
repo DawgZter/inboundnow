@@ -2,10 +2,12 @@ import assert from "node:assert/strict";
 import { test } from "node:test";
 import {
   ActionProtocolError,
+  actionTypes,
   parseStrictAgentPlanJson,
   prepareAgentPlanForDispatch,
   prepareActionForDispatch,
   prepareActionsForDispatch,
+  primitiveActionTypes,
   validateAction,
   validateAgentPlan,
   validateActionPlan,
@@ -109,6 +111,19 @@ test("router payroll plan emits protocol-valid actions", () => {
 
   assert.equal(plan.intent, "global_payroll");
   assert.equal(result.ok, true, result.errors.join("\n"));
+  assert.ok(plan.actions.every((action) => action.type !== "payrollFlow"));
+  assert.deepEqual(plan.actions.map((action) => action.type), [
+    "showCaption",
+    "scrollToElement",
+    "highlightElement",
+    "showBookingPrompt",
+  ]);
+});
+
+test("planner-facing primitive action types exclude deprecated demo macros", () => {
+  assert.ok(actionTypes().includes("payrollFlow"));
+  assert.ok(!primitiveActionTypes().includes("payrollFlow"));
+  assert.ok(primitiveActionTypes().includes("scrollToElement"));
 });
 
 test("strict agent plan parser accepts object-only JSON", () => {

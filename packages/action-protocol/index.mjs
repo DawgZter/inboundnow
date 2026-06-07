@@ -11,6 +11,7 @@ const ACTION_TYPES = new Set([
   "snapshotPage",
 ]);
 
+const DEPRECATED_MACRO_ACTION_TYPES = new Set(["payrollFlow"]);
 const TARGET_KEYS = new Set(["country", "demo", "eor", "payroll", "pricing"]);
 const CONFIRMED_BOOKING_STATE = "confirmed";
 const MAX_CAPTION_LENGTH = 360;
@@ -24,8 +25,19 @@ export class ActionProtocolError extends Error {
   }
 }
 
-export function actionTypes() {
-  return Array.from(ACTION_TYPES).sort();
+export function actionTypes(options = {}) {
+  const includeDeprecatedMacros = options.includeDeprecatedMacros !== false;
+  return Array.from(ACTION_TYPES)
+    .filter((type) => includeDeprecatedMacros || !DEPRECATED_MACRO_ACTION_TYPES.has(type))
+    .sort();
+}
+
+export function primitiveActionTypes() {
+  return actionTypes({ includeDeprecatedMacros: false });
+}
+
+export function isDeprecatedMacroActionType(type) {
+  return DEPRECATED_MACRO_ACTION_TYPES.has(type);
 }
 
 export function targetKeys() {

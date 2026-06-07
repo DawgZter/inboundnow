@@ -2,6 +2,9 @@ import { normalizeTtsOptimizationOptions, speechCacheKey } from "../../../../pac
 import { PROOF_LEVELS, assertLocalHttpUrl, status } from "../contracts.mjs";
 
 const DEFAULT_BASE_URL = "http://127.0.0.1:4331";
+const DEFAULT_PROVIDER = "local-vibevoice";
+const DEFAULT_LABEL = "vibevoice-realtime-local";
+const DEFAULT_MESSAGE = "Configured for a localhost VibeVoice-Realtime compatible streaming endpoint; proof requires a real local/H100 stream smoke.";
 
 function endpoint(base, pathname, label) {
   const value = String(pathname || "");
@@ -34,8 +37,11 @@ async function* readNdjson(response) {
   if (tail) yield JSON.parse(tail);
 }
 
-export function createLocalVibeVoiceAdapter(env = process.env) {
-  const base = assertLocalHttpUrl(env.TTS_BASE_URL || env.VIBEVOICE_BASE_URL || DEFAULT_BASE_URL, "TTS_BASE_URL");
+export function createLocalVibeVoiceAdapter(env = process.env, adapterOptions = {}) {
+  const provider = adapterOptions.provider || DEFAULT_PROVIDER;
+  const label = adapterOptions.label || DEFAULT_LABEL;
+  const message = adapterOptions.message || DEFAULT_MESSAGE;
+  const base = assertLocalHttpUrl(env.TTS_BASE_URL || env.VIBEVOICE_BASE_URL || adapterOptions.defaultBaseUrl || DEFAULT_BASE_URL, "TTS_BASE_URL");
   const options = normalizeTtsOptimizationOptions(env);
   const baseUrl = base.href.replace(/\/$/, "");
   const streamPath = env.TTS_STREAM_PATH || "/v1/tts/stream";
@@ -74,14 +80,14 @@ export function createLocalVibeVoiceAdapter(env = process.env) {
 
   return {
     kind: "tts",
-    provider: "local-vibevoice",
+    provider,
     status() {
       return status({
         kind: "tts",
-        provider: "local-vibevoice",
-        label: "vibevoice-realtime-local",
+        provider,
+        label,
         proof: PROOF_LEVELS.configured,
-        message: "Configured for a localhost VibeVoice-Realtime compatible streaming endpoint; proof requires a real local/H100 stream smoke.",
+        message,
         detail: {
           baseUrl,
           model: options.model,
@@ -123,7 +129,7 @@ export function createLocalVibeVoiceAdapter(env = process.env) {
 
       for await (const event of readNdjson(response)) {
         yield {
-          provider: "local-vibevoice",
+          provider,
           simulated: false,
           model: voiceProfile?.ttsModel || options.model,
           voice: voiceProfile?.ttsVoice || options.voice,
@@ -140,7 +146,7 @@ export function createLocalVibeVoiceAdapter(env = process.env) {
       const events = [];
       for await (const event of this.stream({ text, signal, voiceProfile })) events.push(event);
       return {
-        provider: "local-vibevoice",
+        provider,
         simulated: false,
         text,
         voiceProfile,

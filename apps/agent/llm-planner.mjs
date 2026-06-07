@@ -1,6 +1,8 @@
 import {
   actionTypes,
+  isDeprecatedMacroActionType,
   prepareAgentPlanForDispatch,
+  primitiveActionTypes,
   targetKeys,
 } from "../../packages/action-protocol/index.mjs";
 import { planForQuestion } from "./router.mjs";
@@ -11,6 +13,14 @@ function compact(value, maxLength = 900) {
 
 function plannerMode(env = process.env) {
   return env.AGENT_PLANNER || (env.LLM_PLANNER_ENABLED ? "local-llm" : "deterministic");
+}
+
+function envFlag(value) {
+  return ["1", "true", "yes", "on"].includes(String(value || "").trim().toLowerCase());
+}
+
+function plannerFailClosed(env = process.env) {
+  return envFlag(env.AGENT_PLANNER_FAIL_CLOSED || env.LLM_PLANNER_FAIL_CLOSED || env.H100_PROOF_MODE);
 }
 
 function retrievalSummary(retrieval) {
@@ -56,7 +66,7 @@ export function buildPlannerMessages({
     bookingState,
     retrieval: retrievalSummary(retrieval),
     pageSnapshot: pageSnapshotSummary(pageSnapshot),
-    allowedActions: actionTypes(),
+    allowedActions: primitiveActionTypes(),
     allowedTargets: targetKeys(),
   };
 
@@ -68,6 +78,7 @@ export function buildPlannerMessages({
         "Return exactly one JSON object and no markdown or prose.",
         "Schema: {\"intent\": string, \"answer\": string, \"actions\": array}.",
         "Use only allowed OpenClicky-Web action types and allowlisted target keys from the user context.",
+        "Do not use deprecated demo macro actions such as payrollFlow; compose primitive actions instead.",
         "Never include a Cal URL. If booking is useful before confirmation, use showBookingPrompt.",
         "Do not claim real ASR, real TTS, hosted Moss, or LiveKit Cloud.",
         "Keep answers concise and grounded in the provided retrieval/page context.",
@@ -95,6 +106,15 @@ function deterministicPlan(question, context = {}, planner = {}) {
   };
 }
 
+function failOrFallback(question, context, planner, env) {
+  if (plannerFailClosed(env)) {
+    const error = new Error(planner.error || "local planner failed closed");
+    error.planner = planner;
+    throw error;
+  }
+  return deterministicPlan(question, context, planner);
+}
+
 export async function planQuestion({
   question,
   retrieval,
@@ -110,11 +130,11 @@ export async function planQuestion({
 
   const llm = adapters.llm;
   if (!llm || llm.provider !== "qwen-openai-local" || typeof llm.complete !== "function") {
-    return deterministicPlan(question, { retrieval }, {
+    return failOrFallback(question, { retrieval }, {
       enabled: true,
       fallback: true,
       error: "local-llm planner requires LLM_PROVIDER=qwen-openai-local",
-    });
+    }, env);
   }
 
   try {
@@ -127,6 +147,10 @@ export async function planQuestion({
       bookingState,
       generateId,
     });
+    const macroAction = prepared.actions.find((action) => isDeprecatedMacroActionType(action.type));
+    if (macroAction) {
+      throw new Error("local LLM planner returned deprecated demo macro action: " + macroAction.type);
+    }
     return {
       plan: prepared.plan,
       preparedActions: prepared.actions,
@@ -139,10 +163,10 @@ export async function planQuestion({
       },
     };
   } catch (error) {
-    return deterministicPlan(question, { retrieval }, {
+    return failOrFallback(question, { retrieval }, {
       enabled: true,
       fallback: true,
       error: error.message || String(error),
-    });
+    }, env);
   }
 }

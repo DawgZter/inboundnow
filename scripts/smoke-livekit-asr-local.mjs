@@ -321,7 +321,7 @@ try {
   assert.equal(answer.intent, "global_payroll");
   assert.equal(answer.transport, "livekit");
   assert.equal(action.transport, "livekit");
-  assert.equal(action.action?.type, "payrollFlow");
+  assert.equal(action.action?.type, "showCaption");
   assert.equal(asrBodies.length, 1);
   assert.equal(asrBodies[0].requestId, requestId);
   assert.equal(asrBodies[0].sampleRate, SAMPLE_RATE);

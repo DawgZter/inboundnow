@@ -7,8 +7,8 @@ This document is the proof boundary for the local voice-agent harness.
 - LiveKit token shape: implemented by `services/token-server` with local `devkey` / `secret` defaults.
 - Agent transport for the MVP: local LiveKit data channels are verified for control messages; the WebSocket bridge remains a simulated local fallback.
 - Prospect question input: browser text input, simulated final transcript messages, and local ASR audio payload messages. Browser mic publication is configured; turn-based LiveKit audio buffering is wired, but real Parakeet model transcription still requires the H100 endpoint proof.
-- Agent reasoning: deterministic local keyword router.
-- Speech output: streamed browser `speechSynthesis` fallback chunks when model audio is unavailable; caption-only `agent.speech.*` plus `agent.tts.*` PCM16 audio chunks when the local VibeVoice-compatible model-audio path is enabled.
+- Agent reasoning: deterministic local keyword router by default; fail-closed local Qwen 3.6 27B planning is the H100 proof target.
+- Speech output: streamed browser `speechSynthesis` fallback chunks when model audio is unavailable; caption-only `agent.speech.*` plus `agent.tts.*` PCM16 audio chunks when a local model-audio path such as Miso One is enabled.
 - Voice switching: browser, bridge, and LiveKit messages carry a per-session voice profile; typed commands such as "switch to a warmer voice" update the session voice without restarting.
 - Adapter plumbing: dependency-free local stubs and status reporting under
   `apps/agent/adapters`.
@@ -42,7 +42,7 @@ Local proof commands:
 
 ## Local LLM Adapter
 
-Target runtime: local Qwen-class model behind a vLLM or SGLang OpenAI-compatible `/v1` API.
+Target runtime: local Qwen 3.6 27B behind a vLLM or SGLang OpenAI-compatible `/v1` API.
 
 Responsibilities:
 
@@ -54,18 +54,18 @@ Current keyword routing and `qwen-stub` are simulated planners, not local LLM
 proof. `qwen-openai-local` only becomes proof after a localhost vLLM/SGLang
 completion is exercised and captured.
 
-The worker only uses the local LLM planner when `AGENT_PLANNER=local-llm` and `LLM_PROVIDER=qwen-openai-local`. Planner JSON is parsed strictly and validated through `packages/action-protocol` before the answer or actions are sent; malformed JSON or invalid actions fall back to the deterministic router.
+The worker only uses the local LLM planner when `AGENT_PLANNER=local-llm` and `LLM_PROVIDER=qwen-openai-local`. Planner JSON is parsed strictly and validated through `packages/action-protocol` before the answer or actions are sent. Deprecated demo macros are rejected. Malformed JSON or invalid actions fall back to the deterministic router unless `AGENT_PLANNER_FAIL_CLOSED=1` or `H100_PROOF_MODE=1` is set.
 
-## VibeVoice-Style TTS Adapter
+## Local Model-Audio TTS Adapter
 
-Target model: `microsoft/VibeVoice-Realtime-0.5B`, because the official VibeVoice docs describe it as the realtime streaming-input TTS variant. It is still a proof target, not current model proof.
+Primary target model: `MisoLabs/MisoTTS` through `TTS_PROVIDER=local-miso-one`. The cloned-voice path is a consented LoRA adapter artifact, not in-context voice prompt cloning. Legacy VibeVoice remains available through `TTS_PROVIDER=local-vibevoice` for older compatibility smokes.
 
 Responsibilities:
 
 - Turn agent answer text into local audio.
-- Stream audio through a localhost-only VibeVoice-compatible endpoint.
+- Stream audio through a localhost-only model endpoint.
 - Stream browser fallback speech in short text chunks when model audio is unavailable.
-- Emit `agent.tts.start`, `agent.tts.chunk`, and `agent.tts.end` audio events when `TTS_PROVIDER=local-vibevoice` and model audio is enabled.
+- Emit `agent.tts.start`, `agent.tts.chunk`, and `agent.tts.end` audio events when `TTS_PROVIDER=local-miso-one` or `TTS_PROVIDER=local-vibevoice` and model audio is enabled.
 - Prewarm the runtime before the first real answer.
 - Use stable cache keys that include text, model, voice, style, LoRA adapter, and quantization policy.
 - Report latency, cache-hit, dtype, quantization, and fallback state.
@@ -83,15 +83,15 @@ Latency controls:
 Current verified behavior:
 
 - Without model audio, the worker emits `agent.speech.start`, `agent.speech.chunk`, and `agent.speech.end`; the browser queues chunks through `speechSynthesis`.
-- With `local-vibevoice` model audio enabled, the worker emits caption-only `agent.speech.*` immediately, starts a local VibeVoice-compatible stream in parallel, and emits `agent.tts.start/chunk/end` with base64 PCM16 chunks.
+- With `local-miso-one` or `local-vibevoice` model audio enabled, the worker emits caption-only `agent.speech.*` immediately, starts a local model-audio stream in parallel, and emits `agent.tts.start/chunk/end` with base64 PCM16 chunks.
 - Browser actions are allowed to overlap pending or playing model audio for latency. The action bus must not wait for a slow prewarm or first audio chunk.
 - The browser suppresses duplicate `speechSynthesis` while model audio is active, schedules PCM16 chunks with Web Audio, buffers out-of-order chunks until the missing sequence arrives, ignores duplicate chunks, and ignores stale chunks after interruption.
-- Fake endpoint smokes are `proofLevel: contract` and must keep `localVibeVoiceProven: false`. Set `TTS_REAL_MODEL_PROOF=1` only in an H100 evidence run that is explicitly being captured as real model proof.
+- Fake endpoint smokes are `proofLevel: contract` and must keep model-proof flags false. Set `TTS_REAL_MODEL_PROOF=1` only in an H100 evidence run that is explicitly being captured as real model proof.
 
 `vibevoice-stub` and browser `speechSynthesis` are only demo fallbacks and
 must not be described as VibeVoice proof.
 
-`local-vibevoice` is configured only when `TTS_PROVIDER=local-vibevoice`; `TTS_BASE_URL` must point at localhost. `npm run smoke:tts:local` proves the adapter contract, `npm run smoke:tts:agent` proves the worker audio-event contract, and `npm run smoke:browser:asr-ui` proves browser scheduling/ignore behavior against a fake local endpoint only. `npm run smoke:tts:h100` must pass against a real H100-local VibeVoice-compatible endpoint before changing this to model proof.
+`local-miso-one` is configured with `TTS_PROVIDER=local-miso-one`; `TTS_BASE_URL` must point at localhost. `npm run smoke:tts:miso-one` or `npm run smoke:tts:h100` must pass against a real H100-local Miso endpoint before calling it generated-audio proof, and `MISO_REQUIRE_LORA=1` plus applied-adapter evidence is required before calling it cloned-voice proof. `local-vibevoice` and `npm run smoke:tts:vibevoice` remain legacy compatibility proof only.
 
 ## Dynamic Voice Session Adapter
 
@@ -114,6 +114,8 @@ Current configured pieces:
 - `packages/miso-lora` manifest validator
 - `scripts/vast-h100/setup-miso-lora-dev.sh`
 - `scripts/vast-h100/launch-miso-lora-dev.sh`
+- `scripts/vast-h100/start-miso-one-tts.sh` and `scripts/vast-h100/miso-one-tts-server.py`
+- `scripts/vast-h100/smoke-miso-one-endpoint.mjs`
 - `miso_lora_dev` voice profile metadata
 
 The manifest requires explicit consent, `localOnly: true`, `syntheticImpersonationAllowed: false`, and local filesystem paths. The launcher requires an explicit `MISO_LORA_TRAIN_ENTRYPOINT` because no MisoTTS LoRA trainer is proven in this repo yet.

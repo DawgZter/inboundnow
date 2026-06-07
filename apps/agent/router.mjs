@@ -1,6 +1,29 @@
 const PAYROLL_ANSWER =
   "Remote helps with global payroll by giving companies one place to pay distributed teams, handle country-specific payroll rules, keep compliance connected to hiring, and guide buyers toward the right next step.";
 
+function globalPayrollActions(answer = PAYROLL_ANSWER) {
+  return [
+    {
+      type: "showCaption",
+      text: "I will point out Remote's global payroll context, then keep booking gated until you confirm.",
+    },
+    {
+      type: "scrollToElement",
+      target: { key: "payroll" },
+      caption: "Bringing global payroll into view.",
+    },
+    {
+      type: "highlightElement",
+      target: { key: "payroll" },
+    },
+    {
+      type: "showBookingPrompt",
+      reason: "payroll_next_step",
+      answer,
+    },
+  ];
+}
+
 export function planForQuestion(question) {
   const text = String(question || "").toLowerCase();
 
@@ -8,13 +31,7 @@ export function planForQuestion(question) {
     return {
       intent: "global_payroll",
       answer: PAYROLL_ANSWER,
-      actions: [
-        {
-          type: "payrollFlow",
-          answer: PAYROLL_ANSWER,
-          source: "apps/agent/router",
-        },
-      ],
+      actions: globalPayrollActions(),
     };
   }
 

@@ -963,9 +963,9 @@ function injectedOpenClickyWeb() {
       window.__ocwLastSpeech = '';
       setTurnState('speaking', 'streaming speech');
       if (message.modelAudio) {
-        setTtsProof('TTS: text captions are streaming while local VibeVoice-compatible audio chunks are expected. Real model audio still requires H100 proof.');
+        setTtsProof('TTS: text captions are streaming while local model-audio chunks are expected. Real Miso One audio still requires H100 proof.');
       } else {
-        setTtsProof('TTS: streamed browser speech synthesis fallback using ' + activeVoiceProfile.label + (speechState.chunkCount ? ' (' + speechState.chunkCount + ' chunks)' : '') + '. Local VibeVoice is not proven yet.');
+        setTtsProof('TTS: streamed browser speech synthesis fallback using ' + activeVoiceProfile.label + (speechState.chunkCount ? ' (' + speechState.chunkCount + ' chunks)' : '') + '. Local Miso One audio is not proven yet.');
       }
       emit('speechStreamStarted', {
         requestId: speechState.requestId,
@@ -997,7 +997,7 @@ function injectedOpenClickyWeb() {
       }
 
       if (!browserSpeechAvailable()) {
-        setTtsProof('TTS: streamed text chunks received, but browser speech fallback is unavailable. Local VibeVoice is not proven yet.');
+        setTtsProof('TTS: streamed text chunks received, but browser speech fallback is unavailable. Local Miso One audio is not proven yet.');
         speechState.spokenChunks += 1;
         emit('speechChunkDisplayed', { requestId: speechState.requestId, sequence: next.sequence, audible: false });
         window.setTimeout(function(){ pumpSpeechQueue(generation); }, 0);
@@ -1034,7 +1034,7 @@ function injectedOpenClickyWeb() {
         window.speechSynthesis.speak(utterance);
       } catch (e) {
         speechState.speaking = false;
-        setTtsProof('TTS: browser speech fallback failed; streamed text is shown only. Local VibeVoice is not proven yet.');
+      setTtsProof('TTS: browser speech fallback failed; streamed text is shown only. Local Miso One audio is not proven yet.');
         pumpSpeechQueue(generation);
       }
     }
@@ -1213,7 +1213,7 @@ function injectedOpenClickyWeb() {
       resetModelAudioState(true);
       modelAudioState.requestId = message.requestId || '';
       modelAudioState.chunkCount = Number(message.chunkCount || 0);
-      setTtsProof('TTS: local VibeVoice-compatible audio stream started (' + (message.format || 'audio') + ', proof level: ' + (message.proofLevel || 'contract') + '). Real model proof depends on the H100 smoke.');
+      setTtsProof('TTS: local model-audio stream started (' + (message.provider || 'tts') + ', ' + (message.format || 'audio') + ', proof level: ' + (message.proofLevel || 'contract') + '). Real model proof depends on the H100 smoke.');
       emit('ttsAudioStreamStarted', {
         requestId: message.requestId || '',
         provider: message.provider || '',
@@ -1285,7 +1285,7 @@ function injectedOpenClickyWeb() {
 
     function finishTtsAudioStream(message) {
       if (shouldIgnoreTtsAudioMessage(message, 'ttsAudioStreamIgnored')) return;
-      setTtsProof('TTS: local VibeVoice-compatible audio stream ended after ' + Number(message.chunkCount || 0) + ' chunks at proof level ' + (message.proofLevel || 'contract') + '. Real model proof depends on the H100 smoke.');
+      setTtsProof('TTS: local model-audio stream ended after ' + Number(message.chunkCount || 0) + ' chunks at proof level ' + (message.proofLevel || 'contract') + '. Real model proof depends on the H100 smoke.');
       emit('ttsAudioStreamEnded', {
         requestId: message.requestId || '',
         provider: message.provider || '',
@@ -1299,7 +1299,7 @@ function injectedOpenClickyWeb() {
 
     function failTtsAudioStream(message) {
       if (shouldIgnoreTtsAudioMessage(message, 'ttsAudioStreamIgnored')) return;
-      setTtsProof('TTS: local VibeVoice-compatible audio stream failed; text captions remain visible and browser speech is not replayed to avoid duplicate playback. ' + (message.message || ''));
+      setTtsProof('TTS: local model-audio stream failed; text captions remain visible and browser speech is not replayed to avoid duplicate playback. ' + (message.message || ''));
       emit('ttsAudioStreamFailed', {
         requestId: message.requestId || '',
         provider: message.provider || '',

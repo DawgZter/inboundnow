@@ -10,9 +10,21 @@ const PAYROLL_PLAN = {
   answer: "Remote helps centralize global payroll, country-specific compliance, and distributed team payments.",
   actions: [
     {
-      type: "payrollFlow",
-      answer: "Remote helps centralize global payroll, country-specific compliance, and distributed team payments.",
-      source: "services/model-stubs/qwen-openai-compatible",
+      type: "showCaption",
+      text: "Remote centralizes global payroll, compliance, and distributed team payments.",
+    },
+    {
+      type: "scrollToElement",
+      target: { key: "payroll" },
+      caption: "Bringing the payroll section into view.",
+    },
+    {
+      type: "highlightElement",
+      target: { key: "payroll" },
+    },
+    {
+      type: "showBookingPrompt",
+      reason: "payroll_next_step",
     },
   ],
 };

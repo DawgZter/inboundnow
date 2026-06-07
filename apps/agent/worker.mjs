@@ -105,7 +105,7 @@ function speechStreamingEnabled() {
 
 function localTtsAudioEnabled() {
   if (["0", "false", "no", "off"].includes(String(process.env.TTS_MODEL_AUDIO || "1").trim().toLowerCase())) return false;
-  return adapters.tts?.provider === "local-vibevoice" && typeof adapters.tts.stream === "function";
+  return ["local-vibevoice", "local-miso-one"].includes(adapters.tts?.provider) && typeof adapters.tts.stream === "function";
 }
 
 function realLocalTtsModelProofEnabled() {
@@ -176,6 +176,7 @@ async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transp
       proofLevel: localTtsProofLevel(),
       label: ttsStatus.label || "",
       localVibeVoiceProven: false,
+      localMisoOneProven: false,
       voiceProfile,
       voiceSwitch: voiceSwitch || null,
       ...ttsEventPayload(event),
@@ -212,6 +213,7 @@ async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transp
           audioBase64: event.audio || event.audioBase64 || "",
           proofLevel: localTtsProofLevel(),
           localVibeVoiceProven: localTtsModelProven(enrichedEvent),
+          localMisoOneProven: adapters.tts?.provider === "local-miso-one" && localTtsModelProven(enrichedEvent),
           ...ttsEventPayload(enrichedEvent),
           voiceProfile,
         });
@@ -229,6 +231,7 @@ async function sendLocalTtsAudioStream(sendReply, { requestId, sessionId, transp
         firstAudioMs,
         proofLevel: localTtsProofLevel(),
         localVibeVoiceProven: localTtsModelProven({ ...lastEvent, chunkCount }),
+        localMisoOneProven: adapters.tts?.provider === "local-miso-one" && localTtsModelProven({ ...lastEvent, chunkCount }),
         voiceProfile,
       });
     }
@@ -277,6 +280,7 @@ async function sendSpeechStream(sendReply, { requestId, sessionId, transport, an
       fallback: modelAudioEnabled ? "text-caption-only" : "browser-speech-synthesis",
       modelAudio: modelAudioEnabled,
       localVibeVoiceProven: false,
+      localMisoOneProven: false,
       chunkCount: chunks.length,
       voiceProfile,
       voiceSwitch: voiceSwitch || null,
