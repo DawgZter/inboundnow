@@ -1,7 +1,10 @@
 import assert from "node:assert/strict";
+import { mkdtemp, readFile, rm } from "node:fs/promises";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
 import { test } from "node:test";
 import { buildLocalIndex, queryLocalIndex } from "../packages/local-retrieval/index.mjs";
-import { loadRemoteComScrapeDocuments } from "../packages/remote-com-scrape/index.mjs";
+import { loadRemoteComScrapeDocuments, writeRemoteComScrapeDocuments } from "../packages/remote-com-scrape/index.mjs";
 
 const SCRAPE_PATH = "data/remote-com/scrape-2026-06-07";
 
@@ -32,4 +35,22 @@ test("Remote scrape documents can be queried through the local retrieval artifac
   assert.ok(result.snippets.every((snippet) => snippet.metadata.source === "remote_com_scrape"));
   assert.ok(result.snippets.every((snippet) => snippet.metadata.documentChars >= snippet.text.length));
   assert.ok(result.snippets.some((snippet) => /Remote MCP|global payroll/i.test(snippet.title + " " + snippet.text)));
+});
+
+test("writeRemoteComScrapeDocuments stringifies metadata for the Moss CLI", async () => {
+  const dir = await mkdtemp(join(tmpdir(), "remote-com-moss-docs-"));
+  try {
+    const outputPath = join(dir, "docs.json");
+    await writeRemoteComScrapeDocuments(SCRAPE_PATH, outputPath, { maxDocuments: 10 });
+    const documents = JSON.parse(await readFile(outputPath, "utf8"));
+
+    assert.equal(documents.length, 10);
+    for (const document of documents) {
+      for (const value of Object.values(document.metadata || {})) {
+        assert.equal(typeof value, "string");
+      }
+    }
+  } finally {
+    await rm(dir, { recursive: true, force: true });
+  }
 });

@@ -118,6 +118,8 @@ moss index create remote-com-2026-06-07 -f artifacts/moss/remote-com-documents.j
 
 Cost estimate as of 2026-06-07, using Moss's published pricing at `https://docs.moss.dev/docs/pricing`: Moss lists 500 MB storage and 50 MB/month ingest on Developer, plus pay-as-you-go rates of $0.03/MB ingest and $1.50/GB-month storage. For the 62.5 MB exported document file, full PAYG ingest is about $1.88 and storage is about $0.10/month. If the Developer included 50 MB ingest applies first, the ingest overage is about $0.38. Plan floors still matter: Hobbyist is $30/month and Startup is $200/month if those features are needed.
 
+Latest hosted upload proof: `remote-com-2026-06-07` is Ready in Moss with index id `4536a03c-8275-4709-a5d8-768725c220a6`, `doc_count: 10842`, and model `moss-minilm`. The first one-shot create took several minutes and the index became visible shortly after; a follow-up local query for `How does Remote help with global payroll?` returned Remote payroll/global HR documents. Keep `MOSS_PROJECT_KEY` out of repo files and client-side code.
+
 ## Streamed Speech
 
 ```bash

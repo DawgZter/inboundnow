@@ -70,6 +70,19 @@ function cleanMetadata(metadata) {
   );
 }
 
+function mossCliMetadata(metadata) {
+  return Object.fromEntries(
+    Object.entries(metadata || {}).map(([key, value]) => [key, typeof value === "string" ? value : JSON.stringify(value)])
+  );
+}
+
+function mossCliDocument(document) {
+  return {
+    ...document,
+    metadata: mossCliMetadata(document.metadata),
+  };
+}
+
 function stableId(root, markdownPath) {
   return "remote-com:" + relative(join(root, "pages"), markdownPath)
     .replace(/\\/g, "/")
@@ -137,12 +150,13 @@ export async function loadRemoteComScrapeDocuments(sourcePath, options = {}) {
 
 export async function writeRemoteComScrapeDocuments(sourcePath, outputPath, options = {}) {
   const documents = await loadRemoteComScrapeDocuments(sourcePath, options);
+  const mossDocuments = documents.map(mossCliDocument);
   const absoluteOutput = resolve(process.cwd(), outputPath);
   await mkdir(dirname(absoluteOutput), { recursive: true });
-  await writeFile(absoluteOutput, JSON.stringify(documents, null, 2) + "\n");
+  await writeFile(absoluteOutput, JSON.stringify(mossDocuments, null, 2) + "\n");
   return {
     outputPath: absoluteOutput,
-    documentCount: documents.length,
-    bytes: Buffer.byteLength(JSON.stringify(documents)),
+    documentCount: mossDocuments.length,
+    bytes: Buffer.byteLength(JSON.stringify(mossDocuments)),
   };
 }

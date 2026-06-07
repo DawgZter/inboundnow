@@ -62,6 +62,12 @@
       "agent": "James (019ea258-a9c9-79a2-8695-3cba92ac0668)",
       "status": "completed",
       "result": "results/round5-local-tts-audio-proof.md"
+    },
+    {
+      "id": "round6-hosted-moss-upload",
+      "agent": "Codex",
+      "status": "completed",
+      "result": "results/round6-hosted-moss-upload.md"
     }
   ],
   "verification": {
@@ -163,6 +169,13 @@
         "command": "npm run smoke:livekit:moss-remote",
         "artifact": "artifacts/smoke/livekit-moss-remote-2026-06-07T13-29-04-783Z/result.json",
         "notes": "Bridge disabled; LiveKit agent used MOSS_PROVIDER=local-runtime-client against the Remote.com scrape local artifact and emitted answer, speech stream, and payrollFlow action."
+      },
+      {
+        "id": "hosted-moss-remote-com-upload",
+        "status": "passed",
+        "command": "moss index get remote-com-2026-06-07 && moss query remote-com-2026-06-07 'How does Remote help with global payroll?' --top-k 3",
+        "artifact": "results/round6-hosted-moss-upload.md",
+        "notes": "Hosted Moss index remote-com-2026-06-07 is Ready with id 4536a03c-8275-4709-a5d8-768725c220a6, doc_count 10842, model moss-minilm. Runtime boundary remains local-only for the MVP."
       }
     ]
   }
