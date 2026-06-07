@@ -32,6 +32,18 @@
       "agent": "Hilbert",
       "status": "completed",
       "result": "results/hilbert-e2e-verification.md"
+    },
+    {
+      "id": "round3-browser-ux-review",
+      "agent": "Archimedes (019ea220-f674-73f1-a6ae-2ccb010f2c86)",
+      "status": "completed",
+      "result": "results/round3-browser-asr-proof.md"
+    },
+    {
+      "id": "round3-livekit-asr-review",
+      "agent": "Euler (019ea220-f0c8-7102-83d0-0cdb7b6fe8d7)",
+      "status": "completed",
+      "result": "results/round3-browser-asr-proof.md"
     }
   ],
   "verification": {
@@ -61,13 +73,13 @@
         "id": "local-smoke-script",
         "status": "passed",
         "command": "npm run smoke:local",
-        "artifact": "artifacts/smoke/2026-06-07T08-24-28-096Z/result.json"
+        "artifact": "artifacts/smoke/2026-06-07T13-03-26-418Z/result.json"
       },
       {
         "id": "livekit-room-data-channel",
         "status": "passed",
         "command": "npm run smoke:livekit",
-        "artifact": "artifacts/smoke/livekit-2026-06-07T08-24-28-928Z/result.json",
+        "artifact": "artifacts/smoke/livekit-2026-06-07T13-03-32-478Z/result.json",
         "notes": "Bridge disabled; LiveKit server, browser participant, agent participant, answer, and action verified over data channel."
       },
       {
@@ -85,6 +97,19 @@
         "id": "real-asr-llm-tts-moss",
         "status": "not_proven",
         "reason": "Parakeet, local Qwen runtime, VibeVoice, and real Moss runtime are still stubs/configured boundaries only."
+      },
+      {
+        "id": "round3-browser-asr-proof",
+        "status": "in_progress",
+        "evidence": "results/round3-browser-asr-proof.md",
+        "notes": "Browser Cal gate proof passed; LiveKit media-to-ASR proof remains in progress."
+      },
+      {
+        "id": "browser-cal-gate-playwright",
+        "status": "passed",
+        "command": "npm run smoke:browser:cal-gate",
+        "artifact": "artifacts/smoke/browser-cal-gate-2026-06-07T13-03-08-522Z/result.json",
+        "notes": "Cal iframe src empty before confirmation, openCal deferred, dismissed prompt re-prompts, and Yes button loads Cal."
       }
     ]
   }

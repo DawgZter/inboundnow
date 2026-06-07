@@ -8,11 +8,14 @@ npm run smoke:adapters
 npm run smoke:planner
 npm run smoke:moss:local
 npm run smoke:tts:local
+npm run smoke:browser:cal-gate
 npm run smoke:local
 npm run smoke:livekit
 ```
 
-`smoke:local` and `smoke:livekit` write logs and `result.json` under `artifacts/smoke/`. The `artifacts/` folder is gitignored.
+`smoke:browser:cal-gate` uses Playwright Chromium. If Chromium is not installed in the local Playwright cache yet, run `npx playwright install chromium` once.
+
+`smoke:local`, `smoke:browser:cal-gate`, and `smoke:livekit` write logs and `result.json` under `artifacts/smoke/`. The `artifacts/` folder is gitignored.
 
 ## Bridge Fallback Mode
 

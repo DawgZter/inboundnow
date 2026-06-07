@@ -14,7 +14,7 @@ Status values:
 | --- | --- | --- | --- |
 | OpenClicky-Web action bus | verified | `npm test`, browser smokes, `packages/action-protocol` | Widget owns visible cursor, scroll, highlight, click, and Cal UI. |
 | Action protocol validation | verified | `test/action-protocol.test.mjs` | `payrollFlow` remains a lab macro until primitive actions replace it. |
-| Cal confirmation gate | verified | Browser smoke on bridge and LiveKit paths | Cal iframe `src` is empty before confirmation and set only after `confirmBooking`. |
+| Cal confirmation gate | verified | `npm run smoke:browser:cal-gate`, browser smoke on bridge and LiveKit paths | Cal iframe `src` is empty before confirmation and set only after explicit confirmation. A dismissed prompt re-prompts instead of counting as consent. |
 | LiveKit token/config/SDK asset | verified | `npm run smoke:local`, `npm run smoke:livekit` | Local dev JWTs only; not LiveKit Cloud. |
 | Token server security guardrails | verified | `test/token-server.test.mjs` | Loopback-only host/LiveKit URL, hostile CORS rejection, bridge disable, JWT claims/signature, and bridge payload cap. |
 | LiveKit room/data-channel control | verified | `npm run smoke:livekit`, browser LiveKit smoke with `ENABLE_SIM_BRIDGE=0` | Proves control/data messages, not ASR or TTS. |
@@ -41,15 +41,16 @@ Status values:
 
 ## Latest Evidence
 
-- `npm run smoke:local` passed at `artifacts/smoke/2026-06-07T12-42-14-123Z/result.json`, including `streamedSpeechEvents: true`.
-- `npm run smoke:livekit` passed with `bridgeDisabled: true` at `artifacts/smoke/livekit-2026-06-07T12-42-24-312Z/result.json`, including `dataChannelSpeechStream: true`.
-- `npm test` passed 46 tests, including token-server security guardrails, local retrieval artifact queries, Remote.com scrape parsing/querying, local Parakeet adapter guards, voice-input WAV encoding, speech chunking/cache/style/LoRA guardrails, voice-session routing, Miso LoRA manifest validation, local VibeVoice localhost guards, and LLM planner fallback cases.
+- `npm run check` passed on June 7, 2026, including 46 tests, adapter/planner/Moss/ASR/TTS/voice smokes, the browser Cal gate smoke, and Miso LoRA manifest validation.
+- `npm run smoke:local` passed at `artifacts/smoke/2026-06-07T13-03-26-418Z/result.json`, including `streamedSpeechEvents: true`.
+- `npm run smoke:livekit` passed with `bridgeDisabled: true` at `artifacts/smoke/livekit-2026-06-07T13-03-32-478Z/result.json`, including `dataChannelSpeechStream: true`.
 - `npm run smoke:planner` passed against a temporary local Qwen-compatible stub, proving strict planner JSON parsing and validated action dispatch without real Qwen proof.
 - `npm run smoke:moss:local` passed at `artifacts/smoke/moss-local-2026-06-07T12-42-02-687Z/result.json`, proving `provider: local-artifact`, `localOnly: true`, `simulated: false`, local runtime health, direct runtime query, and agent `local-runtime-client` query against a deterministic local artifact.
 - `npm run smoke:moss:remote` passed at `artifacts/smoke/moss-remote-2026-06-07T09-55-55-424Z/result.json`, proving a 10,842-document Remote.com scrape corpus local artifact, local runtime health, direct runtime query, and agent `local-runtime-client` query.
 - `npm run smoke:asr:local` passed at `artifacts/smoke/asr-local-2026-06-07T12-42-03-311Z/result.json`, proving `prospect.transcript.final` can drive the agent/action path and a fake localhost Parakeet-compatible endpoint can return a transcript into the same path. This is not real Parakeet model proof.
 - `npm run smoke:tts:local` passed at `artifacts/smoke/tts-streaming-2026-06-07T12-42-04-081Z/result.json`, proving the localhost streaming TTS adapter contract, prewarm call, stable cache key, `style`, `loraAdapter`, `bfloat16`, and `llm-int8` LLM-only quantization metadata against a fake local endpoint only.
 - `npm run smoke:voice:switching` passed at `artifacts/smoke/voice-switching-2026-06-07T12-42-04-503Z/result.json`, proving a per-session switch to `warm`, streamed speech voice metadata, and warm-profile persistence on the next bridge turn.
+- `npm run smoke:browser:cal-gate` passed at `artifacts/smoke/browser-cal-gate-2026-06-07T13-03-08-522Z/result.json`, proving the injected browser widget keeps the Cal iframe `src` empty on load, blocks direct `confirmBooking`, defers `openCal`, re-prompts after a dismissed prompt, and loads Cal only after clicking `Yes, open Cal`.
 - `npm run miso:lora:validate` passed at `artifacts/miso-lora/validation/miso-one-lora-dev.validation.json`, proving the checked-in Miso One LoRA manifest satisfies local-only consent and path guardrails.
 - Browser planner smoke passed on June 7, 2026 with `AGENT_PLANNER=local-llm`, local Qwen-compatible stub, and bridge disabled: the proof line showed `Planner local-llm-json via qwen-openai-local`, booking prompt opened, and Cal stayed unloaded before confirmation.
 - Browser LiveKit smoke passed on June 7, 2026: `Connect local transport` joined local LiveKit with `ENABLE_SIM_BRIDGE=0`, `Ask agent` received a LiveKit `agent.action`, the page scrolled/highlighted, Cal stayed unloaded before confirmation, and Cal opened after confirmation.

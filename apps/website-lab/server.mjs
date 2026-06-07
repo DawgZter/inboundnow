@@ -8,6 +8,12 @@ const DEFAULT_TARGET = "https://remote.com/";
 const CAL_EMBED_URL = process.env.CAL_URL || "https://cal.com/remote";
 const TOKEN_SERVER_URL = process.env.TOKEN_SERVER_URL || "http://127.0.0.1:4301";
 const LIVEKIT_ROOM = process.env.LIVEKIT_ROOM || "inboundnow-local";
+const OPENCLICKY_INJECT_HOSTS = new Set(
+  (process.env.OPENCLICKY_INJECT_HOSTS || "")
+    .split(",")
+    .map((host) => host.trim().toLowerCase())
+    .filter(Boolean),
+);
 
 const CLICKY_CURSOR_PATH = "/__ocw-assets/clicky-cursor.svg";
 const CLICKY_CURSOR_IMAGE = new URL("./assets/clicky-cursor.svg", import.meta.url);
@@ -149,8 +155,12 @@ function injectedHelper(baseUrl) {
     "      return raw;",
     "    }",
     "  }",
+    "  function isOpenClickyNode(node) {",
+    "    return Boolean(node && node.nodeType === 1 && (node.id === 'ocw-root' || (node.closest && node.closest('#ocw-root'))));",
+    "  }",
     "  function rewriteNode(node) {",
     "    if (!node || node.nodeType !== 1) return;",
+    "    if (isOpenClickyNode(node)) return;",
     "    const attrs = ['href', 'src', 'action', 'poster', 'data-src', 'data-href', 'data-media-src', 'data-lottie'];",
     "    for (const attr of attrs) {",
     "      if (node.hasAttribute(attr)) node.setAttribute(attr, toProxy(node.getAttribute(attr)));",
@@ -177,12 +187,14 @@ function injectedHelper(baseUrl) {
     "    }",
     "  }",
     "  function rewriteTree(root) {",
+    "    if (isOpenClickyNode(root)) return;",
     "    rewriteNode(root);",
     "    if (root.querySelectorAll) root.querySelectorAll('[href], [src], [action], [poster], [srcset], [data-src], [data-href], [data-media-src], [data-lottie]').forEach(rewriteNode);",
     "  }",
     "  document.addEventListener('click', (event) => {",
     "    const anchor = event.target.closest && event.target.closest('a[href]');",
     "    if (!anchor) return;",
+    "    if (anchor.closest && anchor.closest('#ocw-root')) return;",
     "    const next = toProxy(anchor.getAttribute('href'));",
     "    if (next && next !== anchor.getAttribute('href')) {",
     "      anchor.setAttribute('href', next);",
@@ -678,7 +690,7 @@ function injectedOpenClickyWeb() {
       if (value && typeof value === 'object') {
         return Object.assign({}, browserVoiceProfiles[value.id] || activeVoiceProfile, value);
       }
-      var key = normalized(value || '').replace(/\s+/g, '_');
+      var key = normalized(value || '').replace(/\\s+/g, '_');
       var aliases = {
         normal: 'default',
         reset: 'default',
@@ -706,15 +718,15 @@ function injectedOpenClickyWeb() {
     function detectBrowserVoiceSwitchIntent(text) {
       var value = normalized(text);
       if (!value) return null;
-      var voiceMentioned = /\b(voice|tone|sound|speak|speaker|miso|lora)\b/.test(value);
-      var switchMentioned = /\b(switch|change|use|make|set|sound|speak|talk|be)\b/.test(value);
+      var voiceMentioned = /\\b(voice|tone|sound|speak|speaker|miso|lora)\\b/.test(value);
+      var switchMentioned = /\\b(switch|change|use|make|set|sound|speak|talk|be)\\b/.test(value);
       if (!voiceMentioned || !switchMentioned) return null;
       var choices = [
-        ['miso_lora_dev', /\b(miso|miso one|misotts|lora)\b/],
-        ['warm', /\b(warm|warmer|friendly|softer)\b/],
-        ['calm', /\b(calm|calmer|slow|slower|deep|deeper)\b/],
-        ['bright', /\b(bright|brighter|upbeat|energetic|excited)\b/],
-        ['default', /\b(default|normal|reset|carter)\b/]
+        ['miso_lora_dev', /\\b(miso|miso one|misotts|lora)\\b/],
+        ['warm', /\\b(warm|warmer|friendly|softer)\\b/],
+        ['calm', /\\b(calm|calmer|slow|slower|deep|deeper)\\b/],
+        ['bright', /\\b(bright|brighter|upbeat|energetic|excited)\\b/],
+        ['default', /\\b(default|normal|reset|carter)\\b/]
       ];
       for (var i = 0; i < choices.length; i += 1) {
         if (choices[i][1].test(value)) {
@@ -848,7 +860,7 @@ function injectedOpenClickyWeb() {
     }
 
     function splitBrowserSpeechText(text) {
-      var value = String(text || '').replace(/\s+/g, ' ').trim();
+      var value = String(text || '').replace(/\\s+/g, ' ').trim();
       if (!value) return [];
       var parts = value.match(/[^.!?;:]+[.!?;:]?/g) || [value];
       var chunks = [];
@@ -1555,11 +1567,11 @@ function injectedOpenClickyWeb() {
     }
 
     function normalized(value) {
-      return String(value || '').replace(/\s+/g, ' ').trim().toLowerCase();
+      return String(value || '').replace(/\\s+/g, ' ').trim().toLowerCase();
     }
 
     function compactText(value, maxLength) {
-      var text = String(value || '').replace(/\s+/g, ' ').trim();
+      var text = String(value || '').replace(/\\s+/g, ' ').trim();
       var max = maxLength || 180;
       return text.length > max ? text.slice(0, max - 1) + '...' : text;
     }
@@ -2009,6 +2021,17 @@ function injectedOpenClickyWeb() {
       throw new Error('Unknown action type: ' + action.type);
     }
 
+    function isBookingConfirmationCommand(key) {
+      return key === 'yes' ||
+        key === 'yes please' ||
+        key === 'sure' ||
+        key === 'book it' ||
+        key === 'open cal' ||
+        key === 'open calendar' ||
+        key === 'confirm' ||
+        key === 'confirm booking';
+    }
+
     async function runAction(action) {
       var key = normalized(action);
       var voiceSwitch = detectBrowserVoiceSwitchIntent(action);
@@ -2074,7 +2097,13 @@ function injectedOpenClickyWeb() {
         return;
       }
 
-      if ((bookingState === 'prompt_shown' || bookingState === 'dismissed') && /^(yes|yes please|sure|book it|open cal|open calendar|confirm|confirm booking)$/.test(key)) {
+      if (bookingState === 'dismissed' && isBookingConfirmationCommand(key)) {
+        showBookingPrompt();
+        setStatus('Please confirm again before opening Cal.com.');
+        return;
+      }
+
+      if (bookingState === 'prompt_shown' && isBookingConfirmationCommand(key)) {
         bookingState = 'confirmed';
         try { sendAgentMessage({ type: 'booking.confirmed', state: bookingState }); } catch (e) {}
         openScheduler();
@@ -2095,7 +2124,7 @@ function injectedOpenClickyWeb() {
         return;
       }
 
-      if (key === 'dismissbookingprompt') {
+      if (action === 'dismissBookingPrompt' || key === 'dismissbookingprompt') {
         dismissBookingPrompt();
         try { sendAgentMessage({ type: 'booking.dismissed', state: bookingState }); } catch (e) {}
         return;
@@ -2172,6 +2201,7 @@ function injectedOpenClickyWeb() {
         return;
       }
 
+      emit('unknownAction', { action: String(action || ''), key: key, bookingState: bookingState });
       setStatus('Unknown action: ' + action);
       showCaption('Try: tour, payroll, pricing, country, click demo, open cal', current.x, current.y);
     }
@@ -2267,6 +2297,16 @@ function injectedOpenClickyWeb() {
           selectedBrowserVoice: cachedSpeechVoice && cachedSpeechVoice.name || ''
         });
       },
+      debugState: function(){
+        return {
+          bookingState: bookingState,
+          transportMode: transportMode,
+          liveKitReady: liveKitReady,
+          bridgeReady: bridgeReady,
+          activeVoiceTurnRequestId: activeVoiceTurnRequestId,
+          actionGeneration: actionGeneration
+        };
+      },
       run: enqueue
     };
     window.OpenClickyWebMVP = window.OpenClickyWeb;
@@ -2348,7 +2388,8 @@ function rewriteScript(script, baseUrl) {
 }
 
 function shouldInjectOpenClicky(baseUrl) {
-  return baseUrl.hostname === "remote.com" || baseUrl.hostname.endsWith(".remote.com");
+  const hostname = baseUrl.hostname.toLowerCase();
+  return hostname === "remote.com" || hostname.endsWith(".remote.com") || OPENCLICKY_INJECT_HOSTS.has(hostname);
 }
 
 function rewriteLocalReferrer(value, targetUrl) {
