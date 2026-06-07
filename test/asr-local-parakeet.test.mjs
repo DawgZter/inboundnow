@@ -62,6 +62,16 @@ test("local Parakeet adapter posts audio to localhost and normalizes transcript 
         confidence: 0.93,
         final: true,
         simulated: body.requestId === "asr_simulated",
+        localOnly: true,
+        source: "fresh-model",
+        inputAudioSha256: "b".repeat(64),
+        audioBytes: 3244,
+        durationMs: 1000,
+        sampleRate: body.sampleRate,
+        channels: 1,
+        transcribeMs: 42,
+        device: "cuda",
+        gpuName: "NVIDIA H100 80GB HBM3",
       }));
       return;
     }
@@ -99,6 +109,16 @@ test("local Parakeet adapter posts audio to localhost and normalizes transcript 
     assert.match(result.transcript, /global payroll/i);
     assert.equal(result.language, "en");
     assert.equal(result.confidence, 0.93);
+    assert.equal(result.localOnly, true);
+    assert.equal(result.source, "fresh-model");
+    assert.equal(result.inputAudioSha256, "b".repeat(64));
+    assert.equal(result.audioBytes, 3244);
+    assert.equal(result.durationMs, 1000);
+    assert.equal(result.sampleRate, 16000);
+    assert.equal(result.channels, 1);
+    assert.equal(result.transcribeMs, 42);
+    assert.equal(result.device, "cuda");
+    assert.equal(result.gpuName, "NVIDIA H100 80GB HBM3");
     assert.equal(seen.length, 1);
     assert.equal(seen[0].requestId, "asr_test");
     assert.equal(seen[0].sampleRate, 16000);

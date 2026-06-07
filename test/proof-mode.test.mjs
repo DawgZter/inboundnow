@@ -140,6 +140,12 @@ test("proof mode accepts local Parakeet audio-turn ASR metadata", () => {
     proof: "configured",
     source: "livekit-audio-turn",
     model: "nvidia/parakeet-tdt-0.6b-v3",
+    localOnly: true,
+    inputAudioSha256: "a".repeat(64),
+    audioBytes: 32000,
+    durationMs: 1000,
+    device: "cuda",
+    gpuName: "NVIDIA H100 80GB HBM3",
   }, { env: proofEnv }));
 });
 

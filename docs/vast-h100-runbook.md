@@ -202,26 +202,16 @@ From your laptop, with the SSH tunnel open, visit:
 
     http://127.0.0.1:4199/direct
 
-Click Connect local transport, then Ask agent.
+Click Start AI Persona, grant microphone access when prompted, then speak naturally.
 
 ## Capture Evidence
 
 On the instance:
 
     npm run check
-    npm run smoke:planner
-    npm run smoke:moss:local
-    npm run smoke:asr:local
-    npm run smoke:tts:local
-    npm run smoke:livekit
-    mkdir -p artifacts/smoke
-    node scripts/vast-h100/smoke-qwen-endpoint.mjs | tee artifacts/smoke/qwen-h100.json
-    ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav npm run smoke:asr:h100
-    npm run smoke:tts:miso-one
-    ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav npm run smoke:h100:persona
-    BROWSER_MIC_AUDIO_PATH=/path/to/known-transcript.wav ASR_EXPECTED_PATTERN="Remote|payroll|global" npm run smoke:h100:browser-persona
+    ASR_SMOKE_AUDIO_PATH=/path/to/known-transcript.wav BROWSER_MIC_AUDIO_PATH=/path/to/known-transcript.wav ASR_EXPECTED_PATTERN="Remote|payroll|global" npm run smoke:h100:proof-suite
 
-`smoke:h100:persona` proves the model-chain from an audio file through local ASR/Moss/Qwen/TTS without opening a browser. `smoke:h100:browser-persona` is the executable click-to-start browser harness: it opens the lab, clicks the visible Start AI Persona control, requires LiveKit plus a published mic, publishes browser media through local LiveKit, rejects bridge fallback/stubs, asserts local Parakeet/Qwen/Moss/Miso metadata, checks primitive browser actions, saves `result.json`, logs, and a final screenshot. With `BROWSER_MIC_AUDIO_PATH`, it is still an automated browser media-fixture proof, not a human manual microphone proof. Use `REQUIRE_MANUAL_MIC=1 HEADLESS=0` when capturing a manual speaking artifact.
+The proof suite writes `artifacts/smoke/h100-proof-suite-<timestamp>/manifest.json` and fails unless the Remote.com local Moss artifact, local Qwen endpoint, local Parakeet endpoint, local Miso endpoint, model-chain smoke, and browser persona smoke all produce durable `result.json` evidence. The browser persona smoke clicks the visible Start AI Persona control, requires LiveKit plus a published mic, rejects bridge fallback/stubs, asserts worker buffered-audio proof matches the ASR endpoint audio hash, checks primitive browser actions, saves `events.json`, `worker-audio-proof.json`, `asr-proof.json`, `result.json`, logs, and a final screenshot. With `BROWSER_MIC_AUDIO_PATH`, it is still automated browser media-fixture proof, not a human manual microphone proof. Use `REQUIRE_MANUAL_MIC=1 HEADLESS=0` when capturing a manual speaking artifact.
 
 Browser proof to capture manually after the automated harness:
 

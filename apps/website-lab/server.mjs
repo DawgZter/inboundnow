@@ -1884,6 +1884,27 @@ function injectedOpenClickyWeb() {
         return;
       }
 
+      if (message.type === 'agent.asr.media') {
+        emit('asrMediaReceived', {
+          requestId: message.requestId || '',
+          phase: message.phase || '',
+          sessionId: message.sessionId || '',
+          participantIdentity: message.participantIdentity || '',
+          trackSid: message.trackSid || '',
+          trackSource: message.trackSource || '',
+          trackKind: message.trackKind || '',
+          frameCount: Number(message.frameCount || 0),
+          pcmBytes: Number(message.pcmBytes || 0),
+          audioBytes: Number(message.audioBytes || 0),
+          durationMs: Number(message.durationMs || 0),
+          sampleRate: Number(message.sampleRate || 0),
+          channels: Number(message.channels || 0),
+          audioSha256: message.audioSha256 || '',
+          firstFrameMs: message.firstFrameMs ?? null
+        });
+        return;
+      }
+
       if (message.type === 'agent.asr.final') {
         setAsrState(message.simulated ? 'stub' : 'final', message.simulated ? 'transcript fallback' : 'final transcript');
         if (message.transcript) updateTranscript('Heard: ' + message.transcript, message.simulated ? 'simulated' : 'prospect');
@@ -1897,6 +1918,16 @@ function injectedOpenClickyWeb() {
           transcript: message.transcript || '',
           confidence: message.confidence ?? null,
           simulated: !!message.simulated,
+          localOnly: message.localOnly === true,
+          inputAudioSha256: message.inputAudioSha256 || '',
+          audioBytes: Number(message.audioBytes || 0),
+          durationMs: Number(message.durationMs || 0),
+          sampleRate: Number(message.sampleRate || 0),
+          channels: Number(message.channels || 0),
+          transcribeMs: Number(message.transcribeMs || 0),
+          device: message.device || '',
+          gpuName: message.gpuName || '',
+          audioProof: message.audioProof || null,
           chars: String(message.transcript || '').length
         });
         return;

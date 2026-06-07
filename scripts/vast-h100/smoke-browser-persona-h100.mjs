@@ -374,13 +374,36 @@ try {
   const transcriptText = answered.transcript.map((turn) => turn.text).join("\n");
   assert.match(transcriptText, expectedTranscriptPattern, "transcript should include expected utterance content");
   assert.equal(hasEvent(answered, "asrStatusReceived", (detail) => ["no_audio", "empty_transcript"].includes(detail.status)), false, "H100 browser proof must not use no-audio or empty transcript fallback");
-  assert.equal(hasEvent(answered, "asrFinalReceived", (detail) => (
+  const trackProof = eventOf(answered, "asrMediaReceived", (detail) => detail.phase === "track_subscribed");
+  assert.ok(trackProof, "worker must report LiveKit audio track subscription");
+  assert.ok(trackProof.detail.participantIdentity, "audio track proof must include participant identity");
+  assert.ok(trackProof.detail.trackSid || trackProof.detail.trackSource || trackProof.detail.trackKind, "audio track proof must include track metadata");
+  const mediaProof = eventOf(answered, "asrMediaReceived", (detail) => (
+    detail.phase === "turn_stopped" &&
+    Number(detail.frameCount || 0) > 0 &&
+    Number(detail.pcmBytes || 0) > 0 &&
+    Number(detail.audioBytes || 0) > 0 &&
+    Number(detail.durationMs || 0) > 0 &&
+    Boolean(detail.audioSha256)
+  ));
+  assert.ok(mediaProof, "worker must report non-empty buffered audio proof for the stopped turn");
+  const asrFinal = eventOf(answered, "asrFinalReceived", (detail) => (
     detail.provider === "local-parakeet" &&
     detail.simulated === false &&
+    detail.localOnly === true &&
     detail.source === "livekit-audio-turn" &&
     /parakeet/i.test(detail.model || "") &&
-    expectedTranscriptPattern.test(detail.transcript || "")
-  )), true, "ASR final must come from browser LiveKit audio through real local Parakeet");
+    expectedTranscriptPattern.test(detail.transcript || "") &&
+    Boolean(detail.inputAudioSha256) &&
+    Number(detail.audioBytes || 0) > 0 &&
+    Number(detail.durationMs || 0) > 0 &&
+    /cuda/i.test(String(detail.device || "")) &&
+    /h100/i.test(String(detail.gpuName || ""))
+  ));
+  assert.ok(asrFinal, "ASR final must come from browser LiveKit audio through real local Parakeet with endpoint provenance");
+  assert.equal(asrFinal.detail.inputAudioSha256, mediaProof.detail.audioSha256, "ASR endpoint must transcribe the same WAV bytes buffered by the worker");
+  assert.equal(Number(asrFinal.detail.audioBytes), Number(mediaProof.detail.audioBytes), "ASR endpoint audio byte count must match worker WAV proof");
+  assert.equal(asrFinal.detail.audioProof?.audioSha256 || "", mediaProof.detail.audioSha256, "ASR final must carry worker audio proof");
   assertNoStubProof(answered);
   assert.equal(hasEvent(answered, "speechStreamStarted", (detail) => detail.provider === "local-miso-one" && detail.modelAudio === true), true, "speech stream must be model-audio mode");
   assert.equal(hasEvent(answered, "speechStreamStarted", (detail) => detail.provider === "browser-speech-fallback"), false, "browser speech fallback cannot satisfy H100 proof");
@@ -410,6 +433,12 @@ try {
   assert.ok(calConfirmed.cal.frameSrc, "Cal iframe should load only after explicit confirmation");
   const screenshotPath = join(artifactDir, "final.png");
   await page.screenshot({ path: screenshotPath, fullPage: true });
+  const eventsPath = join(artifactDir, "events.json");
+  const workerAudioProofPath = join(artifactDir, "worker-audio-proof.json");
+  const asrProofPath = join(artifactDir, "asr-proof.json");
+  await writeFile(eventsPath, JSON.stringify(answered.events, null, 2));
+  await writeFile(workerAudioProofPath, JSON.stringify(mediaProof.detail, null, 2));
+  await writeFile(asrProofPath, JSON.stringify(asrFinal.detail, null, 2));
 
   const summary = {
     ok: true,
@@ -424,6 +453,9 @@ try {
     proxiedUrl: proxiedTargetUrl(),
     micAudioPath: requireManualMic ? "manual" : resolve(micAudioPath),
     screenshotPath,
+    eventsPath,
+    workerAudioProofPath,
+    asrProofPath,
     services: {
       token: tokenHealth,
       moss: mossHealth,
@@ -436,6 +468,9 @@ try {
       bridgeDisabled: true,
       liveKitConnected: true,
       micPublished: requireManualMic ? "manual" : true,
+      workerAudioTrackSubscribed: true,
+      workerBufferedAudioProof: true,
+      asrEndpointMatchedWorkerAudioHash: true,
       asrFinalLocalParakeet: true,
       qwenPlannerNoFallback: true,
       localMossRuntimeRetrieval: true,

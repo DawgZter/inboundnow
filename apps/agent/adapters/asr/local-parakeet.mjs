@@ -27,10 +27,19 @@ function normalizeTranscription(payload = {}, fallbackProvider = "local-parakeet
     simulated: payload.simulated === true,
     provider: payload.provider || fallbackProvider,
     model: payload.model || DEFAULT_MODEL,
+    localOnly: payload.localOnly === true,
     language: payload.language || payload.lang || "en",
     confidence: Number.isFinite(Number(payload.confidence)) ? Number(payload.confidence) : null,
     timestamps: payload.timestamps || null,
     durationMs: Number.isFinite(Number(payload.durationMs)) ? Number(payload.durationMs) : null,
+    source: payload.source || "",
+    inputAudioSha256: payload.inputAudioSha256 || "",
+    audioBytes: Number.isFinite(Number(payload.audioBytes)) ? Number(payload.audioBytes) : null,
+    sampleRate: Number.isFinite(Number(payload.sampleRate)) ? Number(payload.sampleRate) : null,
+    channels: Number.isFinite(Number(payload.channels)) ? Number(payload.channels) : null,
+    transcribeMs: Number.isFinite(Number(payload.transcribeMs)) ? Number(payload.transcribeMs) : null,
+    device: payload.device || "",
+    gpuName: payload.gpuName || "",
   };
 }
 

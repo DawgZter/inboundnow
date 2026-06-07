@@ -27,7 +27,13 @@ if [[ "$PROOF_MODE" == "1" ]]; then
 fi
 
 echo "Building local Moss retrieval artifact..."
-npm run moss:index
+if [[ "$PROOF_MODE" == "1" ]]; then
+  npm run moss:index:remote
+  MOSS_INDEX_PATH_NAME=${MOSS_INDEX_PATH:-artifacts/moss/remote-com-local-index.json}
+else
+  npm run moss:index
+  MOSS_INDEX_PATH_NAME=${MOSS_INDEX_PATH:-artifacts/moss/local-index.json}
+fi
 
 if [[ "${ENABLE_TTS_RUNTIME:-0}" == "1" ]]; then
   if [[ "$TTS_RUNTIME" == "miso-one" ]]; then
@@ -57,7 +63,7 @@ tmux has-session -t "$SESSION" 2>/dev/null && {
 
 tmux new-session -d -s "$SESSION" -n livekit "cd '$ROOT_DIR' && livekit-server --dev"
 tmux new-window -t "$SESSION" -n token "cd '$ROOT_DIR' && TOKEN_SERVER_PORT=$TOKEN_PORT TOKEN_SERVER_HOST=127.0.0.1 LIVEKIT_URL=ws://127.0.0.1:7880 ENABLE_SIM_BRIDGE=0 npm run dev:token"
-tmux new-window -t "$SESSION" -n moss "cd '$ROOT_DIR' && MOSS_RUNTIME_PORT=$MOSS_PORT MOSS_RUNTIME_PROVIDER=local-artifact npm run dev:moss-runtime"
+tmux new-window -t "$SESSION" -n moss "cd '$ROOT_DIR' && MOSS_RUNTIME_PORT=$MOSS_PORT MOSS_RUNTIME_PROVIDER=local-artifact MOSS_INDEX_PATH=$MOSS_INDEX_PATH_NAME npm run dev:moss-runtime"
 if [[ "${ENABLE_LLM_RUNTIME:-0}" == "1" ]]; then
   tmux new-window -t "$SESSION" -n qwen "cd '$ROOT_DIR' && LLM_PORT=$LLM_PORT LLM_MODEL=$LLM_MODEL LLM_SERVED_MODEL_NAME=$LLM_MODEL_NAME LLM_MAX_MODEL_LEN=${LLM_MAX_MODEL_LEN:-8192} LLM_GPU_MEMORY_UTILIZATION=${LLM_GPU_MEMORY_UTILIZATION:-0.72} LLM_DTYPE=${LLM_DTYPE:-auto} LLM_QUANTIZATION=${LLM_QUANTIZATION:-} scripts/vast-h100/start-qwen-vllm.sh"
 fi

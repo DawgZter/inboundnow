@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 import { AudioStream, Room, RoomEvent, TrackKind, TrackSource, dispose } from "@livekit/rtc-node";
+import { createHash } from "node:crypto";
 import WebSocket from "ws";
 import { ActionProtocolError, prepareActionsForDispatch } from "../../packages/action-protocol/index.mjs";
 import { splitSpeechText } from "../../packages/speech-streaming/index.mjs";
@@ -35,6 +36,7 @@ let speechGeneration = 0;
 const defaultVoiceProfile = resolveVoiceProfile(process.env.TTS_VOICE_PROFILE || "default");
 const sessionVoiceProfiles = new Map();
 const activeAsrTurns = new Map();
+const participantAudioTracks = new Map();
 let ttsPrewarmPromise = null;
 const ASR_SAMPLE_RATE = Number(process.env.ASR_SAMPLE_RATE || process.env.PARAKEET_SAMPLE_RATE || 16000);
 const ASR_CHANNELS = Number(process.env.ASR_CHANNELS || 1);
@@ -580,11 +582,58 @@ async function sendAsrStatus(sendReply, message, context, status, detail = {}) {
   });
 }
 
+function audioProofForTurn(turn = {}, audioBuffer = null) {
+  const pcmBytes = (turn.chunks || []).reduce((total, chunk) => total + chunk.length, 0);
+  const durationMs = turn.durationMs || Math.round((turn.frameCount || 0) * 20) || null;
+  const proof = {
+    requestId: turn.requestId || "",
+    sessionId: turn.sessionId || "",
+    participantIdentity: turn.participantIdentity || turn.sessionId || "",
+    trackSid: turn.trackSid || "",
+    trackSource: turn.trackSource || "",
+    frameCount: turn.frameCount || 0,
+    pcmBytes,
+    durationMs,
+    sampleRate: turn.sampleRate || ASR_SAMPLE_RATE,
+    channels: turn.channels || ASR_CHANNELS,
+    firstFrameMs: turn.firstFrameAt && turn.startedAt ? Math.max(0, turn.firstFrameAt - turn.startedAt) : null,
+  };
+  if (audioBuffer) {
+    proof.audioSha256 = createHash("sha256").update(audioBuffer).digest("hex");
+    proof.audioBytes = audioBuffer.length;
+  }
+  return proof;
+}
+
+function audioTrackMetadata(track, publication, participant) {
+  const source = String(publication?.source || track?.source || "");
+  return {
+    sessionId: participant?.identity || "",
+    participantIdentity: participant?.identity || "",
+    trackSid: publication?.sid || publication?.trackSid || track?.sid || "",
+    trackSource: source,
+    trackKind: String(publication?.kind || track?.kind || ""),
+  };
+}
+
+async function sendAsrMedia(sendReply, message, context, phase, detail = {}) {
+  const sessionId = detail.sessionId || voiceSessionKey(message, context);
+  await sendReply({
+    type: "agent.asr.media",
+    requestId: detail.requestId || message.id || message.requestId || "",
+    sessionId,
+    transport: messageTransport(message),
+    phase,
+    ...detail,
+  });
+}
+
 async function handleFinalTranscript(sendReply, message, context = {}, transcriptResult = {}) {
   const transcript = String(transcriptResult.transcript || message.transcript || message.text || message.question || "").trim();
   const requestId = message.id || message.requestId || "";
   const sessionId = voiceSessionKey(message, context);
   const transport = messageTransport(message);
+  const audioProof = transcriptResult.audioProof || message.audioProof || null;
 
   if (!transcript) {
     await sendAsrStatus(sendReply, message, context, "empty_transcript", {
@@ -606,6 +655,16 @@ async function handleFinalTranscript(sendReply, message, context = {}, transcrip
     simulated: transcriptResult.simulated ?? message.simulated ?? true,
     proof: transcriptResult.proof || "transcript-message",
     source: message.source || transcriptResult.source || "browser-transcript",
+    localOnly: transcriptResult.localOnly === true,
+    inputAudioSha256: transcriptResult.inputAudioSha256 || "",
+    audioBytes: transcriptResult.audioBytes ?? null,
+    durationMs: transcriptResult.durationMs ?? null,
+    sampleRate: transcriptResult.sampleRate ?? null,
+    channels: transcriptResult.channels ?? null,
+    transcribeMs: transcriptResult.transcribeMs ?? null,
+    device: transcriptResult.device || "",
+    gpuName: transcriptResult.gpuName || "",
+    audioProof,
   });
 
   await handleQuestion(sendReply, {
@@ -624,6 +683,16 @@ async function handleFinalTranscript(sendReply, message, context = {}, transcrip
       simulated: transcriptResult.simulated ?? message.simulated ?? true,
       source: message.source || transcriptResult.source || "browser-transcript",
       transcript,
+      localOnly: transcriptResult.localOnly === true,
+      inputAudioSha256: transcriptResult.inputAudioSha256 || "",
+      audioBytes: transcriptResult.audioBytes ?? null,
+      durationMs: transcriptResult.durationMs ?? null,
+      sampleRate: transcriptResult.sampleRate ?? null,
+      channels: transcriptResult.channels ?? null,
+      transcribeMs: transcriptResult.transcribeMs ?? null,
+      device: transcriptResult.device || "",
+      gpuName: transcriptResult.gpuName || "",
+      audioProof,
     },
   }, context);
 }
@@ -655,6 +724,10 @@ async function transcribeAudioTurn(sendReply, message, context = {}, audioInput 
       proof: adapterStatusMap(adapters).asr?.proof || "configured",
       simulated: result.simulated === true ? true : false,
       source: message.source || "local-audio-turn",
+      durationMs: result.durationMs ?? audioInput.durationMs ?? null,
+      sampleRate: result.sampleRate ?? audioInput.sampleRate ?? null,
+      channels: result.channels ?? audioInput.channels ?? null,
+      audioProof: audioInput.audioProof || message.audioProof || null,
     });
   } catch (error) {
     await sendReply({
@@ -684,6 +757,14 @@ async function stopAsrTurn(sendReply, message, context = {}) {
     sampleRate: turn.sampleRate || ASR_SAMPLE_RATE,
     channels: turn.channels || ASR_CHANNELS,
   });
+  const audioBuffer = Buffer.from(audioBase64, "base64");
+  const durationMs = wavDurationMs(audioBuffer, {
+    sampleRate: turn.sampleRate || ASR_SAMPLE_RATE,
+    channels: turn.channels || ASR_CHANNELS,
+  });
+  turn.durationMs = durationMs;
+  const audioProof = audioProofForTurn(turn, audioBuffer);
+  await sendAsrMedia(sendReply, message, context, "turn_stopped", audioProof);
   await transcribeAudioTurn(sendReply, {
     ...message,
     id: message.id || turn.requestId,
@@ -693,22 +774,27 @@ async function stopAsrTurn(sendReply, message, context = {}) {
     audioBase64,
     mimeType: "audio/wav",
     sampleRate: turn.sampleRate || ASR_SAMPLE_RATE,
-    durationMs: wavDurationMs(Buffer.from(audioBase64, "base64"), {
-      sampleRate: turn.sampleRate || ASR_SAMPLE_RATE,
-      channels: turn.channels || ASR_CHANNELS,
-    }),
+    durationMs,
+    audioProof,
   });
 }
 
 function startAsrTurn(sendReply, message, context = {}) {
   const sessionId = voiceSessionKey(message, context);
   const requestId = message.id || message.requestId || "asr_" + Math.random().toString(36).slice(2, 10);
+  const trackMeta = participantAudioTracks.get(sessionId) || {};
   activeAsrTurns.set(sessionId, {
     requestId,
+    sessionId,
+    participantIdentity: context.senderIdentity || trackMeta.participantIdentity || sessionId,
+    trackSid: context.trackSid || trackMeta.trackSid || "",
+    trackSource: context.trackSource || trackMeta.trackSource || "",
     chunks: [],
+    frameCount: 0,
     sampleRate: ASR_SAMPLE_RATE,
     channels: ASR_CHANNELS,
     startedAt: Date.now(),
+    firstFrameAt: 0,
   });
   sendAsrStatus(sendReply, { ...message, id: requestId, sessionId }, context, "listening", {
     message: "Voice turn started; buffering LiveKit mic frames when available.",
@@ -727,10 +813,13 @@ function bufferAudioFrame(sessionId, frame) {
   turn.sampleRate = frame.sampleRate || turn.sampleRate || ASR_SAMPLE_RATE;
   turn.channels = frame.channels || turn.channels || ASR_CHANNELS;
   turn.chunks.push(chunk);
+  turn.frameCount = (turn.frameCount || 0) + 1;
+  if (!turn.firstFrameAt) turn.firstFrameAt = Date.now();
 }
 
-function attachLiveKitAudioTrack(track, participant) {
+function attachLiveKitAudioTrack(track, participant, metadata = {}) {
   const participantIdentity = participant?.identity || "default";
+  if (metadata.trackSid || metadata.trackSource) participantAudioTracks.set(participantIdentity, metadata);
   const stream = new AudioStream(track, {
     sampleRate: ASR_SAMPLE_RATE,
     numChannels: ASR_CHANNELS,
@@ -747,6 +836,7 @@ function attachLiveKitAudioTrack(track, participant) {
       console.error("LiveKit audio stream failed:", participantIdentity, error.message);
     } finally {
       try { reader.releaseLock(); } catch {}
+      participantAudioTracks.delete(participantIdentity);
     }
   })();
 }
@@ -921,16 +1011,28 @@ async function connectLiveKit() {
   room.on(RoomEvent.DataReceived, (payload, participant, kind, topic) => {
     if (topic && topic !== CONTROL_TOPIC) return;
     const decoded = decoder.decode(payload);
+    const senderIdentity = participant?.identity || "";
+    const audioMeta = participantAudioTracks.get(senderIdentity) || {};
     handleControlMessage((reply) => publish(reply, participant), decoded, {
       transport: "livekit",
-      senderIdentity: participant?.identity || "",
+      senderIdentity,
+      ...audioMeta,
     });
   });
 
   room.on(RoomEvent.TrackSubscribed, (track, publication, participant) => {
     console.log("livekit.trackSubscribed", participant?.identity || "", publication?.source || track?.kind || "");
     if (isLiveKitAudioPublication(track, publication)) {
-      attachLiveKitAudioTrack(track, participant);
+      const metadata = audioTrackMetadata(track, publication, participant);
+      participantAudioTracks.set(metadata.participantIdentity || "default", metadata);
+      publish({
+        type: "agent.asr.media",
+        phase: "track_subscribed",
+        requestId: "",
+        transport: "livekit",
+        ...metadata,
+      }, participant).catch(() => {});
+      attachLiveKitAudioTrack(track, participant, metadata);
     }
   });
 

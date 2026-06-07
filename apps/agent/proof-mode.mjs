@@ -85,6 +85,14 @@ export function assertProofModeAsr(asr, { env = process.env } = {}) {
       errors.push("proof mode ASR requires livekit-audio-turn or local-audio-turn source");
     }
     if (["stub", "transcript-message"].includes(asr.proof || "")) errors.push("proof mode ASR cannot use stub/transcript proof");
+    if (h100ProofModeEnabled(env)) {
+      if (asr.localOnly !== true) errors.push("H100 proof mode ASR requires endpoint localOnly=true");
+      if (!asr.inputAudioSha256) errors.push("H100 proof mode ASR requires inputAudioSha256");
+      if (Number(asr.audioBytes || 0) <= 0) errors.push("H100 proof mode ASR requires positive audioBytes");
+      if (Number(asr.durationMs || 0) <= 0) errors.push("H100 proof mode ASR requires positive durationMs");
+      if (!/cuda/i.test(String(asr.device || ""))) errors.push("H100 proof mode ASR requires CUDA device metadata");
+      if (!/h100/i.test(String(asr.gpuName || asr.gpu || ""))) errors.push("H100 proof mode ASR requires H100 gpuName metadata");
+    }
   }
   throwIfErrors("proof_mode_asr_invalid", errors, { asr });
 }

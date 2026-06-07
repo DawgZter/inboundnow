@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 import base64
+import hashlib
 import json
 import os
 import tempfile
+import time
+import wave
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
 MODEL = os.environ.get("ASR_MODEL", "nvidia/parakeet-tdt-0.6b-v3")
@@ -29,6 +32,46 @@ def response_text(item):
     return str(item or "")
 
 
+def device_name():
+    try:
+        import torch
+        return "cuda" if torch.cuda.is_available() else "cpu"
+    except Exception:
+        return "unknown"
+
+
+def gpu_name():
+    try:
+        import torch
+        if torch.cuda.is_available():
+            return torch.cuda.get_device_name(0)
+    except Exception:
+        pass
+    return ""
+
+
+def audio_metadata(path):
+    with open(path, "rb") as handle:
+        data = handle.read()
+    metadata = {
+        "inputAudioSha256": hashlib.sha256(data).hexdigest(),
+        "audioBytes": len(data),
+        "durationMs": None,
+        "sampleRate": None,
+        "channels": None,
+    }
+    try:
+        with wave.open(path, "rb") as wav:
+            frames = wav.getnframes()
+            rate = wav.getframerate()
+            metadata["sampleRate"] = rate
+            metadata["channels"] = wav.getnchannels()
+            metadata["durationMs"] = round(frames * 1000 / rate) if rate else None
+    except Exception:
+        pass
+    return metadata
+
+
 class Handler(BaseHTTPRequestHandler):
     server_version = "InboundNowParakeetASR/0.1"
 
@@ -51,6 +94,8 @@ class Handler(BaseHTTPRequestHandler):
             "model": MODEL,
             "localOnly": True,
             "loaded": asr_model is not None,
+            "device": device_name(),
+            "gpuName": gpu_name(),
         })
 
     def do_POST(self):
@@ -75,8 +120,11 @@ class Handler(BaseHTTPRequestHandler):
                 self.json_response(400, {"ok": False, "error": "audioBase64 or audioPath is required"})
                 return
 
+            input_metadata = audio_metadata(audio_path)
             model = load_model()
+            started = time.time()
             output = model.transcribe([audio_path], timestamps=payload.get("timestamps", True))
+            transcribe_ms = round((time.time() - started) * 1000)
             first = output[0] if output else ""
             transcript = response_text(first)
             timestamps = getattr(first, "timestamp", None) if hasattr(first, "timestamp") else None
@@ -84,10 +132,17 @@ class Handler(BaseHTTPRequestHandler):
                 "ok": True,
                 "provider": "local-parakeet",
                 "model": MODEL,
+                "localOnly": True,
                 "transcript": transcript,
                 "language": payload.get("language") or "en",
                 "final": True,
                 "timestamps": timestamps,
+                "simulated": False,
+                "source": "fresh-model",
+                "device": device_name(),
+                "gpuName": gpu_name(),
+                "transcribeMs": transcribe_ms,
+                **input_metadata,
             })
         except Exception as error:
             self.json_response(500, {"ok": False, "error": str(error), "provider": "local-parakeet", "model": MODEL})

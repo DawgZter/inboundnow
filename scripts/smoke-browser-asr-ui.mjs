@@ -75,6 +75,17 @@ async function waitForHttp(url, timeoutMs = 8000) {
   throw lastError || new Error("Timed out waiting for " + url);
 }
 
+async function waitForBridgeAgent(timeoutMs = 20000) {
+  const start = Date.now();
+  while (Date.now() - start < timeoutMs) {
+    const health = await waitForJson(tokenServerUrl + "/health", 2000);
+    const roomState = (health.rooms || []).find((item) => item.room === room);
+    if (Number(roomState?.agents || 0) > 0) return roomState;
+    await wait(150);
+  }
+  throw new Error("Timed out waiting for local agent worker bridge connection");
+}
+
 function startMockRemote() {
   mockServer = createServer((req, res) => {
     if (req.url === "/favicon.ico") {
@@ -240,6 +251,7 @@ try {
     TTS_VOICE_STYLE: "warm",
     TTS_TEXT_CHUNK_CHARS: "96",
   });
+  await waitForBridgeAgent();
   spawnLogged("lab", "node", ["apps/website-lab/server.mjs"], {
     PORT: String(labPort),
     TOKEN_SERVER_URL: tokenServerUrl,
