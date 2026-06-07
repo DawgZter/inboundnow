@@ -187,6 +187,19 @@ Run on the instance after bootstrap. Proof mode starts Qwen, Parakeet, Miso One 
 
     H100_PROOF_MODE=1 bash scripts/vast-h100/start-dev-stack.sh
 
+For the fastest submission path, use the supervised runner instead. It checks
+H100/disk/dependencies, starts or restarts the proof-mode tmux stack, waits for
+h100:preflight, generates a local Miso-spoken proof WAV when no mic fixture is
+provided, runs the H100 proof suite, and writes a small run summary:
+
+    H100_PROOF_RESTART=1 npm run h100:prove
+
+Set H100_RUN_BOOTSTRAP=1 or H100_RUN_MISO_SETUP=1 only if you want this
+runner to perform the heavy setup steps automatically. By default it fails
+early with the exact setup command instead of hiding a missing environment.
+Set REQUIRE_MANUAL_MIC=1 HEADLESS=0 to capture manual browser microphone
+proof instead of the generated local Miso media fixture.
+
 The script starts a tmux session with:
 
 - livekit-server --dev
