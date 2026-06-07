@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer/romania/payroll",
+  "sourceURL": "https://remote.com/en-nz/country-explorer/romania/payroll",
+  "finalURL": "https://remote.com/en-nz/country-explorer/romania/payroll",
+  "title": "Pay Employees in Romania | Payroll Services",
+  "description": "Pay employees in Romania effortlessly with our flexible payroll services. Run payroll, manage expenses and run reports, all from one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261720,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8c97dbb474bdfc1-en-nz-country-explorer-romania-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8c97dbb474bdfc1-en-nz-country-explorer-romania-payroll.direct.json",
+  "markdownChars": 4034,
+  "linksCount": 127,
+  "lastmod": "2026-05-21",
+  "scrapedAt": "2026-06-07T09:15:51.166Z"
+}

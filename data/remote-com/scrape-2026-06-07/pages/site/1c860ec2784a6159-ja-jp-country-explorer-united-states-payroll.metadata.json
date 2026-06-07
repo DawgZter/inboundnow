@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/united-states/payroll",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/united-states/payroll",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/united-states/payroll",
+  "title": "米国で従業員に支払う | 給与サービス",
+  "description": "柔軟な給与管理サービスにより、米国での従業員への支払いを簡単に行えます。給与処理、経費管理、レポート作成をすべて一つのプラットフォームで実行できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262258,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1c860ec2784a6159-ja-jp-country-explorer-united-states-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1c860ec2784a6159-ja-jp-country-explorer-united-states-payroll.direct.json",
+  "markdownChars": 1666,
+  "linksCount": 125,
+  "lastmod": "2025-11-11",
+  "scrapedAt": "2026-06-07T09:12:59.381Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/country-explorer/china/benefits-guide",
+  "sourceURL": "https://remote.com/en-ca/country-explorer/china/benefits-guide",
+  "finalURL": "https://remote.com/en-ca/country-explorer/china/benefits-guide",
+  "title": "Employee Benefits in China | Benefits Plans",
+  "description": "Discover the essential employee benefits in China. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 272057,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef562c94d1bb5c01-en-ca-country-explorer-china-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef562c94d1bb5c01-en-ca-country-explorer-china-benefits-guide.direct.json",
+  "markdownChars": 1404,
+  "linksCount": 125,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:14:13.413Z"
+}

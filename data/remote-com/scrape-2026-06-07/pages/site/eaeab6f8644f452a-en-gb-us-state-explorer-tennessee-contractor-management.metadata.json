@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/tennessee/contractor-management",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/tennessee/contractor-management",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/tennessee/contractor-management",
+  "title": "Contractor Management in Tennessee",
+  "description": "Manage and pay contractors in Tennessee with ease. Stay compliant, process payments easily, and reduce risk with a streamlined solution for hiring contractors with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257593,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eaeab6f8644f452a-en-gb-us-state-explorer-tennessee-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eaeab6f8644f452a-en-gb-us-state-explorer-tennessee-contractor-management.direct.json",
+  "markdownChars": 2186,
+  "linksCount": 113,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:17:45.832Z"
+}

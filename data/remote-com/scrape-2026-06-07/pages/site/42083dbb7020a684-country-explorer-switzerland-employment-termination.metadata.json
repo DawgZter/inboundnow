@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/switzerland/employment-termination",
+  "sourceURL": "https://remote.com/country-explorer/switzerland/employment-termination",
+  "finalURL": "https://remote.com/country-explorer/switzerland/employment-termination",
+  "title": "Terminate Employees in Switzerland | Employment Termination",
+  "description": "Looking to terminate an employee in Switzerland? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261004,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/42083dbb7020a684-country-explorer-switzerland-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/42083dbb7020a684-country-explorer-switzerland-employment-termination.direct.json",
+  "markdownChars": 1703,
+  "linksCount": 126,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:10:24.370Z"
+}

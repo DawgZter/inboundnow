@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer/switzerland/benefits-guide",
+  "sourceURL": "https://remote.com/en-nz/country-explorer/switzerland/benefits-guide",
+  "finalURL": "https://remote.com/en-nz/country-explorer/switzerland/benefits-guide",
+  "title": "Employee Benefits in Switzerland | Benefits Plans",
+  "description": "Discover the essential employee benefits in Switzerland. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271881,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0dfa7f288f116030-en-nz-country-explorer-switzerland-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0dfa7f288f116030-en-nz-country-explorer-switzerland-benefits-guide.direct.json",
+  "markdownChars": 1465,
+  "linksCount": 127,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:13:27.157Z"
+}

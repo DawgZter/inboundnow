@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/rh-international/recours-freelances-internationaux",
+  "sourceURL": "https://remote.com/fr-be/rh-international/recours-freelances-internationaux",
+  "finalURL": "https://remote.com/fr-be/rh-international/recours-freelances-internationaux",
+  "title": "Recours à des freelances internationaux",
+  "description": "Onboard contractors, sign compliant contracts, and pay contractors around the world with zero hidden fees - only with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 379459,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5fabc4271c87c68-fr-be-rh-international-recours-freelances-internationaux.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5fabc4271c87c68-fr-be-rh-international-recours-freelances-internationaux.direct.json",
+  "markdownChars": 12443,
+  "linksCount": 118,
+  "lastmod": "2025-04-23",
+  "scrapedAt": "2026-06-07T09:01:33.477Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/nicaragua/taxes",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/nicaragua/taxes",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/nicaragua/taxes",
+  "title": "在尼加拉瓜管理薪资税 | 税务合规",
+  "description": "在尼加拉瓜有效且合规地管理薪资税。将薪资税错误降至最低，遵守当地法律，避免高额罚款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255691,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5a675ae368701bf6-zh-cn-country-explorer-nicaragua-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5a675ae368701bf6-zh-cn-country-explorer-nicaragua-taxes.direct.json",
+  "markdownChars": 404,
+  "linksCount": 120,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:11:51.056Z"
+}

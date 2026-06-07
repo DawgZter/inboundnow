@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/etudes-de-cas/comment-axelera-alimente-croissance-rapide-remote",
+  "sourceURL": "https://remote.com/fr-fr/ressources/etudes-de-cas/comment-axelera-alimente-croissance-rapide-remote",
+  "finalURL": "https://remote.com/fr-fr/ressources/etudes-de-cas/comment-axelera-alimente-croissance-rapide-remote",
+  "title": "Comment Axelera AI alimente sa croissance rapide avec Remote",
+  "description": "Réduction du délai d’intégration, garantie de conformité, rationalisation de la collaboration avec son équipe mondiale : découvrez comment Axelera AI alimente ses opérations de RH à l’international avec Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265925,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/237f1dee4a174721-fr-fr-ressources-etudes-de-cas-comment-axelera-alimente-croissance-rapide-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/237f1dee4a174721-fr-fr-ressources-etudes-de-cas-comment-axelera-alimente-croissance-rapide-remote.direct.json",
+  "markdownChars": 9580,
+  "linksCount": 115,
+  "lastmod": "2026-03-31",
+  "scrapedAt": "2026-06-07T09:09:44.552Z"
+}

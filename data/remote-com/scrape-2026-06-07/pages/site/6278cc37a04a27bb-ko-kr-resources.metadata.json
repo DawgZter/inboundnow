@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources",
+  "sourceURL": "https://remote.com/ko-kr/resources",
+  "finalURL": "https://remote.com/ko-kr/resources",
+  "title": "글로벌 HR 및 원격 근무 관련 자료 | Remote",
+  "description": "원격 근무에 관한 자료와 글로벌 HR 보고서, 안내 자료, 체크리스트, 웨비나, 팟캐스트 등으로 가득한 Remote 라이브러리를 살펴보며 세계 각지에 흩어져 근무하는 분산 팀을 구축하는 방법을 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 348793,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6278cc37a04a27bb-ko-kr-resources.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6278cc37a04a27bb-ko-kr-resources.direct.json",
+  "markdownChars": 3037,
+  "linksCount": 118,
+  "lastmod": "2025-07-10",
+  "scrapedAt": "2026-06-07T09:08:14.474Z"
+}

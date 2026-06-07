@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/vrijgestelde-werknemer",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/vrijgestelde-werknemer",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/vrijgestelde-werknemer",
+  "title": "Vrijgestelde werknemer",
+  "description": "An exempt employee isn’t eligible for overtime pay. Learn how exempt status works, why it matters, and how to stay compliant with hiring. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251382,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6e897e802e25e2fd-nl-be-bronnen-hr-woordenlijst-vrijgestelde-werknemer.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6e897e802e25e2fd-nl-be-bronnen-hr-woordenlijst-vrijgestelde-werknemer.direct.json",
+  "markdownChars": 4894,
+  "linksCount": 124,
+  "lastmod": "2025-08-04",
+  "scrapedAt": "2026-06-07T09:07:30.481Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/greece/taxes",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/greece/taxes",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/greece/taxes",
+  "title": "ギリシャの給与税を管理する｜税務コンプライアンス",
+  "description": "ギリシャの給与税を適切かつコンプライアンスに沿って管理し、給与税のエラーを最小化して現地法を順守し、高額な罰金を回避しましょう。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261630,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb4529ff719a4462-ja-jp-country-explorer-greece-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb4529ff719a4462-ja-jp-country-explorer-greece-taxes.direct.json",
+  "markdownChars": 615,
+  "linksCount": 122,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:13:38.691Z"
+}

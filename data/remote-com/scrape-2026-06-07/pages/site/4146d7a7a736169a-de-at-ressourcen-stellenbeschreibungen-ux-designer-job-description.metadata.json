@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/ux-designer-job-description",
+  "sourceURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/ux-designer-job-description",
+  "finalURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/ux-designer-job-description",
+  "title": "UX Designer Stellenbeschreibung",
+  "description": "Schau dir die Stellenbeschreibung für einen UX-Designer an, der dafür verantwortlich ist, die Benutzerzufriedenheit zu erhöhen, indem er die Benutzerfreundlichkeit, Zugänglichkeit und das Vergnügen bei der Interaktion mit einem Produkt verbessert.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260043,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4146d7a7a736169a-de-at-ressourcen-stellenbeschreibungen-ux-designer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4146d7a7a736169a-de-at-ressourcen-stellenbeschreibungen-ux-designer-job-description.direct.json",
+  "markdownChars": 3823,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:18:47.335Z"
+}

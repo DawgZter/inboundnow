@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/glossaire-rh/philosophie-equite",
+  "sourceURL": "https://remote.com/fr-be/ressources/glossaire-rh/philosophie-equite",
+  "finalURL": "https://remote.com/fr-be/ressources/glossaire-rh/philosophie-equite",
+  "title": "What is an equity philosophy?",
+  "description": "Découvrez les philosophies de l'équité - et pourquoi elles devraient être la pierre angulaire de la politique de diversité, d'équité et d'inclusion (DEI) de votre entreprise.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256937,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/440309c3c69821a1-fr-be-ressources-glossaire-rh-philosophie-equite.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/440309c3c69821a1-fr-be-ressources-glossaire-rh-philosophie-equite.direct.json",
+  "markdownChars": 4309,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:54.529Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/kenya/equity",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/kenya/equity",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/kenya/equity",
+  "title": "Options d’actions pour les salariés au Kenya",
+  "description": "Explorez les règles spécifiques au Kenya concernant l’equity et les options sur actions. Prenez des décisions éclairées sur la rémunération internationale grâce à l’Explorateur de pays de Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264942,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/83452861dd450113-fr-ch-explorateur-de-pays-kenya-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/83452861dd450113-fr-ch-explorateur-de-pays-kenya-equity.direct.json",
+  "markdownChars": 5208,
+  "linksCount": 125,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:10:08.123Z"
+}

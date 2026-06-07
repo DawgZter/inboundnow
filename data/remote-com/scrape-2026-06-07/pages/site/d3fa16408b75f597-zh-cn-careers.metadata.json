@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/careers",
+  "sourceURL": "https://remote.com/zh-cn/careers",
+  "finalURL": "https://remote.com/zh-cn/careers",
+  "title": "Remote 人才招聘 | Remote",
+  "description": "若您正在寻找一份不受地理限制，又能创造积极影响的工作，这里正是您的不二之选。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 302171,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d3fa16408b75f597-zh-cn-careers.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d3fa16408b75f597-zh-cn-careers.direct.json",
+  "markdownChars": 2538,
+  "linksCount": 119,
+  "lastmod": "2025-12-01",
+  "scrapedAt": "2026-06-07T09:09:43.801Z"
+}

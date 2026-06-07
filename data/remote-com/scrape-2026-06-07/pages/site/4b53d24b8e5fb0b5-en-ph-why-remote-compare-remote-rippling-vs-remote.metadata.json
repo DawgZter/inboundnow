@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/why-remote/compare-remote/rippling-vs-remote",
+  "sourceURL": "https://remote.com/en-ph/why-remote/compare-remote/rippling-vs-remote",
+  "finalURL": "https://remote.com/en-ph/why-remote/compare-remote/rippling-vs-remote",
+  "title": "Rippling vs Remote - Rippling alternative | Remote",
+  "description": "Hire international talent in minutes. Remote is the most disruptive global payroll, tax, HR and compliance solution for distributed teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 387666,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b53d24b8e5fb0b5-en-ph-why-remote-compare-remote-rippling-vs-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b53d24b8e5fb0b5-en-ph-why-remote-compare-remote-rippling-vs-remote.direct.json",
+  "markdownChars": 12151,
+  "linksCount": 120,
+  "lastmod": "2026-03-21",
+  "scrapedAt": "2026-06-07T09:00:59.755Z"
+}

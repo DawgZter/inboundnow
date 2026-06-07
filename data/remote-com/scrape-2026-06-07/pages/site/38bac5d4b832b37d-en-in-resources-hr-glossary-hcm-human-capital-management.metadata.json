@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/hr-glossary/hcm-human-capital-management",
+  "sourceURL": "https://remote.com/en-in/resources/hr-glossary/hcm-human-capital-management",
+  "finalURL": "https://remote.com/en-in/resources/hr-glossary/hcm-human-capital-management",
+  "title": "What is human capital management?",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254091,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/38bac5d4b832b37d-en-in-resources-hr-glossary-hcm-human-capital-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/38bac5d4b832b37d-en-in-resources-hr-glossary-hcm-human-capital-management.direct.json",
+  "markdownChars": 4969,
+  "linksCount": 118,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:14:18.947Z"
+}

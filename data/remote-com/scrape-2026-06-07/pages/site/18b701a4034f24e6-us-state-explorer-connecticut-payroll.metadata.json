@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/connecticut/payroll",
+  "sourceURL": "https://remote.com/us-state-explorer/connecticut/payroll",
+  "finalURL": "https://remote.com/us-state-explorer/connecticut/payroll",
+  "title": "Payroll Management in Connecticut",
+  "description": "Manage payroll in Connecticut seamlessly with Remote's payroll software. Stay compliant with Connecticut payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259086,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/18b701a4034f24e6-us-state-explorer-connecticut-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/18b701a4034f24e6-us-state-explorer-connecticut-payroll.direct.json",
+  "markdownChars": 4679,
+  "linksCount": 112,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:15:08.906Z"
+}

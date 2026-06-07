@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/norway/contractor-management",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/norway/contractor-management",
+  "finalURL": "https://remote.com/en-sg/country-explorer/norway/contractor-management",
+  "title": "Manage Contractors in Norway | Contractor Management",
+  "description": "Hiring a contractor in Norway? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259385,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c32432261a57e059-en-sg-country-explorer-norway-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c32432261a57e059-en-sg-country-explorer-norway-contractor-management.direct.json",
+  "markdownChars": 2255,
+  "linksCount": 125,
+  "lastmod": "2025-08-26",
+  "scrapedAt": "2026-06-07T09:04:19.328Z"
+}

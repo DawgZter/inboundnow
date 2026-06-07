@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/latvia/benefits-guide",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/latvia/benefits-guide",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/latvia/benefits-guide",
+  "title": "ラトビアにおける従業員の福利厚生｜Remoteの福利厚生プラン",
+  "description": "ラトビアにおける必須の福利厚生、健康保険や有給休暇をはじめ、Remoteの福利厚生プランによる包括的な補償内容、競争力のある料率、管理業務の代行、福利厚生の均等性について分かりやすく解説し、優秀な人材の獲得と定着、グローバルチームの拡大を支援する実務的な手順とコンプライアンス要点も提示します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 272190,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a4218a5ea8b30d73-ja-jp-country-explorer-latvia-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a4218a5ea8b30d73-ja-jp-country-explorer-latvia-benefits-guide.direct.json",
+  "markdownChars": 713,
+  "linksCount": 122,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:15:53.599Z"
+}

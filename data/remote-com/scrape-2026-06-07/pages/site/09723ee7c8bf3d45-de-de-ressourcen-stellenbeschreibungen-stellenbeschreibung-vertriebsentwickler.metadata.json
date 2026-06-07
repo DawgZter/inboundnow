@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/stellenbeschreibung-vertriebsentwickler",
+  "sourceURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/stellenbeschreibung-vertriebsentwickler",
+  "finalURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/stellenbeschreibung-vertriebsentwickler",
+  "title": "Stellenbeschreibung für Vertriebsentwickler",
+  "description": "Überprüfe die Stellenbeschreibung für einen Vertriebsmitarbeiter, der für die Identifizierung und Qualifizierung von Leads, den Aufbau von Kundenbeziehungen und die Unterstützung von Vertriebsstrategien verantwortlich ist.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261193,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/09723ee7c8bf3d45-de-de-ressourcen-stellenbeschreibungen-stellenbeschreibung-vertriebsentwickler.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/09723ee7c8bf3d45-de-de-ressourcen-stellenbeschreibungen-stellenbeschreibung-vertriebsentwickler.direct.json",
+  "markdownChars": 4153,
+  "linksCount": 114,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:06:50.380Z"
+}

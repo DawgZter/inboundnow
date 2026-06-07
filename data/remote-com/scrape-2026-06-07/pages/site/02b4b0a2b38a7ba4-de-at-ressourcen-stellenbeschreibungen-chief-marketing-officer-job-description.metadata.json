@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/chief-marketing-officer-job-description",
+  "sourceURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/chief-marketing-officer-job-description",
+  "finalURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/chief-marketing-officer-job-description",
+  "title": "Stellenbeschreibung des Marketingleiters",
+  "description": "Schau dir die Stellenbeschreibung für einen Chief Marketing Officer an, der für die Überwachung der Marketingstrategien, die Förderung des Markenwachstums und die Leitung des Marketingteams zur Erreichung der Geschäftsziele verantwortlich ist.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261620,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/02b4b0a2b38a7ba4-de-at-ressourcen-stellenbeschreibungen-chief-marketing-officer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/02b4b0a2b38a7ba4-de-at-ressourcen-stellenbeschreibungen-chief-marketing-officer-job-description.direct.json",
+  "markdownChars": 4851,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:18:40.530Z"
+}

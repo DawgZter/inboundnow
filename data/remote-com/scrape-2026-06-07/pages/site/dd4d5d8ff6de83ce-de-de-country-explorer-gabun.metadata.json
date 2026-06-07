@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/gabun",
+  "sourceURL": "https://remote.com/de-de/country-explorer/gabun",
+  "finalURL": "https://remote.com/de-de/country-explorer/gabun",
+  "title": "Employer-of-Record- und Payroll-Services | Gabon",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Gabun? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 310976,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dd4d5d8ff6de83ce-de-de-country-explorer-gabun.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dd4d5d8ff6de83ce-de-de-country-explorer-gabun.direct.json",
+  "markdownChars": 3743,
+  "linksCount": 118,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:01:51.094Z"
+}

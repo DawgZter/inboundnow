@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/insights-center/how-to-get-a-remote-job",
+  "sourceURL": "https://remote.com/resources/insights-center/how-to-get-a-remote-job",
+  "finalURL": "https://remote.com/resources/insights-center/how-to-get-a-remote-job",
+  "title": "How to get a remote job: an expert guide to landing your dream role.",
+  "description": "This guide to landing your dream remote job will help you identify the right opportunities and give you the tools to ace the interviews.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 267001,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0ce69ce3c5f2ffd2-resources-insights-center-how-to-get-a-remote-job.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0ce69ce3c5f2ffd2-resources-insights-center-how-to-get-a-remote-job.direct.json",
+  "markdownChars": 18574,
+  "linksCount": 108,
+  "lastmod": "2025-05-27",
+  "scrapedAt": "2026-06-07T09:17:43.390Z"
+}

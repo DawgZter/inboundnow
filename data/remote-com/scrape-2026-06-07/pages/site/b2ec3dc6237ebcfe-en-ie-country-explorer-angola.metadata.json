@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/angola",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/angola",
+  "finalURL": "https://remote.com/en-ie/country-explorer/angola",
+  "title": "Employer of Record & Payroll Services | Angola",
+  "description": "Hiring employees and contractors in Angola? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 318828,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b2ec3dc6237ebcfe-en-ie-country-explorer-angola.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b2ec3dc6237ebcfe-en-ie-country-explorer-angola.direct.json",
+  "markdownChars": 4767,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:08:23.660Z"
+}

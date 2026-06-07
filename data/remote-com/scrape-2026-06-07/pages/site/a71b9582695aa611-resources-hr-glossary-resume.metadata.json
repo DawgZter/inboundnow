@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/resume",
+  "sourceURL": "https://remote.com/resources/hr-glossary/resume",
+  "finalURL": "https://remote.com/resources/hr-glossary/resume",
+  "title": "What is a resume",
+  "description": "Discover the role of a resume in the hiring process, its key elements, and how it impacts job applications by visiting our detailed HR glossary.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251459,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a71b9582695aa611-resources-hr-glossary-resume.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a71b9582695aa611-resources-hr-glossary-resume.direct.json",
+  "markdownChars": 3923,
+  "linksCount": 119,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:15:41.389Z"
+}

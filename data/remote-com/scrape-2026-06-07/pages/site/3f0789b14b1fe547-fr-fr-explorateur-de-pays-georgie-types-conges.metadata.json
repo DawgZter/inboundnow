@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/georgie/types-conges",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/georgie/types-conges",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/georgie/types-conges",
+  "title": "Georgia : Types de congé | Lois sur les congés des employés",
+  "description": "Georgie : Maitrisez les lois locales sur les congés des employés. Veillez à ce que votre entreprise respecte les normes applicables en la matière et propose des congés payés compétitifs.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262483,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3f0789b14b1fe547-fr-fr-explorateur-de-pays-georgie-types-conges.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3f0789b14b1fe547-fr-fr-explorateur-de-pays-georgie-types-conges.direct.json",
+  "markdownChars": 2035,
+  "linksCount": 123,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:10:10.753Z"
+}

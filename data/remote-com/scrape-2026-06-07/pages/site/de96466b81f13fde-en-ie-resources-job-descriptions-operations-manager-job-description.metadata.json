@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/job-descriptions/operations-manager-job-description",
+  "sourceURL": "https://remote.com/en-ie/resources/job-descriptions/operations-manager-job-description",
+  "finalURL": "https://remote.com/en-ie/resources/job-descriptions/operations-manager-job-description",
+  "title": "Operations manager job description",
+  "description": "Review the job description for operations manager, responsible for overseeing daily operations, improving efficiency, and ensuring quality control across various departments.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258647,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/de96466b81f13fde-en-ie-resources-job-descriptions-operations-manager-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/de96466b81f13fde-en-ie-resources-job-descriptions-operations-manager-job-description.direct.json",
+  "markdownChars": 4069,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:03.954Z"
+}

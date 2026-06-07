@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/turchia/cessazione-rapporto-lavoro",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/turchia/cessazione-rapporto-lavoro",
+  "finalURL": "https://remote.com/it-it/esplora-paese/turchia/cessazione-rapporto-lavoro",
+  "title": "Termina rapporti di lavoro in Turchia | Cessazione del rapporto di lavoro",
+  "description": "Vuoi interrompere un rapporto di lavoro in Turchia? Scopri i tuoi diritti nella nostra guida completa alle leggi sulla cessazione del rapporto di lavoro.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153797,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db93d81d43722910-it-it-esplora-paese-turchia-cessazione-rapporto-lavoro.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db93d81d43722910-it-it-esplora-paese-turchia-cessazione-rapporto-lavoro.direct.json",
+  "markdownChars": 1967,
+  "linksCount": 44,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:13:26.779Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/argentinien/steuern",
+  "sourceURL": "https://remote.com/de-at/country-explorer/argentinien/steuern",
+  "finalURL": "https://remote.com/de-at/country-explorer/argentinien/steuern",
+  "title": "Lohnnebenkosten in Argentina | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Argentinien.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261823,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8db67a9d9e93631-de-at-country-explorer-argentinien-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8db67a9d9e93631-de-at-country-explorer-argentinien-steuern.direct.json",
+  "markdownChars": 1504,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:02:51.677Z"
+}

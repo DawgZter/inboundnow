@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/pakistan/taxes",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/pakistan/taxes",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/pakistan/taxes",
+  "title": "Pakistan : Gérer l’imposition de la paie | Conformité fiscale",
+  "description": "Pakistan : Gérez efficacement l’imposition de la paie, en toute conformité. Réduisez les erreurs d’imposition de la paie, respectez le droit local et évitez de coûteuses amendes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258464,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e2fdcc5da73226a-fr-fr-explorateur-de-pays-pakistan-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e2fdcc5da73226a-fr-fr-explorateur-de-pays-pakistan-taxes.direct.json",
+  "markdownChars": 812,
+  "linksCount": 122,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:17:50.405Z"
+}

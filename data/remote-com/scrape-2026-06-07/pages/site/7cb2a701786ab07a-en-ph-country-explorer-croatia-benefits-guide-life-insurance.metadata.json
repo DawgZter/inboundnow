@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/croatia/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/croatia/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/en-ph/country-explorer/croatia/benefits-guide/life-insurance",
+  "title": "Employee Life Insurance in Croatia | Insurance Plans",
+  "description": "Provide peace of mind with life insurance coverage for your employees in Croatia. Explore the policies and benefits available.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265983,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7cb2a701786ab07a-en-ph-country-explorer-croatia-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7cb2a701786ab07a-en-ph-country-explorer-croatia-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 4750,
+  "linksCount": 117,
+  "lastmod": "2025-05-31",
+  "scrapedAt": "2026-06-07T09:11:36.541Z"
+}

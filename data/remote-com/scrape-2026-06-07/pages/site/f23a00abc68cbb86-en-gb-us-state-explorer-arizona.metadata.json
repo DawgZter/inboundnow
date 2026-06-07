@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/arizona",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/arizona",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/arizona",
+  "title": "Employer of Record & Payroll Services | Arizona",
+  "description": "Use our compliance guide to employ in Arizona with ease. Learn about benefits, payroll, leave, and other labor laws in The Grand Canyon State.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 331491,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f23a00abc68cbb86-en-gb-us-state-explorer-arizona.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f23a00abc68cbb86-en-gb-us-state-explorer-arizona.direct.json",
+  "markdownChars": 7005,
+  "linksCount": 114,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:10:41.212Z"
+}

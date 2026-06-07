@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/payroll-tax",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/payroll-tax",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/payroll-tax",
+  "title": "給与税",
+  "description": "米国および国際的な給与税の計算方法と、なぜ正しく計算することが重要なのかを学びましょう。 ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256805,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/072cc6f166127c77-ja-jp-resources-hr-glossary-payroll-tax.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/072cc6f166127c77-ja-jp-resources-hr-glossary-payroll-tax.direct.json",
+  "markdownChars": 2515,
+  "linksCount": 124,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:33.192Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/vietnam/taxes",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/vietnam/taxes",
+  "finalURL": "https://remote.com/en-ie/country-explorer/vietnam/taxes",
+  "title": "Manage Payroll Tax in Vietnam | Tax Compliance",
+  "description": "Manage payroll taxes in Vietnam effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261538,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d940671b526d4bdc-en-ie-country-explorer-vietnam-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d940671b526d4bdc-en-ie-country-explorer-vietnam-taxes.direct.json",
+  "markdownChars": 1321,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:01:41.751Z"
+}

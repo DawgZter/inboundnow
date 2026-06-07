@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/croacia/processamento-salarial",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/croacia/processamento-salarial",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/croacia/processamento-salarial",
+  "title": "Paga trabalhadores na Croácia | serviços de processamento de pagamentos",
+  "description": "Paga trabalhadores na Croácia sem esforço com os nossos serviços flexíveis de processamento de pagamentos. Processa pagamentos, gere despesas e obtém relatórios, tudo num só lugar.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 156379,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f94fa4c84deb0a64-pt-pt-explorar-pais-croacia-processamento-salarial.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f94fa4c84deb0a64-pt-pt-explorar-pais-croacia-processamento-salarial.direct.json",
+  "markdownChars": 4390,
+  "linksCount": 45,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:18:57.879Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/croatia/benefits-guide/mental-health",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/croatia/benefits-guide/mental-health",
+  "finalURL": "https://remote.com/en-ph/country-explorer/croatia/benefits-guide/mental-health",
+  "title": "Mental Health Benefits in Croatia | Wellbeing Support",
+  "description": "Support your team's mental well-being with mental health benefits in Croatia. Discover programs and policies to promote a healthy workplace.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268488,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f107ffe56da8eff-en-ph-country-explorer-croatia-benefits-guide-mental-health.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f107ffe56da8eff-en-ph-country-explorer-croatia-benefits-guide-mental-health.direct.json",
+  "markdownChars": 6215,
+  "linksCount": 117,
+  "lastmod": "2025-06-01",
+  "scrapedAt": "2026-06-07T09:01:45.006Z"
+}

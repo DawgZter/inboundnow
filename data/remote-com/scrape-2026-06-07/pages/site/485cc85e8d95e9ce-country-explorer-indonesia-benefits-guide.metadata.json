@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/indonesia/benefits-guide",
+  "sourceURL": "https://remote.com/country-explorer/indonesia/benefits-guide",
+  "finalURL": "https://remote.com/country-explorer/indonesia/benefits-guide",
+  "title": "Employee Benefits in Indonesia | Benefits Plans",
+  "description": "Discover the essential employee benefits in Indonesia. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 272424,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/485cc85e8d95e9ce-country-explorer-indonesia-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/485cc85e8d95e9ce-country-explorer-indonesia-benefits-guide.direct.json",
+  "markdownChars": 1454,
+  "linksCount": 125,
+  "lastmod": "2025-05-17",
+  "scrapedAt": "2026-06-07T09:01:24.144Z"
+}

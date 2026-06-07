@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/job-descriptions",
+  "sourceURL": "https://remote.com/en-gb/resources/job-descriptions",
+  "finalURL": "https://remote.com/en-gb/resources/job-descriptions",
+  "title": "Remote's Job Description Templates | Remote",
+  "description": "You've just discovered a treasure trove of job description templates, each crafted with care to support your hiring journey. Whether you're tackling global employment challenges or celebrating a new team addition, our library is your ally in simplifying the process.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 326391,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33e97b304317bbcb-en-gb-resources-job-descriptions.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33e97b304317bbcb-en-gb-resources-job-descriptions.direct.json",
+  "markdownChars": 7709,
+  "linksCount": 160,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:09:06.576Z"
+}

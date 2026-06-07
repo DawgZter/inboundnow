@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/chile/employment-termination",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/chile/employment-termination",
+  "finalURL": "https://remote.com/en-sg/country-explorer/chile/employment-termination",
+  "title": "Terminate Employees in Chile | Employment Termination",
+  "description": "Looking to terminate an employee in Chile? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257269,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d7404d50d94c924a-en-sg-country-explorer-chile-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d7404d50d94c924a-en-sg-country-explorer-chile-employment-termination.direct.json",
+  "markdownChars": 1220,
+  "linksCount": 124,
+  "lastmod": "2025-08-29",
+  "scrapedAt": "2026-06-07T09:08:12.816Z"
+}

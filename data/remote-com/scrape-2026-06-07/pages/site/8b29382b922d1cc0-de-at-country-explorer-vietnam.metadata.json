@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/vietnam",
+  "sourceURL": "https://remote.com/de-at/country-explorer/vietnam",
+  "finalURL": "https://remote.com/de-at/country-explorer/vietnam",
+  "title": "Employer of Record (EOR) und Payroll Services | Vietnam",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Vietnam? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 341116,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b29382b922d1cc0-de-at-country-explorer-vietnam.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b29382b922d1cc0-de-at-country-explorer-vietnam.direct.json",
+  "markdownChars": 7147,
+  "linksCount": 124,
+  "lastmod": "2026-02-08",
+  "scrapedAt": "2026-06-07T09:01:58.064Z"
+}

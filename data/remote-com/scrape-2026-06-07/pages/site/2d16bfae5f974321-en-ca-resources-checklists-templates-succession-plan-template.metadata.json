@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/checklists-templates/succession-plan-template",
+  "sourceURL": "https://remote.com/en-ca/resources/checklists-templates/succession-plan-template",
+  "finalURL": "https://remote.com/en-ca/resources/checklists-templates/succession-plan-template",
+  "title": "Succession plan template | Remote",
+  "description": "Plan for leadership continuity with this succession plan template. Identify key roles, assess internal talent, and prepare your future leaders.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 249935,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2d16bfae5f974321-en-ca-resources-checklists-templates-succession-plan-template.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2d16bfae5f974321-en-ca-resources-checklists-templates-succession-plan-template.direct.json",
+  "markdownChars": 3223,
+  "linksCount": 107,
+  "lastmod": "2025-07-16",
+  "scrapedAt": "2026-06-07T09:14:51.201Z"
+}

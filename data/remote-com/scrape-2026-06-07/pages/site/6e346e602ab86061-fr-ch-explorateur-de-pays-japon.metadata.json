@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/japon",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/japon",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/japon",
+  "title": "Employeur de services de dossiers et de paie | Japon",
+  "description": "Recruter des employés et des freelances : Japon Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 346927,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6e346e602ab86061-fr-ch-explorateur-de-pays-japon.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6e346e602ab86061-fr-ch-explorateur-de-pays-japon.direct.json",
+  "markdownChars": 7254,
+  "linksCount": 124,
+  "lastmod": "2025-10-17",
+  "scrapedAt": "2026-06-07T09:01:46.071Z"
+}

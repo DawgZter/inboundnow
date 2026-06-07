@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/resources/hr-glossary/non-discrimination-testing",
+  "sourceURL": "https://remote.com/en-za/resources/hr-glossary/non-discrimination-testing",
+  "finalURL": "https://remote.com/en-za/resources/hr-glossary/non-discrimination-testing",
+  "title": "What is non-discrimination testing?",
+  "description": "Non-discrimination testing ensures fair distribution of benefits in employee plans, preventing favoritism toward highly compensated individuals.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254995,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1091f08f0fd33e1f-en-za-resources-hr-glossary-non-discrimination-testing.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1091f08f0fd33e1f-en-za-resources-hr-glossary-non-discrimination-testing.direct.json",
+  "markdownChars": 5353,
+  "linksCount": 123,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:14:27.298Z"
+}

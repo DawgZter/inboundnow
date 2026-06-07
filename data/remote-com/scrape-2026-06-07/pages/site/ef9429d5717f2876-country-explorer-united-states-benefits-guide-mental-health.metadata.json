@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/united-states/benefits-guide/mental-health",
+  "sourceURL": "https://remote.com/country-explorer/united-states/benefits-guide/mental-health",
+  "finalURL": "https://remote.com/country-explorer/united-states/benefits-guide/mental-health",
+  "title": "Mental Health Benefits in United States | Wellbeing Support",
+  "description": "Support your team with Mental Health benefits in United States.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 274151,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef9429d5717f2876-country-explorer-united-states-benefits-guide-mental-health.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef9429d5717f2876-country-explorer-united-states-benefits-guide-mental-health.direct.json",
+  "markdownChars": 6375,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:11:47.866Z"
+}

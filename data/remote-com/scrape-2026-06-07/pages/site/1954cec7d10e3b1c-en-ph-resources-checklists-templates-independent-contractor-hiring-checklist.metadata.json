@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/checklists-templates/independent-contractor-hiring-checklist",
+  "sourceURL": "https://remote.com/en-ph/resources/checklists-templates/independent-contractor-hiring-checklist",
+  "finalURL": "https://remote.com/en-ph/resources/checklists-templates/independent-contractor-hiring-checklist",
+  "title": "Hiring a contractor checklist | Remote",
+  "description": " Use our comprehensive 'hiring a contractor' checklist to navigate the process of hiring and managing independent contractors compliantly. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252251,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1954cec7d10e3b1c-en-ph-resources-checklists-templates-independent-contractor-hiring-checklist.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1954cec7d10e3b1c-en-ph-resources-checklists-templates-independent-contractor-hiring-checklist.direct.json",
+  "markdownChars": 3385,
+  "linksCount": 111,
+  "lastmod": "2025-06-19",
+  "scrapedAt": "2026-06-07T09:01:06.019Z"
+}

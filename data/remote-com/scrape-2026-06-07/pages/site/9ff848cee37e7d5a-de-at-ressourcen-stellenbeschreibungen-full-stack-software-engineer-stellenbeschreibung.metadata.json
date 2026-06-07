@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/full-stack-software-engineer-stellenbeschreibung",
+  "sourceURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/full-stack-software-engineer-stellenbeschreibung",
+  "finalURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/full-stack-software-engineer-stellenbeschreibung",
+  "title": "Full-Stack Software Engineer Stellenbeschreibung",
+  "description": "Schau dir die Stellenbeschreibung für einen Full-Stack Software Engineer an, der für die Entwicklung und Wartung von Front-End- und Back-End-Komponenten von Webanwendungen verantwortlich ist.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262139,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ff848cee37e7d5a-de-at-ressourcen-stellenbeschreibungen-full-stack-software-engineer-stellenbeschreibung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ff848cee37e7d5a-de-at-ressourcen-stellenbeschreibungen-full-stack-software-engineer-stellenbeschreibung.direct.json",
+  "markdownChars": 5310,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:05:34.003Z"
+}

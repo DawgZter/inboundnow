@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/serbia/benefits-guide",
+  "sourceURL": "https://remote.com/en-za/country-explorer/serbia/benefits-guide",
+  "finalURL": "https://remote.com/en-za/country-explorer/serbia/benefits-guide",
+  "title": "Employee Benefits in Serbia | Benefits Plans",
+  "description": "Discover the essential employee benefits in Serbia. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271557,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/18566203c5745607-en-za-country-explorer-serbia-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/18566203c5745607-en-za-country-explorer-serbia-benefits-guide.direct.json",
+  "markdownChars": 1448,
+  "linksCount": 128,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:14:18.881Z"
+}

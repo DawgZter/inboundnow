@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/waarom-remote/remote-vergelijken/rippling-vs-remote",
+  "sourceURL": "https://remote.com/nl-nl/waarom-remote/remote-vergelijken/rippling-vs-remote",
+  "finalURL": "https://remote.com/nl-nl/waarom-remote/remote-vergelijken/rippling-vs-remote",
+  "title": "Rippling vs. Remote: alternatief voor Rippling | Remote",
+  "description": "Neem binnen een paar minuten internationaal talent aan. Remote is de meest revolutionaire oplossing voor global payroll, belastingen, HR en compliance voor verspreide teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 393049,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e608d89dd4cf1b91-nl-nl-waarom-remote-remote-vergelijken-rippling-vs-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e608d89dd4cf1b91-nl-nl-waarom-remote-remote-vergelijken-rippling-vs-remote.direct.json",
+  "markdownChars": 13647,
+  "linksCount": 124,
+  "lastmod": "2026-04-01",
+  "scrapedAt": "2026-06-07T09:11:19.467Z"
+}

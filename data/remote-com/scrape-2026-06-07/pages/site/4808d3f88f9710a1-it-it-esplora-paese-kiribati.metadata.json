@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/kiribati",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/kiribati",
+  "finalURL": "https://remote.com/it-it/esplora-paese/kiribati",
+  "title": "Employer of Record (EOR) e Payroll | Kiribati",
+  "description": "Vuoi assumere personale e collaboratori in Kiribati? Remote ti aiuta a gestire personale e collaboratori tramite la Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 204746,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4808d3f88f9710a1-it-it-esplora-paese-kiribati.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4808d3f88f9710a1-it-it-esplora-paese-kiribati.direct.json",
+  "markdownChars": 3316,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:07:24.429Z"
+}

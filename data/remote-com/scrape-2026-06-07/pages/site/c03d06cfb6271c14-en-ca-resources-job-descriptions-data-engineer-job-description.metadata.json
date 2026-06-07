@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/job-descriptions/data-engineer-job-description",
+  "sourceURL": "https://remote.com/en-ca/resources/job-descriptions/data-engineer-job-description",
+  "finalURL": "https://remote.com/en-ca/resources/job-descriptions/data-engineer-job-description",
+  "title": "Data engineer job description",
+  "description": "Review the job description for a data engineer, responsible for designing, building, and maintaining data pipelines, ensuring data quality, and supporting data-driven decision-making.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260236,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c03d06cfb6271c14-en-ca-resources-job-descriptions-data-engineer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c03d06cfb6271c14-en-ca-resources-job-descriptions-data-engineer-job-description.direct.json",
+  "markdownChars": 4190,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:06:15.604Z"
+}

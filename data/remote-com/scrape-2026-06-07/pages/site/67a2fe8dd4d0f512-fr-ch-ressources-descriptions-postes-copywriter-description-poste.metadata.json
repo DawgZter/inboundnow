@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/descriptions-postes/copywriter-description-poste",
+  "sourceURL": "https://remote.com/fr-ch/ressources/descriptions-postes/copywriter-description-poste",
+  "finalURL": "https://remote.com/fr-ch/ressources/descriptions-postes/copywriter-description-poste",
+  "title": "Description du poste de rédacteur",
+  "description": "Examinez la description de poste d'un rédacteur, chargé de rédiger des textes convaincants et persuasifs pour différents médias, de maintenir la voix de la marque et d'attirer l'attention des publics cibles.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264568,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/67a2fe8dd4d0f512-fr-ch-ressources-descriptions-postes-copywriter-description-poste.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/67a2fe8dd4d0f512-fr-ch-ressources-descriptions-postes-copywriter-description-poste.direct.json",
+  "markdownChars": 6378,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:05:33.056Z"
+}

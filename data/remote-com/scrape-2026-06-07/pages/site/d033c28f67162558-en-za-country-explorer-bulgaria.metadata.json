@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/bulgaria",
+  "sourceURL": "https://remote.com/en-za/country-explorer/bulgaria",
+  "finalURL": "https://remote.com/en-za/country-explorer/bulgaria",
+  "title": "Employer of Record & Payroll Services | Bulgaria",
+  "description": "Hiring employees and contractors in Bulgaria? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 344673,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d033c28f67162558-en-za-country-explorer-bulgaria.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d033c28f67162558-en-za-country-explorer-bulgaria.direct.json",
+  "markdownChars": 6547,
+  "linksCount": 127,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:06:28.698Z"
+}

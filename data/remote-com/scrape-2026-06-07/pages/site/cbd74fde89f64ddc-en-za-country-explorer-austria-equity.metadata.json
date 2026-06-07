@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/austria/equity",
+  "sourceURL": "https://remote.com/en-za/country-explorer/austria/equity",
+  "finalURL": "https://remote.com/en-za/country-explorer/austria/equity",
+  "title": "Stock Options for Employees in Austria",
+  "description": "Explore Austria specific rules for employee equity and stock options. Make informed decisions about global compensation with Remote’s Country Explorer.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262662,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cbd74fde89f64ddc-en-za-country-explorer-austria-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cbd74fde89f64ddc-en-za-country-explorer-austria-equity.direct.json",
+  "markdownChars": 4265,
+  "linksCount": 130,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:18:33.864Z"
+}

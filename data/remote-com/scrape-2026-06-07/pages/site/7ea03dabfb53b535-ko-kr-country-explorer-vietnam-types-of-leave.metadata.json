@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/vietnam/types-of-leave",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/vietnam/types-of-leave",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/vietnam/types-of-leave",
+  "title": "베트남의 휴가 유형 | 직원 휴가 법규",
+  "description": "베트남의 직원 휴가 법규와 관련 요건을 명확히 이해하고, 국경을 넘나드는 인력 운영과 급여 처리를 포함한 귀사의 규정 준수를 보장하며 경쟁력 있는 유급 휴가 정책을 마련하도록 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260375,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7ea03dabfb53b535-ko-kr-country-explorer-vietnam-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7ea03dabfb53b535-ko-kr-country-explorer-vietnam-types-of-leave.direct.json",
+  "markdownChars": 1460,
+  "linksCount": 122,
+  "lastmod": "2025-10-02",
+  "scrapedAt": "2026-06-07T09:11:46.803Z"
+}

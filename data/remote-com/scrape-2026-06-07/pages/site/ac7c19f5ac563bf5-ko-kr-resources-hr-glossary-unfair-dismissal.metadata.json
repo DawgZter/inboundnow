@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/unfair-dismissal",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/unfair-dismissal",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/unfair-dismissal",
+  "title": "부당 해고",
+  "description": "불공정한 해고는 비즈니스에 심각한 법적 결과를 초래할 수 있습니다. 부당 해고의 정의와 이를 방지하는 방법을 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255648,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ac7c19f5ac563bf5-ko-kr-resources-hr-glossary-unfair-dismissal.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ac7c19f5ac563bf5-ko-kr-resources-hr-glossary-unfair-dismissal.direct.json",
+  "markdownChars": 2518,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:05:34.096Z"
+}

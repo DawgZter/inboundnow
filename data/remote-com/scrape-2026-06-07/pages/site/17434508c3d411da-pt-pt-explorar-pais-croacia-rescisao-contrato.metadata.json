@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/croacia/rescisao-contrato",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/croacia/rescisao-contrato",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/croacia/rescisao-contrato",
+  "title": "Rescisão de contratos de trabalho na Croácia | Cessação do contrato de trabalho",
+  "description": "Queres rescindir um contrato de trabalho em Croácia? Descobre os teus direitos no nosso guia completo sobre as leis de cessação do contrato de trabalho.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154291,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/17434508c3d411da-pt-pt-explorar-pais-croacia-rescisao-contrato.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/17434508c3d411da-pt-pt-explorar-pais-croacia-rescisao-contrato.direct.json",
+  "markdownChars": 2228,
+  "linksCount": 44,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:01:09.447Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/hr-prozess",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/hr-prozess",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/hr-prozess",
+  "title": "What is HR process?",
+  "description": " Entdecke die HR-Prozesse und ihre Auswirkungen auf das Management des Mitarbeiterlebenszyklus und die Verbesserung der Effizienz. In unserem Glossar erfährst du mehr über ihre wichtigsten Bestandteile und Vorteile.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252610,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7b8f3f0145813189-de-ch-ressourcen-hr-glossar-hr-prozess.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7b8f3f0145813189-de-ch-ressourcen-hr-glossar-hr-prozess.direct.json",
+  "markdownChars": 2667,
+  "linksCount": 122,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:18:36.440Z"
+}

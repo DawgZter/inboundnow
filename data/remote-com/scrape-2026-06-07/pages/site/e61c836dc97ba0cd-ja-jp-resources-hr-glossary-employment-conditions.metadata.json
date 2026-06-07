@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/employment-conditions",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/employment-conditions",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/employment-conditions",
+  "title": "雇用条件",
+  "description": "雇用条件とは何か、なぜそれが重要なのか、良い労働条件の例を理解する。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257902,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e61c836dc97ba0cd-ja-jp-resources-hr-glossary-employment-conditions.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e61c836dc97ba0cd-ja-jp-resources-hr-glossary-employment-conditions.direct.json",
+  "markdownChars": 2822,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:07:56.705Z"
+}

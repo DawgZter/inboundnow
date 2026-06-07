@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/zimbabue/rescisao-contrato",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/zimbabue/rescisao-contrato",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/zimbabue/rescisao-contrato",
+  "title": "Rescisão de contratos no Zimbabué | Cessação do contrato de trabalho",
+  "description": "Queres rescindir um contrato de trabalho em Zimbabué? Descobre os teus direitos no nosso guia completo sobre a cessação do contrato de trabalho.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153228,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e2103153ae5091b-pt-pt-explorar-pais-zimbabue-rescisao-contrato.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e2103153ae5091b-pt-pt-explorar-pais-zimbabue-rescisao-contrato.direct.json",
+  "markdownChars": 1741,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:05:30.491Z"
+}

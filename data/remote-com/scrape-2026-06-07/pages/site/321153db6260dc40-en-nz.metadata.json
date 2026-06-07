@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/",
+  "sourceURL": "https://remote.com/en-nz/",
+  "finalURL": "https://remote.com/en-nz/",
+  "title": "Remote — Global Employment Infrastructure | EOR, Payroll & Compliance, Worldwide",
+  "description": "The intelligent infrastructure for global employment. EOR, global payroll, contractor management, and compliant payments — worldwide, on one system of record.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 562862,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/321153db6260dc40-en-nz.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/321153db6260dc40-en-nz.direct.json",
+  "markdownChars": 10091,
+  "linksCount": 127,
+  "lastmod": "2026-05-22",
+  "scrapedAt": "2026-06-07T09:05:20.404Z"
+}

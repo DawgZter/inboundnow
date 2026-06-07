@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/croatia",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/croatia",
+  "finalURL": "https://remote.com/en-sg/country-explorer/croatia",
+  "title": "Employer of Record & Payroll Services | Croatia",
+  "description": "Hiring employees and contractors in Croatia? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 343732,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b75f8af498cd241f-en-sg-country-explorer-croatia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b75f8af498cd241f-en-sg-country-explorer-croatia.direct.json",
+  "markdownChars": 6324,
+  "linksCount": 127,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:16:42.647Z"
+}

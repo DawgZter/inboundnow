@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/uruguay/cessazione-rapporto-lavoro",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/uruguay/cessazione-rapporto-lavoro",
+  "finalURL": "https://remote.com/it-it/esplora-paese/uruguay/cessazione-rapporto-lavoro",
+  "title": "Interrompi un rapporto di lavoro in Uruguay | Cessazione del rapporto di lavoro",
+  "description": "Vuoi interrompere un rapporto di lavoro in Uruguay? Scopri i tuoi diritti e i requisiti legali nella nostra guida completa sulla cessazione del rapporto di lavoro.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153619,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f752be88978bb9c-it-it-esplora-paese-uruguay-cessazione-rapporto-lavoro.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f752be88978bb9c-it-it-esplora-paese-uruguay-cessazione-rapporto-lavoro.direct.json",
+  "markdownChars": 1812,
+  "linksCount": 44,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:01:32.306Z"
+}

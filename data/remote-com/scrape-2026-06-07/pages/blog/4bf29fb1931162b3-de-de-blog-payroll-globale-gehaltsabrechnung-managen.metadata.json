@@ -1,0 +1,18 @@
+{
+  "category": "blog",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/blog/payroll/globale-gehaltsabrechnung-managen",
+  "sourceURL": "https://remote.com/de-de/blog/payroll/globale-gehaltsabrechnung-managen",
+  "finalURL": "https://remote.com/de-de/blog/payroll/globale-gehaltsabrechnung-managen",
+  "title": "Globale Gehaltsabrechnung – Expertenleitfaden",
+  "description": "Es ist keine leichte Aufgabe, die Gehaltsabrechnung für ein globales Team zu verwalten. In diesem ausführlichen Leitfaden erfährst du, wie du die Gehaltsabrechnung mühelos koordinieren und skalieren kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271725,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/4bf29fb1931162b3-de-de-blog-payroll-globale-gehaltsabrechnung-managen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/4bf29fb1931162b3-de-de-blog-payroll-globale-gehaltsabrechnung-managen.direct.json",
+  "markdownChars": 18496,
+  "linksCount": 117,
+  "lastmod": "2026-05-11",
+  "scrapedAt": "2026-06-07T09:00:57.286Z"
+}

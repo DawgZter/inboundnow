@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/country-explorer/spain/benefits-guide/wellness",
+  "sourceURL": "https://remote.com/en-ca/country-explorer/spain/benefits-guide/wellness",
+  "finalURL": "https://remote.com/en-ca/country-explorer/spain/benefits-guide/wellness",
+  "title": "Wellness Benefits in Spain | Wellbeing Support",
+  "description": "Support your team with Wellness benefits in Spain.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264713,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1e36d1b0c43aa19b-en-ca-country-explorer-spain-benefits-guide-wellness.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1e36d1b0c43aa19b-en-ca-country-explorer-spain-benefits-guide-wellness.direct.json",
+  "markdownChars": 1641,
+  "linksCount": 120,
+  "lastmod": "2026-05-20",
+  "scrapedAt": "2026-06-07T09:15:36.776Z"
+}

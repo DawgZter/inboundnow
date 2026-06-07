@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/hr-glossary/employment-conditions",
+  "sourceURL": "https://remote.com/en-gb/resources/hr-glossary/employment-conditions",
+  "finalURL": "https://remote.com/en-gb/resources/hr-glossary/employment-conditions",
+  "title": "Conditions of employment: a quick guide",
+  "description": "Understand what conditions of employment are, why they are important, and examples of good work conditions.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256052,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/98b1279d9661fa77-en-gb-resources-hr-glossary-employment-conditions.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/98b1279d9661fa77-en-gb-resources-hr-glossary-employment-conditions.direct.json",
+  "markdownChars": 6946,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:15:29.933Z"
+}

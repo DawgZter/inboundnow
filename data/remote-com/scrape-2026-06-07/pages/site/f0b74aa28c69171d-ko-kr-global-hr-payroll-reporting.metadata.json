@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/global-hr/payroll-reporting",
+  "sourceURL": "https://remote.com/ko-kr/global-hr/payroll-reporting",
+  "finalURL": "https://remote.com/ko-kr/global-hr/payroll-reporting",
+  "title": "급여 보고 라이브러리 | Remote",
+  "description": "Remote의 급여 보고 라이브러리는 비즈니스 데이터 분석, 재무 관리, 인력 최적화를 달성하는 동시에 미래를 효율적으로 준비하도록 도와주는 강력한 도구입니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 314633,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f0b74aa28c69171d-ko-kr-global-hr-payroll-reporting.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f0b74aa28c69171d-ko-kr-global-hr-payroll-reporting.direct.json",
+  "markdownChars": 3269,
+  "linksCount": 118,
+  "lastmod": "2025-05-18",
+  "scrapedAt": "2026-06-07T09:13:27.479Z"
+}

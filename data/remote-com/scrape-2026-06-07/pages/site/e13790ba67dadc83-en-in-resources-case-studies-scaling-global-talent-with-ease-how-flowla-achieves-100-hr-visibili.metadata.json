@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/case-studies/scaling-global-talent-with-ease-how-flowla-achieves-100-hr-visibility-with-remote",
+  "sourceURL": "https://remote.com/en-in/resources/case-studies/scaling-global-talent-with-ease-how-flowla-achieves-100-hr-visibility-with-remote",
+  "finalURL": "https://remote.com/en-in/resources/case-studies/scaling-global-talent-with-ease-how-flowla-achieves-100-hr-visibility-with-remote",
+  "title": "Scaling global talent with ease: How Flowla achieves 100% HR visibility with Remote",
+  "description": "Flowla achieved 100% centralised HR visibility, saved 10 admin hours/month, and secured compliance for its scaling global workforce using Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258092,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e13790ba67dadc83-en-in-resources-case-studies-scaling-global-talent-with-ease-how-flowla-achieves-100-hr-visibili.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e13790ba67dadc83-en-in-resources-case-studies-scaling-global-talent-with-ease-how-flowla-achieves-100-hr-visibili.direct.json",
+  "markdownChars": 4346,
+  "linksCount": 112,
+  "lastmod": "2026-05-15",
+  "scrapedAt": "2026-06-07T09:07:16.922Z"
+}

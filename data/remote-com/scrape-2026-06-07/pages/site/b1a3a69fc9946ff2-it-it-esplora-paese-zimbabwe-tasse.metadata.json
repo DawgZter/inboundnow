@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/zimbabwe/tasse",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/zimbabwe/tasse",
+  "finalURL": "https://remote.com/it-it/esplora-paese/zimbabwe/tasse",
+  "title": "Gestisci le tasse sulla busta paga in Zimbabwe | Conformità fiscale",
+  "description": "Gestisci le tasse sulla busta paga in Zimbabwe in modo efficace e conforme. Riduci al minimo gli errori nelle buste paga, rispetta le leggi locali ed evita sanzioni costose.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155089,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1a3a69fc9946ff2-it-it-esplora-paese-zimbabwe-tasse.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1a3a69fc9946ff2-it-it-esplora-paese-zimbabwe-tasse.direct.json",
+  "markdownChars": 1306,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:01:23.567Z"
+}

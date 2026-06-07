@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/noruega/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/noruega/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/noruega/tipos-permiso",
+  "title": "Tipos de permiso en Noruega | Leyes sobre permisos de los empleados",
+  "description": "Comprende la legislación sobre permisos de los empleados en Noruega. Asegúrate de que tu empresa cumple las políticas de permisos y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264087,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/84e0c945e08bc502-es-es-explorador-paises-noruega-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/84e0c945e08bc502-es-es-explorador-paises-noruega-tipos-permiso.direct.json",
+  "markdownChars": 4231,
+  "linksCount": 121,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:17:22.232Z"
+}

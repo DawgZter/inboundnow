@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/hungary/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/hungary/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/hungary/benefits-guide",
+  "title": "匈牙利的员工福利 | 福利计划",
+  "description": "了解匈牙利的核心员工福利，包括医疗保险、带薪休假和其他福利，以助力贵公司吸引并留住优秀人才。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268887,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8f089d0b97a2e24c-zh-cn-country-explorer-hungary-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8f089d0b97a2e24c-zh-cn-country-explorer-hungary-benefits-guide.direct.json",
+  "markdownChars": 562,
+  "linksCount": 122,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:18:53.242Z"
+}

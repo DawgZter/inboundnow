@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/turchia/tasse",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/turchia/tasse",
+  "finalURL": "https://remote.com/it-it/esplora-paese/turchia/tasse",
+  "title": "Gestisci le tasse sulla busta paga in Turchia | Conformità fiscale",
+  "description": "Gestisci le tasse sulla busta paga in Turchia in modo efficace e conforme. Riduci al minimo gli errori nelle buste paga, rispetta le leggi locali e evita sanzioni costose.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153236,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3aeddd4808bd53b6-it-it-esplora-paese-turchia-tasse.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3aeddd4808bd53b6-it-it-esplora-paese-turchia-tasse.direct.json",
+  "markdownChars": 1578,
+  "linksCount": 44,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:04:27.683Z"
+}

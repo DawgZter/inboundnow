@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/philippines/employment-termination",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/philippines/employment-termination",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/philippines/employment-termination",
+  "title": "필리핀에서 직원 해고 | 해고 절차",
+  "description": "필리핀에서의 직원 해고 시 필요한 권리와 절차를 포괄적인 가이드에서 명확하게 설명합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257956,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c61d3f2908d0ab85-ko-kr-country-explorer-philippines-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c61d3f2908d0ab85-ko-kr-country-explorer-philippines-employment-termination.direct.json",
+  "markdownChars": 791,
+  "linksCount": 122,
+  "lastmod": "2025-10-01",
+  "scrapedAt": "2026-06-07T09:01:01.828Z"
+}

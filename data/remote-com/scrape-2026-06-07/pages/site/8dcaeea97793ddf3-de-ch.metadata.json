@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/",
+  "sourceURL": "https://remote.com/de-ch/",
+  "finalURL": "https://remote.com/de-ch/",
+  "title": "Remote – Infrastruktur für Global Employment | EOR, Payroll & Compliance weltweit",
+  "description": "Stelle in wenigen Minuten internationale Talente ein. Remote ist der aktuell gefragteste Anbieter von globalen Payroll-, HR-, Steuer- und Compliance-Lösungen für verteilte Teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 565992,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8dcaeea97793ddf3-de-ch.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8dcaeea97793ddf3-de-ch.direct.json",
+  "markdownChars": 11574,
+  "linksCount": 131,
+  "lastmod": "2026-05-22",
+  "scrapedAt": "2026-06-07T09:07:20.355Z"
+}

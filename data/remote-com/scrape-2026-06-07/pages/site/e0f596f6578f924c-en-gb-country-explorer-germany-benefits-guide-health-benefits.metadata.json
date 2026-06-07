@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/germany/benefits-guide/health-benefits",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/germany/benefits-guide/health-benefits",
+  "finalURL": "https://remote.com/en-gb/country-explorer/germany/benefits-guide/health-benefits",
+  "title": "Health Benefits in Germany | Wellbeing Support",
+  "description": "Support your team with Health benefits in Germany.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 283109,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e0f596f6578f924c-en-gb-country-explorer-germany-benefits-guide-health-benefits.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e0f596f6578f924c-en-gb-country-explorer-germany-benefits-guide-health-benefits.direct.json",
+  "markdownChars": 18817,
+  "linksCount": 120,
+  "lastmod": "2026-04-30",
+  "scrapedAt": "2026-06-07T09:06:38.825Z"
+}

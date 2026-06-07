@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/france/payroll",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/france/payroll",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/france/payroll",
+  "title": "フランスでの従業員支払い | 給与サービス",
+  "description": "当社の柔軟な給与処理サービスで、フランスの従業員への支払いを簡単に行えます。給与処理、経費管理、レポート作成を一元管理できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260096,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/83f6aa7b9f3d7ea9-ja-jp-country-explorer-france-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/83f6aa7b9f3d7ea9-ja-jp-country-explorer-france-payroll.direct.json",
+  "markdownChars": 1720,
+  "linksCount": 123,
+  "lastmod": "2025-11-11",
+  "scrapedAt": "2026-06-07T09:17:24.694Z"
+}

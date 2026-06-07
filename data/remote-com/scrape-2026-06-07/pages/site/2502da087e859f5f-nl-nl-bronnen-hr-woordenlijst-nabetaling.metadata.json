@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/nabetaling",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/nabetaling",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/nabetaling",
+  "title": "Achterstallige belasting",
+  "description": "Back tax is unpaid tax from previous periods. Learn what causes it, the risks of non-compliance, and how businesses can prevent costly penalties. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256028,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2502da087e859f5f-nl-nl-bronnen-hr-woordenlijst-nabetaling.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2502da087e859f5f-nl-nl-bronnen-hr-woordenlijst-nabetaling.direct.json",
+  "markdownChars": 3716,
+  "linksCount": 123,
+  "lastmod": "2025-08-05",
+  "scrapedAt": "2026-06-07T09:01:29.843Z"
+}

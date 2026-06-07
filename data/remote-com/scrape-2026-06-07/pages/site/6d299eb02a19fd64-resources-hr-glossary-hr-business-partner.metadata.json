@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/hr-business-partner",
+  "sourceURL": "https://remote.com/resources/hr-glossary/hr-business-partner",
+  "finalURL": "https://remote.com/resources/hr-glossary/hr-business-partner",
+  "title": "HR business partner",
+  "description": "Understand the role of a human resources business partner (HRBP), and how hiring one can help your business reach its goals.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255919,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6d299eb02a19fd64-resources-hr-glossary-hr-business-partner.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6d299eb02a19fd64-resources-hr-glossary-hr-business-partner.direct.json",
+  "markdownChars": 7155,
+  "linksCount": 119,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:05:56.064Z"
+}

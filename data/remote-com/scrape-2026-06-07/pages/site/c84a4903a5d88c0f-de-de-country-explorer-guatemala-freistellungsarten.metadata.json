@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/guatemala/freistellungsarten",
+  "sourceURL": "https://remote.com/de-de/country-explorer/guatemala/freistellungsarten",
+  "finalURL": "https://remote.com/de-de/country-explorer/guatemala/freistellungsarten",
+  "title": "Urlaubsansprüche in Guatemala | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Guatemala. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257467,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c84a4903a5d88c0f-de-de-country-explorer-guatemala-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c84a4903a5d88c0f-de-de-country-explorer-guatemala-freistellungsarten.direct.json",
+  "markdownChars": 1711,
+  "linksCount": 121,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:01:27.409Z"
+}

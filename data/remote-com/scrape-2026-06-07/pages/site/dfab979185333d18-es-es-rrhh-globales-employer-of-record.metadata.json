@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/rrhh-globales/employer-of-record",
+  "sourceURL": "https://remote.com/es-es/rrhh-globales/employer-of-record",
+  "finalURL": "https://remote.com/es-es/rrhh-globales/employer-of-record",
+  "title": "Servicios de empleador por cuenta ajena (EOR) | Remote",
+  "description": "Remote presta servicios de empleador por cuenta ajena en países de todo el mundo. Nos encargamos de las nóminas, los impuestos, las prestaciones y el cumplimiento normativo para que tus empleados se sientan tan seguros y protegidos como tu negocio.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 472960,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dfab979185333d18-es-es-rrhh-globales-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dfab979185333d18-es-es-rrhh-globales-employer-of-record.direct.json",
+  "markdownChars": 18426,
+  "linksCount": 131,
+  "lastmod": "2026-03-31",
+  "scrapedAt": "2026-06-07T09:02:25.301Z"
+}

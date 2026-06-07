@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/belastbare-vergoedingen",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/belastbare-vergoedingen",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/belastbare-vergoedingen",
+  "title": "Toegerekend inkomen",
+  "description": "Meer informatie over belastbare vergoedingen en hun invloed op de belastingverplichtingen van je bedrijf.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256449,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ec977900a42c80ff-nl-nl-bronnen-hr-woordenlijst-belastbare-vergoedingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ec977900a42c80ff-nl-nl-bronnen-hr-woordenlijst-belastbare-vergoedingen.direct.json",
+  "markdownChars": 4243,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:16:20.346Z"
+}

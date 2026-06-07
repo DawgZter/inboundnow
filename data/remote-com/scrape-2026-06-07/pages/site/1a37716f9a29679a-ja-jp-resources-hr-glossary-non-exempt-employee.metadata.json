@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/non-exempt-employee",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/non-exempt-employee",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/non-exempt-employee",
+  "title": "免除されない従業員,社員",
+  "description": "Learn what a non-exempt employee is, and why proper classification matters for US wage and hour compliance under the FLSA.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254727,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a37716f9a29679a-ja-jp-resources-hr-glossary-non-exempt-employee.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a37716f9a29679a-ja-jp-resources-hr-glossary-non-exempt-employee.direct.json",
+  "markdownChars": 1717,
+  "linksCount": 125,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:08:09.385Z"
+}

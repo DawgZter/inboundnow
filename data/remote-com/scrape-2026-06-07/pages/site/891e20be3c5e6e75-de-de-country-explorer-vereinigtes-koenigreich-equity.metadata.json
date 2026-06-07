@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/vereinigtes-koenigreich/equity",
+  "sourceURL": "https://remote.com/de-de/country-explorer/vereinigtes-koenigreich/equity",
+  "finalURL": "https://remote.com/de-de/country-explorer/vereinigtes-koenigreich/equity",
+  "title": "Aktienoptionen für Mitarbeiter:innen im Vereinigten Königreich",
+  "description": "Entdecke die spezifischen Regeln für Mitarbeiter:innenaktien und Aktienoptionen im Vereinigten Königreich. Triff fundierte Entscheidungen zur globalen Vergütung mit Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265019,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/891e20be3c5e6e75-de-de-country-explorer-vereinigtes-koenigreich-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/891e20be3c5e6e75-de-de-country-explorer-vereinigtes-koenigreich-equity.direct.json",
+  "markdownChars": 5125,
+  "linksCount": 124,
+  "lastmod": "2025-12-15",
+  "scrapedAt": "2026-06-07T09:14:27.986Z"
+}

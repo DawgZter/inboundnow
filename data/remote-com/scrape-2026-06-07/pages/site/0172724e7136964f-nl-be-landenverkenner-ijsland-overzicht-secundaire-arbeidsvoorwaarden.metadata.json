@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/ijsland/overzicht-secundaire-arbeidsvoorwaarden",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/ijsland/overzicht-secundaire-arbeidsvoorwaarden",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/ijsland/overzicht-secundaire-arbeidsvoorwaarden",
+  "title": "Secundaire arbeidsvoorwaarden in IJsland | Pakketten",
+  "description": "Ontdek de essentiële secundaire arbeidsvoorwaarden voor werknemers in IJsland. Lees meer over zorgverzekering, betaald verlof en andere secundaire arbeidsvoorwaarden om talent aan te trekken en te behouden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 267124,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0172724e7136964f-nl-be-landenverkenner-ijsland-overzicht-secundaire-arbeidsvoorwaarden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0172724e7136964f-nl-be-landenverkenner-ijsland-overzicht-secundaire-arbeidsvoorwaarden.direct.json",
+  "markdownChars": 1652,
+  "linksCount": 125,
+  "lastmod": "2026-01-06",
+  "scrapedAt": "2026-06-07T09:07:10.124Z"
+}

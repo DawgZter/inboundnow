@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/subscribe-to-newsletter",
+  "sourceURL": "https://remote.com/subscribe-to-newsletter",
+  "finalURL": "https://remote.com/subscribe-to-newsletter",
+  "title": "Subscribe to Newsletter",
+  "description": "Subscribe to Newsletter",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 245654,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5a0a1a1fa945ca54-subscribe-to-newsletter.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5a0a1a1fa945ca54-subscribe-to-newsletter.direct.json",
+  "markdownChars": 160,
+  "linksCount": 111,
+  "lastmod": "2025-05-22",
+  "scrapedAt": "2026-06-07T09:04:41.130Z"
+}

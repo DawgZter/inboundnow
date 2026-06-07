@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/tarieven",
+  "sourceURL": "https://remote.com/nl-nl/tarieven",
+  "finalURL": "https://remote.com/nl-nl/tarieven",
+  "title": "Tarieven en pakketten: Lage vaste tarieven | Remote",
+  "description": "Vergelijk en kies de juiste solution van Remote voor global payroll, belastingen, HR en naleving voor je verspreide team.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 397915,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4547a0592aa67a3e-nl-nl-tarieven.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4547a0592aa67a3e-nl-nl-tarieven.direct.json",
+  "markdownChars": 13101,
+  "linksCount": 124,
+  "lastmod": "2026-04-09",
+  "scrapedAt": "2026-06-07T09:09:17.289Z"
+}

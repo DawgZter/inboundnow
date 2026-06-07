@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/us-state-explorer/illinois/employment-termination",
+  "sourceURL": "https://remote.com/en-au/us-state-explorer/illinois/employment-termination",
+  "finalURL": "https://remote.com/en-au/us-state-explorer/illinois/employment-termination",
+  "title": "Terminate Employees in Illinois | Employment Termination",
+  "description": "Looking to terminate an employee in Illinois? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256046,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5b294da8301f2b02-en-au-us-state-explorer-illinois-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5b294da8301f2b02-en-au-us-state-explorer-illinois-employment-termination.direct.json",
+  "markdownChars": 1683,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:06:51.080Z"
+}

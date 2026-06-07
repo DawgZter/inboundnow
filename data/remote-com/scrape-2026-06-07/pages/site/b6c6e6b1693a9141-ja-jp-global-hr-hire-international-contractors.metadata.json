@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/global-hr/hire-international-contractors",
+  "sourceURL": "https://remote.com/ja-jp/global-hr/hire-international-contractors",
+  "finalURL": "https://remote.com/ja-jp/global-hr/hire-international-contractors",
+  "title": "海外契約社員の雇用",
+  "description": "契約社員のオンボーディング、法令を遵守した契約、世界中の契約社員への給与支給を、追加料金が一切かからず実行できるのはRemoteだけです。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 375433,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b6c6e6b1693a9141-ja-jp-global-hr-hire-international-contractors.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b6c6e6b1693a9141-ja-jp-global-hr-hire-international-contractors.direct.json",
+  "markdownChars": 6920,
+  "linksCount": 118,
+  "lastmod": "2025-04-23",
+  "scrapedAt": "2026-06-07T09:05:51.762Z"
+}

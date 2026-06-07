@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/hong-kong",
+  "sourceURL": "https://remote.com/en-za/country-explorer/hong-kong",
+  "finalURL": "https://remote.com/en-za/country-explorer/hong-kong",
+  "title": "Employer of Record & Payroll Services | Hong Kong",
+  "description": "Hiring employees and contractors in Hong Kong? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 344897,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9724b08fcbd6e454-en-za-country-explorer-hong-kong.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9724b08fcbd6e454-en-za-country-explorer-hong-kong.direct.json",
+  "markdownChars": 6288,
+  "linksCount": 127,
+  "lastmod": "2026-05-01",
+  "scrapedAt": "2026-06-07T09:13:35.425Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/ratio-salaire-marche",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/ratio-salaire-marche",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/ratio-salaire-marche",
+  "title": "Compa-ratio",
+  "description": "Compa-ratio compares an employee’s salary to the market midpoint. Learn how to calculate it, why it matters, and how to use it for fair pay.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256759,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/87a429d914fdd79e-fr-ch-ressources-glossaire-rh-ratio-salaire-marche.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/87a429d914fdd79e-fr-ch-ressources-glossaire-rh-ratio-salaire-marche.direct.json",
+  "markdownChars": 4534,
+  "linksCount": 122,
+  "lastmod": "2025-08-04",
+  "scrapedAt": "2026-06-07T09:13:04.790Z"
+}

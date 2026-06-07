@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/hr-glossary/compa-ratio",
+  "sourceURL": "https://remote.com/en-ca/resources/hr-glossary/compa-ratio",
+  "finalURL": "https://remote.com/en-ca/resources/hr-glossary/compa-ratio",
+  "title": "Compa-ratio",
+  "description": "Compa-ratio compares an employee’s salary to the market midpoint. Learn how to calculate it, why it matters, and how to use it for fair pay.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253849,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71f04aeb3adff150-en-ca-resources-hr-glossary-compa-ratio.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71f04aeb3adff150-en-ca-resources-hr-glossary-compa-ratio.direct.json",
+  "markdownChars": 3661,
+  "linksCount": 119,
+  "lastmod": "2025-08-04",
+  "scrapedAt": "2026-06-07T09:12:56.544Z"
+}

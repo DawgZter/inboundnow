@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/us-state-explorer/connecticut/employer-of-record",
+  "sourceURL": "https://remote.com/en-ca/us-state-explorer/connecticut/employer-of-record",
+  "finalURL": "https://remote.com/en-ca/us-state-explorer/connecticut/employer-of-record",
+  "title": "Employer of Record services in Connecticut",
+  "description": "Use employer of record services in Connecticut make hiring, managing, and paying top talent easy. Stay compliant in Connecticut and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260213,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/94ebcf15a0625064-en-ca-us-state-explorer-connecticut-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/94ebcf15a0625064-en-ca-us-state-explorer-connecticut-employer-of-record.direct.json",
+  "markdownChars": 3344,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:01:48.941Z"
+}

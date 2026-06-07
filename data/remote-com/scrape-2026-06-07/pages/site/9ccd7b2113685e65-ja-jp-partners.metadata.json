@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/partners",
+  "sourceURL": "https://remote.com/ja-jp/partners",
+  "finalURL": "https://remote.com/ja-jp/partners",
+  "title": "Remoteパートナープログラムを詳しく見る | Remote",
+  "description": "リモートワークの未来を実現し、事業を成長させてみませんか。Remoteのプログラムの詳細についてはこちらをご覧ください。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 318388,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ccd7b2113685e65-ja-jp-partners.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ccd7b2113685e65-ja-jp-partners.direct.json",
+  "markdownChars": 2122,
+  "linksCount": 113,
+  "lastmod": "2026-04-17",
+  "scrapedAt": "2026-06-07T09:07:24.292Z"
+}

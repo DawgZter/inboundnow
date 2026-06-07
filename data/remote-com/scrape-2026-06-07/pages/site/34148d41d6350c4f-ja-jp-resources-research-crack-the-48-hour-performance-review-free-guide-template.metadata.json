@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/research/crack-the-48-hour-performance-review-free-guide-template",
+  "sourceURL": "https://remote.com/ja-jp/resources/research/crack-the-48-hour-performance-review-free-guide-template",
+  "finalURL": "https://remote.com/ja-jp/resources/research/crack-the-48-hour-performance-review-free-guide-template",
+  "title": "48時間でパフォーマンスレビューを実行 | Remote",
+  "description": "レビュープロセスを刷新しましょう。当社の無料ガイド「48時間でパフォーマンスレビューを実行するには」をダウンロードして、タイムリーでインパクトのあるフィードバックを提供し、成長を促す方法をご確認ください。今すぐダウンロード",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 317718,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/34148d41d6350c4f-ja-jp-resources-research-crack-the-48-hour-performance-review-free-guide-template.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/34148d41d6350c4f-ja-jp-resources-research-crack-the-48-hour-performance-review-free-guide-template.direct.json",
+  "markdownChars": 1789,
+  "linksCount": 119,
+  "lastmod": "2025-12-25",
+  "scrapedAt": "2026-06-07T09:01:42.092Z"
+}

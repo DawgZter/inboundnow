@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/suedkorea/steuern",
+  "sourceURL": "https://remote.com/de-at/country-explorer/suedkorea/steuern",
+  "finalURL": "https://remote.com/de-at/country-explorer/suedkorea/steuern",
+  "title": "Lohnnebenkosten in South Korea | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Suedkorea.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261921,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c2f819094d36b5f5-de-at-country-explorer-suedkorea-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c2f819094d36b5f5-de-at-country-explorer-suedkorea-steuern.direct.json",
+  "markdownChars": 2151,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:17:20.914Z"
+}

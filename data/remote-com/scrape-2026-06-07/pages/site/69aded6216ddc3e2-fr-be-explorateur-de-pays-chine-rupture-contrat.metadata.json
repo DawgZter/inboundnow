@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/chine/rupture-contrat",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/chine/rupture-contrat",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/chine/rupture-contrat",
+  "title": "China : Résilier le contrat d’un employé | Rupture de contrat",
+  "description": "Chine : Vous avez besoin de résilier le contrat d’un employé ? Découvrez quels sont vos droits grâce à notre guide complet sur les lois régissant la rupture de contrat des employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261314,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69aded6216ddc3e2-fr-be-explorateur-de-pays-chine-rupture-contrat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69aded6216ddc3e2-fr-be-explorateur-de-pays-chine-rupture-contrat.direct.json",
+  "markdownChars": 1722,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:15:24.133Z"
+}

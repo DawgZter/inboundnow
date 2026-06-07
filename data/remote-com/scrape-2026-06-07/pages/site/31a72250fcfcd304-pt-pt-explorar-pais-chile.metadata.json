@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/chile",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/chile",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/chile",
+  "title": "Employer of Record (EOR) e processamento salarial | Chile",
+  "description": "Queres contratar trabalhadores e independentes no Chile? A Remote ajuda-te a gerir a tua equipa através da nossa plataforma global de RH integrada.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 247593,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31a72250fcfcd304-pt-pt-explorar-pais-chile.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31a72250fcfcd304-pt-pt-explorar-pais-chile.direct.json",
+  "markdownChars": 8925,
+  "linksCount": 47,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:01:13.443Z"
+}

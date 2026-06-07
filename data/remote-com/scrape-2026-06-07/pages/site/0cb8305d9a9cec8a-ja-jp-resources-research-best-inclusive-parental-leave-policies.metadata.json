@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/research/best-inclusive-parental-leave-policies",
+  "sourceURL": "https://remote.com/ja-jp/resources/research/best-inclusive-parental-leave-policies",
+  "finalURL": "https://remote.com/ja-jp/resources/research/best-inclusive-parental-leave-policies",
+  "title": "世界の働く親に関するレポート | Remote | Remote",
+  "description": "Remoteは、世界13か国で働く親13,850人を対象にグローバル調査を実施し、世界で最も包括的な育児休暇制度について調査しました。先進的な取り組みを行っている国を確認する",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 392154,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0cb8305d9a9cec8a-ja-jp-resources-research-best-inclusive-parental-leave-policies.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0cb8305d9a9cec8a-ja-jp-resources-research-best-inclusive-parental-leave-policies.direct.json",
+  "markdownChars": 13791,
+  "linksCount": 142,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:07:50.189Z"
+}

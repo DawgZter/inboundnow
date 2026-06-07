@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/hr-glossary/telecommuting",
+  "sourceURL": "https://remote.com/en-nz/resources/hr-glossary/telecommuting",
+  "finalURL": "https://remote.com/en-nz/resources/hr-glossary/telecommuting",
+  "title": "What is telecommuting?",
+  "description": "Discover the ins and outs of telecommuting. Learn how this flexible work arrangement can benefit both employees and employers.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254388,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/629aa75ae2016558-en-nz-resources-hr-glossary-telecommuting.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/629aa75ae2016558-en-nz-resources-hr-glossary-telecommuting.direct.json",
+  "markdownChars": 5679,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:09:29.844Z"
+}

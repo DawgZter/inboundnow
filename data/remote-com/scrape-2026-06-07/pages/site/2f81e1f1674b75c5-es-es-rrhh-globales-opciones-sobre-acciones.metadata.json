@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/rrhh-globales/opciones-sobre-acciones",
+  "sourceURL": "https://remote.com/es-es/rrhh-globales/opciones-sobre-acciones",
+  "finalURL": "https://remote.com/es-es/rrhh-globales/opciones-sobre-acciones",
+  "title": "Opciones sobre acciones y otras acciones como incentivo para empleados internacionales | Remote",
+  "description": "Contrata talento internacional en cuestión de minutos. Remote es la solución de nóminas globales, impuestos, RR. HH. y cumplimiento normativo más revolucionaria para equipos distribuidos.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 384343,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2f81e1f1674b75c5-es-es-rrhh-globales-opciones-sobre-acciones.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2f81e1f1674b75c5-es-es-rrhh-globales-opciones-sobre-acciones.direct.json",
+  "markdownChars": 7878,
+  "linksCount": 119,
+  "lastmod": "2026-03-25",
+  "scrapedAt": "2026-06-07T09:16:06.116Z"
+}

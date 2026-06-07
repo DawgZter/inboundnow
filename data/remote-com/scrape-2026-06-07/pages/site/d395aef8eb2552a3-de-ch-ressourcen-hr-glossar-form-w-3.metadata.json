@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/form-w-3",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/form-w-3",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/form-w-3",
+  "title": "What is Form W-3?",
+  "description": "Verstehe, was das Formular W-3 ist, für wen es bestimmt ist und warum dein Unternehmen es rechtzeitig und korrekt einreichen muss.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259002,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d395aef8eb2552a3-de-ch-ressourcen-hr-glossar-form-w-3.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d395aef8eb2552a3-de-ch-ressourcen-hr-glossar-form-w-3.direct.json",
+  "markdownChars": 8009,
+  "linksCount": 128,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:13:49.183Z"
+}

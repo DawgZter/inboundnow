@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/honduras/types-of-leave",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/honduras/types-of-leave",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/honduras/types-of-leave",
+  "title": "온두라스의 휴가 유형 | 직원 휴가 법규",
+  "description": "온두라스의 직원 휴가 법규를 이해하여 귀사의 휴가 정책 준수와 경쟁력 있는 유급 휴가 제공을 보장합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259132,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/75ed0b30fc9a650e-ko-kr-country-explorer-honduras-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/75ed0b30fc9a650e-ko-kr-country-explorer-honduras-types-of-leave.direct.json",
+  "markdownChars": 1283,
+  "linksCount": 121,
+  "lastmod": "2026-04-03",
+  "scrapedAt": "2026-06-07T09:12:05.257Z"
+}

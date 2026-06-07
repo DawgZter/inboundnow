@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/saint-vincent-e-grenadine",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/saint-vincent-e-grenadine",
+  "finalURL": "https://remote.com/it-it/esplora-paese/saint-vincent-e-grenadine",
+  "title": "Employer of Record (EOR) e servizi Payroll | Saint Vincent e Grenadine",
+  "description": "Vuoi assumere personale e collaboratori in Saint Vincent e Grenadine? Remote può aiutarti a gestire personale e collaboratori tramite la Piattaforma HR di Remote.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 205798,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/920bf96897606d1a-it-it-esplora-paese-saint-vincent-e-grenadine.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/920bf96897606d1a-it-it-esplora-paese-saint-vincent-e-grenadine.direct.json",
+  "markdownChars": 3530,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:14:55.788Z"
+}

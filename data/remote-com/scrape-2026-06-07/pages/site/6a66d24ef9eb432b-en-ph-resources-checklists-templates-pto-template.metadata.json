@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/checklists-templates/pto-template",
+  "sourceURL": "https://remote.com/en-ph/resources/checklists-templates/pto-template",
+  "finalURL": "https://remote.com/en-ph/resources/checklists-templates/pto-template",
+  "title": "Paid Time Off (PTO) policy template | Remote",
+  "description": "Create clear, compliant PTO policies with this customizable template. Simplify time-off tracking and support your team across borders.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254926,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6a66d24ef9eb432b-en-ph-resources-checklists-templates-pto-template.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6a66d24ef9eb432b-en-ph-resources-checklists-templates-pto-template.direct.json",
+  "markdownChars": 9978,
+  "linksCount": 111,
+  "lastmod": "2025-07-25",
+  "scrapedAt": "2026-06-07T09:11:04.631Z"
+}

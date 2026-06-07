@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/united-arab-emirates/employment-termination",
+  "sourceURL": "https://remote.com/country-explorer/united-arab-emirates/employment-termination",
+  "finalURL": "https://remote.com/country-explorer/united-arab-emirates/employment-termination",
+  "title": "Terminate Employees in United Arab Emirates | Employment Termination",
+  "description": "Looking to terminate an employee in United Arab Emirates? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260542,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/104edf0dad9c614b-country-explorer-united-arab-emirates-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/104edf0dad9c614b-country-explorer-united-arab-emirates-employment-termination.direct.json",
+  "markdownChars": 1431,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:01:53.323Z"
+}

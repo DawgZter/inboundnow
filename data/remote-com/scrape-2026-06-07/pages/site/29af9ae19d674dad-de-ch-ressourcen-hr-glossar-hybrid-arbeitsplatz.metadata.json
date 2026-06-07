@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/hybrid-arbeitsplatz",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/hybrid-arbeitsplatz",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/hybrid-arbeitsplatz",
+  "title": "What is a hybrid workspace?",
+  "description": " Erfahre mehr über hybride Arbeitsräume und ihren Einfluss auf moderne Arbeitsumgebungen. In unserem Glossar erfährst du, wie sie Fern- und Innendienst effektiv miteinander verbinden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254527,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/29af9ae19d674dad-de-ch-ressourcen-hr-glossar-hybrid-arbeitsplatz.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/29af9ae19d674dad-de-ch-ressourcen-hr-glossar-hybrid-arbeitsplatz.direct.json",
+  "markdownChars": 4259,
+  "linksCount": 122,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:18:07.703Z"
+}

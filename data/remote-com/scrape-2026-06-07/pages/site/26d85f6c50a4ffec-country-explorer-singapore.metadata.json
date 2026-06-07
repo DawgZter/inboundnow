@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/singapore",
+  "sourceURL": "https://remote.com/country-explorer/singapore",
+  "finalURL": "https://remote.com/country-explorer/singapore",
+  "title": "Employer of Record & Payroll Services | Singapore",
+  "description": "Hiring employees and contractors in Singapore? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 349918,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/26d85f6c50a4ffec-country-explorer-singapore.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/26d85f6c50a4ffec-country-explorer-singapore.direct.json",
+  "markdownChars": 7200,
+  "linksCount": 129,
+  "lastmod": "2025-10-06",
+  "scrapedAt": "2026-06-07T09:09:30.373Z"
+}

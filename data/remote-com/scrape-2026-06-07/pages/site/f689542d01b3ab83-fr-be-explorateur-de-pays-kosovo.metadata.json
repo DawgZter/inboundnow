@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/kosovo",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/kosovo",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/kosovo",
+  "title": "Employer of record et de gestion de la paie | Kosovo",
+  "description": "Recruter des employés et des freelances : Kosovo Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 342955,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f689542d01b3ab83-fr-be-explorateur-de-pays-kosovo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f689542d01b3ab83-fr-be-explorateur-de-pays-kosovo.direct.json",
+  "markdownChars": 5335,
+  "linksCount": 125,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:02:48.371Z"
+}

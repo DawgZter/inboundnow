@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/forschung/relocation-leitfaden",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/forschung/relocation-leitfaden",
+  "finalURL": "https://remote.com/de-ch/ressourcen/forschung/relocation-leitfaden",
+  "title": "Globale HR-Lösungen und Personallösungen für verteilte Teams | Remote",
+  "description": "Remote ist deine Komplettlösung für die Beschäftigung von Talenten in allen Ländern.  Unsere Lösung für Gehaltsabrechnungen, Benefits, Steuern und Compliance ermöglicht es Unternehmen, globale Teams aufzubauen und zu verwalten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 278395,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5deef3944e7f306e-de-ch-ressourcen-forschung-relocation-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5deef3944e7f306e-de-ch-ressourcen-forschung-relocation-leitfaden.direct.json",
+  "markdownChars": 1599,
+  "linksCount": 113,
+  "lastmod": "2025-07-10",
+  "scrapedAt": "2026-06-07T09:02:02.764Z"
+}

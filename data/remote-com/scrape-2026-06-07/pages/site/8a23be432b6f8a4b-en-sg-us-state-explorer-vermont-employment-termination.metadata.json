@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/us-state-explorer/vermont/employment-termination",
+  "sourceURL": "https://remote.com/en-sg/us-state-explorer/vermont/employment-termination",
+  "finalURL": "https://remote.com/en-sg/us-state-explorer/vermont/employment-termination",
+  "title": "Terminate Employees in Vermont | Employment Termination",
+  "description": "Looking to terminate an employee in Vermont? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256271,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a23be432b6f8a4b-en-sg-us-state-explorer-vermont-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a23be432b6f8a4b-en-sg-us-state-explorer-vermont-employment-termination.direct.json",
+  "markdownChars": 1688,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:10:52.182Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/montenegro/contractor-management",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/montenegro/contractor-management",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/montenegro/contractor-management",
+  "title": "몬테네그로에서 계약자 관리 | 계약자 관리",
+  "description": "몬테네그로에서 계약자를 고용하려면, Remote의 유연한 계약자 관리 서비스로 글로벌 계약자를 손쉽게 관리하고 지급을 처리하세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256395,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/98e96426aff33b88-ko-kr-country-explorer-montenegro-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/98e96426aff33b88-ko-kr-country-explorer-montenegro-contractor-management.direct.json",
+  "markdownChars": 1097,
+  "linksCount": 117,
+  "lastmod": "2025-11-07",
+  "scrapedAt": "2026-06-07T09:17:37.711Z"
+}

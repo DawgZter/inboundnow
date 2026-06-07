@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/uruguai",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/uruguai",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/uruguai",
+  "title": "Employer of Record (EOR) e processamento salarial | Uruguai",
+  "description": "Queres contratar trabalhadores e independentes no Uruguai? A Remote ajuda-te a gerir a tua equipa através da nossa plataforma global de RH.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 235006,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/595fe1c073ede13f-pt-pt-explorar-pais-uruguai.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/595fe1c073ede13f-pt-pt-explorar-pais-uruguai.direct.json",
+  "markdownChars": 5799,
+  "linksCount": 46,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:05:56.027Z"
+}

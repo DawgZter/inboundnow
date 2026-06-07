@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/checklists-templates/payroll-template",
+  "sourceURL": "https://remote.com/en-ph/resources/checklists-templates/payroll-template",
+  "finalURL": "https://remote.com/en-ph/resources/checklists-templates/payroll-template",
+  "title": "Payroll template | Remote",
+  "description": "Run payroll with confidence using this step-by-step on-page checklist. Perfect for businesses managing payroll in-house, or exploring global solutions.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 246463,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/682eba4dc7dd6ce2-en-ph-resources-checklists-templates-payroll-template.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/682eba4dc7dd6ce2-en-ph-resources-checklists-templates-payroll-template.direct.json",
+  "markdownChars": 3284,
+  "linksCount": 105,
+  "lastmod": "2025-07-16",
+  "scrapedAt": "2026-06-07T09:10:50.786Z"
+}

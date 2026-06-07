@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/partner/finanzberater",
+  "sourceURL": "https://remote.com/de-de/partner/finanzberater",
+  "finalURL": "https://remote.com/de-de/partner/finanzberater",
+  "title": "Partnerprogramm für Finanzberater:innen | Remote",
+  "description": "Biete deinen Kunden eine einfache Lösung, mit der sie preiswert ein leistungsstarkes globales Team aufbauen können – mit Sonderrabatten auf unsere internationalen Payroll- und Personaldienstleistungen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 309671,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07d83eb651df9642-de-de-partner-finanzberater.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07d83eb651df9642-de-de-partner-finanzberater.direct.json",
+  "markdownChars": 5206,
+  "linksCount": 116,
+  "lastmod": "2025-06-24",
+  "scrapedAt": "2026-06-07T09:13:29.101Z"
+}

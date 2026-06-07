@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/colombia/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/colombia/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/colombia/tipos-permiso",
+  "title": "Tipos de permisos en Colombia | Legislación sobre permisos de empleados",
+  "description": "Conoce la normativa de permisos en Colombia y asegúrate de que tu empresa cumple las políticas y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261358,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e93670a583282892-es-es-explorador-paises-colombia-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e93670a583282892-es-es-explorador-paises-colombia-tipos-permiso.direct.json",
+  "markdownChars": 2945,
+  "linksCount": 122,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:13:17.709Z"
+}

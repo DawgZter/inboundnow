@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/saudi-arabia/employment-termination",
+  "sourceURL": "https://remote.com/en-in/country-explorer/saudi-arabia/employment-termination",
+  "finalURL": "https://remote.com/en-in/country-explorer/saudi-arabia/employment-termination",
+  "title": "Terminate Employees in Saudi Arabia | Employment Termination",
+  "description": "Looking to terminate an employee in Saudi Arabia? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258968,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b2e5cc5c08ee6197-en-in-country-explorer-saudi-arabia-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b2e5cc5c08ee6197-en-in-country-explorer-saudi-arabia-employment-termination.direct.json",
+  "markdownChars": 2445,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:10:56.461Z"
+}

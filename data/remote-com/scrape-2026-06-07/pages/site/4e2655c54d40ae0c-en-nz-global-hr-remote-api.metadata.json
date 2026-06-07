@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/global-hr/remote-api",
+  "sourceURL": "https://remote.com/en-nz/global-hr/remote-api",
+  "finalURL": "https://remote.com/en-nz/global-hr/remote-api",
+  "title": "Remote API | Remote",
+  "description": "Remote provides employer of record services in countries all over the world. We handle local payroll, taxes, benefits, and compliance so your employees feel as safe and secure as your business does.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 331391,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4e2655c54d40ae0c-en-nz-global-hr-remote-api.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4e2655c54d40ae0c-en-nz-global-hr-remote-api.direct.json",
+  "markdownChars": 6684,
+  "linksCount": 123,
+  "lastmod": "2025-10-18",
+  "scrapedAt": "2026-06-07T09:16:31.542Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/job-descriptions/it-specialist-job-description",
+  "sourceURL": "https://remote.com/en-au/resources/job-descriptions/it-specialist-job-description",
+  "finalURL": "https://remote.com/en-au/resources/job-descriptions/it-specialist-job-description",
+  "title": "IT specialist role description",
+  "description": "Review the job description for IT specialist, responsible for managing and maintaining computer systems, troubleshooting technical issues, and ensuring network security.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258845,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b75fed6966dd6433-en-au-resources-job-descriptions-it-specialist-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b75fed6966dd6433-en-au-resources-job-descriptions-it-specialist-job-description.direct.json",
+  "markdownChars": 4325,
+  "linksCount": 112,
+  "lastmod": "2026-02-11",
+  "scrapedAt": "2026-06-07T09:02:30.433Z"
+}

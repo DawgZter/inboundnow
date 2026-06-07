@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/nicaragua",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/nicaragua",
+  "finalURL": "https://remote.com/es-es/explorador-paises/nicaragua",
+  "title": "Employer of Record y servicios de nómina | Nicaragua",
+  "description": "¿Contratas empleados y trabajadores autónomos en Nicaragua? Remote puede ayudarte a gestionar empleados y trabajadores autónomos a través de nuestra plataforma de RR. HH. global integrada.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 342383,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f0c56b02a47f3096-es-es-explorador-paises-nicaragua.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f0c56b02a47f3096-es-es-explorador-paises-nicaragua.direct.json",
+  "markdownChars": 5914,
+  "linksCount": 122,
+  "lastmod": "2026-03-10",
+  "scrapedAt": "2026-06-07T09:17:33.934Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/rh-international/rapports-paie",
+  "sourceURL": "https://remote.com/fr-ch/rh-international/rapports-paie",
+  "finalURL": "https://remote.com/fr-ch/rh-international/rapports-paie",
+  "title": "Bibliothèque des rapports de paie | Remote",
+  "description": "Les rapports de paie permettent d'analyser les données d'entreprise, gérer les finances, optimiser les effectifs et planifier efficacement l'avenir de votre entreprise.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 316826,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2669f5eae6e3ae63-fr-ch-rh-international-rapports-paie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2669f5eae6e3ae63-fr-ch-rh-international-rapports-paie.direct.json",
+  "markdownChars": 7129,
+  "linksCount": 118,
+  "lastmod": "2025-05-18",
+  "scrapedAt": "2026-06-07T09:06:39.182Z"
+}

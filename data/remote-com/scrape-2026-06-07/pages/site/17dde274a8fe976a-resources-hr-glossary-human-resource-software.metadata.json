@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/human-resource-software",
+  "sourceURL": "https://remote.com/resources/hr-glossary/human-resource-software",
+  "finalURL": "https://remote.com/resources/hr-glossary/human-resource-software",
+  "title": "HR software",
+  "description": "Discover what HR software is, how it works, and how it can be used to streamline and manage your human resources operations.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251317,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/17dde274a8fe976a-resources-hr-glossary-human-resource-software.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/17dde274a8fe976a-resources-hr-glossary-human-resource-software.direct.json",
+  "markdownChars": 3085,
+  "linksCount": 119,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:17:39.034Z"
+}

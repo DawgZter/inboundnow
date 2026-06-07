@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/turkmenistan/contractor-management",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/turkmenistan/contractor-management",
+  "finalURL": "https://remote.com/es-es/explorador-paises/turkmenistan/contractor-management",
+  "title": "Gestión de trabajadores autónomos en Turkmenistán | Contractor Management",
+  "description": "¿Contratas a un trabajador autónomo en Turkmenistán? Gestiona y paga a trabajadores autónomos globales sin esfuerzo con nuestros flexibles servicios de Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258386,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2eb92c8e036b9fa8-es-es-explorador-paises-turkmenistan-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2eb92c8e036b9fa8-es-es-explorador-paises-turkmenistan-contractor-management.direct.json",
+  "markdownChars": 2608,
+  "linksCount": 116,
+  "lastmod": "2025-10-31",
+  "scrapedAt": "2026-06-07T09:17:15.907Z"
+}

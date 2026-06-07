@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/mexico/benefits-guide/business-travel-insurance",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/mexico/benefits-guide/business-travel-insurance",
+  "finalURL": "https://remote.com/en-ie/country-explorer/mexico/benefits-guide/business-travel-insurance",
+  "title": "Business Travel Insurance Benefits in Mexico | Wellbeing Support",
+  "description": "Do your employees regularly travel for business? Protect their safety and well-being with a range of business travel insurance plans in Mexico.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268596,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8e68e45c2652a1d-en-ie-country-explorer-mexico-benefits-guide-business-travel-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8e68e45c2652a1d-en-ie-country-explorer-mexico-benefits-guide-business-travel-insurance.direct.json",
+  "markdownChars": 6027,
+  "linksCount": 117,
+  "lastmod": "2025-10-09",
+  "scrapedAt": "2026-06-07T09:09:05.776Z"
+}

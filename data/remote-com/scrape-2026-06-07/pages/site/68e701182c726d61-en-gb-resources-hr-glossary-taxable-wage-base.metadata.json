@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/hr-glossary/taxable-wage-base",
+  "sourceURL": "https://remote.com/en-gb/resources/hr-glossary/taxable-wage-base",
+  "finalURL": "https://remote.com/en-gb/resources/hr-glossary/taxable-wage-base",
+  "title": "What is taxable wage base?",
+  "description": "Learn more about taxable wage base and how to calculate it",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251506,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/68e701182c726d61-en-gb-resources-hr-glossary-taxable-wage-base.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/68e701182c726d61-en-gb-resources-hr-glossary-taxable-wage-base.direct.json",
+  "markdownChars": 2799,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:04:23.133Z"
+}

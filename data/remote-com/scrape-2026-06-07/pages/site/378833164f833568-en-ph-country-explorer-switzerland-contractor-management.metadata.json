@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/switzerland/contractor-management",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/switzerland/contractor-management",
+  "finalURL": "https://remote.com/en-ph/country-explorer/switzerland/contractor-management",
+  "title": "Manage Contractors in Switzerland | Contractor Management",
+  "description": "Hiring a contractor in Switzerland? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260287,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/378833164f833568-en-ph-country-explorer-switzerland-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/378833164f833568-en-ph-country-explorer-switzerland-contractor-management.direct.json",
+  "markdownChars": 2254,
+  "linksCount": 126,
+  "lastmod": "2025-08-26",
+  "scrapedAt": "2026-06-07T09:01:40.402Z"
+}

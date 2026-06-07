@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/herramienta-riesgo-clasificacion-erronea",
+  "sourceURL": "https://remote.com/es-es/recursos/herramienta-riesgo-clasificacion-erronea",
+  "finalURL": "https://remote.com/es-es/recursos/herramienta-riesgo-clasificacion-erronea",
+  "title": "Calculadora de clasificación errónea de los empleados | Remote",
+  "description": "¿Cuál es el riesgo de clasificación errónea de tus empleados? Utiliza nuestra calculadora gratuita para averiguar si tu empresa está expuesta a sanciones por clasificación errónea.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 312698,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7d39c74875acdb24-es-es-recursos-herramienta-riesgo-clasificacion-erronea.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7d39c74875acdb24-es-es-recursos-herramienta-riesgo-clasificacion-erronea.direct.json",
+  "markdownChars": 9645,
+  "linksCount": 116,
+  "lastmod": "2025-07-01",
+  "scrapedAt": "2026-06-07T09:14:44.143Z"
+}

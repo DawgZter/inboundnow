@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/country-explorer/belgium/benefits-guide/wellness",
+  "sourceURL": "https://remote.com/en-ca/country-explorer/belgium/benefits-guide/wellness",
+  "finalURL": "https://remote.com/en-ca/country-explorer/belgium/benefits-guide/wellness",
+  "title": "Wellness Benefits in Belgium | Wellbeing Support",
+  "description": "Support your team with Wellness benefits in Belgium.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263466,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/68a319d7cb2a7ac1-en-ca-country-explorer-belgium-benefits-guide-wellness.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/68a319d7cb2a7ac1-en-ca-country-explorer-belgium-benefits-guide-wellness.direct.json",
+  "markdownChars": 1591,
+  "linksCount": 117,
+  "lastmod": "2025-12-03",
+  "scrapedAt": "2026-06-07T09:02:38.496Z"
+}

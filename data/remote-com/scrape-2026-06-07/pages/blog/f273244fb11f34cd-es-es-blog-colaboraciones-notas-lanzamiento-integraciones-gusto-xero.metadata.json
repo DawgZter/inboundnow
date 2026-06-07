@@ -1,0 +1,18 @@
+{
+  "category": "blog",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/blog/colaboraciones/notas-lanzamiento-integraciones-gusto-xero",
+  "sourceURL": "https://remote.com/es-es/blog/colaboraciones/notas-lanzamiento-integraciones-gusto-xero",
+  "finalURL": "https://remote.com/es-es/blog/colaboraciones/notas-lanzamiento-integraciones-gusto-xero",
+  "title": "Novedades de producto de Remote: Integraciones con Gusto y Xero y Contractor Management Plus",
+  "description": "Remote lanza integraciones con Gusto y Xero, anuncia el Contractor Management Plus y añade varias mejoras a la interfaz y a los flujos de trabajo.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259978,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/f273244fb11f34cd-es-es-blog-colaboraciones-notas-lanzamiento-integraciones-gusto-xero.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/f273244fb11f34cd-es-es-blog-colaboraciones-notas-lanzamiento-integraciones-gusto-xero.direct.json",
+  "markdownChars": 5802,
+  "linksCount": 121,
+  "lastmod": "2026-05-11",
+  "scrapedAt": "2026-06-07T09:00:57.270Z"
+}

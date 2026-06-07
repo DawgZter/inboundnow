@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/kenya/taxes",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/kenya/taxes",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/kenya/taxes",
+  "title": "ケニアの給与税管理 | 税コンプライアンス",
+  "description": "ケニアの給与税を効果的かつ法令遵守のもとで管理します。給与税の誤りを最小限に抑え、現地法を遵守して高額な罰金を回避することを支援します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261437,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3a721dbc97468c19-ja-jp-country-explorer-kenya-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3a721dbc97468c19-ja-jp-country-explorer-kenya-taxes.direct.json",
+  "markdownChars": 1047,
+  "linksCount": 123,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:12:53.626Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/hr-glossary/employee-directories",
+  "sourceURL": "https://remote.com/en-ie/resources/hr-glossary/employee-directories",
+  "finalURL": "https://remote.com/en-ie/resources/hr-glossary/employee-directories",
+  "title": "What are employee directories?",
+  "description": " Discover the role of employee directories in enhancing workplace communication and organization. Visit our glossary to understand their importance in business operations.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251935,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8c42a67b50817ef5-en-ie-resources-hr-glossary-employee-directories.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8c42a67b50817ef5-en-ie-resources-hr-glossary-employee-directories.direct.json",
+  "markdownChars": 3398,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:15:51.395Z"
+}

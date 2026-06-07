@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/uk-employers-recruiting-talent-despite-struggles",
+  "sourceURL": "https://remote.com/en-in/uk-employers-recruiting-talent-despite-struggles",
+  "finalURL": "https://remote.com/en-in/uk-employers-recruiting-talent-despite-struggles",
+  "title": "Global HR Solutions for Distributed Teams | Remote",
+  "description": "Hire international talent in minutes. Remote is the most disruptive global payroll, tax, HR and compliance solution for distributed teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 298258,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fc77c5dfd5941344-en-in-uk-employers-recruiting-talent-despite-struggles.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fc77c5dfd5941344-en-in-uk-employers-recruiting-talent-despite-struggles.direct.json",
+  "markdownChars": 15109,
+  "linksCount": 125,
+  "lastmod": "2025-07-01",
+  "scrapedAt": "2026-06-07T09:17:04.579Z"
+}

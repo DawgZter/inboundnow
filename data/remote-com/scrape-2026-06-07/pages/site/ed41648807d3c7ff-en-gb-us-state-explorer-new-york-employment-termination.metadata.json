@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/new-york/employment-termination",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/new-york/employment-termination",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/new-york/employment-termination",
+  "title": "Terminate Employees in New York | Employment Termination",
+  "description": "Looking to terminate an employee in New York? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256553,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ed41648807d3c7ff-en-gb-us-state-explorer-new-york-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ed41648807d3c7ff-en-gb-us-state-explorer-new-york-employment-termination.direct.json",
+  "markdownChars": 1682,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:01:17.441Z"
+}

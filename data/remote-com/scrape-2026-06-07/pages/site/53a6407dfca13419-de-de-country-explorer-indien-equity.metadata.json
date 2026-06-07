@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/indien/equity",
+  "sourceURL": "https://remote.com/de-de/country-explorer/indien/equity",
+  "finalURL": "https://remote.com/de-de/country-explorer/indien/equity",
+  "title": "Aktienoptionen für Mitarbeiter:innen in Indien",
+  "description": "Entdecke die länderspezifischen Regeln für Equity und Aktienoptionen in Indien. Triff fundierte Entscheidungen zur globalen Vergütung mit dem Country Explorer von Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261632,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/53a6407dfca13419-de-de-country-explorer-indien-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/53a6407dfca13419-de-de-country-explorer-indien-equity.direct.json",
+  "markdownChars": 4813,
+  "linksCount": 124,
+  "lastmod": "2025-12-15",
+  "scrapedAt": "2026-06-07T09:04:38.293Z"
+}

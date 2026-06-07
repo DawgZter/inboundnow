@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/bosnie-en-herzegovina/employer-of-record",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/bosnie-en-herzegovina/employer-of-record",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/bosnie-en-herzegovina/employer-of-record",
+  "title": "Employer of Record in Bosnië en Herzegovina | EOR-diensten",
+  "description": "Vereenvoudig tewerkstelling in Bosnië en Herzegovina met onze Employer of Record (EOR)-diensten. Beheer payroll, benefits en Compliance moeiteloos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263655,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6a4b34f62aaef1cf-nl-nl-landenverkenner-bosnie-en-herzegovina-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6a4b34f62aaef1cf-nl-nl-landenverkenner-bosnie-en-herzegovina-employer-of-record.direct.json",
+  "markdownChars": 3862,
+  "linksCount": 123,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:08:17.989Z"
+}

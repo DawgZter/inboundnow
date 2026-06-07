@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/singapura/tipos-licenca",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/singapura/tipos-licenca",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/singapura/tipos-licenca",
+  "title": "Regimes de licenças em Singapura | Legislação sobre os regimes de licenças",
+  "description": "Percebe a legislação sobre os regimes de licenças em Singapura. Garante que o teu negócio cumpre as políticas sobre o regime de licenças e oferece férias remuneradas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155061,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b8ebf1f2f8f0029f-pt-pt-explorar-pais-singapura-tipos-licenca.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b8ebf1f2f8f0029f-pt-pt-explorar-pais-singapura-tipos-licenca.direct.json",
+  "markdownChars": 3093,
+  "linksCount": 44,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:12:07.659Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/paralegal",
+  "sourceURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/paralegal",
+  "finalURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/paralegal",
+  "title": "Descripción del trabajo",
+  "description": "​​Adaptable job description template for employing a paralegal. Define key duties, skills, and career paths to attract top product talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262307,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e1abd4d7c26334e-es-es-recursos-descripciones-puestos-trabajo-paralegal.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e1abd4d7c26334e-es-es-recursos-descripciones-puestos-trabajo-paralegal.direct.json",
+  "markdownChars": 5160,
+  "linksCount": 113,
+  "lastmod": "2025-07-17",
+  "scrapedAt": "2026-06-07T09:01:41.037Z"
+}

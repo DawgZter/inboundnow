@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/hr-glossary/job-classification",
+  "sourceURL": "https://remote.com/en-in/resources/hr-glossary/job-classification",
+  "finalURL": "https://remote.com/en-in/resources/hr-glossary/job-classification",
+  "title": "What is job classification?",
+  "description": "Understand the importance of job classification and learn how to classify your organization's roles effectively.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256274,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/398bae54297a2164-en-in-resources-hr-glossary-job-classification.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/398bae54297a2164-en-in-resources-hr-glossary-job-classification.direct.json",
+  "markdownChars": 7363,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:02:26.178Z"
+}

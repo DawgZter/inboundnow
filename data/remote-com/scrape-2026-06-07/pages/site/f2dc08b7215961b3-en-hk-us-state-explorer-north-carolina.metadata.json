@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/us-state-explorer/north-carolina",
+  "sourceURL": "https://remote.com/en-hk/us-state-explorer/north-carolina",
+  "finalURL": "https://remote.com/en-hk/us-state-explorer/north-carolina",
+  "title": "Employer of Record & Payroll Services | North Carolina",
+  "description": "Use our compliance guide to employ in North Carolina with ease. Learn about benefits, payroll, leave, and other labor laws in the Tar Heel State. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 332382,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2dc08b7215961b3-en-hk-us-state-explorer-north-carolina.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2dc08b7215961b3-en-hk-us-state-explorer-north-carolina.direct.json",
+  "markdownChars": 7307,
+  "linksCount": 113,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:18:06.316Z"
+}

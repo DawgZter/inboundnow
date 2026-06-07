@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/checklists-templates",
+  "sourceURL": "https://remote.com/en-nz/resources/checklists-templates",
+  "finalURL": "https://remote.com/en-nz/resources/checklists-templates",
+  "title": "Global HR Solutions & Employment Tools for Distributed Teams | Remote",
+  "description": "Remote is your one-stop solution for hiring talent in any country, helping growing businesses employ top talent from around the world. Our payroll, benefits, taxes, and compliance solution allows companies to access and empower a global workforce.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 369399,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/13f31d9c3d7153b2-en-nz-resources-checklists-templates.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/13f31d9c3d7153b2-en-nz-resources-checklists-templates.direct.json",
+  "markdownChars": 6253,
+  "linksCount": 137,
+  "lastmod": "2026-04-15",
+  "scrapedAt": "2026-06-07T09:14:01.375Z"
+}

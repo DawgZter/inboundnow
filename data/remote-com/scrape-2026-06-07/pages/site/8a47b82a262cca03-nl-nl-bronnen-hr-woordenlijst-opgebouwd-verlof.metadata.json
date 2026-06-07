@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/opgebouwd-verlof",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/opgebouwd-verlof",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/opgebouwd-verlof",
+  "title": "Wat is opgebouwd verlof?",
+  "description": "Meer informatie over opgebouwd verlof en hoe HR-managers de opbouw van verlof kunnen beheren.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255612,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a47b82a262cca03-nl-nl-bronnen-hr-woordenlijst-opgebouwd-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a47b82a262cca03-nl-nl-bronnen-hr-woordenlijst-opgebouwd-verlof.direct.json",
+  "markdownChars": 3552,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:05:50.789Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/guatemala/guia-beneficios",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/guatemala/guia-beneficios",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/guatemala/guia-beneficios",
+  "title": "Benefícios para trabalhadores de Guatemala | Planos de benefícios",
+  "description": "Descobre os benefícios essenciais para trabalhadores de Guatemala. Sabe mais sobre seguros de saúde, férias pagas e outras regalias para atrair e reter os melhores talentos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 165716,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a01b02c42a8a7550-pt-pt-explorar-pais-guatemala-guia-beneficios.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a01b02c42a8a7550-pt-pt-explorar-pais-guatemala-guia-beneficios.direct.json",
+  "markdownChars": 1620,
+  "linksCount": 44,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:01:07.813Z"
+}

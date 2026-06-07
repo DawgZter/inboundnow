@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/job-descriptions/project-manager-job-description",
+  "sourceURL": "https://remote.com/ja-jp/resources/job-descriptions/project-manager-job-description",
+  "finalURL": "https://remote.com/ja-jp/resources/job-descriptions/project-manager-job-description",
+  "title": "プロジェクトマネージャーの仕事内容",
+  "description": "プロジェクト・マネジャーの職務内容を確認する。プロジェクトの範囲、予算、スケジュール内で、プロジェクトを計画、実行、最終決定する責任を負う。必要不可欠なスキルと資格を探る",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261414,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/456ff2bd595b5550-ja-jp-resources-job-descriptions-project-manager-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/456ff2bd595b5550-ja-jp-resources-job-descriptions-project-manager-job-description.direct.json",
+  "markdownChars": 1799,
+  "linksCount": 114,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:01:21.379Z"
+}

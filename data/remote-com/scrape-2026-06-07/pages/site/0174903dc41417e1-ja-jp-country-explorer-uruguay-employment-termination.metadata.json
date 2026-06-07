@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/uruguay/employment-termination",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/uruguay/employment-termination",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/uruguay/employment-termination",
+  "title": "ウルグアイにおける従業員解雇 | 解雇手続き",
+  "description": "ウルグアイで従業員を解雇する際の権利を、従業員解雇法に関する包括的なガイドで確認できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258899,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0174903dc41417e1-ja-jp-country-explorer-uruguay-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0174903dc41417e1-ja-jp-country-explorer-uruguay-employment-termination.direct.json",
+  "markdownChars": 660,
+  "linksCount": 123,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:12:04.716Z"
+}

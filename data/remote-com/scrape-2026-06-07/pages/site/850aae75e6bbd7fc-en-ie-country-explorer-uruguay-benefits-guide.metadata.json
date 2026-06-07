@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/uruguay/benefits-guide",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/uruguay/benefits-guide",
+  "finalURL": "https://remote.com/en-ie/country-explorer/uruguay/benefits-guide",
+  "title": "Employee Benefits in Uruguay | Benefits Plans",
+  "description": "Discover the essential employee benefits in Uruguay. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271387,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/850aae75e6bbd7fc-en-ie-country-explorer-uruguay-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/850aae75e6bbd7fc-en-ie-country-explorer-uruguay-benefits-guide.direct.json",
+  "markdownChars": 1453,
+  "linksCount": 127,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:16:53.081Z"
+}

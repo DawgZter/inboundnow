@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/finland/types-of-leave",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/finland/types-of-leave",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/finland/types-of-leave",
+  "title": "芬兰休假类型 | 员工休假法规",
+  "description": "了解芬兰员工休假法律，确保贵公司遵守休假政策并提供具有竞争力的带薪休假。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258987,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/58269a6ad8dca5c7-zh-cn-country-explorer-finland-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/58269a6ad8dca5c7-zh-cn-country-explorer-finland-types-of-leave.direct.json",
+  "markdownChars": 997,
+  "linksCount": 121,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:17:52.814Z"
+}

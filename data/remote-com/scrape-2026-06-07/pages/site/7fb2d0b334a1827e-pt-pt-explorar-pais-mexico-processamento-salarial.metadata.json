@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/mexico/processamento-salarial",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/mexico/processamento-salarial",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/mexico/processamento-salarial",
+  "title": "Paga trabalhadores no México | Serviços de pagamentos",
+  "description": "Paga trabalhadores no México sem esforço com os nossos serviços flexíveis de pagamentos. Processa pagamentos, gere despesas e obtém relatórios, tudo num só lugar.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155429,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7fb2d0b334a1827e-pt-pt-explorar-pais-mexico-processamento-salarial.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7fb2d0b334a1827e-pt-pt-explorar-pais-mexico-processamento-salarial.direct.json",
+  "markdownChars": 3783,
+  "linksCount": 45,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:18:08.975Z"
+}

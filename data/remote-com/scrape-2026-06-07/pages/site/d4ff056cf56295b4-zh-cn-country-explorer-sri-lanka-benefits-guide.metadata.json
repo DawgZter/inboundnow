@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/sri-lanka/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/sri-lanka/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/sri-lanka/benefits-guide",
+  "title": "斯里兰卡的员工福利 | 福利计划",
+  "description": "了解斯里兰卡的核心员工福利，包括健康保险、带薪休假及其他补贴；掌握入职流程、合规要点与市场费率比较，以助力贵公司吸引并留住顶尖人才。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268725,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d4ff056cf56295b4-zh-cn-country-explorer-sri-lanka-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d4ff056cf56295b4-zh-cn-country-explorer-sri-lanka-benefits-guide.direct.json",
+  "markdownChars": 560,
+  "linksCount": 121,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:10:44.998Z"
+}

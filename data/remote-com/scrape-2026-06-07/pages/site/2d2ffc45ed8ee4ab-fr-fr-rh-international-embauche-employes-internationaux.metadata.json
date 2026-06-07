@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/rh-international/embauche-employes-internationaux",
+  "sourceURL": "https://remote.com/fr-fr/rh-international/embauche-employes-internationaux",
+  "finalURL": "https://remote.com/fr-fr/rh-international/embauche-employes-internationaux",
+  "title": "Embauchez des employés internationaux avec la plateforme d’emploi de Remote | Remote",
+  "description": "Embauchez des talents internationaux en quelques minutes. Remote est une révolution pour vos équipes distribuées en matière de paie internationale, de taxes, de RH et de conformité.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 343440,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2d2ffc45ed8ee4ab-fr-fr-rh-international-embauche-employes-internationaux.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2d2ffc45ed8ee4ab-fr-fr-rh-international-embauche-employes-internationaux.direct.json",
+  "markdownChars": 8407,
+  "linksCount": 126,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:16:47.472Z"
+}

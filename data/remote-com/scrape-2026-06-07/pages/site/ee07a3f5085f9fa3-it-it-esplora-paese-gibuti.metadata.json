@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/gibuti",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/gibuti",
+  "finalURL": "https://remote.com/it-it/esplora-paese/gibuti",
+  "title": "Employer of Record (EOR) e servizi Payroll | Gibuti",
+  "description": "Stai assumendo personale e collaboratori esterni in Gibuti? Remote può aiutarti a gestire sia il personale che i collaboratori esterni tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 204837,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ee07a3f5085f9fa3-it-it-esplora-paese-gibuti.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ee07a3f5085f9fa3-it-it-esplora-paese-gibuti.direct.json",
+  "markdownChars": 3280,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:11:48.115Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/mongolia",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/mongolia",
+  "finalURL": "https://remote.com/it-it/esplora-paese/mongolia",
+  "title": "Employer of Record (EOR) e servizi Payroll | Mongolia",
+  "description": "Assumi personale e lavoratori autonomi in Mongolia? Remote può aiutarti a gestire personale e lavoratori autonomi tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 233405,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9be3542bca81aafe-it-it-esplora-paese-mongolia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9be3542bca81aafe-it-it-esplora-paese-mongolia.direct.json",
+  "markdownChars": 5982,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:12:33.241Z"
+}

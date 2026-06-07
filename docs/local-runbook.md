@@ -60,6 +60,46 @@ MOSS_PROVIDER=local-runtime-client MOSS_RUNTIME_URL=http://127.0.0.1:4321 npm ru
 
 This proves local artifact retrieval only. It is not hosted Moss, not Moss SDK proof, and it must not use `autoRefresh`, cloud polling, `pushIndex()`, runtime document upload, session document upload, or session embedding upload.
 
+## Remote.com Scrape Corpus
+
+The imported scrape lives at `data/remote-com/scrape-2026-06-07`. It is partial: the source manifest reports 10,842 completed pages and 31,343 selected URLs still remaining when the run was stopped by user request.
+
+Build a local JSON retrieval artifact from the imported corpus:
+
+```bash
+npm run moss:index:remote
+```
+
+Export the same corpus in the Moss CLI document format:
+
+```bash
+npm run moss:docs:remote
+```
+
+That writes `artifacts/moss/remote-com-documents.json` with 10,842 documents. The latest local run produced a 62,531,653-byte Moss document file and a 102 MB local retrieval artifact. Both generated files stay under gitignored `artifacts/`.
+
+Run the full local scrape-corpus proof when you want the slower end-to-end check:
+
+```bash
+npm run smoke:moss:remote
+```
+
+Hosted Moss index creation uses the official Moss CLI path. Install and authenticate once, then upload:
+
+```bash
+pip install moss-cli
+moss init
+npm run moss:upload:remote
+```
+
+Equivalent direct command after `npm run moss:docs:remote`:
+
+```bash
+moss index create remote-com-2026-06-07 -f artifacts/moss/remote-com-documents.json --model moss-minilm --wait
+```
+
+Cost estimate as of 2026-06-07, using Moss's published pricing at `https://docs.moss.dev/docs/pricing`: Moss lists 500 MB storage and 50 MB/month ingest on Developer, plus pay-as-you-go rates of $0.03/MB ingest and $1.50/GB-month storage. For the 62.5 MB exported document file, full PAYG ingest is about $1.88 and storage is about $0.10/month. If the Developer included 50 MB ingest applies first, the ingest overage is about $0.38. Plan floors still matter: Hobbyist is $30/month and Startup is $200/month if those features are needed.
+
 ## Streamed Speech
 
 ```bash

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/azerbaigian/contractor-management",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/azerbaigian/contractor-management",
+  "finalURL": "https://remote.com/it-it/esplora-paese/azerbaigian/contractor-management",
+  "title": "Gestisci i collaboratori in Azerbaigian | Contractor Management",
+  "description": "Vuoi collaborare con freelance in Azerbaigian? Scelta strategica e conveniente. Gestisci e paga i tuoi collaboratori globali in modo fluido con i nostri flessibili servizi di Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 151315,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7a5c5e4f483eba3a-it-it-esplora-paese-azerbaigian-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7a5c5e4f483eba3a-it-it-esplora-paese-azerbaigian-contractor-management.direct.json",
+  "markdownChars": 2464,
+  "linksCount": 39,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:11:50.007Z"
+}

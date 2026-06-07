@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/lettonie/rupture-contrat",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/lettonie/rupture-contrat",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/lettonie/rupture-contrat",
+  "title": "Latvia : Résilier le contrat d’un employé | Rupture de contrat",
+  "description": "Lettonie : Vous avez besoin de résilier le contrat d’un employé ? Découvrez quels sont vos droits grâce à notre guide complet sur les lois régissant la rupture de contrat des employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261755,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9100c0d7f0ed28e9-fr-ch-explorateur-de-pays-lettonie-rupture-contrat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9100c0d7f0ed28e9-fr-ch-explorateur-de-pays-lettonie-rupture-contrat.direct.json",
+  "markdownChars": 2690,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:09:50.808Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/mozambique/contractor-management",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/mozambique/contractor-management",
+  "finalURL": "https://remote.com/en-gb/country-explorer/mozambique/contractor-management",
+  "title": "Manage Contractors in Mozambique | Contractor Management",
+  "description": "Hiring a contractor in Mozambique? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254859,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23edf9a7755cfe0f-en-gb-country-explorer-mozambique-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23edf9a7755cfe0f-en-gb-country-explorer-mozambique-contractor-management.direct.json",
+  "markdownChars": 2090,
+  "linksCount": 116,
+  "lastmod": "2025-08-20",
+  "scrapedAt": "2026-06-07T09:15:57.181Z"
+}

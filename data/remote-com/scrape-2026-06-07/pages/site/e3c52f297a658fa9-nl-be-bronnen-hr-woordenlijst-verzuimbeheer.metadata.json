@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/verzuimbeheer",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/verzuimbeheer",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/verzuimbeheer",
+  "title": "What is absence management?",
+  "description": "Meer informatie over verzuimbeheer en hoe je een verzuimbeheersysteem opzet",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251677,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e3c52f297a658fa9-nl-be-bronnen-hr-woordenlijst-verzuimbeheer.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e3c52f297a658fa9-nl-be-bronnen-hr-woordenlijst-verzuimbeheer.direct.json",
+  "markdownChars": 5650,
+  "linksCount": 125,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:08.558Z"
+}

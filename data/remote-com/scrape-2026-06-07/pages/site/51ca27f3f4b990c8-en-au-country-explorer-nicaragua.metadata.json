@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/nicaragua",
+  "sourceURL": "https://remote.com/en-au/country-explorer/nicaragua",
+  "finalURL": "https://remote.com/en-au/country-explorer/nicaragua",
+  "title": "Employer of Record & Payroll Services | Nicaragua",
+  "description": "Hiring employees and contractors in Nicaragua? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 339513,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/51ca27f3f4b990c8-en-au-country-explorer-nicaragua.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/51ca27f3f4b990c8-en-au-country-explorer-nicaragua.direct.json",
+  "markdownChars": 5185,
+  "linksCount": 125,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:01:20.438Z"
+}

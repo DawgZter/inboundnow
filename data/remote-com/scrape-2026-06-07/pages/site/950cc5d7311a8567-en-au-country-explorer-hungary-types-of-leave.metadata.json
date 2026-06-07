@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/hungary/types-of-leave",
+  "sourceURL": "https://remote.com/en-au/country-explorer/hungary/types-of-leave",
+  "finalURL": "https://remote.com/en-au/country-explorer/hungary/types-of-leave",
+  "title": "Types of Leave in Hungary | Employee Leave Laws",
+  "description": "Understand employee leave laws in Hungary. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259371,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/950cc5d7311a8567-en-au-country-explorer-hungary-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/950cc5d7311a8567-en-au-country-explorer-hungary-types-of-leave.direct.json",
+  "markdownChars": 2149,
+  "linksCount": 126,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:11:58.562Z"
+}

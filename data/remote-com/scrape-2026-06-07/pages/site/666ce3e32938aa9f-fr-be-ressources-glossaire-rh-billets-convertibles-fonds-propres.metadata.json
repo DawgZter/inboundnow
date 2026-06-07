@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/glossaire-rh/billets-convertibles-fonds-propres",
+  "sourceURL": "https://remote.com/fr-be/ressources/glossaire-rh/billets-convertibles-fonds-propres",
+  "finalURL": "https://remote.com/fr-be/ressources/glossaire-rh/billets-convertibles-fonds-propres",
+  "title": "What are convertible notes",
+  "description": "Consultez notre glossaire RH pour comprendre les obligations convertibles, leur rôle dans le financement des startups et leur impact sur la relation entre les investisseurs et les entreprises.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256617,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/666ce3e32938aa9f-fr-be-ressources-glossaire-rh-billets-convertibles-fonds-propres.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/666ce3e32938aa9f-fr-be-ressources-glossaire-rh-billets-convertibles-fonds-propres.direct.json",
+  "markdownChars": 3801,
+  "linksCount": 121,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:44.378Z"
+}

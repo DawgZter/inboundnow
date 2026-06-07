@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/remuneration-differee",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/remuneration-differee",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/remuneration-differee",
+  "title": "What is deferred compensation?",
+  "description": "Comprendre comment fonctionne la rémunération différée et comment elle peut être utilisée pour attirer les meilleurs talents dans votre entreprise.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258445,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/59e31711cb477bc6-fr-ch-ressources-glossaire-rh-remuneration-differee.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/59e31711cb477bc6-fr-ch-ressources-glossaire-rh-remuneration-differee.direct.json",
+  "markdownChars": 6052,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:16:37.647Z"
+}

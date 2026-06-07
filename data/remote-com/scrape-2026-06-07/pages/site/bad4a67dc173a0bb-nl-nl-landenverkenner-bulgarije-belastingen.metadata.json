@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/bulgarije/belastingen",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/bulgarije/belastingen",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/bulgarije/belastingen",
+  "title": "Loonlijst belasting beheren in Bulgarije | Belasting naleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Bulgarije. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262142,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bad4a67dc173a0bb-nl-nl-landenverkenner-bulgarije-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bad4a67dc173a0bb-nl-nl-landenverkenner-bulgarije-belastingen.direct.json",
+  "markdownChars": 1847,
+  "linksCount": 123,
+  "lastmod": "2025-09-01",
+  "scrapedAt": "2026-06-07T09:19:10.993Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/stati-uniti",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/stati-uniti",
+  "finalURL": "https://remote.com/it-it/esplora-paese/stati-uniti",
+  "title": "Employer of Record (EOR) e Payroll Services | Stati Uniti",
+  "description": "Assumi personale e collaboratori autonomi negli Stati Uniti? Remote può aiutarti a gestire personale e collaboratori autonomi tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 248172,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe66430619d64551-it-it-esplora-paese-stati-uniti.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe66430619d64551-it-it-esplora-paese-stati-uniti.direct.json",
+  "markdownChars": 10796,
+  "linksCount": 50,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:15:30.797Z"
+}

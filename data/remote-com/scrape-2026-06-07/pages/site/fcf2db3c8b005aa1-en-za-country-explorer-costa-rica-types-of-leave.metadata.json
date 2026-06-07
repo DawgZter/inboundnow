@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/costa-rica/types-of-leave",
+  "sourceURL": "https://remote.com/en-za/country-explorer/costa-rica/types-of-leave",
+  "finalURL": "https://remote.com/en-za/country-explorer/costa-rica/types-of-leave",
+  "title": "Types of Leave in Costa Rica | Employee Leave Laws",
+  "description": "Understand employee leave laws in Costa Rica. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259870,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fcf2db3c8b005aa1-en-za-country-explorer-costa-rica-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fcf2db3c8b005aa1-en-za-country-explorer-costa-rica-types-of-leave.direct.json",
+  "markdownChars": 2394,
+  "linksCount": 126,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:06:55.798Z"
+}

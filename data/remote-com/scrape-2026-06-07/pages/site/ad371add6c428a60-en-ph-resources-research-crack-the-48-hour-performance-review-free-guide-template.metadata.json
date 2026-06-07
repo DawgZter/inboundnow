@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/research/crack-the-48-hour-performance-review-free-guide-template",
+  "sourceURL": "https://remote.com/en-ph/resources/research/crack-the-48-hour-performance-review-free-guide-template",
+  "finalURL": "https://remote.com/en-ph/resources/research/crack-the-48-hour-performance-review-free-guide-template",
+  "title": "Crack the 48-Hour Performance Review | Remote",
+  "description": "Transform your review process! Download our free guide, \"How to Crack the 48-Hour Performance Review,\" to deliver timely, impactful feedback and drive immediate growth. Get it now!",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 317603,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ad371add6c428a60-en-ph-resources-research-crack-the-48-hour-performance-review-free-guide-template.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ad371add6c428a60-en-ph-resources-research-crack-the-48-hour-performance-review-free-guide-template.direct.json",
+  "markdownChars": 3254,
+  "linksCount": 116,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:05:33.883Z"
+}

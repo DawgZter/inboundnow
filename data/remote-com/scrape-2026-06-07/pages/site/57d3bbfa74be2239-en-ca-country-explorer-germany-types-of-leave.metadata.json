@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/country-explorer/germany/types-of-leave",
+  "sourceURL": "https://remote.com/en-ca/country-explorer/germany/types-of-leave",
+  "finalURL": "https://remote.com/en-ca/country-explorer/germany/types-of-leave",
+  "title": "Types of Leave in Germany | Employee Leave Laws",
+  "description": "Understand employee leave laws in Germany. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260781,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/57d3bbfa74be2239-en-ca-country-explorer-germany-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/57d3bbfa74be2239-en-ca-country-explorer-germany-types-of-leave.direct.json",
+  "markdownChars": 1482,
+  "linksCount": 127,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:08:43.845Z"
+}

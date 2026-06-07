@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/suriname",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/suriname",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/suriname",
+  "title": "第三方雇佣托管服务与薪资 | 苏里南",
+  "description": "在苏里南招聘员工与合同工？Remote 可通过我们的一体化全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 307617,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/852658d52f29c436-zh-cn-country-explorer-suriname.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/852658d52f29c436-zh-cn-country-explorer-suriname.direct.json",
+  "markdownChars": 1290,
+  "linksCount": 116,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:01:43.682Z"
+}

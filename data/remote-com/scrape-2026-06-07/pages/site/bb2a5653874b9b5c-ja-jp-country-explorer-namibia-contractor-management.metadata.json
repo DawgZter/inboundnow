@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/namibia/contractor-management",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/namibia/contractor-management",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/namibia/contractor-management",
+  "title": "ナミビアで契約者を管理する | 契約社員管理",
+  "description": "ナミビアで契約者を雇用する場合、当社の柔軟な契約社員管理サービスにより、世界中の契約者を簡単に管理し支払うことができます。 ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256769,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb2a5653874b9b5c-ja-jp-country-explorer-namibia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb2a5653874b9b5c-ja-jp-country-explorer-namibia-contractor-management.direct.json",
+  "markdownChars": 974,
+  "linksCount": 117,
+  "lastmod": "2025-10-28",
+  "scrapedAt": "2026-06-07T09:06:07.561Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/belgium/employment-termination",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/belgium/employment-termination",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/belgium/employment-termination",
+  "title": "ベルギーで従業員を解雇する | 解雇手続き",
+  "description": "ベルギーで従業員を解雇する予定ですか？当社の包括的ガイドで、解雇に関する権利と手続きをご確認ください。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259249,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/16940a889e74fd40-ja-jp-country-explorer-belgium-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/16940a889e74fd40-ja-jp-country-explorer-belgium-employment-termination.direct.json",
+  "markdownChars": 878,
+  "linksCount": 123,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:09:49.451Z"
+}

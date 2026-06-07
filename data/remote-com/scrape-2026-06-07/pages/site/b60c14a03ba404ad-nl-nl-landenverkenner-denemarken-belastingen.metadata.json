@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/denemarken/belastingen",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/denemarken/belastingen",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/denemarken/belastingen",
+  "title": "Payroll-belasting beheren in Denemarken | Belastingnaleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Denemarken. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263816,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b60c14a03ba404ad-nl-nl-landenverkenner-denemarken-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b60c14a03ba404ad-nl-nl-landenverkenner-denemarken-belastingen.direct.json",
+  "markdownChars": 1606,
+  "linksCount": 124,
+  "lastmod": "2025-09-01",
+  "scrapedAt": "2026-06-07T09:08:18.734Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/noord-macedonie/belastingen",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/noord-macedonie/belastingen",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/noord-macedonie/belastingen",
+  "title": "Payroll-belasting beheren in North Macedonia | Belastingnaleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Noord Macedonie. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253678,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2eec30a7cbbda89-nl-be-landenverkenner-noord-macedonie-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2eec30a7cbbda89-nl-be-landenverkenner-noord-macedonie-belastingen.direct.json",
+  "markdownChars": 978,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:17:40.492Z"
+}

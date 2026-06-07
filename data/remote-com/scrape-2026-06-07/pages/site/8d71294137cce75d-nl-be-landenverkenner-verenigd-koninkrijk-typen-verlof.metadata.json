@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/verenigd-koninkrijk/typen-verlof",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/verenigd-koninkrijk/typen-verlof",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/verenigd-koninkrijk/typen-verlof",
+  "title": "Typen verlof in het Verenigd Koninkrijk | Wetgeving voor werknemersverlof",
+  "description": "Inzicht in verlofwetten voor werknemers in Verenigd Koninkrijk. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256153,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d71294137cce75d-nl-be-landenverkenner-verenigd-koninkrijk-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d71294137cce75d-nl-be-landenverkenner-verenigd-koninkrijk-typen-verlof.direct.json",
+  "markdownChars": 2141,
+  "linksCount": 127,
+  "lastmod": "2026-04-07",
+  "scrapedAt": "2026-06-07T09:01:24.263Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/equipos-interfuncionales",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/equipos-interfuncionales",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/equipos-interfuncionales",
+  "title": "¿Qué es un equipo interfuncional?",
+  "description": "Un equipo interfuncional es un grupo de personas de distintos departamentos que colaboran para alcanzar objetivos comunes y resolver retos específicos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259655,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc8874235741e01a-es-es-recursos-glosario-rrhh-equipos-interfuncionales.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc8874235741e01a-es-es-recursos-glosario-rrhh-equipos-interfuncionales.direct.json",
+  "markdownChars": 7379,
+  "linksCount": 123,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:10:13.679Z"
+}

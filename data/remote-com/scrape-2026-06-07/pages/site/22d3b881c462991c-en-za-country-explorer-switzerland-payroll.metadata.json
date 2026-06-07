@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/switzerland/payroll",
+  "sourceURL": "https://remote.com/en-za/country-explorer/switzerland/payroll",
+  "finalURL": "https://remote.com/en-za/country-explorer/switzerland/payroll",
+  "title": "Pay Employees in Switzerland | Payroll Services",
+  "description": "Pay employees in Switzerland effortlessly with our flexible payroll services. Run payroll, manage expenses and run reports, all from one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261213,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/22d3b881c462991c-en-za-country-explorer-switzerland-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/22d3b881c462991c-en-za-country-explorer-switzerland-payroll.direct.json",
+  "markdownChars": 3601,
+  "linksCount": 128,
+  "lastmod": "2025-11-08",
+  "scrapedAt": "2026-06-07T09:13:02.082Z"
+}

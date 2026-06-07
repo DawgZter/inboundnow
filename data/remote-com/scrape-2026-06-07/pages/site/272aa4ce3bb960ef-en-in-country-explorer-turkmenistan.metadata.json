@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/turkmenistan",
+  "sourceURL": "https://remote.com/en-in/country-explorer/turkmenistan",
+  "finalURL": "https://remote.com/en-in/country-explorer/turkmenistan",
+  "title": "Employer of Record & Payroll Services | Turkmenistan",
+  "description": "Hiring employees and contractors in Turkmenistan? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 308558,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/272aa4ce3bb960ef-en-in-country-explorer-turkmenistan.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/272aa4ce3bb960ef-en-in-country-explorer-turkmenistan.direct.json",
+  "markdownChars": 3138,
+  "linksCount": 116,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:13:14.045Z"
+}

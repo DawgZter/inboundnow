@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/verhaeltnis-gehalt-marktwert",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/verhaeltnis-gehalt-marktwert",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/verhaeltnis-gehalt-marktwert",
+  "title": "Compa-ratio",
+  "description": "Compa-ratio compares an employee’s salary to the market midpoint. Learn how to calculate it, why it matters, and how to use it for fair pay.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254783,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cfcf1066c685bfd4-de-ch-ressourcen-hr-glossar-verhaeltnis-gehalt-marktwert.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cfcf1066c685bfd4-de-ch-ressourcen-hr-glossar-verhaeltnis-gehalt-marktwert.direct.json",
+  "markdownChars": 4366,
+  "linksCount": 123,
+  "lastmod": "2025-08-04",
+  "scrapedAt": "2026-06-07T09:15:18.653Z"
+}

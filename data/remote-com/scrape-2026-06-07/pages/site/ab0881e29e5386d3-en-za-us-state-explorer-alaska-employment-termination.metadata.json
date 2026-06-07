@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/us-state-explorer/alaska/employment-termination",
+  "sourceURL": "https://remote.com/en-za/us-state-explorer/alaska/employment-termination",
+  "finalURL": "https://remote.com/en-za/us-state-explorer/alaska/employment-termination",
+  "title": "Terminate Employees in Alaska | Employment Termination",
+  "description": "Looking to terminate an employee in Alaska? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256287,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ab0881e29e5386d3-en-za-us-state-explorer-alaska-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ab0881e29e5386d3-en-za-us-state-explorer-alaska-employment-termination.direct.json",
+  "markdownChars": 1668,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:16:22.307Z"
+}

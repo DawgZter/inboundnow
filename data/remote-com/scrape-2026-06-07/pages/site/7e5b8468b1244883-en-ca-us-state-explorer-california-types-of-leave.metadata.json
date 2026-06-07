@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/us-state-explorer/california/types-of-leave",
+  "sourceURL": "https://remote.com/en-ca/us-state-explorer/california/types-of-leave",
+  "finalURL": "https://remote.com/en-ca/us-state-explorer/california/types-of-leave",
+  "title": "Types of Leave in California | Employee Leave Laws",
+  "description": "Understand employee leave laws in California. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259937,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7e5b8468b1244883-en-ca-us-state-explorer-california-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7e5b8468b1244883-en-ca-us-state-explorer-california-types-of-leave.direct.json",
+  "markdownChars": 3046,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:01:08.070Z"
+}

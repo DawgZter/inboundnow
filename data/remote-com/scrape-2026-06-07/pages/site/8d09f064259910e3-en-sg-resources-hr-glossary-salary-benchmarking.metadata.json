@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/hr-glossary/salary-benchmarking",
+  "sourceURL": "https://remote.com/en-sg/resources/hr-glossary/salary-benchmarking",
+  "finalURL": "https://remote.com/en-sg/resources/hr-glossary/salary-benchmarking",
+  "title": "Global HR Solutions &amp; Employment Tools for Distributed Teams",
+  "description": "Learn about salary benchmarking and what it involves",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252363,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d09f064259910e3-en-sg-resources-hr-glossary-salary-benchmarking.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d09f064259910e3-en-sg-resources-hr-glossary-salary-benchmarking.direct.json",
+  "markdownChars": 3671,
+  "linksCount": 120,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:14:05.451Z"
+}

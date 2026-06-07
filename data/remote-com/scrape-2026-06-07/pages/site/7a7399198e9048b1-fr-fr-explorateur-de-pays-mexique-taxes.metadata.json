@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/mexique/taxes",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/mexique/taxes",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/mexique/taxes",
+  "title": "Mexico : Gérer l’imposition de la paie | Conformité fiscale",
+  "description": "Mexique : Gérez efficacement l’imposition de la paie, en toute conformité. Réduisez les erreurs d’imposition de la paie, respectez le droit local et évitez de coûteuses amendes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269921,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7a7399198e9048b1-fr-fr-explorateur-de-pays-mexique-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7a7399198e9048b1-fr-fr-explorateur-de-pays-mexique-taxes.direct.json",
+  "markdownChars": 1910,
+  "linksCount": 123,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:08:16.790Z"
+}

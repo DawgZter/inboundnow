@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/island/beendigung-arbeitsverhaltnisses",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/island/beendigung-arbeitsverhaltnisses",
+  "finalURL": "https://remote.com/de-ch/country-explorer/island/beendigung-arbeitsverhaltnisses",
+  "title": "Arbeitsverhältnisse in Iceland beenden | Mitarbeiter:innen kündigen",
+  "description": "Du musst eine Teammitglied in Island entlassen? In unserem umfassenden Leitfaden zum Kündigungsrecht erfährst du, was du tun kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257386,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c51584185474577f-de-ch-country-explorer-island-beendigung-arbeitsverhaltnisses.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c51584185474577f-de-ch-country-explorer-island-beendigung-arbeitsverhaltnisses.direct.json",
+  "markdownChars": 1341,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:11:35.167Z"
+}

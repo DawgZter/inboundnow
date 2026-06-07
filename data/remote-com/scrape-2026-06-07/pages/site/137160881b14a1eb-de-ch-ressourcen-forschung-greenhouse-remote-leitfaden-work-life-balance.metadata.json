@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/forschung/greenhouse-remote-leitfaden-work-life-balance",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/forschung/greenhouse-remote-leitfaden-work-life-balance",
+  "finalURL": "https://remote.com/de-ch/ressourcen/forschung/greenhouse-remote-leitfaden-work-life-balance",
+  "title": "So förderst du eine gute Work-Life-Balance in deinem Team | Remote",
+  "description": "Die Expert:innen für globales Personalwesen von Greenhouse und Remote geben praktische Tipps, wie du die Work-Life-Balance in deinem Team förderst und verbesserst.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 263065,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/137160881b14a1eb-de-ch-ressourcen-forschung-greenhouse-remote-leitfaden-work-life-balance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/137160881b14a1eb-de-ch-ressourcen-forschung-greenhouse-remote-leitfaden-work-life-balance.direct.json",
+  "markdownChars": 794,
+  "linksCount": 118,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:08:22.268Z"
+}

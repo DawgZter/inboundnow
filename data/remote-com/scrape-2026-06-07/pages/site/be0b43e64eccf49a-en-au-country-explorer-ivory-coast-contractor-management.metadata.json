@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/ivory-coast/contractor-management",
+  "sourceURL": "https://remote.com/en-au/country-explorer/ivory-coast/contractor-management",
+  "finalURL": "https://remote.com/en-au/country-explorer/ivory-coast/contractor-management",
+  "title": "Manage Contractors in Ivory Coast | Contractor Management",
+  "description": "Hiring a contractor in Ivory Coast? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254720,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/be0b43e64eccf49a-en-au-country-explorer-ivory-coast-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/be0b43e64eccf49a-en-au-country-explorer-ivory-coast-contractor-management.direct.json",
+  "markdownChars": 2112,
+  "linksCount": 115,
+  "lastmod": "2025-08-20",
+  "scrapedAt": "2026-06-07T09:06:32.213Z"
+}

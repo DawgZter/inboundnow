@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/guatemala/tipi-congedo",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/guatemala/tipi-congedo",
+  "finalURL": "https://remote.com/it-it/esplora-paese/guatemala/tipi-congedo",
+  "title": "Tipologie di congedo in Guatemala | Normativa sul congedo del personale",
+  "description": "Comprendi la normativa sul congedo del personale in Guatemala. Assicurati che la tua azienda sia conforme alle politiche locali sui congedi e offra ferie retribuite competitive.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153080,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b9fa09ee9e9d5444-it-it-esplora-paese-guatemala-tipi-congedo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b9fa09ee9e9d5444-it-it-esplora-paese-guatemala-tipi-congedo.direct.json",
+  "markdownChars": 1885,
+  "linksCount": 43,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:15:15.173Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/loopbaan",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/loopbaan",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/loopbaan",
+  "title": "What is a career path?",
+  "description": "Leer hoe je je werknemers sterker kunt maken door het creëren van gedefinieerde loopbaantrajecten en zie hoe dit de effectiviteit van je personeel kan verbeteren.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252143,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5161dafb4336b632-nl-be-bronnen-hr-woordenlijst-loopbaan.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5161dafb4336b632-nl-be-bronnen-hr-woordenlijst-loopbaan.direct.json",
+  "markdownChars": 6004,
+  "linksCount": 123,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:30.958Z"
+}

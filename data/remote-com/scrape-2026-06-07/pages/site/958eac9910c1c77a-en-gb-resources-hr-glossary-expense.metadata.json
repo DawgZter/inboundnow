@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/hr-glossary/expense",
+  "sourceURL": "https://remote.com/en-gb/resources/hr-glossary/expense",
+  "finalURL": "https://remote.com/en-gb/resources/hr-glossary/expense",
+  "title": "Expense",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251616,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/958eac9910c1c77a-en-gb-resources-hr-glossary-expense.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/958eac9910c1c77a-en-gb-resources-hr-glossary-expense.direct.json",
+  "markdownChars": 3591,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:16:31.014Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/research/ip-protection-and-data-security-guide",
+  "sourceURL": "https://remote.com/en-au/resources/research/ip-protection-and-data-security-guide",
+  "finalURL": "https://remote.com/en-au/resources/research/ip-protection-and-data-security-guide",
+  "title": "Protecting Intellectual Property and Data Security: IP Protection and Data Security Guide | Remote",
+  "description": "Unlock growth opportunities with a global workforce while effectively managing the challenges. Discover expert advice on protecting intellectual property, sensitive data, and minimizing risks when hiring international employees and contractors. Gain valuable insights to safeguard your company's interests in a global marketplace.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263368,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/14546aec9a7cfa74-en-au-resources-research-ip-protection-and-data-security-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/14546aec9a7cfa74-en-au-resources-research-ip-protection-and-data-security-guide.direct.json",
+  "markdownChars": 1393,
+  "linksCount": 114,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:01:37.054Z"
+}

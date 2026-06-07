@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/india/taxes",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/india/taxes",
+  "finalURL": "https://remote.com/en-sg/country-explorer/india/taxes",
+  "title": "Manage Payroll Tax in India | Tax Compliance",
+  "description": "Manage payroll taxes in India effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264261,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/301c5638e01aba75-en-sg-country-explorer-india-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/301c5638e01aba75-en-sg-country-explorer-india-taxes.direct.json",
+  "markdownChars": 1211,
+  "linksCount": 129,
+  "lastmod": "2025-08-29",
+  "scrapedAt": "2026-06-07T09:06:49.730Z"
+}

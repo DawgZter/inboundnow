@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/hr-glossary/performance-review",
+  "sourceURL": "https://remote.com/en-sg/resources/hr-glossary/performance-review",
+  "finalURL": "https://remote.com/en-sg/resources/hr-glossary/performance-review",
+  "title": "Performance review",
+  "description": "Discover how performance reviews work, why they matter for both employees and managers, and how to complete comprehensive performance reviews in minutes. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253899,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dfba20d791fe33f4-en-sg-resources-hr-glossary-performance-review.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dfba20d791fe33f4-en-sg-resources-hr-glossary-performance-review.direct.json",
+  "markdownChars": 4746,
+  "linksCount": 119,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:01:39.654Z"
+}

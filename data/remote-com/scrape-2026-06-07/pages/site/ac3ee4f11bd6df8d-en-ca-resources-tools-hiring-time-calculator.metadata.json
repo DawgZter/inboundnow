@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/tools/hiring-time-calculator",
+  "sourceURL": "https://remote.com/en-ca/resources/tools/hiring-time-calculator",
+  "finalURL": "https://remote.com/en-ca/resources/tools/hiring-time-calculator",
+  "title": "Hiring Time Calculator",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 556459,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ac3ee4f11bd6df8d-en-ca-resources-tools-hiring-time-calculator.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ac3ee4f11bd6df8d-en-ca-resources-tools-hiring-time-calculator.direct.json",
+  "markdownChars": 2117,
+  "linksCount": 106,
+  "lastmod": "2025-08-11",
+  "scrapedAt": "2026-06-07T09:15:57.462Z"
+}

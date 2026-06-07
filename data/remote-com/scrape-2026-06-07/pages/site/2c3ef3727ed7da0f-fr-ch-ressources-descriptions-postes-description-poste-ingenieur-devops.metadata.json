@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-ingenieur-devops",
+  "sourceURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-ingenieur-devops",
+  "finalURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-ingenieur-devops",
+  "title": "Description du poste d'ingénieur DevOps",
+  "description": "Examinez la description du poste d'ingénieur DevOps, chargé de gérer l'infrastructure, d'automatiser les flux de travail et d'assurer une intégration et un déploiement transparents des applications.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263720,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c3ef3727ed7da0f-fr-ch-ressources-descriptions-postes-description-poste-ingenieur-devops.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c3ef3727ed7da0f-fr-ch-ressources-descriptions-postes-description-poste-ingenieur-devops.direct.json",
+  "markdownChars": 5358,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:17:03.521Z"
+}

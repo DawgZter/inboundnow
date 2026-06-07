@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/samoa/contractor-management",
+  "sourceURL": "https://remote.com/de-de/country-explorer/samoa/contractor-management",
+  "finalURL": "https://remote.com/de-de/country-explorer/samoa/contractor-management",
+  "title": "Auftragnehmer:innen in Samoa verwalten | Contractor Management",
+  "description": "Beauftragst du eine:n Auftragnehmer:in in Samoa? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unserem flexiblen Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256246,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/642978d4b1057964-de-de-country-explorer-samoa-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/642978d4b1057964-de-de-country-explorer-samoa-contractor-management.direct.json",
+  "markdownChars": 2427,
+  "linksCount": 118,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:16:26.655Z"
+}

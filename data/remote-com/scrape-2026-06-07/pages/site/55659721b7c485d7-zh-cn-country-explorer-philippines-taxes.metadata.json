@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/philippines/taxes",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/philippines/taxes",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/philippines/taxes",
+  "title": "在菲律宾管理薪资税 | 税务合规",
+  "description": "在菲律宾有效且合规地管理薪资税，降低薪资税错误风险，遵守当地法规并避免高额罚款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259855,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/55659721b7c485d7-zh-cn-country-explorer-philippines-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/55659721b7c485d7-zh-cn-country-explorer-philippines-taxes.direct.json",
+  "markdownChars": 1121,
+  "linksCount": 121,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:01:53.322Z"
+}

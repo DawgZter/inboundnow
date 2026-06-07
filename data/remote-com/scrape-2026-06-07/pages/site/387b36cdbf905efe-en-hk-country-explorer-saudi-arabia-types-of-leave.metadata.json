@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/saudi-arabia/types-of-leave",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/saudi-arabia/types-of-leave",
+  "finalURL": "https://remote.com/en-hk/country-explorer/saudi-arabia/types-of-leave",
+  "title": "Types of Leave in Saudi Arabia | Employee Leave Laws",
+  "description": "Understand employee leave laws in Saudi Arabia. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259098,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/387b36cdbf905efe-en-hk-country-explorer-saudi-arabia-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/387b36cdbf905efe-en-hk-country-explorer-saudi-arabia-types-of-leave.direct.json",
+  "markdownChars": 1882,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:17:22.928Z"
+}

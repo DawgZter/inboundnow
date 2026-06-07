@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/antigua-e-barbuda/contractor-management",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/antigua-e-barbuda/contractor-management",
+  "finalURL": "https://remote.com/it-it/esplora-paese/antigua-e-barbuda/contractor-management",
+  "title": "Gestione dei collaboratori in Antigua e Barbuda | Contractor Management",
+  "description": "Vuoi collaborare con freelance in Antigua e Barbuda? Gestisci e paga i tuoi collaboratori globali in modo semplice e conforme con i nostri servizi di Contractor Management flessibili.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 151586,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6830323c33c40f0a-it-it-esplora-paese-antigua-e-barbuda-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6830323c33c40f0a-it-it-esplora-paese-antigua-e-barbuda-contractor-management.direct.json",
+  "markdownChars": 2527,
+  "linksCount": 39,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:01:38.498Z"
+}

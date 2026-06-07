@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/burundi",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/burundi",
+  "finalURL": "https://remote.com/it-it/esplora-paese/burundi",
+  "title": "Servizi Employer of Record (EOR) e Payroll in Burundi",
+  "description": "Vuoi assumere personale o collaboratori in Burundi? Remote ti aiuta a gestirli tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 204480,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a1ef8baca2e6de26-it-it-esplora-paese-burundi.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a1ef8baca2e6de26-it-it-esplora-paese-burundi.direct.json",
+  "markdownChars": 3335,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:06:33.602Z"
+}

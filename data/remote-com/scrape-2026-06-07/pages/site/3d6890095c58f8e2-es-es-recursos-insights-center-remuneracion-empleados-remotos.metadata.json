@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/insights-center/remuneracion-empleados-remotos",
+  "sourceURL": "https://remote.com/es-es/recursos/insights-center/remuneracion-empleados-remotos",
+  "finalURL": "https://remote.com/es-es/recursos/insights-center/remuneracion-empleados-remotos",
+  "title": "Cómo se calcula la remuneración de los empleados remotos",
+  "description": "Aprende a calcular la remuneración de los empleados remotos para atraer a los mejores talentos y llevar a tu empresa al éxito global.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 273126,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3d6890095c58f8e2-es-es-recursos-insights-center-remuneracion-empleados-remotos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3d6890095c58f8e2-es-es-recursos-insights-center-remuneracion-empleados-remotos.direct.json",
+  "markdownChars": 18868,
+  "linksCount": 123,
+  "lastmod": "2025-05-27",
+  "scrapedAt": "2026-06-07T09:05:44.497Z"
+}

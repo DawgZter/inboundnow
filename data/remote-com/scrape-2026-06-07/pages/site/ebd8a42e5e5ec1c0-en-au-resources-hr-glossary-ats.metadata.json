@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/hr-glossary/ats",
+  "sourceURL": "https://remote.com/en-au/resources/hr-glossary/ats",
+  "finalURL": "https://remote.com/en-au/resources/hr-glossary/ats",
+  "title": "What is an ATS?",
+  "description": "See how an applicant tracking system (ATS) automates your hiring process. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250962,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ebd8a42e5e5ec1c0-en-au-resources-hr-glossary-ats.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ebd8a42e5e5ec1c0-en-au-resources-hr-glossary-ats.direct.json",
+  "markdownChars": 3297,
+  "linksCount": 118,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:11:56.288Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/luxembourg/gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/luxembourg/gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/luxembourg/gestion-des-freelances",
+  "title": "Gérez les freelances au Luxembourg | Gestion des freelances",
+  "description": "Faire appel à des freelances au Luxembourg&nbsp;? Gérez et payez vos freelances internationaux sans effort grâce à nos services flexibles de Gestion des freelances.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262576,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2bc06731ee55bbb-fr-ch-explorateur-de-pays-luxembourg-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2bc06731ee55bbb-fr-ch-explorateur-de-pays-luxembourg-gestion-des-freelances.direct.json",
+  "markdownChars": 2766,
+  "linksCount": 124,
+  "lastmod": "2025-11-06",
+  "scrapedAt": "2026-06-07T09:02:39.339Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/rh-international/freelancer-hub",
+  "sourceURL": "https://remote.com/fr-fr/rh-international/freelancer-hub",
+  "finalURL": "https://remote.com/fr-fr/rh-international/freelancer-hub",
+  "title": "Freelancer Hub | Remote",
+  "description": "Remote Freelancer Hub permet aux freelances et aux travailleurs indépendants de centraliser la gestion de leurs clients, contrats, factures et paiements, où qu’ils soient dans le monde. Prenez votre activité en main en la simplifiant !",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 326022,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ac20e59372ecefab-fr-fr-rh-international-freelancer-hub.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ac20e59372ecefab-fr-fr-rh-international-freelancer-hub.direct.json",
+  "markdownChars": 8922,
+  "linksCount": 117,
+  "lastmod": "2025-06-11",
+  "scrapedAt": "2026-06-07T09:17:22.998Z"
+}

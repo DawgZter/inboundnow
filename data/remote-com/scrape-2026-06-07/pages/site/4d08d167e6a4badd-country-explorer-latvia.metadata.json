@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/latvia",
+  "sourceURL": "https://remote.com/country-explorer/latvia",
+  "finalURL": "https://remote.com/country-explorer/latvia",
+  "title": "Employer of Record & Payroll Services | Latvia",
+  "description": "Hiring employees and contractors in Latvia? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 343298,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4d08d167e6a4badd-country-explorer-latvia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4d08d167e6a4badd-country-explorer-latvia.direct.json",
+  "markdownChars": 5915,
+  "linksCount": 126,
+  "lastmod": "2026-01-22",
+  "scrapedAt": "2026-06-07T09:13:15.810Z"
+}

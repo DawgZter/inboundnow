@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/grafik-designer-job-beschreibung",
+  "sourceURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/grafik-designer-job-beschreibung",
+  "finalURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/grafik-designer-job-beschreibung",
+  "title": "Stellenbeschreibung für Grafikdesigner",
+  "description": "Schau dir die Stellenbeschreibung für einen Grafikdesigner an, der für die Erstellung visueller Inhalte, die Gestaltung von Marketingmaterialien und die Zusammenarbeit mit Teams zur Stärkung der Markenidentität verantwortlich ist.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260253,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/18529eb2e040fef4-de-at-ressourcen-stellenbeschreibungen-grafik-designer-job-beschreibung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/18529eb2e040fef4-de-at-ressourcen-stellenbeschreibungen-grafik-designer-job-beschreibung.direct.json",
+  "markdownChars": 3898,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:14:25.913Z"
+}

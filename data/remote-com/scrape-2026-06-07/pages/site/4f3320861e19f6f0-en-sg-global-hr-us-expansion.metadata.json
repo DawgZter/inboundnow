@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/global-hr/us-expansion",
+  "sourceURL": "https://remote.com/en-sg/global-hr/us-expansion",
+  "finalURL": "https://remote.com/en-sg/global-hr/us-expansion",
+  "title": "Accelerate Your US Business Growth with Remote | Remote",
+  "description": "Unlock seamless US expansion with Remote's comprehensive suite of services. From payroll to compliance and HR management, streamline your growth across all 50 states effortlessly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 360266,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4f3320861e19f6f0-en-sg-global-hr-us-expansion.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4f3320861e19f6f0-en-sg-global-hr-us-expansion.direct.json",
+  "markdownChars": 10135,
+  "linksCount": 114,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:02:49.257Z"
+}

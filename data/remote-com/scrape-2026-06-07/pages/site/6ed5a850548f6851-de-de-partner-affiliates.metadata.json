@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/partner/affiliates",
+  "sourceURL": "https://remote.com/de-de/partner/affiliates",
+  "finalURL": "https://remote.com/de-de/partner/affiliates",
+  "title": "Du genießt hohes Vertrauen? Profitiere davon mit Remote | Remote",
+  "description": "Hilf den Unternehmen in deinem Netzwerk, mit Remote zu globalen Playern zu werden. Erfahre, wie du Remote-Affiliate werden kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 329528,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ed5a850548f6851-de-de-partner-affiliates.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ed5a850548f6851-de-de-partner-affiliates.direct.json",
+  "markdownChars": 8342,
+  "linksCount": 123,
+  "lastmod": "2025-06-24",
+  "scrapedAt": "2026-06-07T09:06:14.904Z"
+}

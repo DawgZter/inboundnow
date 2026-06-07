@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/paiement-demande",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/paiement-demande",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/paiement-demande",
+  "title": "What is on-demand pay?",
+  "description": "Explorer le concept de rémunération à la demande et ses avantages pour les employeurs et les employés. Consultez notre glossaire pour découvrir comment cette option de paiement flexible modifie le lieu de travail.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256319,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3ec6fc8e71a9aa8e-fr-ch-ressources-glossaire-rh-paiement-demande.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3ec6fc8e71a9aa8e-fr-ch-ressources-glossaire-rh-paiement-demande.direct.json",
+  "markdownChars": 4041,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:18:03.349Z"
+}

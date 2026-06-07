@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/checklists-templates/recommendation-letter-template",
+  "sourceURL": "https://remote.com/en-in/resources/checklists-templates/recommendation-letter-template",
+  "finalURL": "https://remote.com/en-in/resources/checklists-templates/recommendation-letter-template",
+  "title": "Recommendation letter template | Remote",
+  "description": "Use this customizable recommendation letter template to write strong, professional endorsements for employee career moves, promotions, and more.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 248948,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0ade2bfe93932976-en-in-resources-checklists-templates-recommendation-letter-template.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0ade2bfe93932976-en-in-resources-checklists-templates-recommendation-letter-template.direct.json",
+  "markdownChars": 5521,
+  "linksCount": 105,
+  "lastmod": "2025-07-01",
+  "scrapedAt": "2026-06-07T09:09:31.235Z"
+}

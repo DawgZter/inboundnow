@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/lituania/employer-of-record",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/lituania/employer-of-record",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/lituania/employer-of-record",
+  "title": "Employer of Record (EOR) e processamento salarial | Lituânia",
+  "description": "Simplifica a contratação na Lituânia com o nosso Employer of Record (EOR). Gere o processamento salarial, os benefícios e a conformidade sem complicações.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155609,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5eba655dd818617a-pt-pt-explorar-pais-lituania-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5eba655dd818617a-pt-pt-explorar-pais-lituania-employer-of-record.direct.json",
+  "markdownChars": 3572,
+  "linksCount": 44,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:10:26.999Z"
+}

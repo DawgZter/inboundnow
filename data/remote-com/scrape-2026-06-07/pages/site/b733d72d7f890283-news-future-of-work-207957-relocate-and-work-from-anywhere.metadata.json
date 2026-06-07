@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/news/future-of-work/207957-relocate-and-work-from-anywhere",
+  "sourceURL": "https://remote.com/news/future-of-work/207957-relocate-and-work-from-anywhere",
+  "finalURL": "https://remote.com/news/future-of-work/207957-relocate-and-work-from-anywhere",
+  "title": "Relocate and work from anywhere",
+  "description": "Remote is introducing a new Remote Relocation service, a program to make it easy for your employees to relocate and stay with your company. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253447,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b733d72d7f890283-news-future-of-work-207957-relocate-and-work-from-anywhere.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b733d72d7f890283-news-future-of-work-207957-relocate-and-work-from-anywhere.direct.json",
+  "markdownChars": 3595,
+  "linksCount": 113,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:02:53.091Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/tuerkei/freistellungsarten",
+  "sourceURL": "https://remote.com/de-de/country-explorer/tuerkei/freistellungsarten",
+  "finalURL": "https://remote.com/de-de/country-explorer/tuerkei/freistellungsarten",
+  "title": "Urlaubsansprüche in Turkey | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Tuerkei. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259612,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ac83b4271299d4c-de-de-country-explorer-tuerkei-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ac83b4271299d4c-de-de-country-explorer-tuerkei-freistellungsarten.direct.json",
+  "markdownChars": 2574,
+  "linksCount": 122,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:04:33.467Z"
+}

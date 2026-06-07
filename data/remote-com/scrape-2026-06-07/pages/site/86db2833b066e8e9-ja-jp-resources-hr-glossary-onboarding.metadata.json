@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/onboarding",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/onboarding",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/onboarding",
+  "title": "オンボーディング",
+  "description": "オンボーディングは、従業員の定着率を高め、新入社員の生産性を加速させることで、企業に大きな影響を与えます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254292,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/86db2833b066e8e9-ja-jp-resources-hr-glossary-onboarding.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/86db2833b066e8e9-ja-jp-resources-hr-glossary-onboarding.direct.json",
+  "markdownChars": 1731,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:11:57.178Z"
+}

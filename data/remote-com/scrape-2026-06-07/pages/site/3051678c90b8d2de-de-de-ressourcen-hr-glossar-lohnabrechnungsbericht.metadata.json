@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/lohnabrechnungsbericht",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/lohnabrechnungsbericht",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/lohnabrechnungsbericht",
+  "title": "Bericht zur Gehaltsabrechnung",
+  "description": "In unserem umfassenden HR-Glossar erfährst du, was eine Gehaltsabrechnung ist, welche Bedeutung sie im Geschäftsleben hat und wie sie sich auf das Personalmanagement und die Finanzplanung auswirkt.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253182,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3051678c90b8d2de-de-de-ressourcen-hr-glossar-lohnabrechnungsbericht.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3051678c90b8d2de-de-de-ressourcen-hr-glossar-lohnabrechnungsbericht.direct.json",
+  "markdownChars": 3055,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:16:27.905Z"
+}

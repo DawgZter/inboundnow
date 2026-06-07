@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/nicaragua/tipos-licenca",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/nicaragua/tipos-licenca",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/nicaragua/tipos-licenca",
+  "title": "Regimes de licenças na Nicarágua | Legislação sobre os regimes de licenças",
+  "description": "Percebe a legislação sobre os regimes de licenças na Nicarágua. Garante que o teu negócio cumpre as políticas sobre o regime de licenças e oferece férias remuneradas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153592,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5421e3296856459f-pt-pt-explorar-pais-nicaragua-tipos-licenca.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5421e3296856459f-pt-pt-explorar-pais-nicaragua-tipos-licenca.direct.json",
+  "markdownChars": 1810,
+  "linksCount": 43,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:11:56.186Z"
+}

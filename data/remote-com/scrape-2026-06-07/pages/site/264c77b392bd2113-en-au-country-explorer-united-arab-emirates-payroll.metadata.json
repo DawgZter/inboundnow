@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/united-arab-emirates/payroll",
+  "sourceURL": "https://remote.com/en-au/country-explorer/united-arab-emirates/payroll",
+  "finalURL": "https://remote.com/en-au/country-explorer/united-arab-emirates/payroll",
+  "title": "Pay Employees in United Arab Emirates | Payroll Services",
+  "description": "Pay employees in United Arab Emirates effortlessly with our flexible payroll services. Run payroll, manage expenses and run reports, all from one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261233,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/264c77b392bd2113-en-au-country-explorer-united-arab-emirates-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/264c77b392bd2113-en-au-country-explorer-united-arab-emirates-payroll.direct.json",
+  "markdownChars": 3891,
+  "linksCount": 125,
+  "lastmod": "2025-11-08",
+  "scrapedAt": "2026-06-07T09:10:07.919Z"
+}

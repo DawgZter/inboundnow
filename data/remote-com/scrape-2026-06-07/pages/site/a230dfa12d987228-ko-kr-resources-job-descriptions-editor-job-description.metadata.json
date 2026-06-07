@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/job-descriptions/editor-job-description",
+  "sourceURL": "https://remote.com/ko-kr/resources/job-descriptions/editor-job-description",
+  "finalURL": "https://remote.com/ko-kr/resources/job-descriptions/editor-job-description",
+  "title": "에디터 직무 설명",
+  "description": "콘텐츠 편집 및 교정, 정확성과 명확성 보장, 브랜드의 목소리와 스타일 유지 등의 업무를 담당하는 콘텐츠 편집자의 직무 설명을 검토하세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261277,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a230dfa12d987228-ko-kr-resources-job-descriptions-editor-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a230dfa12d987228-ko-kr-resources-job-descriptions-editor-job-description.direct.json",
+  "markdownChars": 2484,
+  "linksCount": 114,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:07:51.356Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/kolumbien",
+  "sourceURL": "https://remote.com/de-at/country-explorer/kolumbien",
+  "finalURL": "https://remote.com/de-at/country-explorer/kolumbien",
+  "title": "Arbeitgeber-von-Record- und Payroll-Services | Kolumbien",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Kolumbien? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 347760,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9fe730e0d72ad78b-de-at-country-explorer-kolumbien.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9fe730e0d72ad78b-de-at-country-explorer-kolumbien.direct.json",
+  "markdownChars": 8409,
+  "linksCount": 124,
+  "lastmod": "2026-01-16",
+  "scrapedAt": "2026-06-07T09:14:56.457Z"
+}

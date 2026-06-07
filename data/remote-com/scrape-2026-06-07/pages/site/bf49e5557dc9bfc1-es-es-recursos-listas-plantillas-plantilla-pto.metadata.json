@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/listas-plantillas/plantilla-pto",
+  "sourceURL": "https://remote.com/es-es/recursos/listas-plantillas/plantilla-pto",
+  "finalURL": "https://remote.com/es-es/recursos/listas-plantillas/plantilla-pto",
+  "title": "Plantilla de política de tiempo libre pagado (PTO) | Remote",
+  "description": "Create clear, compliant PTO policies with this customizable template. Simplify time-off tracking and support your team across borders.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260050,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bf49e5557dc9bfc1-es-es-recursos-listas-plantillas-plantilla-pto.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bf49e5557dc9bfc1-es-es-recursos-listas-plantillas-plantilla-pto.direct.json",
+  "markdownChars": 12072,
+  "linksCount": 113,
+  "lastmod": "2025-07-25",
+  "scrapedAt": "2026-06-07T09:01:38.975Z"
+}

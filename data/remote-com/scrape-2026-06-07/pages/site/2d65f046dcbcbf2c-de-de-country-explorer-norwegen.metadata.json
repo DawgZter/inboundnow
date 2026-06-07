@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/norwegen",
+  "sourceURL": "https://remote.com/de-de/country-explorer/norwegen",
+  "finalURL": "https://remote.com/de-de/country-explorer/norwegen",
+  "title": "Employer of Record (EOR) und Payroll‑Services | Norwegen",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Norwegen? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 342949,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2d65f046dcbcbf2c-de-de-country-explorer-norwegen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2d65f046dcbcbf2c-de-de-country-explorer-norwegen.direct.json",
+  "markdownChars": 6468,
+  "linksCount": 122,
+  "lastmod": "2025-10-07",
+  "scrapedAt": "2026-06-07T09:18:14.873Z"
+}

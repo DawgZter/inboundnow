@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/nominate-your-company/remote-relocation",
+  "sourceURL": "https://remote.com/ja-jp/nominate-your-company/remote-relocation",
+  "finalURL": "https://remote.com/ja-jp/nominate-your-company/remote-relocation",
+  "title": "Remote Relocation | Remote",
+  "description": "契約社員と従業員が推薦することで、マネージャーや人事リーダーがRemoteから情報を受け取れるようになりました。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 246650,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/37e140c49b0ca6eb-ja-jp-nominate-your-company-remote-relocation.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/37e140c49b0ca6eb-ja-jp-nominate-your-company-remote-relocation.direct.json",
+  "markdownChars": 279,
+  "linksCount": 113,
+  "lastmod": "2025-07-28",
+  "scrapedAt": "2026-06-07T09:11:58.548Z"
+}

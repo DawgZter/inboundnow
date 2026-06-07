@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/checklisten-vorlagen/kuendigungsschreiben",
+  "sourceURL": "https://remote.com/de-at/ressourcen/checklisten-vorlagen/kuendigungsschreiben",
+  "finalURL": "https://remote.com/de-at/ressourcen/checklisten-vorlagen/kuendigungsschreiben",
+  "title": "Vorlage für Beendigung | Remote",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252829,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31bb622292f7ae80-de-at-ressourcen-checklisten-vorlagen-kuendigungsschreiben.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31bb622292f7ae80-de-at-ressourcen-checklisten-vorlagen-kuendigungsschreiben.direct.json",
+  "markdownChars": 6467,
+  "linksCount": 114,
+  "lastmod": "2025-07-28",
+  "scrapedAt": "2026-06-07T09:06:42.853Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/ungarn/benefits-leitfaden",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/ungarn/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-ch/country-explorer/ungarn/benefits-leitfaden",
+  "title": "Sozialleistungen in Ungarn | Sozialleistungspläne",
+  "description": "Entdecke die wichtigsten Sozialleistungen in Ungarn&nbsp;– von Krankenversicherung bis bezahltem Urlaub, damit du Top-Talente gewinnen und halten kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270668,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1aaa4963d91c0305-de-ch-country-explorer-ungarn-benefits-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1aaa4963d91c0305-de-ch-country-explorer-ungarn-benefits-leitfaden.direct.json",
+  "markdownChars": 1651,
+  "linksCount": 125,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:15:16.249Z"
+}

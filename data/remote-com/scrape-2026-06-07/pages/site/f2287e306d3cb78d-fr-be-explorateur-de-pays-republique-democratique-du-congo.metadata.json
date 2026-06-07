@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/republique-democratique-du-congo",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/republique-democratique-du-congo",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/republique-democratique-du-congo",
+  "title": "Services de paie et d’Employer of record : Democratic Republic of the Congo",
+  "description": "Recruter des employés et des freelances : République démocratique du Congo Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 314938,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2287e306d3cb78d-fr-be-explorateur-de-pays-republique-democratique-du-congo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2287e306d3cb78d-fr-be-explorateur-de-pays-republique-democratique-du-congo.direct.json",
+  "markdownChars": 4056,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:11:13.181Z"
+}

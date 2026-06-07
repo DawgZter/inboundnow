@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/pricing",
+  "sourceURL": "https://remote.com/zh-cn/pricing",
+  "finalURL": "https://remote.com/zh-cn/pricing",
+  "title": "定价和价格方案：低固定费率 | Remote",
+  "description": "比较并选择适合您的分散式团队的 Remote 全球薪资、税务、人力资源及合规管理解决方案。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 391309,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b8aa29a358d94d73-zh-cn-pricing.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b8aa29a358d94d73-zh-cn-pricing.direct.json",
+  "markdownChars": 4793,
+  "linksCount": 122,
+  "lastmod": "2026-04-09",
+  "scrapedAt": "2026-06-07T09:18:35.589Z"
+}

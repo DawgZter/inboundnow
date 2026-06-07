@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/morocco/taxes",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/morocco/taxes",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/morocco/taxes",
+  "title": "在摩洛哥管理薪资税 | 税务合规",
+  "description": "帮助贵公司在摩洛哥有效且合规地管理雇佣税。减少薪资税差错，遵守当地法规，避免高额罚款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259651,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6da3909fa49e44bd-zh-cn-country-explorer-morocco-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6da3909fa49e44bd-zh-cn-country-explorer-morocco-taxes.direct.json",
+  "markdownChars": 842,
+  "linksCount": 120,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:16:59.663Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/hr-glossary/minimum-wage",
+  "sourceURL": "https://remote.com/en-nz/resources/hr-glossary/minimum-wage",
+  "finalURL": "https://remote.com/en-nz/resources/hr-glossary/minimum-wage",
+  "title": "Minimum wage",
+  "description": "Minimum wage is the lowest legal pay employers can offer. Understand how it works across countries and why compliance is critical for global teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251467,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c936f81c52844cb3-en-nz-resources-hr-glossary-minimum-wage.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c936f81c52844cb3-en-nz-resources-hr-glossary-minimum-wage.direct.json",
+  "markdownChars": 3048,
+  "linksCount": 119,
+  "lastmod": "2025-07-24",
+  "scrapedAt": "2026-06-07T09:17:28.974Z"
+}

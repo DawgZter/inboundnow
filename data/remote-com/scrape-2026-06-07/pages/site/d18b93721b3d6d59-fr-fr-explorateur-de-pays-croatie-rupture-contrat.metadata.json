@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/croatie/rupture-contrat",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/croatie/rupture-contrat",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/croatie/rupture-contrat",
+  "title": "Croatia : Résilier le contrat d’un employé | Rupture de contrat",
+  "description": "Croatie : Vous avez besoin de résilier le contrat d’un employé ? Découvrez quels sont vos droits grâce à notre guide complet sur les lois régissant la rupture de contrat des employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262054,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d18b93721b3d6d59-fr-fr-explorateur-de-pays-croatie-rupture-contrat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d18b93721b3d6d59-fr-fr-explorateur-de-pays-croatie-rupture-contrat.direct.json",
+  "markdownChars": 2180,
+  "linksCount": 123,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:11:09.609Z"
+}

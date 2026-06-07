@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/serbien/beendigung-arbeitsverhaltnisses",
+  "sourceURL": "https://remote.com/de-at/country-explorer/serbien/beendigung-arbeitsverhaltnisses",
+  "finalURL": "https://remote.com/de-at/country-explorer/serbien/beendigung-arbeitsverhaltnisses",
+  "title": "Arbeitsverhältnisse in Serbia beenden | Mitarbeiter:innen kündigen",
+  "description": "Du musst eine Teammitglied in Serbien entlassen? In unserem umfassenden Leitfaden zum Kündigungsrecht erfährst du, was du tun kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258009,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4c1349cecde81815-de-at-country-explorer-serbien-beendigung-arbeitsverhaltnisses.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4c1349cecde81815-de-at-country-explorer-serbien-beendigung-arbeitsverhaltnisses.direct.json",
+  "markdownChars": 1652,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:01:08.845Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/malawi/contractor-management",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/malawi/contractor-management",
+  "finalURL": "https://remote.com/en-hk/country-explorer/malawi/contractor-management",
+  "title": "Manage Contractors in Malawi | Contractor Management",
+  "description": "Hiring a contractor in Malawi? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254303,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d1744df1e0b58380-en-hk-country-explorer-malawi-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d1744df1e0b58380-en-hk-country-explorer-malawi-contractor-management.direct.json",
+  "markdownChars": 2051,
+  "linksCount": 115,
+  "lastmod": "2025-08-20",
+  "scrapedAt": "2026-06-07T09:15:20.121Z"
+}

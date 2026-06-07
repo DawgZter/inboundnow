@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/oesterreich/steuern",
+  "sourceURL": "https://remote.com/de-at/country-explorer/oesterreich/steuern",
+  "finalURL": "https://remote.com/de-at/country-explorer/oesterreich/steuern",
+  "title": "Lohnnebenkosten in Österreich verwalten | Steuerrecht Rechtskonformität",
+  "description": "Bezahle Lohnsteuern in '.Oesterreich.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263398,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/79549a2003d6d0bf-de-at-country-explorer-oesterreich-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/79549a2003d6d0bf-de-at-country-explorer-oesterreich-steuern.direct.json",
+  "markdownChars": 1215,
+  "linksCount": 124,
+  "lastmod": "2025-06-27",
+  "scrapedAt": "2026-06-07T09:14:10.173Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/tonga",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/tonga",
+  "finalURL": "https://remote.com/en-sg/country-explorer/tonga",
+  "title": "Employer of Record & Payroll Services | Tonga",
+  "description": "Hiring employees and contractors in Tonga? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 307962,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5dceba403147c58e-en-sg-country-explorer-tonga.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5dceba403147c58e-en-sg-country-explorer-tonga.direct.json",
+  "markdownChars": 3092,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:06:44.908Z"
+}

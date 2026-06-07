@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/liechtenstein/contractor-management",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/liechtenstein/contractor-management",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/liechtenstein/contractor-management",
+  "title": "리히텐슈타인에서의 계약자 관리 | 계약자 관리",
+  "description": "리히텐슈타인에서 계약자를 고용하시나요? 당사의 유연한 계약자 관리 서비스로 전 세계 계약자를 손쉽게 관리하고 지급을 처리하세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256586,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ac211a34bd88ae1-ko-kr-country-explorer-liechtenstein-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ac211a34bd88ae1-ko-kr-country-explorer-liechtenstein-contractor-management.direct.json",
+  "markdownChars": 1120,
+  "linksCount": 117,
+  "lastmod": "2025-11-07",
+  "scrapedAt": "2026-06-07T09:00:58.914Z"
+}

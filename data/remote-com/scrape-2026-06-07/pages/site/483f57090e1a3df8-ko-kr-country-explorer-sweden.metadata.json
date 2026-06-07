@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/sweden",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/sweden",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/sweden",
+  "title": "기록상 고용주(EOR) 및 Payroll 서비스 | 스웨덴",
+  "description": "스웨덴에서 직원과 계약자를 채용하시나요? Remote는 통합 글로벌 HR 플랫폼을 통해 직원과 계약자를 관리할 수 있도록 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 344270,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/483f57090e1a3df8-ko-kr-country-explorer-sweden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/483f57090e1a3df8-ko-kr-country-explorer-sweden.direct.json",
+  "markdownChars": 3398,
+  "linksCount": 124,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:01:46.848Z"
+}

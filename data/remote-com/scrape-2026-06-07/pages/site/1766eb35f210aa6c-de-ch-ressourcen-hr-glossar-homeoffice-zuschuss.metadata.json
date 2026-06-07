@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/homeoffice-zuschuss",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/homeoffice-zuschuss",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/homeoffice-zuschuss",
+  "title": "What is a Work from home stipend?",
+  "description": "Erfahre mehr über die Wichtigkeit von WFH-Stipendien bei der Leitung eines globalen Teams",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256045,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1766eb35f210aa6c-de-ch-ressourcen-hr-glossar-homeoffice-zuschuss.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1766eb35f210aa6c-de-ch-ressourcen-hr-glossar-homeoffice-zuschuss.direct.json",
+  "markdownChars": 5435,
+  "linksCount": 124,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:18:33.910Z"
+}

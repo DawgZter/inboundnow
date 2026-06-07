@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/colombia",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/colombia",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/colombia",
+  "title": "Employer of record en loonlijst services | Colombia",
+  "description": "Wil je werknemers en aannemers werven in Colombia? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 343960,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6a027e99d1c98a5-nl-be-landenverkenner-colombia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6a027e99d1c98a5-nl-be-landenverkenner-colombia.direct.json",
+  "markdownChars": 8051,
+  "linksCount": 127,
+  "lastmod": "2026-01-16",
+  "scrapedAt": "2026-06-07T09:08:07.823Z"
+}

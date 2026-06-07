@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/netherlands/contractor-management",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/netherlands/contractor-management",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/netherlands/contractor-management",
+  "title": "네덜란드에서 계약자 관리하기 | 계약자 관리",
+  "description": "네덜란드에서 계약자를 고용하면, 정규직 직원을 채용하는 데 따른 의무를 지지 않고도 유연한 계약자 관리 서비스로 글로벌 계약자 지급과 관리를 손쉽게 처리할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259839,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d0869b664b68c4ba-ko-kr-country-explorer-netherlands-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d0869b664b68c4ba-ko-kr-country-explorer-netherlands-contractor-management.direct.json",
+  "markdownChars": 1168,
+  "linksCount": 123,
+  "lastmod": "2025-11-07",
+  "scrapedAt": "2026-06-07T09:11:08.564Z"
+}

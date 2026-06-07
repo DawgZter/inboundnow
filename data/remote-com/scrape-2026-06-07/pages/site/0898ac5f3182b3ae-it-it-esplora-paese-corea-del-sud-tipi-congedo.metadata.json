@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/corea-del-sud/tipi-congedo",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/corea-del-sud/tipi-congedo",
+  "finalURL": "https://remote.com/it-it/esplora-paese/corea-del-sud/tipi-congedo",
+  "title": "Tipologie di congedo in Corea del Sud | Normativa sul congedo del personale",
+  "description": "Scopri la normativa sui congedi in Corea del Sud. Assicurati che la tua azienda sia conforme alle politiche locali e offra ferie retribuite competitive.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 156298,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0898ac5f3182b3ae-it-it-esplora-paese-corea-del-sud-tipi-congedo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0898ac5f3182b3ae-it-it-esplora-paese-corea-del-sud-tipi-congedo.direct.json",
+  "markdownChars": 3020,
+  "linksCount": 44,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:02:43.116Z"
+}

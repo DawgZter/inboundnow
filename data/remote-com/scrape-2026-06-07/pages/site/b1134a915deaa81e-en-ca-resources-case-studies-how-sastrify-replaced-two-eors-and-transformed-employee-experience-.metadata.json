@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/case-studies/how-sastrify-replaced-two-eors-and-transformed-employee-experience-with-remote",
+  "sourceURL": "https://remote.com/en-ca/resources/case-studies/how-sastrify-replaced-two-eors-and-transformed-employee-experience-with-remote",
+  "finalURL": "https://remote.com/en-ca/resources/case-studies/how-sastrify-replaced-two-eors-and-transformed-employee-experience-with-remote",
+  "title": "How Sastrify replaced two EORs and transformed employee experience with Remote",
+  "description": "Sastrify replaced multiple EOR providers with Remote, cutting costs, improving compliance, and enhancing employee experience. Watch the video...",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258288,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1134a915deaa81e-en-ca-resources-case-studies-how-sastrify-replaced-two-eors-and-transformed-employee-experience-.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1134a915deaa81e-en-ca-resources-case-studies-how-sastrify-replaced-two-eors-and-transformed-employee-experience-.direct.json",
+  "markdownChars": 4722,
+  "linksCount": 107,
+  "lastmod": "2025-07-17",
+  "scrapedAt": "2026-06-07T09:18:26.050Z"
+}

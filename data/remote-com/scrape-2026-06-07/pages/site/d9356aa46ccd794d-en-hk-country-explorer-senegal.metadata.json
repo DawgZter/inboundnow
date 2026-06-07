@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/senegal",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/senegal",
+  "finalURL": "https://remote.com/en-hk/country-explorer/senegal",
+  "title": "Employer of Record & Payroll Services | Senegal",
+  "description": "Hiring employees and contractors in Senegal? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 308487,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d9356aa46ccd794d-en-hk-country-explorer-senegal.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d9356aa46ccd794d-en-hk-country-explorer-senegal.direct.json",
+  "markdownChars": 3112,
+  "linksCount": 116,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:12:24.050Z"
+}

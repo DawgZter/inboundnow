@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/checklists-templates/remote-employee-onboarding-checklist",
+  "sourceURL": "https://remote.com/en-hk/resources/checklists-templates/remote-employee-onboarding-checklist",
+  "finalURL": "https://remote.com/en-hk/resources/checklists-templates/remote-employee-onboarding-checklist",
+  "title": "Remote employee onboarding checklist | Remote",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252933,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1359e3a1685c6e07-en-hk-resources-checklists-templates-remote-employee-onboarding-checklist.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1359e3a1685c6e07-en-hk-resources-checklists-templates-remote-employee-onboarding-checklist.direct.json",
+  "markdownChars": 7254,
+  "linksCount": 110,
+  "lastmod": "2025-06-19",
+  "scrapedAt": "2026-06-07T09:04:38.298Z"
+}

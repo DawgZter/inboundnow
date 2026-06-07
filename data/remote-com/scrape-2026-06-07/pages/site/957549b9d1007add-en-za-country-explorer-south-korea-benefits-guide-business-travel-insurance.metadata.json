@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/south-korea/benefits-guide/business-travel-insurance",
+  "sourceURL": "https://remote.com/en-za/country-explorer/south-korea/benefits-guide/business-travel-insurance",
+  "finalURL": "https://remote.com/en-za/country-explorer/south-korea/benefits-guide/business-travel-insurance",
+  "title": "Business Travel Insurance Benefits in South Korea | Wellbeing Support",
+  "description": "Do your employees regularly travel for business? Protect their safety and well-being with a range of business travel insurance plans in South Korea.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269137,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/957549b9d1007add-en-za-country-explorer-south-korea-benefits-guide-business-travel-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/957549b9d1007add-en-za-country-explorer-south-korea-benefits-guide-business-travel-insurance.direct.json",
+  "markdownChars": 6052,
+  "linksCount": 118,
+  "lastmod": "2025-10-09",
+  "scrapedAt": "2026-06-07T09:14:27.513Z"
+}

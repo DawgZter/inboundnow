@@ -1,0 +1,18 @@
+{
+  "category": "blog",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/blog/nominas/fraude-nomina",
+  "sourceURL": "https://remote.com/es-es/blog/nominas/fraude-nomina",
+  "finalURL": "https://remote.com/es-es/blog/nominas/fraude-nomina",
+  "title": "Fraude en nóminas: tipos, ejemplos y cómo proteger tu empresa",
+  "description": "Comprenda los distintos tipos de fraude en las nóminas y asegúrese de que su empresa sabe cómo evitarlos. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 266700,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/8db0cdbcadaa89c8-es-es-blog-nominas-fraude-nomina.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/8db0cdbcadaa89c8-es-es-blog-nominas-fraude-nomina.direct.json",
+  "markdownChars": 13138,
+  "linksCount": 120,
+  "lastmod": "2026-05-11",
+  "scrapedAt": "2026-06-07T09:00:57.202Z"
+}

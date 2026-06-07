@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/country-explorer/philippines/types-of-leave",
+  "sourceURL": "https://remote.com/en-ca/country-explorer/philippines/types-of-leave",
+  "finalURL": "https://remote.com/en-ca/country-explorer/philippines/types-of-leave",
+  "title": "Types of Leave in Philippines | Employee Leave Laws",
+  "description": "Understand employee leave laws in Philippines. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262504,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69ee5d6d872f5be6-en-ca-country-explorer-philippines-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69ee5d6d872f5be6-en-ca-country-explorer-philippines-types-of-leave.direct.json",
+  "markdownChars": 2072,
+  "linksCount": 126,
+  "lastmod": "2025-05-26",
+  "scrapedAt": "2026-06-07T09:06:07.660Z"
+}

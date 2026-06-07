@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/insubordination",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/insubordination",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/insubordination",
+  "title": "不服従",
+  "description": "Insubordination is the refusal to follow lawful workplace instructions. Learn how to recognize and handle it while staying compliant with labor laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254335,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d154bbffe33f4cae-ja-jp-resources-hr-glossary-insubordination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d154bbffe33f4cae-ja-jp-resources-hr-glossary-insubordination.direct.json",
+  "markdownChars": 1688,
+  "linksCount": 122,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:01:39.465Z"
+}

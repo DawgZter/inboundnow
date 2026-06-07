@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/guatemala",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/guatemala",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/guatemala",
+  "title": "第三方雇佣托管服务与薪资服务 | 危地马拉",
+  "description": "在危地马拉雇佣员工和合同工？Remote 可通过一体化的全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 339073,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/34da064f91aaeecd-zh-cn-country-explorer-guatemala.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/34da064f91aaeecd-zh-cn-country-explorer-guatemala.direct.json",
+  "markdownChars": 2490,
+  "linksCount": 122,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:07:04.678Z"
+}

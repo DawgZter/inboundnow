@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/india/overzicht-secundaire-arbeidsvoorwaarden",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/india/overzicht-secundaire-arbeidsvoorwaarden",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/india/overzicht-secundaire-arbeidsvoorwaarden",
+  "title": "Secundaire arbeidsvoorwaarden in India | arbeidsvoorwaardenpakketten",
+  "description": "Ontdek de essentiële secundaire arbeidsvoorwaarden in India. Lees meer over ziektekostenverzekeringen, betaald verlof en andere voordelen om toptalent aan te trekken en te behouden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268082,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/579b3bb62cff2fc8-nl-be-landenverkenner-india-overzicht-secundaire-arbeidsvoorwaarden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/579b3bb62cff2fc8-nl-be-landenverkenner-india-overzicht-secundaire-arbeidsvoorwaarden.direct.json",
+  "markdownChars": 1727,
+  "linksCount": 127,
+  "lastmod": "2026-01-06",
+  "scrapedAt": "2026-06-07T09:07:14.100Z"
+}

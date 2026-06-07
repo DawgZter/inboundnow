@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/hr-glossary/attrition",
+  "sourceURL": "https://remote.com/en-ca/resources/hr-glossary/attrition",
+  "finalURL": "https://remote.com/en-ca/resources/hr-glossary/attrition",
+  "title": "What is attrition rate in the workplace?",
+  "description": "Understand attrition rate and how it can significantly impact your business - and see how you can take steps to lower it.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257490,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7ffaf21f9aa90ba6-en-ca-resources-hr-glossary-attrition.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7ffaf21f9aa90ba6-en-ca-resources-hr-glossary-attrition.direct.json",
+  "markdownChars": 7382,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:20.959Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/oman",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/oman",
+  "finalURL": "https://remote.com/it-it/esplora-paese/oman",
+  "title": "Employer of Record (EOR) e Payroll | Oman",
+  "description": "Devi assumere personale o collaboratori in Oman? Remote può aiutarti a gestire entrambe le tipologie tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 204585,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f802d9aeef76244b-it-it-esplora-paese-oman.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f802d9aeef76244b-it-it-esplora-paese-oman.direct.json",
+  "markdownChars": 3335,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:17:43.213Z"
+}

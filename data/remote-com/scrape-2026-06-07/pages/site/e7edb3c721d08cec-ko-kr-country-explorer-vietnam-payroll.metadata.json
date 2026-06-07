@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/vietnam/payroll",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/vietnam/payroll",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/vietnam/payroll",
+  "title": "베트남에서 직원에게 급여 지급 | 베트남에서의 급여 서비스",
+  "description": "유연한 급여 서비스로 베트남에서 직원에게 손쉽게 급여를 지급하세요. 한 곳에서 급여를 처리하고 비용을 관리하며 보고서를 실행할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259663,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e7edb3c721d08cec-ko-kr-country-explorer-vietnam-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e7edb3c721d08cec-ko-kr-country-explorer-vietnam-payroll.direct.json",
+  "markdownChars": 1770,
+  "linksCount": 123,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:01:01.305Z"
+}

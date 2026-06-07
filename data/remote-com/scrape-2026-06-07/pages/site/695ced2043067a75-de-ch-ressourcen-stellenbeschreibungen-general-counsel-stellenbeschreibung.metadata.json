@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/general-counsel-stellenbeschreibung",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/general-counsel-stellenbeschreibung",
+  "finalURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/general-counsel-stellenbeschreibung",
+  "title": "Stellenbeschreibung des General Counsel",
+  "description": "Überprüfe die Stellenbeschreibung für den Chefsyndikus, der für die Beaufsichtigung von Rechtsangelegenheiten, die strategische Rechtsberatung und die Einhaltung von Gesetzen und Vorschriften verantwortlich ist.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260849,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/695ced2043067a75-de-ch-ressourcen-stellenbeschreibungen-general-counsel-stellenbeschreibung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/695ced2043067a75-de-ch-ressourcen-stellenbeschreibungen-general-counsel-stellenbeschreibung.direct.json",
+  "markdownChars": 4314,
+  "linksCount": 116,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:37.425Z"
+}

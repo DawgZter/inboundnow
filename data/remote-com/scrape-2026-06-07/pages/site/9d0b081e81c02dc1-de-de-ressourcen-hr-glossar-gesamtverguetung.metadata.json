@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/gesamtverguetung",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/gesamtverguetung",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/gesamtverguetung",
+  "title": "Gesamtvergütung",
+  "description": "Lerne den Unterschied zwischen Gesamtvergütung und Gehalt und verstehe, wie man die Gesamtvergütung eines Arbeitnehmers berechnet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255839,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9d0b081e81c02dc1-de-de-ressourcen-hr-glossar-gesamtverguetung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9d0b081e81c02dc1-de-de-ressourcen-hr-glossar-gesamtverguetung.direct.json",
+  "markdownChars": 5542,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:18:47.794Z"
+}

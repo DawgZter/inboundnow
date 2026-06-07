@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/jour-ferie",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/jour-ferie",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/jour-ferie",
+  "title": "Jour férié fédéral",
+  "description": "Un jour férié fédéral est un jour férié reconnu par le gouvernement des États-Unis. Découvrez comment il influence la planification, la rémunération et la conformité pour les employeurs du secteur privé.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256432,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0970d93d6ae164e2-fr-ch-ressources-glossaire-rh-jour-ferie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0970d93d6ae164e2-fr-ch-ressources-glossaire-rh-jour-ferie.direct.json",
+  "markdownChars": 3949,
+  "linksCount": 123,
+  "lastmod": "2025-07-21",
+  "scrapedAt": "2026-06-07T09:18:35.598Z"
+}

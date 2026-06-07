@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/forschung/europa-life-work-balance-index",
+  "sourceURL": "https://remote.com/de-at/ressourcen/forschung/europa-life-work-balance-index",
+  "finalURL": "https://remote.com/de-at/ressourcen/forschung/europa-life-work-balance-index",
+  "title": "Europäischer Life-Work-Balance-Index 2025⼁Die Länder mit der besten Work-Life Balance",
+  "description": "Du möchtest 2025 in ein anderes europäisches Land umziehen? Erfahre in unserer Studie, welche Länder in Europa die beste Life-Work-Balance bieten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 633084,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5b9799b8d1ccfb65-de-at-ressourcen-forschung-europa-life-work-balance-index.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5b9799b8d1ccfb65-de-at-ressourcen-forschung-europa-life-work-balance-index.direct.json",
+  "markdownChars": 26786,
+  "linksCount": 176,
+  "lastmod": "2025-08-18",
+  "scrapedAt": "2026-06-07T09:01:10.307Z"
+}

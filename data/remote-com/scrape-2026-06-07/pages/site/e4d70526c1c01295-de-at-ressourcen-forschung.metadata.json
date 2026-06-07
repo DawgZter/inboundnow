@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/forschung",
+  "sourceURL": "https://remote.com/de-at/ressourcen/forschung",
+  "finalURL": "https://remote.com/de-at/ressourcen/forschung",
+  "title": "Forschungsberichte, Statistiken und Trends der globalen HR | Remote",
+  "description": "Teile diesen Leitfaden mit deinem Team und anderen Interessierten, die wissen wollen, welche Benefits sie Auftragnehmer:innen anbieten sollen und wie sie dabei am besten vorgehen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 385221,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e4d70526c1c01295-de-at-ressourcen-forschung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e4d70526c1c01295-de-at-ressourcen-forschung.direct.json",
+  "markdownChars": 4222,
+  "linksCount": 151,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:10:30.481Z"
+}

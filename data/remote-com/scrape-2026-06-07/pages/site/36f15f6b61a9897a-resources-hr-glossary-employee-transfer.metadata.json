@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/employee-transfer",
+  "sourceURL": "https://remote.com/resources/hr-glossary/employee-transfer",
+  "finalURL": "https://remote.com/resources/hr-glossary/employee-transfer",
+  "title": "Employee transfer",
+  "description": "Learn about employee transfers and their impact on career growth and organizational structure.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252490,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/36f15f6b61a9897a-resources-hr-glossary-employee-transfer.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/36f15f6b61a9897a-resources-hr-glossary-employee-transfer.direct.json",
+  "markdownChars": 4381,
+  "linksCount": 119,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:16:52.846Z"
+}

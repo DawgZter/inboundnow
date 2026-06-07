@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/performance-improvement",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/performance-improvement",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/performance-improvement",
+  "title": "성과 개선이란 무엇인가요?",
+  "description": "성과 향상의 개념과 그것이 직원 생산성 및 조직 성장에 미치는 영향에 대해 알아보세요. 용어집을 방문하여 핵심 요소를 이해하세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254781,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a5314280331b8678-ko-kr-resources-hr-glossary-performance-improvement.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a5314280331b8678-ko-kr-resources-hr-glossary-performance-improvement.direct.json",
+  "markdownChars": 2123,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:11:54.380Z"
+}

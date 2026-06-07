@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/haiti/contractor-management",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/haiti/contractor-management",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/haiti/contractor-management",
+  "title": "ハイチで契約者を管理する | 契約社員管理",
+  "description": "ハイチで契約者を雇用しますか？ Remoteの柔軟な契約社員管理サービスで、グローバルな契約者の管理と支払いを手間なく行えます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256590,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c8f36c5ae367434e-ja-jp-country-explorer-haiti-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c8f36c5ae367434e-ja-jp-country-explorer-haiti-contractor-management.direct.json",
+  "markdownChars": 975,
+  "linksCount": 117,
+  "lastmod": "2025-10-28",
+  "scrapedAt": "2026-06-07T09:08:16.081Z"
+}

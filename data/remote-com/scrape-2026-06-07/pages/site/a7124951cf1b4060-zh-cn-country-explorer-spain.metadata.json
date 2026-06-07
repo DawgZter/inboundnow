@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/spain",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/spain",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/spain",
+  "title": "第三方雇佣托管服务与薪资服务 | 西班牙",
+  "description": "在西班牙雇用员工或合同工时，Remote 可通过我们的集成全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 346683,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a7124951cf1b4060-zh-cn-country-explorer-spain.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a7124951cf1b4060-zh-cn-country-explorer-spain.direct.json",
+  "markdownChars": 3247,
+  "linksCount": 126,
+  "lastmod": "2026-02-25",
+  "scrapedAt": "2026-06-07T09:02:26.448Z"
+}

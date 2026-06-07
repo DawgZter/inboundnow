@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/singapore/typen-verlof",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/singapore/typen-verlof",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/singapore/typen-verlof",
+  "title": "Typen verlof in Singapore | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Singapore. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262569,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/25d6f8d5a8af375a-nl-nl-landenverkenner-singapore-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/25d6f8d5a8af375a-nl-nl-landenverkenner-singapore-typen-verlof.direct.json",
+  "markdownChars": 3268,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:05:15.983Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/butao",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/butao",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/butao",
+  "title": "Employer of Record (EOR) e processamento salarial | Butão",
+  "description": "Queres contratar trabalhadores e independentes no Butão? A Remote ajuda-te a gerir a tua equipa através da nossa plataforma global de RH.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 205000,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/632d0fe743512f82-pt-pt-explorar-pais-butao.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/632d0fe743512f82-pt-pt-explorar-pais-butao.direct.json",
+  "markdownChars": 3594,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:11:49.407Z"
+}

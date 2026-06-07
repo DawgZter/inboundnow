@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/hr-glossary/residence-card",
+  "sourceURL": "https://remote.com/en-sg/resources/hr-glossary/residence-card",
+  "finalURL": "https://remote.com/en-sg/resources/hr-glossary/residence-card",
+  "title": "What is a residence card?",
+  "description": "Understand the importance of a residence card in employment and immigration. Visit our glossary to learn how it impacts work eligibility and residency status.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252083,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/378f6ce9e3991f18-en-sg-resources-hr-glossary-residence-card.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/378f6ce9e3991f18-en-sg-resources-hr-glossary-residence-card.direct.json",
+  "markdownChars": 3645,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:27.077Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/us-state-explorer/minnesota/payroll",
+  "sourceURL": "https://remote.com/en-sg/us-state-explorer/minnesota/payroll",
+  "finalURL": "https://remote.com/en-sg/us-state-explorer/minnesota/payroll",
+  "title": "Payroll Management in Minnesota",
+  "description": "Manage payroll in Minnesota seamlessly with Remote's payroll software. Stay compliant with Minnesota payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258708,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b70320e998da685a-en-sg-us-state-explorer-minnesota-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b70320e998da685a-en-sg-us-state-explorer-minnesota-payroll.direct.json",
+  "markdownChars": 4155,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:10:28.375Z"
+}

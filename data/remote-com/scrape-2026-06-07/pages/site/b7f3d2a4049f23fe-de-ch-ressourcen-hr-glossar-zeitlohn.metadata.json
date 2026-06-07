@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/zeitlohn",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/zeitlohn",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/zeitlohn",
+  "title": "What is straight time pay?",
+  "description": "Erfahre, was es mit dem Zeitlohn auf sich hat und wie Arbeitgeber ihn in die Praxis umsetzen können",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252902,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b7f3d2a4049f23fe-de-ch-ressourcen-hr-glossar-zeitlohn.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b7f3d2a4049f23fe-de-ch-ressourcen-hr-glossar-zeitlohn.direct.json",
+  "markdownChars": 3193,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:18:39.281Z"
+}

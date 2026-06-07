@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/maldive/contractor-management",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/maldive/contractor-management",
+  "finalURL": "https://remote.com/it-it/esplora-paese/maldive/contractor-management",
+  "title": "Gestisci collaboratori nelle Maldive | Contractor Management",
+  "description": "Vuoi collaborare con freelance nelle Maldive? Gestisci e paga i tuoi collaboratori globali senza intoppi con i nostri flessibili servizi di Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 151046,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a82b07c0d5ea4906-it-it-esplora-paese-maldive-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a82b07c0d5ea4906-it-it-esplora-paese-maldive-contractor-management.direct.json",
+  "markdownChars": 2472,
+  "linksCount": 39,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:15:06.966Z"
+}

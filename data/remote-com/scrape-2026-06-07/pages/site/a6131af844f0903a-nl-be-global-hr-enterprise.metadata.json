@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/global-hr/enterprise",
+  "sourceURL": "https://remote.com/nl-be/global-hr/enterprise",
+  "finalURL": "https://remote.com/nl-be/global-hr/enterprise",
+  "title": "Het eenvoudige global HR-platform waarop je kunt vertrouwen | Remote",
+  "description": "Remote regelt internationale HR, mobiliteit, payroll, belastingen, secundaire arbeidsvoorwaarden, compliance en meer. Zoek buiten de grenzen naar geweldig talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 371359,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6131af844f0903a-nl-be-global-hr-enterprise.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6131af844f0903a-nl-be-global-hr-enterprise.direct.json",
+  "markdownChars": 10956,
+  "linksCount": 118,
+  "lastmod": "2025-06-10",
+  "scrapedAt": "2026-06-07T09:14:52.435Z"
+}

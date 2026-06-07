@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/hr-glossary/accrued-payroll",
+  "sourceURL": "https://remote.com/en-sg/resources/hr-glossary/accrued-payroll",
+  "finalURL": "https://remote.com/en-sg/resources/hr-glossary/accrued-payroll",
+  "title": "What is accrued payroll?",
+  "description": "Learn more about accrued payroll and how to calculate it",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252363,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/95bc87b0d1c6ab0e-en-sg-resources-hr-glossary-accrued-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/95bc87b0d1c6ab0e-en-sg-resources-hr-glossary-accrued-payroll.direct.json",
+  "markdownChars": 4137,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:16:33.110Z"
+}

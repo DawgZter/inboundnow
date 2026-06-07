@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/bahrein",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/bahrein",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/bahrein",
+  "title": "Services de paie et d’Employer of record : Bahreïn",
+  "description": "Recruter des employés et des freelances : Bahreïn Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 323053,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/542becf43fcfb13d-fr-ch-explorateur-de-pays-bahrein.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/542becf43fcfb13d-fr-ch-explorateur-de-pays-bahrein.direct.json",
+  "markdownChars": 5437,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:02:02.352Z"
+}

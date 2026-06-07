@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/global-hr/ats",
+  "sourceURL": "https://remote.com/en-sg/global-hr/ats",
+  "finalURL": "https://remote.com/en-sg/global-hr/ats",
+  "title": "Applicant Tracking System (ATS) | Remote",
+  "description": "A complete ATS built into Remote. Manage applicants, run AI interviews, send offers, and onboard new hires — all in one connected flow for global teams.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 320755,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8220bdfc8a243b39-en-sg-global-hr-ats.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8220bdfc8a243b39-en-sg-global-hr-ats.direct.json",
+  "markdownChars": 3108,
+  "linksCount": 118,
+  "lastmod": "2026-04-09",
+  "scrapedAt": "2026-06-07T09:15:17.850Z"
+}

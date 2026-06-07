@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/hr-glossary/employee-turnover-rate",
+  "sourceURL": "https://remote.com/en-nz/resources/hr-glossary/employee-turnover-rate",
+  "finalURL": "https://remote.com/en-nz/resources/hr-glossary/employee-turnover-rate",
+  "title": "What is turnover rate?",
+  "description": "Learn what employee turnover rate is, how to calculate it, and how it can affect your business.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255183,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/34caf88b53219285-en-nz-resources-hr-glossary-employee-turnover-rate.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/34caf88b53219285-en-nz-resources-hr-glossary-employee-turnover-rate.direct.json",
+  "markdownChars": 6033,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:00:59.620Z"
+}

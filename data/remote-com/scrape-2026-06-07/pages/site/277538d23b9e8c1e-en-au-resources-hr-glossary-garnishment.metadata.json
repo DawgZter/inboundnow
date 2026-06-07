@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/hr-glossary/garnishment",
+  "sourceURL": "https://remote.com/en-au/resources/hr-glossary/garnishment",
+  "finalURL": "https://remote.com/en-au/resources/hr-glossary/garnishment",
+  "title": "What is wage garnishment?",
+  "description": "Understand what a garnishment is, and how to tactfully manage a situation where an employee's wages need to be garnished.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259126,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/277538d23b9e8c1e-en-au-resources-hr-glossary-garnishment.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/277538d23b9e8c1e-en-au-resources-hr-glossary-garnishment.direct.json",
+  "markdownChars": 10345,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:07:31.253Z"
+}

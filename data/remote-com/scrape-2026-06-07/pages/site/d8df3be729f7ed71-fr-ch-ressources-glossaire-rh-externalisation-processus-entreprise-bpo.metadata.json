@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/externalisation-processus-entreprise-bpo",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/externalisation-processus-entreprise-bpo",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/externalisation-processus-entreprise-bpo",
+  "title": "What is business process outsourcing (BPO)?",
+  "description": "L'externalisation des processus d'entreprise (BPO) est la pratique qui consiste à sous-traiter des tâches clés de l'entreprise à un tiers. La BPO peut aider les entreprises à être plus efficaces, plus productives et plus rentables.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261655,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8df3be729f7ed71-fr-ch-ressources-glossaire-rh-externalisation-processus-entreprise-bpo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8df3be729f7ed71-fr-ch-ressources-glossaire-rh-externalisation-processus-entreprise-bpo.direct.json",
+  "markdownChars": 8376,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:13:35.658Z"
+}

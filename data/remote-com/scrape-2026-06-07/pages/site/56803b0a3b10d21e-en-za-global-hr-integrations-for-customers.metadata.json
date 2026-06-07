@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/global-hr/integrations-for-customers",
+  "sourceURL": "https://remote.com/en-za/global-hr/integrations-for-customers",
+  "finalURL": "https://remote.com/en-za/global-hr/integrations-for-customers",
+  "title": "Integrate Your Entire HR Tech Stack | Remote",
+  "description": "Remote integrates with popular HR and payroll tools to streamline the entire employment process and securely sync key employee information so you can move faster.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 320302,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56803b0a3b10d21e-en-za-global-hr-integrations-for-customers.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56803b0a3b10d21e-en-za-global-hr-integrations-for-customers.direct.json",
+  "markdownChars": 6907,
+  "linksCount": 117,
+  "lastmod": "2026-04-10",
+  "scrapedAt": "2026-06-07T09:12:31.692Z"
+}

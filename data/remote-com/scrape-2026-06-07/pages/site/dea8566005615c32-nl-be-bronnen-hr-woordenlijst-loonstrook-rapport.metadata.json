@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/loonstrook-rapport",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/loonstrook-rapport",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/loonstrook-rapport",
+  "title": "What is a payroll report?",
+  "description": "Verken onze uitgebreide HR-woordenlijst om het concept van een salarisadministratie te begrijpen, het belang ervan in het bedrijfsleven en hoe het het personeelsbeheer en de financiële planning beïnvloedt.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 248997,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dea8566005615c32-nl-be-bronnen-hr-woordenlijst-loonstrook-rapport.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dea8566005615c32-nl-be-bronnen-hr-woordenlijst-loonstrook-rapport.direct.json",
+  "markdownChars": 2933,
+  "linksCount": 123,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:16.072Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/north-macedonia/taxes",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/north-macedonia/taxes",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/north-macedonia/taxes",
+  "title": "北マケドニアにおける給与税管理 | 税務コンプライアンス",
+  "description": "貴社が北マケドニアの給与税を効果的かつ法令順守の形で管理できるよう支援します。給与税のエラーを最小限に抑え、現地法を遵守し、高額な罰金を回避できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258159,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3b56bdf99d6727ca-ja-jp-country-explorer-north-macedonia-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3b56bdf99d6727ca-ja-jp-country-explorer-north-macedonia-taxes.direct.json",
+  "markdownChars": 464,
+  "linksCount": 122,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:13:46.932Z"
+}

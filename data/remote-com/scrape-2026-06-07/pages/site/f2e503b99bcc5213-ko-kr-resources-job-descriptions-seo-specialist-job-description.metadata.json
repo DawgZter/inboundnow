@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/job-descriptions/seo-specialist-job-description",
+  "sourceURL": "https://remote.com/ko-kr/resources/job-descriptions/seo-specialist-job-description",
+  "finalURL": "https://remote.com/ko-kr/resources/job-descriptions/seo-specialist-job-description",
+  "title": "SEO 전문가 직무 설명",
+  "description": "웹사이트 콘텐츠 최적화, 실적 데이터 분석, 검색 엔진 순위 향상을 위한 전략 구현을 담당하는 SEO 전문가의 직무 설명을 검토하세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259773,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2e503b99bcc5213-ko-kr-resources-job-descriptions-seo-specialist-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2e503b99bcc5213-ko-kr-resources-job-descriptions-seo-specialist-job-description.direct.json",
+  "markdownChars": 1830,
+  "linksCount": 114,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:12:26.654Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/micronesia",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/micronesia",
+  "finalURL": "https://remote.com/en-ie/country-explorer/micronesia",
+  "title": "Employer of Record & Payroll Services | Micronesia",
+  "description": "Hiring employees and contractors in Micronesia? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 308844,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b3446b88c2a19d51-en-ie-country-explorer-micronesia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b3446b88c2a19d51-en-ie-country-explorer-micronesia.direct.json",
+  "markdownChars": 3157,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:07:12.242Z"
+}

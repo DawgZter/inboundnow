@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/ruanda",
+  "sourceURL": "https://remote.com/de-de/country-explorer/ruanda",
+  "finalURL": "https://remote.com/de-de/country-explorer/ruanda",
+  "title": "Employer-of-Record- und Payroll-Services | Rwanda",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Ruanda? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 311264,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/39125ceaf2d0b6b8-de-de-country-explorer-ruanda.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/39125ceaf2d0b6b8-de-de-country-explorer-ruanda.direct.json",
+  "markdownChars": 3785,
+  "linksCount": 118,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:13:43.959Z"
+}

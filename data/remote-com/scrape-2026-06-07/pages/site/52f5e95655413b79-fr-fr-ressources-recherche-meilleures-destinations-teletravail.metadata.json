@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/recherche/meilleures-destinations-teletravail",
+  "sourceURL": "https://remote.com/fr-fr/ressources/recherche/meilleures-destinations-teletravail",
+  "finalURL": "https://remote.com/fr-fr/ressources/recherche/meilleures-destinations-teletravail",
+  "title": "Les meilleures destinations pour le télétravail | Remote",
+  "description": "Grâce à l'outil interactif de Remote, découvrez les meilleures destinations au monde pour les travailleurs à distance.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 301759,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/52f5e95655413b79-fr-fr-ressources-recherche-meilleures-destinations-teletravail.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/52f5e95655413b79-fr-fr-ressources-recherche-meilleures-destinations-teletravail.direct.json",
+  "markdownChars": 8586,
+  "linksCount": 117,
+  "lastmod": "2026-03-13",
+  "scrapedAt": "2026-06-07T09:17:39.189Z"
+}

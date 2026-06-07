@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/mongolia",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/mongolia",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/mongolia",
+  "title": "기록상 고용주(EOR) 및 Payroll 서비스 | 몽골",
+  "description": "몽골에서 직원과 계약자를 채용하시나요? Remote는 통합 글로벌 HR 플랫폼을 통해 직원과 계약자를 관리할 수 있도록 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 338942,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c4dd8a70b52e9a07-ko-kr-country-explorer-mongolia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c4dd8a70b52e9a07-ko-kr-country-explorer-mongolia.direct.json",
+  "markdownChars": 3231,
+  "linksCount": 118,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:10:25.748Z"
+}

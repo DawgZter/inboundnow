@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/kosovo/benefits-guide/health-benefits",
+  "sourceURL": "https://remote.com/en-in/country-explorer/kosovo/benefits-guide/health-benefits",
+  "finalURL": "https://remote.com/en-in/country-explorer/kosovo/benefits-guide/health-benefits",
+  "title": "Health Benefits in Kosovo | Wellbeing Support",
+  "description": "Support your team with Health benefits in Kosovo.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 281565,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a2a7af9749a32618-en-in-country-explorer-kosovo-benefits-guide-health-benefits.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a2a7af9749a32618-en-in-country-explorer-kosovo-benefits-guide-health-benefits.direct.json",
+  "markdownChars": 18777,
+  "linksCount": 117,
+  "lastmod": "2026-04-30",
+  "scrapedAt": "2026-06-07T09:16:48.514Z"
+}

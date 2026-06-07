@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/australia/payroll",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/australia/payroll",
+  "finalURL": "https://remote.com/en-hk/country-explorer/australia/payroll",
+  "title": "Pay Employees in Australia | Payroll Services",
+  "description": "Pay employees in Australia effortlessly with our flexible payroll services. Run payroll, manage expenses and run reports, all from one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261033,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a509e534d6c368bc-en-hk-country-explorer-australia-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a509e534d6c368bc-en-hk-country-explorer-australia-payroll.direct.json",
+  "markdownChars": 3701,
+  "linksCount": 127,
+  "lastmod": "2025-11-08",
+  "scrapedAt": "2026-06-07T09:06:49.304Z"
+}

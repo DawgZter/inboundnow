@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/oeganda/typen-verlof",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/oeganda/typen-verlof",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/oeganda/typen-verlof",
+  "title": "Typen verlof in Uganda | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Oeganda. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261437,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c3096a5dbcdcfcfd-nl-nl-landenverkenner-oeganda-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c3096a5dbcdcfcfd-nl-nl-landenverkenner-oeganda-typen-verlof.direct.json",
+  "markdownChars": 2363,
+  "linksCount": 123,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:01:20.447Z"
+}

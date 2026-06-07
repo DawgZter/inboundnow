@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/futa",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/futa",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/futa",
+  "title": "What is the federal unemployment tax act (FUTA)?",
+  "description": "De Federal Unemployment Tax Act (FUTA) en het belang ervan voor de financiering van werkloosheid begrijpen. Bezoek onze verklarende woordenlijst om te zien wat de gevolgen zijn voor werkgevers en werknemers.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250880,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e756a4f28d90b427-nl-be-bronnen-hr-woordenlijst-futa.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e756a4f28d90b427-nl-be-bronnen-hr-woordenlijst-futa.direct.json",
+  "markdownChars": 5061,
+  "linksCount": 123,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:02:01.857Z"
+}

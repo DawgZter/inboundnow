@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/italien/contractor-management",
+  "sourceURL": "https://remote.com/de-at/country-explorer/italien/contractor-management",
+  "finalURL": "https://remote.com/de-at/country-explorer/italien/contractor-management",
+  "title": "Contractor Management in Italien",
+  "description": "Beauftragst du eine Auftragnehmer:in in Italien? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management-Leistungen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259301,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ef0f3b7f9f928d4-de-at-country-explorer-italien-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ef0f3b7f9f928d4-de-at-country-explorer-italien-contractor-management.direct.json",
+  "markdownChars": 2579,
+  "linksCount": 125,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:18:42.339Z"
+}

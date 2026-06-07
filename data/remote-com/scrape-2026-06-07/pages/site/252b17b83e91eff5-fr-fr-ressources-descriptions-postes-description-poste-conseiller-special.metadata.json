@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-conseiller-special",
+  "sourceURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-conseiller-special",
+  "finalURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-conseiller-special",
+  "title": "Description du poste de conseiller spécial",
+  "description": "Examinez la description du poste de conseiller spécial, chargé de fournir des conseils juridiques spécialisés, de traiter des questions juridiques complexes et d'assister le personnel juridique supérieur dans des domaines spécialisés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263396,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/252b17b83e91eff5-fr-fr-ressources-descriptions-postes-description-poste-conseiller-special.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/252b17b83e91eff5-fr-fr-ressources-descriptions-postes-description-poste-conseiller-special.direct.json",
+  "markdownChars": 4553,
+  "linksCount": 114,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:09:39.831Z"
+}

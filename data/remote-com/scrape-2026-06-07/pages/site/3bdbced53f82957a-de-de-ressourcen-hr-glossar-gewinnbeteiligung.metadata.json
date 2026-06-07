@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/gewinnbeteiligung",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/gewinnbeteiligung",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/gewinnbeteiligung",
+  "title": "Gewinnbeteiligung",
+  "description": "Erfahren Sie, wie Gewinnbeteiligung funktioniert, wie sie sich von Boni und Aktienanteilen unterscheidet und warum Unternehmen sie einsetzen, um Mitarbeiter zu motivieren, zu binden und zu belohnen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255866,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3bdbced53f82957a-de-de-ressourcen-hr-glossar-gewinnbeteiligung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3bdbced53f82957a-de-de-ressourcen-hr-glossar-gewinnbeteiligung.direct.json",
+  "markdownChars": 5293,
+  "linksCount": 122,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:02:21.115Z"
+}

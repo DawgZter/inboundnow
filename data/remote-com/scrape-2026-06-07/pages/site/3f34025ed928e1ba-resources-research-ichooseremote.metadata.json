@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/research/ichooseremote",
+  "sourceURL": "https://remote.com/resources/research/ichooseremote",
+  "finalURL": "https://remote.com/resources/research/ichooseremote",
+  "title": "Remote Work Tool Kit | Remote",
+  "description": "Access our Choose Remote Toolkit and reimagine the way you work and live! #IChooseRemote",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 307628,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3f34025ed928e1ba-resources-research-ichooseremote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3f34025ed928e1ba-resources-research-ichooseremote.direct.json",
+  "markdownChars": 4966,
+  "linksCount": 120,
+  "lastmod": "2025-07-02",
+  "scrapedAt": "2026-06-07T09:07:56.090Z"
+}

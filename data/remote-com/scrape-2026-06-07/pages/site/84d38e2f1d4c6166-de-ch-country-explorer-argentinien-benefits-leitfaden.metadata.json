@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/argentinien/benefits-leitfaden",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/argentinien/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-ch/country-explorer/argentinien/benefits-leitfaden",
+  "title": "Sozialleistungen in Argentinien | Sozialleistungspläne",
+  "description": "Entdecke die wichtigsten Sozialleistungen in Argentinien. Erfahre mehr über Krankenversicherung, bezahlten Urlaub und weitere Leistungen, um erstklassige Mitarbeiter:innen anzuziehen und zu binden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271080,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/84d38e2f1d4c6166-de-ch-country-explorer-argentinien-benefits-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/84d38e2f1d4c6166-de-ch-country-explorer-argentinien-benefits-leitfaden.direct.json",
+  "markdownChars": 1696,
+  "linksCount": 125,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:11:41.262Z"
+}

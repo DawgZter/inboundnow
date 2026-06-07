@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/form-941",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/form-941",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/form-941",
+  "title": "Formular 941",
+  "description": "Form 941 is the IRS tax form US employers use to report and pay federal payroll taxes. Learn what it includes and why timely filing matters.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253135,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3ed494b6829cafd3-de-ch-ressourcen-hr-glossar-form-941.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3ed494b6829cafd3-de-ch-ressourcen-hr-glossar-form-941.direct.json",
+  "markdownChars": 3247,
+  "linksCount": 124,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:05:21.947Z"
+}

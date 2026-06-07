@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/australia/benefits-guide",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/australia/benefits-guide",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/australia/benefits-guide",
+  "title": "호주에서의 직원 복리후생 | 복리후생 플랜",
+  "description": "호주에서의 필수적인 직원 복리후생을 확인하고 건강보험, 연차 유급 휴가 및 인재 유치와 유지를 위한 기타 혜택 정보를 자세히 제공합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270474,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07ee1bc05216dbac-ko-kr-country-explorer-australia-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07ee1bc05216dbac-ko-kr-country-explorer-australia-benefits-guide.direct.json",
+  "markdownChars": 792,
+  "linksCount": 123,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:01:11.944Z"
+}

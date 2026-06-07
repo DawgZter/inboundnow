@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/warum-remote/globale-infrastruktur",
+  "sourceURL": "https://remote.com/de-ch/warum-remote/globale-infrastruktur",
+  "finalURL": "https://remote.com/de-ch/warum-remote/globale-infrastruktur",
+  "title": "Globale HR-Lösungen für verteilte Teams | Remote",
+  "description": "Stelle in wenigen Minuten dein internationales Team zusammen. Remote ist der aktuell gefragteste Anbieter von globalen Payroll-, HR-, Steuer- und Rechtslösungen für verteilte Teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 279780,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/576690a77fff06e3-de-ch-warum-remote-globale-infrastruktur.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/576690a77fff06e3-de-ch-warum-remote-globale-infrastruktur.direct.json",
+  "markdownChars": 2377,
+  "linksCount": 113,
+  "lastmod": "2025-07-02",
+  "scrapedAt": "2026-06-07T09:01:35.810Z"
+}

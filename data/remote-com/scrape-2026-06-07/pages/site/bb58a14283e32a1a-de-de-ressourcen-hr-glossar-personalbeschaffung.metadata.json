@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/personalbeschaffung",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/personalbeschaffung",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/personalbeschaffung",
+  "title": "Was ist Sourcing in der Personalabteilung?",
+  "description": "Erfahre mehr über Talent Sourcing in der Personalabteilung und wie dein Unternehmen seine Talent Sourcing Strategie optimieren kann.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254258,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb58a14283e32a1a-de-de-ressourcen-hr-glossar-personalbeschaffung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb58a14283e32a1a-de-de-ressourcen-hr-glossar-personalbeschaffung.direct.json",
+  "markdownChars": 4234,
+  "linksCount": 122,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:08:03.817Z"
+}

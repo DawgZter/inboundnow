@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/rh-international/remote-employes",
+  "sourceURL": "https://remote.com/fr-fr/rh-international/remote-employes",
+  "finalURL": "https://remote.com/fr-fr/rh-international/remote-employes",
+  "title": "Remote pour les employés | Remote",
+  "description": "L'embauche à l’international est complexe. Remote vous facilite la vie.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 310822,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/52b3eb97d5f15057-fr-fr-rh-international-remote-employes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/52b3eb97d5f15057-fr-fr-rh-international-remote-employes.direct.json",
+  "markdownChars": 8365,
+  "linksCount": 119,
+  "lastmod": "2025-05-14",
+  "scrapedAt": "2026-06-07T09:13:42.174Z"
+}

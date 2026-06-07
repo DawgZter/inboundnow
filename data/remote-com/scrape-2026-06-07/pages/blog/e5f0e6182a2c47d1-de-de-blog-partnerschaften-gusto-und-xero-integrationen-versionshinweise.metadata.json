@@ -1,0 +1,18 @@
+{
+  "category": "blog",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/blog/partnerschaften/gusto-und-xero-integrationen-versionshinweise",
+  "sourceURL": "https://remote.com/de-de/blog/partnerschaften/gusto-und-xero-integrationen-versionshinweise",
+  "finalURL": "https://remote.com/de-de/blog/partnerschaften/gusto-und-xero-integrationen-versionshinweise",
+  "title": "Neues zu Remote-Produkten: Integration mit Gusto und Zero und Contractor Management Plus",
+  "description": "Remote führt Integrationen mit Gusto und Xero ein, kündigt Contractor Management Plus an und nimmt weitere Verbesserungen an der Benutzeroberfläche und Workflows vor.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258501,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/e5f0e6182a2c47d1-de-de-blog-partnerschaften-gusto-und-xero-integrationen-versionshinweise.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/e5f0e6182a2c47d1-de-de-blog-partnerschaften-gusto-und-xero-integrationen-versionshinweise.direct.json",
+  "markdownChars": 5738,
+  "linksCount": 122,
+  "lastmod": "2026-05-11",
+  "scrapedAt": "2026-06-07T09:00:57.010Z"
+}

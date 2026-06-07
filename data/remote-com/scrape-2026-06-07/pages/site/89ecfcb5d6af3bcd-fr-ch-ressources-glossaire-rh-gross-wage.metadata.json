@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/gross-wage",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/gross-wage",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/gross-wage",
+  "title": "Salaire brut",
+  "description": "Gross wage is an employee’s total earnings before deductions. Understand how it’s calculated and why it’s key to payroll accuracy and compliance.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255427,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89ecfcb5d6af3bcd-fr-ch-ressources-glossaire-rh-gross-wage.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89ecfcb5d6af3bcd-fr-ch-ressources-glossaire-rh-gross-wage.direct.json",
+  "markdownChars": 3657,
+  "linksCount": 124,
+  "lastmod": "2025-07-19",
+  "scrapedAt": "2026-06-07T09:04:00.510Z"
+}

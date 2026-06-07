@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/hr-glossary/work-from-home-stipend",
+  "sourceURL": "https://remote.com/en-ie/resources/hr-glossary/work-from-home-stipend",
+  "finalURL": "https://remote.com/en-ie/resources/hr-glossary/work-from-home-stipend",
+  "title": "What is a Work from home stipend?",
+  "description": "Learn more about the importnace of WFH stipends while managing a global team",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253350,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d3043960f352950c-en-ie-resources-hr-glossary-work-from-home-stipend.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d3043960f352950c-en-ie-resources-hr-glossary-work-from-home-stipend.direct.json",
+  "markdownChars": 4523,
+  "linksCount": 120,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:11:44.223Z"
+}

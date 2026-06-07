@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/salaire-fixe",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/salaire-fixe",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/salaire-fixe",
+  "title": "Salaire de base",
+  "description": "Base salary is the fixed pay in an employee’s contract. Discover how it's calculated, how it differs from total compensation, and why it matters. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258374,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1427588fedbc7921-fr-fr-ressources-glossaire-rh-salaire-fixe.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1427588fedbc7921-fr-fr-ressources-glossaire-rh-salaire-fixe.direct.json",
+  "markdownChars": 5592,
+  "linksCount": 122,
+  "lastmod": "2025-08-04",
+  "scrapedAt": "2026-06-07T09:16:26.815Z"
+}

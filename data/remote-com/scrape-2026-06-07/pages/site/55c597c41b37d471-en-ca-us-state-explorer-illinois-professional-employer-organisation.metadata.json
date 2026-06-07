@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/us-state-explorer/illinois/professional-employer-organisation",
+  "sourceURL": "https://remote.com/en-ca/us-state-explorer/illinois/professional-employer-organisation",
+  "finalURL": "https://remote.com/en-ca/us-state-explorer/illinois/professional-employer-organisation",
+  "title": "Scale your team with a PEO in Illinois",
+  "description": "Simplify HR and payroll with a PEO in Illinois. Learn how to stay compliant, offer better benefits, and scale your team with confidence.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260975,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/55c597c41b37d471-en-ca-us-state-explorer-illinois-professional-employer-organisation.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/55c597c41b37d471-en-ca-us-state-explorer-illinois-professional-employer-organisation.direct.json",
+  "markdownChars": 3929,
+  "linksCount": 113,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:14:38.998Z"
+}

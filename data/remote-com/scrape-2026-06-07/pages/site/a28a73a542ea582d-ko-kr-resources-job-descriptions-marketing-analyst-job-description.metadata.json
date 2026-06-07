@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/job-descriptions/marketing-analyst-job-description",
+  "sourceURL": "https://remote.com/ko-kr/resources/job-descriptions/marketing-analyst-job-description",
+  "finalURL": "https://remote.com/ko-kr/resources/job-descriptions/marketing-analyst-job-description",
+  "title": "마케팅 분석가 작업 설명",
+  "description": "시장 데이터 분석, 트렌드 파악, 마케팅 전략 및 캠페인 최적화를 위한 인사이트 제공을 담당하는 마케팅 분석가의 직무 설명을 살펴보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261912,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a28a73a542ea582d-ko-kr-resources-job-descriptions-marketing-analyst-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a28a73a542ea582d-ko-kr-resources-job-descriptions-marketing-analyst-job-description.direct.json",
+  "markdownChars": 2580,
+  "linksCount": 114,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:14:38.492Z"
+}

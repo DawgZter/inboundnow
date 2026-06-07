@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/mozambique",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/mozambique",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/mozambique",
+  "title": "第三方雇佣托管服务与薪资服务 | 莫桑比克",
+  "description": "是否在莫桑比克招聘员工与合同工？Remote 可通过我们的一体化全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 307852,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/851308a5d88fbfe2-zh-cn-country-explorer-mozambique.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/851308a5d88fbfe2-zh-cn-country-explorer-mozambique.direct.json",
+  "markdownChars": 1318,
+  "linksCount": 116,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:10:59.867Z"
+}

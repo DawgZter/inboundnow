@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/brasile/tasse",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/brasile/tasse",
+  "finalURL": "https://remote.com/it-it/esplora-paese/brasile/tasse",
+  "title": "Gestisci le tasse sulla busta paga in Brasile | Conformità fiscale",
+  "description": "Gestisci le tasse sulla busta paga in Brasile in modo efficace e conforme. Riduci al minimo gli errori nelle buste paga, rispetta le leggi locali ed evita sanzioni costose.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 156270,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e68ecc6fe5e617c6-it-it-esplora-paese-brasile-tasse.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e68ecc6fe5e617c6-it-it-esplora-paese-brasile-tasse.direct.json",
+  "markdownChars": 2114,
+  "linksCount": 44,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:16:48.917Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/global-hr/hr-compliance",
+  "sourceURL": "https://remote.com/nl-be/global-hr/hr-compliance",
+  "finalURL": "https://remote.com/nl-be/global-hr/hr-compliance",
+  "title": "Compliance Watchtower: software voor HR-compliance | Remote",
+  "description": "Zorg voor naadloze compliance met arbeidswetten met de deskundige begeleiding van Remote op het gebied van HR-compliance, afgestemd op jouw organisatie.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 382451,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3d7d12175ecc3f0b-nl-be-global-hr-hr-compliance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3d7d12175ecc3f0b-nl-be-global-hr-hr-compliance.direct.json",
+  "markdownChars": 16719,
+  "linksCount": 121,
+  "lastmod": "2025-10-31",
+  "scrapedAt": "2026-06-07T09:13:01.883Z"
+}

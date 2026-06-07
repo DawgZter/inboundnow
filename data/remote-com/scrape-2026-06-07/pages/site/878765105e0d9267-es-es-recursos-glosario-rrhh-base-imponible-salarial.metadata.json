@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/base-imponible-salarial",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/base-imponible-salarial",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/base-imponible-salarial",
+  "title": "¿Cuál es la base imponible del salario?",
+  "description": "Más información sobre la base imponible salarial y cómo calcularla",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254774,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/878765105e0d9267-es-es-recursos-glosario-rrhh-base-imponible-salarial.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/878765105e0d9267-es-es-recursos-glosario-rrhh-base-imponible-salarial.direct.json",
+  "markdownChars": 3259,
+  "linksCount": 120,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:13:28.536Z"
+}

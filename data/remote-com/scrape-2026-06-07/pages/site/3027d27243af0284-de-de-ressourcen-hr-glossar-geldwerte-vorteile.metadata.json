@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/geldwerte-vorteile",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/geldwerte-vorteile",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/geldwerte-vorteile",
+  "title": "Sachleistungen",
+  "description": "Erforsche Sachleistungen und ihre Bedeutung für die Vergütung von Arbeitnehmern. In unserem Glossar erfährst du, wie diese Sachleistungen die allgemeine Arbeitszufriedenheit steigern können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254992,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3027d27243af0284-de-de-ressourcen-hr-glossar-geldwerte-vorteile.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3027d27243af0284-de-de-ressourcen-hr-glossar-geldwerte-vorteile.direct.json",
+  "markdownChars": 4661,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:18:22.508Z"
+}

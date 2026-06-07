@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/dominican-republic/types-of-leave",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/dominican-republic/types-of-leave",
+  "finalURL": "https://remote.com/en-ie/country-explorer/dominican-republic/types-of-leave",
+  "title": "Types of Leave in Dominican Republic | Employee Leave Laws",
+  "description": "Understand employee leave laws in Dominican Republic. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259629,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/87dca248c9bb635e-en-ie-country-explorer-dominican-republic-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/87dca248c9bb635e-en-ie-country-explorer-dominican-republic-types-of-leave.direct.json",
+  "markdownChars": 1654,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:06:33.789Z"
+}

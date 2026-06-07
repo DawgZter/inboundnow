@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/brazil/equity",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/brazil/equity",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/brazil/equity",
+  "title": "巴西员工股票期权",
+  "description": "使用 Remote 的 Country Explorer，了解巴西针对员工股权与股票期权的具体规定，并据此做出更明智的全球薪酬决策。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258789,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/61ee122229867caf-zh-cn-country-explorer-brazil-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/61ee122229867caf-zh-cn-country-explorer-brazil-equity.direct.json",
+  "markdownChars": 1450,
+  "linksCount": 123,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:06:04.225Z"
+}

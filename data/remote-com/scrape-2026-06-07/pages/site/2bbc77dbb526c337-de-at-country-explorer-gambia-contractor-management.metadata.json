@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/gambia/contractor-management",
+  "sourceURL": "https://remote.com/de-at/country-explorer/gambia/contractor-management",
+  "finalURL": "https://remote.com/de-at/country-explorer/gambia/contractor-management",
+  "title": "Contractor Management in Gambia | Contractor Management",
+  "description": "Auftragnehmer:in in Gambia beauftragen? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management-Dienstleistungen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256099,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2bbc77dbb526c337-de-at-country-explorer-gambia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2bbc77dbb526c337-de-at-country-explorer-gambia-contractor-management.direct.json",
+  "markdownChars": 2246,
+  "linksCount": 119,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:14:01.810Z"
+}

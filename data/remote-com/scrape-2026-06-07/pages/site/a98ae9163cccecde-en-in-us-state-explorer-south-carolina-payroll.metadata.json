@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/us-state-explorer/south-carolina/payroll",
+  "sourceURL": "https://remote.com/en-in/us-state-explorer/south-carolina/payroll",
+  "finalURL": "https://remote.com/en-in/us-state-explorer/south-carolina/payroll",
+  "title": "Payroll Management in South Carolina",
+  "description": "Manage payroll in South Carolina seamlessly with Remote's payroll software. Stay compliant with South Carolina payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259419,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a98ae9163cccecde-en-in-us-state-explorer-south-carolina-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a98ae9163cccecde-en-in-us-state-explorer-south-carolina-payroll.direct.json",
+  "markdownChars": 4637,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:06:25.392Z"
+}

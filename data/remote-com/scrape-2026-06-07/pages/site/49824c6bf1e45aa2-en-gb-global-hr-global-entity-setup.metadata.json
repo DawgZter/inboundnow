@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/global-hr/global-entity-setup",
+  "sourceURL": "https://remote.com/en-gb/global-hr/global-entity-setup",
+  "finalURL": "https://remote.com/en-gb/global-hr/global-entity-setup",
+  "title": "Global Entity Setup | Remote",
+  "description": "Remote is your one-stop solution for hiring talent in any country, helping growing businesses employ top talent from around the world. Our payroll, benefits, taxes, and compliance solution allows companies to access and empower a global workforce.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 287383,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/49824c6bf1e45aa2-en-gb-global-hr-global-entity-setup.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/49824c6bf1e45aa2-en-gb-global-hr-global-entity-setup.direct.json",
+  "markdownChars": 3485,
+  "linksCount": 110,
+  "lastmod": "2025-05-18",
+  "scrapedAt": "2026-06-07T09:02:52.668Z"
+}

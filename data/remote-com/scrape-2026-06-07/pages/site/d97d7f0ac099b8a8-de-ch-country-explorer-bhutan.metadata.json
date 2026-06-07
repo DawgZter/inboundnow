@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/bhutan",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/bhutan",
+  "finalURL": "https://remote.com/de-ch/country-explorer/bhutan",
+  "title": "Employer-of-Record- und Payroll-Services | Bhutan",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Bhutan? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 310525,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d97d7f0ac099b8a8-de-ch-country-explorer-bhutan.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d97d7f0ac099b8a8-de-ch-country-explorer-bhutan.direct.json",
+  "markdownChars": 3725,
+  "linksCount": 120,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:02:47.325Z"
+}

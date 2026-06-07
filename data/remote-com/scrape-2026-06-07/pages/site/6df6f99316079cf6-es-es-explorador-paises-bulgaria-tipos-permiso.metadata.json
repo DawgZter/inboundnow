@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/bulgaria/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/bulgaria/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/bulgaria/tipos-permiso",
+  "title": "Tipos de permiso en Bulgaria | Legislación sobre permisos de empleados",
+  "description": "Conoce la normativa de permisos para empleados en Bulgaria y asegúrate de que tu empresa cumple las políticas y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260973,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6df6f99316079cf6-es-es-explorador-paises-bulgaria-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6df6f99316079cf6-es-es-explorador-paises-bulgaria-tipos-permiso.direct.json",
+  "markdownChars": 2578,
+  "linksCount": 121,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:11:22.147Z"
+}

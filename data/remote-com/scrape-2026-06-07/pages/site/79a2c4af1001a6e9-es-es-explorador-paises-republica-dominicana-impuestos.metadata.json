@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/republica-dominicana/impuestos",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/republica-dominicana/impuestos",
+  "finalURL": "https://remote.com/es-es/explorador-paises/republica-dominicana/impuestos",
+  "title": "Gestiona los impuestos de nómina en República Dominicana | Cumplimiento normativo",
+  "description": "Gestiona los impuestos de nómina en República Dominicana de forma eficaz y cumpliendo la normativa. Minimiza los errores en los impuestos de nómina, cumple la normativa local y evita multas costosas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262371,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/79a2c4af1001a6e9-es-es-explorador-paises-republica-dominicana-impuestos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/79a2c4af1001a6e9-es-es-explorador-paises-republica-dominicana-impuestos.direct.json",
+  "markdownChars": 1262,
+  "linksCount": 121,
+  "lastmod": "2025-09-16",
+  "scrapedAt": "2026-06-07T09:12:42.945Z"
+}

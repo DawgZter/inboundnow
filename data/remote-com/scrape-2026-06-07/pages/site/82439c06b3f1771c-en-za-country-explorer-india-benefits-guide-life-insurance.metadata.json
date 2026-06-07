@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/india/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/en-za/country-explorer/india/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/en-za/country-explorer/india/benefits-guide/life-insurance",
+  "title": "Life Benefit in India",
+  "description": "Support your team with Life benefits in India.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264713,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/82439c06b3f1771c-en-za-country-explorer-india-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/82439c06b3f1771c-en-za-country-explorer-india-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 2434,
+  "linksCount": 121,
+  "lastmod": "2026-02-03",
+  "scrapedAt": "2026-06-07T09:09:54.808Z"
+}

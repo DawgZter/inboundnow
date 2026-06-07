@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/mauritius/employment-termination",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/mauritius/employment-termination",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/mauritius/employment-termination",
+  "title": "モーリシャスにおける従業員の解雇 | 解雇手続き",
+  "description": "モーリシャスで従業員を解雇する際の権利と手続きについて、包括的なガイドで分かりやすく解説します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258544,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a6065f647f03fbb-ja-jp-country-explorer-mauritius-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a6065f647f03fbb-ja-jp-country-explorer-mauritius-employment-termination.direct.json",
+  "markdownChars": 648,
+  "linksCount": 122,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:13:38.358Z"
+}

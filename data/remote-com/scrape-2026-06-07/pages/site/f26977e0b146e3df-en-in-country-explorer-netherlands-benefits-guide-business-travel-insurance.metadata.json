@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/netherlands/benefits-guide/business-travel-insurance",
+  "sourceURL": "https://remote.com/en-in/country-explorer/netherlands/benefits-guide/business-travel-insurance",
+  "finalURL": "https://remote.com/en-in/country-explorer/netherlands/benefits-guide/business-travel-insurance",
+  "title": "Business Travel Insurance Benefits in Netherlands | Wellbeing Support",
+  "description": "Support your team with Business Travel Insurance benefits in Netherlands.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269080,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f26977e0b146e3df-en-in-country-explorer-netherlands-benefits-guide-business-travel-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f26977e0b146e3df-en-in-country-explorer-netherlands-benefits-guide-business-travel-insurance.direct.json",
+  "markdownChars": 6068,
+  "linksCount": 118,
+  "lastmod": "2026-05-18",
+  "scrapedAt": "2026-06-07T09:15:00.599Z"
+}

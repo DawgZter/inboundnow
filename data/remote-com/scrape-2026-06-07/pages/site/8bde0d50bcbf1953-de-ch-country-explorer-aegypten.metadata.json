@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/aegypten",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/aegypten",
+  "finalURL": "https://remote.com/de-ch/country-explorer/aegypten",
+  "title": "Employer of Record (EOR) & Payroll Services | Ägypten",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Ägypten? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 345567,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8bde0d50bcbf1953-de-ch-country-explorer-aegypten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8bde0d50bcbf1953-de-ch-country-explorer-aegypten.direct.json",
+  "markdownChars": 7077,
+  "linksCount": 126,
+  "lastmod": "2026-02-06",
+  "scrapedAt": "2026-06-07T09:07:09.453Z"
+}

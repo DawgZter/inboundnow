@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/dominikanische-republik",
+  "sourceURL": "https://remote.com/de-de/country-explorer/dominikanische-republik",
+  "finalURL": "https://remote.com/de-de/country-explorer/dominikanische-republik",
+  "title": "Employer of Record (EOR) und Payroll Services | Dominikanische Republik",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Dominikanische Republik? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 342692,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eabdfa8d621486a1-de-de-country-explorer-dominikanische-republik.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eabdfa8d621486a1-de-de-country-explorer-dominikanische-republik.direct.json",
+  "markdownChars": 6993,
+  "linksCount": 122,
+  "lastmod": "2026-01-22",
+  "scrapedAt": "2026-06-07T09:01:28.197Z"
+}

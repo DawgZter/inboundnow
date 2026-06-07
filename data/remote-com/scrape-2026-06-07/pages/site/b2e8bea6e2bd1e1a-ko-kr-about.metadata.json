@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/about",
+  "sourceURL": "https://remote.com/ko-kr/about",
+  "finalURL": "https://remote.com/ko-kr/about",
+  "title": "Remote 소개 | Remote",
+  "description": "Remote는 혁신적인 글로벌 급여, 세금, HR, 규정 준수 솔루션을 제공해 기업들이 간단하게 글로벌 인재 채용를 채용하고 세계 각지에 분산된 인력을 관리할 수 있도록 돕습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 320876,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b2e8bea6e2bd1e1a-ko-kr-about.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b2e8bea6e2bd1e1a-ko-kr-about.direct.json",
+  "markdownChars": 1177,
+  "linksCount": 134,
+  "lastmod": "2026-05-07",
+  "scrapedAt": "2026-06-07T09:01:23.227Z"
+}

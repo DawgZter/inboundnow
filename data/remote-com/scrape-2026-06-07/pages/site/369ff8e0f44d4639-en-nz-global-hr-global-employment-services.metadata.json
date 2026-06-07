@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/global-hr/global-employment-services",
+  "sourceURL": "https://remote.com/en-nz/global-hr/global-employment-services",
+  "finalURL": "https://remote.com/en-nz/global-hr/global-employment-services",
+  "title": "Global Employment Services: Employ Global Talent | Remote",
+  "description": "Want to build a global team? Remote offers to help companies hire abroad with ease. Learn more now!",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 327857,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/369ff8e0f44d4639-en-nz-global-hr-global-employment-services.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/369ff8e0f44d4639-en-nz-global-hr-global-employment-services.direct.json",
+  "markdownChars": 7862,
+  "linksCount": 117,
+  "lastmod": "2025-04-24",
+  "scrapedAt": "2026-06-07T09:10:12.945Z"
+}

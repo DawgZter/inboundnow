@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/disciplinaire-actie",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/disciplinaire-actie",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/disciplinaire-actie",
+  "title": "Wat is disciplinaire actie?",
+  "description": "Meer informatie over disciplinaire acties en de typen disciplinaire maatregelen die een werkgever kan nemen",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256925,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3475a035aeddb1e8-nl-nl-bronnen-hr-woordenlijst-disciplinaire-actie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3475a035aeddb1e8-nl-nl-bronnen-hr-woordenlijst-disciplinaire-actie.direct.json",
+  "markdownChars": 4583,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:07:43.208Z"
+}

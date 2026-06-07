@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/dominica/contractor-management",
+  "sourceURL": "https://remote.com/de-de/country-explorer/dominica/contractor-management",
+  "finalURL": "https://remote.com/de-de/country-explorer/dominica/contractor-management",
+  "title": "Auftragnehmer:innen in Dominica verwalten | Contractor Management",
+  "description": "Auftragnehmer:in in Dominica beauftragen? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management‑Diensten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256538,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e4fbe9e9813f0122-de-de-country-explorer-dominica-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e4fbe9e9813f0122-de-de-country-explorer-dominica-contractor-management.direct.json",
+  "markdownChars": 2514,
+  "linksCount": 118,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:07:52.975Z"
+}

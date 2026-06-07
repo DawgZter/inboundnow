@@ -21,7 +21,7 @@ export function createLocalArtifactMossAdapter(env = process.env) {
         provider: "local-artifact",
         label: "local-artifact",
         proof: PROOF_LEVELS.configured,
-        message: "Configured for a prebuilt local retrieval artifact; proof requires smoke:moss:local against MOSS_INDEX_PATH.",
+        message: "Configured for a prebuilt local retrieval artifact; proof requires a dedicated smoke against MOSS_INDEX_PATH.",
         detail: { indexPath },
       });
     },

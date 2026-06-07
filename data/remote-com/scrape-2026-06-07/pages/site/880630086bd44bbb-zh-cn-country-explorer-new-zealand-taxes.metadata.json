@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/new-zealand/taxes",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/new-zealand/taxes",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/new-zealand/taxes",
+  "title": "在新西兰管理薪资税 | 税务合规",
+  "description": "在新西兰以合规且高效的方式管理薪资税。将薪资税错误降至最低，遵守当地法规，避免高额罚款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258824,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/880630086bd44bbb-zh-cn-country-explorer-new-zealand-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/880630086bd44bbb-zh-cn-country-explorer-new-zealand-taxes.direct.json",
+  "markdownChars": 711,
+  "linksCount": 122,
+  "lastmod": "2026-05-06",
+  "scrapedAt": "2026-06-07T09:18:12.847Z"
+}

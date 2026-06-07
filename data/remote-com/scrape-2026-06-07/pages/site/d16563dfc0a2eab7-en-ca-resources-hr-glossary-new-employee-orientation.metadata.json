@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/hr-glossary/new-employee-orientation",
+  "sourceURL": "https://remote.com/en-ca/resources/hr-glossary/new-employee-orientation",
+  "finalURL": "https://remote.com/en-ca/resources/hr-glossary/new-employee-orientation",
+  "title": "What is new employee orientation?",
+  "description": "Learn about new employee orientation and how to plan and execute a successful orientation program for new employees.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259771,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d16563dfc0a2eab7-en-ca-resources-hr-glossary-new-employee-orientation.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d16563dfc0a2eab7-en-ca-resources-hr-glossary-new-employee-orientation.direct.json",
+  "markdownChars": 9352,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:19.045Z"
+}

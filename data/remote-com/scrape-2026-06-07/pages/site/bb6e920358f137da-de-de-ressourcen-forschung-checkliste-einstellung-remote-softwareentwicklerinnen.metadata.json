@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/forschung/checkliste-einstellung-remote-softwareentwicklerinnen",
+  "sourceURL": "https://remote.com/de-de/ressourcen/forschung/checkliste-einstellung-remote-softwareentwicklerinnen",
+  "finalURL": "https://remote.com/de-de/ressourcen/forschung/checkliste-einstellung-remote-softwareentwicklerinnen",
+  "title": "Checkliste für die Einstellung von Remote-Softwareentwickler:innen | Remote",
+  "description": "Unsere Checkliste für die Einstellung von internationalen Remote-Softwareentwickler:innen hilft dir, die besten Fachkräfte zu gewinnen, einzustellen und anschließend mühelos remote zu verwalten und zu bezahlen.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 263203,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb6e920358f137da-de-de-ressourcen-forschung-checkliste-einstellung-remote-softwareentwicklerinnen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb6e920358f137da-de-de-ressourcen-forschung-checkliste-einstellung-remote-softwareentwicklerinnen.direct.json",
+  "markdownChars": 1075,
+  "linksCount": 115,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:05:49.289Z"
+}

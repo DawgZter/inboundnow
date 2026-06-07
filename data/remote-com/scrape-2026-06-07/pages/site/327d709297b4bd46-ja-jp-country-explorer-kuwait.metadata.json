@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/kuwait",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/kuwait",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/kuwait",
+  "title": "Employer of Record（EOR）と給与処理サービス | クウェート",
+  "description": "クウェートで従業員や契約社員を採用予定ですか？Remoteは統合されたグローバルHRプラットフォームを通じて、従業員と契約社員の管理を支援します。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 310856,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/327d709297b4bd46-ja-jp-country-explorer-kuwait.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/327d709297b4bd46-ja-jp-country-explorer-kuwait.direct.json",
+  "markdownChars": 1626,
+  "linksCount": 118,
+  "lastmod": "2025-09-18",
+  "scrapedAt": "2026-06-07T09:04:00.207Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/job-descriptions/director-of-sales-job-description",
+  "sourceURL": "https://remote.com/en-ca/resources/job-descriptions/director-of-sales-job-description",
+  "finalURL": "https://remote.com/en-ca/resources/job-descriptions/director-of-sales-job-description",
+  "title": "Director of sales job description",
+  "description": "Review the job description for a director of sales, responsible for leading the sales team, developing strategies to drive revenue, and building strong client relationships.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259716,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/000dd65cde30dfcc-en-ca-resources-job-descriptions-director-of-sales-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/000dd65cde30dfcc-en-ca-resources-job-descriptions-director-of-sales-job-description.direct.json",
+  "markdownChars": 3514,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:10:40.712Z"
+}

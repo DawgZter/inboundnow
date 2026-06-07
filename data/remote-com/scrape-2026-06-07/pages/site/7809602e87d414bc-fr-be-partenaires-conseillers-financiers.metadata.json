@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/partenaires/conseillers-financiers",
+  "sourceURL": "https://remote.com/fr-be/partenaires/conseillers-financiers",
+  "finalURL": "https://remote.com/fr-be/partenaires/conseillers-financiers",
+  "title": "Programme de parrainage des comptables | Remote",
+  "description": "Offrez à vos clients un moyen plus simple de constituer une équipe internationale rationalisée et rentable grâce à des remises spéciales sur nos services de paie et d'emploi à l'international.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 312119,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7809602e87d414bc-fr-be-partenaires-conseillers-financiers.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7809602e87d414bc-fr-be-partenaires-conseillers-financiers.direct.json",
+  "markdownChars": 5733,
+  "linksCount": 116,
+  "lastmod": "2025-07-01",
+  "scrapedAt": "2026-06-07T09:11:45.115Z"
+}

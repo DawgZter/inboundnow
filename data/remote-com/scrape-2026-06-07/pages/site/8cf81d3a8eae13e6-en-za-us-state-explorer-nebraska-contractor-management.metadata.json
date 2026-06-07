@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/us-state-explorer/nebraska/contractor-management",
+  "sourceURL": "https://remote.com/en-za/us-state-explorer/nebraska/contractor-management",
+  "finalURL": "https://remote.com/en-za/us-state-explorer/nebraska/contractor-management",
+  "title": "Contractor Management in Nebraska",
+  "description": "Manage and pay contractors in Nebraska with ease. Stay compliant, process payments easily, and reduce risk with a streamlined solution for hiring contractors with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257406,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8cf81d3a8eae13e6-en-za-us-state-explorer-nebraska-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8cf81d3a8eae13e6-en-za-us-state-explorer-nebraska-contractor-management.direct.json",
+  "markdownChars": 2191,
+  "linksCount": 113,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:09:35.280Z"
+}

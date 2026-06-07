@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/libya",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/libya",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/libya",
+  "title": "Employer of Record (EOR) と 給与処理サービス | リビア",
+  "description": "リビアで従業員や契約社員を採用しますか？Remoteは統合されたグローバルHRプラットフォームを通じて、従業員と契約社員の管理を支援します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 310427,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d872c07d87951cb-ja-jp-country-explorer-libya.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d872c07d87951cb-ja-jp-country-explorer-libya.direct.json",
+  "markdownChars": 1577,
+  "linksCount": 118,
+  "lastmod": "2025-09-18",
+  "scrapedAt": "2026-06-07T09:02:02.862Z"
+}

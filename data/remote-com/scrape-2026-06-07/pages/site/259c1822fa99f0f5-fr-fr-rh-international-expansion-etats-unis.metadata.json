@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/rh-international/expansion-etats-unis",
+  "sourceURL": "https://remote.com/fr-fr/rh-international/expansion-etats-unis",
+  "finalURL": "https://remote.com/fr-fr/rh-international/expansion-etats-unis",
+  "title": "Boostez la croissance de votre entreprise aux États-Unis avec Remote | Remote",
+  "description": "Développez votre activité aux États-Unis en toute simplicité grâce à la suite complète de services de Remote. De la paie à la conformité et la gestion des RH, rationalisez sans effort votre développement à travers les 50 états du pays.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 366384,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/259c1822fa99f0f5-fr-fr-rh-international-expansion-etats-unis.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/259c1822fa99f0f5-fr-fr-rh-international-expansion-etats-unis.direct.json",
+  "markdownChars": 12230,
+  "linksCount": 117,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:14:00.747Z"
+}

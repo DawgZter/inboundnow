@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/brunei/rescisao-contrato",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/brunei/rescisao-contrato",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/brunei/rescisao-contrato",
+  "title": "Rescisão de contratos em Brunei | Cessação do contrato de trabalho",
+  "description": "Queres rescindir um contrato de trabalho em Brunei? Descobre os teus direitos no nosso guia completo sobre as leis de cessação do contrato de trabalho.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 148863,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bd5e623cbf5b39e8-pt-pt-explorar-pais-brunei-rescisao-contrato.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bd5e623cbf5b39e8-pt-pt-explorar-pais-brunei-rescisao-contrato.direct.json",
+  "markdownChars": 646,
+  "linksCount": 39,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:01:13.266Z"
+}

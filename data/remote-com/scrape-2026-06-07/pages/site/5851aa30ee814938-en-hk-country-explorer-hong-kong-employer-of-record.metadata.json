@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/hong-kong/employer-of-record",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/hong-kong/employer-of-record",
+  "finalURL": "https://remote.com/en-hk/country-explorer/hong-kong/employer-of-record",
+  "title": "Employer of Record in Hong Kong | EOR Services",
+  "description": "Simplify employment in Hong Kong with our Employer of Record services. Handle payroll, benefits, and compliance seamlessly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260628,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5851aa30ee814938-en-hk-country-explorer-hong-kong-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5851aa30ee814938-en-hk-country-explorer-hong-kong-employer-of-record.direct.json",
+  "markdownChars": 3231,
+  "linksCount": 126,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:02:37.163Z"
+}

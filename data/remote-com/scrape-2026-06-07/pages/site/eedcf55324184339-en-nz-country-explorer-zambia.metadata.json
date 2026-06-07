@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer/zambia",
+  "sourceURL": "https://remote.com/en-nz/country-explorer/zambia",
+  "finalURL": "https://remote.com/en-nz/country-explorer/zambia",
+  "title": "Employer of Record & Payroll Services | Zambia",
+  "description": "Hiring employees and contractors in Zambia? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 308253,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eedcf55324184339-en-nz-country-explorer-zambia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eedcf55324184339-en-nz-country-explorer-zambia.direct.json",
+  "markdownChars": 3126,
+  "linksCount": 116,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:16:20.315Z"
+}

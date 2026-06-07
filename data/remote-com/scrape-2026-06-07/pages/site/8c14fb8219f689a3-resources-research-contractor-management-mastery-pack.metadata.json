@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/research/contractor-management-mastery-pack",
+  "sourceURL": "https://remote.com/resources/research/contractor-management-mastery-pack",
+  "finalURL": "https://remote.com/resources/research/contractor-management-mastery-pack",
+  "title": "Contractor Management Mastery Pack | Remote",
+  "description": "Download your free contractor management bundle for three free resources to help you onboard, pay, and manage international contractors at scale.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 290789,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8c14fb8219f689a3-resources-research-contractor-management-mastery-pack.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8c14fb8219f689a3-resources-research-contractor-management-mastery-pack.direct.json",
+  "markdownChars": 1968,
+  "linksCount": 112,
+  "lastmod": "2025-07-09",
+  "scrapedAt": "2026-06-07T09:18:58.257Z"
+}

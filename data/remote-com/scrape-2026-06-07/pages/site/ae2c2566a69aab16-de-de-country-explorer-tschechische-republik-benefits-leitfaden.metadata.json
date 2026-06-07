@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/tschechische-republik/benefits-leitfaden",
+  "sourceURL": "https://remote.com/de-de/country-explorer/tschechische-republik/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-de/country-explorer/tschechische-republik/benefits-leitfaden",
+  "title": "Sozialleistungen in der Tschechischen Republik | Sozialleistungspläne",
+  "description": "Entdecke Sozialleistungen in der Tschechischen Republik. Erfahre, wie du mit Krankenversicherung, bezahltem Urlaub und weiteren Leistungen Top-Talente gewinnst und bindest.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271376,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae2c2566a69aab16-de-de-country-explorer-tschechische-republik-benefits-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae2c2566a69aab16-de-de-country-explorer-tschechische-republik-benefits-leitfaden.direct.json",
+  "markdownChars": 1783,
+  "linksCount": 123,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:01:42.513Z"
+}

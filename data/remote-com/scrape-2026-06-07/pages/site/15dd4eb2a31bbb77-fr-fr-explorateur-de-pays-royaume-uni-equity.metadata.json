@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/royaume-uni/equity",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/royaume-uni/equity",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/royaume-uni/equity",
+  "title": "Options d’actions pour les salariés au Royaume-Uni",
+  "description": "Explorez les règles spécifiques au Royaume‑Uni en matière d’actions et d’options sur actions pour les salariés. Prenez des décisions éclairées sur la rémunération internationale grâce à l’Explorateur de pays de Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268737,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/15dd4eb2a31bbb77-fr-fr-explorateur-de-pays-royaume-uni-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/15dd4eb2a31bbb77-fr-fr-explorateur-de-pays-royaume-uni-equity.direct.json",
+  "markdownChars": 5297,
+  "linksCount": 125,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:10:36.986Z"
+}

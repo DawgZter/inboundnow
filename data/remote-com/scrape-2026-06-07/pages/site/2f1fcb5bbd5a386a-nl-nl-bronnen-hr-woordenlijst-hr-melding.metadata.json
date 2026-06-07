@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/hr-melding",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/hr-melding",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/hr-melding",
+  "title": "Wat is HR-rapportage?",
+  "description": "Leer meer over HR-rapportage, soorten HR-rapporten en hoe je geavanceerde HR-managementsoftware kunt gebruiken.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269092,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2f1fcb5bbd5a386a-nl-nl-bronnen-hr-woordenlijst-hr-melding.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2f1fcb5bbd5a386a-nl-nl-bronnen-hr-woordenlijst-hr-melding.direct.json",
+  "markdownChars": 15687,
+  "linksCount": 123,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:07:49.526Z"
+}

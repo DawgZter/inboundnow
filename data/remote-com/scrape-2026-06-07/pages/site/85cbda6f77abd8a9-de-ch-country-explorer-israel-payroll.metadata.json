@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/israel/payroll",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/israel/payroll",
+  "finalURL": "https://remote.com/de-ch/country-explorer/israel/payroll",
+  "title": "Mitarbeiter:innen in Israel bezahlen | Payroll-Services",
+  "description": "Zahle Mitarbeiter:innen in Israel mühelos mit unseren flexiblen Payroll-Services. Du kannst die Lohn- und Gehaltsabrechnung abwickeln, Ausgaben verwalten und Berichte erstellen – alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259746,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/85cbda6f77abd8a9-de-ch-country-explorer-israel-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/85cbda6f77abd8a9-de-ch-country-explorer-israel-payroll.direct.json",
+  "markdownChars": 3448,
+  "linksCount": 125,
+  "lastmod": "2025-11-28",
+  "scrapedAt": "2026-06-07T09:14:14.991Z"
+}

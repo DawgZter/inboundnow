@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/kroatien/beendigung-arbeitsverhaltnisses",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/kroatien/beendigung-arbeitsverhaltnisses",
+  "finalURL": "https://remote.com/de-ch/country-explorer/kroatien/beendigung-arbeitsverhaltnisses",
+  "title": "Arbeitsverhältnisse in Croatia beenden | Mitarbeiter:innen kündigen",
+  "description": "Du musst eine Teammitglied in Kroatien entlassen? In unserem umfassenden Leitfaden zum Kündigungsrecht erfährst du, was du tun kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258957,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d466140350226b4c-de-ch-country-explorer-kroatien-beendigung-arbeitsverhaltnisses.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d466140350226b4c-de-ch-country-explorer-kroatien-beendigung-arbeitsverhaltnisses.direct.json",
+  "markdownChars": 2271,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:07:54.534Z"
+}

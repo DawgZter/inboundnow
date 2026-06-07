@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/finnland",
+  "sourceURL": "https://remote.com/de-de/country-explorer/finnland",
+  "finalURL": "https://remote.com/de-de/country-explorer/finnland",
+  "title": "Employer of Record (EOR) und Payroll-Services | Finnland",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Finnland? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 344221,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/32183e33114f19a9-de-de-country-explorer-finnland.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/32183e33114f19a9-de-de-country-explorer-finnland.direct.json",
+  "markdownChars": 7156,
+  "linksCount": 123,
+  "lastmod": "2025-10-07",
+  "scrapedAt": "2026-06-07T09:08:17.783Z"
+}

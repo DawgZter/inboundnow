@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/nigeria",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/nigeria",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/nigeria",
+  "title": "기록상 고용주(EOR) 및 Payroll 서비스 | 나이지리아",
+  "description": "나이지리아에서의 직원과 계약자 채용을 고려하고 계신가요? Remote는 통합 글로벌 HR 플랫폼으로 직원과 계약자 관리를 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 342277,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db5fcbd779bc8df5-ko-kr-country-explorer-nigeria.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db5fcbd779bc8df5-ko-kr-country-explorer-nigeria.direct.json",
+  "markdownChars": 3306,
+  "linksCount": 123,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:02:48.756Z"
+}

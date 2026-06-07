@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/united-arab-emirates/types-of-leave",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/united-arab-emirates/types-of-leave",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/united-arab-emirates/types-of-leave",
+  "title": "アラブ首長国連邦の休暇の種類 | 従業員休暇法",
+  "description": "アラブ首長国連邦の従業員休暇法を理解し、貴社が休暇規定を遵守して競争力のある年次有給休暇を提供できるようにしましょう。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260898,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/479c382f0cb86bce-ja-jp-country-explorer-united-arab-emirates-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/479c382f0cb86bce-ja-jp-country-explorer-united-arab-emirates-types-of-leave.direct.json",
+  "markdownChars": 787,
+  "linksCount": 123,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:05:14.696Z"
+}

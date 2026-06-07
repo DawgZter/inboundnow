@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/italy/employment-termination",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/italy/employment-termination",
+  "finalURL": "https://remote.com/en-ie/country-explorer/italy/employment-termination",
+  "title": "Terminate Employees in Italy | Employment Termination",
+  "description": "Looking to terminate an employee in Italy? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256620,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6aad37b7404e25f9-en-ie-country-explorer-italy-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6aad37b7404e25f9-en-ie-country-explorer-italy-employment-termination.direct.json",
+  "markdownChars": 1728,
+  "linksCount": 121,
+  "lastmod": "2025-05-26",
+  "scrapedAt": "2026-06-07T09:01:05.206Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/moldavie/beeindiging-van-dienstverband",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/moldavie/beeindiging-van-dienstverband",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/moldavie/beeindiging-van-dienstverband",
+  "title": "Beëindiging van het dienstverband in Moldova | Beëindiging van het dienstverband",
+  "description": "Hoe beëindig je het dienstverband met een werknemer in Moldavie? Ken je rechten en lees onze uitgebreide gids over de wetgeving voor beëindiging van dienstverbanden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261163,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9d0d67a51ba5a6b3-nl-nl-landenverkenner-moldavie-beeindiging-van-dienstverband.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9d0d67a51ba5a6b3-nl-nl-landenverkenner-moldavie-beeindiging-van-dienstverband.direct.json",
+  "markdownChars": 1945,
+  "linksCount": 123,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:01:46.147Z"
+}

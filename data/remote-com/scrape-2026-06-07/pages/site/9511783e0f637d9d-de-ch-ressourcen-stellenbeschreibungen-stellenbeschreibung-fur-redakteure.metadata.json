@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/stellenbeschreibung-fur-redakteure",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/stellenbeschreibung-fur-redakteure",
+  "finalURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/stellenbeschreibung-fur-redakteure",
+  "title": "Stellenbeschreibung für Redakteure",
+  "description": "Überprüfe die Stellenbeschreibung für einen Inhaltsredakteur, der für das Redigieren und Korrekturlesen von Inhalten verantwortlich ist, die Genauigkeit und Klarheit sicherstellt und die Sprache und den Stil der Marke beibehält.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262663,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9511783e0f637d9d-de-ch-ressourcen-stellenbeschreibungen-stellenbeschreibung-fur-redakteure.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9511783e0f637d9d-de-ch-ressourcen-stellenbeschreibungen-stellenbeschreibung-fur-redakteure.direct.json",
+  "markdownChars": 6241,
+  "linksCount": 116,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:07:58.756Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/turquie/paie",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/turquie/paie",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/turquie/paie",
+  "title": "Payer des salariés en Turquie | Services de paie",
+  "description": "Payez vos salariés en Turquie sans effort grâce à nos services de paie flexibles. Gérez la paie, gérez les notes de frais et générez des rapports, le tout depuis une seule plateforme.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263460,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6e4d7d6edf230f1f-fr-fr-explorateur-de-pays-turquie-paie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6e4d7d6edf230f1f-fr-fr-explorateur-de-pays-turquie-paie.direct.json",
+  "markdownChars": 3922,
+  "linksCount": 124,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:14:22.327Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/deutschland/steuern",
+  "sourceURL": "https://remote.com/de-at/country-explorer/deutschland/steuern",
+  "finalURL": "https://remote.com/de-at/country-explorer/deutschland/steuern",
+  "title": "Lohnnebenkosten in Germany | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Deutschland.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261082,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89cf74837f0ae3d4-de-at-country-explorer-deutschland-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89cf74837f0ae3d4-de-at-country-explorer-deutschland-steuern.direct.json",
+  "markdownChars": 1203,
+  "linksCount": 124,
+  "lastmod": "2025-05-26",
+  "scrapedAt": "2026-06-07T09:01:40.205Z"
+}

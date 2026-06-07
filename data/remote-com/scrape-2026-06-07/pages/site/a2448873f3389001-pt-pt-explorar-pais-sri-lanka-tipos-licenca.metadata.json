@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/sri-lanka/tipos-licenca",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/sri-lanka/tipos-licenca",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/sri-lanka/tipos-licenca",
+  "title": "Regimes de licenças no Sri Lanka | Legislação sobre os regimes de licenças",
+  "description": "Percebe os regimes de licenças no Sri Lanka. Garante que o teu negócio cumpre as políticas sobre o regime de licenças e oferece férias remuneradas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153901,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a2448873f3389001-pt-pt-explorar-pais-sri-lanka-tipos-licenca.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a2448873f3389001-pt-pt-explorar-pais-sri-lanka-tipos-licenca.direct.json",
+  "markdownChars": 1635,
+  "linksCount": 43,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:07:39.915Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/colombia/benefits-guide/wellness",
+  "sourceURL": "https://remote.com/en-in/country-explorer/colombia/benefits-guide/wellness",
+  "finalURL": "https://remote.com/en-in/country-explorer/colombia/benefits-guide/wellness",
+  "title": "Wellness Benefits in Colombia | Wellbeing Support",
+  "description": "Support your team with Wellness benefits in Colombia.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261873,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8bf89b7926f8f27a-en-in-country-explorer-colombia-benefits-guide-wellness.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8bf89b7926f8f27a-en-in-country-explorer-colombia-benefits-guide-wellness.direct.json",
+  "markdownChars": 1596,
+  "linksCount": 117,
+  "lastmod": "2025-12-04",
+  "scrapedAt": "2026-06-07T09:18:38.343Z"
+}

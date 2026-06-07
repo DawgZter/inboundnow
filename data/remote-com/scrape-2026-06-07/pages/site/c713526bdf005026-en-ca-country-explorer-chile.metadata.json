@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/country-explorer/chile",
+  "sourceURL": "https://remote.com/en-ca/country-explorer/chile",
+  "finalURL": "https://remote.com/en-ca/country-explorer/chile",
+  "title": "Employer of Record & Payroll Services | Chile",
+  "description": "Hiring employees and contractors in Chile? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 353189,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c713526bdf005026-en-ca-country-explorer-chile.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c713526bdf005026-en-ca-country-explorer-chile.direct.json",
+  "markdownChars": 8091,
+  "linksCount": 127,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:06:49.137Z"
+}

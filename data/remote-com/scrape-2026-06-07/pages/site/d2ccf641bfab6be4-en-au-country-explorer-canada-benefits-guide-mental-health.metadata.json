@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/canada/benefits-guide/mental-health",
+  "sourceURL": "https://remote.com/en-au/country-explorer/canada/benefits-guide/mental-health",
+  "finalURL": "https://remote.com/en-au/country-explorer/canada/benefits-guide/mental-health",
+  "title": "Mental Health Benefits in Canada | Wellbeing Support",
+  "description": "Support your team with Mental Health benefits in Canada.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 267856,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d2ccf641bfab6be4-en-au-country-explorer-canada-benefits-guide-mental-health.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d2ccf641bfab6be4-en-au-country-explorer-canada-benefits-guide-mental-health.direct.json",
+  "markdownChars": 4644,
+  "linksCount": 121,
+  "lastmod": "2025-11-03",
+  "scrapedAt": "2026-06-07T09:17:39.373Z"
+}

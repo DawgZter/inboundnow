@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/medicare-tax",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/medicare-tax",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/medicare-tax",
+  "title": "メディケア税金, 税",
+  "description": "Medicare is a US health insurance program funded by payroll taxes. Learn how it works, what employers must contribute, and compliance requirements.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253301,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1cf7364ef23b36d-ja-jp-resources-hr-glossary-medicare-tax.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1cf7364ef23b36d-ja-jp-resources-hr-glossary-medicare-tax.direct.json",
+  "markdownChars": 1356,
+  "linksCount": 123,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:48.674Z"
+}

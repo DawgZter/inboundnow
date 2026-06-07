@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/urlaubsruckstande",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/urlaubsruckstande",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/urlaubsruckstande",
+  "title": "What is accrued leave?",
+  "description": "Erfahre mehr über den angesammelten Urlaub und wie Personalverantwortliche die Urlaubsrückstände verwalten können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253647,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4323256a73745f0c-de-ch-ressourcen-hr-glossar-urlaubsruckstande.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4323256a73745f0c-de-ch-ressourcen-hr-glossar-urlaubsruckstande.direct.json",
+  "markdownChars": 3673,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:44.003Z"
+}

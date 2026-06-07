@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/global-hr/employee-self-service",
+  "sourceURL": "https://remote.com/en-hk/global-hr/employee-self-service",
+  "finalURL": "https://remote.com/en-hk/global-hr/employee-self-service",
+  "title": "Employee Self-Service | Remote",
+  "description": "Empower your global team with self-service access to payslips, PTO requests, benefits, and more. Use our web or mobile app for on-the-go efficiency.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 302701,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2899b9cd4b4fd342-en-hk-global-hr-employee-self-service.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2899b9cd4b4fd342-en-hk-global-hr-employee-self-service.direct.json",
+  "markdownChars": 3933,
+  "linksCount": 116,
+  "lastmod": "2025-04-24",
+  "scrapedAt": "2026-06-07T09:01:48.950Z"
+}

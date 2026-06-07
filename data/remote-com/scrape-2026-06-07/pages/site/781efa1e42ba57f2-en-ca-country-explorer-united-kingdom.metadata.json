@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/country-explorer/united-kingdom",
+  "sourceURL": "https://remote.com/en-ca/country-explorer/united-kingdom",
+  "finalURL": "https://remote.com/en-ca/country-explorer/united-kingdom",
+  "title": "Employer of Record & Payroll Services | United Kingdom",
+  "description": "Hiring employees and contractors in United Kingdom? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 349263,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/781efa1e42ba57f2-en-ca-country-explorer-united-kingdom.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/781efa1e42ba57f2-en-ca-country-explorer-united-kingdom.direct.json",
+  "markdownChars": 7187,
+  "linksCount": 131,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:12:54.856Z"
+}

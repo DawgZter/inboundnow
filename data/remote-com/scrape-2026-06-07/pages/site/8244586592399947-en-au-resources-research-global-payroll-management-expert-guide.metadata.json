@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/research/global-payroll-management-expert-guide",
+  "sourceURL": "https://remote.com/en-au/resources/research/global-payroll-management-expert-guide",
+  "finalURL": "https://remote.com/en-au/resources/research/global-payroll-management-expert-guide",
+  "title": "Expert guide to managing global payroll | Remote",
+  "description": "Learn the options of managing global HR and payroll, and discover the unique benefits of using Remote’s Global Payroll platform.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 260103,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8244586592399947-en-au-resources-research-global-payroll-management-expert-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8244586592399947-en-au-resources-research-global-payroll-management-expert-guide.direct.json",
+  "markdownChars": 1002,
+  "linksCount": 110,
+  "lastmod": "2025-07-10",
+  "scrapedAt": "2026-06-07T09:14:53.738Z"
+}

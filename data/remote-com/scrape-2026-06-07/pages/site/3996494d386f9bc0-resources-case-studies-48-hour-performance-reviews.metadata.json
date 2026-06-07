@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/case-studies/48-hour-performance-reviews",
+  "sourceURL": "https://remote.com/resources/case-studies/48-hour-performance-reviews",
+  "finalURL": "https://remote.com/resources/case-studies/48-hour-performance-reviews",
+  "title": "From two months to two days: 1,800 employee reviews in just 48 hours with Remote Perform",
+  "description": "See how Remote redefined performance management by completing 1,800 employee reviews in just 48 hours with Remote Perform.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254069,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3996494d386f9bc0-resources-case-studies-48-hour-performance-reviews.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3996494d386f9bc0-resources-case-studies-48-hour-performance-reviews.direct.json",
+  "markdownChars": 5300,
+  "linksCount": 111,
+  "lastmod": "2025-08-28",
+  "scrapedAt": "2026-06-07T09:16:23.869Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "blog",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/blog/partnerschaften/remote-pento",
+  "sourceURL": "https://remote.com/de-de/blog/partnerschaften/remote-pento",
+  "finalURL": "https://remote.com/de-de/blog/partnerschaften/remote-pento",
+  "title": "Pento vereinfacht die internationale Einstellung mit Remote",
+  "description": "Pento brauchte einen erfahrenen und zuverlässigen Personaldienstleister, um sein internationales Team rechtssicher zu vergrößern. Lies hier, warum die Wahl auf Remote fiel.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263432,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/6816aa212ec0bd3b-de-de-blog-partnerschaften-remote-pento.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/6816aa212ec0bd3b-de-de-blog-partnerschaften-remote-pento.direct.json",
+  "markdownChars": 12609,
+  "linksCount": 115,
+  "lastmod": "2026-05-11",
+  "scrapedAt": "2026-06-07T09:00:57.041Z"
+}

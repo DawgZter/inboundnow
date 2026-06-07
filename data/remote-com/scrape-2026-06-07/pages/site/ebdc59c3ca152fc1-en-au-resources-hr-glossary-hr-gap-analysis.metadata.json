@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/hr-glossary/hr-gap-analysis",
+  "sourceURL": "https://remote.com/en-au/resources/hr-glossary/hr-gap-analysis",
+  "finalURL": "https://remote.com/en-au/resources/hr-glossary/hr-gap-analysis",
+  "title": "Global HR Solutions &amp; Employment Tools for Distributed Teams",
+  "description": "Learn about HR gap analysis and its role in identifying workforce needs and enhancing organizational efficiency.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251788,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ebdc59c3ca152fc1-en-au-resources-hr-glossary-hr-gap-analysis.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ebdc59c3ca152fc1-en-au-resources-hr-glossary-hr-gap-analysis.direct.json",
+  "markdownChars": 3367,
+  "linksCount": 118,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:15:16.600Z"
+}

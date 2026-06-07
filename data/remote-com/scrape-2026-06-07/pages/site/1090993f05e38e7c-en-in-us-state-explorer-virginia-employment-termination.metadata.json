@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/us-state-explorer/virginia/employment-termination",
+  "sourceURL": "https://remote.com/en-in/us-state-explorer/virginia/employment-termination",
+  "finalURL": "https://remote.com/en-in/us-state-explorer/virginia/employment-termination",
+  "title": "Terminate Employees in Virginia | Employment Termination",
+  "description": "Looking to terminate an employee in Virginia? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256163,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1090993f05e38e7c-en-in-us-state-explorer-virginia-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1090993f05e38e7c-en-in-us-state-explorer-virginia-employment-termination.direct.json",
+  "markdownChars": 1682,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:17:56.808Z"
+}

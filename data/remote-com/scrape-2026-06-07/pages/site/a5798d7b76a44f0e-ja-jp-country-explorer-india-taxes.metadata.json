@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/india/taxes",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/india/taxes",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/india/taxes",
+  "title": "インドにおける給与税の管理 | 税務コンプライアンス",
+  "description": "貴社のインドにおける給与税を効果的かつ適法に管理し、給与税のエラーを最小限に抑え、現地法を順守して高額な罰金を回避できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263660,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a5798d7b76a44f0e-ja-jp-country-explorer-india-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a5798d7b76a44f0e-ja-jp-country-explorer-india-taxes.direct.json",
+  "markdownChars": 830,
+  "linksCount": 124,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:01:32.475Z"
+}

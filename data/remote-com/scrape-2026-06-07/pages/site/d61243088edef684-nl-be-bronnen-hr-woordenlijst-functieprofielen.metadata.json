@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/functieprofielen",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/functieprofielen",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/functieprofielen",
+  "title": "What is job classification?",
+  "description": "Begrijp het belang van functieclassificatie en leer hoe je de rollen in je organisatie effectief kunt indelen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254765,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d61243088edef684-nl-be-bronnen-hr-woordenlijst-functieprofielen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d61243088edef684-nl-be-bronnen-hr-woordenlijst-functieprofielen.direct.json",
+  "markdownChars": 8379,
+  "linksCount": 124,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:11:29.719Z"
+}

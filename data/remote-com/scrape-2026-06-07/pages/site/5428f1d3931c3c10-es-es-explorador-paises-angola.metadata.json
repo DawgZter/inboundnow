@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/angola",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/angola",
+  "finalURL": "https://remote.com/es-es/explorador-paises/angola",
+  "title": "Empleador por cuenta ajena y servicios de nómina | Angola",
+  "description": "¿Contratas empleados y trabajadores autónomos en Angola? Remote puede ayudarte a gestionar empleados y trabajadores autónomos a través de nuestra plataforma de RR. HH. global integrada.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 322858,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5428f1d3931c3c10-es-es-explorador-paises-angola.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5428f1d3931c3c10-es-es-explorador-paises-angola.direct.json",
+  "markdownChars": 5554,
+  "linksCount": 117,
+  "lastmod": "2025-09-02",
+  "scrapedAt": "2026-06-07T09:15:46.633Z"
+}

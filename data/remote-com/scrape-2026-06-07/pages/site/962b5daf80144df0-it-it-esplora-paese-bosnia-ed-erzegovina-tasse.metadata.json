@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/bosnia-ed-erzegovina/tasse",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/bosnia-ed-erzegovina/tasse",
+  "finalURL": "https://remote.com/it-it/esplora-paese/bosnia-ed-erzegovina/tasse",
+  "title": "Gestisci le tasse sulla busta paga in Bosnia ed Erzegovina | Conformità fiscale",
+  "description": "Gestisci le tasse sulla busta paga in Bosnia ed Erzegovina in modo efficace e conforme. Riduci gli errori nelle buste paga, rispetta la normativa locale ed evita sanzioni costose.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 158087,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/962b5daf80144df0-it-it-esplora-paese-bosnia-ed-erzegovina-tasse.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/962b5daf80144df0-it-it-esplora-paese-bosnia-ed-erzegovina-tasse.direct.json",
+  "markdownChars": 1929,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:14:59.512Z"
+}

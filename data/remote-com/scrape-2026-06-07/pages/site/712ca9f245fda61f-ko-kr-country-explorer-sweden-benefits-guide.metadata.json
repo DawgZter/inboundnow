@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/sweden/benefits-guide",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/sweden/benefits-guide",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/sweden/benefits-guide",
+  "title": "스웨덴의 직원 복리후생 | 복리후생 플랜",
+  "description": "스웨덴의 필수 직원 복리후생을 확인하고, 건강보험·연차 유급 휴가 등 인재를 유치하고 유지하는 데 필요한 주요 혜택을 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270808,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/712ca9f245fda61f-ko-kr-country-explorer-sweden-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/712ca9f245fda61f-ko-kr-country-explorer-sweden-benefits-guide.direct.json",
+  "markdownChars": 802,
+  "linksCount": 124,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:12:27.432Z"
+}

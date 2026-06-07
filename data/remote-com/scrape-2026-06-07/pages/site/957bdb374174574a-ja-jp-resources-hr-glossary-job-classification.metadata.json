@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/job-classification",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/job-classification",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/job-classification",
+  "title": "職種",
+  "description": "職務分類の重要性を理解し、組織の役割を効果的に分類する方法を学びます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258989,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/957bdb374174574a-ja-jp-resources-hr-glossary-job-classification.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/957bdb374174574a-ja-jp-resources-hr-glossary-job-classification.direct.json",
+  "markdownChars": 3120,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:06:10.185Z"
+}

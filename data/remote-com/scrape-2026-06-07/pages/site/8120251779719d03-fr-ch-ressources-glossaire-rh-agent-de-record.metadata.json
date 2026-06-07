@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/agent-de-record",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/agent-de-record",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/agent-de-record",
+  "title": "Agent de dossier (AOR)",
+  "description": "An Agent of Record (AOR) is authorized to manage insurance policies on an employer’s behalf. Learn how AORs support benefits, compliance, and renewals.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254647,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8120251779719d03-fr-ch-ressources-glossaire-rh-agent-de-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8120251779719d03-fr-ch-ressources-glossaire-rh-agent-de-record.direct.json",
+  "markdownChars": 2842,
+  "linksCount": 121,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:08:05.073Z"
+}

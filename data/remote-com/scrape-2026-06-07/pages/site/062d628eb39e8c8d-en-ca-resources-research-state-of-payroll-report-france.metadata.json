@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/research/state-of-payroll-report-france",
+  "sourceURL": "https://remote.com/en-ca/resources/research/state-of-payroll-report-france",
+  "finalURL": "https://remote.com/en-ca/resources/research/state-of-payroll-report-france",
+  "title": "France State of Payroll Report | Remote",
+  "description": " Get our  France Payroll Report for insights on the impact of payroll errors in  France (along with the solution to fast, accurate payroll management)",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 261403,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/062d628eb39e8c8d-en-ca-resources-research-state-of-payroll-report-france.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/062d628eb39e8c8d-en-ca-resources-research-state-of-payroll-report-france.direct.json",
+  "markdownChars": 1161,
+  "linksCount": 107,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:08:22.824Z"
+}

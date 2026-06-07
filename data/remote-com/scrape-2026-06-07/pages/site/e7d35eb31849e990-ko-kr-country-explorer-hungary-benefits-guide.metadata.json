@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/hungary/benefits-guide",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/hungary/benefits-guide",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/hungary/benefits-guide",
+  "title": "헝가리의 직원 복리후생 | 복리후생 플랜",
+  "description": "헝가리에서의 필수 직원 복리후생을 확인하고, 건강보험·유급 휴가 및 우수 인재를 유치하고 유지하기 위한 기타 혜택을 자세히 알아봅니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270368,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e7d35eb31849e990-ko-kr-country-explorer-hungary-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e7d35eb31849e990-ko-kr-country-explorer-hungary-benefits-guide.direct.json",
+  "markdownChars": 795,
+  "linksCount": 123,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:01:33.047Z"
+}

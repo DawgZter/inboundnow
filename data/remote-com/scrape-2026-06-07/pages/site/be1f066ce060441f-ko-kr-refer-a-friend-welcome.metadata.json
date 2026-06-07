@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/refer-a-friend-welcome",
+  "sourceURL": "https://remote.com/ko-kr/refer-a-friend-welcome",
+  "finalURL": "https://remote.com/ko-kr/refer-a-friend-welcome",
+  "title": "분산된 팀을 위한 글로벌 HR 솔루션 | Remote",
+  "description": "해외 인재를 몇 분만에 바로 고용해 보세요. Remote는 분산된 팀을 위한 혁신적 솔루션으로 글로벌 급여, 세금, HR, 규정 준수 업무를 수행합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 353938,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/be1f066ce060441f-ko-kr-refer-a-friend-welcome.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/be1f066ce060441f-ko-kr-refer-a-friend-welcome.direct.json",
+  "markdownChars": 3660,
+  "linksCount": 122,
+  "lastmod": "2026-01-29",
+  "scrapedAt": "2026-06-07T09:01:51.715Z"
+}

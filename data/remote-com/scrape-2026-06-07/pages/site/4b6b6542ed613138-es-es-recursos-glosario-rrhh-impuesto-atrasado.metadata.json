@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/impuesto-atrasado",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/impuesto-atrasado",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/impuesto-atrasado",
+  "title": "Impuesto atrasado",
+  "description": "Back tax is unpaid tax from previous periods. Learn what causes it, the risks of non-compliance, and how businesses can prevent costly penalties. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255251,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b6b6542ed613138-es-es-recursos-glosario-rrhh-impuesto-atrasado.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b6b6542ed613138-es-es-recursos-glosario-rrhh-impuesto-atrasado.direct.json",
+  "markdownChars": 3731,
+  "linksCount": 121,
+  "lastmod": "2025-08-05",
+  "scrapedAt": "2026-06-07T09:10:46.399Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/rh-international/gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-ch/rh-international/gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-ch/rh-international/gestion-des-freelances",
+  "title": "Logiciel de gestion des freelances | Remote",
+  "description": "Le logiciel de gestion des freelances de Remote vous aide à automatiser les modèles de contrat, les contrats de freelances, les intégrations et la gestion des départs, la rémunération des freelances et la gestion du risque de requalification de contrat, sur une plateforme unique de gestion des freelances.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 486294,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b77e1630b4b47a87-fr-ch-rh-international-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b77e1630b4b47a87-fr-ch-rh-international-gestion-des-freelances.direct.json",
+  "markdownChars": 19404,
+  "linksCount": 139,
+  "lastmod": "2025-09-09",
+  "scrapedAt": "2026-06-07T09:02:45.743Z"
+}

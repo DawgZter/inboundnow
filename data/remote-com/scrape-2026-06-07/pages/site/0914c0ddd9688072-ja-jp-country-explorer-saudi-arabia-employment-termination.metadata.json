@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/saudi-arabia/employment-termination",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/saudi-arabia/employment-termination",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/saudi-arabia/employment-termination",
+  "title": "サウジアラビアにおける従業員の解雇 | 解雇手続き",
+  "description": "サウジアラビアで従業員を解雇する際の権利と手続きを、包括的なガイドで分かりやすく解説します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259636,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0914c0ddd9688072-ja-jp-country-explorer-saudi-arabia-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0914c0ddd9688072-ja-jp-country-explorer-saudi-arabia-employment-termination.direct.json",
+  "markdownChars": 965,
+  "linksCount": 122,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:13:22.579Z"
+}

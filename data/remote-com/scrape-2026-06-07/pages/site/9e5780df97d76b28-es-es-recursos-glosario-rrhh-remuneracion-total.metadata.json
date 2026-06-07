@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/remuneracion-total",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/remuneracion-total",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/remuneracion-total",
+  "title": "Remuneración total",
+  "description": "Aprende la diferencia entre remuneración total y salario, y comprende cómo calcular la remuneración total de un empleado.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257302,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9e5780df97d76b28-es-es-recursos-glosario-rrhh-remuneracion-total.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9e5780df97d76b28-es-es-recursos-glosario-rrhh-remuneracion-total.direct.json",
+  "markdownChars": 5519,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:07:22.095Z"
+}

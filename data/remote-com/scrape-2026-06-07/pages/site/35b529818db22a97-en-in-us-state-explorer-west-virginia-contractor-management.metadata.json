@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/us-state-explorer/west-virginia/contractor-management",
+  "sourceURL": "https://remote.com/en-in/us-state-explorer/west-virginia/contractor-management",
+  "finalURL": "https://remote.com/en-in/us-state-explorer/west-virginia/contractor-management",
+  "title": "Contractor Management in West Virginia",
+  "description": "Manage and pay contractors in West Virginia with ease. Stay compliant, process payments easily, and reduce risk with a streamlined solution for hiring contractors with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257479,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/35b529818db22a97-en-in-us-state-explorer-west-virginia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/35b529818db22a97-en-in-us-state-explorer-west-virginia-contractor-management.direct.json",
+  "markdownChars": 2198,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:18:27.741Z"
+}

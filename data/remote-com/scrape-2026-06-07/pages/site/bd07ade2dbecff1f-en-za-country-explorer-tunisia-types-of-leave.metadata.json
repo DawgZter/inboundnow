@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/tunisia/types-of-leave",
+  "sourceURL": "https://remote.com/en-za/country-explorer/tunisia/types-of-leave",
+  "finalURL": "https://remote.com/en-za/country-explorer/tunisia/types-of-leave",
+  "title": "Types of Leave in Tunisia | Employee Leave Laws",
+  "description": "Understand employee leave laws in Tunisia. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259052,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bd07ade2dbecff1f-en-za-country-explorer-tunisia-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bd07ade2dbecff1f-en-za-country-explorer-tunisia-types-of-leave.direct.json",
+  "markdownChars": 1701,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:14:08.738Z"
+}

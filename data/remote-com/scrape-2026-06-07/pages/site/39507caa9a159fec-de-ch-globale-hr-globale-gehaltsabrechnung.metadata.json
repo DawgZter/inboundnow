@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/globale-hr/globale-gehaltsabrechnung",
+  "sourceURL": "https://remote.com/de-ch/globale-hr/globale-gehaltsabrechnung",
+  "finalURL": "https://remote.com/de-ch/globale-hr/globale-gehaltsabrechnung",
+  "title": "Globale und internationale Payroll so einfach wie nie | Remote",
+  "description": "Führe die Payroll für mehrere Länder mit Remote zusammen Remote Global Payroll kümmert sich für dich im Steuern, Zahlungen und Compliance.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 449963,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/39507caa9a159fec-de-ch-globale-hr-globale-gehaltsabrechnung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/39507caa9a159fec-de-ch-globale-hr-globale-gehaltsabrechnung.direct.json",
+  "markdownChars": 13221,
+  "linksCount": 133,
+  "lastmod": "2026-04-20",
+  "scrapedAt": "2026-06-07T09:12:58.533Z"
+}

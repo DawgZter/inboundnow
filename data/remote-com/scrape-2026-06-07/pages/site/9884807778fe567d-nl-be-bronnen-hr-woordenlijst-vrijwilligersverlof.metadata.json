@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/vrijwilligersverlof",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/vrijwilligersverlof",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/vrijwilligersverlof",
+  "title": "What is volunteer time off (VTO)?",
+  "description": "Meer informatie over vrije tijd voor vrijwilligers (VTO) en hoe bedrijven VTO op de werkplek kunnen implementeren",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250895,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9884807778fe567d-nl-be-bronnen-hr-woordenlijst-vrijwilligersverlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9884807778fe567d-nl-be-bronnen-hr-woordenlijst-vrijwilligersverlof.direct.json",
+  "markdownChars": 4587,
+  "linksCount": 124,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:04:33.613Z"
+}

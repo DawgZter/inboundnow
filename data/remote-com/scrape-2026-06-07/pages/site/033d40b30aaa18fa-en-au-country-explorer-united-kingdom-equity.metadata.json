@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/united-kingdom/equity",
+  "sourceURL": "https://remote.com/en-au/country-explorer/united-kingdom/equity",
+  "finalURL": "https://remote.com/en-au/country-explorer/united-kingdom/equity",
+  "title": "Stock Options for Employees in United Kingdom",
+  "description": "Explore United Kingdom specific rules for employee equity and stock options. Make informed decisions about global compensation with Remote’s Country Explorer.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265918,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/033d40b30aaa18fa-en-au-country-explorer-united-kingdom-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/033d40b30aaa18fa-en-au-country-explorer-united-kingdom-equity.direct.json",
+  "markdownChars": 4518,
+  "linksCount": 130,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:09:26.053Z"
+}

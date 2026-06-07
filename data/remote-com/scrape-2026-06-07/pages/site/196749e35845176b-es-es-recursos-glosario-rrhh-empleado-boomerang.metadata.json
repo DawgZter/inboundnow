@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/empleado-boomerang",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/empleado-boomerang",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/empleado-boomerang",
+  "title": "¿Qué son los empleados boomerang?",
+  "description": "Comprende cómo la recontratación de un empleado boomerang puede tener un impacto positivo en tu empresa, y considera las preguntas clave que debes hacerle.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257344,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/196749e35845176b-es-es-recursos-glosario-rrhh-empleado-boomerang.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/196749e35845176b-es-es-recursos-glosario-rrhh-empleado-boomerang.direct.json",
+  "markdownChars": 5508,
+  "linksCount": 120,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:18:24.694Z"
+}

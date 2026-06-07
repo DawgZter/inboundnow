@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/tsjaad",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/tsjaad",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/tsjaad",
+  "title": "Employer of record en payroll services | Chad",
+  "description": "Wil je werknemers en zzp'ers werven in Tsjaad? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 312911,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c1086e3b1c2ea6f-nl-nl-landenverkenner-tsjaad.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c1086e3b1c2ea6f-nl-nl-landenverkenner-tsjaad.direct.json",
+  "markdownChars": 3589,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:02:21.100Z"
+}

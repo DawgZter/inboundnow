@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/connecticut/taxes",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/connecticut/taxes",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/connecticut/taxes",
+  "title": "Manage Payroll Tax in - Connecticut | Tax Compliance",
+  "description": "Manage payroll taxes in Connecticut effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256885,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/143a2010235e5820-en-gb-us-state-explorer-connecticut-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/143a2010235e5820-en-gb-us-state-explorer-connecticut-taxes.direct.json",
+  "markdownChars": 1012,
+  "linksCount": 113,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:15:00.303Z"
+}

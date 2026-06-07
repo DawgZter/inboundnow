@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/colombia/payroll",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/colombia/payroll",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/colombia/payroll",
+  "title": "콜롬비아에서 직원 급여 지급 | 급여 서비스",
+  "description": "콜롬비아에서 직원에게 급여를 손쉽게 지급하세요. 유연한 급여 서비스로 급여 처리, 비용 관리 및 보고를 한 곳에서 수행할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260099,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e3f4b05f8a8cf278-ko-kr-country-explorer-colombia-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e3f4b05f8a8cf278-ko-kr-country-explorer-colombia-payroll.direct.json",
+  "markdownChars": 1936,
+  "linksCount": 123,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:11:34.113Z"
+}

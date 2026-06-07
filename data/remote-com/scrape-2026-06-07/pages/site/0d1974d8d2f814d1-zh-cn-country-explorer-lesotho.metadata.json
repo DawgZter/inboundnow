@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/lesotho",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/lesotho",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/lesotho",
+  "title": "莱索托 | 第三方雇佣托管服务与薪资服务",
+  "description": "在莱索托招聘员工和合同工？Remote 可通过我们一体化的全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 307354,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d1974d8d2f814d1-zh-cn-country-explorer-lesotho.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d1974d8d2f814d1-zh-cn-country-explorer-lesotho.direct.json",
+  "markdownChars": 1267,
+  "linksCount": 116,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:09:01.840Z"
+}

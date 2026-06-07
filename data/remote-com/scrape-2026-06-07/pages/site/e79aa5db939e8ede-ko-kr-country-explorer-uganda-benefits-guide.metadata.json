@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/uganda/benefits-guide",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/uganda/benefits-guide",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/uganda/benefits-guide",
+  "title": "우간다의 직원 복리후생 | Remote 복리후생 플랜",
+  "description": "우간다의 필수 직원 복리후생을 소개하며 건강보험, 유급 휴가 및 기타 혜택을 통해 우수한 인재를 유치하고 유지하는 방법을 안내합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269787,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e79aa5db939e8ede-ko-kr-country-explorer-uganda-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e79aa5db939e8ede-ko-kr-country-explorer-uganda-benefits-guide.direct.json",
+  "markdownChars": 795,
+  "linksCount": 122,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:11:15.298Z"
+}

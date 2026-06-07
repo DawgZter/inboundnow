@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/puerto-rico/freistellungsarten",
+  "sourceURL": "https://remote.com/de-at/country-explorer/puerto-rico/freistellungsarten",
+  "finalURL": "https://remote.com/de-at/country-explorer/puerto-rico/freistellungsarten",
+  "title": "Urlaubsansprüche in Puerto Rico | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Puerto Rico. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257531,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f088cf4911c44b01-de-at-country-explorer-puerto-rico-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f088cf4911c44b01-de-at-country-explorer-puerto-rico-freistellungsarten.direct.json",
+  "markdownChars": 1776,
+  "linksCount": 122,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:11:56.650Z"
+}

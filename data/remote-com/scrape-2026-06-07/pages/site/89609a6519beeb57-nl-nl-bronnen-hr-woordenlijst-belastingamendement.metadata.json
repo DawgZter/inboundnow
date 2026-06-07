@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/belastingamendement",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/belastingamendement",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/belastingamendement",
+  "title": "Wat is een belastingamendement?",
+  "description": "Verken onze HR-woordenlijst om inzicht te krijgen in belastingwijzigingen, hun invloed op de financiële verslaglegging en hoe ze van invloed zijn op belastingverplichtingen en naleving voor bedrijven en particulieren.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255635,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89609a6519beeb57-nl-nl-bronnen-hr-woordenlijst-belastingamendement.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89609a6519beeb57-nl-nl-bronnen-hr-woordenlijst-belastingamendement.direct.json",
+  "markdownChars": 3185,
+  "linksCount": 122,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:05:44.381Z"
+}

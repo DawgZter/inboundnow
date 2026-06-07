@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/hr-glossary/salary-pay",
+  "sourceURL": "https://remote.com/en-sg/resources/hr-glossary/salary-pay",
+  "finalURL": "https://remote.com/en-sg/resources/hr-glossary/salary-pay",
+  "title": "How does salary pay work?",
+  "description": "Learn more about salaried employees and how salary pay works, including the exemptions and obligations your business may need to be aware of.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254894,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0eca7dc8d0299176-en-sg-resources-hr-glossary-salary-pay.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0eca7dc8d0299176-en-sg-resources-hr-glossary-salary-pay.direct.json",
+  "markdownChars": 6552,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:08:12.573Z"
+}

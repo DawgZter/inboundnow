@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/bahamas",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/bahamas",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/bahamas",
+  "title": "Employer of record en payroll services | Bahamas",
+  "description": "Wil je werknemers en zzp'ers werven in Bahama's? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 316871,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b2a67196b1117b99-nl-be-landenverkenner-bahamas.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b2a67196b1117b99-nl-be-landenverkenner-bahamas.direct.json",
+  "markdownChars": 5233,
+  "linksCount": 121,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:18:54.379Z"
+}

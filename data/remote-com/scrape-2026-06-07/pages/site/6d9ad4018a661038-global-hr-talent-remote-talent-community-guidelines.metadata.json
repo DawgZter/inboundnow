@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/global-hr/talent/remote-talent-community-guidelines",
+  "sourceURL": "https://remote.com/global-hr/talent/remote-talent-community-guidelines",
+  "finalURL": "https://remote.com/global-hr/talent/remote-talent-community-guidelines",
+  "title": "Remote Talent Community Guidelines | Remote",
+  "description": "This page outlines the Community Guidelines for Remote Talent customers. Learn the requirements for job listings and the expected behavior of employers on our platform.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253027,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6d9ad4018a661038-global-hr-talent-remote-talent-community-guidelines.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6d9ad4018a661038-global-hr-talent-remote-talent-community-guidelines.direct.json",
+  "markdownChars": 6810,
+  "linksCount": 112,
+  "lastmod": "2025-05-22",
+  "scrapedAt": "2026-06-07T09:01:48.909Z"
+}

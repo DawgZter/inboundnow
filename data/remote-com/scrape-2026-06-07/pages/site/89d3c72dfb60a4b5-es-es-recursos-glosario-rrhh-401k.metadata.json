@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/401k",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/401k",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/401k",
+  "title": "401(k)",
+  "description": "A 401(k) is a US retirement plan that allows employees to save pre-tax income. Learn how it works, including responsibilities and contribution limits.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255809,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89d3c72dfb60a4b5-es-es-recursos-glosario-rrhh-401k.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89d3c72dfb60a4b5-es-es-recursos-glosario-rrhh-401k.direct.json",
+  "markdownChars": 4389,
+  "linksCount": 124,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:36.229Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/colombia/overzicht-secundaire-arbeidsvoorwaarden",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/colombia/overzicht-secundaire-arbeidsvoorwaarden",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/colombia/overzicht-secundaire-arbeidsvoorwaarden",
+  "title": "Secundaire arbeidsvoorwaarden in Colombia | Arbeidsvoorwaardenpakketten",
+  "description": "Ontdek de essentiële secundaire arbeidsvoorwaarden voor jouw werknemers in Colombia. Lees meer over ziekteverzekering, betaald verlof en andere voordelen om toptalent aan te trekken en te behouden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 267745,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d61273ed41d1ca7a-nl-be-landenverkenner-colombia-overzicht-secundaire-arbeidsvoorwaarden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d61273ed41d1ca7a-nl-be-landenverkenner-colombia-overzicht-secundaire-arbeidsvoorwaarden.direct.json",
+  "markdownChars": 1687,
+  "linksCount": 126,
+  "lastmod": "2026-01-06",
+  "scrapedAt": "2026-06-07T09:07:51.767Z"
+}

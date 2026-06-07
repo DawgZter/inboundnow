@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/daenemark/steuern",
+  "sourceURL": "https://remote.com/de-at/country-explorer/daenemark/steuern",
+  "finalURL": "https://remote.com/de-at/country-explorer/daenemark/steuern",
+  "title": "Lohnnebenkosten in Dänemark verwalten | Steuerrecht Rechtskonformität",
+  "description": "Bezahle Lohnsteuern in '.Daenemark.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260382,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8f6c65e3a6b118b7-de-at-country-explorer-daenemark-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8f6c65e3a6b118b7-de-at-country-explorer-daenemark-steuern.direct.json",
+  "markdownChars": 1409,
+  "linksCount": 123,
+  "lastmod": "2025-09-01",
+  "scrapedAt": "2026-06-07T09:05:14.831Z"
+}

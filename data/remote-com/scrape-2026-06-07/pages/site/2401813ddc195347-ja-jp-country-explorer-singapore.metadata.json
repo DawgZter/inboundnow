@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/singapore",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/singapore",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/singapore",
+  "title": "Employer of Record (EOR) と給与処理サービス | シンガポール",
+  "description": "シンガポールで従業員や契約社員を採用する予定ですか？Remoteは統合されたグローバルHRプラットフォームを通じて、従業員管理および契約社員管理をサポートします。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 349394,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2401813ddc195347-ja-jp-country-explorer-singapore.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2401813ddc195347-ja-jp-country-explorer-singapore.direct.json",
+  "markdownChars": 3721,
+  "linksCount": 126,
+  "lastmod": "2025-09-18",
+  "scrapedAt": "2026-06-07T09:14:40.930Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/north-dakota/employment-termination",
+  "sourceURL": "https://remote.com/us-state-explorer/north-dakota/employment-termination",
+  "finalURL": "https://remote.com/us-state-explorer/north-dakota/employment-termination",
+  "title": "Terminate Employees in North Dakota | Employment Termination",
+  "description": "Looking to terminate an employee in North Dakota? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256559,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19501667fd8d96d9-us-state-explorer-north-dakota-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19501667fd8d96d9-us-state-explorer-north-dakota-employment-termination.direct.json",
+  "markdownChars": 1721,
+  "linksCount": 112,
+  "lastmod": "2025-04-28",
+  "scrapedAt": "2026-06-07T09:13:04.433Z"
+}

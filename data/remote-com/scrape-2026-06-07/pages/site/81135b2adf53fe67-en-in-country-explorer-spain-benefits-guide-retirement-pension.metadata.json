@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/spain/benefits-guide/retirement-pension",
+  "sourceURL": "https://remote.com/en-in/country-explorer/spain/benefits-guide/retirement-pension",
+  "finalURL": "https://remote.com/en-in/country-explorer/spain/benefits-guide/retirement-pension",
+  "title": "Retirement & Pension Benefits in Spain | Wellbeing Support",
+  "description": "Support your team with Retirement &amp; Pension benefits in Spain.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265154,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/81135b2adf53fe67-en-in-country-explorer-spain-benefits-guide-retirement-pension.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/81135b2adf53fe67-en-in-country-explorer-spain-benefits-guide-retirement-pension.direct.json",
+  "markdownChars": 2318,
+  "linksCount": 120,
+  "lastmod": "2026-05-25",
+  "scrapedAt": "2026-06-07T09:08:25.779Z"
+}

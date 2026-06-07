@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/namibia",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/namibia",
+  "finalURL": "https://remote.com/es-es/explorador-paises/namibia",
+  "title": "Empleador por cuenta ajena (EOR) y servicios de nóminas | Namibia",
+  "description": "¿Contratas empleados y trabajadores autónomos en Namibia? Remote puede ayudar a gestionar empleados y trabajadores autónomos a través de nuestra plataforma integrada de RR. HH. globales.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 312700,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/61f0f7b7b3fbac20-es-es-explorador-paises-namibia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/61f0f7b7b3fbac20-es-es-explorador-paises-namibia.direct.json",
+  "markdownChars": 3786,
+  "linksCount": 117,
+  "lastmod": "2025-09-02",
+  "scrapedAt": "2026-06-07T09:11:59.074Z"
+}

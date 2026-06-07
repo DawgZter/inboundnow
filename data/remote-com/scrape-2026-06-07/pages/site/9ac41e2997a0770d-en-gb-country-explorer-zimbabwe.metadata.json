@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/zimbabwe",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/zimbabwe",
+  "finalURL": "https://remote.com/en-gb/country-explorer/zimbabwe",
+  "title": "Employer of Record & Payroll Services | Zimbabwe",
+  "description": "Hiring employees and contractors in Zimbabwe? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 341244,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ac41e2997a0770d-en-gb-country-explorer-zimbabwe.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ac41e2997a0770d-en-gb-country-explorer-zimbabwe.direct.json",
+  "markdownChars": 5223,
+  "linksCount": 126,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:17:27.916Z"
+}

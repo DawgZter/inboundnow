@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/armenia/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/armenia/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/armenia/benefits-guide",
+  "title": "亚美尼亚员工福利 | 福利计划",
+  "description": "了解在亚美尼亚的关键员工福利。掌握医疗保险、带薪休假及其他福利要点，助力贵公司吸引并留住顶尖人才。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268411,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9c2e53c2172e41a0-zh-cn-country-explorer-armenia-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9c2e53c2172e41a0-zh-cn-country-explorer-armenia-benefits-guide.direct.json",
+  "markdownChars": 554,
+  "linksCount": 121,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:14:03.337Z"
+}

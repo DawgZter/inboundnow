@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/rh-globais/api-remote",
+  "sourceURL": "https://remote.com/pt-pt/rh-globais/api-remote",
+  "finalURL": "https://remote.com/pt-pt/rh-globais/api-remote",
+  "title": "API da Remote | Remote",
+  "description": "A Remote fornece serviços Employer of Record em países de todo o mundo. Tratamos do processamento salarial, impostos, benefícios e conformidade locais, para que os teus trabalhadores se sintam tão seguros e protegidos como a tua empresa.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 228817,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e121863254870111-pt-pt-rh-globais-api-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e121863254870111-pt-pt-rh-globais-api-remote.direct.json",
+  "markdownChars": 7839,
+  "linksCount": 46,
+  "lastmod": "2026-05-15",
+  "scrapedAt": "2026-06-07T09:18:43.112Z"
+}

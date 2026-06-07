@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/guatemala/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/country-explorer/guatemala/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/country-explorer/guatemala/benefits-guide/life-insurance",
+  "title": "Life Insurance Benefits in Guatemala | Wellbeing Support",
+  "description": "Support your team with Life Insurance benefits in Guatemala.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 266072,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/486eba5c21d2a9db-country-explorer-guatemala-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/486eba5c21d2a9db-country-explorer-guatemala-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 4755,
+  "linksCount": 115,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:01:08.567Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/slowenien",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/slowenien",
+  "finalURL": "https://remote.com/de-ch/country-explorer/slowenien",
+  "title": "Employer of Record (EOR) & Payroll-Services | Slowenien",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Slowenien? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 342784,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4eaea87ebd865ee3-de-ch-country-explorer-slowenien.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4eaea87ebd865ee3-de-ch-country-explorer-slowenien.direct.json",
+  "markdownChars": 7022,
+  "linksCount": 124,
+  "lastmod": "2026-02-13",
+  "scrapedAt": "2026-06-07T09:15:49.780Z"
+}

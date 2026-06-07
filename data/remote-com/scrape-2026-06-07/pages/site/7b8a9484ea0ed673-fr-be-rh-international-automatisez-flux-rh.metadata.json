@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/rh-international/automatisez-flux-rh",
+  "sourceURL": "https://remote.com/fr-be/rh-international/automatisez-flux-rh",
+  "finalURL": "https://remote.com/fr-be/rh-international/automatisez-flux-rh",
+  "title": "Automatisez vos flux RH avec Remote et autonomisez votre équipe | Remote",
+  "description": "Rationalisez vos RH à l’international grâce à des flux de travail automatisés pour les validations, les mises à jour et les demandes. Votre équipe peut ainsi se consacrer à la stratégie plutôt qu’aux tâches administratives.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 372125,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7b8a9484ea0ed673-fr-be-rh-international-automatisez-flux-rh.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7b8a9484ea0ed673-fr-be-rh-international-automatisez-flux-rh.direct.json",
+  "markdownChars": 5577,
+  "linksCount": 120,
+  "lastmod": "2025-08-28",
+  "scrapedAt": "2026-06-07T09:01:34.243Z"
+}

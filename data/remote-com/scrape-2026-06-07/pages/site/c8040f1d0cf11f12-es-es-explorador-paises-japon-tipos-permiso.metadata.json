@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/japon/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/japon/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/japon/tipos-permiso",
+  "title": "Tipos de permiso en Japón | Legislación sobre permisos para empleados",
+  "description": "Comprende la normativa de permisos para empleados en Japón. Asegúrate de que tu empresa cumple con las políticas y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262123,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c8040f1d0cf11f12-es-es-explorador-paises-japon-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c8040f1d0cf11f12-es-es-explorador-paises-japon-tipos-permiso.direct.json",
+  "markdownChars": 3225,
+  "linksCount": 121,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:00:58.673Z"
+}

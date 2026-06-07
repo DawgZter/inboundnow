@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/suedkorea/payroll",
+  "sourceURL": "https://remote.com/de-de/country-explorer/suedkorea/payroll",
+  "finalURL": "https://remote.com/de-de/country-explorer/suedkorea/payroll",
+  "title": "Mitarbeiter:innen in Südkorea bezahlen | Payroll-Services",
+  "description": "Zahle Mitarbeiter:innen in Südkorea mühelos mit unseren flexiblen Payroll-Services. Führe Payroll aus, verwalte Ausgaben und erstelle Berichte&nbsp;— alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260247,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bfa8a9678b4231ff-de-de-country-explorer-suedkorea-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bfa8a9678b4231ff-de-de-country-explorer-suedkorea-payroll.direct.json",
+  "markdownChars": 3890,
+  "linksCount": 123,
+  "lastmod": "2025-11-17",
+  "scrapedAt": "2026-06-07T09:13:12.987Z"
+}

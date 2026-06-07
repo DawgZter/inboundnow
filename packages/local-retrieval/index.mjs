@@ -21,6 +21,7 @@ function normalizeDocument(document) {
     url: String(document.url || "").trim(),
     text: String(document.text || "").replace(/\s+/g, " ").trim(),
     tags: Array.isArray(document.tags) ? document.tags.map(String) : [],
+    metadata: document.metadata && typeof document.metadata === "object" ? document.metadata : {},
   };
 }
 
@@ -70,6 +71,7 @@ export function queryLocalIndex(index, query, options = {}) {
       url: document.url,
       text: document.text,
       tags: document.tags || [],
+      metadata: document.metadata || {},
       score: scoreDocument(queryTokens, document),
     }))
     .filter((snippet) => snippet.score > 0)

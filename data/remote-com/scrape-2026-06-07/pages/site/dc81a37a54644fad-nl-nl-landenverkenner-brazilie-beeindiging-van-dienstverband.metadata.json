@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/brazilie/beeindiging-van-dienstverband",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/brazilie/beeindiging-van-dienstverband",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/brazilie/beeindiging-van-dienstverband",
+  "title": "Beëindiging van het dienstverband in Brazil | Beëindiging van het dienstverband",
+  "description": "Hoe beëindig je het dienstverband met een werknemer in Brazilie? Ken je rechten en lees onze uitgebreide gids over de wetgeving voor beëindiging van dienstverbanden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262520,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dc81a37a54644fad-nl-nl-landenverkenner-brazilie-beeindiging-van-dienstverband.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dc81a37a54644fad-nl-nl-landenverkenner-brazilie-beeindiging-van-dienstverband.direct.json",
+  "markdownChars": 2775,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:14:37.049Z"
+}

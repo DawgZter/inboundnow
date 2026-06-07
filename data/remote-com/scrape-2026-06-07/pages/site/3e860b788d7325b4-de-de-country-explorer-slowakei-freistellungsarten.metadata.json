@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/slowakei/freistellungsarten",
+  "sourceURL": "https://remote.com/de-de/country-explorer/slowakei/freistellungsarten",
+  "finalURL": "https://remote.com/de-de/country-explorer/slowakei/freistellungsarten",
+  "title": "Urlaubsansprüche in Slovakia | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Slowakei. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261451,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3e860b788d7325b4-de-de-country-explorer-slowakei-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3e860b788d7325b4-de-de-country-explorer-slowakei-freistellungsarten.direct.json",
+  "markdownChars": 3727,
+  "linksCount": 122,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:14:01.341Z"
+}

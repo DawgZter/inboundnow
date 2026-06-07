@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/global-hr/global-employment-services",
+  "sourceURL": "https://remote.com/zh-cn/global-hr/global-employment-services",
+  "finalURL": "https://remote.com/zh-cn/global-hr/global-employment-services",
+  "title": "全球雇佣服务：聘用全球人才 | Remote",
+  "description": "想组建全球化团队？Remote 助力企业轻松聘用海外人才。立即了解更多信息！",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 324312,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fb162c093f942f14-zh-cn-global-hr-global-employment-services.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fb162c093f942f14-zh-cn-global-hr-global-employment-services.direct.json",
+  "markdownChars": 2838,
+  "linksCount": 113,
+  "lastmod": "2025-11-24",
+  "scrapedAt": "2026-06-07T09:08:43.875Z"
+}

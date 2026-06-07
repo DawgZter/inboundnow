@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/nigeria/paie",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/nigeria/paie",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/nigeria/paie",
+  "title": "Payer des salariés au Nigeria | Services de paie",
+  "description": "Payez vos salariés au Nigeria facilement grâce à nos services de paie flexibles. Gérer la paie, suivre les dépenses et générer des rapports, le tout depuis une plateforme unique.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263188,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ce45b9938f26f29-fr-ch-explorateur-de-pays-nigeria-paie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ce45b9938f26f29-fr-ch-explorateur-de-pays-nigeria-paie.direct.json",
+  "markdownChars": 3978,
+  "linksCount": 125,
+  "lastmod": "2025-11-13",
+  "scrapedAt": "2026-06-07T09:16:32.887Z"
+}

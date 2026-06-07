@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/us-state-explorer/vermont/employer-of-record",
+  "sourceURL": "https://remote.com/en-za/us-state-explorer/vermont/employer-of-record",
+  "finalURL": "https://remote.com/en-za/us-state-explorer/vermont/employer-of-record",
+  "title": "Employer of Record services in Vermont",
+  "description": "Use employer of record services in Vermont make hiring, managing, and paying top talent easy. Stay compliant in Vermont and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258457,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8de62368d53d9d6-en-za-us-state-explorer-vermont-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8de62368d53d9d6-en-za-us-state-explorer-vermont-employer-of-record.direct.json",
+  "markdownChars": 3288,
+  "linksCount": 114,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:16:38.364Z"
+}

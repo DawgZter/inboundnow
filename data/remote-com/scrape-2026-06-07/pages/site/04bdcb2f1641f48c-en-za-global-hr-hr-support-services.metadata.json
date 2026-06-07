@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/global-hr/hr-support-services",
+  "sourceURL": "https://remote.com/en-za/global-hr/hr-support-services",
+  "finalURL": "https://remote.com/en-za/global-hr/hr-support-services",
+  "title": "HR support services, on-demand for every stage of growth | Remote",
+  "description": "Scale your business confidently with flexible HR solutions. From background checks to entity setup, streamline your global growth with one trusted partner.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 371331,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/04bdcb2f1641f48c-en-za-global-hr-hr-support-services.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/04bdcb2f1641f48c-en-za-global-hr-hr-support-services.direct.json",
+  "markdownChars": 5647,
+  "linksCount": 116,
+  "lastmod": "2025-06-27",
+  "scrapedAt": "2026-06-07T09:01:28.151Z"
+}

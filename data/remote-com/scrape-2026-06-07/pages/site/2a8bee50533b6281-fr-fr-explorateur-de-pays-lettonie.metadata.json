@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/lettonie",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/lettonie",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/lettonie",
+  "title": "Employer of Record (EOR) et paie | Lettonie",
+  "description": "Recruter des employés et des freelances : Lettonie Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 345580,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2a8bee50533b6281-fr-fr-explorateur-de-pays-lettonie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2a8bee50533b6281-fr-fr-explorateur-de-pays-lettonie.direct.json",
+  "markdownChars": 6743,
+  "linksCount": 123,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:11:42.646Z"
+}

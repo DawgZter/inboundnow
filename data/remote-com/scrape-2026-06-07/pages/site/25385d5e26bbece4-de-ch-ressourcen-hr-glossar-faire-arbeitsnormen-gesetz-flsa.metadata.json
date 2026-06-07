@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/faire-arbeitsnormen-gesetz-flsa",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/faire-arbeitsnormen-gesetz-flsa",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/faire-arbeitsnormen-gesetz-flsa",
+  "title": "What is the Fair Labor Standards Act (FLSA)?",
+  "description": "Erfahre mehr über den Fair Labor Standards Act (FLSA) und wie er ein wichtiges Instrument für Personalleiter/innen ist, die globale Teams leiten. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255370,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/25385d5e26bbece4-de-ch-ressourcen-hr-glossar-faire-arbeitsnormen-gesetz-flsa.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/25385d5e26bbece4-de-ch-ressourcen-hr-glossar-faire-arbeitsnormen-gesetz-flsa.direct.json",
+  "markdownChars": 4410,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:14:19.087Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/saudi-arabia/taxes",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/saudi-arabia/taxes",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/saudi-arabia/taxes",
+  "title": "サウジアラビアの給与税管理 | 税務コンプライアンス",
+  "description": "サウジアラビアの給与税を効率的かつ適切に管理し、給与に関するエラーを最小限に抑えながら現地法を遵守し、高額な罰金の発生を回避します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257102,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/34526d23bd7a2e7f-ja-jp-country-explorer-saudi-arabia-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/34526d23bd7a2e7f-ja-jp-country-explorer-saudi-arabia-taxes.direct.json",
+  "markdownChars": 493,
+  "linksCount": 122,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:05:04.158Z"
+}

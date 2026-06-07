@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/een-eor-en-global-hr-leverancier-selecteren",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/een-eor-en-global-hr-leverancier-selecteren",
+  "finalURL": "https://remote.com/nl-nl/bronnen/een-eor-en-global-hr-leverancier-selecteren",
+  "title": "Een EOR en global HR-leverancier selecteren",
+  "description": "Download de gids en ontdek hoe je de juiste EOR en global HR-partner kiest voor het beheer van je internationale teams",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 250324,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/18392de6bb5a1c54-nl-nl-bronnen-een-eor-en-global-hr-leverancier-selecteren.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/18392de6bb5a1c54-nl-nl-bronnen-een-eor-en-global-hr-leverancier-selecteren.direct.json",
+  "markdownChars": 467,
+  "linksCount": 108,
+  "lastmod": "2025-09-08",
+  "scrapedAt": "2026-06-07T09:09:00.040Z"
+}

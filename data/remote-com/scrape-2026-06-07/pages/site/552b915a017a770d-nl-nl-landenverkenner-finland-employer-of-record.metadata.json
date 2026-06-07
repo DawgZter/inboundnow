@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/finland/employer-of-record",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/finland/employer-of-record",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/finland/employer-of-record",
+  "title": "Employer of Record in Finland (EOR) | EOR-diensten",
+  "description": "Vereenvoudig tewerkstelling in Finland met onze Employer of Record-diensten. Beheer payroll, benefits en Compliance moeiteloos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263037,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/552b915a017a770d-nl-nl-landenverkenner-finland-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/552b915a017a770d-nl-nl-landenverkenner-finland-employer-of-record.direct.json",
+  "markdownChars": 3636,
+  "linksCount": 124,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:10:27.672Z"
+}

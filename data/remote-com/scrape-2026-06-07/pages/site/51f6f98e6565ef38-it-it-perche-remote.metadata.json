@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/perche-remote",
+  "sourceURL": "https://remote.com/it-it/perche-remote",
+  "finalURL": "https://remote.com/it-it/perche-remote",
+  "title": "Piattaforma HR globale, con il know-how locale | Remote",
+  "description": "Approfitta dell’efficace infrastruttura globale di Remote: entità legali, esperti e know-how, a tua disposizione in ogni Paese Nessuno protegge i tuoi dati, il tuo team e il tuo futuro come Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 219909,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/51f6f98e6565ef38-it-it-perche-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/51f6f98e6565ef38-it-it-perche-remote.direct.json",
+  "markdownChars": 3789,
+  "linksCount": 48,
+  "lastmod": "2026-02-24",
+  "scrapedAt": "2026-06-07T09:17:40.646Z"
+}

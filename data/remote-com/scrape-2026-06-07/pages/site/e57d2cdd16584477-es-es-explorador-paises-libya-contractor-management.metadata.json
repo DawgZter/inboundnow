@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/libya/contractor-management",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/libya/contractor-management",
+  "finalURL": "https://remote.com/es-es/explorador-paises/libya/contractor-management",
+  "title": "Gestión de trabajadores autónomos en Libia | Contractor Management",
+  "description": "¿Contratas a un trabajador autónomo en Libia? Gestiona y paga a tus trabajadores autónomos globales sin esfuerzo con nuestros flexibles servicios de Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258350,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e57d2cdd16584477-es-es-explorador-paises-libya-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e57d2cdd16584477-es-es-explorador-paises-libya-contractor-management.direct.json",
+  "markdownChars": 2924,
+  "linksCount": 116,
+  "lastmod": "2025-10-31",
+  "scrapedAt": "2026-06-07T09:10:13.597Z"
+}

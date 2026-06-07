@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/vietnam/guide-avantages",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/vietnam/guide-avantages",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/vietnam/guide-avantages",
+  "title": "Avantages sociaux des employés au Vietnam | Plans d’avantages sociaux",
+  "description": "Découvrez les avantages sociaux essentiels au Vietnam. Informez-vous sur l’assurance santé, les congés payés et d’autres avantages pour attirer et fidéliser les meilleurs talents.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 274091,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c199acb7eca9ebf-fr-be-explorateur-de-pays-vietnam-guide-avantages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c199acb7eca9ebf-fr-be-explorateur-de-pays-vietnam-guide-avantages.direct.json",
+  "markdownChars": 1808,
+  "linksCount": 124,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:04:51.554Z"
+}

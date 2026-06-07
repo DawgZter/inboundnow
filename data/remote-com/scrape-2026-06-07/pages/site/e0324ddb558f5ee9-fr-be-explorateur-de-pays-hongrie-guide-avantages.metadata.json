@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/hongrie/guide-avantages",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/hongrie/guide-avantages",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/hongrie/guide-avantages",
+  "title": "Avantages sociaux en Hongrie | Plans d’avantages sociaux Remote",
+  "description": "Découvrez les avantages sociaux essentiels en Hongrie. Informez‑vous sur l’assurance santé, les congés payés et autres avantages pour attirer et fidéliser les meilleurs talents.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 274058,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e0324ddb558f5ee9-fr-be-explorateur-de-pays-hongrie-guide-avantages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e0324ddb558f5ee9-fr-be-explorateur-de-pays-hongrie-guide-avantages.direct.json",
+  "markdownChars": 1798,
+  "linksCount": 124,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:00:57.280Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/hr-lucken-analyse",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/hr-lucken-analyse",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/hr-lucken-analyse",
+  "title": "Global HR Solutions &amp; Employment Tools for Distributed Teams",
+  "description": "Erfahre mehr über die HR-Gap-Analyse und ihre Rolle bei der Ermittlung des Personalbedarfs und der Verbesserung der organisatorischen Effizienz. Besuche unser Glossar, um seine Bedeutung zu verstehen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253993,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f6b9a6143903f3b-de-at-ressourcen-hr-glossar-hr-lucken-analyse.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f6b9a6143903f3b-de-at-ressourcen-hr-glossar-hr-lucken-analyse.direct.json",
+  "markdownChars": 3831,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:14:34.500Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/research/global-life-work-balance-index",
+  "sourceURL": "https://remote.com/en-in/resources/research/global-life-work-balance-index",
+  "finalURL": "https://remote.com/en-in/resources/research/global-life-work-balance-index",
+  "title": "Global Life-Work Balance Index 2025 | Best Life-Work Balance Countries | Remote",
+  "description": "Looking to relocate for work in 2025? Discover the best countries in the world for life-work balance in Remote’s leading global study",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 778828,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ba62641ceadde7d-en-in-resources-research-global-life-work-balance-index.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ba62641ceadde7d-en-in-resources-research-global-life-work-balance-index.direct.json",
+  "markdownChars": 27127,
+  "linksCount": 185,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:17:29.448Z"
+}

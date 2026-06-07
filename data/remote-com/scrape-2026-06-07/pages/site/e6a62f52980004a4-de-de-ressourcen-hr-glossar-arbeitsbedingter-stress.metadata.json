@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/arbeitsbedingter-stress",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/arbeitsbedingter-stress",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/arbeitsbedingter-stress",
+  "title": "Beruflicher Stress",
+  "description": "Verstehe die Auswirkungen von berufsbedingtem Stress am Arbeitsplatz und lerne proaktive Strategien, um das Wohlbefinden und die Produktivität deiner Mitarbeiter/innen zu verbessern.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257128,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e6a62f52980004a4-de-de-ressourcen-hr-glossar-arbeitsbedingter-stress.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e6a62f52980004a4-de-de-ressourcen-hr-glossar-arbeitsbedingter-stress.direct.json",
+  "markdownChars": 6597,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:18:19.247Z"
+}

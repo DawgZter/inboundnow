@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/tennessee",
+  "sourceURL": "https://remote.com/us-state-explorer/tennessee",
+  "finalURL": "https://remote.com/us-state-explorer/tennessee",
+  "title": "Employer of Record & Payroll Services | Tennessee",
+  "description": "Use our compliance guide to employ in Tennessee with ease. Learn about benefits, payroll, leave, and other labor laws in The Volunteer State.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 331571,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7bff5623f3ae033b-us-state-explorer-tennessee.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7bff5623f3ae033b-us-state-explorer-tennessee.direct.json",
+  "markdownChars": 7045,
+  "linksCount": 113,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:10:10.406Z"
+}

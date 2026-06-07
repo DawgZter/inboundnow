@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/marokko/belastingen",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/marokko/belastingen",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/marokko/belastingen",
+  "title": "Payroll-belasting beheren in Morocco | Belastingnaleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Marokko. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257836,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a1421a7e179d3d0d-nl-be-landenverkenner-marokko-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a1421a7e179d3d0d-nl-be-landenverkenner-marokko-belastingen.direct.json",
+  "markdownChars": 1573,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:07:02.141Z"
+}

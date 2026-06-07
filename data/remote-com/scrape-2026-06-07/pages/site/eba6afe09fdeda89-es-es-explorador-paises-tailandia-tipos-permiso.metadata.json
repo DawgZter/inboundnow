@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/tailandia/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/tailandia/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/tailandia/tipos-permiso",
+  "title": "泰国休假类型 | 员工休假法规",
+  "description": "Conoce la normativa sobre permisos laborales en Tailandia y asegúrate de que tu empresa cumple las políticas y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262625,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eba6afe09fdeda89-es-es-explorador-paises-tailandia-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eba6afe09fdeda89-es-es-explorador-paises-tailandia-tipos-permiso.direct.json",
+  "markdownChars": 1621,
+  "linksCount": 122,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:01:42.812Z"
+}

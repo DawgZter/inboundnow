@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/canada",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/canada",
+  "finalURL": "https://remote.com/es-es/explorador-paises/canada",
+  "title": "Employer of Record y servicios de nóminas | Canadá",
+  "description": "¿Contratas empleados y trabajadores autónomos en Canadá? Remote puede ayudarte a gestionar empleados y trabajadores autónomos a través de nuestra plataforma integrada de RR. HH. global.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 349210,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/35dd61122ebb7bc6-es-es-explorador-paises-canada.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/35dd61122ebb7bc6-es-es-explorador-paises-canada.direct.json",
+  "markdownChars": 8351,
+  "linksCount": 126,
+  "lastmod": "2025-10-02",
+  "scrapedAt": "2026-06-07T09:09:34.576Z"
+}

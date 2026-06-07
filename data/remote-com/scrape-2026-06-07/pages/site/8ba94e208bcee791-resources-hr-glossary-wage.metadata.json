@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/wage",
+  "sourceURL": "https://remote.com/resources/hr-glossary/wage",
+  "finalURL": "https://remote.com/resources/hr-glossary/wage",
+  "title": "Wage",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 248924,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ba94e208bcee791-resources-hr-glossary-wage.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ba94e208bcee791-resources-hr-glossary-wage.direct.json",
+  "markdownChars": 3726,
+  "linksCount": 113,
+  "lastmod": "2025-06-23",
+  "scrapedAt": "2026-06-07T09:05:06.564Z"
+}

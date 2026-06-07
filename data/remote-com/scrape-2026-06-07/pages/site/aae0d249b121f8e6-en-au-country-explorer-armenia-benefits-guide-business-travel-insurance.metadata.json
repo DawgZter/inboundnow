@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/armenia/benefits-guide/business-travel-insurance",
+  "sourceURL": "https://remote.com/en-au/country-explorer/armenia/benefits-guide/business-travel-insurance",
+  "finalURL": "https://remote.com/en-au/country-explorer/armenia/benefits-guide/business-travel-insurance",
+  "title": "Business Travel Insurance Benefits in Armenia | Wellbeing Support",
+  "description": "Support your team with Business Travel Insurance benefits in Armenia.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268035,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aae0d249b121f8e6-en-au-country-explorer-armenia-benefits-guide-business-travel-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aae0d249b121f8e6-en-au-country-explorer-armenia-benefits-guide-business-travel-insurance.direct.json",
+  "markdownChars": 6019,
+  "linksCount": 116,
+  "lastmod": "2025-11-03",
+  "scrapedAt": "2026-06-07T09:11:10.377Z"
+}

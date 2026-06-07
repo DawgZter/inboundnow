@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/mexico/employment-termination",
+  "sourceURL": "https://remote.com/en-za/country-explorer/mexico/employment-termination",
+  "finalURL": "https://remote.com/en-za/country-explorer/mexico/employment-termination",
+  "title": "Terminate Employees in Mexico | Employment Termination",
+  "description": "Looking to terminate an employee in Mexico? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258815,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0bb0083a99bbd6b0-en-za-country-explorer-mexico-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0bb0083a99bbd6b0-en-za-country-explorer-mexico-employment-termination.direct.json",
+  "markdownChars": 1644,
+  "linksCount": 127,
+  "lastmod": "2025-09-06",
+  "scrapedAt": "2026-06-07T09:11:15.034Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/hungary/employment-termination",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/hungary/employment-termination",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/hungary/employment-termination",
+  "title": "匈牙利员工解雇 | 员工解雇",
+  "description": "在匈牙利解雇员工时，了解相关法律和程序以保障贵公司合规并维护雇主权益。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256761,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8f2df3c9a207194e-zh-cn-country-explorer-hungary-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8f2df3c9a207194e-zh-cn-country-explorer-hungary-employment-termination.direct.json",
+  "markdownChars": 750,
+  "linksCount": 121,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:08:38.666Z"
+}

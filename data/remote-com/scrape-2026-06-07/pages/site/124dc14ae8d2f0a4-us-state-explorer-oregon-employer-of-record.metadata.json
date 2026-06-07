@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/oregon/employer-of-record",
+  "sourceURL": "https://remote.com/us-state-explorer/oregon/employer-of-record",
+  "finalURL": "https://remote.com/us-state-explorer/oregon/employer-of-record",
+  "title": "Employer of Record services in Oregon",
+  "description": "Use employer of record services in Oregon make hiring, managing, and paying top talent easy. Stay compliant in Oregon and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257923,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/124dc14ae8d2f0a4-us-state-explorer-oregon-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/124dc14ae8d2f0a4-us-state-explorer-oregon-employer-of-record.direct.json",
+  "markdownChars": 3296,
+  "linksCount": 113,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:01:07.187Z"
+}

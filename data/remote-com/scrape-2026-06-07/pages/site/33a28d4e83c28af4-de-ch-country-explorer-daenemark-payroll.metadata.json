@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/daenemark/payroll",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/daenemark/payroll",
+  "finalURL": "https://remote.com/de-ch/country-explorer/daenemark/payroll",
+  "title": "Mitarbeiter:innen in Dänemark bezahlen | Payroll-Services",
+  "description": "Zahle Mitarbeiter:innen in Dänemark mühelos mit unseren flexiblen Payroll-Services. Führe Payroll aus, verwalte Spesen und erstelle Berichte&nbsp;–&nbsp;alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260964,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33a28d4e83c28af4-de-ch-country-explorer-daenemark-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33a28d4e83c28af4-de-ch-country-explorer-daenemark-payroll.direct.json",
+  "markdownChars": 4367,
+  "linksCount": 125,
+  "lastmod": "2025-11-28",
+  "scrapedAt": "2026-06-07T09:01:29.705Z"
+}

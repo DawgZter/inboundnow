@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/us-state-explorer/delaware/employment-termination",
+  "sourceURL": "https://remote.com/en-in/us-state-explorer/delaware/employment-termination",
+  "finalURL": "https://remote.com/en-in/us-state-explorer/delaware/employment-termination",
+  "title": "Terminate Employees in Delaware | Employment Termination",
+  "description": "Looking to terminate an employee in Delaware? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256163,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ddeee4d9c772cd97-en-in-us-state-explorer-delaware-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ddeee4d9c772cd97-en-in-us-state-explorer-delaware-employment-termination.direct.json",
+  "markdownChars": 1682,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:16:10.753Z"
+}

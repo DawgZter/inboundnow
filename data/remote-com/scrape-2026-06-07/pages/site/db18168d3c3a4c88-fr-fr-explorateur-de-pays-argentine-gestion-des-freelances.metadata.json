@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/argentine/gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/argentine/gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/argentine/gestion-des-freelances",
+  "title": "Gérez vos freelances en Argentine | Gestion des freelances",
+  "description": "Vous faites appel à un freelance en Argentine&nbsp;? Gérez et payez vos freelances internationaux sans effort grâce à nos services flexibles de Gestion des freelances.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262710,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db18168d3c3a4c88-fr-fr-explorateur-de-pays-argentine-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db18168d3c3a4c88-fr-fr-explorateur-de-pays-argentine-gestion-des-freelances.direct.json",
+  "markdownChars": 2648,
+  "linksCount": 123,
+  "lastmod": "2025-11-04",
+  "scrapedAt": "2026-06-07T09:05:58.694Z"
+}

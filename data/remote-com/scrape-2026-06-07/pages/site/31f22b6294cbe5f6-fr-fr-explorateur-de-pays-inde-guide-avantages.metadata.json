@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/inde/guide-avantages",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/inde/guide-avantages",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/inde/guide-avantages",
+  "title": "Avantages sociaux en Inde | plans d’avantages sociaux",
+  "description": "Découvrez les avantages sociaux essentiels en Inde&nbsp;: assurance santé, congés payés et autres avantages pour attirer et fidéliser les meilleurs talents.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 274409,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31f22b6294cbe5f6-fr-fr-explorateur-de-pays-inde-guide-avantages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31f22b6294cbe5f6-fr-fr-explorateur-de-pays-inde-guide-avantages.direct.json",
+  "markdownChars": 1778,
+  "linksCount": 124,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:17:33.977Z"
+}

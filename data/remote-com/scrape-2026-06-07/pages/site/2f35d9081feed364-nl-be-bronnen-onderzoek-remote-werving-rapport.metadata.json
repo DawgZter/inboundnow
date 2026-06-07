@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/onderzoek/remote-werving-rapport",
+  "sourceURL": "https://remote.com/nl-be/bronnen/onderzoek/remote-werving-rapport",
+  "finalURL": "https://remote.com/nl-be/bronnen/onderzoek/remote-werving-rapport",
+  "title": "Wereldwijde HR-oplossingen en hulpmiddelen voor tewerkstelling voor verspreide teams | Remote",
+  "description": "Remote is je alles‑in‑één oplossing om in elk land talent in dienst te nemen. We helpen groeiende bedrijven wereldwijd top talent in dienst te nemen. Onze oplossing voor loonlijst, secundaire arbeidsvoorwaarden, belastingen en naleving stelt bedrijven in staat toegang te krijgen tot en effectief te werken met een wereldwijd personeelsbestand.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 458937,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2f35d9081feed364-nl-be-bronnen-onderzoek-remote-werving-rapport.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2f35d9081feed364-nl-be-bronnen-onderzoek-remote-werving-rapport.direct.json",
+  "markdownChars": 63016,
+  "linksCount": 120,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:01:09.917Z"
+}

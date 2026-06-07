@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/hr-glossary/general-accounting-ledger",
+  "sourceURL": "https://remote.com/en-in/resources/hr-glossary/general-accounting-ledger",
+  "finalURL": "https://remote.com/en-in/resources/hr-glossary/general-accounting-ledger",
+  "title": "What is a general ledger?",
+  "description": "A general ledger, or GL, is where an organization keeps its financial data. It helps to maintain records, track activities, and generate statements.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255238,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8195bd9590ab3268-en-in-resources-hr-glossary-general-accounting-ledger.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8195bd9590ab3268-en-in-resources-hr-glossary-general-accounting-ledger.direct.json",
+  "markdownChars": 6479,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:11:36.201Z"
+}

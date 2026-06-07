@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/nepal/contractor-management",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/nepal/contractor-management",
+  "finalURL": "https://remote.com/es-es/explorador-paises/nepal/contractor-management",
+  "title": "Gestiona trabajadores autónomos en Nepal | Contractor Management",
+  "description": "¿Contratas a un trabajador autónomo en Nepal? Gestiona y paga a trabajadores autónomos globales sin complicaciones con nuestros servicios flexibles de Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258017,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1718b90db6b3c5f3-es-es-explorador-paises-nepal-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1718b90db6b3c5f3-es-es-explorador-paises-nepal-contractor-management.direct.json",
+  "markdownChars": 2556,
+  "linksCount": 116,
+  "lastmod": "2025-10-31",
+  "scrapedAt": "2026-06-07T09:10:19.547Z"
+}

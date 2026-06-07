@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/marocco/cessazione-rapporto-lavoro",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/marocco/cessazione-rapporto-lavoro",
+  "finalURL": "https://remote.com/it-it/esplora-paese/marocco/cessazione-rapporto-lavoro",
+  "title": "Interrompi un rapporto di lavoro in Marocco | Cessazione del rapporto di lavoro",
+  "description": "Vuoi interrompere un rapporto di lavoro in Marocco? Comprendi i tuoi diritti nella nostra guida completa alle leggi sulla cessazione del rapporto di lavoro.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153964,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b7e29e3e06aa97cc-it-it-esplora-paese-marocco-cessazione-rapporto-lavoro.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b7e29e3e06aa97cc-it-it-esplora-paese-marocco-cessazione-rapporto-lavoro.direct.json",
+  "markdownChars": 2400,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:06:16.681Z"
+}

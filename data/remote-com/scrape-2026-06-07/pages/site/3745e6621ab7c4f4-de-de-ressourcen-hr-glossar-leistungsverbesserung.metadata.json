@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/leistungsverbesserung",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/leistungsverbesserung",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/leistungsverbesserung",
+  "title": "Was ist Leistungsverbesserung?",
+  "description": "Erforsche das Konzept der Leistungsverbesserung und seine Auswirkungen auf die Produktivität der Mitarbeiter und das Unternehmenswachstum. In unserem Glossar findest du die wichtigsten Elemente.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254450,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3745e6621ab7c4f4-de-de-ressourcen-hr-glossar-leistungsverbesserung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3745e6621ab7c4f4-de-de-ressourcen-hr-glossar-leistungsverbesserung.direct.json",
+  "markdownChars": 4166,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:04:31.533Z"
+}

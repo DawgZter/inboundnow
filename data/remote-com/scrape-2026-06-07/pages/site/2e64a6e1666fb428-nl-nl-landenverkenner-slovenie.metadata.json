@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/slovenie",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/slovenie",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/slovenie",
+  "title": "Employer of Record & Payroll Services | Slovenië",
+  "description": "Wil je werknemers en zzp'ers werven in Slovenië? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 345817,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2e64a6e1666fb428-nl-nl-landenverkenner-slovenie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2e64a6e1666fb428-nl-nl-landenverkenner-slovenie.direct.json",
+  "markdownChars": 6724,
+  "linksCount": 124,
+  "lastmod": "2026-02-13",
+  "scrapedAt": "2026-06-07T09:18:18.085Z"
+}

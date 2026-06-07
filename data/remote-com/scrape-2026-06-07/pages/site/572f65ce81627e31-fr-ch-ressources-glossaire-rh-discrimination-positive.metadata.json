@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/discrimination-positive",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/discrimination-positive",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/discrimination-positive",
+  "title": "What is affirmative action in the workplace?",
+  "description": "Comprenez ce qu'est la discrimination positive au travail et découvrez-en quelques exemples.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259610,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/572f65ce81627e31-fr-ch-ressources-glossaire-rh-discrimination-positive.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/572f65ce81627e31-fr-ch-ressources-glossaire-rh-discrimination-positive.direct.json",
+  "markdownChars": 7320,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:58.671Z"
+}

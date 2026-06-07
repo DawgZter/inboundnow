@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/belgium/employer-of-record",
+  "sourceURL": "https://remote.com/en-za/country-explorer/belgium/employer-of-record",
+  "finalURL": "https://remote.com/en-za/country-explorer/belgium/employer-of-record",
+  "title": "Employer of Record in Belgium | EOR Services",
+  "description": "Simplify employment in Belgium with our Employer of Record services. Handle payroll, benefits, and compliance seamlessly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261012,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f3da70e0d7718679-en-za-country-explorer-belgium-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f3da70e0d7718679-en-za-country-explorer-belgium-employer-of-record.direct.json",
+  "markdownChars": 3210,
+  "linksCount": 128,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:11:10.312Z"
+}

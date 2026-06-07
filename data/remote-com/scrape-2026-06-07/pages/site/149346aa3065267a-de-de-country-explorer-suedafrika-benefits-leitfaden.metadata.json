@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/suedafrika/benefits-leitfaden",
+  "sourceURL": "https://remote.com/de-de/country-explorer/suedafrika/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-de/country-explorer/suedafrika/benefits-leitfaden",
+  "title": "Sozialleistungen in Südafrika | Pläne für Mitarbeiter:innen",
+  "description": "Entdecke die wichtigsten Sozialleistungen in Südafrika. Erfahre, wie Krankenversicherung, bezahlter Urlaub und weitere Leistungen dir helfen, erstklassige Mitarbeiter:innen anzuziehen und zu halten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271536,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/149346aa3065267a-de-de-country-explorer-suedafrika-benefits-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/149346aa3065267a-de-de-country-explorer-suedafrika-benefits-leitfaden.direct.json",
+  "markdownChars": 1684,
+  "linksCount": 124,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:16:55.779Z"
+}

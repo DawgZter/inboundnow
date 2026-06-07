@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/australia/taxes",
+  "sourceURL": "https://remote.com/en-au/country-explorer/australia/taxes",
+  "finalURL": "https://remote.com/en-au/country-explorer/australia/taxes",
+  "title": "Manage Payroll Tax in Australia | Tax Compliance",
+  "description": "Manage payroll taxes in Australia effectively and compliantly. Minimise payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269741,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f675180a7851a435-en-au-country-explorer-australia-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f675180a7851a435-en-au-country-explorer-australia-taxes.direct.json",
+  "markdownChars": 2884,
+  "linksCount": 126,
+  "lastmod": "2026-03-03",
+  "scrapedAt": "2026-06-07T09:15:01.173Z"
+}

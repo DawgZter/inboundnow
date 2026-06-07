@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/job-descriptions/legal-operations-manager-job-description",
+  "sourceURL": "https://remote.com/ja-jp/resources/job-descriptions/legal-operations-manager-job-description",
+  "finalURL": "https://remote.com/ja-jp/resources/job-descriptions/legal-operations-manager-job-description",
+  "title": "法務オペレーションマネージャの仕事内容",
+  "description": "法務プロセスの最適化、予算管理、法務チームの業務効率化をサポートする法務オペレーション・マネージャーの職務内容を確認する。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261141,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6d3237c8db017f48-ja-jp-resources-job-descriptions-legal-operations-manager-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6d3237c8db017f48-ja-jp-resources-job-descriptions-legal-operations-manager-job-description.direct.json",
+  "markdownChars": 1637,
+  "linksCount": 114,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:17:06.049Z"
+}

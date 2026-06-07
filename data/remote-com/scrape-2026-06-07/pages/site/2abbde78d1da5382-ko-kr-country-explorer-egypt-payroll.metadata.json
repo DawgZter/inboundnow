@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/egypt/payroll",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/egypt/payroll",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/egypt/payroll",
+  "title": "이집트에서 직원 급여 지급 | 급여 서비스",
+  "description": "이집트에서 직원 급여를 간편하게 지급하세요. 유연한 급여 서비스로 급여 처리, 비용 관리 및 보고서를 한곳에서 모두 실행할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260278,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2abbde78d1da5382-ko-kr-country-explorer-egypt-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2abbde78d1da5382-ko-kr-country-explorer-egypt-payroll.direct.json",
+  "markdownChars": 1787,
+  "linksCount": 124,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:04:20.189Z"
+}

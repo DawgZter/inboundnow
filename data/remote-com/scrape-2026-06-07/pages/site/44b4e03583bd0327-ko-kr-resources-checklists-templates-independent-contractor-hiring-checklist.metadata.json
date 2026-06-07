@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/checklists-templates/independent-contractor-hiring-checklist",
+  "sourceURL": "https://remote.com/ko-kr/resources/checklists-templates/independent-contractor-hiring-checklist",
+  "finalURL": "https://remote.com/ko-kr/resources/checklists-templates/independent-contractor-hiring-checklist",
+  "title": "Hiring a contractor checklist | Remote",
+  "description": " Remote의 종합적인 '계약자 고용' 체크리스트를 사용하여 규정을 준수하면서 독립 계약자를 고용하고 관리하는 과정을 진행하세요. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254279,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/44b4e03583bd0327-ko-kr-resources-checklists-templates-independent-contractor-hiring-checklist.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/44b4e03583bd0327-ko-kr-resources-checklists-templates-independent-contractor-hiring-checklist.direct.json",
+  "markdownChars": 1723,
+  "linksCount": 114,
+  "lastmod": "2025-06-25",
+  "scrapedAt": "2026-06-07T09:13:19.109Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/romenia/processamento-salarial",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/romenia/processamento-salarial",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/romenia/processamento-salarial",
+  "title": "Paga a trabalhadores da Roménia | Processamento salarial",
+  "description": "Paga a trabalhadores da Roménia sem esforço com os nossos serviços flexíveis de processamento salarial. Processa salários, gere despesas e cria relatórios, tudo num só lugar.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 156466,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3ab0df4b231654a8-pt-pt-explorar-pais-romenia-processamento-salarial.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3ab0df4b231654a8-pt-pt-explorar-pais-romenia-processamento-salarial.direct.json",
+  "markdownChars": 4666,
+  "linksCount": 45,
+  "lastmod": "2026-05-22",
+  "scrapedAt": "2026-06-07T09:01:09.762Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/jobs/c/for-job-seekers",
+  "sourceURL": "https://remote.com/en-hk/jobs/c/for-job-seekers",
+  "finalURL": "https://remote.com/en-hk/jobs/c/for-job-seekers",
+  "title": "Remote Talent for Jobseekers | Remote",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 402611,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4808afcdde79f61b-en-hk-jobs-c-for-job-seekers.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4808afcdde79f61b-en-hk-jobs-c-for-job-seekers.direct.json",
+  "markdownChars": 7339,
+  "linksCount": 109,
+  "lastmod": "2026-01-29",
+  "scrapedAt": "2026-06-07T09:13:30.847Z"
+}

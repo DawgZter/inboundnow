@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/sri-lanka/contractor-management",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/sri-lanka/contractor-management",
+  "finalURL": "https://remote.com/it-it/esplora-paese/sri-lanka/contractor-management",
+  "title": "Gestisci i collaboratori in Sri Lanka | Contractor Management",
+  "description": "Vuoi collaborare con freelance in Sri Lanka? Gestisci e paga i tuoi collaboratori globali senza intoppi con i nostri flessibili servizi di Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154018,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3c40cd59ba90a528-it-it-esplora-paese-sri-lanka-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3c40cd59ba90a528-it-it-esplora-paese-sri-lanka-contractor-management.direct.json",
+  "markdownChars": 2583,
+  "linksCount": 44,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:09:36.159Z"
+}

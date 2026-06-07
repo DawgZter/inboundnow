@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/turkey/employer-of-record",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/turkey/employer-of-record",
+  "finalURL": "https://remote.com/en-sg/country-explorer/turkey/employer-of-record",
+  "title": "Employer of Record in Turkey | EOR Services",
+  "description": "Simplify employment in Turkey with our Employer of Record services. Handle payroll, benefits, and compliance seamlessly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260383,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5a9e485c7d9d5816-en-sg-country-explorer-turkey-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5a9e485c7d9d5816-en-sg-country-explorer-turkey-employer-of-record.direct.json",
+  "markdownChars": 3219,
+  "linksCount": 125,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:18:18.378Z"
+}

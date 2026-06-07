@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/denmark",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/denmark",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/denmark",
+  "title": "第三方雇佣托管服务 (EOR) 与 薪资服务 | 丹麦",
+  "description": "在丹麦雇佣员工和合同工？Remote 可通过其一体化的全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 345195,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a4b5c0efb9464bc7-zh-cn-country-explorer-denmark.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a4b5c0efb9464bc7-zh-cn-country-explorer-denmark.direct.json",
+  "markdownChars": 3033,
+  "linksCount": 125,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:18:47.466Z"
+}

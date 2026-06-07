@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/gambia",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/gambia",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/gambia",
+  "title": "Employer of record en payroll services | Gambia",
+  "description": "Wil je werknemers en zzp'ers werven in Gambia? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 312975,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78017e384a03b21d-nl-nl-landenverkenner-gambia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78017e384a03b21d-nl-nl-landenverkenner-gambia.direct.json",
+  "markdownChars": 3585,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:08:27.584Z"
+}

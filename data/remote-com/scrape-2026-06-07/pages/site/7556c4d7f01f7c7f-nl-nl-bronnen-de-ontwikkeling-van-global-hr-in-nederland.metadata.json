@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/de-ontwikkeling-van-global-hr-in-nederland",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/de-ontwikkeling-van-global-hr-in-nederland",
+  "finalURL": "https://remote.com/nl-nl/bronnen/de-ontwikkeling-van-global-hr-in-nederland",
+  "title": "De ontwikkeling van global HR in Nederland",
+  "description": "Ontdek hoe Nederlandse bedrijven hun wervingsstrategie tussen 2022 en 2025 hebben getransformeerd, met focus op internationaal talent, remote werken en duurzame groei.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 250733,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7556c4d7f01f7c7f-nl-nl-bronnen-de-ontwikkeling-van-global-hr-in-nederland.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7556c4d7f01f7c7f-nl-nl-bronnen-de-ontwikkeling-van-global-hr-in-nederland.direct.json",
+  "markdownChars": 670,
+  "linksCount": 108,
+  "lastmod": "2025-09-08",
+  "scrapedAt": "2026-06-07T09:08:01.192Z"
+}

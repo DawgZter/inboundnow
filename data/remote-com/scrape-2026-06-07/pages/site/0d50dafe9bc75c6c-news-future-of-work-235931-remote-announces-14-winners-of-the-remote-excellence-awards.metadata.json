@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/news/future-of-work/235931-remote-announces-14-winners-of-the-remote-excellence-awards",
+  "sourceURL": "https://remote.com/news/future-of-work/235931-remote-announces-14-winners-of-the-remote-excellence-awards",
+  "finalURL": "https://remote.com/news/future-of-work/235931-remote-announces-14-winners-of-the-remote-excellence-awards",
+  "title": "Remote announces 14 winners of the Remote Excellence Awards",
+  "description": "The awards recognize companies that have demonstrated exceptional commitment, innovation, and enthusiasm in navigating the challenges and opportunities presented by remote work.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254335,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d50dafe9bc75c6c-news-future-of-work-235931-remote-announces-14-winners-of-the-remote-excellence-awards.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d50dafe9bc75c6c-news-future-of-work-235931-remote-announces-14-winners-of-the-remote-excellence-awards.direct.json",
+  "markdownChars": 2920,
+  "linksCount": 120,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:13:36.961Z"
+}

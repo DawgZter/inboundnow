@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/macedonia-del-norte/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/macedonia-del-norte/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/macedonia-del-norte/tipos-permiso",
+  "title": "Tipos de permiso en Macedonia del Norte | Legislación sobre permisos para empleados",
+  "description": "Conoce la normativa de permisos en Macedonia del Norte y asegúrate de que tu empresa cumple las políticas y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262545,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/279898518f115cdc-es-es-explorador-paises-macedonia-del-norte-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/279898518f115cdc-es-es-explorador-paises-macedonia-del-norte-tipos-permiso.direct.json",
+  "markdownChars": 3071,
+  "linksCount": 121,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:14:01.149Z"
+}

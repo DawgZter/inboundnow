@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/tajiquistao/contractor-management",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/tajiquistao/contractor-management",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/tajiquistao/contractor-management",
+  "title": "Gestão de trabalhadores independentes no Tajiquistão | Contractor Management",
+  "description": "Queres contratar trabalhadores independentes no Tajiquistão? Gere e paga a trabalhadores independentes em todo o mundo sem esforço com o Contractor Management flexível da Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 151465,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7217a4e2835905b4-pt-pt-explorar-pais-tajiquistao-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7217a4e2835905b4-pt-pt-explorar-pais-tajiquistao-contractor-management.direct.json",
+  "markdownChars": 2494,
+  "linksCount": 39,
+  "lastmod": "2026-03-24",
+  "scrapedAt": "2026-06-07T09:12:39.841Z"
+}

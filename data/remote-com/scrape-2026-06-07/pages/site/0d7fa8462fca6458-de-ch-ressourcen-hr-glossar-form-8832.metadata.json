@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/form-8832",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/form-8832",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/form-8832",
+  "title": "Global HR Solutions &amp; Employment Tools for Distributed Teams",
+  "description": "Remote is your one-stop solution for hiring talent in any country, helping growing businesses employ top talent from around the world. Our payroll, benefits, taxes, and compliance solution allows companies to access and empower a global workforce.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258103,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d7fa8462fca6458-de-ch-ressourcen-hr-glossar-form-8832.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d7fa8462fca6458-de-ch-ressourcen-hr-glossar-form-8832.direct.json",
+  "markdownChars": 7787,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:02:35.522Z"
+}

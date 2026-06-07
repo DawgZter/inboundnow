@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/porto-rico/gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/porto-rico/gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/porto-rico/gestion-des-freelances",
+  "title": "Gérez vos freelances à Porto-Rico | Gestion des freelances",
+  "description": "Faire appel à des freelances à Porto-Rico&nbsp;? Gérez et payez facilement vos freelances internationaux grâce à nos services flexibles de Gestion des freelances.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262313,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fac8f96c8406cf0d-fr-fr-explorateur-de-pays-porto-rico-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fac8f96c8406cf0d-fr-fr-explorateur-de-pays-porto-rico-gestion-des-freelances.direct.json",
+  "markdownChars": 2691,
+  "linksCount": 122,
+  "lastmod": "2025-11-04",
+  "scrapedAt": "2026-06-07T09:15:03.658Z"
+}

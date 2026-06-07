@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/recherche",
+  "sourceURL": "https://remote.com/fr-be/ressources/recherche",
+  "finalURL": "https://remote.com/fr-be/ressources/recherche",
+  "title": "Rapports de recherches, statistiques et tendances en matière de RH à l’international | Remote",
+  "description": "Pour connaître les dernières statistiques, tendances et analyses sur le recrutement international et le travail à distance et préparer l'avenir de votre entreprise, consultez notre bibliothèque de rapports de recherches sur le travail à distance et les RH à l'international.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 388141,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b50a3b018bb7e480-fr-be-ressources-recherche.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b50a3b018bb7e480-fr-be-ressources-recherche.direct.json",
+  "markdownChars": 4359,
+  "linksCount": 150,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:09:28.261Z"
+}

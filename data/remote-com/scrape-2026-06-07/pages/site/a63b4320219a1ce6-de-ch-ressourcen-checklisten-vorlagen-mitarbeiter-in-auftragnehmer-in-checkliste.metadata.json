@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/checklisten-vorlagen/mitarbeiter-in-auftragnehmer-in-checkliste",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/checklisten-vorlagen/mitarbeiter-in-auftragnehmer-in-checkliste",
+  "finalURL": "https://remote.com/de-ch/ressourcen/checklisten-vorlagen/mitarbeiter-in-auftragnehmer-in-checkliste",
+  "title": "Checkliste Mitarbeiter:in vs. Auftragnehmer:in | Remote",
+  "description": " Die Remote-Checkliste Mitarbeiter:in und Auftragnehmer:in hilft dir, zwischen Mitarbeitern:in und Auftragnehmer:in zu unterscheiden. Nutze diese hilfreiche Ressource, um Arbeitnehmer richtig einzustufen und die compliance mit den gesetzlichen Anforderungen sicherzustellen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255036,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a63b4320219a1ce6-de-ch-ressourcen-checklisten-vorlagen-mitarbeiter-in-auftragnehmer-in-checkliste.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a63b4320219a1ce6-de-ch-ressourcen-checklisten-vorlagen-mitarbeiter-in-auftragnehmer-in-checkliste.direct.json",
+  "markdownChars": 6037,
+  "linksCount": 114,
+  "lastmod": "2025-06-19",
+  "scrapedAt": "2026-06-07T09:08:59.436Z"
+}

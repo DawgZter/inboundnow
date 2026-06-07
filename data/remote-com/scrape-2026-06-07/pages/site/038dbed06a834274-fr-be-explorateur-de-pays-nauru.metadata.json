@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/nauru",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/nauru",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/nauru",
+  "title": "Services de paie et d’Employer of record : Nauru",
+  "description": "Recruter des employés et des freelances : Nauru Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 313042,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/038dbed06a834274-fr-be-explorateur-de-pays-nauru.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/038dbed06a834274-fr-be-explorateur-de-pays-nauru.direct.json",
+  "markdownChars": 3716,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:08:20.935Z"
+}

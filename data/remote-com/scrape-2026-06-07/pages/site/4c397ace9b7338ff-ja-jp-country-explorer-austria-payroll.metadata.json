@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/austria/payroll",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/austria/payroll",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/austria/payroll",
+  "title": "オーストリアで従業員に支払う | 給与サービス",
+  "description": "柔軟な給与サービスにより、オーストリアの従業員への支払いを手間なく行えます。給与処理、経費管理、レポート作成を一元的に実行できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261169,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4c397ace9b7338ff-ja-jp-country-explorer-austria-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4c397ace9b7338ff-ja-jp-country-explorer-austria-payroll.direct.json",
+  "markdownChars": 1372,
+  "linksCount": 125,
+  "lastmod": "2025-11-11",
+  "scrapedAt": "2026-06-07T09:01:03.154Z"
+}

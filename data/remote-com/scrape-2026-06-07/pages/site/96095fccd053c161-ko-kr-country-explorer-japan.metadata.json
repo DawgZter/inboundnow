@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/japan",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/japan",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/japan",
+  "title": "기록상 고용주(EOR) 및 Payroll 서비스 | 일본",
+  "description": "일본에서의 직원과 계약자 채용인가요? Remote는 통합 글로벌 HR 플랫폼으로 직원과 계약자 관리를 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 343481,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/96095fccd053c161-ko-kr-country-explorer-japan.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/96095fccd053c161-ko-kr-country-explorer-japan.direct.json",
+  "markdownChars": 3330,
+  "linksCount": 122,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:00:58.625Z"
+}

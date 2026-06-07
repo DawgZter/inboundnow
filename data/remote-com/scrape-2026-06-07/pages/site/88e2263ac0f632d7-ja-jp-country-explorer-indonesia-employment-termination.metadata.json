@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/indonesia/employment-termination",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/indonesia/employment-termination",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/indonesia/employment-termination",
+  "title": "インドネシアでの従業員解雇 | 雇用解雇",
+  "description": "インドネシアで従業員を解雇する予定ですか。従業員解雇に関する権利と手続きを包括的に解説します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259672,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88e2263ac0f632d7-ja-jp-country-explorer-indonesia-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88e2263ac0f632d7-ja-jp-country-explorer-indonesia-employment-termination.direct.json",
+  "markdownChars": 877,
+  "linksCount": 123,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:01:07.352Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/uruguay/beeindiging-van-dienstverband",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/uruguay/beeindiging-van-dienstverband",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/uruguay/beeindiging-van-dienstverband",
+  "title": "Beëindiging van het dienstverband in Uruguay | Beëindiging van het dienstverband",
+  "description": "Hoe beëindig je het dienstverband met een werknemer in Uruguay? Ken je rechten en lees onze uitgebreide gids over de wetgeving voor beëindiging van dienstverbanden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261488,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4ff8a1e9ab6c9ff7-nl-nl-landenverkenner-uruguay-beeindiging-van-dienstverband.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4ff8a1e9ab6c9ff7-nl-nl-landenverkenner-uruguay-beeindiging-van-dienstverband.direct.json",
+  "markdownChars": 1830,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:09:01.113Z"
+}

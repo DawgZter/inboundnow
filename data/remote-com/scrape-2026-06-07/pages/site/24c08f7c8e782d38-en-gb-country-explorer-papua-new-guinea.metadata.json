@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/papua-new-guinea",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/papua-new-guinea",
+  "finalURL": "https://remote.com/en-gb/country-explorer/papua-new-guinea",
+  "title": "Employer of Record & Payroll Services | Papua New Guinea",
+  "description": "Hiring employees and contractors in Papua New Guinea? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 309091,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/24c08f7c8e782d38-en-gb-country-explorer-papua-new-guinea.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/24c08f7c8e782d38-en-gb-country-explorer-papua-new-guinea.direct.json",
+  "markdownChars": 3268,
+  "linksCount": 117,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:10:06.547Z"
+}

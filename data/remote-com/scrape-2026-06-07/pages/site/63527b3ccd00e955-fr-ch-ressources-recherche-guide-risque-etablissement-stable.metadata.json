@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/recherche/guide-risque-etablissement-stable",
+  "sourceURL": "https://remote.com/fr-ch/ressources/recherche/guide-risque-etablissement-stable",
+  "finalURL": "https://remote.com/fr-ch/ressources/recherche/guide-risque-etablissement-stable",
+  "title": "Le problème lié à l'établissement stable : votre guide de gestion du risque | Remote",
+  "description": "Recevez le guide de Remote pour en savoir plus sur la façon de minimiser le risque lié à l'établissement stable. Ce guide est un cadre de référence destiné aux responsables en charge des obligations fiscales liées à une équipe distribuée à l'international. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258139,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/63527b3ccd00e955-fr-ch-ressources-recherche-guide-risque-etablissement-stable.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/63527b3ccd00e955-fr-ch-ressources-recherche-guide-risque-etablissement-stable.direct.json",
+  "markdownChars": 1382,
+  "linksCount": 110,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:01:38.933Z"
+}

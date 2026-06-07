@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/deutschland/payroll",
+  "sourceURL": "https://remote.com/de-de/country-explorer/deutschland/payroll",
+  "finalURL": "https://remote.com/de-de/country-explorer/deutschland/payroll",
+  "title": "Mitarbeiter:innen in Deutschland bezahlen | Payroll-Services",
+  "description": "Zahle Mitarbeiter:innen in Deutschland mühelos mit unseren flexiblen Payroll-Services. Führe die Lohn- und Gehaltsabrechnung durch, verwalte Ausgaben und erstelle Berichte&nbsp;–&nbsp;alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260215,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db7ada64ea620799-de-de-country-explorer-deutschland-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db7ada64ea620799-de-de-country-explorer-deutschland-payroll.direct.json",
+  "markdownChars": 3405,
+  "linksCount": 123,
+  "lastmod": "2025-11-17",
+  "scrapedAt": "2026-06-07T09:01:19.046Z"
+}

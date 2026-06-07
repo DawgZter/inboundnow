@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/hong-kong/employment-termination",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/hong-kong/employment-termination",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/hong-kong/employment-termination",
+  "title": "香港员工解雇 | 员工解雇",
+  "description": "本指南全面介绍香港员工解雇的法律与流程，帮助贵公司明确权利并确保合规。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256977,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0bc2339e986d3a1b-zh-cn-country-explorer-hong-kong-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0bc2339e986d3a1b-zh-cn-country-explorer-hong-kong-employment-termination.direct.json",
+  "markdownChars": 774,
+  "linksCount": 121,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:16:27.015Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/suica/processamento-salarial",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/suica/processamento-salarial",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/suica/processamento-salarial",
+  "title": "Paga a trabalhadores da Suíça | Processamento salarial",
+  "description": "Paga a trabalhadores da Suíça sem esforço com os nossos serviços flexíveis de processamento salarial. Processa salários, gere despesas e cria relatórios, tudo a partir de um único local.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 156647,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d057ca5b1fafe73e-pt-pt-explorar-pais-suica-processamento-salarial.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d057ca5b1fafe73e-pt-pt-explorar-pais-suica-processamento-salarial.direct.json",
+  "markdownChars": 4204,
+  "linksCount": 46,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:08:11.859Z"
+}

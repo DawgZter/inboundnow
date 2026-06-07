@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/globale-hr/hris-software",
+  "sourceURL": "https://remote.com/de-de/globale-hr/hris-software",
+  "finalURL": "https://remote.com/de-de/globale-hr",
+  "title": "Globale HR-Services für deinen weltweiten Talentpool | Remote",
+  "description": "Unsere Komplettlösung für die globale Personalverwaltung ermöglicht es Unternehmen jeder Größe, schnell, sicher und rechtskonform Menschen im Ausland einzustellen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 476536,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5931519f9d70f203-de-de-globale-hr-hris-software.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5931519f9d70f203-de-de-globale-hr-hris-software.direct.json",
+  "markdownChars": 24666,
+  "linksCount": 129,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:01:32.317Z"
+}

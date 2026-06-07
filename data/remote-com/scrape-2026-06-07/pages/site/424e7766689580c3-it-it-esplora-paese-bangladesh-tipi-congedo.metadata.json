@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/bangladesh/tipi-congedo",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/bangladesh/tipi-congedo",
+  "finalURL": "https://remote.com/it-it/esplora-paese/bangladesh/tipi-congedo",
+  "title": "Tipologie di congedo in Bangladesh | Normativa sul congedo del personale",
+  "description": "Comprendi la normativa sui congedi per il personale in Bangladesh. Assicurati che la tua azienda sia conforme alle politiche sui congedi e offra ferie retribuite competitive.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154467,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/424e7766689580c3-it-it-esplora-paese-bangladesh-tipi-congedo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/424e7766689580c3-it-it-esplora-paese-bangladesh-tipi-congedo.direct.json",
+  "markdownChars": 2317,
+  "linksCount": 43,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:17:20.517Z"
+}

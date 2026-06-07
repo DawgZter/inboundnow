@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/bereavement-leave",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/bereavement-leave",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/bereavement-leave",
+  "title": "What is bereavement leave?",
+  "description": "Understand the importance of bereavement leave for employees coping with loss. Visit our glossary to learn how it fits into workplace policies and supports employee well-being.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251267,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d24c9671c0c73eb6-en-hk-resources-hr-glossary-bereavement-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d24c9671c0c73eb6-en-hk-resources-hr-glossary-bereavement-leave.direct.json",
+  "markdownChars": 2845,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:16:30.163Z"
+}

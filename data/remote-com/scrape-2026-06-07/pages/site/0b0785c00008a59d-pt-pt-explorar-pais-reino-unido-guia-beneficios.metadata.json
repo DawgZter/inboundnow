@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/reino-unido/guia-beneficios",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/reino-unido/guia-beneficios",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/reino-unido/guia-beneficios",
+  "title": "Benefícios para trabalhadores do Reino Unido | Planos de benefícios",
+  "description": "Descobre os benefícios essenciais para trabalhadores do Reino Unido. Aprende sobre seguros de saúde, férias pagas e outras regalias para atrair e reter os melhores talentos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 167114,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b0785c00008a59d-pt-pt-explorar-pais-reino-unido-guia-beneficios.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b0785c00008a59d-pt-pt-explorar-pais-reino-unido-guia-beneficios.direct.json",
+  "markdownChars": 1670,
+  "linksCount": 46,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:18:20.517Z"
+}

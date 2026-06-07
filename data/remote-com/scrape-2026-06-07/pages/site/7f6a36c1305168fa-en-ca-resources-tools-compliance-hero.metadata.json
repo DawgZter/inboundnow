@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/tools/compliance-hero",
+  "sourceURL": "https://remote.com/en-ca/resources/tools/compliance-hero",
+  "finalURL": "https://remote.com/en-ca/resources/tools/compliance-hero",
+  "title": "Become a Compliance Hero",
+  "description": "Test your compliance skills in this interactive whack-a-mole game. Earn badges, flaunt your global compliance skills. Enhance your knowledge and become a compliance hero in global hiring compliance.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271091,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7f6a36c1305168fa-en-ca-resources-tools-compliance-hero.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7f6a36c1305168fa-en-ca-resources-tools-compliance-hero.direct.json",
+  "markdownChars": 1659,
+  "linksCount": 105,
+  "lastmod": "2026-04-11",
+  "scrapedAt": "2026-06-07T09:11:37.858Z"
+}

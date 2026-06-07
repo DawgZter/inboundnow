@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/zwischenmenschliche-fahigkeiten",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/zwischenmenschliche-fahigkeiten",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/zwischenmenschliche-fahigkeiten",
+  "title": "What are interpersonal skills",
+  "description": "In unserem HR-Glossar erfährst du, wie wichtig zwischenmenschliche Fähigkeiten am Arbeitsplatz sind, wie sie Teamarbeit und Kommunikation verbessern und welche Rolle sie bei der beruflichen Entwicklung spielen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255176,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d825fd80848c0465-de-ch-ressourcen-hr-glossar-zwischenmenschliche-fahigkeiten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d825fd80848c0465-de-ch-ressourcen-hr-glossar-zwischenmenschliche-fahigkeiten.direct.json",
+  "markdownChars": 4439,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:58.539Z"
+}

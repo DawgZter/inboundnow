@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/comore",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/comore",
+  "finalURL": "https://remote.com/it-it/esplora-paese/comore",
+  "title": "Employer of Record (EOR) e servizi Payroll | Comore",
+  "description": "Stai assumendo personale e collaboratori nelle Comore? Remote può aiutarti a gestire personale e collaboratori tramite la nostra Piattaforma HR globale e integrata.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 204850,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/65169ffb2617fa23-it-it-esplora-paese-comore.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/65169ffb2617fa23-it-it-esplora-paese-comore.direct.json",
+  "markdownChars": 3406,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:01:35.280Z"
+}

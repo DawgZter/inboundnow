@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/global-hr/offer-stock-options/equity-essentials",
+  "sourceURL": "https://remote.com/en-ph/global-hr/offer-stock-options/equity-essentials",
+  "finalURL": "https://remote.com/en-ph/global-hr/offer-stock-options/equity-essentials",
+  "title": "Global HR Solutions & Employment Tools for Distributed Teams | Remote",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 361065,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33ed3e1c683e26db-en-ph-global-hr-offer-stock-options-equity-essentials.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33ed3e1c683e26db-en-ph-global-hr-offer-stock-options-equity-essentials.direct.json",
+  "markdownChars": 6600,
+  "linksCount": 115,
+  "lastmod": "2026-03-03",
+  "scrapedAt": "2026-06-07T09:07:43.511Z"
+}

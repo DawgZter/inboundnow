@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/acantilado",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/acantilado",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/acantilado",
+  "title": "Cliff",
+  "description": "En los programas de opciones sobre acciones para empleados, es importante entender qué es un periodo de restricción y cómo funciona. Más información.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253371,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1962b4b95e8bcc06-es-es-recursos-glosario-rrhh-acantilado.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1962b4b95e8bcc06-es-es-recursos-glosario-rrhh-acantilado.direct.json",
+  "markdownChars": 2561,
+  "linksCount": 120,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:06:22.576Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/us-state-explorer/new-york/payroll",
+  "sourceURL": "https://remote.com/en-za/us-state-explorer/new-york/payroll",
+  "finalURL": "https://remote.com/en-za/us-state-explorer/new-york/payroll",
+  "title": "Payroll Management in New York",
+  "description": "Manage payroll in New York seamlessly with Remote's payroll software. Stay compliant with New York payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259778,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/74695df93d35e368-en-za-us-state-explorer-new-york-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/74695df93d35e368-en-za-us-state-explorer-new-york-payroll.direct.json",
+  "markdownChars": 5114,
+  "linksCount": 113,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:11:10.576Z"
+}

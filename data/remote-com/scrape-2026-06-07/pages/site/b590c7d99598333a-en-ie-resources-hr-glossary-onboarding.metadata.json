@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/hr-glossary/onboarding",
+  "sourceURL": "https://remote.com/en-ie/resources/hr-glossary/onboarding",
+  "finalURL": "https://remote.com/en-ie/resources/hr-glossary/onboarding",
+  "title": "Onboarding",
+  "description": "Onboarding can significantly impact a company by enhancing employee retention and accelerating the productivity of new hires.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251363,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b590c7d99598333a-en-ie-resources-hr-glossary-onboarding.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b590c7d99598333a-en-ie-resources-hr-glossary-onboarding.direct.json",
+  "markdownChars": 3484,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:10:27.039Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/montenegro/contractor-management",
+  "sourceURL": "https://remote.com/de-at/country-explorer/montenegro/contractor-management",
+  "finalURL": "https://remote.com/de-at/country-explorer/montenegro/contractor-management",
+  "title": "Auftragnehmer:innen in Montenegro verwalten | Contractor Management",
+  "description": "Willst du in Montenegro eine:n Auftragnehmer:in beauftragen? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management Services.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256844,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5e53b251c8795383-de-at-country-explorer-montenegro-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5e53b251c8795383-de-at-country-explorer-montenegro-contractor-management.direct.json",
+  "markdownChars": 2624,
+  "linksCount": 119,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:01:46.995Z"
+}

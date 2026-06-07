@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/salary-transparency",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/salary-transparency",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/salary-transparency",
+  "title": "給与の透明性",
+  "description": "給与の透明性、職場文化への影響、従業員の信頼、組織内の公正な報酬慣行について理解するために、HR用語集をご覧ください。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254394,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c031636710a0766b-ja-jp-resources-hr-glossary-salary-transparency.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c031636710a0766b-ja-jp-resources-hr-glossary-salary-transparency.direct.json",
+  "markdownChars": 1599,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:13.017Z"
+}

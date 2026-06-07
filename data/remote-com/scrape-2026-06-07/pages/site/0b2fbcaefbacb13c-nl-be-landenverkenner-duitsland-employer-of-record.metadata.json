@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/duitsland/employer-of-record",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/duitsland/employer-of-record",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/duitsland/employer-of-record",
+  "title": "Employer of Record in Duitsland | EOR-diensten",
+  "description": "Vereenvoudig tewerkstelling in Duitsland met onze Employer of Record-diensten. Beheer Payroll, benefits en naleving moeiteloos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257290,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b2fbcaefbacb13c-nl-be-landenverkenner-duitsland-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b2fbcaefbacb13c-nl-be-landenverkenner-duitsland-employer-of-record.direct.json",
+  "markdownChars": 3599,
+  "linksCount": 128,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:01:49.146Z"
+}

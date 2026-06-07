@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/ukraine/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/ukraine/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/ukraine/benefits-guide",
+  "title": "乌克兰员工福利 | Remote 福利计划",
+  "description": "了解乌克兰的关键员工福利，包括医疗保险、带薪休假、法定保障及其他津贴，Remote 可助力贵公司实施 Remote 福利计划，吸引并留住顶尖人才，同时简化行政事务与合规流程。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269037,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8377d6bbc14fef3d-zh-cn-country-explorer-ukraine-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8377d6bbc14fef3d-zh-cn-country-explorer-ukraine-benefits-guide.direct.json",
+  "markdownChars": 568,
+  "linksCount": 122,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:17:18.742Z"
+}

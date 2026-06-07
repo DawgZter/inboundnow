@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/hr-berichterstattung",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/hr-berichterstattung",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/hr-berichterstattung",
+  "title": "What is HR reporting?",
+  "description": "Erfahre mehr über HR-Berichte, HR-Berichtstypen und wie du eine fortschrittliche HR-Management-Software nutzen kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 267269,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/47139249aa07af92-de-at-ressourcen-hr-glossar-hr-berichterstattung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/47139249aa07af92-de-at-ressourcen-hr-glossar-hr-berichterstattung.direct.json",
+  "markdownChars": 16026,
+  "linksCount": 122,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:17.441Z"
+}

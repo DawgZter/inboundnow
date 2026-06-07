@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/morocco/employer-of-record",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/morocco/employer-of-record",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/morocco/employer-of-record",
+  "title": "모로코에서의 기록상 고용주(EOR) | EOR 서비스",
+  "description": "기록상 고용주(EOR) 서비스를 통해 모로코에서의 고용을 간소화하고, 급여·복리후생·규제 준수를 원활하게 관리합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259185,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5e90a28df2a4ebad-ko-kr-country-explorer-morocco-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5e90a28df2a4ebad-ko-kr-country-explorer-morocco-employer-of-record.direct.json",
+  "markdownChars": 1641,
+  "linksCount": 121,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:07:24.227Z"
+}

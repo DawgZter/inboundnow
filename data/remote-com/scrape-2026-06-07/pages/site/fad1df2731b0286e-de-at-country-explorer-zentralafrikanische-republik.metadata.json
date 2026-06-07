@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/zentralafrikanische-republik",
+  "sourceURL": "https://remote.com/de-at/country-explorer/zentralafrikanische-republik",
+  "finalURL": "https://remote.com/de-at/country-explorer/zentralafrikanische-republik",
+  "title": "Employer-of-Record- und Payroll-Services | Central African Republic",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Zentralafrikanische Republik? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 312408,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fad1df2731b0286e-de-at-country-explorer-zentralafrikanische-republik.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fad1df2731b0286e-de-at-country-explorer-zentralafrikanische-republik.direct.json",
+  "markdownChars": 4059,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:14:07.870Z"
+}

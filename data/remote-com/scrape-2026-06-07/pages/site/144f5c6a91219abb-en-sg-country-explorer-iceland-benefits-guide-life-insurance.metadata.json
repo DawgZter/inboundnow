@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/iceland/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/iceland/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/en-sg/country-explorer/iceland/benefits-guide/life-insurance",
+  "title": "Employee Life Insurance in Iceland | Insurance Plans",
+  "description": "Provide peace of mind with life insurance coverage for your employees in Iceland. Explore the policies and benefits available.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265392,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/144f5c6a91219abb-en-sg-country-explorer-iceland-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/144f5c6a91219abb-en-sg-country-explorer-iceland-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 4725,
+  "linksCount": 116,
+  "lastmod": "2025-05-31",
+  "scrapedAt": "2026-06-07T09:09:40.126Z"
+}

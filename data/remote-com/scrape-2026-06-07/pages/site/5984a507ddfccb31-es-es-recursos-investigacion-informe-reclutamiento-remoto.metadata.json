@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/investigacion/informe-reclutamiento-remoto",
+  "sourceURL": "https://remote.com/es-es/recursos/investigacion/informe-reclutamiento-remoto",
+  "finalURL": "https://remote.com/es-es/recursos/investigacion/informe-reclutamiento-remoto",
+  "title": "Soluciones de RR. HH. globales y herramientas de empleo para equipos distribuidos | Remote",
+  "description": "Remote is your one-stop solution for hiring talent in any country, helping growing businesses employ top talent from around the world. Our payroll, benefits, taxes, and compliance solution allows companies to access and empower a global workforce.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 459524,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5984a507ddfccb31-es-es-recursos-investigacion-informe-reclutamiento-remoto.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5984a507ddfccb31-es-es-recursos-investigacion-informe-reclutamiento-remoto.direct.json",
+  "markdownChars": 61516,
+  "linksCount": 117,
+  "lastmod": "2025-10-07",
+  "scrapedAt": "2026-06-07T09:11:55.802Z"
+}

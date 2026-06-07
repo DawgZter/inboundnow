@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/rh-international/gestion-des-depenses",
+  "sourceURL": "https://remote.com/fr-be/rh-international/gestion-des-depenses",
+  "finalURL": "https://remote.com/fr-be/rh-international/gestion-des-depenses",
+  "title": "Logiciel de gestion des dépenses | Remote",
+  "description": "Streamline costs with expense management software on Remote's global HR platform. Efficient solutions for financial management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 307207,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bc024fab5fc856a0-fr-be-rh-international-gestion-des-depenses.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bc024fab5fc856a0-fr-be-rh-international-gestion-des-depenses.direct.json",
+  "markdownChars": 4208,
+  "linksCount": 117,
+  "lastmod": "2025-04-30",
+  "scrapedAt": "2026-06-07T09:09:31.930Z"
+}

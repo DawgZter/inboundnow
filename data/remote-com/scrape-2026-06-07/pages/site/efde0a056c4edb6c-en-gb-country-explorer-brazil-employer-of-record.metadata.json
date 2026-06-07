@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/brazil/employer-of-record",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/brazil/employer-of-record",
+  "finalURL": "https://remote.com/en-gb/country-explorer/brazil/employer-of-record",
+  "title": "Employer of Record in Brazil | EOR Services",
+  "description": "Simplify employment in Brazil with our Employer of Record services. Handle payroll, benefits, and compliance seamlessly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261502,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/efde0a056c4edb6c-en-gb-country-explorer-brazil-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/efde0a056c4edb6c-en-gb-country-explorer-brazil-employer-of-record.direct.json",
+  "markdownChars": 3202,
+  "linksCount": 129,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:01:16.246Z"
+}

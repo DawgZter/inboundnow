@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/calculateur-cout-employes",
+  "sourceURL": "https://remote.com/fr-fr/ressources/calculateur-cout-employes",
+  "finalURL": "https://remote.com/fr-fr/ressources/calculateur-cout-employes",
+  "title": "Calculez le coût de l’embauche avec le calculateur du coût des employés de Remote | Remote",
+  "description": "L’outil de calcul des coûts des employés de Remote permet d’obtenir une répartition complète des taxes locales et contributions sociales obligatoires, ainsi que du coût moyen des avantages que les employés attendent dans le pays en question, le tout, en quelques clics seulement ! ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 343763,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/90e9894182c4f075-fr-fr-ressources-calculateur-cout-employes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/90e9894182c4f075-fr-fr-ressources-calculateur-cout-employes.direct.json",
+  "markdownChars": 10772,
+  "linksCount": 120,
+  "lastmod": "2026-04-23",
+  "scrapedAt": "2026-06-07T09:17:34.150Z"
+}

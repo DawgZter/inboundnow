@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/algemeen-directeur",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/algemeen-directeur",
+  "finalURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/algemeen-directeur",
+  "title": "Algemeen manager functieomschrijving",
+  "description": "​​Adaptable job description template for employing a general manager. Define key duties, skills, and career paths to attract your next hire.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262791,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b2fe5d97446128b-nl-nl-bronnen-functiebeschrijvingen-algemeen-directeur.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b2fe5d97446128b-nl-nl-bronnen-functiebeschrijvingen-algemeen-directeur.direct.json",
+  "markdownChars": 4709,
+  "linksCount": 115,
+  "lastmod": "2025-07-23",
+  "scrapedAt": "2026-06-07T09:01:00.673Z"
+}

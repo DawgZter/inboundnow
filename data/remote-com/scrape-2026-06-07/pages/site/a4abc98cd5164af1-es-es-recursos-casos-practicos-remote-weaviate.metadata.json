@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/casos-practicos/remote-weaviate",
+  "sourceURL": "https://remote.com/es-es/recursos/casos-practicos/remote-weaviate",
+  "finalURL": "https://remote.com/es-es/recursos/casos-practicos/remote-weaviate",
+  "title": "Cómo el personal de Weaviate, empresa pionera en IA, ha crecido un 120 % con Remote",
+  "description": "Ante la creciente demanda de infraestructuras nativas de IA, descubre por qué Weaviate colabora con Remote para integrar, gestionar y pagar a su personal global.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264946,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a4abc98cd5164af1-es-es-recursos-casos-practicos-remote-weaviate.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a4abc98cd5164af1-es-es-recursos-casos-practicos-remote-weaviate.direct.json",
+  "markdownChars": 11092,
+  "linksCount": 114,
+  "lastmod": "2025-06-13",
+  "scrapedAt": "2026-06-07T09:16:23.385Z"
+}

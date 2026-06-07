@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/costa-rica/taxes",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/costa-rica/taxes",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/costa-rica/taxes",
+  "title": "在哥斯达黎加管理薪资税 | 税务合规",
+  "description": "在哥斯达黎加有效且合规地管理薪资税，减少错误、遵守当地法律并避免高额罚款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260632,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b364d0dc097af71d-zh-cn-country-explorer-costa-rica-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b364d0dc097af71d-zh-cn-country-explorer-costa-rica-taxes.direct.json",
+  "markdownChars": 756,
+  "linksCount": 120,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:08:44.568Z"
+}

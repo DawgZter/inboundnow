@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/duitsland/beeindiging-van-dienstverband",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/duitsland/beeindiging-van-dienstverband",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/duitsland/beeindiging-van-dienstverband",
+  "title": "Beëindiging van het dienstverband in Germany | Beëindiging van het dienstverband",
+  "description": "Hoe beëindig je het dienstverband met een werknemer in Duitsland? Ken je rechten en lees onze uitgebreide gids over de wetgeving voor beëindiging van dienstverbanden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256007,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f65a0d2f8f1c8d1b-nl-be-landenverkenner-duitsland-beeindiging-van-dienstverband.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f65a0d2f8f1c8d1b-nl-be-landenverkenner-duitsland-beeindiging-van-dienstverband.direct.json",
+  "markdownChars": 2119,
+  "linksCount": 127,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:12:31.908Z"
+}

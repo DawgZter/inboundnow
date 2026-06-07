@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/el-salvador/benefits-guide",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/el-salvador/benefits-guide",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/el-salvador/benefits-guide",
+  "title": "엘살바도르의 직원 복리후생 | 복리후생 플랜",
+  "description": "엘살바도르에서의 필수 직원 복리후생을 확인하고, 건강보험, 유급 휴가 및 우수 인재 유치와 유지를 위한 기타 혜택을 자세히 안내합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270086,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3413599ba529e78c-ko-kr-country-explorer-el-salvador-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3413599ba529e78c-ko-kr-country-explorer-el-salvador-benefits-guide.direct.json",
+  "markdownChars": 798,
+  "linksCount": 122,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:08:08.742Z"
+}

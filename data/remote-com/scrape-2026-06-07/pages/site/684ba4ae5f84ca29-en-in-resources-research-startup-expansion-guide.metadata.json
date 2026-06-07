@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/research/startup-expansion-guide",
+  "sourceURL": "https://remote.com/en-in/resources/research/startup-expansion-guide",
+  "finalURL": "https://remote.com/en-in/resources/research/startup-expansion-guide",
+  "title": "Startup expansion guide | Remote",
+  "description": "International expansion is a great way to grow your small business. Discover the benefits and learn how to overcome the challenges in our expert guide. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261892,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/684ba4ae5f84ca29-en-in-resources-research-startup-expansion-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/684ba4ae5f84ca29-en-in-resources-research-startup-expansion-guide.direct.json",
+  "markdownChars": 1060,
+  "linksCount": 115,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:01:41.902Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-trabajo-gerente-ventas-internas",
+  "sourceURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-trabajo-gerente-ventas-internas",
+  "finalURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-trabajo-gerente-ventas-internas",
+  "title": "Gerente de ventas Descripción del trabajo",
+  "description": "Revisa la descripción del puesto de un jefe de ventas internas, responsable de dirigir el equipo de ventas, desarrollar estrategias de ventas y alcanzar los objetivos de ingresos mediante una gestión eficaz.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262207,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/93fbc8fc16530819-es-es-recursos-descripciones-puestos-trabajo-descripcion-trabajo-gerente-ventas-internas.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/93fbc8fc16530819-es-es-recursos-descripciones-puestos-trabajo-descripcion-trabajo-gerente-ventas-internas.direct.json",
+  "markdownChars": 4058,
+  "linksCount": 113,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:01:33.722Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/united-states/benefits-guide/voluntary-coverages",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/united-states/benefits-guide/voluntary-coverages",
+  "finalURL": "https://remote.com/en-sg/country-explorer/united-states/benefits-guide/voluntary-coverages",
+  "title": "Voluntary Coverages Benefits in United States Guide",
+  "description": "Learn about Voluntary Coverages in United States: what’s required and how Remote helps you stay compliant with local employment regulations.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 267352,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/41132c377a5b336f-en-sg-country-explorer-united-states-benefits-guide-voluntary-coverages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/41132c377a5b336f-en-sg-country-explorer-united-states-benefits-guide-voluntary-coverages.direct.json",
+  "markdownChars": 2860,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:17:37.349Z"
+}

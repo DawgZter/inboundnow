@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/chile/types-of-leave",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/chile/types-of-leave",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/chile/types-of-leave",
+  "title": "智利休假类型 | 员工休假法规",
+  "description": "了解智利员工休假相关法律，确保贵公司遵守休假政策并提供有竞争力的带薪休假。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256794,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ea80caf6183e3a4d-zh-cn-country-explorer-chile-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ea80caf6183e3a4d-zh-cn-country-explorer-chile-types-of-leave.direct.json",
+  "markdownChars": 763,
+  "linksCount": 120,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:05:49.026Z"
+}

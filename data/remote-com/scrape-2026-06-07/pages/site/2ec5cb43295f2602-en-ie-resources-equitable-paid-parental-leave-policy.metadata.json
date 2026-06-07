@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/equitable-paid-parental-leave-policy",
+  "sourceURL": "https://remote.com/en-ie/resources/equitable-paid-parental-leave-policy",
+  "finalURL": "https://remote.com/en-ie/resources/equitable-paid-parental-leave-policy",
+  "title": "Global HR Solutions for Distributed Teams | Remote",
+  "description": "Hire international talent in minutes. Remote is the most disruptive global payroll, tax, HR and compliance solution for distributed teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 400499,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2ec5cb43295f2602-en-ie-resources-equitable-paid-parental-leave-policy.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2ec5cb43295f2602-en-ie-resources-equitable-paid-parental-leave-policy.direct.json",
+  "markdownChars": 31931,
+  "linksCount": 151,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:10:43.057Z"
+}

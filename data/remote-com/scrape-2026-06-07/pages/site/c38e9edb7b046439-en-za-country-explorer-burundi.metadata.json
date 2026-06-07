@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/burundi",
+  "sourceURL": "https://remote.com/en-za/country-explorer/burundi",
+  "finalURL": "https://remote.com/en-za/country-explorer/burundi",
+  "title": "Employer of Record & Payroll Services | Burundi",
+  "description": "Hiring employees and contractors in Burundi? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 308647,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c38e9edb7b046439-en-za-country-explorer-burundi.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c38e9edb7b046439-en-za-country-explorer-burundi.direct.json",
+  "markdownChars": 3125,
+  "linksCount": 117,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:11:08.749Z"
+}

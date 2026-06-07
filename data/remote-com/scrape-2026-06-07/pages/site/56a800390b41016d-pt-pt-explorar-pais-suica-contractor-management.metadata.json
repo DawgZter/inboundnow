@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/suica/contractor-management",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/suica/contractor-management",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/suica/contractor-management",
+  "title": "Gestão de trabalhadores independentes na Suíça | Contractor Management",
+  "description": "Queres contratar trabalhadores independentes na Suíça? Gere e paga a trabalhadores independentes em todo o mundo sem esforço com o Contractor Management da Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155229,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56a800390b41016d-pt-pt-explorar-pais-suica-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56a800390b41016d-pt-pt-explorar-pais-suica-contractor-management.direct.json",
+  "markdownChars": 2608,
+  "linksCount": 46,
+  "lastmod": "2026-03-24",
+  "scrapedAt": "2026-06-07T09:01:57.605Z"
+}

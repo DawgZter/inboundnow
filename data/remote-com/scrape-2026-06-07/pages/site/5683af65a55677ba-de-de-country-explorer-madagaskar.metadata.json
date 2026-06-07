@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/madagaskar",
+  "sourceURL": "https://remote.com/de-de/country-explorer/madagaskar",
+  "finalURL": "https://remote.com/de-de/country-explorer/madagaskar",
+  "title": "Employer-of-Record- und Payroll-Services | Madagascar",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Madagaskar? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 322356,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5683af65a55677ba-de-de-country-explorer-madagaskar.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5683af65a55677ba-de-de-country-explorer-madagaskar.direct.json",
+  "markdownChars": 6329,
+  "linksCount": 118,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:04:10.695Z"
+}

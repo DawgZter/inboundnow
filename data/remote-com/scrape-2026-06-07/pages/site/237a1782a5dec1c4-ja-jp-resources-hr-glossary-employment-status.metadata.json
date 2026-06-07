@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/employment-status",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/employment-status",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/employment-status",
+  "title": "雇用形態にはどのような種類がありますか？",
+  "description": "雇用形態と、誤分類のリスクを回避するために法務・人事担当者が雇用法を遵守する方法について詳しく説明します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257064,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/237a1782a5dec1c4-ja-jp-resources-hr-glossary-employment-status.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/237a1782a5dec1c4-ja-jp-resources-hr-glossary-employment-status.direct.json",
+  "markdownChars": 2295,
+  "linksCount": 125,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:01.022Z"
+}

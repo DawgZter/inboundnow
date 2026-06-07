@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/job-descriptions/recruiter-job-description",
+  "sourceURL": "https://remote.com/en-in/resources/job-descriptions/recruiter-job-description",
+  "finalURL": "https://remote.com/en-in/resources/job-descriptions/recruiter-job-description",
+  "title": "Recruiter job description",
+  "description": "Review the job description for a recruiter, responsible for sourcing, interviewing, and hiring candidates, as well as managing the talent acquisition process and strategy.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258840,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a878b90435ca4515-en-in-resources-job-descriptions-recruiter-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a878b90435ca4515-en-in-resources-job-descriptions-recruiter-job-description.direct.json",
+  "markdownChars": 4618,
+  "linksCount": 112,
+  "lastmod": "2026-02-11",
+  "scrapedAt": "2026-06-07T09:08:29.056Z"
+}

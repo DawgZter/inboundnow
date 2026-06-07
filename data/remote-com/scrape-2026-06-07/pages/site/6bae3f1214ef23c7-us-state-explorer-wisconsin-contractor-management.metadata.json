@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/wisconsin/contractor-management",
+  "sourceURL": "https://remote.com/us-state-explorer/wisconsin/contractor-management",
+  "finalURL": "https://remote.com/us-state-explorer/wisconsin/contractor-management",
+  "title": "Contractor Management in Wisconsin",
+  "description": "Manage and pay contractors in Wisconsin with ease. Stay compliant, process payments easily, and reduce risk with a streamlined solution for hiring contractors with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257022,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6bae3f1214ef23c7-us-state-explorer-wisconsin-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6bae3f1214ef23c7-us-state-explorer-wisconsin-contractor-management.direct.json",
+  "markdownChars": 2208,
+  "linksCount": 112,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:12:39.955Z"
+}

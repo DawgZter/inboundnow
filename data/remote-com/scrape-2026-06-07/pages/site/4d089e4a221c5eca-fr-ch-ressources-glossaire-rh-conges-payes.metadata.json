@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/conges-payes",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/conges-payes",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/conges-payes",
+  "title": "What are paid holidays?",
+  "description": "Découvrez comment gérer les congés payés au sein de votre personnel et quels types de congés payés vous pouvez - et dans certains cas, devez - offrir.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258496,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4d089e4a221c5eca-fr-ch-ressources-glossaire-rh-conges-payes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4d089e4a221c5eca-fr-ch-ressources-glossaire-rh-conges-payes.direct.json",
+  "markdownChars": 6242,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:11:52.282Z"
+}

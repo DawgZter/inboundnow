@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/spain/benefits-guide",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/spain/benefits-guide",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/spain/benefits-guide",
+  "title": "スペインにおける従業員福利厚生 | 福利厚生プラン",
+  "description": "スペインにおける必須の福利厚生を解説し、健康保険や有給休暇などの包括的な補償内容とその他の特典によって優秀な人材の獲得と定着を支援します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 272328,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a2757b77ece28cf-ja-jp-country-explorer-spain-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a2757b77ece28cf-ja-jp-country-explorer-spain-benefits-guide.direct.json",
+  "markdownChars": 728,
+  "linksCount": 124,
+  "lastmod": "2026-05-24",
+  "scrapedAt": "2026-06-07T09:01:23.534Z"
+}

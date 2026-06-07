@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/portugal/payroll",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/portugal/payroll",
+  "finalURL": "https://remote.com/de-ch/country-explorer/portugal/payroll",
+  "title": "Mitarbeiter:innen in Portugal bezahlen | Payroll Services",
+  "description": "Zahle Mitarbeiter:innen in Portugal mühelos mit unseren flexiblen Payroll-Services. Führe Payroll durch, verwalte Ausgaben und erstelle Berichte – alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259781,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ba41ba1e01017a3-de-ch-country-explorer-portugal-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ba41ba1e01017a3-de-ch-country-explorer-portugal-payroll.direct.json",
+  "markdownChars": 3462,
+  "linksCount": 125,
+  "lastmod": "2025-11-28",
+  "scrapedAt": "2026-06-07T09:14:58.454Z"
+}

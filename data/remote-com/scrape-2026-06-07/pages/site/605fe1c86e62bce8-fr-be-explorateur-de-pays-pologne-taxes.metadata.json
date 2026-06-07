@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/pologne/taxes",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/pologne/taxes",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/pologne/taxes",
+  "title": "Poland : Gérer l’imposition de la paie | Conformité fiscale",
+  "description": "Pologne : Gérez efficacement l’imposition de la paie, en toute conformité. Réduisez les erreurs d’imposition de la paie, respectez le droit local et évitez de coûteuses amendes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263743,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/605fe1c86e62bce8-fr-be-explorateur-de-pays-pologne-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/605fe1c86e62bce8-fr-be-explorateur-de-pays-pologne-taxes.direct.json",
+  "markdownChars": 1222,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:05:46.412Z"
+}

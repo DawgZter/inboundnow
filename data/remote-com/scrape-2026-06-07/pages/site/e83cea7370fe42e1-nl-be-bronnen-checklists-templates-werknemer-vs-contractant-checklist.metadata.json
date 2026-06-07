@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/checklists-templates/werknemer-vs-contractant-checklist",
+  "sourceURL": "https://remote.com/nl-be/bronnen/checklists-templates/werknemer-vs-contractant-checklist",
+  "finalURL": "https://remote.com/nl-be/bronnen/checklists-templates/werknemer-vs-contractant-checklist",
+  "title": "Checklist werknemer vs zzp'er | Remote",
+  "description": " Remote's werknemer vs zzp'er checklist kan je helpen onderscheid te maken tussen een werknemer en een zzp'er. Gebruik deze handige bron om medewerkers correct in te delen en ervoor te zorgen dat de wettelijke vereisten worden nageleefd.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 249818,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e83cea7370fe42e1-nl-be-bronnen-checklists-templates-werknemer-vs-contractant-checklist.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e83cea7370fe42e1-nl-be-bronnen-checklists-templates-werknemer-vs-contractant-checklist.direct.json",
+  "markdownChars": 5343,
+  "linksCount": 115,
+  "lastmod": "2025-06-19",
+  "scrapedAt": "2026-06-07T09:05:12.417Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/deferred-compensation",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/deferred-compensation",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/deferred-compensation",
+  "title": "지연 보상",
+  "description": "이연 보상이 어떻게 작동하는지, 그리고 비즈니스에 최고의 인재를 유치하는 데 어떻게 활용할 수 있는지 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256440,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88690d70f3a06998-ko-kr-resources-hr-glossary-deferred-compensation.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88690d70f3a06998-ko-kr-resources-hr-glossary-deferred-compensation.direct.json",
+  "markdownChars": 2828,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:11:49.844Z"
+}

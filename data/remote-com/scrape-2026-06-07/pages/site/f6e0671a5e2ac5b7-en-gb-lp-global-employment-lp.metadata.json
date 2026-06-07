@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/lp/global-employment-lp",
+  "sourceURL": "https://remote.com/en-gb/lp/global-employment-lp",
+  "finalURL": "https://remote.com/en-gb/lp/global-employment-lp",
+  "title": "Global HR Solutions for Distributed Teams | Remote",
+  "description": "Hire international talent in minutes. Remote is the most disruptive global payroll, tax, HR and compliance solution for distributed teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 367233,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f6e0671a5e2ac5b7-en-gb-lp-global-employment-lp.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f6e0671a5e2ac5b7-en-gb-lp-global-employment-lp.direct.json",
+  "markdownChars": 4378,
+  "linksCount": 116,
+  "lastmod": "2025-11-25",
+  "scrapedAt": "2026-06-07T09:01:13.408Z"
+}

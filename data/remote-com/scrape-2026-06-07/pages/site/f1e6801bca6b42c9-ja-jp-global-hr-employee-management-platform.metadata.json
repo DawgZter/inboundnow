@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/global-hr/employee-management-platform",
+  "sourceURL": "https://remote.com/ja-jp/global-hr/employee-management-platform",
+  "finalURL": "https://remote.com/ja-jp/global-hr/employee-management-platform",
+  "title": "グローバルチーム向けの統合型従業員管理プラットフォーム | Remote",
+  "description": "グローバルチームのオンボーディング、支払い、管理を簡単に。Remoteは、給与、税金、人事、コンプライアンスに対応した、分散型チーム向けの非常に画期的なグローバルソリューションです。 ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 327963,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f1e6801bca6b42c9-ja-jp-global-hr-employee-management-platform.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f1e6801bca6b42c9-ja-jp-global-hr-employee-management-platform.direct.json",
+  "markdownChars": 2260,
+  "linksCount": 124,
+  "lastmod": "2025-04-24",
+  "scrapedAt": "2026-06-07T09:06:26.805Z"
+}

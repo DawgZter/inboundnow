@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/zimbabue/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/zimbabue/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/zimbabue/tipos-permiso",
+  "title": "Tipos de permiso en Zimbabue | Leyes sobre permisos de empleados",
+  "description": "Entiende las leyes sobre permisos de empleados en Zimbabue. Asegúrate de que tu empresa cumple con las políticas de permisos y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260819,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19c16cfebb1dc974-es-es-explorador-paises-zimbabue-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19c16cfebb1dc974-es-es-explorador-paises-zimbabue-tipos-permiso.direct.json",
+  "markdownChars": 1852,
+  "linksCount": 121,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:05:32.847Z"
+}

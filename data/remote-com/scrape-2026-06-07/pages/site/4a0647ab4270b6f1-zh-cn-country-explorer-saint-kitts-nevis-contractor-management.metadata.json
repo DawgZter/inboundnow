@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/saint-kitts-nevis/contractor-management",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/saint-kitts-nevis/contractor-management",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/saint-kitts-nevis/contractor-management",
+  "title": "圣基茨和尼维斯合同工管理",
+  "description": "在圣基茨和尼维斯雇佣合同工时，贵公司可使用我们灵活的合同工管理服务，轻松管理并向全球合同工付款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254217,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4a0647ab4270b6f1-zh-cn-country-explorer-saint-kitts-nevis-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4a0647ab4270b6f1-zh-cn-country-explorer-saint-kitts-nevis-contractor-management.direct.json",
+  "markdownChars": 759,
+  "linksCount": 115,
+  "lastmod": "2025-12-22",
+  "scrapedAt": "2026-06-07T09:17:22.263Z"
+}

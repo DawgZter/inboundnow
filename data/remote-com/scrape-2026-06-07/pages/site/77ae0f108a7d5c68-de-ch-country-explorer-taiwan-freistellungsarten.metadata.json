@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/taiwan/freistellungsarten",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/taiwan/freistellungsarten",
+  "finalURL": "https://remote.com/de-ch/country-explorer/taiwan/freistellungsarten",
+  "title": "Urlaubsansprüche in Taiwan | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Taiwan. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260120,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/77ae0f108a7d5c68-de-ch-country-explorer-taiwan-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/77ae0f108a7d5c68-de-ch-country-explorer-taiwan-freistellungsarten.direct.json",
+  "markdownChars": 2952,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:02:18.276Z"
+}

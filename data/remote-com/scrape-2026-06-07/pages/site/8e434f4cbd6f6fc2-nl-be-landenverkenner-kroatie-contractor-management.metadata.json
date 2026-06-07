@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/kroatie/contractor-management",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/kroatie/contractor-management",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/kroatie/contractor-management",
+  "title": "Zzp’ers beheren in Kroatië | Contractor Management",
+  "description": "Wil je een zzp’er in Kroatië inhuren? Beheer en betaal internationale zzp’ers moeiteloos met onze flexibele Contractor Management-diensten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255656,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e434f4cbd6f6fc2-nl-be-landenverkenner-kroatie-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e434f4cbd6f6fc2-nl-be-landenverkenner-kroatie-contractor-management.direct.json",
+  "markdownChars": 2493,
+  "linksCount": 126,
+  "lastmod": "2025-11-06",
+  "scrapedAt": "2026-06-07T09:07:29.555Z"
+}

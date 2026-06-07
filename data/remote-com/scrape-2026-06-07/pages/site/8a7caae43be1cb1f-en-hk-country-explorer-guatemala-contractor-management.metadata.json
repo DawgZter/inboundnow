@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/guatemala/contractor-management",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/guatemala/contractor-management",
+  "finalURL": "https://remote.com/en-hk/country-explorer/guatemala/contractor-management",
+  "title": "Manage Contractors in Guatemala | Contractor Management",
+  "description": "Hiring a contractor in Guatemala? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259144,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a7caae43be1cb1f-en-hk-country-explorer-guatemala-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a7caae43be1cb1f-en-hk-country-explorer-guatemala-contractor-management.direct.json",
+  "markdownChars": 2265,
+  "linksCount": 124,
+  "lastmod": "2025-08-26",
+  "scrapedAt": "2026-06-07T09:09:11.127Z"
+}

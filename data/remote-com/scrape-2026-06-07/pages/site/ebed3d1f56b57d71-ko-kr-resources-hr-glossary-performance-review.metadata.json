@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/performance-review",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/performance-review",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/performance-review",
+  "title": "인사평가, 인사고과",
+  "description": "Discover how performance reviews work, why they matter for both employees and managers, and how to complete comprehensive performance reviews in minutes. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256599,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ebed3d1f56b57d71-ko-kr-resources-hr-glossary-performance-review.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ebed3d1f56b57d71-ko-kr-resources-hr-glossary-performance-review.direct.json",
+  "markdownChars": 2775,
+  "linksCount": 122,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:01:24.803Z"
+}

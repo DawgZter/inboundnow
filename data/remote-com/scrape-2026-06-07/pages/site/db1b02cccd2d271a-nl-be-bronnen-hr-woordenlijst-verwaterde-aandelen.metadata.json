@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/verwaterde-aandelen",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/verwaterde-aandelen",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/verwaterde-aandelen",
+  "title": "What are diluted shares",
+  "description": "Verken onze HR-woordenlijst om te begrijpen wat verwaterde aandelen zijn, welke invloed ze hebben op de aandeelhouderswaarde en hoe ze de eigendomspercentages binnen een bedrijf beïnvloeden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251455,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db1b02cccd2d271a-nl-be-bronnen-hr-woordenlijst-verwaterde-aandelen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db1b02cccd2d271a-nl-be-bronnen-hr-woordenlijst-verwaterde-aandelen.direct.json",
+  "markdownChars": 5374,
+  "linksCount": 123,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:11:03.223Z"
+}

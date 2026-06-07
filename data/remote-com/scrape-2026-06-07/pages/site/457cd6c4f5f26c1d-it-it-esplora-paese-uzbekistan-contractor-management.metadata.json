@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/uzbekistan/contractor-management",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/uzbekistan/contractor-management",
+  "finalURL": "https://remote.com/it-it/esplora-paese/uzbekistan/contractor-management",
+  "title": "Gestisci i collaboratori in Uzbekistan | Contractor Management",
+  "description": "Vuoi collaborare con freelance in Uzbekistan? Gestisci e paga i tuoi collaboratori globali in modo semplice e conforme con i nostri servizi flessibili di Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 151164,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/457cd6c4f5f26c1d-it-it-esplora-paese-uzbekistan-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/457cd6c4f5f26c1d-it-it-esplora-paese-uzbekistan-contractor-management.direct.json",
+  "markdownChars": 2458,
+  "linksCount": 39,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:10:49.561Z"
+}

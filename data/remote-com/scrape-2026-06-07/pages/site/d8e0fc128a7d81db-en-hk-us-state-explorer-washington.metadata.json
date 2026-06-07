@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/us-state-explorer/washington",
+  "sourceURL": "https://remote.com/en-hk/us-state-explorer/washington",
+  "finalURL": "https://remote.com/en-hk/us-state-explorer/washington",
+  "title": "Employer of Record & Payroll Services | Washington",
+  "description": "Use our compliance guide to employ in Washington with ease. Learn about benefits, payroll, leave, and other labor laws in the Evergreen State.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 331779,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8e0fc128a7d81db-en-hk-us-state-explorer-washington.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8e0fc128a7d81db-en-hk-us-state-explorer-washington.direct.json",
+  "markdownChars": 7267,
+  "linksCount": 113,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:16:34.455Z"
+}

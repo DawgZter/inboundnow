@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-puesto-ingeniero-software",
+  "sourceURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-puesto-ingeniero-software",
+  "finalURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-puesto-ingeniero-software",
+  "title": "Descripción del puesto de Ingeniero de Software",
+  "description": "Descripción del puesto de Ingeniero de Software",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264075,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/380e1d159d2cccdd-es-es-recursos-descripciones-puestos-trabajo-descripcion-puesto-ingeniero-software.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/380e1d159d2cccdd-es-es-recursos-descripciones-puestos-trabajo-descripcion-puesto-ingeniero-software.direct.json",
+  "markdownChars": 5797,
+  "linksCount": 114,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:09:46.635Z"
+}

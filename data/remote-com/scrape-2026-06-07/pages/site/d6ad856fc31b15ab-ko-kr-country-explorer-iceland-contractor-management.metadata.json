@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/iceland/contractor-management",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/iceland/contractor-management",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/iceland/contractor-management",
+  "title": "아이슬란드에서의 계약자 관리 | 계약자 관리",
+  "description": "아이슬란드에서 계약자를 고용하려는 경우, 유연한 계약자 관리 서비스를 통해 전 세계 계약자를 손쉽게 관리하고 지급할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258300,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d6ad856fc31b15ab-ko-kr-country-explorer-iceland-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d6ad856fc31b15ab-ko-kr-country-explorer-iceland-contractor-management.direct.json",
+  "markdownChars": 1152,
+  "linksCount": 121,
+  "lastmod": "2025-11-07",
+  "scrapedAt": "2026-06-07T09:09:02.560Z"
+}

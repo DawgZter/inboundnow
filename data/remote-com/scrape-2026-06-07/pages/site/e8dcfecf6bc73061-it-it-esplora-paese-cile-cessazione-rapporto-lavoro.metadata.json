@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/cile/cessazione-rapporto-lavoro",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/cile/cessazione-rapporto-lavoro",
+  "finalURL": "https://remote.com/it-it/esplora-paese/cile/cessazione-rapporto-lavoro",
+  "title": "Interrompere un rapporto di lavoro in Cile | Cessazione del rapporto di lavoro",
+  "description": "Vuoi interrompere un rapporto di lavoro in Cile? Scopri i tuoi diritti e i requisiti legali nella nostra guida completa sulla cessazione del rapporto di lavoro.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 152099,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e8dcfecf6bc73061-it-it-esplora-paese-cile-cessazione-rapporto-lavoro.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e8dcfecf6bc73061-it-it-esplora-paese-cile-cessazione-rapporto-lavoro.direct.json",
+  "markdownChars": 1413,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:18:59.220Z"
+}

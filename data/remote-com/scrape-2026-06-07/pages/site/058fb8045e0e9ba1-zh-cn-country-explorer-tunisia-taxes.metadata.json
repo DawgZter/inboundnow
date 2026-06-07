@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/tunisia/taxes",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/tunisia/taxes",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/tunisia/taxes",
+  "title": "在突尼斯管理薪资税务 | 税务合规",
+  "description": "帮助贵公司在突尼斯有效且合规地管理薪资相关税费，最大限度减少错误，遵守当地法律并避免高额罚款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254300,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/058fb8045e0e9ba1-zh-cn-country-explorer-tunisia-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/058fb8045e0e9ba1-zh-cn-country-explorer-tunisia-taxes.direct.json",
+  "markdownChars": 343,
+  "linksCount": 120,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:02:38.734Z"
+}

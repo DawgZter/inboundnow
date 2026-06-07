@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/tools/hr-travel-quiz",
+  "sourceURL": "https://remote.com/en-nz/resources/tools/hr-travel-quiz",
+  "finalURL": "https://remote.com/en-nz/resources/tools/hr-travel-quiz",
+  "title": "What's your HR team's travel style?",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 274079,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b5231a1a8d1b16b-en-nz-resources-tools-hr-travel-quiz.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b5231a1a8d1b16b-en-nz-resources-tools-hr-travel-quiz.direct.json",
+  "markdownChars": 481,
+  "linksCount": 105,
+  "lastmod": "2025-10-20",
+  "scrapedAt": "2026-06-07T09:17:18.742Z"
+}

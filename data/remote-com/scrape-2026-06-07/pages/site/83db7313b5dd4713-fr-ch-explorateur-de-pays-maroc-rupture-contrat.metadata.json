@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/maroc/rupture-contrat",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/maroc/rupture-contrat",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/maroc/rupture-contrat",
+  "title": "Morocco : Résilier le contrat d’un employé | Rupture de contrat",
+  "description": "Maroc : Vous avez besoin de résilier le contrat d’un employé ? Découvrez quels sont vos droits grâce à notre guide complet sur les lois régissant la rupture de contrat des employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261389,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/83db7313b5dd4713-fr-ch-explorateur-de-pays-maroc-rupture-contrat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/83db7313b5dd4713-fr-ch-explorateur-de-pays-maroc-rupture-contrat.direct.json",
+  "markdownChars": 2352,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:07:31.253Z"
+}

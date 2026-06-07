@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/niger",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/niger",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/niger",
+  "title": "第三方雇佣托管服务与薪资服务 | 尼日尔",
+  "description": "在尼日尔雇佣员工与合同工？Remote 可通过一体化的全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 308311,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9bba414f68ffdb55-zh-cn-country-explorer-niger.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9bba414f68ffdb55-zh-cn-country-explorer-niger.direct.json",
+  "markdownChars": 1303,
+  "linksCount": 117,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:17:37.145Z"
+}

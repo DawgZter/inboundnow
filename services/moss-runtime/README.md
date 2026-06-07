@@ -23,10 +23,28 @@ curl -X POST http://127.0.0.1:4321/query \
   -d '{"query":"global payroll","topK":3}'
 ```
 
+Remote.com scrape artifact mode:
+
+```bash
+npm run moss:index:remote
+MOSS_RUNTIME_PROVIDER=local-artifact MOSS_INDEX_PATH=artifacts/moss/remote-com-local-index.json npm run dev:moss-runtime
+curl -X POST http://127.0.0.1:4321/query \
+  -H 'content-type: application/json' \
+  -d '{"query":"Remote MCP global payroll","topK":5}'
+```
+
+The scrape corpus is partial and imported under `data/remote-com/scrape-2026-06-07`. Generated local indexes remain under gitignored `artifacts/`.
+
 One-command proof:
 
 ```bash
 npm run smoke:moss:local
+```
+
+Full scrape-corpus proof:
+
+```bash
+npm run smoke:moss:remote
 ```
 
 Runtime code must not use `autoRefresh`, SDK cloud polling, `pushIndex()`,

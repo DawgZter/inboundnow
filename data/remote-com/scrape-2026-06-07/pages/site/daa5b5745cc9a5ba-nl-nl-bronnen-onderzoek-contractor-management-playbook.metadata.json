@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/onderzoek/contractor-management-playbook",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/onderzoek/contractor-management-playbook",
+  "finalURL": "https://remote.com/nl-nl/bronnen/onderzoek/contractor-management-playbook",
+  "title": "Playbook voor internationaal contractor management | Remote",
+  "description": "In dit gratis playbook voor internationaal contractor management ontdekken groeigerichte bedrijven hoe ze het beste softwaresysteem kunnen identificeren, selecteren en implementeren.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264780,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/daa5b5745cc9a5ba-nl-nl-bronnen-onderzoek-contractor-management-playbook.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/daa5b5745cc9a5ba-nl-nl-bronnen-onderzoek-contractor-management-playbook.direct.json",
+  "markdownChars": 913,
+  "linksCount": 115,
+  "lastmod": "2025-07-09",
+  "scrapedAt": "2026-06-07T09:01:11.343Z"
+}

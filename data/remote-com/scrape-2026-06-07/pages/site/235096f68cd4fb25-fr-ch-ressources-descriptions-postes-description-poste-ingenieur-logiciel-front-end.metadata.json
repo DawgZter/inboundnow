@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-ingenieur-logiciel-front-end",
+  "sourceURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-ingenieur-logiciel-front-end",
+  "finalURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-ingenieur-logiciel-front-end",
+  "title": "Description du poste d'ingénieur logiciel front-end",
+  "description": "Examinez la description de poste d'un ingénieur en informatique frontale, chargé de développer des interfaces utilisateur, d'optimiser les performances du web et de garantir une expérience utilisateur transparente.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264352,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/235096f68cd4fb25-fr-ch-ressources-descriptions-postes-description-poste-ingenieur-logiciel-front-end.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/235096f68cd4fb25-fr-ch-ressources-descriptions-postes-description-poste-ingenieur-logiciel-front-end.direct.json",
+  "markdownChars": 5430,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:05:14.837Z"
+}

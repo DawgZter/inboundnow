@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/united-kingdom/taxes",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/united-kingdom/taxes",
+  "finalURL": "https://remote.com/en-gb/country-explorer/united-kingdom/taxes",
+  "title": "Manage Payroll Tax in United Kingdom | Tax Compliance",
+  "description": "Manage payroll taxes in United Kingdom effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261563,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e2e895b4993549a-en-gb-country-explorer-united-kingdom-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e2e895b4993549a-en-gb-country-explorer-united-kingdom-taxes.direct.json",
+  "markdownChars": 1179,
+  "linksCount": 129,
+  "lastmod": "2025-05-26",
+  "scrapedAt": "2026-06-07T09:01:23.822Z"
+}

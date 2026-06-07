@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/hr-globale/paghe-globali",
+  "sourceURL": "https://remote.com/it-it/hr-globale/paghe-globali",
+  "finalURL": "https://remote.com/it-it/hr-globale/paghe-globali",
+  "title": "Buste paga internazionali semplificate | Remote",
+  "description": "Consolida il tuo processo di gestione delle buste paga in più paesi con Remote Remote Global Payroll si occupa di tasse, pagamenti e conformità.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 343365,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8539f4e7d7ff21c9-it-it-hr-globale-paghe-globali.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8539f4e7d7ff21c9-it-it-hr-globale-paghe-globali.direct.json",
+  "markdownChars": 13109,
+  "linksCount": 56,
+  "lastmod": "2026-04-20",
+  "scrapedAt": "2026-06-07T09:01:55.724Z"
+}

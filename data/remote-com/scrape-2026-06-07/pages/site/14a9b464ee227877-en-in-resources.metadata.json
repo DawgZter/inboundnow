@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources",
+  "sourceURL": "https://remote.com/en-in/resources",
+  "finalURL": "https://remote.com/en-in/resources",
+  "title": "Global HR and remote work resources | Remote",
+  "description": "Browse Remote’s library of resources of remote work and global HR reports, guides, checklists, webinars, and podcasts to learn more about the building a globally distributed team",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 351383,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/14a9b464ee227877-en-in-resources.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/14a9b464ee227877-en-in-resources.direct.json",
+  "markdownChars": 5566,
+  "linksCount": 117,
+  "lastmod": "2025-07-02",
+  "scrapedAt": "2026-06-07T09:02:50.806Z"
+}

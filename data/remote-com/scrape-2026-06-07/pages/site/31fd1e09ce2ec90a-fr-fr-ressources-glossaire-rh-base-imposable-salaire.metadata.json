@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/base-imposable-salaire",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/base-imposable-salaire",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/base-imposable-salaire",
+  "title": "Quelle est la base salariale imposable ?",
+  "description": "En savoir plus sur la base salariale imposable et son calcul",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255504,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31fd1e09ce2ec90a-fr-fr-ressources-glossaire-rh-base-imposable-salaire.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31fd1e09ce2ec90a-fr-fr-ressources-glossaire-rh-base-imposable-salaire.direct.json",
+  "markdownChars": 3259,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:05:57.078Z"
+}

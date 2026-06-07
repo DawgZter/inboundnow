@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/ireland/taxes",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/ireland/taxes",
+  "finalURL": "https://remote.com/en-sg/country-explorer/ireland/taxes",
+  "title": "Manage Payroll Tax in Ireland | Tax Compliance",
+  "description": "Manage payroll taxes in Ireland effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258395,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07bbd7725365f332-en-sg-country-explorer-ireland-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07bbd7725365f332-en-sg-country-explorer-ireland-taxes.direct.json",
+  "markdownChars": 823,
+  "linksCount": 128,
+  "lastmod": "2025-09-02",
+  "scrapedAt": "2026-06-07T09:16:37.676Z"
+}

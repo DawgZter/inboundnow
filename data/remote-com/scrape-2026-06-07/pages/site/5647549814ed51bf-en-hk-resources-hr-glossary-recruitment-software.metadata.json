@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/recruitment-software",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/recruitment-software",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/recruitment-software",
+  "title": "Recruitment software",
+  "description": "Recruitment software can simplify the hiring process, significantly enhancing a company's ability to find and hire the best candidates efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252175,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5647549814ed51bf-en-hk-resources-hr-glossary-recruitment-software.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5647549814ed51bf-en-hk-resources-hr-glossary-recruitment-software.direct.json",
+  "markdownChars": 3674,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:36.041Z"
+}

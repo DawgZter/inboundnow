@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/case-studies/qdrant-solutions-streamlines-global-operations-with-integrated-eor-and-contractor-management",
+  "sourceURL": "https://remote.com/en-hk/resources/case-studies/qdrant-solutions-streamlines-global-operations-with-integrated-eor-and-contractor-management",
+  "finalURL": "https://remote.com/en-hk/resources/case-studies/qdrant-solutions-streamlines-global-operations-with-integrated-eor-and-contractor-management",
+  "title": "Qdrant Solutions streamlines global operations with integrated EOR and Contractor Management",
+  "description": "Qdrant scaled across 15 countries into one workflow with Remote, eliminating administrative energy drain and achieving zero payroll complaints.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258475,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2402150e9e9ab588-en-hk-resources-case-studies-qdrant-solutions-streamlines-global-operations-with-integrated-eor-.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2402150e9e9ab588-en-hk-resources-case-studies-qdrant-solutions-streamlines-global-operations-with-integrated-eor-.direct.json",
+  "markdownChars": 4291,
+  "linksCount": 111,
+  "lastmod": "2026-05-15",
+  "scrapedAt": "2026-06-07T09:10:25.121Z"
+}

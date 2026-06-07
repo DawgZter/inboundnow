@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/sri-lanka/taxes",
+  "sourceURL": "https://remote.com/country-explorer/sri-lanka/taxes",
+  "finalURL": "https://remote.com/country-explorer/sri-lanka/taxes",
+  "title": "Manage Payroll Tax in Sri Lanka | Tax Compliance",
+  "description": "Manage payroll taxes in Sri Lanka effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258668,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/922e63ede9109a6f-country-explorer-sri-lanka-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/922e63ede9109a6f-country-explorer-sri-lanka-taxes.direct.json",
+  "markdownChars": 993,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:04:30.301Z"
+}

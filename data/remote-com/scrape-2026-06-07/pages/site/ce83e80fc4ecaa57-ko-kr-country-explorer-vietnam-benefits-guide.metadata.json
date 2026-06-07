@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/vietnam/benefits-guide",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/vietnam/benefits-guide",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/vietnam/benefits-guide",
+  "title": "베트남에서의 직원 복리후생 | Remote 복리후생 플랜",
+  "description": "베트남에서의 필수적인 직원 복리후생을 확인하고, 건강보험, 유급 휴가 및 기타 혜택이 우수 인재를 유치하고 유지하는 데 어떤 역할을 하는지 설명합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270481,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce83e80fc4ecaa57-ko-kr-country-explorer-vietnam-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce83e80fc4ecaa57-ko-kr-country-explorer-vietnam-benefits-guide.direct.json",
+  "markdownChars": 804,
+  "linksCount": 123,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:07:53.341Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/thailand/types-of-leave",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/thailand/types-of-leave",
+  "finalURL": "https://remote.com/en-sg/country-explorer/thailand/types-of-leave",
+  "title": "Types of Leave in Thailand | Employee Leave Laws",
+  "description": "Understand employee leave laws in Thailand. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261750,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c01fb5e0e7fffb55-en-sg-country-explorer-thailand-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c01fb5e0e7fffb55-en-sg-country-explorer-thailand-types-of-leave.direct.json",
+  "markdownChars": 3336,
+  "linksCount": 125,
+  "lastmod": "2026-01-08",
+  "scrapedAt": "2026-06-07T09:16:35.639Z"
+}

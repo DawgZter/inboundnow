@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-administrateur-juridique",
+  "sourceURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-administrateur-juridique",
+  "finalURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-administrateur-juridique",
+  "title": "Description du poste d'administrateur juridique",
+  "description": "Examinez la description de poste d'un administrateur juridique, chargé de gérer la documentation juridique, d'assister les avocats et d'assurer le bon fonctionnement du service juridique.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263150,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/97afce59a126b51d-fr-ch-ressources-descriptions-postes-description-poste-administrateur-juridique.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/97afce59a126b51d-fr-ch-ressources-descriptions-postes-description-poste-administrateur-juridique.direct.json",
+  "markdownChars": 4627,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:09:15.871Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/somalia",
+  "sourceURL": "https://remote.com/en-za/country-explorer/somalia",
+  "finalURL": "https://remote.com/en-za/country-explorer/somalia",
+  "title": "Employer of Record & Payroll Services | Somalia",
+  "description": "Hiring employees and contractors in Somalia? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 308868,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d1a4db5874ec6520-en-za-country-explorer-somalia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d1a4db5874ec6520-en-za-country-explorer-somalia.direct.json",
+  "markdownChars": 3159,
+  "linksCount": 117,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:02:02.027Z"
+}

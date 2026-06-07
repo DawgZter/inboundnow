@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/malta/belastingen",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/malta/belastingen",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/malta/belastingen",
+  "title": "Loonheffingen in Malta beheren | Tax Compliance",
+  "description": "Beheer effectief en compliant payroll-belasting in Malta. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263679,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cee09c1c9b5cfd28-nl-nl-landenverkenner-malta-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cee09c1c9b5cfd28-nl-nl-landenverkenner-malta-belastingen.direct.json",
+  "markdownChars": 1164,
+  "linksCount": 123,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:15:54.908Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/barbados/contractor-management",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/barbados/contractor-management",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/barbados/contractor-management",
+  "title": "在巴巴多斯管理合同工 | 合同工管理",
+  "description": "在巴巴多斯雇佣合同工？使用灵活的合同工管理服务，帮助贵公司轻松管理并向全球合同工付款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254678,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/de2477b90b46bf95-zh-cn-country-explorer-barbados-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/de2477b90b46bf95-zh-cn-country-explorer-barbados-contractor-management.direct.json",
+  "markdownChars": 1119,
+  "linksCount": 115,
+  "lastmod": "2025-12-22",
+  "scrapedAt": "2026-06-07T09:00:59.919Z"
+}

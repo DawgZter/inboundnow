@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/frontlohn",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/frontlohn",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/frontlohn",
+  "title": "Frontlohn",
+  "description": "Front Pay entschädigt US-Arbeitnehmer für zukünftige Einkommensverluste nach einer rechtswidrigen Kündigung. Erfahren Sie, wann es zur Anwendung kommt und wie Arbeitgeber rechtliche Risiken minimieren können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253941,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c65e423209981d8-de-at-ressourcen-hr-glossar-frontlohn.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c65e423209981d8-de-at-ressourcen-hr-glossar-frontlohn.direct.json",
+  "markdownChars": 3928,
+  "linksCount": 123,
+  "lastmod": "2025-07-21",
+  "scrapedAt": "2026-06-07T09:08:26.177Z"
+}

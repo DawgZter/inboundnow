@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/1096-form",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/1096-form",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/1096-form",
+  "title": "Formulaire 1096",
+  "description": "Learn how IRS Form 1096 works, what it's used for, and what businesses need to know to file it correctly and stay compliant.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257133,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/571755d54907930c-fr-fr-ressources-glossaire-rh-1096-form.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/571755d54907930c-fr-fr-ressources-glossaire-rh-1096-form.direct.json",
+  "markdownChars": 5215,
+  "linksCount": 121,
+  "lastmod": "2025-07-17",
+  "scrapedAt": "2026-06-07T09:16:31.845Z"
+}

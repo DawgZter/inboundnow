@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/descriptions-postes/assistant-executif",
+  "sourceURL": "https://remote.com/fr-fr/ressources/descriptions-postes/assistant-executif",
+  "finalURL": "https://remote.com/fr-fr/ressources/descriptions-postes/assistant-executif",
+  "title": "Description du poste d'assistant de direction",
+  "description": "​​Adaptable job description template for employing an executive assistant. Define key duties, skills, and career paths to attract your next top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265294,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5b4494bf72392a7f-fr-fr-ressources-descriptions-postes-assistant-executif.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5b4494bf72392a7f-fr-fr-ressources-descriptions-postes-assistant-executif.direct.json",
+  "markdownChars": 5048,
+  "linksCount": 114,
+  "lastmod": "2025-07-23",
+  "scrapedAt": "2026-06-07T09:01:17.709Z"
+}

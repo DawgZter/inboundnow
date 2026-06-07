@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/events/horizon-summit-2025",
+  "sourceURL": "https://remote.com/en-in/events/horizon-summit-2025",
+  "finalURL": "https://remote.com/en-in/events/horizon-summit-2025",
+  "title": "Event Horizon Summit 2025",
+  "description": "Join Remote at Horizon Summit, the CHRO and HR leaders' event in Amsterdam",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 267135,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c4dff9f62526508d-en-in-events-horizon-summit-2025.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c4dff9f62526508d-en-in-events-horizon-summit-2025.direct.json",
+  "markdownChars": 950,
+  "linksCount": 106,
+  "lastmod": "2025-10-31",
+  "scrapedAt": "2026-06-07T09:10:42.013Z"
+}

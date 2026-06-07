@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/nauru",
+  "sourceURL": "https://remote.com/country-explorer/nauru",
+  "finalURL": "https://remote.com/country-explorer/nauru",
+  "title": "Employer of Record & Payroll Services | Nauru",
+  "description": "Hiring employees and contractors in Nauru? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 308200,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/62988292a4e1d843-country-explorer-nauru.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/62988292a4e1d843-country-explorer-nauru.direct.json",
+  "markdownChars": 3075,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:04:57.984Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/ecuador/benefits-guide",
+  "sourceURL": "https://remote.com/country-explorer/ecuador/benefits-guide",
+  "finalURL": "https://remote.com/country-explorer/ecuador/benefits-guide",
+  "title": "Employee Benefits in Ecuador | Benefits Plans",
+  "description": "Discover the essential employee benefits in Ecuador. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 272120,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c342fd6455ce71f8-country-explorer-ecuador-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c342fd6455ce71f8-country-explorer-ecuador-benefits-guide.direct.json",
+  "markdownChars": 1445,
+  "linksCount": 125,
+  "lastmod": "2025-05-17",
+  "scrapedAt": "2026-06-07T09:01:44.015Z"
+}

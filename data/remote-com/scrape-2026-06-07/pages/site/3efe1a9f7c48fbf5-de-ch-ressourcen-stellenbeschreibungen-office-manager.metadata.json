@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/office-manager",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/office-manager",
+  "finalURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/office-manager",
+  "title": "Stellenbeschreibung Büroleiter",
+  "description": "​​Adaptable job description template for employing an office manager. Define key duties, skills, and career paths to attract top product talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261065,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3efe1a9f7c48fbf5-de-ch-ressourcen-stellenbeschreibungen-office-manager.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3efe1a9f7c48fbf5-de-ch-ressourcen-stellenbeschreibungen-office-manager.direct.json",
+  "markdownChars": 5057,
+  "linksCount": 116,
+  "lastmod": "2025-07-17",
+  "scrapedAt": "2026-06-07T09:02:17.754Z"
+}

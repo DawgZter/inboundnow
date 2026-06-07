@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/saudi-arabia/benefits-guide/health-benefits-1",
+  "sourceURL": "https://remote.com/country-explorer/saudi-arabia/benefits-guide/health-benefits-1",
+  "finalURL": "https://remote.com/country-explorer/saudi-arabia/benefits-guide/health-benefits-1",
+  "title": "Health Benefits in Saudi Arabia | Wellbeing Support",
+  "description": "Support your team with Health benefits in Saudi Arabia.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263467,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3648bed522e279a0-country-explorer-saudi-arabia-benefits-guide-health-benefits-1.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3648bed522e279a0-country-explorer-saudi-arabia-benefits-guide-health-benefits-1.direct.json",
+  "markdownChars": 2578,
+  "linksCount": 116,
+  "lastmod": "2026-04-27",
+  "scrapedAt": "2026-06-07T09:08:10.866Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/checklists-templates/payroll-reporting-template",
+  "sourceURL": "https://remote.com/ja-jp/resources/checklists-templates/payroll-reporting-template",
+  "finalURL": "https://remote.com/ja-jp/resources/checklists-templates/payroll-reporting-template",
+  "title": "給与レポートテンプレート | Remote",
+  "description": "Run compliant US payroll reports with this on-page template — no downloads required. Includes tax breakdowns, employee registers, and filing checklists.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254593,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b2acd7ba4a96f1ac-ja-jp-resources-checklists-templates-payroll-reporting-template.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b2acd7ba4a96f1ac-ja-jp-resources-checklists-templates-payroll-reporting-template.direct.json",
+  "markdownChars": 2311,
+  "linksCount": 117,
+  "lastmod": "2025-07-23",
+  "scrapedAt": "2026-06-07T09:01:21.164Z"
+}

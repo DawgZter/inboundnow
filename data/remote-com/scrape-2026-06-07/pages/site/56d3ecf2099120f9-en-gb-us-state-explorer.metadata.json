@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer",
+  "title": "Hire Globally: U.S. State Guides for Compliance",
+  "description": "Hire, pay, and manage your global workforce seamlessly. Stay compliant with local employment laws while scaling your business internationally. Explore our U.S. State hiring guides to get started.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 603393,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56d3ecf2099120f9-en-gb-us-state-explorer.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56d3ecf2099120f9-en-gb-us-state-explorer.direct.json",
+  "markdownChars": 11900,
+  "linksCount": 154,
+  "lastmod": "2025-05-06",
+  "scrapedAt": "2026-06-07T09:17:31.348Z"
+}

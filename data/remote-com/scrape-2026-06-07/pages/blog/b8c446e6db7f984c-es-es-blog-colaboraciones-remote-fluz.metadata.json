@@ -1,0 +1,18 @@
+{
+  "category": "blog",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/blog/colaboraciones/remote-fluz",
+  "sourceURL": "https://remote.com/es-es/blog/colaboraciones/remote-fluz",
+  "finalURL": "https://remote.com/es-es/blog/colaboraciones/remote-fluz",
+  "title": "Fluz optimiza la plataforma de gestión de autónomos de Remote para convertirla en una potente aplicación financiera",
+  "description": "Para hacer crecer su producto y llegar más lejos, Fluz necesita el mejor talento en fintech del mundo. Por eso confía en Remote para apoyar y ampliar su personal global.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261312,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/b8c446e6db7f984c-es-es-blog-colaboraciones-remote-fluz.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/b8c446e6db7f984c-es-es-blog-colaboraciones-remote-fluz.direct.json",
+  "markdownChars": 9614,
+  "linksCount": 111,
+  "lastmod": "2026-05-11",
+  "scrapedAt": "2026-06-07T09:00:57.321Z"
+}

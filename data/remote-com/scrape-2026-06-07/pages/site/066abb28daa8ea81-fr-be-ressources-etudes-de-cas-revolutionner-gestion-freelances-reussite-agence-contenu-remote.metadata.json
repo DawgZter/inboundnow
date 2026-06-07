@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/etudes-de-cas/revolutionner-gestion-freelances-reussite-agence-contenu-remote",
+  "sourceURL": "https://remote.com/fr-be/ressources/etudes-de-cas/revolutionner-gestion-freelances-reussite-agence-contenu-remote",
+  "finalURL": "https://remote.com/fr-be/ressources/etudes-de-cas/revolutionner-gestion-freelances-reussite-agence-contenu-remote",
+  "title": "Révolutionner la gestion des freelances : la réussite d'une agence de contenu avec Remote",
+  "description": "Découvrez comment cette agence de contenu internationale a optimisé ses processus administratifs et renforcé son contrôle financier avec Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264428,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/066abb28daa8ea81-fr-be-ressources-etudes-de-cas-revolutionner-gestion-freelances-reussite-agence-contenu-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/066abb28daa8ea81-fr-be-ressources-etudes-de-cas-revolutionner-gestion-freelances-reussite-agence-contenu-remote.direct.json",
+  "markdownChars": 7203,
+  "linksCount": 114,
+  "lastmod": "2025-06-25",
+  "scrapedAt": "2026-06-07T09:18:23.002Z"
+}

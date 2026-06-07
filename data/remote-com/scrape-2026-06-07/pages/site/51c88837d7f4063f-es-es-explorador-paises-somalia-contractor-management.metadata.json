@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/somalia/contractor-management",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/somalia/contractor-management",
+  "finalURL": "https://remote.com/es-es/explorador-paises/somalia/contractor-management",
+  "title": "Gestiona trabajadores autónomos en Somalia | Gestión de trabajadores autónomos",
+  "description": "¿Vas a contratar a un trabajador autónomo en Somalia? Gestiona y paga a tus trabajadores autónomos globales sin complicaciones con nuestros servicios flexibles de Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258192,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/51c88837d7f4063f-es-es-explorador-paises-somalia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/51c88837d7f4063f-es-es-explorador-paises-somalia-contractor-management.direct.json",
+  "markdownChars": 2635,
+  "linksCount": 116,
+  "lastmod": "2025-10-31",
+  "scrapedAt": "2026-06-07T09:09:10.223Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/islande",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/islande",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/islande",
+  "title": "Employer of record et services de gestion de la paie | Islande",
+  "description": "Recruter des employés et des freelances : Islande Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 347683,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cb2222f5e638018c-fr-be-explorateur-de-pays-islande.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cb2222f5e638018c-fr-be-explorateur-de-pays-islande.direct.json",
+  "markdownChars": 7217,
+  "linksCount": 125,
+  "lastmod": "2025-10-07",
+  "scrapedAt": "2026-06-07T09:13:38.386Z"
+}

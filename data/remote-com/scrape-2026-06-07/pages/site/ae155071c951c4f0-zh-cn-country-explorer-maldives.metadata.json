@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/maldives",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/maldives",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/maldives",
+  "title": "第三方雇佣托管服务与薪资服务 | 马尔代夫",
+  "description": "在马尔代夫雇用员工和合同工时，Remote 可通过一体化全球 HR 平台协助管理。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 307394,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae155071c951c4f0-zh-cn-country-explorer-maldives.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae155071c951c4f0-zh-cn-country-explorer-maldives.direct.json",
+  "markdownChars": 1284,
+  "linksCount": 116,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:16:34.215Z"
+}

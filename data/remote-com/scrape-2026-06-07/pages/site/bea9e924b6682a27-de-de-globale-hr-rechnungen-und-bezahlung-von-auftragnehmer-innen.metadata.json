@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/globale-hr/rechnungen-und-bezahlung-von-auftragnehmer-innen",
+  "sourceURL": "https://remote.com/de-de/globale-hr/rechnungen-und-bezahlung-von-auftragnehmer-innen",
+  "finalURL": "https://remote.com/de-de/globale-hr/rechnungen-und-bezahlung-von-auftragnehmer-innen",
+  "title": "Rechnungen und Bezahlung von Auftragnehmer:innen",
+  "description": "Du verlierst den Überblick über die Rechnungen deiner Auftragnehmer:innen? Spare Zeit und Mühe durch die Planung von Zahlungen inklusive Echtzeit-Überwachung – ganz egal, mit wie vielen Auftragnehmer:innen du zusammenarbeitest.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 345119,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bea9e924b6682a27-de-de-globale-hr-rechnungen-und-bezahlung-von-auftragnehmer-innen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bea9e924b6682a27-de-de-globale-hr-rechnungen-und-bezahlung-von-auftragnehmer-innen.direct.json",
+  "markdownChars": 6565,
+  "linksCount": 119,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:17:45.151Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/werkvergunning",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/werkvergunning",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/werkvergunning",
+  "title": "What is a work permit?",
+  "description": "Meer informatie over werkvergunningen en waarom HR-managers moeten voldoen aan lokale immigratiewetten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251832,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/39fd48e03914a53e-nl-be-bronnen-hr-woordenlijst-werkvergunning.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/39fd48e03914a53e-nl-be-bronnen-hr-woordenlijst-werkvergunning.direct.json",
+  "markdownChars": 5445,
+  "linksCount": 128,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:10:39.462Z"
+}

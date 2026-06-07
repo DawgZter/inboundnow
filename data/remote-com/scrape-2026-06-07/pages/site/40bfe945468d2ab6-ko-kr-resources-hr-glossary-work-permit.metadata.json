@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/work-permit",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/work-permit",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/work-permit",
+  "title": "취업 허가란 무엇인가요?",
+  "description": "취업허가가 무엇이며, 인재를 채용하면서 현지 이민법을 준수하는 것이 왜 중요한지 자세히 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256749,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40bfe945468d2ab6-ko-kr-resources-hr-glossary-work-permit.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40bfe945468d2ab6-ko-kr-resources-hr-glossary-work-permit.direct.json",
+  "markdownChars": 2824,
+  "linksCount": 126,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:10:59.033Z"
+}

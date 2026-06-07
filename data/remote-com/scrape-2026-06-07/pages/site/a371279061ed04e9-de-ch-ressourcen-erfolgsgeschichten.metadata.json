@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/erfolgsgeschichten",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/erfolgsgeschichten",
+  "finalURL": "https://remote.com/de-ch/ressourcen/erfolgsgeschichten",
+  "title": "Globale HR-Erfolgsgeschichten von weltweiten Marktführern | Remote",
+  "description": "Zahlreiche Branchenführer haben mit unserer Unterstützung in kürzester Zeit länderübergreifende Teams aus Spitzenfachkräften aufgebaut. Wie genau, erfährst du hier.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 291535,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a371279061ed04e9-de-ch-ressourcen-erfolgsgeschichten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a371279061ed04e9-de-ch-ressourcen-erfolgsgeschichten.direct.json",
+  "markdownChars": 1236,
+  "linksCount": 118,
+  "lastmod": "2025-06-25",
+  "scrapedAt": "2026-06-07T09:02:34.033Z"
+}

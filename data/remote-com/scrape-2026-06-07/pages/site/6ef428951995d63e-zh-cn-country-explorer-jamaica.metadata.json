@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/jamaica",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/jamaica",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/jamaica",
+  "title": "第三方雇佣托管服务与薪资服务 | 牙买加",
+  "description": "在牙买加雇佣员工与合同工？Remote 可通过一体化的全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 336483,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ef428951995d63e-zh-cn-country-explorer-jamaica.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ef428951995d63e-zh-cn-country-explorer-jamaica.direct.json",
+  "markdownChars": 2283,
+  "linksCount": 122,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:16:30.198Z"
+}

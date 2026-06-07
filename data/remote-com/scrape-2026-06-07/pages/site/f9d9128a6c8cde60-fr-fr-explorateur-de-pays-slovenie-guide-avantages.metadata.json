@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/slovenie/guide-avantages",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/slovenie/guide-avantages",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/slovenie/guide-avantages",
+  "title": "Avantages sociaux en Slovénie | Plans d’avantages sociaux",
+  "description": "Découvrez les avantages sociaux essentiels en Slovénie et comment l’assurance maladie, les congés payés et autres avantages peuvent vous aider à attirer et fidéliser les meilleurs talents.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 273690,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f9d9128a6c8cde60-fr-fr-explorateur-de-pays-slovenie-guide-avantages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f9d9128a6c8cde60-fr-fr-explorateur-de-pays-slovenie-guide-avantages.direct.json",
+  "markdownChars": 1787,
+  "linksCount": 122,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:09:53.443Z"
+}

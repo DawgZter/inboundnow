@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/panama/typen-verlof",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/panama/typen-verlof",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/panama/typen-verlof",
+  "title": "Typen verlof in Panama | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Panama. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254767,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/244138eecfdc10e1-nl-be-landenverkenner-panama-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/244138eecfdc10e1-nl-be-landenverkenner-panama-typen-verlof.direct.json",
+  "markdownChars": 1642,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:06:06.739Z"
+}

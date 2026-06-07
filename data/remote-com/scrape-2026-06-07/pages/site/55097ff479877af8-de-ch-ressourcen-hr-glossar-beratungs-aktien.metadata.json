@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/beratungs-aktien",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/beratungs-aktien",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/beratungs-aktien",
+  "title": "What are advisory shares",
+  "description": "In unserem HR-Glossar erfährst du, was Beratungsanteile sind, welche Rolle sie bei der Vergütung von Beratern spielen und wie sie zum strategischen Wachstum und zur Entwicklung eines Unternehmens beitragen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253715,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/55097ff479877af8-de-ch-ressourcen-hr-glossar-beratungs-aktien.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/55097ff479877af8-de-ch-ressourcen-hr-glossar-beratungs-aktien.direct.json",
+  "markdownChars": 3524,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:12:40.090Z"
+}

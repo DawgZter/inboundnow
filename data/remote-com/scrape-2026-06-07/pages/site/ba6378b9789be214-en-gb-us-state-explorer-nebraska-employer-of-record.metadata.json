@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/nebraska/employer-of-record",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/nebraska/employer-of-record",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/nebraska/employer-of-record",
+  "title": "Employer of Record services in Nebraska",
+  "description": "Use employer of record services in Nebraska make hiring, managing, and paying top talent easy. Stay compliant in Nebraska and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258697,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ba6378b9789be214-en-gb-us-state-explorer-nebraska-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ba6378b9789be214-en-gb-us-state-explorer-nebraska-employer-of-record.direct.json",
+  "markdownChars": 3302,
+  "linksCount": 114,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:07:15.590Z"
+}

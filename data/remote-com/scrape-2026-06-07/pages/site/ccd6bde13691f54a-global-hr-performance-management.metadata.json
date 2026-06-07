@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/global-hr/performance-management",
+  "sourceURL": "https://remote.com/global-hr/performance-management",
+  "finalURL": "https://remote.com/global-hr",
+  "title": "Global HR Services to open up a world of talent | Remote",
+  "description": "Remote’s all-in-one global HR software makes it easy for businesses of any size to employ internationally with speed, security, and compliance.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 469112,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ccd6bde13691f54a-global-hr-performance-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ccd6bde13691f54a-global-hr-performance-management.direct.json",
+  "markdownChars": 19923,
+  "linksCount": 124,
+  "lastmod": "2025-09-18",
+  "scrapedAt": "2026-06-07T09:01:57.128Z"
+}

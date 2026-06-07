@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/costa-rica",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/costa-rica",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/costa-rica",
+  "title": "Employer of Record (EOR) と給与処理サービス | コスタリカ",
+  "description": "コスタリカで従業員や契約社員を採用しますか？Remoteは統合されたグローバルHRプラットフォームで、従業員および契約社員の管理を支援します。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 344214,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fef9f6975b1db93c-ja-jp-country-explorer-costa-rica.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fef9f6975b1db93c-ja-jp-country-explorer-costa-rica.direct.json",
+  "markdownChars": 3259,
+  "linksCount": 123,
+  "lastmod": "2026-01-22",
+  "scrapedAt": "2026-06-07T09:10:30.995Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/payroll-cycle",
+  "sourceURL": "https://remote.com/resources/hr-glossary/payroll-cycle",
+  "finalURL": "https://remote.com/resources/hr-glossary/payroll-cycle",
+  "title": "What Is a pay cycle",
+  "description": "Learn more about what a pay cycle is and the types of payroll cycles",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253202,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b9eff7279a236153-resources-hr-glossary-payroll-cycle.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b9eff7279a236153-resources-hr-glossary-payroll-cycle.direct.json",
+  "markdownChars": 5433,
+  "linksCount": 119,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:11:39.521Z"
+}

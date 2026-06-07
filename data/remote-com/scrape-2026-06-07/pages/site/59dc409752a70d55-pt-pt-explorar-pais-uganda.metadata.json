@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/uganda",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/uganda",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/uganda",
+  "title": "Employer of Record (EOR) e processamento salarial | Uganda",
+  "description": "Queres contratar trabalhadores e independentes no Uganda? A Remote ajuda-te a gerir a tua equipa através da nossa plataforma global de RH.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 236061,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/59dc409752a70d55-pt-pt-explorar-pais-uganda.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/59dc409752a70d55-pt-pt-explorar-pais-uganda.direct.json",
+  "markdownChars": 6358,
+  "linksCount": 45,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:19:00.460Z"
+}

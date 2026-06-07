@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/provisionszahlung",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/provisionszahlung",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/provisionszahlung",
+  "title": "What is commission pay and how does it work?",
+  "description": "Verstehe, was eine Provisionsvergütung ist, wie sie genau funktioniert und wann es eine gute Idee ist, sie deinen Beschäftigten anzubieten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254496,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/34a23f87412591ad-de-ch-ressourcen-hr-glossar-provisionszahlung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/34a23f87412591ad-de-ch-ressourcen-hr-glossar-provisionszahlung.direct.json",
+  "markdownChars": 4405,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:02.546Z"
+}

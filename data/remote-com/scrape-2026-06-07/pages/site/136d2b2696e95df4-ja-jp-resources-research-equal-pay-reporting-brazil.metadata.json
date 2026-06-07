@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/research/equal-pay-reporting-brazil",
+  "sourceURL": "https://remote.com/ja-jp/resources/research/equal-pay-reporting-brazil",
+  "finalURL": "https://remote.com/ja-jp/resources/research/equal-pay-reporting-brazil",
+  "title": "ブラジル：ジェンダー賃金格差に関するレポートと考察 | Remote",
+  "description": "Remoteは、ブラジルの雇用主記録（EOR）として、報酬の透明性と公平性の促進に全力を傾け、ペイ・エクイティ（同一価値労働同一賃金）のベストプラクティス採用にあたってお客様をサポートします。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 246928,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/136d2b2696e95df4-ja-jp-resources-research-equal-pay-reporting-brazil.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/136d2b2696e95df4-ja-jp-resources-research-equal-pay-reporting-brazil.direct.json",
+  "markdownChars": 500,
+  "linksCount": 113,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:12:47.390Z"
+}

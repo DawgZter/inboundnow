@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/remote-speed-affiliate",
+  "sourceURL": "https://remote.com/en-nz/remote-speed-affiliate",
+  "finalURL": "https://remote.com/en-nz/remote-speed-affiliate",
+  "title": "Global HR Solutions & Employment Tools for Distributed Teams | Remote",
+  "description": "Remote is your one-stop solution for hiring talent in any country, helping growing businesses employ top talent from around the world. Our payroll, benefits, taxes, and compliance solution allows companies to access and empower a global workforce.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 284810,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4ebb7e6b50a23b56-en-nz-remote-speed-affiliate.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4ebb7e6b50a23b56-en-nz-remote-speed-affiliate.direct.json",
+  "markdownChars": 3876,
+  "linksCount": 105,
+  "lastmod": "2025-07-01",
+  "scrapedAt": "2026-06-07T09:17:49.466Z"
+}

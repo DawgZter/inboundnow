@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/global-hr/expense-management",
+  "sourceURL": "https://remote.com/ja-jp/global-hr/expense-management",
+  "finalURL": "https://remote.com/ja-jp/global-hr/expense-management",
+  "title": "経費管理ソフトウェア | Remote",
+  "description": "RemoteのグローバルHRプラットフォーム上の経費管理ソフトウェアで、コストを合理化。財務管理を効率化するソリューションです。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 305799,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/764d45d4ce3b0aa3-ja-jp-global-hr-expense-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/764d45d4ce3b0aa3-ja-jp-global-hr-expense-management.direct.json",
+  "markdownChars": 1630,
+  "linksCount": 117,
+  "lastmod": "2025-04-23",
+  "scrapedAt": "2026-06-07T09:02:52.137Z"
+}

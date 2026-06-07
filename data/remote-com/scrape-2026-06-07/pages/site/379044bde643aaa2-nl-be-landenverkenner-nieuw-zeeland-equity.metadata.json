@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/nieuw-zeeland/equity",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/nieuw-zeeland/equity",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/nieuw-zeeland/equity",
+  "title": "Aandelenopties voor werknemers in Nieuw-Zeeland",
+  "description": "Ontdek de specifieke regels voor aandelen en aandelenopties in Nieuw-Zeeland. Neem weloverwogen beslissingen over wereldwijde beloning met Remote’s Country Explorer.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258319,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/379044bde643aaa2-nl-be-landenverkenner-nieuw-zeeland-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/379044bde643aaa2-nl-be-landenverkenner-nieuw-zeeland-equity.direct.json",
+  "markdownChars": 4385,
+  "linksCount": 128,
+  "lastmod": "2025-12-15",
+  "scrapedAt": "2026-06-07T09:08:36.611Z"
+}

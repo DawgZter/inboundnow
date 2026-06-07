@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/georgia",
+  "sourceURL": "https://remote.com/en-au/country-explorer/georgia",
+  "finalURL": "https://remote.com/en-au/country-explorer/georgia",
+  "title": "Employer of Record & Payroll Services | Georgia",
+  "description": "Hiring employees and contractors in Georgia? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 346296,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d9e76012b6d1905d-en-au-country-explorer-georgia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d9e76012b6d1905d-en-au-country-explorer-georgia.direct.json",
+  "markdownChars": 7077,
+  "linksCount": 127,
+  "lastmod": "2026-05-27",
+  "scrapedAt": "2026-06-07T09:15:56.409Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/armenia",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/armenia",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/armenia",
+  "title": "Employer of Record (EOR) e processamento salarial | Arménia",
+  "description": "Queres contratar trabalhadores e independentes na Arménia? A Remote ajuda-te a gerir a tua equipa através da nossa plataforma global de RH integrada.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 237980,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e5880cc5ad69c0c3-pt-pt-explorar-pais-armenia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e5880cc5ad69c0c3-pt-pt-explorar-pais-armenia.direct.json",
+  "markdownChars": 6663,
+  "linksCount": 45,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:16:37.901Z"
+}

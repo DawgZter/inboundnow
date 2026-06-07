@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/latvia/types-of-leave",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/latvia/types-of-leave",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/latvia/types-of-leave",
+  "title": "ラトビアの休暇の種類 | 従業員の休暇法",
+  "description": "ラトビアの従業員休暇法を理解し、貴社が休暇規定を遵守しつつ競争力のある年次有給休暇を提供できるようにします。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259837,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3d642fae97df8331-ja-jp-country-explorer-latvia-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3d642fae97df8331-ja-jp-country-explorer-latvia-types-of-leave.direct.json",
+  "markdownChars": 928,
+  "linksCount": 122,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:05:59.191Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/costa-davorio",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/costa-davorio",
+  "finalURL": "https://remote.com/it-it/esplora-paese/costa-davorio",
+  "title": "Employer of Record (EOR) e servizi Payroll | Costa d’Avorio",
+  "description": "Assumi personale e collaboratori in Costa d’Avorio? Remote può aiutarti a gestire personale e collaboratori tramite la nostra Piattaforma HR integrata.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 205140,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cce52deb5357f2a7-it-it-esplora-paese-costa-davorio.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cce52deb5357f2a7-it-it-esplora-paese-costa-davorio.direct.json",
+  "markdownChars": 3399,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:02:50.993Z"
+}

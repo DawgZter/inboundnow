@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/united-arab-emirates/benefits-guide",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/united-arab-emirates/benefits-guide",
+  "finalURL": "https://remote.com/en-sg/country-explorer/united-arab-emirates/benefits-guide",
+  "title": "Employee Benefits in United Arab Emirates | Benefits Plans",
+  "description": "Discover the essential employee benefits in United Arab Emirates. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271716,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69b164afb49311e5-en-sg-country-explorer-united-arab-emirates-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69b164afb49311e5-en-sg-country-explorer-united-arab-emirates-benefits-guide.direct.json",
+  "markdownChars": 1487,
+  "linksCount": 125,
+  "lastmod": "2026-05-23",
+  "scrapedAt": "2026-06-07T09:18:32.574Z"
+}

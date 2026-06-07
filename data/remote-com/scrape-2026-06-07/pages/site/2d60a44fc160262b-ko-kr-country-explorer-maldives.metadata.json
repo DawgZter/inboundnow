@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/maldives",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/maldives",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/maldives",
+  "title": "기록상 고용주(EOR) 및 Payroll 서비스 | 몰디브",
+  "description": "몰디브에서 직원과 계약자를 채용하시나요? Remote의 통합 글로벌 HR 플랫폼을 통해 직원과 계약자 관리를 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 310335,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2d60a44fc160262b-ko-kr-country-explorer-maldives.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2d60a44fc160262b-ko-kr-country-explorer-maldives.direct.json",
+  "markdownChars": 1757,
+  "linksCount": 118,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:08:29.567Z"
+}

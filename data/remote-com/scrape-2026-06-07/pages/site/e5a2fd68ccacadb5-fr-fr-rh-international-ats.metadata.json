@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/rh-international/ats",
+  "sourceURL": "https://remote.com/fr-fr/rh-international/ats",
+  "finalURL": "https://remote.com/fr-fr/rh-international/ats",
+  "title": "Système de suivi des candidats (ATS) | Remote",
+  "description": "ATS complet intégré à Remote : gérez candidatures, entretiens IA, offres et onboarding via un workflow unique pour équipes mondiales.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 324009,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e5a2fd68ccacadb5-fr-fr-rh-international-ats.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e5a2fd68ccacadb5-fr-fr-rh-international-ats.direct.json",
+  "markdownChars": 4372,
+  "linksCount": 121,
+  "lastmod": "2026-04-15",
+  "scrapedAt": "2026-06-07T09:10:06.554Z"
+}

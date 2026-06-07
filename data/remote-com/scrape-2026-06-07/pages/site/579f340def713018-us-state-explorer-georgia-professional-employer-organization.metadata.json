@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/georgia/professional-employer-organization",
+  "sourceURL": "https://remote.com/us-state-explorer/georgia/professional-employer-organization",
+  "finalURL": "https://remote.com/us-state-explorer/georgia/professional-employer-organization",
+  "title": "Scale your team with a PEO in Georgia",
+  "description": "Simplify HR and payroll with a PEO in Georgia. Learn how to stay compliant, offer better benefits, and scale your team with confidence.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259042,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/579f340def713018-us-state-explorer-georgia-professional-employer-organization.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/579f340def713018-us-state-explorer-georgia-professional-employer-organization.direct.json",
+  "markdownChars": 3938,
+  "linksCount": 112,
+  "lastmod": "2025-07-21",
+  "scrapedAt": "2026-06-07T09:02:50.109Z"
+}

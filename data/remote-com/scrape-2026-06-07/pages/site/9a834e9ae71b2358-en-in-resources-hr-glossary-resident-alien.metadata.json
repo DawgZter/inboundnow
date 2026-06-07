@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/hr-glossary/resident-alien",
+  "sourceURL": "https://remote.com/en-in/resources/hr-glossary/resident-alien",
+  "finalURL": "https://remote.com/en-in/resources/hr-glossary/resident-alien",
+  "title": "What are resident aliens?",
+  "description": "Understand the legal definition of a resident alien in the US, and learn what you need to take into consideration when hiring one.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255100,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9a834e9ae71b2358-en-in-resources-hr-glossary-resident-alien.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9a834e9ae71b2358-en-in-resources-hr-glossary-resident-alien.direct.json",
+  "markdownChars": 5825,
+  "linksCount": 124,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:48.518Z"
+}

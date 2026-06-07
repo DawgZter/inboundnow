@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-verwaltung-internationale-auftragnehmerinnen",
+  "sourceURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-verwaltung-internationale-auftragnehmerinnen",
+  "finalURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-verwaltung-internationale-auftragnehmerinnen",
+  "title": "Leitfaden für die Verwaltung internationaler Auftragnehmer:innen | Remote",
+  "description": "Erfahre alles über Onboarding, Verwaltung und Bezahlung von ausländischen Auftragnehmer:innen in großem Maßstab. Wir beschreiben die wichtigsten Schritte, um die Vertragserstellung zu vereinfachen, das Scheinselbstständigkeitsrisiko zu reduzieren und deine Auftragnehmer:innen ohne viel Aufwand zu bezahlen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265361,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc83542064b6e426-de-de-ressourcen-forschung-leitfaden-verwaltung-internationale-auftragnehmerinnen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc83542064b6e426-de-de-ressourcen-forschung-leitfaden-verwaltung-internationale-auftragnehmerinnen.direct.json",
+  "markdownChars": 1150,
+  "linksCount": 117,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:01:18.777Z"
+}

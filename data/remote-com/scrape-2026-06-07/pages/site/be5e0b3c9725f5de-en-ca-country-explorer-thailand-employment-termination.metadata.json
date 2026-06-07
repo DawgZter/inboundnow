@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/country-explorer/thailand/employment-termination",
+  "sourceURL": "https://remote.com/en-ca/country-explorer/thailand/employment-termination",
+  "finalURL": "https://remote.com/en-ca/country-explorer/thailand/employment-termination",
+  "title": "Terminate Employees in Thailand | Employment Termination",
+  "description": "Looking to terminate an employee in Thailand? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260346,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/be5e0b3c9725f5de-en-ca-country-explorer-thailand-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/be5e0b3c9725f5de-en-ca-country-explorer-thailand-employment-termination.direct.json",
+  "markdownChars": 1948,
+  "linksCount": 125,
+  "lastmod": "2025-09-24",
+  "scrapedAt": "2026-06-07T09:13:46.155Z"
+}

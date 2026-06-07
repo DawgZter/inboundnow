@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/hr-glossary/holiday-pay-vs-pto",
+  "sourceURL": "https://remote.com/en-gb/resources/hr-glossary/holiday-pay-vs-pto",
+  "finalURL": "https://remote.com/en-gb/resources/hr-glossary/holiday-pay-vs-pto",
+  "title": "Holiday pay vs PTO",
+  "description": "Discover the difference between holiday pay and PTO, and what that means for your employees' benefits packages.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256329,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1496d1f9b5b0ad7-en-gb-resources-hr-glossary-holiday-pay-vs-pto.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1496d1f9b5b0ad7-en-gb-resources-hr-glossary-holiday-pay-vs-pto.direct.json",
+  "markdownChars": 6664,
+  "linksCount": 121,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:13:07.401Z"
+}

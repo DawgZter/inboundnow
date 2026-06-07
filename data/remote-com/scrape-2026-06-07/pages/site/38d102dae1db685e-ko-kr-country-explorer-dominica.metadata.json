@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/dominica",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/dominica",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/dominica",
+  "title": "기록상 고용주(EOR) 및 Payroll 서비스 | 도미니카",
+  "description": "도미니카에서 직원과 계약자를 채용하나요? Remote는 통합 글로벌 HR 플랫폼을 통해 직원과 계약자의 채용 및 관리를 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 320648,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/38d102dae1db685e-ko-kr-country-explorer-dominica.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/38d102dae1db685e-ko-kr-country-explorer-dominica.direct.json",
+  "markdownChars": 2463,
+  "linksCount": 118,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:01:55.040Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/hr-glossary/corporate-social-responsibility",
+  "sourceURL": "https://remote.com/en-in/resources/hr-glossary/corporate-social-responsibility",
+  "finalURL": "https://remote.com/en-in/resources/hr-glossary/corporate-social-responsibility",
+  "title": "What is corporate social responsibility?",
+  "description": "Discover more about corporate social responsibility (CSR), and the environmental, ethical, philanthropic, and economic obligations of corporations.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260440,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e9c791f465226a37-en-in-resources-hr-glossary-corporate-social-responsibility.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e9c791f465226a37-en-in-resources-hr-glossary-corporate-social-responsibility.direct.json",
+  "markdownChars": 9759,
+  "linksCount": 122,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:02:51.663Z"
+}

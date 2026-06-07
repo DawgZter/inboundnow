@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/hr-glossary/w-2-form",
+  "sourceURL": "https://remote.com/en-ca/resources/hr-glossary/w-2-form",
+  "finalURL": "https://remote.com/en-ca/resources/hr-glossary/w-2-form",
+  "title": "Form W-2",
+  "description": "Understand the meaning of a W-2 form, its purpose for employees and employers, and key considerations for accurate, timely filing.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253446,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/70a2bf877bddac39-en-ca-resources-hr-glossary-w-2-form.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/70a2bf877bddac39-en-ca-resources-hr-glossary-w-2-form.direct.json",
+  "markdownChars": 3786,
+  "linksCount": 118,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:09:15.676Z"
+}

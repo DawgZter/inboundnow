@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/el-salvador/employment-termination",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/el-salvador/employment-termination",
+  "finalURL": "https://remote.com/en-ph/country-explorer/el-salvador/employment-termination",
+  "title": "Terminate Employees in El Salvador | Employment Termination",
+  "description": "Looking to terminate an employee in El Salvador? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258388,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/73682cfd41db0631-en-ph-country-explorer-el-salvador-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/73682cfd41db0631-en-ph-country-explorer-el-salvador-employment-termination.direct.json",
+  "markdownChars": 1425,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:17:44.681Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/global-hr/salary-explorer",
+  "sourceURL": "https://remote.com/global-hr/salary-explorer",
+  "finalURL": "https://remote.com/global-hr/salary-explorer",
+  "title": "Salary Explorer: Navigate global pay with ease | Remote",
+  "description": "Remote’s Salary Explorer allows you to explore salary insights for various job roles in different countries around the globe.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 341479,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b50273dbc5184eac-global-hr-salary-explorer.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b50273dbc5184eac-global-hr-salary-explorer.direct.json",
+  "markdownChars": 8298,
+  "linksCount": 116,
+  "lastmod": "2025-08-15",
+  "scrapedAt": "2026-06-07T09:15:46.966Z"
+}

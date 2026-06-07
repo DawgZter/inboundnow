@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/united-arab-emirates/benefits-guide",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/united-arab-emirates/benefits-guide",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/united-arab-emirates/benefits-guide",
+  "title": "阿拉伯联合酋长国的员工福利 | 福利计划",
+  "description": "아랍에미리트에서의 필수 직원 복리후생을 확인하고, 건강보험·유급 휴가 및 인재를 유치하고 유지하는 데 필요한 기타 혜택을 안내합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271037,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f10d7b2179911885-ko-kr-country-explorer-united-arab-emirates-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f10d7b2179911885-ko-kr-country-explorer-united-arab-emirates-benefits-guide.direct.json",
+  "markdownChars": 687,
+  "linksCount": 123,
+  "lastmod": "2026-05-24",
+  "scrapedAt": "2026-06-07T09:01:57.330Z"
+}

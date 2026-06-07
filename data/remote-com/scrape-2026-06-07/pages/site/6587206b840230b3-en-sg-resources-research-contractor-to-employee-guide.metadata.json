@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/research/contractor-to-employee-guide",
+  "sourceURL": "https://remote.com/en-sg/resources/research/contractor-to-employee-guide",
+  "finalURL": "https://remote.com/en-sg/resources/research/contractor-to-employee-guide",
+  "title": "Guide to converting contractors into employees | Remote",
+  "description": "Read Remote’s guide to converting contractors into full-time employees and learn how to make locally competitive offers that maintain pay equity with your global team.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 274997,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6587206b840230b3-en-sg-resources-research-contractor-to-employee-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6587206b840230b3-en-sg-resources-research-contractor-to-employee-guide.direct.json",
+  "markdownChars": 1406,
+  "linksCount": 110,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:09:41.279Z"
+}

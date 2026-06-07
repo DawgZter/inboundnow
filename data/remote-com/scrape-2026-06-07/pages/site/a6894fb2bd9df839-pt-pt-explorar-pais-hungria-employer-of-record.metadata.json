@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/hungria/employer-of-record",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/hungria/employer-of-record",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/hungria/employer-of-record",
+  "title": "Employer of Record (EOR) e processamento salarial | Hungria",
+  "description": "Simplifica a contratação na Hungria com o nosso Employer of Record (EOR). Gere o processamento salarial, os benefícios e a conformidade da tua equipa sem complicações.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155563,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6894fb2bd9df839-pt-pt-explorar-pais-hungria-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6894fb2bd9df839-pt-pt-explorar-pais-hungria-employer-of-record.direct.json",
+  "markdownChars": 3579,
+  "linksCount": 44,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:10:45.140Z"
+}

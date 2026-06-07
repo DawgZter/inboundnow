@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/us-state-explorer/louisiana/employment-termination",
+  "sourceURL": "https://remote.com/en-ph/us-state-explorer/louisiana/employment-termination",
+  "finalURL": "https://remote.com/en-ph/us-state-explorer/louisiana/employment-termination",
+  "title": "Terminate Employees in Louisiana | Employment Termination",
+  "description": "Looking to terminate an employee in Louisiana? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256428,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/38dc90698ab29e13-en-ph-us-state-explorer-louisiana-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/38dc90698ab29e13-en-ph-us-state-explorer-louisiana-employment-termination.direct.json",
+  "markdownChars": 1718,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:01:49.452Z"
+}

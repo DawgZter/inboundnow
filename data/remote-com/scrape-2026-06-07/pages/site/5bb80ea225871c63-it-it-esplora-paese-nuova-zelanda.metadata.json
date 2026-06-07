@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/nuova-zelanda",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/nuova-zelanda",
+  "finalURL": "https://remote.com/it-it/esplora-paese/nuova-zelanda",
+  "title": "Servizi Employer of Record (EOR) e Payroll | Nuova Zelanda",
+  "description": "Vuoi assumere personale e collaboratori autonomi in Nuova Zelanda? Remote può aiutarti a gestire personale e collaboratori autonomi tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 238521,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5bb80ea225871c63-it-it-esplora-paese-nuova-zelanda.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5bb80ea225871c63-it-it-esplora-paese-nuova-zelanda.direct.json",
+  "markdownChars": 7011,
+  "linksCount": 47,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:01:09.078Z"
+}

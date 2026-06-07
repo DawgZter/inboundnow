@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/informe-nomina",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/informe-nomina",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/informe-nomina",
+  "title": "Informe de nóminas",
+  "description": "Explora nuestro completo glosario de RRHH para comprender el concepto de informe de nóminas, su importancia en la empresa y cómo afecta a la gestión de los empleados y a la planificación financiera.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254678,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/45f79be51ad8563b-es-es-recursos-glosario-rrhh-informe-nomina.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/45f79be51ad8563b-es-es-recursos-glosario-rrhh-informe-nomina.direct.json",
+  "markdownChars": 3121,
+  "linksCount": 120,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:02:52.453Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/svezia/piani-azionari",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/svezia/piani-azionari",
+  "finalURL": "https://remote.com/it-it/esplora-paese/svezia/piani-azionari",
+  "title": "Stock option per il personale in Svezia",
+  "description": "Scopri le normative specifiche in Svezia su equity e stock option per il personale. Prendi decisioni informate sui compensi internazionali con Remote Explorer.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 156151,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/969efc55cffb5ff5-it-it-esplora-paese-svezia-piani-azionari.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/969efc55cffb5ff5-it-it-esplora-paese-svezia-piani-azionari.direct.json",
+  "markdownChars": 3908,
+  "linksCount": 47,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:10:51.975Z"
+}

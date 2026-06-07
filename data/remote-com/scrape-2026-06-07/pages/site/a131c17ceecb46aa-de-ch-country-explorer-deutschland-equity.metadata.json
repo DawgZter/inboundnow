@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/deutschland/equity",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/deutschland/equity",
+  "finalURL": "https://remote.com/de-ch/country-explorer/deutschland/equity",
+  "title": "Aktienoptionen für Mitarbeiter:innen in Deutschland",
+  "description": "Entdecke länderspezifische Regeln für Aktienbeteiligungen und Aktienoptionen in Deutschland. Triff fundierte Entscheidungen zur globalen Vergütung mit dem Country Explorer von Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262390,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a131c17ceecb46aa-de-ch-country-explorer-deutschland-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a131c17ceecb46aa-de-ch-country-explorer-deutschland-equity.direct.json",
+  "markdownChars": 5196,
+  "linksCount": 126,
+  "lastmod": "2025-12-01",
+  "scrapedAt": "2026-06-07T09:05:27.009Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/comoros/contractor-management",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/comoros/contractor-management",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/comoros/contractor-management",
+  "title": "コモロでの契約者管理 | 契約社員管理",
+  "description": "コモロで契約者を採用する場合、当社の柔軟な契約社員管理サービスで世界中の契約者を簡単に管理・支払いできます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256636,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ad499e0519bb9b0d-ja-jp-country-explorer-comoros-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ad499e0519bb9b0d-ja-jp-country-explorer-comoros-contractor-management.direct.json",
+  "markdownChars": 988,
+  "linksCount": 117,
+  "lastmod": "2025-10-28",
+  "scrapedAt": "2026-06-07T09:15:43.586Z"
+}

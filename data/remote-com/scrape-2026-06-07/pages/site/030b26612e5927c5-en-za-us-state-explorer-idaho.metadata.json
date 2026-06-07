@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/us-state-explorer/idaho",
+  "sourceURL": "https://remote.com/en-za/us-state-explorer/idaho",
+  "finalURL": "https://remote.com/en-za/us-state-explorer/idaho",
+  "title": "Employer of Record & Payroll Services | Idaho",
+  "description": "Use our compliance guide to employ in Idaho with ease. Learn about benefits, payroll, leave, and other labor laws in The Gem State.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 331385,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/030b26612e5927c5-en-za-us-state-explorer-idaho.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/030b26612e5927c5-en-za-us-state-explorer-idaho.direct.json",
+  "markdownChars": 6848,
+  "linksCount": 114,
+  "lastmod": "2025-05-01",
+  "scrapedAt": "2026-06-07T09:01:30.115Z"
+}

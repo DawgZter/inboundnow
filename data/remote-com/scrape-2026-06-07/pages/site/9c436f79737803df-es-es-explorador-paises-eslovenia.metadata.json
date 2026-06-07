@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/eslovenia",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/eslovenia",
+  "finalURL": "https://remote.com/es-es/explorador-paises/eslovenia",
+  "title": "Employer of Record y servicios de nóminas | Eslovenia",
+  "description": "¿Contratas empleados y trabajadores autónomos en Eslovenia? Remote puede ayudarte a gestionar empleados y trabajadores autónomos mediante nuestra plataforma de RR. HH. global integrada.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 345505,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9c436f79737803df-es-es-explorador-paises-eslovenia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9c436f79737803df-es-es-explorador-paises-eslovenia.direct.json",
+  "markdownChars": 7122,
+  "linksCount": 122,
+  "lastmod": "2026-02-13",
+  "scrapedAt": "2026-06-07T09:01:03.352Z"
+}

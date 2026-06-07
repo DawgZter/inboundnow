@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/saint-lucia",
+  "sourceURL": "https://remote.com/en-za/country-explorer/saint-lucia",
+  "finalURL": "https://remote.com/en-za/country-explorer/saint-lucia",
+  "title": "Employer of Record & Payroll Services | Saint Lucia",
+  "description": "Hiring employees and contractors in Saint Lucia? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 308741,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a18ef87ad69f264-en-za-country-explorer-saint-lucia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a18ef87ad69f264-en-za-country-explorer-saint-lucia.direct.json",
+  "markdownChars": 3166,
+  "linksCount": 117,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:01:53.450Z"
+}

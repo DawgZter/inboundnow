@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/cipro/tasse",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/cipro/tasse",
+  "finalURL": "https://remote.com/it-it/esplora-paese/cipro/tasse",
+  "title": "Gestisci le tasse sulla busta paga a Cipro | Conformità fiscale",
+  "description": "Gestisci le tasse sulla busta paga a Cipro in modo efficace e conforme. Riduci al minimo gli errori nelle buste paga, rispetta la normativa locale ed evita sanzioni costose.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 156053,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cf1896cb7c745c3c-it-it-esplora-paese-cipro-tasse.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cf1896cb7c745c3c-it-it-esplora-paese-cipro-tasse.direct.json",
+  "markdownChars": 1127,
+  "linksCount": 44,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:13:58.626Z"
+}

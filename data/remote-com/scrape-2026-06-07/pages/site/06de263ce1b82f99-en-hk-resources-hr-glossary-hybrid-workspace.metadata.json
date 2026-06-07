@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/hybrid-workspace",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/hybrid-workspace",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/hybrid-workspace",
+  "title": "What is a hybrid workspace?",
+  "description": "Learn about hybrid workspaces and their influence on modern work environments, and see how they blend remote and in-office work effectively.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252163,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/06de263ce1b82f99-en-hk-resources-hr-glossary-hybrid-workspace.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/06de263ce1b82f99-en-hk-resources-hr-glossary-hybrid-workspace.direct.json",
+  "markdownChars": 3764,
+  "linksCount": 118,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:08.281Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/country-explorer/romania/taxes",
+  "sourceURL": "https://remote.com/en-ca/country-explorer/romania/taxes",
+  "finalURL": "https://remote.com/en-ca/country-explorer/romania/taxes",
+  "title": "Manage Payroll Tax in Romania | Tax Compliance",
+  "description": "Manage payroll taxes in Romania effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262052,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1225633300657f87-en-ca-country-explorer-romania-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1225633300657f87-en-ca-country-explorer-romania-taxes.direct.json",
+  "markdownChars": 1152,
+  "linksCount": 126,
+  "lastmod": "2025-09-06",
+  "scrapedAt": "2026-06-07T09:13:13.879Z"
+}

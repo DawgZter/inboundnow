@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/aegypten/equity",
+  "sourceURL": "https://remote.com/de-at/country-explorer/aegypten/equity",
+  "finalURL": "https://remote.com/de-at/country-explorer/aegypten/equity",
+  "title": "Aktienoptionen für Mitarbeiter:innen in Ägypten",
+  "description": "Entdecke länderspezifische Regeln für Equity und Aktienoptionen für Mitarbeiter:innen in Ägypten. Triff fundierte Entscheidungen zur globalen Vergütung mit dem Country Explorer von Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260866,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7cc8069119bc0ebc-de-at-country-explorer-aegypten-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7cc8069119bc0ebc-de-at-country-explorer-aegypten-equity.direct.json",
+  "markdownChars": 3968,
+  "linksCount": 125,
+  "lastmod": "2025-12-01",
+  "scrapedAt": "2026-06-07T09:17:46.013Z"
+}

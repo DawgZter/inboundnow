@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/sozialversicherungs-lohne-w2",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/sozialversicherungs-lohne-w2",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/sozialversicherungs-lohne-w2",
+  "title": "Was sind Sozialversicherungslöhne?",
+  "description": "Bist du neugierig auf den Sozialversicherungslohn auf deinem W-2? In unserem Glossar erfährst du, was das bedeutet und wie es sich auf deine Steuern und Leistungen auswirkt",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255403,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e6de222d77d3f47c-de-de-ressourcen-hr-glossar-sozialversicherungs-lohne-w2.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e6de222d77d3f47c-de-de-ressourcen-hr-glossar-sozialversicherungs-lohne-w2.direct.json",
+  "markdownChars": 4827,
+  "linksCount": 121,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:10:49.539Z"
+}

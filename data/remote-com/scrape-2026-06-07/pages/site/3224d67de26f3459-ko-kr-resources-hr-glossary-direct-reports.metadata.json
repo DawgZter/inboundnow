@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/direct-reports",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/direct-reports",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/direct-reports",
+  "title": "직속 보고란 무엇인가요?",
+  "description": "직속 상사의 정의와 관리자가 직속 상사를 효과적이고 성공적으로 지원할 수 있는 방법에 대해 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255870,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3224d67de26f3459-ko-kr-resources-hr-glossary-direct-reports.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3224d67de26f3459-ko-kr-resources-hr-glossary-direct-reports.direct.json",
+  "markdownChars": 2638,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:14:06.809Z"
+}

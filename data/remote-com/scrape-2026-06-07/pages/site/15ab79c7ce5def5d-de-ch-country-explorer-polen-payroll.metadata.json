@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/polen/payroll",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/polen/payroll",
+  "finalURL": "https://remote.com/de-ch/country-explorer/polen/payroll",
+  "title": "Mitarbeiter:innen in Polen bezahlen | Payroll-Services",
+  "description": "Zahle Mitarbeiter:innen in Polen mühelos mit unseren flexiblen Payroll-Services. Führe die Lohn- und Gehaltsabrechnung durch, verwalte Spesen und erstelle Berichte – alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260287,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/15ab79c7ce5def5d-de-ch-country-explorer-polen-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/15ab79c7ce5def5d-de-ch-country-explorer-polen-payroll.direct.json",
+  "markdownChars": 3577,
+  "linksCount": 126,
+  "lastmod": "2025-11-28",
+  "scrapedAt": "2026-06-07T09:04:30.385Z"
+}

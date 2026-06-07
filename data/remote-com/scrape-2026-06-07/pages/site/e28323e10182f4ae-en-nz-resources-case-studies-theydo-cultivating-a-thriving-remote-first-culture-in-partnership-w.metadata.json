@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/case-studies/theydo-cultivating-a-thriving-remote-first-culture-in-partnership-with-remote",
+  "sourceURL": "https://remote.com/en-nz/resources/case-studies/theydo-cultivating-a-thriving-remote-first-culture-in-partnership-with-remote",
+  "finalURL": "https://remote.com/en-nz/resources/case-studies/theydo-cultivating-a-thriving-remote-first-culture-in-partnership-with-remote",
+  "title": "Cultivating a Thriving Remote-First Culture in Partnership with Remote",
+  "description": "Watch how TheyDo built a thriving, remote-first, and inclusive workplace in partnership with Remote, enabling seamless hiring, management, and payment for their global team.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263189,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e28323e10182f4ae-en-nz-resources-case-studies-theydo-cultivating-a-thriving-remote-first-culture-in-partnership-w.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e28323e10182f4ae-en-nz-resources-case-studies-theydo-cultivating-a-thriving-remote-first-culture-in-partnership-w.direct.json",
+  "markdownChars": 10185,
+  "linksCount": 109,
+  "lastmod": "2025-06-26",
+  "scrapedAt": "2026-06-07T09:05:44.579Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/hr-glossary/en-nz/en-ie/resources/hr-glossary/back-tax",
+  "sourceURL": "https://remote.com/en-nz/resources/hr-glossary/en-nz/en-ie/resources/hr-glossary/back-tax",
+  "finalURL": "https://remote.com/en-nz/resources/hr-glossary/en-nz/en-ie/resources/hr-glossary/back-tax",
+  "title": "Back tax",
+  "description": "Back tax is unpaid tax from previous periods. Learn what causes it, the risks of non-compliance, and how businesses can prevent costly penalties. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252763,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19da197e81426d05-en-nz-resources-hr-glossary-en-nz-en-ie-resources-hr-glossary-back-tax.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19da197e81426d05-en-nz-resources-hr-glossary-en-nz-en-ie-resources-hr-glossary-back-tax.direct.json",
+  "markdownChars": 3023,
+  "linksCount": 119,
+  "lastmod": "2025-08-05",
+  "scrapedAt": "2026-06-07T09:00:58.668Z"
+}

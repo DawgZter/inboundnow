@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/partial-pay",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/partial-pay",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/partial-pay",
+  "title": "부분 결제",
+  "description": "부분 결제 또는 분할 결제가 무엇인지, 부분 결제가 비즈니스에서 더 많은 거래를 유도하는 데 어떻게 도움이 되는지, 고려해야 할 사항이 무엇인지 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259205,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9dcf010a30bfa66f-ko-kr-resources-hr-glossary-partial-pay.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9dcf010a30bfa66f-ko-kr-resources-hr-glossary-partial-pay.direct.json",
+  "markdownChars": 3901,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:13:37.131Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/salario-bruto-vs-neto",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/salario-bruto-vs-neto",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/salario-bruto-vs-neto",
+  "title": "Salario bruto vs neto",
+  "description": "Entender la distinción entre salario bruto y neto es crucial para gestionar tu presupuesto laboral y comprender la rentabilidad empresarial.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254196,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/faa1ba03b25ef2a6-es-es-recursos-glosario-rrhh-salario-bruto-vs-neto.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/faa1ba03b25ef2a6-es-es-recursos-glosario-rrhh-salario-bruto-vs-neto.direct.json",
+  "markdownChars": 2827,
+  "linksCount": 120,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:42.275Z"
+}

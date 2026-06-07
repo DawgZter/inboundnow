@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/switzerland/types-of-leave",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/switzerland/types-of-leave",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/switzerland/types-of-leave",
+  "title": "スイスの休暇の種類 | 従業員休暇法",
+  "description": "スイスの従業員休暇の法規を理解し、貴社が休暇規定を遵守し、競争力のある年次有給休暇を提供できるよう整備しましょう。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259935,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d15b09a1c3a653c-ja-jp-country-explorer-switzerland-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d15b09a1c3a653c-ja-jp-country-explorer-switzerland-types-of-leave.direct.json",
+  "markdownChars": 861,
+  "linksCount": 124,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:10:38.599Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/salary-transparency",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/salary-transparency",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/salary-transparency",
+  "title": "What is salary transparency?",
+  "description": "Explore our HR glossary to understand salary transparency, its impact on workplace culture, employee trust, and fair compensation practices within organizations.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251938,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23042ca41fc52f66-en-hk-resources-hr-glossary-salary-transparency.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23042ca41fc52f66-en-hk-resources-hr-glossary-salary-transparency.direct.json",
+  "markdownChars": 3276,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:16:17.790Z"
+}

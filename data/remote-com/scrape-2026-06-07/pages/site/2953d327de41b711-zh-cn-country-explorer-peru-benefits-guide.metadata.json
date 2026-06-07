@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/peru/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/peru/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/peru/benefits-guide",
+  "title": "秘鲁员工福利 | 福利计划",
+  "description": "了解秘鲁的关键员工福利，包括健康保险、带薪休假及其他福利，助力贵公司吸引并留住顶尖人才。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268659,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2953d327de41b711-zh-cn-country-explorer-peru-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2953d327de41b711-zh-cn-country-explorer-peru-benefits-guide.direct.json",
+  "markdownChars": 556,
+  "linksCount": 122,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:11:31.674Z"
+}

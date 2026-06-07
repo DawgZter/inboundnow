@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/occupational-stress",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/occupational-stress",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/occupational-stress",
+  "title": "職業性ストレス",
+  "description": "職場における職業性ストレスの影響を理解し、従業員の福利と生産性を高めるための積極的な戦略を学びます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257268,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b980d6a1161e401-ja-jp-resources-hr-glossary-occupational-stress.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b980d6a1161e401-ja-jp-resources-hr-glossary-occupational-stress.direct.json",
+  "markdownChars": 2525,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:16:57.616Z"
+}

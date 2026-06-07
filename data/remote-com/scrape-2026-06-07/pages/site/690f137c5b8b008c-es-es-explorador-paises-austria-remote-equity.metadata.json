@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/austria/remote-equity",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/austria/remote-equity",
+  "finalURL": "https://remote.com/es-es/explorador-paises/austria/remote-equity",
+  "title": "Opciones sobre acciones para empleados en Austria",
+  "description": "Explora las reglas específicas de Austria sobre la participación accionarial de los empleados y las opciones sobre acciones. Toma decisiones informadas sobre la compensación global con el Explorador de países de Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264559,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/690f137c5b8b008c-es-es-explorador-paises-austria-remote-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/690f137c5b8b008c-es-es-explorador-paises-austria-remote-equity.direct.json",
+  "markdownChars": 5004,
+  "linksCount": 125,
+  "lastmod": "2025-11-14",
+  "scrapedAt": "2026-06-07T09:12:33.320Z"
+}

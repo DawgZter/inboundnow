@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/slovenia",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/slovenia",
+  "finalURL": "https://remote.com/it-it/esplora-paese/slovenia",
+  "title": "Employer of Record (EOR) e servizi Payroll | Slovenia",
+  "description": "Vuoi assumere personale e collaboratori in Slovenia? Remote può aiutarti a gestire lavoratori e collaboratori tramite la nostra Piattaforma HR integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 237378,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d252c0cee591fcc9-it-it-esplora-paese-slovenia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d252c0cee591fcc9-it-it-esplora-paese-slovenia.direct.json",
+  "markdownChars": 6502,
+  "linksCount": 45,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:10:48.840Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/bosnia-herzegovina/employer-of-record",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/bosnia-herzegovina/employer-of-record",
+  "finalURL": "https://remote.com/es-es/explorador-paises/bosnia-herzegovina/employer-of-record",
+  "title": "Employer of Record en Bosnia y Herzegovina | Servicios EOR",
+  "description": "Simplifica la contratación en Bosnia y Herzegovina con nuestros servicios de Employer of Record. Gestiona nómina, prestaciones y cumplimiento normativo sin complicaciones.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262891,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f3a67a3f0b42f4b2-es-es-explorador-paises-bosnia-herzegovina-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f3a67a3f0b42f4b2-es-es-explorador-paises-bosnia-herzegovina-employer-of-record.direct.json",
+  "markdownChars": 3915,
+  "linksCount": 121,
+  "lastmod": "2025-09-29",
+  "scrapedAt": "2026-06-07T09:01:41.400Z"
+}

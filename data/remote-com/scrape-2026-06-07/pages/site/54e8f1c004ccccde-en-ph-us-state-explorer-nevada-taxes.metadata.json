@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/us-state-explorer/nevada/taxes",
+  "sourceURL": "https://remote.com/en-ph/us-state-explorer/nevada/taxes",
+  "finalURL": "https://remote.com/en-ph/us-state-explorer/nevada/taxes",
+  "title": "Manage Payroll Tax in - Nevada | Tax Compliance",
+  "description": "Manage payroll taxes in Nevada effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255953,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/54e8f1c004ccccde-en-ph-us-state-explorer-nevada-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/54e8f1c004ccccde-en-ph-us-state-explorer-nevada-taxes.direct.json",
+  "markdownChars": 1031,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:07:27.595Z"
+}

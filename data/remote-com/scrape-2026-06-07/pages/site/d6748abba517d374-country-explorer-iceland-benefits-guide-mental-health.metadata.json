@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/iceland/benefits-guide/mental-health",
+  "sourceURL": "https://remote.com/country-explorer/iceland/benefits-guide/mental-health",
+  "finalURL": "https://remote.com/country-explorer/iceland/benefits-guide/mental-health",
+  "title": "Mental Health Benefits in Iceland | Wellbeing Support",
+  "description": "Support your team with Mental Health benefits in Iceland.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268872,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d6748abba517d374-country-explorer-iceland-benefits-guide-mental-health.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d6748abba517d374-country-explorer-iceland-benefits-guide-mental-health.direct.json",
+  "markdownChars": 6220,
+  "linksCount": 116,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:02:48.698Z"
+}

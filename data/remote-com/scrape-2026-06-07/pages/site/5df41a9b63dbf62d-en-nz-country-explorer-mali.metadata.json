@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer/mali",
+  "sourceURL": "https://remote.com/en-nz/country-explorer/mali",
+  "finalURL": "https://remote.com/en-nz/country-explorer/mali",
+  "title": "Employer of Record & Payroll Services | Mali",
+  "description": "Hiring employees and contractors in Mali? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 307904,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5df41a9b63dbf62d-en-nz-country-explorer-mali.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5df41a9b63dbf62d-en-nz-country-explorer-mali.direct.json",
+  "markdownChars": 3082,
+  "linksCount": 116,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:01:21.918Z"
+}

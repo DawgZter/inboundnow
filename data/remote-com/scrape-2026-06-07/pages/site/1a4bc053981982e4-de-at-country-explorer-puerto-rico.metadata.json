@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/puerto-rico",
+  "sourceURL": "https://remote.com/de-at/country-explorer/puerto-rico",
+  "finalURL": "https://remote.com/de-at/country-explorer/puerto-rico",
+  "title": "Employer-of-Record- und Payroll-Services in Puerto Rico",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Puerto Rico? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 345420,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a4bc053981982e4-de-at-country-explorer-puerto-rico.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a4bc053981982e4-de-at-country-explorer-puerto-rico.direct.json",
+  "markdownChars": 8150,
+  "linksCount": 124,
+  "lastmod": "2025-10-07",
+  "scrapedAt": "2026-06-07T09:15:21.471Z"
+}

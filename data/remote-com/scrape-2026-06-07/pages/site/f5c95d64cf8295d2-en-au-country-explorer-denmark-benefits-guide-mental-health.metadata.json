@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/denmark/benefits-guide/mental-health",
+  "sourceURL": "https://remote.com/en-au/country-explorer/denmark/benefits-guide/mental-health",
+  "finalURL": "https://remote.com/en-au/country-explorer/denmark/benefits-guide/mental-health",
+  "title": "Mental Health Benefits in Denmark | Wellbeing Support",
+  "description": "Support your team with Mental Health benefits in Denmark.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268627,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f5c95d64cf8295d2-en-au-country-explorer-denmark-benefits-guide-mental-health.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f5c95d64cf8295d2-en-au-country-explorer-denmark-benefits-guide-mental-health.direct.json",
+  "markdownChars": 6236,
+  "linksCount": 118,
+  "lastmod": "2025-12-21",
+  "scrapedAt": "2026-06-07T09:01:47.566Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/frankrijk/employer-of-record",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/frankrijk/employer-of-record",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/frankrijk/employer-of-record",
+  "title": "Employer of Record in Frankrijk (EOR) | EOR-diensten",
+  "description": "Vereenvoudig tewerkstelling in Frankrijk met onze Employer of Record-diensten. Beheer loonlijst, secundaire arbeidsvoorwaarden en naleving moeiteloos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255725,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6d0d9f909203d185-nl-be-landenverkenner-frankrijk-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6d0d9f909203d185-nl-be-landenverkenner-frankrijk-employer-of-record.direct.json",
+  "markdownChars": 3520,
+  "linksCount": 126,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:12:03.634Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/japan/employment-termination",
+  "sourceURL": "https://remote.com/country-explorer/japan/employment-termination",
+  "finalURL": "https://remote.com/country-explorer/japan/employment-termination",
+  "title": "Terminate Employees in Japan | Employment Termination",
+  "description": "Looking to terminate an employee in Japan? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259258,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/16d61acfc61a087b-country-explorer-japan-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/16d61acfc61a087b-country-explorer-japan-employment-termination.direct.json",
+  "markdownChars": 1195,
+  "linksCount": 125,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:11:57.907Z"
+}

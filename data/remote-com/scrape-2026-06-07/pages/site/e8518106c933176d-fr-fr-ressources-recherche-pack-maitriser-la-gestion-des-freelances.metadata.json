@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/recherche/pack-maitriser-la-gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-fr/ressources/recherche/pack-maitriser-la-gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-fr/ressources/recherche/pack-maitriser-la-gestion-des-freelances",
+  "title": "Pack de maîtrise Gestion des freelances | Remote",
+  "description": "Téléchargez votre pack Gestion des freelances gratuit et bénéficiez de trois ressources gratuites pour intégrer, payer et gérer des freelances internationaux à grande échelle.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 294933,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e8518106c933176d-fr-fr-ressources-recherche-pack-maitriser-la-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e8518106c933176d-fr-fr-ressources-recherche-pack-maitriser-la-gestion-des-freelances.direct.json",
+  "markdownChars": 2449,
+  "linksCount": 114,
+  "lastmod": "2025-07-09",
+  "scrapedAt": "2026-06-07T09:14:07.075Z"
+}

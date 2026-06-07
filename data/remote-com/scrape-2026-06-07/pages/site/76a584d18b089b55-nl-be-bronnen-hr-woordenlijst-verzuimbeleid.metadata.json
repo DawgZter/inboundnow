@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/verzuimbeleid",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/verzuimbeleid",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/verzuimbeleid",
+  "title": "What is employee absenteeism?",
+  "description": "Begrijp het belang van een verzuimbeleid en leer hoe je verzuim op de werkplek kunt terugdringen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259363,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76a584d18b089b55-nl-be-bronnen-hr-woordenlijst-verzuimbeleid.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76a584d18b089b55-nl-be-bronnen-hr-woordenlijst-verzuimbeleid.direct.json",
+  "markdownChars": 12913,
+  "linksCount": 124,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:08:40.385Z"
+}

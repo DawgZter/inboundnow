@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/deutschland",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/deutschland",
+  "finalURL": "https://remote.com/de-ch/country-explorer/deutschland",
+  "title": "Employer of Record (EOR) & Payroll Services | Deutschland",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Deutschland? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 348871,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b6b4dfe5749ecd9-de-ch-country-explorer-deutschland.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b6b4dfe5749ecd9-de-ch-country-explorer-deutschland.direct.json",
+  "markdownChars": 8715,
+  "linksCount": 128,
+  "lastmod": "2026-06-03",
+  "scrapedAt": "2026-06-07T09:07:22.538Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/pakistan/types-of-leave",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/pakistan/types-of-leave",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/pakistan/types-of-leave",
+  "title": "パキスタンの休暇の種類 | 従業員の休暇法",
+  "description": "パキスタンの従業員休暇に関する法律を理解し、貴社が休暇方針を遵守し、競争力のある年次有給休暇を提供できるよう支援します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258732,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1ccb500793529158-ja-jp-country-explorer-pakistan-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1ccb500793529158-ja-jp-country-explorer-pakistan-types-of-leave.direct.json",
+  "markdownChars": 653,
+  "linksCount": 122,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:11:55.598Z"
+}

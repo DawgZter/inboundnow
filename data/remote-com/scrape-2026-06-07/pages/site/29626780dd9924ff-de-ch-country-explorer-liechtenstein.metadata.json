@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/liechtenstein",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/liechtenstein",
+  "finalURL": "https://remote.com/de-ch/country-explorer/liechtenstein",
+  "title": "Employer-of-Record- und Payroll-Services | Liechtenstein",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Liechtenstein? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 310806,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/29626780dd9924ff-de-ch-country-explorer-liechtenstein.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/29626780dd9924ff-de-ch-country-explorer-liechtenstein.direct.json",
+  "markdownChars": 3759,
+  "linksCount": 120,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:01:47.109Z"
+}

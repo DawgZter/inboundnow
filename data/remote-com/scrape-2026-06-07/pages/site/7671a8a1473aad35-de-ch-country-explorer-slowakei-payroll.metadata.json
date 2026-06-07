@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/slowakei/payroll",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/slowakei/payroll",
+  "finalURL": "https://remote.com/de-ch/country-explorer/slowakei/payroll",
+  "title": "Mitarbeiter:innen in der Slowakei bezahlen | Payroll-Services",
+  "description": "Zahle Mitarbeiter:innen in der Slowakei mühelos mit unseren flexiblen Payroll-Services. Führe die Lohn- und Gehaltsabrechnung durch, verwalte Ausgaben und erstelle Berichte – alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259934,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7671a8a1473aad35-de-ch-country-explorer-slowakei-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7671a8a1473aad35-de-ch-country-explorer-slowakei-payroll.direct.json",
+  "markdownChars": 3543,
+  "linksCount": 125,
+  "lastmod": "2025-11-28",
+  "scrapedAt": "2026-06-07T09:15:38.288Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/china",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/china",
+  "finalURL": "https://remote.com/es-es/explorador-paises/china",
+  "title": "Employer of Record y servicios de nómina | China",
+  "description": "¿Contratas empleados y trabajadores autónomos en China? Remote puede ayudarte a gestionarlos a través de nuestra plataforma RR. HH. global integrada.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 354816,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/301be9ab3ed5d311-es-es-explorador-paises-china.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/301be9ab3ed5d311-es-es-explorador-paises-china.direct.json",
+  "markdownChars": 8709,
+  "linksCount": 123,
+  "lastmod": "2026-04-25",
+  "scrapedAt": "2026-06-07T09:08:09.178Z"
+}

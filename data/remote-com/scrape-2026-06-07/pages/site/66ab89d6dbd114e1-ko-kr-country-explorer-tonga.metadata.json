@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/tonga",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/tonga",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/tonga",
+  "title": "기록상 고용주(EOR) 및 Payroll 서비스 | 통가",
+  "description": "통가에서 직원과 계약자를 채용하는 경우, Remote의 통합 글로벌 HR 플랫폼으로 직원과 계약자 관리를 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 310091,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/66ab89d6dbd114e1-ko-kr-country-explorer-tonga.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/66ab89d6dbd114e1-ko-kr-country-explorer-tonga.direct.json",
+  "markdownChars": 1739,
+  "linksCount": 118,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:09:41.275Z"
+}

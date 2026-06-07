@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/bolivia/benefits-guide/wellness",
+  "sourceURL": "https://remote.com/en-in/country-explorer/bolivia/benefits-guide/wellness",
+  "finalURL": "https://remote.com/en-in/country-explorer/bolivia/benefits-guide/wellness",
+  "title": "Wellness Benefits in Bolivia | Wellbeing Support",
+  "description": "Support your team with Wellness benefits in Bolivia.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261277,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f13aae7fe578234a-en-in-country-explorer-bolivia-benefits-guide-wellness.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f13aae7fe578234a-en-in-country-explorer-bolivia-benefits-guide-wellness.direct.json",
+  "markdownChars": 1579,
+  "linksCount": 116,
+  "lastmod": "2025-12-03",
+  "scrapedAt": "2026-06-07T09:13:06.045Z"
+}

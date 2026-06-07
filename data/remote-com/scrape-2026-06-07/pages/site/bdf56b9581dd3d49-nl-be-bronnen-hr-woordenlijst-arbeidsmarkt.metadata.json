@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/arbeidsmarkt",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/arbeidsmarkt",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/arbeidsmarkt",
+  "title": "What is a labor market?",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251988,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bdf56b9581dd3d49-nl-be-bronnen-hr-woordenlijst-arbeidsmarkt.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bdf56b9581dd3d49-nl-be-bronnen-hr-woordenlijst-arbeidsmarkt.direct.json",
+  "markdownChars": 5749,
+  "linksCount": 124,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:17:42.879Z"
+}

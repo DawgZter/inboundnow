@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/hr-glossary/employee-turnover-rate",
+  "sourceURL": "https://remote.com/en-ph/resources/hr-glossary/employee-turnover-rate",
+  "finalURL": "https://remote.com/en-ph/resources/hr-glossary/employee-turnover-rate",
+  "title": "What is turnover rate?",
+  "description": "Learn what employee turnover rate is, how to calculate it, and how it can affect your business.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255058,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe8bb89b4c070c4d-en-ph-resources-hr-glossary-employee-turnover-rate.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe8bb89b4c070c4d-en-ph-resources-hr-glossary-employee-turnover-rate.direct.json",
+  "markdownChars": 6080,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:02.831Z"
+}

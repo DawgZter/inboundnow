@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/partner/risikokapitalpartner",
+  "sourceURL": "https://remote.com/de-at/partner/risikokapitalpartner",
+  "finalURL": "https://remote.com/de-at/partner/risikokapitalpartner",
+  "title": "Du investierst in ein Startup, das internationale Talente sucht? | Remote",
+  "description": "Wir haben uns dank unserer globalen Beschäftigungsinfrastruktur vom Startup zum Einhorn entwickelt. Deine Startups können das auch schaffen!  Arbeite mit uns zusammen und biete ihnen exklusive Rabatte auf unsere globalen Lösungen für Gehaltsabrechnungen, Benefits und Compliance an. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 295497,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d6af4bdfa2c4d5d7-de-at-partner-risikokapitalpartner.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d6af4bdfa2c4d5d7-de-at-partner-risikokapitalpartner.direct.json",
+  "markdownChars": 5051,
+  "linksCount": 113,
+  "lastmod": "2025-11-28",
+  "scrapedAt": "2026-06-07T09:06:00.855Z"
+}

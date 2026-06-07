@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/porto-rico/impostos",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/porto-rico/impostos",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/porto-rico/impostos",
+  "title": "Gere os impostos do processamento salarial em Porto Rico | Conformidade fiscal",
+  "description": "Gere os impostos do processamento salarial em Porto Rico de forma eficiente e em conformidade. Minimiza erros no processamento salarial, cumpre a legislação local e evita coimas elevadas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155103,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71fb865be5c2bda5-pt-pt-explorar-pais-porto-rico-impostos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71fb865be5c2bda5-pt-pt-explorar-pais-porto-rico-impostos.direct.json",
+  "markdownChars": 1846,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:11:38.419Z"
+}

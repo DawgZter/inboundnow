@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-benefits-freelancer-innen",
+  "sourceURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-benefits-freelancer-innen",
+  "finalURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-benefits-freelancer-innen",
+  "title": "Leitfaden zu Benefits für Freelancer:innen | Remote | Remote",
+  "description": "Teile diesen Leitfaden mit deinem Team und anderen Interessierten, die wissen wollen, welche Benefits sie Auftragnehmer:innen anbieten sollen und wie sie dabei am besten vorgehen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262133,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c485f760c2d0c05-de-de-ressourcen-forschung-leitfaden-benefits-freelancer-innen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c485f760c2d0c05-de-de-ressourcen-forschung-leitfaden-benefits-freelancer-innen.direct.json",
+  "markdownChars": 1334,
+  "linksCount": 117,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:01:25.657Z"
+}

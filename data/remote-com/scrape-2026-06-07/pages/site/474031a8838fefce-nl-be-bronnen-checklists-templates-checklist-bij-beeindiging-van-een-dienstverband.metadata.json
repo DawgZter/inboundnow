@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/checklists-templates/checklist-bij-beeindiging-van-een-dienstverband",
+  "sourceURL": "https://remote.com/nl-be/bronnen/checklists-templates/checklist-bij-beeindiging-van-een-dienstverband",
+  "finalURL": "https://remote.com/nl-be/bronnen/checklists-templates/checklist-bij-beeindiging-van-een-dienstverband",
+  "title": "Global HR Solutions en arbeidstools voor verspreide teams | Remote",
+  "description": "Remote is je one-stopoplossing voor het werven van talent in elk land. Het helpt groeiende bedrijven bij het in dienst nemen van het beste wereldwijde talent. Onze oplossingen voor payroll, secundaire arbeidsvoorwaarden, belastingen en compliance zorgen ervoor dat bedrijven toegang hebben tot en gebruik kunnen maken van een wereldwijd personeelsbestand.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256621,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/474031a8838fefce-nl-be-bronnen-checklists-templates-checklist-bij-beeindiging-van-een-dienstverband.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/474031a8838fefce-nl-be-bronnen-checklists-templates-checklist-bij-beeindiging-van-een-dienstverband.direct.json",
+  "markdownChars": 10000,
+  "linksCount": 117,
+  "lastmod": "2025-06-19",
+  "scrapedAt": "2026-06-07T09:04:05.475Z"
+}

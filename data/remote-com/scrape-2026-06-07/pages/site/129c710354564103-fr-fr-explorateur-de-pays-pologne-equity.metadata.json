@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/pologne/equity",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/pologne/equity",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/pologne/equity",
+  "title": "Options d’actions pour les salariés en Pologne",
+  "description": "Découvrez les règles spécifiques à la Pologne concernant la participation au capital et les options sur actions des salariés. Prenez des décisions éclairées sur la rémunération globale avec l’Explorateur de pays de Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265226,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/129c710354564103-fr-fr-explorateur-de-pays-pologne-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/129c710354564103-fr-fr-explorateur-de-pays-pologne-equity.direct.json",
+  "markdownChars": 4540,
+  "linksCount": 125,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:01:33.175Z"
+}

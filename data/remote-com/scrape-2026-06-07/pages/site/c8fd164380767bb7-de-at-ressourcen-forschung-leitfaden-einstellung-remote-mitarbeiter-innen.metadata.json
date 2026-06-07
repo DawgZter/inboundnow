@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/forschung/leitfaden-einstellung-remote-mitarbeiter-innen",
+  "sourceURL": "https://remote.com/de-at/ressourcen/forschung/leitfaden-einstellung-remote-mitarbeiter-innen",
+  "finalURL": "https://remote.com/de-at/ressourcen/forschung/leitfaden-einstellung-remote-mitarbeiter-innen",
+  "title": "Globale HR-Lösungen für verteilte Teams | Remote",
+  "description": "Stelle in wenigen Minuten dein internationales Team zusammen. Remote ist der aktuell gefragteste Anbieter von globalen Payroll-, HR-, Steuer- und Compliance-Lösungen für verteilte Teams.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 263803,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c8fd164380767bb7-de-at-ressourcen-forschung-leitfaden-einstellung-remote-mitarbeiter-innen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c8fd164380767bb7-de-at-ressourcen-forschung-leitfaden-einstellung-remote-mitarbeiter-innen.direct.json",
+  "markdownChars": 971,
+  "linksCount": 116,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:16:52.096Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/rrhh-globales/control-tiempo-y-asistencia",
+  "sourceURL": "https://remote.com/es-es/rrhh-globales/control-tiempo-y-asistencia",
+  "finalURL": "https://remote.com/es-es/rrhh-globales/control-tiempo-y-asistencia",
+  "title": "Control del tiempo y la asistencia | Remote",
+  "description": "Controla sin esfuerzo el tiempo y la asistencia de los empleados y los trabajadores por cuenta propia en una plataforma unificada. Solicitudes de tiempo libre sencillas, vista del calendario intuitiva y más visibilidad, todo en Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 325712,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07d5a32ef6603ed9-es-es-rrhh-globales-control-tiempo-y-asistencia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07d5a32ef6603ed9-es-es-rrhh-globales-control-tiempo-y-asistencia.direct.json",
+  "markdownChars": 7353,
+  "linksCount": 123,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:11:37.298Z"
+}

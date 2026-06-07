@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/suecia/impostos",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/suecia/impostos",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/suecia/impostos",
+  "title": "Gere o processamento salarial na Suécia | Conformidade fiscal",
+  "description": "Gere os impostos do processamento salarial na Suécia de forma eficaz e em conformidade. Minimiza erros no processamento salarial, cumpre a legislação local e evita coimas elevadas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153092,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd74bc0d37fbe77f-pt-pt-explorar-pais-suecia-impostos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd74bc0d37fbe77f-pt-pt-explorar-pais-suecia-impostos.direct.json",
+  "markdownChars": 1096,
+  "linksCount": 45,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:00:59.777Z"
+}

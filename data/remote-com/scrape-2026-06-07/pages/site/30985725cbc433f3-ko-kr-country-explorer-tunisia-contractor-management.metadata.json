@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/tunisia/contractor-management",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/tunisia/contractor-management",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/tunisia/contractor-management",
+  "title": "튀니지에서의 계약자 관리 | 계약자 관리",
+  "description": "튀니지에서 계약자를 고용하시나요? Remote의 유연한 계약자 관리 서비스로 전 세계 계약자 관리를 손쉽게 수행하고 지급을 간소화하세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258255,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/30985725cbc433f3-ko-kr-country-explorer-tunisia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/30985725cbc433f3-ko-kr-country-explorer-tunisia-contractor-management.direct.json",
+  "markdownChars": 1127,
+  "linksCount": 121,
+  "lastmod": "2025-11-07",
+  "scrapedAt": "2026-06-07T09:06:56.145Z"
+}

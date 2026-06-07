@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/el-salvador/employment-termination",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/el-salvador/employment-termination",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/el-salvador/employment-termination",
+  "title": "萨尔瓦多员工解雇",
+  "description": "在萨尔瓦多了解员工解雇的法律与流程，帮助贵公司依法合规并降低用工风险。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255674,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e31bacce765fee56-zh-cn-country-explorer-el-salvador-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e31bacce765fee56-zh-cn-country-explorer-el-salvador-employment-termination.direct.json",
+  "markdownChars": 442,
+  "linksCount": 120,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:15:25.153Z"
+}

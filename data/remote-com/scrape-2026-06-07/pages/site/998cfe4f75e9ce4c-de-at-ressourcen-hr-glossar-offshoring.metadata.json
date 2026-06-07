@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/offshoring",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/offshoring",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/offshoring",
+  "title": "Offshoring",
+  "description": "Understand offshoring and how it helps reduce costs, scale teams, and access talent. Learn how offshoring works and how to do it compliantly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253798,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/998cfe4f75e9ce4c-de-at-ressourcen-hr-glossar-offshoring.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/998cfe4f75e9ce4c-de-at-ressourcen-hr-glossar-offshoring.direct.json",
+  "markdownChars": 3996,
+  "linksCount": 122,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:16:48.559Z"
+}

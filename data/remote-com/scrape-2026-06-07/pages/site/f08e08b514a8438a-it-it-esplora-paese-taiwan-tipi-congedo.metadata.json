@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/taiwan/tipi-congedo",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/taiwan/tipi-congedo",
+  "finalURL": "https://remote.com/it-it/esplora-paese/taiwan/tipi-congedo",
+  "title": "Tipologie di congedo in Taiwan | Normativa sul congedo del personale",
+  "description": "Scopri la normativa sui congedi a Taiwan. Assicurati che la tua azienda sia conforme alle politiche locali e offra ferie retribuite competitive.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155516,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f08e08b514a8438a-it-it-esplora-paese-taiwan-tipi-congedo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f08e08b514a8438a-it-it-esplora-paese-taiwan-tipi-congedo.direct.json",
+  "markdownChars": 3054,
+  "linksCount": 44,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:05:44.819Z"
+}

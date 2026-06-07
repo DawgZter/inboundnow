@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/haiti/contractor-management",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/haiti/contractor-management",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/haiti/contractor-management",
+  "title": "Gestão de trabalhadores independentes no Haiti | Contractor Management",
+  "description": "Queres contratar trabalhadores independentes no Haiti? Gere e paga a trabalhadores independentes em todo o mundo sem esforço com os serviços flexíveis Contractor Management da Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 151149,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/94565e9c1594307a-pt-pt-explorar-pais-haiti-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/94565e9c1594307a-pt-pt-explorar-pais-haiti-contractor-management.direct.json",
+  "markdownChars": 2469,
+  "linksCount": 39,
+  "lastmod": "2026-03-24",
+  "scrapedAt": "2026-06-07T09:06:14.470Z"
+}

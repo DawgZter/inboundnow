@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/global-hr/internationale-werknemers-aannemen",
+  "sourceURL": "https://remote.com/nl-nl/global-hr/internationale-werknemers-aannemen",
+  "finalURL": "https://remote.com/nl-nl/global-hr/internationale-werknemers-aannemen",
+  "title": "Internationale werknemers werven met het plaform van Remote | Remote",
+  "description": "Werf binnen een paar minuten internationaal talent. Remote is de meest revolutionaire oplossing voor global payroll, belastingen, HR en naleving voor verspreide teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 340286,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0919785420623a39-nl-nl-global-hr-internationale-werknemers-aannemen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0919785420623a39-nl-nl-global-hr-internationale-werknemers-aannemen.direct.json",
+  "markdownChars": 7859,
+  "linksCount": 127,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:11:21.521Z"
+}

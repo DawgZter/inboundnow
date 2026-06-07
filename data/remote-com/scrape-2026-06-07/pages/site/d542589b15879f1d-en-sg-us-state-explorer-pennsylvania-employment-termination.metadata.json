@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/us-state-explorer/pennsylvania/employment-termination",
+  "sourceURL": "https://remote.com/en-sg/us-state-explorer/pennsylvania/employment-termination",
+  "finalURL": "https://remote.com/en-sg/us-state-explorer/pennsylvania/employment-termination",
+  "title": "Terminate Employees in Pennsylvania | Employment Termination",
+  "description": "Looking to terminate an employee in Pennsylvania? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256317,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d542589b15879f1d-en-sg-us-state-explorer-pennsylvania-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d542589b15879f1d-en-sg-us-state-explorer-pennsylvania-employment-termination.direct.json",
+  "markdownChars": 1710,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:16:09.244Z"
+}

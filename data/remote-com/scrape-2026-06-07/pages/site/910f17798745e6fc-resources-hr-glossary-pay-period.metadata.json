@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/pay-period",
+  "sourceURL": "https://remote.com/resources/hr-glossary/pay-period",
+  "finalURL": "https://remote.com/resources/hr-glossary/pay-period",
+  "title": "Pay period",
+  "description": "Learn what a pay period is, how it relates to payroll and pay dates, and what employers should consider when setting up a payment schedule.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251181,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/910f17798745e6fc-resources-hr-glossary-pay-period.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/910f17798745e6fc-resources-hr-glossary-pay-period.direct.json",
+  "markdownChars": 4027,
+  "linksCount": 113,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:01:16.589Z"
+}

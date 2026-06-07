@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/us-state-explorer/new-hampshire/employer-of-record",
+  "sourceURL": "https://remote.com/en-nz/us-state-explorer/new-hampshire/employer-of-record",
+  "finalURL": "https://remote.com/en-nz/us-state-explorer/new-hampshire/employer-of-record",
+  "title": "Employer of Record services in New Hampshire",
+  "description": "Use employer of record services in New Hampshire make hiring, managing, and paying top talent easy. Stay compliant in New Hampshire and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258873,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5d65193c8bf1f7b2-en-nz-us-state-explorer-new-hampshire-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5d65193c8bf1f7b2-en-nz-us-state-explorer-new-hampshire-employer-of-record.direct.json",
+  "markdownChars": 3372,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:15:10.364Z"
+}

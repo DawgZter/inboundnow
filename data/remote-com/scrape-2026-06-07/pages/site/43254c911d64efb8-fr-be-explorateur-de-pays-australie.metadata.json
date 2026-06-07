@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/australie",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/australie",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/australie",
+  "title": "Employer of Record (EOR) et services de paie | Australie",
+  "description": "Recruter des employés et des freelances : Australie Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 351374,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/43254c911d64efb8-fr-be-explorateur-de-pays-australie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/43254c911d64efb8-fr-be-explorateur-de-pays-australie.direct.json",
+  "markdownChars": 8789,
+  "linksCount": 127,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:04:57.102Z"
+}

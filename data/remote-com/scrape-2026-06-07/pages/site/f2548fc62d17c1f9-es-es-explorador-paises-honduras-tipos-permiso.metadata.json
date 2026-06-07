@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/honduras/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/honduras/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/honduras/tipos-permiso",
+  "title": "Tipos de permiso en Honduras | Leyes de permisos para empleados",
+  "description": "Comprende la normativa sobre permisos de los empleados en Honduras. Asegúrate de que tu empresa cumple las políticas de permisos y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262154,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2548fc62d17c1f9-es-es-explorador-paises-honduras-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2548fc62d17c1f9-es-es-explorador-paises-honduras-tipos-permiso.direct.json",
+  "markdownChars": 3191,
+  "linksCount": 121,
+  "lastmod": "2026-04-03",
+  "scrapedAt": "2026-06-07T09:06:02.659Z"
+}

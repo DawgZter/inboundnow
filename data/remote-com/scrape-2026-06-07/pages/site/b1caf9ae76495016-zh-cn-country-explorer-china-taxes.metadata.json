@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/china/taxes",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/china/taxes",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/china/taxes",
+  "title": "在中国管理薪资税 | 税务合规",
+  "description": "帮助贵公司在中国合规且高效地管理薪资税，降低申报与计算错误风险，遵守当地法律并避免高额罚款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256698,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1caf9ae76495016-zh-cn-country-explorer-china-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1caf9ae76495016-zh-cn-country-explorer-china-taxes.direct.json",
+  "markdownChars": 378,
+  "linksCount": 121,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:13:30.095Z"
+}

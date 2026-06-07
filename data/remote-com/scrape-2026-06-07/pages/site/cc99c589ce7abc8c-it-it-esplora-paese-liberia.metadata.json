@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/liberia",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/liberia",
+  "finalURL": "https://remote.com/it-it/esplora-paese/liberia",
+  "title": "Employer of Record (EOR) e servizi Payroll | Liberia",
+  "description": "Vuoi assumere personale o lavoratori autonomi in Liberia? Remote ti aiuta a gestire tutto tramite la Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 204399,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc99c589ce7abc8c-it-it-esplora-paese-liberia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc99c589ce7abc8c-it-it-esplora-paese-liberia.direct.json",
+  "markdownChars": 3246,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:16:15.279Z"
+}

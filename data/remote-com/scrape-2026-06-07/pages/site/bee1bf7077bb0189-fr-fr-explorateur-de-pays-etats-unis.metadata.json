@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/etats-unis",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/etats-unis",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/etats-unis",
+  "title": "Employer of Record (EOR) et paie | États‑Unis",
+  "description": "Recruter des employés et des freelances : États-Unis Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 357295,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bee1bf7077bb0189-fr-fr-explorateur-de-pays-etats-unis.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bee1bf7077bb0189-fr-fr-explorateur-de-pays-etats-unis.direct.json",
+  "markdownChars": 11215,
+  "linksCount": 128,
+  "lastmod": "2026-02-08",
+  "scrapedAt": "2026-06-07T09:10:35.383Z"
+}

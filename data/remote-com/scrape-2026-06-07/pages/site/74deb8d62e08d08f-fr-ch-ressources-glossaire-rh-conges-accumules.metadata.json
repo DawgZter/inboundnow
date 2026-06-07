@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/conges-accumules",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/conges-accumules",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/conges-accumules",
+  "title": "What is accrued leave?",
+  "description": "En savoir plus sur les congés accumulés et sur la manière dont les responsables des ressources humaines peuvent gérer les congés accumulés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255656,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/74deb8d62e08d08f-fr-ch-ressources-glossaire-rh-conges-accumules.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/74deb8d62e08d08f-fr-ch-ressources-glossaire-rh-conges-accumules.direct.json",
+  "markdownChars": 3735,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:04:58.545Z"
+}

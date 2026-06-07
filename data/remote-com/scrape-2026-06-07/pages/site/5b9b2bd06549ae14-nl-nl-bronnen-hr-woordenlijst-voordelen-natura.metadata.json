@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/voordelen-natura",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/voordelen-natura",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/voordelen-natura",
+  "title": "Voordelen in natura",
+  "description": "Bekijk de voordelen in natura en hun belang voor de beloning van werknemers. Bezoek onze verklarende woordenlijst om te begrijpen hoe deze extraatjes de algehele werktevredenheid kunnen vergroten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257243,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5b9b2bd06549ae14-nl-nl-bronnen-hr-woordenlijst-voordelen-natura.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5b9b2bd06549ae14-nl-nl-bronnen-hr-woordenlijst-voordelen-natura.direct.json",
+  "markdownChars": 4596,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:08:49.143Z"
+}

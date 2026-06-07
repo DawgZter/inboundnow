@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/thailand/steuern",
+  "sourceURL": "https://remote.com/de-de/country-explorer/thailand/steuern",
+  "finalURL": "https://remote.com/de-de/country-explorer/thailand/steuern",
+  "title": "Lohnnebenkosten in Thailand | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Thailand.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261123,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7f12fc5a62ff79f2-de-de-country-explorer-thailand-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7f12fc5a62ff79f2-de-de-country-explorer-thailand-steuern.direct.json",
+  "markdownChars": 1127,
+  "linksCount": 122,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:01:03.102Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/hongrie/rupture-contrat",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/hongrie/rupture-contrat",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/hongrie/rupture-contrat",
+  "title": "Hungary : Résilier le contrat d’un employé | Rupture de contrat",
+  "description": "Hongrie : Vous avez besoin de résilier le contrat d’un employé ? Découvrez quels sont vos droits grâce à notre guide complet sur les lois régissant la rupture de contrat des employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262541,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d720f6abbfe363f2-fr-fr-explorateur-de-pays-hongrie-rupture-contrat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d720f6abbfe363f2-fr-fr-explorateur-de-pays-hongrie-rupture-contrat.direct.json",
+  "markdownChars": 2633,
+  "linksCount": 123,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:18:44.839Z"
+}

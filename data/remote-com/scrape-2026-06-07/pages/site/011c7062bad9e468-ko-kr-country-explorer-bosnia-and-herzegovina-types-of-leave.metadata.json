@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/bosnia-and-herzegovina/types-of-leave",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/bosnia-and-herzegovina/types-of-leave",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/bosnia-and-herzegovina/types-of-leave",
+  "title": "보스니아 헤르체고비나에서의 휴가 유형 | 직원 휴가 법규",
+  "description": "보스니아 헤르체고비나에서의 직원 휴가 법규를 이해하고, 귀사의 비즈니스가 휴가 정책을 준수하며 경쟁력 있는 연차 유급 휴가를 제공하도록 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258807,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/011c7062bad9e468-ko-kr-country-explorer-bosnia-and-herzegovina-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/011c7062bad9e468-ko-kr-country-explorer-bosnia-and-herzegovina-types-of-leave.direct.json",
+  "markdownChars": 883,
+  "linksCount": 121,
+  "lastmod": "2025-10-02",
+  "scrapedAt": "2026-06-07T09:05:01.083Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/hr-glossary/tax-identification-number",
+  "sourceURL": "https://remote.com/en-nz/resources/hr-glossary/tax-identification-number",
+  "finalURL": "https://remote.com/en-nz/resources/hr-glossary/tax-identification-number",
+  "title": "What is tax identification number?",
+  "description": "Learn about what a Tax Identification Number is and how it's used for taxation purposes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254390,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d93cee772f63045f-en-nz-resources-hr-glossary-tax-identification-number.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d93cee772f63045f-en-nz-resources-hr-glossary-tax-identification-number.direct.json",
+  "markdownChars": 5049,
+  "linksCount": 121,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:09:04.983Z"
+}

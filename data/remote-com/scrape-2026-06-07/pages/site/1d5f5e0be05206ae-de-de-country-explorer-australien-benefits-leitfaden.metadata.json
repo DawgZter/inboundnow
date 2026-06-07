@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/australien/benefits-leitfaden",
+  "sourceURL": "https://remote.com/de-de/country-explorer/australien/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-de/country-explorer/australien/benefits-leitfaden",
+  "title": "Sozialleistungen für Mitarbeiter:innen in Australien | Sozialleistungspläne",
+  "description": "Entdecke die wichtigsten Sozialleistungen für Mitarbeiter:innen in Australien. Erfahre, wie Krankenversicherung, bezahlter Urlaub und weitere Zusatzleistungen dir helfen, Mitarbeiter:innen anzuziehen und zu behalten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271014,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1d5f5e0be05206ae-de-de-country-explorer-australien-benefits-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1d5f5e0be05206ae-de-de-country-explorer-australien-benefits-leitfaden.direct.json",
+  "markdownChars": 1693,
+  "linksCount": 123,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:13:49.745Z"
+}

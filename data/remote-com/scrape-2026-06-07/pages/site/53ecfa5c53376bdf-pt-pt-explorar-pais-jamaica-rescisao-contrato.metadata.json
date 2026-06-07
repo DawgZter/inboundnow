@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/jamaica/rescisao-contrato",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/jamaica/rescisao-contrato",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/jamaica/rescisao-contrato",
+  "title": "Cessação do contrato de trabalho na Jamaica",
+  "description": "Queres rescindir um contrato de trabalho em Jamaica? Descobre os teus direitos no nosso guia completo sobre as leis de cessação do contrato de trabalho.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153144,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/53ecfa5c53376bdf-pt-pt-explorar-pais-jamaica-rescisao-contrato.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/53ecfa5c53376bdf-pt-pt-explorar-pais-jamaica-rescisao-contrato.direct.json",
+  "markdownChars": 1750,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:09:51.376Z"
+}

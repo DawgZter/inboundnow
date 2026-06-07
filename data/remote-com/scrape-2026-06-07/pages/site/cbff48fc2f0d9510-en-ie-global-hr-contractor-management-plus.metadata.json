@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/global-hr/contractor-management-plus",
+  "sourceURL": "https://remote.com/en-ie/global-hr/contractor-management-plus",
+  "finalURL": "https://remote.com/en-ie/global-hr/contractor-management-plus",
+  "title": "Contractor Management Plus: Misclassification Warranty Coverage | Remote",
+  "description": "Remote's Contractor Management Plus adds a layer of security to misclassification risks. Hire contractors confidently with Remote’s misclassification warranty coverage.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 340823,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cbff48fc2f0d9510-en-ie-global-hr-contractor-management-plus.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cbff48fc2f0d9510-en-ie-global-hr-contractor-management-plus.direct.json",
+  "markdownChars": 4441,
+  "linksCount": 118,
+  "lastmod": "2025-11-18",
+  "scrapedAt": "2026-06-07T09:01:14.826Z"
+}

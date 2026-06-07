@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/titel-vii",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/titel-vii",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/titel-vii",
+  "title": "Title VII",
+  "description": "Titel VII kann sich erheblich auf ein Unternehmen auswirken, indem es seine Politik und Kultur im Hinblick auf Inklusivität und Rechtskonformität gestaltet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253979,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2637eb09a5252598-de-at-ressourcen-hr-glossar-titel-vii.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2637eb09a5252598-de-at-ressourcen-hr-glossar-titel-vii.direct.json",
+  "markdownChars": 4397,
+  "linksCount": 121,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:15.643Z"
+}

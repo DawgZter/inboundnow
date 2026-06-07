@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/frankrijk/typen-verlof",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/frankrijk/typen-verlof",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/frankrijk/typen-verlof",
+  "title": "Typen verlof in Frankrijk | Wetgeving rond werknemersverlof",
+  "description": "Inzicht in verlofwetten voor werknemers in Frankrijk. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259768,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0f66abfaf05902ca-nl-nl-landenverkenner-frankrijk-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0f66abfaf05902ca-nl-nl-landenverkenner-frankrijk-typen-verlof.direct.json",
+  "markdownChars": 1535,
+  "linksCount": 123,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:10:53.761Z"
+}

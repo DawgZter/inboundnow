@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/stellenbeschreibung-produktmarketing-manager",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/stellenbeschreibung-produktmarketing-manager",
+  "finalURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/stellenbeschreibung-produktmarketing-manager",
+  "title": "Stellenbeschreibung Produktmarketing Manager",
+  "description": "Schau dir die Stellenbeschreibung für den Product Marketing Manager an, der für die Entwicklung von Marketingstrategien, die Markteinführung von Produkten und die Förderung von Kundenbindung und Umsatz verantwortlich ist.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262431,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3530be5bb7488103-de-ch-ressourcen-stellenbeschreibungen-stellenbeschreibung-produktmarketing-manager.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3530be5bb7488103-de-ch-ressourcen-stellenbeschreibungen-stellenbeschreibung-produktmarketing-manager.direct.json",
+  "markdownChars": 5425,
+  "linksCount": 116,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:15:40.980Z"
+}

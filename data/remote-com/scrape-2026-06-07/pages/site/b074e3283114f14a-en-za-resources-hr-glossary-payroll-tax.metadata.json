@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/resources/hr-glossary/payroll-tax",
+  "sourceURL": "https://remote.com/en-za/resources/hr-glossary/payroll-tax",
+  "finalURL": "https://remote.com/en-za/resources/hr-glossary/payroll-tax",
+  "title": "How much is payroll tax?",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254447,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b074e3283114f14a-en-za-resources-hr-glossary-payroll-tax.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b074e3283114f14a-en-za-resources-hr-glossary-payroll-tax.direct.json",
+  "markdownChars": 5695,
+  "linksCount": 122,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:02:02.758Z"
+}

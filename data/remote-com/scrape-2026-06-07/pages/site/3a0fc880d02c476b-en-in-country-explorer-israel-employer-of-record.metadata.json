@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/israel/employer-of-record",
+  "sourceURL": "https://remote.com/en-in/country-explorer/israel/employer-of-record",
+  "finalURL": "https://remote.com/en-in/country-explorer/israel/employer-of-record",
+  "title": "Employer of Record in Israel | EOR Services",
+  "description": "Simplify employment in Israel with our Employer of Record services. Handle payroll, benefits, and compliance seamlessly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259614,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3a0fc880d02c476b-en-in-country-explorer-israel-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3a0fc880d02c476b-en-in-country-explorer-israel-employer-of-record.direct.json",
+  "markdownChars": 3048,
+  "linksCount": 124,
+  "lastmod": "2025-09-05",
+  "scrapedAt": "2026-06-07T09:05:25.418Z"
+}

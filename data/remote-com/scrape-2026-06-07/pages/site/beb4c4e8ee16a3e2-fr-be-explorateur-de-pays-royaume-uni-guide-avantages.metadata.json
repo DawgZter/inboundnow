@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/royaume-uni/guide-avantages",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/royaume-uni/guide-avantages",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/royaume-uni/guide-avantages",
+  "title": "Avantages sociaux au Royaume-Uni | Plans d’avantages sociaux",
+  "description": "Découvrez les avantages sociaux essentiels au Royaume-Uni. Informez-vous sur l’assurance santé, les congés payés et autres avantages pour attirer et fidéliser les meilleurs talents.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 274979,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/beb4c4e8ee16a3e2-fr-be-explorateur-de-pays-royaume-uni-guide-avantages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/beb4c4e8ee16a3e2-fr-be-explorateur-de-pays-royaume-uni-guide-avantages.direct.json",
+  "markdownChars": 1822,
+  "linksCount": 125,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:01:38.638Z"
+}

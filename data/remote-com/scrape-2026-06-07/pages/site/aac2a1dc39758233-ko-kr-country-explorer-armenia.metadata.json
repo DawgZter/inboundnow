@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/armenia",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/armenia",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/armenia",
+  "title": "기록상 고용주(EOR) 및 Payroll 서비스 | 아르메니아",
+  "description": "아르메니아에서 직원과 계약자를 채용하시나요? Remote는 통합 글로벌 HR 플랫폼을 통해 직원과 계약자를 관리할 수 있도록 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 342397,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aac2a1dc39758233-ko-kr-country-explorer-armenia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aac2a1dc39758233-ko-kr-country-explorer-armenia.direct.json",
+  "markdownChars": 3382,
+  "linksCount": 122,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:18:59.911Z"
+}

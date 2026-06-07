@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/bolivia/belastingen",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/bolivia/belastingen",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/bolivia/belastingen",
+  "title": "Payroll-belasting beheren in Bolivia | Belastingnaleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Bolivia. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254976,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb2251eca7ab2019-nl-be-landenverkenner-bolivia-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb2251eca7ab2019-nl-be-landenverkenner-bolivia-belastingen.direct.json",
+  "markdownChars": 954,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:18:07.305Z"
+}

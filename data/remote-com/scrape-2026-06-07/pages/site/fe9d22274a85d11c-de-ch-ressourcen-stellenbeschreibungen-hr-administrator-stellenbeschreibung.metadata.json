@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/hr-administrator-stellenbeschreibung",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/hr-administrator-stellenbeschreibung",
+  "finalURL": "https://remote.com/de-ch/ressourcen/stellenbeschreibungen/hr-administrator-stellenbeschreibung",
+  "title": "HR administrator stellenbeschreibung",
+  "description": "Überprüfe die Stellenbeschreibung für den Personalsachbearbeiter, der für die Verwaltung von Mitarbeiterdaten, die Unterstützung von Einstellungsprozessen und die Einhaltung von Personalrichtlinien verantwortlich ist.\"",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261635,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe9d22274a85d11c-de-ch-ressourcen-stellenbeschreibungen-hr-administrator-stellenbeschreibung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe9d22274a85d11c-de-ch-ressourcen-stellenbeschreibungen-hr-administrator-stellenbeschreibung.direct.json",
+  "markdownChars": 4995,
+  "linksCount": 116,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:48.518Z"
+}

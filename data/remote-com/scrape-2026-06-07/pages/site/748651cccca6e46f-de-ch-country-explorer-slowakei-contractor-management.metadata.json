@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/slowakei/contractor-management",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/slowakei/contractor-management",
+  "finalURL": "https://remote.com/de-ch/country-explorer/slowakei/contractor-management",
+  "title": "Auftragnehmer:innen in der Slowakei verwalten | Contractor Management",
+  "description": "Auftragnehmer:in in der Slowakei beauftragen? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management-Diensten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259449,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/748651cccca6e46f-de-ch-country-explorer-slowakei-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/748651cccca6e46f-de-ch-country-explorer-slowakei-contractor-management.direct.json",
+  "markdownChars": 2734,
+  "linksCount": 125,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:05:16.326Z"
+}

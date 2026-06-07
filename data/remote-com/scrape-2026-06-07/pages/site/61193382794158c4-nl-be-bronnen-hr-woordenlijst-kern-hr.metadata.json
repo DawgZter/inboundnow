@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/kern-hr",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/kern-hr",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/kern-hr",
+  "title": "What is core HR?",
+  "description": "Core HR verwijst naar de essentiële functies en processen in human resources die de basisbehoeften van zowel het personeel als het bedrijf ondersteunen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250111,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/61193382794158c4-nl-be-bronnen-hr-woordenlijst-kern-hr.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/61193382794158c4-nl-be-bronnen-hr-woordenlijst-kern-hr.direct.json",
+  "markdownChars": 4589,
+  "linksCount": 123,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:04:14.972Z"
+}

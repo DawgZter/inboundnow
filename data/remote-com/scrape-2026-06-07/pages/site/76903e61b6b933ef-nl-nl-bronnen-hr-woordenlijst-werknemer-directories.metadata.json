@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/werknemer-directories",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/werknemer-directories",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/werknemer-directories",
+  "title": "Wat is een personeelsgids?",
+  "description": " Ontdek de rol van personeelsdirectory's bij het verbeteren van de communicatie en organisatie op de werkplek. Bezoek onze verklarende woordenlijst om hun belang voor de bedrijfsvoering te begrijpen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256457,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76903e61b6b933ef-nl-nl-bronnen-hr-woordenlijst-werknemer-directories.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76903e61b6b933ef-nl-nl-bronnen-hr-woordenlijst-werknemer-directories.direct.json",
+  "markdownChars": 3907,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:13:28.037Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/onboarding",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/onboarding",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/onboarding",
+  "title": "Onboarding",
+  "description": "Das Onboarding kann einen großen Einfluss auf ein Unternehmen haben, indem es die Mitarbeiterbindung verbessert und die Produktivität der neuen Mitarbeiter/innen steigert.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253539,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/99e1db3f443e0feb-de-at-ressourcen-hr-glossar-onboarding.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/99e1db3f443e0feb-de-at-ressourcen-hr-glossar-onboarding.direct.json",
+  "markdownChars": 3992,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:15:28.908Z"
+}

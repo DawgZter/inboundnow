@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar",
+  "title": "HR-Begriffe: Entdecke unser umfassendes HR-Glossar | Remote | Remote",
+  "description": "Sieh dir unser HR-Glossar mit wichtigen Begriffen und Definitionen aus dem Personalwesen an. Dieser Leitfaden ist ideal für Personalverantwortliche und alle Interessierten. Sieh dich um und lerne neue HR-Konzepte kennen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 659376,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dfa9d8e231dfb501-de-at-ressourcen-hr-glossar.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dfa9d8e231dfb501-de-at-ressourcen-hr-glossar.direct.json",
+  "markdownChars": 5306,
+  "linksCount": 338,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:19:05.277Z"
+}

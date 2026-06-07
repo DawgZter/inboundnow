@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/estonia/remote-equity",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/estonia/remote-equity",
+  "finalURL": "https://remote.com/es-es/explorador-paises/estonia/remote-equity",
+  "title": "Opciones sobre acciones para empleados en Estonia",
+  "description": "Explora las normas específicas de Estonia sobre participación accionarial y opciones sobre acciones para empleados. Toma decisiones informadas sobre compensación global con el Explorador de países de Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263917,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/53c6ad657ee1d6bd-es-es-explorador-paises-estonia-remote-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/53c6ad657ee1d6bd-es-es-explorador-paises-estonia-remote-equity.direct.json",
+  "markdownChars": 4401,
+  "linksCount": 125,
+  "lastmod": "2025-11-14",
+  "scrapedAt": "2026-06-07T09:02:52.071Z"
+}

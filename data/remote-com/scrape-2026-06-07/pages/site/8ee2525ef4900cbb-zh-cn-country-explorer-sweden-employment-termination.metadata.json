@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/sweden/employment-termination",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/sweden/employment-termination",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/sweden/employment-termination",
+  "title": "瑞典员工解雇",
+  "description": "本指南全面说明瑞典员工解雇相关法律与权利，帮助贵公司在解雇流程中确保合规并降低风险。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256469,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ee2525ef4900cbb-zh-cn-country-explorer-sweden-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ee2525ef4900cbb-zh-cn-country-explorer-sweden-employment-termination.direct.json",
+  "markdownChars": 442,
+  "linksCount": 122,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:01:29.500Z"
+}

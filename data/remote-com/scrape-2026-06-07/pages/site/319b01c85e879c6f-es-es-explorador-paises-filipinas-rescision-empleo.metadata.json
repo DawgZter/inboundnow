@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/filipinas/rescision-empleo",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/filipinas/rescision-empleo",
+  "finalURL": "https://remote.com/es-es/explorador-paises/filipinas/rescision-empleo",
+  "title": "Rescindir a empleados en Filipinas | Rescisión de empleo",
+  "description": "¿Necesitas rescindir el contrato a un empleado en Filipinas? Descubre tus derechos en nuestra guía completa sobre las leyes de rescisión laboral.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260673,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/319b01c85e879c6f-es-es-explorador-paises-filipinas-rescision-empleo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/319b01c85e879c6f-es-es-explorador-paises-filipinas-rescision-empleo.direct.json",
+  "markdownChars": 1868,
+  "linksCount": 122,
+  "lastmod": "2025-09-24",
+  "scrapedAt": "2026-06-07T09:02:21.800Z"
+}

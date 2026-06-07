@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/el-salvador/contractor-management",
+  "sourceURL": "https://remote.com/en-za/country-explorer/el-salvador/contractor-management",
+  "finalURL": "https://remote.com/en-za/country-explorer/el-salvador/contractor-management",
+  "title": "Manage Contractors in El Salvador | Contractor Management",
+  "description": "Hiring a contractor in El Salvador? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259424,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2f3a8b1ebb359228-en-za-country-explorer-el-salvador-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2f3a8b1ebb359228-en-za-country-explorer-el-salvador-contractor-management.direct.json",
+  "markdownChars": 2277,
+  "linksCount": 125,
+  "lastmod": "2025-08-26",
+  "scrapedAt": "2026-06-07T09:06:32.805Z"
+}

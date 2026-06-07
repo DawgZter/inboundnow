@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/learning-management-system",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/learning-management-system",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/learning-management-system",
+  "title": "学習管理システム",
+  "description": "学習管理システム（LMS）は、企業のトレーニングと能力開発の取り組みを最適化し、従業員のスキルと知識を効率的に高めることができる。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255005,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31d27279f2580feb-ja-jp-resources-hr-glossary-learning-management-system.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31d27279f2580feb-ja-jp-resources-hr-glossary-learning-management-system.direct.json",
+  "markdownChars": 1726,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:42.968Z"
+}

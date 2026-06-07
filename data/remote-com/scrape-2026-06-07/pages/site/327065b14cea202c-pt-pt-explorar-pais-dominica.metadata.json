@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/dominica",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/dominica",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/dominica",
+  "title": "Employer of Record (EOR) e processamento salarial | Dominica",
+  "description": "Queres contratar trabalhadores e independentes na Dominica? A Remote ajuda-te a gerir a tua equipa através da nossa plataforma global de RH.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 215395,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/327065b14cea202c-pt-pt-explorar-pais-dominica.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/327065b14cea202c-pt-pt-explorar-pais-dominica.direct.json",
+  "markdownChars": 5211,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:01:16.685Z"
+}

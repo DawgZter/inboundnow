@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/hr-glossary/cross-functional-teams",
+  "sourceURL": "https://remote.com/en-ca/resources/hr-glossary/cross-functional-teams",
+  "finalURL": "https://remote.com/en-ca/resources/hr-glossary/cross-functional-teams",
+  "title": "What is a cross-functional team?",
+  "description": "A cross-functional team is a group of individuals from different departments collaborating to achieve common goals and solve specific challenges.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257334,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4dedddd5dac7057d-en-ca-resources-hr-glossary-cross-functional-teams.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4dedddd5dac7057d-en-ca-resources-hr-glossary-cross-functional-teams.direct.json",
+  "markdownChars": 6577,
+  "linksCount": 121,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:04:13.834Z"
+}

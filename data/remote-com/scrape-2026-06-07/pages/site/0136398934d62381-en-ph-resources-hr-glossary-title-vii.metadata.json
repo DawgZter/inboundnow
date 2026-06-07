@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/hr-glossary/title-vii",
+  "sourceURL": "https://remote.com/en-ph/resources/hr-glossary/title-vii",
+  "finalURL": "https://remote.com/en-ph/resources/hr-glossary/title-vii",
+  "title": "Title VII",
+  "description": "Title VII can significantly impact a company by shaping its policies and culture around inclusivity and legal compliance.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251856,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0136398934d62381-en-ph-resources-hr-glossary-title-vii.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0136398934d62381-en-ph-resources-hr-glossary-title-vii.direct.json",
+  "markdownChars": 3813,
+  "linksCount": 118,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:06:31.865Z"
+}

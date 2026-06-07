@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/peru",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/peru",
+  "finalURL": "https://remote.com/en-ie/country-explorer/peru",
+  "title": "Employer of Record & Payroll Services | Peru",
+  "description": "Hiring employees and contractors in Peru? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 351194,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/629decbf4af981d4-en-ie-country-explorer-peru.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/629decbf4af981d4-en-ie-country-explorer-peru.direct.json",
+  "markdownChars": 7511,
+  "linksCount": 127,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:09:19.148Z"
+}

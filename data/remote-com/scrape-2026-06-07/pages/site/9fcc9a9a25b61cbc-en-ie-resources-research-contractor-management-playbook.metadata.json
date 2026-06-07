@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/research/contractor-management-playbook",
+  "sourceURL": "https://remote.com/en-ie/resources/research/contractor-management-playbook",
+  "finalURL": "https://remote.com/en-ie/resources/research/contractor-management-playbook",
+  "title": "Global Contractor Management Handbook | Remote",
+  "description": "Get this free Contractor Management Playbook to learn how to find, select, and implement the best software system for any growth-focused company.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260031,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9fcc9a9a25b61cbc-en-ie-resources-research-contractor-management-playbook.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9fcc9a9a25b61cbc-en-ie-resources-research-contractor-management-playbook.direct.json",
+  "markdownChars": 699,
+  "linksCount": 110,
+  "lastmod": "2025-07-10",
+  "scrapedAt": "2026-06-07T09:02:26.334Z"
+}

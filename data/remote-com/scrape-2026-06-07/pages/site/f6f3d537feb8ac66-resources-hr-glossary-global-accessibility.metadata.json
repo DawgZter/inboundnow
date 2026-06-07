@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/global-accessibility",
+  "sourceURL": "https://remote.com/resources/hr-glossary/global-accessibility",
+  "finalURL": "https://remote.com/resources/hr-glossary/global-accessibility",
+  "title": "What is accessibility in the workplace?",
+  "description": "Understand what accessibility is, and why it is so important for a global workforce.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254847,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f6f3d537feb8ac66-resources-hr-glossary-global-accessibility.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f6f3d537feb8ac66-resources-hr-glossary-global-accessibility.direct.json",
+  "markdownChars": 5905,
+  "linksCount": 125,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:56.273Z"
+}

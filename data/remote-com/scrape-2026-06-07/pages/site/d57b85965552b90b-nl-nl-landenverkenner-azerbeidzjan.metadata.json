@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/azerbeidzjan",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/azerbeidzjan",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/azerbeidzjan",
+  "title": "Employer of record en payroll services | Azerbaijan",
+  "description": "Wil je werknemers en zzp'ers werven in Azerbeidzjan? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 323460,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d57b85965552b90b-nl-nl-landenverkenner-azerbeidzjan.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d57b85965552b90b-nl-nl-landenverkenner-azerbeidzjan.direct.json",
+  "markdownChars": 5005,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:07:41.317Z"
+}

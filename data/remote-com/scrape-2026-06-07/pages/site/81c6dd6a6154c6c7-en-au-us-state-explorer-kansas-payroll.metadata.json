@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/us-state-explorer/kansas/payroll",
+  "sourceURL": "https://remote.com/en-au/us-state-explorer/kansas/payroll",
+  "finalURL": "https://remote.com/en-au/us-state-explorer/kansas/payroll",
+  "title": "Payroll Management in Kansas",
+  "description": "Manage payroll in Kansas seamlessly with Remote's payroll software. Stay compliant with Kansas payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258378,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/81c6dd6a6154c6c7-en-au-us-state-explorer-kansas-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/81c6dd6a6154c6c7-en-au-us-state-explorer-kansas-payroll.direct.json",
+  "markdownChars": 4012,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:01:53.333Z"
+}

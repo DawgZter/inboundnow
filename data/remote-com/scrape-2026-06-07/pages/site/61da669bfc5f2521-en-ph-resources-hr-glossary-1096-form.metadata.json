@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/hr-glossary/1096-form",
+  "sourceURL": "https://remote.com/en-ph/resources/hr-glossary/1096-form",
+  "finalURL": "https://remote.com/en-ph/resources/hr-glossary/1096-form",
+  "title": "Form 1096",
+  "description": "Learn how IRS Form 1096 works, what it's used for, and what businesses need to know to file it correctly and stay compliant.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252383,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/61da669bfc5f2521-en-ph-resources-hr-glossary-1096-form.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/61da669bfc5f2521-en-ph-resources-hr-glossary-1096-form.direct.json",
+  "markdownChars": 4248,
+  "linksCount": 118,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:15:43.488Z"
+}

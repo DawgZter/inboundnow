@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/insights-center/guide-to-freelancing-working-abroad",
+  "sourceURL": "https://remote.com/ko-kr/resources/insights-center/guide-to-freelancing-working-abroad",
+  "finalURL": "https://remote.com/ko-kr/resources/insights-center/guide-to-freelancing-working-abroad",
+  "title": "프리랜싱 및 해외 근무 가이드",
+  "description": "프리랜싱의 인기와 실현 가능성이 높아지면서 새로운 해외 여행의 기회가 열렸습니다. 적절한 도구와 정보가 있다면 프리랜서는 일을 계속 하면서 다양한 장소로 이사하거나 여러 여행지를 방문할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 281563,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2a147250db62880b-ko-kr-resources-insights-center-guide-to-freelancing-working-abroad.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2a147250db62880b-ko-kr-resources-insights-center-guide-to-freelancing-working-abroad.direct.json",
+  "markdownChars": 10446,
+  "linksCount": 141,
+  "lastmod": "2025-05-27",
+  "scrapedAt": "2026-06-07T09:18:44.654Z"
+}

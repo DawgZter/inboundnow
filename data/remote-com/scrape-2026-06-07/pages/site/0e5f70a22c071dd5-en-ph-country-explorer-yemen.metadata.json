@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/yemen",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/yemen",
+  "finalURL": "https://remote.com/en-ph/country-explorer/yemen",
+  "title": "Employer of Record & Payroll Services | Yemen",
+  "description": "Hiring employees and contractors in Yemen? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 318808,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e5f70a22c071dd5-en-ph-country-explorer-yemen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e5f70a22c071dd5-en-ph-country-explorer-yemen.direct.json",
+  "markdownChars": 4952,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:02:18.472Z"
+}

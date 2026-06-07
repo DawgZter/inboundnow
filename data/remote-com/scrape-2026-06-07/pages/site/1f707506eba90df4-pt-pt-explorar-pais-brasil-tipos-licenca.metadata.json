@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/brasil/tipos-licenca",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/brasil/tipos-licenca",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/brasil/tipos-licenca",
+  "title": "Regimes de licenças no Brasil | Legislação sobre os regimes de licenças",
+  "description": "Percebe os regimes de licenças no Brasil. Garante que o teu negócio cumpre as políticas sobre o regime de licenças e oferece férias remuneradas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153628,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1f707506eba90df4-pt-pt-explorar-pais-brasil-tipos-licenca.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1f707506eba90df4-pt-pt-explorar-pais-brasil-tipos-licenca.direct.json",
+  "markdownChars": 2023,
+  "linksCount": 44,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:01:03.541Z"
+}

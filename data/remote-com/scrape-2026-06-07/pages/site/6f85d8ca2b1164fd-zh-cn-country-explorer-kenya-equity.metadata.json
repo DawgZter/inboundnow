@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/kenya/equity",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/kenya/equity",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/kenya/equity",
+  "title": "肯尼亚员工股票期权",
+  "description": "了解肯尼亚员工股权与股票期权的适用规则，使用 Remote 的 Country Explorer 可助贵公司在全球薪酬问题上做出明智决策。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257567,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6f85d8ca2b1164fd-zh-cn-country-explorer-kenya-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6f85d8ca2b1164fd-zh-cn-country-explorer-kenya-equity.direct.json",
+  "markdownChars": 1430,
+  "linksCount": 122,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:01:48.787Z"
+}

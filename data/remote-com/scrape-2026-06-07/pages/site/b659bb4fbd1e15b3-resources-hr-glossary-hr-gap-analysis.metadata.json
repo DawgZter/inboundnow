@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/hr-gap-analysis",
+  "sourceURL": "https://remote.com/resources/hr-glossary/hr-gap-analysis",
+  "finalURL": "https://remote.com/resources/hr-glossary/hr-gap-analysis",
+  "title": "HR gap analysis",
+  "description": "Learn about HR gap analysis and its role in identifying workforce needs and enhancing organizational efficiency.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251232,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b659bb4fbd1e15b3-resources-hr-glossary-hr-gap-analysis.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b659bb4fbd1e15b3-resources-hr-glossary-hr-gap-analysis.direct.json",
+  "markdownChars": 3323,
+  "linksCount": 119,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:07:52.805Z"
+}

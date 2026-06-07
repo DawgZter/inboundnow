@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/recherche/rapport-recrutement-remote",
+  "sourceURL": "https://remote.com/fr-fr/ressources/recherche/rapport-recrutement-remote",
+  "finalURL": "https://remote.com/fr-fr/ressources/recherche/rapport-recrutement-remote",
+  "title": "Solutions RH mondiales et outils d’embauche pour équipes réparties | Remote",
+  "description": "Remote est votre guichet unique pour recruter des talents dans n’importe quel pays, aidant les entreprises en croissance à employer les meilleurs talents du monde entier. Notre solution de Paie, d’avantages sociaux, de fiscalité et de conformité permet aux entreprises d’accéder à et d’habiliter des effectifs mondiaux.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 476987,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/00a6c5db9127d294-fr-fr-ressources-recherche-rapport-recrutement-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/00a6c5db9127d294-fr-fr-ressources-recherche-rapport-recrutement-remote.direct.json",
+  "markdownChars": 62944,
+  "linksCount": 118,
+  "lastmod": "2025-11-14",
+  "scrapedAt": "2026-06-07T09:11:14.559Z"
+}

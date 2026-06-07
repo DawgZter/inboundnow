@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/armenia",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/armenia",
+  "finalURL": "https://remote.com/en-gb/country-explorer/armenia",
+  "title": "Employer of Record & Payroll Services | Armenia",
+  "description": "Hiring employees and contractors in Armenia? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 343077,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ccca2dab18191da3-en-gb-country-explorer-armenia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ccca2dab18191da3-en-gb-country-explorer-armenia.direct.json",
+  "markdownChars": 6061,
+  "linksCount": 127,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:08:24.820Z"
+}

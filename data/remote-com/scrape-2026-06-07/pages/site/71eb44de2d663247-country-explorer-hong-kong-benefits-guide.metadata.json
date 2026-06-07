@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/hong-kong/benefits-guide",
+  "sourceURL": "https://remote.com/country-explorer/hong-kong/benefits-guide",
+  "finalURL": "https://remote.com/country-explorer/hong-kong/benefits-guide",
+  "title": "Employee Benefits in Hong Kong | Benefits Plans",
+  "description": "Discover the essential employee benefits in Hong Kong. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 272413,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71eb44de2d663247-country-explorer-hong-kong-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71eb44de2d663247-country-explorer-hong-kong-benefits-guide.direct.json",
+  "markdownChars": 1454,
+  "linksCount": 125,
+  "lastmod": "2025-05-17",
+  "scrapedAt": "2026-06-07T09:01:27.495Z"
+}

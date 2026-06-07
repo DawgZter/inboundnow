@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/sierra-leone",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/sierra-leone",
+  "finalURL": "https://remote.com/it-it/esplora-paese/sierra-leone",
+  "title": "Employer of Record (EOR) e Payroll | Sierra Leone",
+  "description": "Stai assumendo personale o collaboratori in Sierra Leone? Remote può aiutarti a gestire tutto tramite la nostra Piattaforma HR globale e integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 204802,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1e6dd37badac26a4-it-it-esplora-paese-sierra-leone.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1e6dd37badac26a4-it-it-esplora-paese-sierra-leone.direct.json",
+  "markdownChars": 3330,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:07:30.569Z"
+}

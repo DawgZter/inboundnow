@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/tools/hr-holiday-quiz",
+  "sourceURL": "https://remote.com/en-sg/resources/tools/hr-holiday-quiz",
+  "finalURL": "https://remote.com/en-sg/resources/tools/hr-holiday-quiz",
+  "title": "HR Holiday Quiz",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 276164,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/096c7440046dbf45-en-sg-resources-tools-hr-holiday-quiz.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/096c7440046dbf45-en-sg-resources-tools-hr-holiday-quiz.direct.json",
+  "markdownChars": 448,
+  "linksCount": 105,
+  "lastmod": "2026-01-08",
+  "scrapedAt": "2026-06-07T09:12:07.265Z"
+}

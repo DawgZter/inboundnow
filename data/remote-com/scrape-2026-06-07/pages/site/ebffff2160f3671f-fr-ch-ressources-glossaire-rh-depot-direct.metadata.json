@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/depot-direct",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/depot-direct",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/depot-direct",
+  "title": "What is direct deposit?",
+  "description": "En savoir plus sur le dépôt direct dans le cadre de la paie et sur son fonctionnement.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255416,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ebffff2160f3671f-fr-ch-ressources-glossaire-rh-depot-direct.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ebffff2160f3671f-fr-ch-ressources-glossaire-rh-depot-direct.direct.json",
+  "markdownChars": 3720,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:18:40.235Z"
+}

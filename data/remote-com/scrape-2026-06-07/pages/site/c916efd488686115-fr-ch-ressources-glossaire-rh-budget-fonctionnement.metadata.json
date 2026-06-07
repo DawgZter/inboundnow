@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/budget-fonctionnement",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/budget-fonctionnement",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/budget-fonctionnement",
+  "title": "What is an operating budget?",
+  "description": "Comprendre ce qu'est un budget de fonctionnement, pourquoi il est important et comment votre entreprise peut en créer un et le gérer efficacement.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258739,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c916efd488686115-fr-ch-ressources-glossaire-rh-budget-fonctionnement.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c916efd488686115-fr-ch-ressources-glossaire-rh-budget-fonctionnement.direct.json",
+  "markdownChars": 6417,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:09:57.700Z"
+}

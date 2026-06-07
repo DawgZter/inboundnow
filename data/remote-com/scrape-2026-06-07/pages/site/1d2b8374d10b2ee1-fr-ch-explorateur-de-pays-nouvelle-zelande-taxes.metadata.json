@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/nouvelle-zelande/taxes",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/nouvelle-zelande/taxes",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/nouvelle-zelande/taxes",
+  "title": "Gérer la taxe de paie en Nouvelle-Zélande | Conformité fiscale",
+  "description": "Nouvelle Zelande : Gérez efficacement l’imposition de la paie, en toute conformité. Réduisez les erreurs d’imposition de la paie, respectez le droit local et évitez de coûteuses amendes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264139,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1d2b8374d10b2ee1-fr-ch-explorateur-de-pays-nouvelle-zelande-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1d2b8374d10b2ee1-fr-ch-explorateur-de-pays-nouvelle-zelande-taxes.direct.json",
+  "markdownChars": 2099,
+  "linksCount": 125,
+  "lastmod": "2026-05-06",
+  "scrapedAt": "2026-06-07T09:01:27.409Z"
+}

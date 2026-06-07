@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/recherche/guide-greenhouse-equilibre-vie-privee-travail-distance",
+  "sourceURL": "https://remote.com/fr-ch/ressources/recherche/guide-greenhouse-equilibre-vie-privee-travail-distance",
+  "finalURL": "https://remote.com/fr-ch/ressources/recherche/guide-greenhouse-equilibre-vie-privee-travail-distance",
+  "title": "Comment améliorer l'équilibre entre la vie privée et professionnelle de vos employés ? | Remote",
+  "description": "Les experts en RH à l'international de Greenhouse et de Remote mettent à votre disposition des stratégies pratiques pour vous aider à mieux accompagner votre équipe et améliorer l'équilibre entre leur vie privée et professionnelle.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 263453,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/486e7838158ae656-fr-ch-ressources-recherche-guide-greenhouse-equilibre-vie-privee-travail-distance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/486e7838158ae656-fr-ch-ressources-recherche-guide-greenhouse-equilibre-vie-privee-travail-distance.direct.json",
+  "markdownChars": 1031,
+  "linksCount": 115,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:05:45.745Z"
+}

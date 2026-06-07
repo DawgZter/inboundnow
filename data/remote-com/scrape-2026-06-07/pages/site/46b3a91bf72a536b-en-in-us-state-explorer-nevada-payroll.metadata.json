@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/us-state-explorer/nevada/payroll",
+  "sourceURL": "https://remote.com/en-in/us-state-explorer/nevada/payroll",
+  "finalURL": "https://remote.com/en-in/us-state-explorer/nevada/payroll",
+  "title": "Payroll Management in Nevada",
+  "description": "Manage payroll in Nevada seamlessly with Remote's payroll software. Stay compliant with Nevada payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258870,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/46b3a91bf72a536b-en-in-us-state-explorer-nevada-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/46b3a91bf72a536b-en-in-us-state-explorer-nevada-payroll.direct.json",
+  "markdownChars": 4613,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:09:59.777Z"
+}

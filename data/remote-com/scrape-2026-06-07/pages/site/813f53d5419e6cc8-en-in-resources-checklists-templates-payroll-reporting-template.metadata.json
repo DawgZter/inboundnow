@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/checklists-templates/payroll-reporting-template",
+  "sourceURL": "https://remote.com/en-in/resources/checklists-templates/payroll-reporting-template",
+  "finalURL": "https://remote.com/en-in/resources/checklists-templates/payroll-reporting-template",
+  "title": "Payroll reporting template | Remote",
+  "description": "Run compliant US payroll reports with this on-page template — no downloads required. Includes tax breakdowns, employee registers, and filing checklists.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251445,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/813f53d5419e6cc8-en-in-resources-checklists-templates-payroll-reporting-template.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/813f53d5419e6cc8-en-in-resources-checklists-templates-payroll-reporting-template.direct.json",
+  "markdownChars": 4217,
+  "linksCount": 114,
+  "lastmod": "2025-07-24",
+  "scrapedAt": "2026-06-07T09:15:32.528Z"
+}

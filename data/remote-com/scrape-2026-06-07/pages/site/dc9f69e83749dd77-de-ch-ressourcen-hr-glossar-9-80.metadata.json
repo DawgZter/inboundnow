@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/9-80",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/9-80",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/9-80",
+  "title": "Zeitplan 9/80",
+  "description": "A 9/80 schedule lets employees work 80 hours over 9 days with every other Friday off. Learn how it works and what employers need to do to stay compliant.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253250,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dc9f69e83749dd77-de-ch-ressourcen-hr-glossar-9-80.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dc9f69e83749dd77-de-ch-ressourcen-hr-glossar-9-80.direct.json",
+  "markdownChars": 3275,
+  "linksCount": 126,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:12:35.933Z"
+}

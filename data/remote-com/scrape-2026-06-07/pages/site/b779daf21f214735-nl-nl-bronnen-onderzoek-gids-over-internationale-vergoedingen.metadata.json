@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/onderzoek/gids-over-internationale-vergoedingen",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/onderzoek/gids-over-internationale-vergoedingen",
+  "finalURL": "https://remote.com/nl-nl/bronnen/onderzoek/gids-over-internationale-vergoedingen",
+  "title": "Gids over internationale vergoedingen | Remote | Remote",
+  "description": "Bekijk de gids over internationale vergoedingen van Remote en ontdek hoe je lokaal competitieve salarissen kunt bieden waarbij je je internationale team eerlijk betaalt.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265720,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b779daf21f214735-nl-nl-bronnen-onderzoek-gids-over-internationale-vergoedingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b779daf21f214735-nl-nl-bronnen-onderzoek-gids-over-internationale-vergoedingen.direct.json",
+  "markdownChars": 1241,
+  "linksCount": 114,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:01:40.709Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/united-states/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/united-states/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/en-ph/country-explorer/united-states/benefits-guide/life-insurance",
+  "title": "Employee Life Insurance in United States | Insurance Plans",
+  "description": "Provide peace of mind with life insurance coverage for your employees in United States. Explore the policies and benefits available.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265928,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40c712dc9be7e816-en-ph-country-explorer-united-states-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40c712dc9be7e816-en-ph-country-explorer-united-states-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 1712,
+  "linksCount": 124,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:15:56.105Z"
+}

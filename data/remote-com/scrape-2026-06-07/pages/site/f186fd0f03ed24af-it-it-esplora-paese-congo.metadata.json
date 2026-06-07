@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/congo",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/congo",
+  "finalURL": "https://remote.com/it-it/esplora-paese/congo",
+  "title": "Employer of Record (EOR) e servizi Payroll | Congo (Congo-Brazzaville)",
+  "description": "Vuoi assumere personale e Contractor in Congo (Congo-Brazzaville)? Remote può aiutarti a gestire il personale e i Contractor tramite la nostra Piattaforma HR integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 204798,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f186fd0f03ed24af-it-it-esplora-paese-congo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f186fd0f03ed24af-it-it-esplora-paese-congo.direct.json",
+  "markdownChars": 3526,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:18:28.759Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/forschung/als-freelancer-in-selbststaendig-machen",
+  "sourceURL": "https://remote.com/de-at/ressourcen/forschung/als-freelancer-in-selbststaendig-machen",
+  "finalURL": "https://remote.com/de-at/ressourcen/forschung/als-freelancer-in-selbststaendig-machen",
+  "title": "Wie du dich als Freelancer:in selbstständig machst und bezahlt wirst | Remote | Remote",
+  "description": "Erfahre, wie du dich als Freelancer:in selbstständig machen kannst, um für lokale und internationale Kunden zu arbeiten und von ihnen bezahlt zu werden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 297469,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d810f3234b82f2ad-de-at-ressourcen-forschung-als-freelancer-in-selbststaendig-machen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d810f3234b82f2ad-de-at-ressourcen-forschung-als-freelancer-in-selbststaendig-machen.direct.json",
+  "markdownChars": 19994,
+  "linksCount": 139,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:01:58.362Z"
+}

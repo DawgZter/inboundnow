@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/paraguai/rescisao-contrato",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/paraguai/rescisao-contrato",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/paraguai/rescisao-contrato",
+  "title": "Cessação do contrato de trabalho no Paraguai | Cessação do contrato de trabalho",
+  "description": "Queres rescindir um contrato de trabalho no Paraguai? Descobre os teus direitos no nosso guia completo sobre as leis de cessação do contrato de trabalho.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153021,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0002f1b2b3b50bee-pt-pt-explorar-pais-paraguai-rescisao-contrato.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0002f1b2b3b50bee-pt-pt-explorar-pais-paraguai-rescisao-contrato.direct.json",
+  "markdownChars": 1539,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:07:31.770Z"
+}

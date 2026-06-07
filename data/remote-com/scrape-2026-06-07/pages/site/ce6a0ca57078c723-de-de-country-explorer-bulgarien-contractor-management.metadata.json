@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/bulgarien/contractor-management",
+  "sourceURL": "https://remote.com/de-de/country-explorer/bulgarien/contractor-management",
+  "finalURL": "https://remote.com/de-de/country-explorer/bulgarien/contractor-management",
+  "title": "Auftragnehmer:innen in Bulgarien verwalten | Contractor Management",
+  "description": "Auftragnehmer:in in Bulgarien beauftragen? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management‑Diensten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260278,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce6a0ca57078c723-de-de-country-explorer-bulgarien-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce6a0ca57078c723-de-de-country-explorer-bulgarien-contractor-management.direct.json",
+  "markdownChars": 4161,
+  "linksCount": 122,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:18:02.592Z"
+}

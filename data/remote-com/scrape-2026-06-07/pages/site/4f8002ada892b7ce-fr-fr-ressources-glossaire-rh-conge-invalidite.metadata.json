@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-invalidite",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-invalidite",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/conge-invalidite",
+  "title": "Qu'est-ce que le congé d'invalidité ?",
+  "description": "Le congé d'invalidité est une politique du lieu de travail qui permet aux employés de s'absenter de leur travail en raison d'une invalidité temporaire ou permanente.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261191,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4f8002ada892b7ce-fr-fr-ressources-glossaire-rh-conge-invalidite.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4f8002ada892b7ce-fr-fr-ressources-glossaire-rh-conge-invalidite.direct.json",
+  "markdownChars": 7857,
+  "linksCount": 127,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:18:39.070Z"
+}

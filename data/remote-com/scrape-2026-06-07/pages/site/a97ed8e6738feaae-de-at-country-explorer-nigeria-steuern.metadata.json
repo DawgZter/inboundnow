@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/nigeria/steuern",
+  "sourceURL": "https://remote.com/de-at/country-explorer/nigeria/steuern",
+  "finalURL": "https://remote.com/de-at/country-explorer/nigeria/steuern",
+  "title": "Payroll-Steuern in Nigeria verwalten | Steuer-Compliance",
+  "description": "Bezahle Lohnsteuern in '.Nigeria.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259814,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a97ed8e6738feaae-de-at-country-explorer-nigeria-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a97ed8e6738feaae-de-at-country-explorer-nigeria-steuern.direct.json",
+  "markdownChars": 1092,
+  "linksCount": 123,
+  "lastmod": "2026-02-25",
+  "scrapedAt": "2026-06-07T09:16:34.904Z"
+}

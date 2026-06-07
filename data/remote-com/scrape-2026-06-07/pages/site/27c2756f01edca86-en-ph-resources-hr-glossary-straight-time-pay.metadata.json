@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/hr-glossary/straight-time-pay",
+  "sourceURL": "https://remote.com/en-ph/resources/hr-glossary/straight-time-pay",
+  "finalURL": "https://remote.com/en-ph/resources/hr-glossary/straight-time-pay",
+  "title": "What is straight time pay?",
+  "description": "Learn about straight time pay and how employers can put it into practice",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250962,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/27c2756f01edca86-en-ph-resources-hr-glossary-straight-time-pay.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/27c2756f01edca86-en-ph-resources-hr-glossary-straight-time-pay.direct.json",
+  "markdownChars": 2865,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:07:52.356Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/utah/employment-termination",
+  "sourceURL": "https://remote.com/us-state-explorer/utah/employment-termination",
+  "finalURL": "https://remote.com/us-state-explorer/utah/employment-termination",
+  "title": "Terminate Employees in Utah | Employment Termination",
+  "description": "Looking to terminate an employee in Utah? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255909,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8cbf34e895606e2c-us-state-explorer-utah-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8cbf34e895606e2c-us-state-explorer-utah-employment-termination.direct.json",
+  "markdownChars": 1681,
+  "linksCount": 112,
+  "lastmod": "2025-04-28",
+  "scrapedAt": "2026-06-07T09:16:43.685Z"
+}

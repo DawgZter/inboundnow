@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/gana",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/gana",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/gana",
+  "title": "Employer of Record (EOR) e processamento salarial | Gana",
+  "description": "Queres contratar trabalhadores e independentes no Gana? A Remote ajuda-te a gerir a tua equipa através da nossa plataforma global de RH.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 215022,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fdeca5e8a1e5c675-pt-pt-explorar-pais-gana.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fdeca5e8a1e5c675-pt-pt-explorar-pais-gana.direct.json",
+  "markdownChars": 5007,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:09:13.106Z"
+}

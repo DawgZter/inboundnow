@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/egypte/types-conges",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/egypte/types-conges",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/egypte/types-conges",
+  "title": "Types de congé en Égypte | Lois sur les congés des employés",
+  "description": "Egypte : Maitrisez les lois locales sur les congés des employés. Veillez à ce que votre entreprise respecte les normes applicables en la matière et propose des congés payés compétitifs.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264509,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce41b59095f62b37-fr-fr-explorateur-de-pays-egypte-types-conges.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce41b59095f62b37-fr-fr-explorateur-de-pays-egypte-types-conges.direct.json",
+  "markdownChars": 2743,
+  "linksCount": 124,
+  "lastmod": "2025-09-06",
+  "scrapedAt": "2026-06-07T09:12:56.931Z"
+}

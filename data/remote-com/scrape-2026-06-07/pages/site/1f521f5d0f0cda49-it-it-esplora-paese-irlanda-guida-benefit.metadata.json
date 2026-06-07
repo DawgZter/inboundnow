@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/irlanda/guida-benefit",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/irlanda/guida-benefit",
+  "finalURL": "https://remote.com/it-it/esplora-paese/irlanda/guida-benefit",
+  "title": "Benefit per i dipendenti in Irlanda | Piani di benefit",
+  "description": "Scopri i benefit per i dipendenti essenziali in Irlanda. Informati su assicurazione sanitaria, congedi retribuiti e altri vantaggi per attirare e trattenere i migliori talenti.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 166227,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1f521f5d0f0cda49-it-it-esplora-paese-irlanda-guida-benefit.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1f521f5d0f0cda49-it-it-esplora-paese-irlanda-guida-benefit.direct.json",
+  "markdownChars": 1639,
+  "linksCount": 46,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:00:59.219Z"
+}

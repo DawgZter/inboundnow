@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst",
+  "title": "HR-termen beheersen: ontdek onze uitgebreide HR-woordenlijst | Remote | Remote",
+  "description": "Duik in onze HR-woordenlijst om de belangrijkste HR-termen en -definities te beheersen. Verdiep je expertise met deze belangrijke gids voor HR-professionals. Ga vandaag nog aan de slag met deze handige tool die HR-concepten duidelijk uitlegt.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 671375,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/52b1b28d069ca133-nl-nl-bronnen-hr-woordenlijst.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/52b1b28d069ca133-nl-nl-bronnen-hr-woordenlijst.direct.json",
+  "markdownChars": 6158,
+  "linksCount": 342,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:14:59.343Z"
+}

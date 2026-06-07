@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/hr-glossary/direct-reports",
+  "sourceURL": "https://remote.com/en-gb/resources/hr-glossary/direct-reports",
+  "finalURL": "https://remote.com/en-gb/resources/hr-glossary/direct-reports",
+  "title": "What is a direct report?",
+  "description": "Understand what a direct report is, and how your company can enable your managers to support their direct reports effectively and successfully.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253484,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6bbe1129f5e08073-en-gb-resources-hr-glossary-direct-reports.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6bbe1129f5e08073-en-gb-resources-hr-glossary-direct-reports.direct.json",
+  "markdownChars": 4666,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:14:53.168Z"
+}

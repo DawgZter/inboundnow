@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/peru/taxes",
+  "sourceURL": "https://remote.com/country-explorer/peru/taxes",
+  "finalURL": "https://remote.com/country-explorer/peru/taxes",
+  "title": "Manage Payroll Tax in Peru | Tax Compliance",
+  "description": "Manage payroll taxes in Peru effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260111,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78b854a31e4603c4-country-explorer-peru-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78b854a31e4603c4-country-explorer-peru-taxes.direct.json",
+  "markdownChars": 968,
+  "linksCount": 126,
+  "lastmod": "2025-09-06",
+  "scrapedAt": "2026-06-07T09:08:39.493Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/stellenbewertung",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/stellenbewertung",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/stellenbewertung",
+  "title": "Berufliche Einstufung",
+  "description": "Verstehe die Bedeutung der Stelleneinstufung und lerne, wie du die Rollen in deinem Unternehmen effektiv einstufen kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259366,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b7e7cd46f7987ea2-de-de-ressourcen-hr-glossar-stellenbewertung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b7e7cd46f7987ea2-de-de-ressourcen-hr-glossar-stellenbewertung.direct.json",
+  "markdownChars": 8850,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:16:36.359Z"
+}

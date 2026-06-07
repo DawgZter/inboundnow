@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/interpersonal-skills",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/interpersonal-skills",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/interpersonal-skills",
+  "title": "What are interpersonal skills",
+  "description": "Explore the importance of interpersonal skills in the workplace, how they enhance teamwork and communication, and their role in professional development in our HR glossary.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252611,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19ac4daa9f762009-en-hk-resources-hr-glossary-interpersonal-skills.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19ac4daa9f762009-en-hk-resources-hr-glossary-interpersonal-skills.direct.json",
+  "markdownChars": 3795,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:33.887Z"
+}

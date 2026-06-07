@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/us-state-explorer/vermont/contractor-management",
+  "sourceURL": "https://remote.com/en-sg/us-state-explorer/vermont/contractor-management",
+  "finalURL": "https://remote.com/en-sg/us-state-explorer/vermont/contractor-management",
+  "title": "Contractor Management in Vermont",
+  "description": "Manage and pay contractors in Vermont with ease. Stay compliant, process payments easily, and reduce risk with a streamlined solution for hiring contractors with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257218,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ffffc2ec4a6d4341-en-sg-us-state-explorer-vermont-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ffffc2ec4a6d4341-en-sg-us-state-explorer-vermont-contractor-management.direct.json",
+  "markdownChars": 2201,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:11:00.610Z"
+}

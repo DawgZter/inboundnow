@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/georgia/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/country-explorer/georgia/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/country-explorer/georgia/benefits-guide/life-insurance",
+  "title": "Life Insurance Benefits in Georgia | Wellbeing Support",
+  "description": "Support your team with Life Insurance benefits in Georgia.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 266965,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db2438b8adda2d78-country-explorer-georgia-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db2438b8adda2d78-country-explorer-georgia-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 4769,
+  "linksCount": 117,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:01:26.128Z"
+}

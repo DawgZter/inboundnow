@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/slovakia/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/slovakia/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/slovakia/benefits-guide",
+  "title": "斯洛伐克的员工福利 | 福利计划",
+  "description": "了解斯洛伐克的关键员工福利，包括健康保险、带薪休假及其他福利，助力贵公司吸引并留住顶尖人才。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268983,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7371e6b018f6532b-zh-cn-country-explorer-slovakia-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7371e6b018f6532b-zh-cn-country-explorer-slovakia-benefits-guide.direct.json",
+  "markdownChars": 567,
+  "linksCount": 122,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:09:43.467Z"
+}

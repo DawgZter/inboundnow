@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/mongolia/contractor-management",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/mongolia/contractor-management",
+  "finalURL": "https://remote.com/en-ph/country-explorer/mongolia/contractor-management",
+  "title": "Manage Contractors in Mongolia | Contractor Management",
+  "description": "Hiring a contractor in Mongolia? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250519,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7ede3ea0c8f7daca-en-ph-country-explorer-mongolia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7ede3ea0c8f7daca-en-ph-country-explorer-mongolia-contractor-management.direct.json",
+  "markdownChars": 1806,
+  "linksCount": 114,
+  "lastmod": "2026-03-25",
+  "scrapedAt": "2026-06-07T09:07:57.139Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/global-hr/global-mobility",
+  "sourceURL": "https://remote.com/en-ca/global-hr/global-mobility",
+  "finalURL": "https://remote.com/en-ca/global-hr/global-mobility",
+  "title": "Global Mobility Services | Remote",
+  "description": "Remote Mobility streamlines global relocations. Manage visas, tax compliance, and payroll — ensuring every move is fast, compliant, and stress-free.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 348602,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/411784261d6dd614-en-ca-global-hr-global-mobility.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/411784261d6dd614-en-ca-global-hr-global-mobility.direct.json",
+  "markdownChars": 6564,
+  "linksCount": 115,
+  "lastmod": "2026-04-09",
+  "scrapedAt": "2026-06-07T09:13:56.619Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/central-african-republic/contractor-management",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/central-african-republic/contractor-management",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/central-african-republic/contractor-management",
+  "title": "中非共和国合同工管理 | 管理合同工",
+  "description": "如果贵公司在中非共和国雇佣合同工， Remote 的灵活合同工管理服务可帮助贵公司轻松管理并向全球合同工付款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254656,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d36f5d72b61dd339-zh-cn-country-explorer-central-african-republic-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d36f5d72b61dd339-zh-cn-country-explorer-central-african-republic-contractor-management.direct.json",
+  "markdownChars": 770,
+  "linksCount": 115,
+  "lastmod": "2025-12-22",
+  "scrapedAt": "2026-06-07T09:01:45.549Z"
+}

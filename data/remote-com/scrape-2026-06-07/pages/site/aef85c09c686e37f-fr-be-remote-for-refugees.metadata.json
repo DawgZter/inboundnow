@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/remote-for-refugees",
+  "sourceURL": "https://remote.com/fr-be/remote-for-refugees",
+  "finalURL": "https://remote.com/fr-be/remote-for-refugees",
+  "title": "Remote for Refugees : Intégrez des talents réfugiés | Remote",
+  "description": "Découvrez le service de Remote qui permet aux entreprises d’embaucher des réfugiés résidant dans un pays d’accueil.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 439782,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aef85c09c686e37f-fr-be-remote-for-refugees.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aef85c09c686e37f-fr-be-remote-for-refugees.direct.json",
+  "markdownChars": 17345,
+  "linksCount": 137,
+  "lastmod": "2025-07-14",
+  "scrapedAt": "2026-06-07T09:11:48.469Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/zero-hour-contract",
+  "sourceURL": "https://remote.com/resources/hr-glossary/zero-hour-contract",
+  "finalURL": "https://remote.com/resources/hr-glossary/zero-hour-contract",
+  "title": "Zero hour contract",
+  "description": "Understand the implications of zero hour contracts on employment flexibility and job security.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251134,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/095a2c67325c7f23-resources-hr-glossary-zero-hour-contract.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/095a2c67325c7f23-resources-hr-glossary-zero-hour-contract.direct.json",
+  "markdownChars": 3243,
+  "linksCount": 119,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:18:13.291Z"
+}

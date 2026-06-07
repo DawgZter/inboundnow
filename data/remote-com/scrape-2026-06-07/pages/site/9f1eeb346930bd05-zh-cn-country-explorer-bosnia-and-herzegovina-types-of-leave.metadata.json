@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/bosnia-and-herzegovina/types-of-leave",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/bosnia-and-herzegovina/types-of-leave",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/bosnia-and-herzegovina/types-of-leave",
+  "title": "波斯尼亚和黑塞哥维那的休假类型 | 员工休假法规",
+  "description": "了解波斯尼亚和黑塞哥维那的员工休假法规，确保贵公司遵守相关政策并提供具有竞争力的带薪休假。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257080,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f1eeb346930bd05-zh-cn-country-explorer-bosnia-and-herzegovina-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f1eeb346930bd05-zh-cn-country-explorer-bosnia-and-herzegovina-types-of-leave.direct.json",
+  "markdownChars": 625,
+  "linksCount": 120,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:06:19.430Z"
+}

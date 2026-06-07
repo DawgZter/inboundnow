@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/albania",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/albania",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/albania",
+  "title": "Employer of Record y nóminas | Albania",
+  "description": "贵公司在阿尔巴尼亚聘用员工和合同工？Remote 可通过其一体化全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 340552,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f1b7f5af99a006e-zh-cn-country-explorer-albania.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f1b7f5af99a006e-zh-cn-country-explorer-albania.direct.json",
+  "markdownChars": 4862,
+  "linksCount": 122,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:16:45.377Z"
+}

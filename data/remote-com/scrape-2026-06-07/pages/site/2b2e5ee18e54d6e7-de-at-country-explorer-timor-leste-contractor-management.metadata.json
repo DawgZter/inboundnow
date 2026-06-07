@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/timor-leste/contractor-management",
+  "sourceURL": "https://remote.com/de-at/country-explorer/timor-leste/contractor-management",
+  "finalURL": "https://remote.com/de-at/country-explorer/timor-leste/contractor-management",
+  "title": "Auftragnehmer:innen in Timor-Leste verwalten | Contractor Management",
+  "description": "Auftragnehmer:in in Timor-Leste beauftragen? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management Dienstleistungen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256666,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2b2e5ee18e54d6e7-de-at-country-explorer-timor-leste-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2b2e5ee18e54d6e7-de-at-country-explorer-timor-leste-contractor-management.direct.json",
+  "markdownChars": 2529,
+  "linksCount": 119,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:06:11.754Z"
+}

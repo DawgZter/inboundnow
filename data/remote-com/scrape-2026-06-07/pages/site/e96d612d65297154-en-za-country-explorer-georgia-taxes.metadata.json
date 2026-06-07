@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/georgia/taxes",
+  "sourceURL": "https://remote.com/en-za/country-explorer/georgia/taxes",
+  "finalURL": "https://remote.com/en-za/country-explorer/georgia/taxes",
+  "title": "Manage Payroll Tax in Georgia | Tax Compliance",
+  "description": "Manage payroll taxes in Georgia effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256954,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e96d612d65297154-en-za-country-explorer-georgia-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e96d612d65297154-en-za-country-explorer-georgia-taxes.direct.json",
+  "markdownChars": 720,
+  "linksCount": 127,
+  "lastmod": "2025-08-29",
+  "scrapedAt": "2026-06-07T09:16:54.560Z"
+}

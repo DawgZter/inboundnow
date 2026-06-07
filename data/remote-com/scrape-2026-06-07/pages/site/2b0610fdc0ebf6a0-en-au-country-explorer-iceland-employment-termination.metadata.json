@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/iceland/employment-termination",
+  "sourceURL": "https://remote.com/en-au/country-explorer/iceland/employment-termination",
+  "finalURL": "https://remote.com/en-au/country-explorer/iceland/employment-termination",
+  "title": "Terminate Employees in Iceland | Employment Termination",
+  "description": "Looking to terminate an employee in Iceland? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258310,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2b0610fdc0ebf6a0-en-au-country-explorer-iceland-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2b0610fdc0ebf6a0-en-au-country-explorer-iceland-employment-termination.direct.json",
+  "markdownChars": 1229,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:01:48.518Z"
+}

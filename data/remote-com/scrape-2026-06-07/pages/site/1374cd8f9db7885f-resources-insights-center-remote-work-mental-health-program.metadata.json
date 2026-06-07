@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/insights-center/remote-work-mental-health-program",
+  "sourceURL": "https://remote.com/resources/insights-center/remote-work-mental-health-program",
+  "finalURL": "https://remote.com/resources/insights-center/remote-work-mental-health-program",
+  "title": "How to build a remote work mental health program",
+  "description": "How to build a remote work mental health program",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 280491,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1374cd8f9db7885f-resources-insights-center-remote-work-mental-health-program.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1374cd8f9db7885f-resources-insights-center-remote-work-mental-health-program.direct.json",
+  "markdownChars": 25447,
+  "linksCount": 149,
+  "lastmod": "2025-05-27",
+  "scrapedAt": "2026-06-07T09:10:39.453Z"
+}

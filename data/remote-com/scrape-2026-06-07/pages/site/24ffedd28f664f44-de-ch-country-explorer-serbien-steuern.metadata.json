@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/serbien/steuern",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/serbien/steuern",
+  "finalURL": "https://remote.com/de-ch/country-explorer/serbien/steuern",
+  "title": "Lohnnebenkosten in Serbia | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Serbien.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257941,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/24ffedd28f664f44-de-ch-country-explorer-serbien-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/24ffedd28f664f44-de-ch-country-explorer-serbien-steuern.direct.json",
+  "markdownChars": 1081,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:01:41.037Z"
+}

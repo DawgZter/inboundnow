@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/vereinigte-arabische-emirate/steuern",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/vereinigte-arabische-emirate/steuern",
+  "finalURL": "https://remote.com/de-ch/country-explorer/vereinigte-arabische-emirate/steuern",
+  "title": "Lohnnebenkosten in United Arab Emirates | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Vereinigte Arabische Emirate.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257135,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e9ace7cc3bffa742-de-ch-country-explorer-vereinigte-arabische-emirate-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e9ace7cc3bffa742-de-ch-country-explorer-vereinigte-arabische-emirate-steuern.direct.json",
+  "markdownChars": 1223,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:16:12.849Z"
+}

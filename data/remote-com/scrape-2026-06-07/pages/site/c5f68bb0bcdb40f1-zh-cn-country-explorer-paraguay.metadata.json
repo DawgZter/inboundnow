@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/paraguay",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/paraguay",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/paraguay",
+  "title": "第三方雇佣托管服务（Employer of Record）与薪资服务 | 巴拉圭",
+  "description": "正在巴拉圭招聘员工和合同工？Remote 可通过整合的全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 340136,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5f68bb0bcdb40f1-zh-cn-country-explorer-paraguay.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5f68bb0bcdb40f1-zh-cn-country-explorer-paraguay.direct.json",
+  "markdownChars": 2663,
+  "linksCount": 122,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:01:58.561Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/cv",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/cv",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/cv",
+  "title": "What is a resume",
+  "description": "Ontdek de rol van een cv in het wervingsproces, de belangrijkste elementen ervan en hoe het van invloed is op sollicitaties door onze uitgebreide HR-woordenlijst te bezoeken.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 249796,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ee8f93d4aa2633b1-nl-be-bronnen-hr-woordenlijst-cv.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ee8f93d4aa2633b1-nl-be-bronnen-hr-woordenlijst-cv.direct.json",
+  "markdownChars": 4391,
+  "linksCount": 123,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:04:10.000Z"
+}

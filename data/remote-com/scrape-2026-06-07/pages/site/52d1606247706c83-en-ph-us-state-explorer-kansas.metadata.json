@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/us-state-explorer/kansas",
+  "sourceURL": "https://remote.com/en-ph/us-state-explorer/kansas",
+  "finalURL": "https://remote.com/en-ph/us-state-explorer/kansas",
+  "title": "Employer of Record & Payroll Services | Kansas",
+  "description": "Use our compliance guide to employ in Kansas with ease. Learn about benefits, payroll, leave, and other labor laws in The Sunflower State.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 331803,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/52d1606247706c83-en-ph-us-state-explorer-kansas.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/52d1606247706c83-en-ph-us-state-explorer-kansas.direct.json",
+  "markdownChars": 7088,
+  "linksCount": 113,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:16:24.393Z"
+}

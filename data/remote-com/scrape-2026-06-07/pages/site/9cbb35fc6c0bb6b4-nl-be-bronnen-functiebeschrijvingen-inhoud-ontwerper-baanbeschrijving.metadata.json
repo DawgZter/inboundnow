@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/inhoud-ontwerper-baanbeschrijving",
+  "sourceURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/inhoud-ontwerper-baanbeschrijving",
+  "finalURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/inhoud-ontwerper-baanbeschrijving",
+  "title": "Functieomschrijving inhoudsontwerper",
+  "description": "Bekijk de functiebeschrijving voor een content designer, verantwoordelijk voor het maken en optimaliseren van content, het waarborgen van duidelijkheid en bruikbaarheid en het afstemmen op de behoeften van gebruikers en bedrijfsdoelen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256659,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9cbb35fc6c0bb6b4-nl-be-bronnen-functiebeschrijvingen-inhoud-ontwerper-baanbeschrijving.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9cbb35fc6c0bb6b4-nl-be-bronnen-functiebeschrijvingen-inhoud-ontwerper-baanbeschrijving.direct.json",
+  "markdownChars": 4244,
+  "linksCount": 117,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:17:28.020Z"
+}

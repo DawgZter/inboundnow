@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/hr-glossary/paternity-leave",
+  "sourceURL": "https://remote.com/en-nz/resources/hr-glossary/paternity-leave",
+  "finalURL": "https://remote.com/en-nz/resources/hr-glossary/paternity-leave",
+  "title": "Paternity leave",
+  "description": "Learn what paternity leave is, how it supports non-birthing parents, and how companies use it to promote equity and meet global compliance needs.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253515,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e2365e84036cbb3c-en-nz-resources-hr-glossary-paternity-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e2365e84036cbb3c-en-nz-resources-hr-glossary-paternity-leave.direct.json",
+  "markdownChars": 4411,
+  "linksCount": 119,
+  "lastmod": "2025-07-24",
+  "scrapedAt": "2026-06-07T09:08:15.166Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/chypre/gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/chypre/gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/chypre/gestion-des-freelances",
+  "title": "Gérez des freelances à Chypre | Gestion des freelances",
+  "description": "Vous faites appel à un freelance à Chypre&nbsp;? Gérez et payez vos freelances internationaux sans effort grâce à nos services flexibles de Gestion des freelances.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262164,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7aabb64355b1c9c9-fr-ch-explorateur-de-pays-chypre-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7aabb64355b1c9c9-fr-ch-explorateur-de-pays-chypre-gestion-des-freelances.direct.json",
+  "markdownChars": 2627,
+  "linksCount": 124,
+  "lastmod": "2025-11-06",
+  "scrapedAt": "2026-06-07T09:07:06.427Z"
+}

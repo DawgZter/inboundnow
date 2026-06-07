@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/tuvalu/contractor-management",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/tuvalu/contractor-management",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/tuvalu/contractor-management",
+  "title": "투발루에서의 계약자 관리 | 계약자 관리",
+  "description": "투발루에서 계약자를 고용하면, 유연한 계약자 관리 서비스로 글로벌 계약자 관리와 지급을 손쉽게 수행할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255953,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/718ce5d4e51b5c1a-ko-kr-country-explorer-tuvalu-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/718ce5d4e51b5c1a-ko-kr-country-explorer-tuvalu-contractor-management.direct.json",
+  "markdownChars": 1075,
+  "linksCount": 117,
+  "lastmod": "2025-11-07",
+  "scrapedAt": "2026-06-07T09:18:32.031Z"
+}

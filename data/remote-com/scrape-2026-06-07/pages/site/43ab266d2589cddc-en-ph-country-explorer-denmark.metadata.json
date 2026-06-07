@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/denmark",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/denmark",
+  "finalURL": "https://remote.com/en-ph/country-explorer/denmark",
+  "title": "Employer of Record & Payroll Services | Denmark",
+  "description": "Hiring employees and contractors in Denmark? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 349651,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/43ab266d2589cddc-en-ph-country-explorer-denmark.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/43ab266d2589cddc-en-ph-country-explorer-denmark.direct.json",
+  "markdownChars": 8036,
+  "linksCount": 130,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:10:26.289Z"
+}

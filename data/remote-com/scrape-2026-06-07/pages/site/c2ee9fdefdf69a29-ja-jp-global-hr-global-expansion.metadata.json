@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/global-hr/global-expansion",
+  "sourceURL": "https://remote.com/ja-jp/global-hr/global-expansion",
+  "finalURL": "https://remote.com/ja-jp/global-hr/global-expansion",
+  "title": "グローバル展開をサポートするパートナー | Remote",
+  "description": "Remoteなら、グローバル展開を簡素化できます。新しい法人を設立する際の混乱やコストを回避しましょう。海外での雇用をシンプルに行うためのグローバル雇用プラットフォームを使用することで、展開をスピーディに進めることができます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 308945,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c2ee9fdefdf69a29-ja-jp-global-hr-global-expansion.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c2ee9fdefdf69a29-ja-jp-global-hr-global-expansion.direct.json",
+  "markdownChars": 2430,
+  "linksCount": 114,
+  "lastmod": "2025-04-25",
+  "scrapedAt": "2026-06-07T09:08:30.418Z"
+}

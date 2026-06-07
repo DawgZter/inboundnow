@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/democratic-republic-of-congo",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/democratic-republic-of-congo",
+  "finalURL": "https://remote.com/en-gb/country-explorer/democratic-republic-of-congo",
+  "title": "Employer of Record & Payroll Services | Democratic Republic of the Congo",
+  "description": "Hiring employees and contractors in Democratic Republic of the Congo? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 309847,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5604c53e3a3ff20-en-gb-country-explorer-democratic-republic-of-congo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5604c53e3a3ff20-en-gb-country-explorer-democratic-republic-of-congo.direct.json",
+  "markdownChars": 3409,
+  "linksCount": 117,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:18:28.850Z"
+}

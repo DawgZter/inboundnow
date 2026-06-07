@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/qualifying-life-event",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/qualifying-life-event",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/qualifying-life-event",
+  "title": "対象となるライフイベントとは？",
+  "description": "適格なライフイベントとは、結婚や失業などの重大な変化のことで、通常の加入期間外で健康保険の調整が可能になる。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258424,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4a3116caa498aabc-ja-jp-resources-hr-glossary-qualifying-life-event.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4a3116caa498aabc-ja-jp-resources-hr-glossary-qualifying-life-event.direct.json",
+  "markdownChars": 2872,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:02:30.380Z"
+}

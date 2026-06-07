@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/samoa",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/samoa",
+  "finalURL": "https://remote.com/it-it/esplora-paese/samoa",
+  "title": "Employer of Record (EOR) e Payroll | Samoa",
+  "description": "Assumi personale e collaboratori in Samoa? Remote può aiutarti a gestire personale e collaboratori tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 204526,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e08f6c73aec396c6-it-it-esplora-paese-samoa.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e08f6c73aec396c6-it-it-esplora-paese-samoa.direct.json",
+  "markdownChars": 3263,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:10:11.381Z"
+}

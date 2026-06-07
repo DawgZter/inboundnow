@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/verenigde-arabische-emiraten/beeindiging-van-dienstverband",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/verenigde-arabische-emiraten/beeindiging-van-dienstverband",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/verenigde-arabische-emiraten/beeindiging-van-dienstverband",
+  "title": "Beëindiging van het dienstverband in United Arab Emirates | Beëindiging van het dienstverband",
+  "description": "Hoe beëindig je het dienstverband met een werknemer in Verenigde Arabische Emiraten? Ken je rechten en lees onze uitgebreide gids over de wetgeving voor beëindiging van dienstverbanden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255993,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/447343f8241d2740-nl-be-landenverkenner-verenigde-arabische-emiraten-beeindiging-van-dienstverband.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/447343f8241d2740-nl-be-landenverkenner-verenigde-arabische-emiraten-beeindiging-van-dienstverband.direct.json",
+  "markdownChars": 1564,
+  "linksCount": 126,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:01:59.923Z"
+}

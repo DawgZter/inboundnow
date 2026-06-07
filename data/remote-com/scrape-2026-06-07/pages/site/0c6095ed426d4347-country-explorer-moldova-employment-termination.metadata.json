@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/moldova/employment-termination",
+  "sourceURL": "https://remote.com/country-explorer/moldova/employment-termination",
+  "finalURL": "https://remote.com/country-explorer/moldova/employment-termination",
+  "title": "Terminate Employees in Moldova | Employment Termination",
+  "description": "Looking to terminate an employee in Moldova? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259471,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0c6095ed426d4347-country-explorer-moldova-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0c6095ed426d4347-country-explorer-moldova-employment-termination.direct.json",
+  "markdownChars": 1706,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:13:06.276Z"
+}

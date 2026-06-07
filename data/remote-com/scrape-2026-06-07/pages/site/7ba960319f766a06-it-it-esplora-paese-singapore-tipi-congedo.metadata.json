@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/singapore/tipi-congedo",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/singapore/tipi-congedo",
+  "finalURL": "https://remote.com/it-it/esplora-paese/singapore/tipi-congedo",
+  "title": "Tipologie di congedo in Singapore | Normativa sul congedo del personale",
+  "description": "Scopri la normativa sui congedi in Singapore. Assicurati che la tua azienda sia conforme alle politiche locali e offra ferie retribuite competitive.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154746,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7ba960319f766a06-it-it-esplora-paese-singapore-tipi-congedo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7ba960319f766a06-it-it-esplora-paese-singapore-tipi-congedo.direct.json",
+  "markdownChars": 3175,
+  "linksCount": 44,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:16:51.461Z"
+}

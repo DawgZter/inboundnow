@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/etudes-de-cas/evaluations-performance-48-heures",
+  "sourceURL": "https://remote.com/fr-fr/ressources/etudes-de-cas/evaluations-performance-48-heures",
+  "finalURL": "https://remote.com/fr-fr/ressources/etudes-de-cas/evaluations-performance-48-heures",
+  "title": "De deux mois à deux jours : 1 800 évaluations d’employés en 48 heures chrono avec Remote Perform",
+  "description": "Découvrez comment Remote a révolutionné la gestion de la performance en réalisant 1 800 évaluations d’employés en seulement 48 heures, avec Remote Perform.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260811,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a7fc0e76789baaad-fr-fr-ressources-etudes-de-cas-evaluations-performance-48-heures.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a7fc0e76789baaad-fr-fr-ressources-etudes-de-cas-evaluations-performance-48-heures.direct.json",
+  "markdownChars": 7192,
+  "linksCount": 113,
+  "lastmod": "2025-12-25",
+  "scrapedAt": "2026-06-07T09:14:00.020Z"
+}

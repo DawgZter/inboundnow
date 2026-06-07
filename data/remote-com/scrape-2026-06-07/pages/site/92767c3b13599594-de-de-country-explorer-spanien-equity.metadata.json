@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/spanien/equity",
+  "sourceURL": "https://remote.com/de-de/country-explorer/spanien/equity",
+  "finalURL": "https://remote.com/de-de/country-explorer/spanien/equity",
+  "title": "Aktienoptionen für Mitarbeiter:innen in Spanien",
+  "description": "Entdecke die länderspezifischen Regeln für Mitarbeiterbeteiligungen und Aktienoptionen in Spanien. Triff mit dem Country Explorer von Remote fundierte Entscheidungen zur globalen Vergütung.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262988,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/92767c3b13599594-de-de-country-explorer-spanien-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/92767c3b13599594-de-de-country-explorer-spanien-equity.direct.json",
+  "markdownChars": 5257,
+  "linksCount": 125,
+  "lastmod": "2025-11-30",
+  "scrapedAt": "2026-06-07T09:12:28.439Z"
+}

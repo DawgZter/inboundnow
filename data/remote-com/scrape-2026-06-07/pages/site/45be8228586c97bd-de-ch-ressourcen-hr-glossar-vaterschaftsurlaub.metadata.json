@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/vaterschaftsurlaub",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/vaterschaftsurlaub",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/vaterschaftsurlaub",
+  "title": "Vaterschaftsurlaub",
+  "description": "Erfahren Sie, was Vaterschaftsurlaub ist, wie er nicht gebärende Eltern unterstützt und wie Unternehmen ihn nutzen, um Gleichberechtigung zu fördern und globale Compliance-Anforderungen zu erfüllen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255954,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/45be8228586c97bd-de-ch-ressourcen-hr-glossar-vaterschaftsurlaub.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/45be8228586c97bd-de-ch-ressourcen-hr-glossar-vaterschaftsurlaub.direct.json",
+  "markdownChars": 5180,
+  "linksCount": 123,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:11:46.310Z"
+}

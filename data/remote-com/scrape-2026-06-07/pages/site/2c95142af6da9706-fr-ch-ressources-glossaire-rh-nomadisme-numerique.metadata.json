@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/nomadisme-numerique",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/nomadisme-numerique",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/nomadisme-numerique",
+  "title": "Nomadisme numérique",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256151,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c95142af6da9706-fr-ch-ressources-glossaire-rh-nomadisme-numerique.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c95142af6da9706-fr-ch-ressources-glossaire-rh-nomadisme-numerique.direct.json",
+  "markdownChars": 3856,
+  "linksCount": 122,
+  "lastmod": "2025-08-05",
+  "scrapedAt": "2026-06-07T09:15:44.023Z"
+}

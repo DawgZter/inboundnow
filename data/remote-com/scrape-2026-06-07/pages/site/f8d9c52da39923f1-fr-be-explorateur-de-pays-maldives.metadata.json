@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/maldives",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/maldives",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/maldives",
+  "title": "Services de paie et d’Employer of record : Maldives",
+  "description": "Recruter des employés et des freelances : Maldives Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 313454,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8d9c52da39923f1-fr-be-explorateur-de-pays-maldives.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8d9c52da39923f1-fr-be-explorateur-de-pays-maldives.direct.json",
+  "markdownChars": 3777,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:17:36.038Z"
+}

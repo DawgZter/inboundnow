@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/why-remote/security-compliance",
+  "sourceURL": "https://remote.com/en-nz/why-remote/security-compliance",
+  "finalURL": "https://remote.com/en-nz/why-remote/security-compliance",
+  "title": "Your Partner in Global Payroll Security and Compliance | Remote",
+  "description": "Remote offers a secure platform for global payroll, benefits, taxes, and compliance to help you grow your global team with confidence.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 323626,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0ffb2ab185b6ed17-en-nz-why-remote-security-compliance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0ffb2ab185b6ed17-en-nz-why-remote-security-compliance.direct.json",
+  "markdownChars": 8974,
+  "linksCount": 113,
+  "lastmod": "2025-08-06",
+  "scrapedAt": "2026-06-07T09:01:27.918Z"
+}

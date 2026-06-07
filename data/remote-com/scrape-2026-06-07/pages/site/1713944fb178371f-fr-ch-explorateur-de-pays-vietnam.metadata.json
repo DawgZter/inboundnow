@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/vietnam",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/vietnam",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/vietnam",
+  "title": "Employer of Record (EOR) et services de paie | Vietnam",
+  "description": "Recruter des employés et des freelances : Viêt Nam Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 343543,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1713944fb178371f-fr-ch-explorateur-de-pays-vietnam.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1713944fb178371f-fr-ch-explorateur-de-pays-vietnam.direct.json",
+  "markdownChars": 7153,
+  "linksCount": 125,
+  "lastmod": "2026-02-08",
+  "scrapedAt": "2026-06-07T09:01:45.946Z"
+}

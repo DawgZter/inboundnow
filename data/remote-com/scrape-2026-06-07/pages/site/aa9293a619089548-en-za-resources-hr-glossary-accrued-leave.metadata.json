@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/resources/hr-glossary/accrued-leave",
+  "sourceURL": "https://remote.com/en-za/resources/hr-glossary/accrued-leave",
+  "finalURL": "https://remote.com/en-za/resources/hr-glossary/accrued-leave",
+  "title": "What is accrued leave?",
+  "description": "Learn more about accrued leave and how HR managers can manage leave accrual.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251387,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aa9293a619089548-en-za-resources-hr-glossary-accrued-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aa9293a619089548-en-za-resources-hr-glossary-accrued-leave.direct.json",
+  "markdownChars": 3111,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:17:30.066Z"
+}

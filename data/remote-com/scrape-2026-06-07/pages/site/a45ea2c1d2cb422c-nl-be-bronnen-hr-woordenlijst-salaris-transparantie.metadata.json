@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/salaris-transparantie",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/salaris-transparantie",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/salaris-transparantie",
+  "title": "What is salary transparency?",
+  "description": "Verken onze HR-woordenlijst om inzicht te krijgen in salaristransparantie, de invloed ervan op de werkcultuur, het vertrouwen van werknemers en eerlijke beloningspraktijken binnen organisaties.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 249964,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a45ea2c1d2cb422c-nl-be-bronnen-hr-woordenlijst-salaris-transparantie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a45ea2c1d2cb422c-nl-be-bronnen-hr-woordenlijst-salaris-transparantie.direct.json",
+  "markdownChars": 3716,
+  "linksCount": 123,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:09:12.033Z"
+}

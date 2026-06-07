@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/egypt/equity",
+  "sourceURL": "https://remote.com/en-za/country-explorer/egypt/equity",
+  "finalURL": "https://remote.com/en-za/country-explorer/egypt/equity",
+  "title": "Stock Options for Employees in Egypt",
+  "description": "Explore Egypt specific rules for employee equity and stock options. Make informed decisions about global compensation with Remote’s Country Explorer.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261395,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19a71305632e4029-en-za-country-explorer-egypt-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19a71305632e4029-en-za-country-explorer-egypt-equity.direct.json",
+  "markdownChars": 3538,
+  "linksCount": 129,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:11:42.824Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-equity-incentives-anbieten",
+  "sourceURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-equity-incentives-anbieten",
+  "finalURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-equity-incentives-anbieten",
+  "title": "Aktienoptionen und Equity-Programme für globale Teams | Remote | Remote",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 262679,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fbb40d9a9d12b52c-de-de-ressourcen-forschung-leitfaden-equity-incentives-anbieten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fbb40d9a9d12b52c-de-de-ressourcen-forschung-leitfaden-equity-incentives-anbieten.direct.json",
+  "markdownChars": 1321,
+  "linksCount": 119,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:14:53.174Z"
+}

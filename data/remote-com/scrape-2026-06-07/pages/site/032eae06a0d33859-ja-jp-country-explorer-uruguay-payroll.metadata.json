@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/uruguay/payroll",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/uruguay/payroll",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/uruguay/payroll",
+  "title": "ウルグアイでの従業員支払い | 給与サービス",
+  "description": "柔軟な給与サービスで、ウルグアイの従業員への支払いを手間なく実行できます。給与処理、経費管理、レポート作成を一つのプラットフォームで行えます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260577,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/032eae06a0d33859-ja-jp-country-explorer-uruguay-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/032eae06a0d33859-ja-jp-country-explorer-uruguay-payroll.direct.json",
+  "markdownChars": 1436,
+  "linksCount": 124,
+  "lastmod": "2025-11-11",
+  "scrapedAt": "2026-06-07T09:04:15.281Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/forschung/48-stunden-leistungsreviews-kostenloser-letifaden-vorlage",
+  "sourceURL": "https://remote.com/de-at/ressourcen/forschung/48-stunden-leistungsreviews-kostenloser-letifaden-vorlage",
+  "finalURL": "https://remote.com/de-at/ressourcen/forschung/48-stunden-leistungsreviews-kostenloser-letifaden-vorlage",
+  "title": "Leistungsreviews in nur 48 Stunden – So geht‘s | Remote",
+  "description": "So gehen Leistungsreviews heute! Lade unseren kostenlosen Leitfaden herunter und erfahre, wie du mit minimalem Zeitaufwand effizient konstruktives Feedback geben und die Entwicklung deines Teams fördern kannst. Jetzt herunterladen",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 316629,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33aeb414dc99c525-de-at-ressourcen-forschung-48-stunden-leistungsreviews-kostenloser-letifaden-vorlage.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33aeb414dc99c525-de-at-ressourcen-forschung-48-stunden-leistungsreviews-kostenloser-letifaden-vorlage.direct.json",
+  "markdownChars": 3913,
+  "linksCount": 119,
+  "lastmod": "2025-12-25",
+  "scrapedAt": "2026-06-07T09:13:54.995Z"
+}

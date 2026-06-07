@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/hr-glossary/carryover-paid-time-off",
+  "sourceURL": "https://remote.com/en-ph/resources/hr-glossary/carryover-paid-time-off",
+  "finalURL": "https://remote.com/en-ph/resources/hr-glossary/carryover-paid-time-off",
+  "title": "Carryover paid time off",
+  "description": "Carryover paid time off can significantly impact a company by affecting employee satisfaction and financial liabilities.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252240,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/48cb666bcbc8bdf4-en-ph-resources-hr-glossary-carryover-paid-time-off.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/48cb666bcbc8bdf4-en-ph-resources-hr-glossary-carryover-paid-time-off.direct.json",
+  "markdownChars": 3607,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:51.426Z"
+}

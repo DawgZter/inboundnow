@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/global-hr/contractor-management-agencies",
+  "sourceURL": "https://remote.com/ko-kr/global-hr/contractor-management-agencies",
+  "finalURL": "https://remote.com/ko-kr/global-hr/contractor-management-agencies",
+  "title": "에이전시 계약직 관리 소프트웨어 | Remote",
+  "description": "Remote의 계약직 관리 소프트웨어는 에이전시에 매우 적합합니다. 하나의 간편한 허브에서 계약서 서식, 계약 체결, 온보딩, 급여 지급 등을 자동화하고 쉽게 관리하세요.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 388320,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9e3d6ef89d160ca1-ko-kr-global-hr-contractor-management-agencies.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9e3d6ef89d160ca1-ko-kr-global-hr-contractor-management-agencies.direct.json",
+  "markdownChars": 4171,
+  "linksCount": 118,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:18:45.915Z"
+}

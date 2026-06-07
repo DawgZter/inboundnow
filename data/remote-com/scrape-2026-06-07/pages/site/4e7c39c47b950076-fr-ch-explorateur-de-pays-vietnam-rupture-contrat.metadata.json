@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/vietnam/rupture-contrat",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/vietnam/rupture-contrat",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/vietnam/rupture-contrat",
+  "title": "{Country} : Résilier le contrat d’un employé au Vietnam | Rupture de contrat",
+  "description": "Vietnam : Vous avez besoin de résilier le contrat d’un employé ? Découvrez quels sont vos droits grâce à notre guide complet sur les lois régissant la rupture de contrat des employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261916,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4e7c39c47b950076-fr-ch-explorateur-de-pays-vietnam-rupture-contrat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4e7c39c47b950076-fr-ch-explorateur-de-pays-vietnam-rupture-contrat.direct.json",
+  "markdownChars": 2389,
+  "linksCount": 124,
+  "lastmod": "2025-09-18",
+  "scrapedAt": "2026-06-07T09:06:01.940Z"
+}

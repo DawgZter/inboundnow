@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/chief-operating-officer",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/chief-operating-officer",
+  "finalURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/chief-operating-officer",
+  "title": "Functiebeschrijving Chief Operating Officer (COO)",
+  "description": "Adaptable COO job description template. Define responsibilities, skills, and career paths to hire your next chief operating officer.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263742,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f0bffbe1eb2fa9dc-nl-nl-bronnen-functiebeschrijvingen-chief-operating-officer.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f0bffbe1eb2fa9dc-nl-nl-bronnen-functiebeschrijvingen-chief-operating-officer.direct.json",
+  "markdownChars": 5348,
+  "linksCount": 115,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:17:55.775Z"
+}

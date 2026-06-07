@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/recherche/rapport-remote-influenceurs",
+  "sourceURL": "https://remote.com/fr-be/ressources/recherche/rapport-remote-influenceurs",
+  "finalURL": "https://remote.com/fr-be/ressources/recherche/rapport-remote-influenceurs",
+  "title": "Le rapport de Remote sur les influenceurs | Remote",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 282475,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6f16cc238407c582-fr-be-ressources-recherche-rapport-remote-influenceurs.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6f16cc238407c582-fr-be-ressources-recherche-rapport-remote-influenceurs.direct.json",
+  "markdownChars": 5338,
+  "linksCount": 115,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:13:45.010Z"
+}

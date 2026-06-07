@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/inde/rupture-contrat",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/inde/rupture-contrat",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/inde/rupture-contrat",
+  "title": "India : Résilier le contrat d’un employé | Rupture de contrat",
+  "description": "Inde : Vous avez besoin de résilier le contrat d’un employé ? Découvrez quels sont vos droits grâce à notre guide complet sur les lois régissant la rupture de contrat des employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262263,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e2e0b4d46ba6cb0-fr-fr-explorateur-de-pays-inde-rupture-contrat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e2e0b4d46ba6cb0-fr-fr-explorateur-de-pays-inde-rupture-contrat.direct.json",
+  "markdownChars": 2030,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:06:24.343Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/france/taxes",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/france/taxes",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/france/taxes",
+  "title": "Gérer la taxe sur la paie en France | Conformité fiscale",
+  "description": "France : Gérez efficacement l’imposition de la paie, en toute conformité. Réduisez les erreurs d’imposition de la paie, respectez le droit local et évitez de coûteuses amendes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262554,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c63dd286275af2bd-fr-fr-explorateur-de-pays-france-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c63dd286275af2bd-fr-fr-explorateur-de-pays-france-taxes.direct.json",
+  "markdownChars": 1399,
+  "linksCount": 122,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:18:17.737Z"
+}

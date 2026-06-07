@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/news/company-news/233825-remote-simplifies-contractor-management-to-help-companies-confidently-scale-global-workforces",
+  "sourceURL": "https://remote.com/news/company-news/233825-remote-simplifies-contractor-management-to-help-companies-confidently-scale-global-workforces",
+  "finalURL": "https://remote.com/news/company-news/233825-remote-simplifies-contractor-management-to-help-companies-confidently-scale-global-workforces",
+  "title": "Remote simplifies contractor management to help companies confidently scale global workforces",
+  "description": "Remote is launching Contractor Management Plus, which equips customers with advanced safeguards against misclassification risk.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254089,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/38a8adba4914341a-news-company-news-233825-remote-simplifies-contractor-management-to-help-companies-confidently-s.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/38a8adba4914341a-news-company-news-233825-remote-simplifies-contractor-management-to-help-companies-confidently-s.direct.json",
+  "markdownChars": 3528,
+  "linksCount": 111,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:06:28.624Z"
+}

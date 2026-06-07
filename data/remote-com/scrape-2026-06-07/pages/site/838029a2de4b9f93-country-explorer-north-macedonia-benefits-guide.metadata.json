@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/north-macedonia/benefits-guide",
+  "sourceURL": "https://remote.com/country-explorer/north-macedonia/benefits-guide",
+  "finalURL": "https://remote.com/country-explorer/north-macedonia/benefits-guide",
+  "title": "Employee Benefits in North Macedonia | Benefits Plans",
+  "description": "Discover the essential employee benefits in North Macedonia. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 272916,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/838029a2de4b9f93-country-explorer-north-macedonia-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/838029a2de4b9f93-country-explorer-north-macedonia-benefits-guide.direct.json",
+  "markdownChars": 1485,
+  "linksCount": 125,
+  "lastmod": "2025-05-17",
+  "scrapedAt": "2026-06-07T09:01:41.805Z"
+}

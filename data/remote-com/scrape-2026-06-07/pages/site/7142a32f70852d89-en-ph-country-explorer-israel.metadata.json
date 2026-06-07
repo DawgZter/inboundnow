@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/israel",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/israel",
+  "finalURL": "https://remote.com/en-ph/country-explorer/israel",
+  "title": "Employer of Record & Payroll Services | Israel",
+  "description": "Hiring employees and contractors in Israel? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 340703,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7142a32f70852d89-en-ph-country-explorer-israel.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7142a32f70852d89-en-ph-country-explorer-israel.direct.json",
+  "markdownChars": 5579,
+  "linksCount": 125,
+  "lastmod": "2026-04-01",
+  "scrapedAt": "2026-06-07T09:01:31.629Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/globale-hr/gehaltsabrechnungen",
+  "sourceURL": "https://remote.com/de-de/globale-hr/gehaltsabrechnungen",
+  "finalURL": "https://remote.com/de-de/globale-hr/gehaltsabrechnungen",
+  "title": "Überlasse die Gehaltsabrechnung Remote für schnelles internationales Wachstum | Remote",
+  "description": "Rechne Gehälter, Steuern und Zusatzleistungen für alle deine Mitarbeiter:innen ab, egal wo sie sich befinden, und verlass dich dabei auf absolute Rechtssicherheit.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 313993,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23dd72763c78b8da-de-de-globale-hr-gehaltsabrechnungen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23dd72763c78b8da-de-de-globale-hr-gehaltsabrechnungen.direct.json",
+  "markdownChars": 4733,
+  "linksCount": 118,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:01:46.482Z"
+}

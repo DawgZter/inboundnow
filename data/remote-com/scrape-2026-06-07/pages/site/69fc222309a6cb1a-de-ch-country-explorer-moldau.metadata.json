@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/moldau",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/moldau",
+  "finalURL": "https://remote.com/de-ch/country-explorer/moldau",
+  "title": "Employer-of-Record- und Payroll-Services | Moldau",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Moldau? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 340736,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69fc222309a6cb1a-de-ch-country-explorer-moldau.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69fc222309a6cb1a-de-ch-country-explorer-moldau.direct.json",
+  "markdownChars": 5932,
+  "linksCount": 125,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:01:42.099Z"
+}

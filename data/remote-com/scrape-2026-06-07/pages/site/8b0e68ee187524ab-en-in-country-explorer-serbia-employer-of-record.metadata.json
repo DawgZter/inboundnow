@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/serbia/employer-of-record",
+  "sourceURL": "https://remote.com/en-in/country-explorer/serbia/employer-of-record",
+  "finalURL": "https://remote.com/en-in/country-explorer/serbia/employer-of-record",
+  "title": "Employer of Record in Serbia | EOR Services",
+  "description": "Simplify employment in Serbia with our Employer of Record services. Handle payroll, benefits, and compliance seamlessly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260567,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b0e68ee187524ab-en-in-country-explorer-serbia-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b0e68ee187524ab-en-in-country-explorer-serbia-employer-of-record.direct.json",
+  "markdownChars": 3180,
+  "linksCount": 126,
+  "lastmod": "2025-05-31",
+  "scrapedAt": "2026-06-07T09:01:20.111Z"
+}

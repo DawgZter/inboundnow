@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/global-hr/hr-core",
+  "sourceURL": "https://remote.com/en-gb/global-hr/hr-core",
+  "finalURL": "https://remote.com/en-gb/global-hr/hr-core",
+  "title": "HR Core by Remote: Onboard employees, manage expenses & time off | Remote",
+  "description": "Centralize HR tasks with HR Core: onboard employees, manage expenses, and handle time off efficiently with Remote’s all-in-one platform.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 442534,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3395afc90238a8aa-en-gb-global-hr-hr-core.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3395afc90238a8aa-en-gb-global-hr-hr-core.direct.json",
+  "markdownChars": 10442,
+  "linksCount": 121,
+  "lastmod": "2026-05-30",
+  "scrapedAt": "2026-06-07T09:09:00.678Z"
+}

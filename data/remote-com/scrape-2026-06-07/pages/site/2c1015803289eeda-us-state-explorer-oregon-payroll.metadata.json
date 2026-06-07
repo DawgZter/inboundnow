@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/oregon/payroll",
+  "sourceURL": "https://remote.com/us-state-explorer/oregon/payroll",
+  "finalURL": "https://remote.com/us-state-explorer/oregon/payroll",
+  "title": "Payroll Management in Oregon",
+  "description": "Manage payroll in Oregon seamlessly with Remote's payroll software. Stay compliant with Oregon payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259038,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c1015803289eeda-us-state-explorer-oregon-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c1015803289eeda-us-state-explorer-oregon-payroll.direct.json",
+  "markdownChars": 4969,
+  "linksCount": 112,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:09:23.015Z"
+}

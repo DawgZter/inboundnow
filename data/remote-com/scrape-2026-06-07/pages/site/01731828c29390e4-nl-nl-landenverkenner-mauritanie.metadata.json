@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/mauritanie",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/mauritanie",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/mauritanie",
+  "title": "Employer of record en payroll services | Mauritania",
+  "description": "Wil je werknemers en zzp'ers werven in Mauritanië? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 313299,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/01731828c29390e4-nl-nl-landenverkenner-mauritanie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/01731828c29390e4-nl-nl-landenverkenner-mauritanie.direct.json",
+  "markdownChars": 3652,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:10:06.633Z"
+}

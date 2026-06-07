@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/bulgarien/freistellungsarten",
+  "sourceURL": "https://remote.com/de-at/country-explorer/bulgarien/freistellungsarten",
+  "finalURL": "https://remote.com/de-at/country-explorer/bulgarien/freistellungsarten",
+  "title": "Urlaubsansprüche in Bulgarien | Mitarbeiter:innen",
+  "description": "Erfahre mehr zum Urlaubsrecht in Bulgarien. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258450,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/72e9ea84e3948575-de-at-country-explorer-bulgarien-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/72e9ea84e3948575-de-at-country-explorer-bulgarien-freistellungsarten.direct.json",
+  "markdownChars": 2383,
+  "linksCount": 122,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:08:20.280Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/israel/steuern",
+  "sourceURL": "https://remote.com/de-de/country-explorer/israel/steuern",
+  "finalURL": "https://remote.com/de-de/country-explorer/israel/steuern",
+  "title": "Lohnnebenkosten in Israel | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Israel.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261535,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e88e2e59a8d37a29-de-de-country-explorer-israel-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e88e2e59a8d37a29-de-de-country-explorer-israel-steuern.direct.json",
+  "markdownChars": 1635,
+  "linksCount": 122,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:13:58.164Z"
+}

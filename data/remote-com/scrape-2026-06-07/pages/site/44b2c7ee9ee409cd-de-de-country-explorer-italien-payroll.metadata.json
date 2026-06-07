@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/italien/payroll",
+  "sourceURL": "https://remote.com/de-de/country-explorer/italien/payroll",
+  "finalURL": "https://remote.com/de-de/country-explorer/italien/payroll",
+  "title": "Mitarbeiter:innen in Italien bezahlen | Payroll-Services",
+  "description": "Bezah­le Mitarbeiter:innen in Italien mühelos mit unseren flexiblen Payroll-Services. Verarbeite die Lohn- und Gehaltsabrechnung, verwalte Ausgaben und erstelle Berichte — alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259981,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/44b2c7ee9ee409cd-de-de-country-explorer-italien-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/44b2c7ee9ee409cd-de-de-country-explorer-italien-payroll.direct.json",
+  "markdownChars": 3501,
+  "linksCount": 124,
+  "lastmod": "2025-11-17",
+  "scrapedAt": "2026-06-07T09:12:28.227Z"
+}

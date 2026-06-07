@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/arbeidswet",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/arbeidswet",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/arbeidswet",
+  "title": "Wat zijn arbeidswetten?",
+  "description": "Learn more about labor laws and what they entail. Learn how they benefit employers and employees and how to comply with them to avoid legal troubles.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258863,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b5d388969a26e04b-nl-nl-bronnen-hr-woordenlijst-arbeidswet.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b5d388969a26e04b-nl-nl-bronnen-hr-woordenlijst-arbeidswet.direct.json",
+  "markdownChars": 6196,
+  "linksCount": 125,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:29.179Z"
+}

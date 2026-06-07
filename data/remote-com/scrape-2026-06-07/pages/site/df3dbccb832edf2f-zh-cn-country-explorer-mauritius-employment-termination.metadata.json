@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/mauritius/employment-termination",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/mauritius/employment-termination",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/mauritius/employment-termination",
+  "title": "毛里求斯员工解雇",
+  "description": "在毛里求斯解雇员工时，请查阅我们的全面指南，了解相关解雇法律、合规要求及贵公司的权利与义务，以降低营运风险。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254974,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/df3dbccb832edf2f-zh-cn-country-explorer-mauritius-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/df3dbccb832edf2f-zh-cn-country-explorer-mauritius-employment-termination.direct.json",
+  "markdownChars": 514,
+  "linksCount": 119,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:11:49.427Z"
+}

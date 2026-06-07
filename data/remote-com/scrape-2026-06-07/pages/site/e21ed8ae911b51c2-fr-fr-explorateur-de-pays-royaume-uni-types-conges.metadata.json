@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/royaume-uni/types-conges",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/royaume-uni/types-conges",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/royaume-uni/types-conges",
+  "title": "Types de congés au Royaume‑Uni | lois sur les congés des employés",
+  "description": "Royaume Uni : Maitrisez les lois locales sur les congés des employés. Veillez à ce que votre entreprise respecte les normes applicables en la matière et propose des congés payés compétitifs.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262783,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e21ed8ae911b51c2-fr-fr-explorateur-de-pays-royaume-uni-types-conges.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e21ed8ae911b51c2-fr-fr-explorateur-de-pays-royaume-uni-types-conges.direct.json",
+  "markdownChars": 2163,
+  "linksCount": 124,
+  "lastmod": "2026-04-07",
+  "scrapedAt": "2026-06-07T09:01:57.307Z"
+}

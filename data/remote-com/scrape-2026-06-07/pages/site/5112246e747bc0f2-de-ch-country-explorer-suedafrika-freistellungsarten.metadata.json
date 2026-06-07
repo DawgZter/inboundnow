@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/suedafrika/freistellungsarten",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/suedafrika/freistellungsarten",
+  "finalURL": "https://remote.com/de-ch/country-explorer/suedafrika/freistellungsarten",
+  "title": "Urlaubsansprüche in South Africa | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Suedafrika. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258909,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5112246e747bc0f2-de-ch-country-explorer-suedafrika-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5112246e747bc0f2-de-ch-country-explorer-suedafrika-freistellungsarten.direct.json",
+  "markdownChars": 1899,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:05:51.317Z"
+}

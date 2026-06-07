@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/philippines/employment-termination",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/philippines/employment-termination",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/philippines/employment-termination",
+  "title": "フィリピンにおける従業員の解雇 | 解雇手続き",
+  "description": "フィリピンで従業員を解雇する際の権利や手続きを包括的に解説したガイドで、雇用主が知っておくべきポイントを確認できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259538,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1ed36922f026072-ja-jp-country-explorer-philippines-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1ed36922f026072-ja-jp-country-explorer-philippines-employment-termination.direct.json",
+  "markdownChars": 724,
+  "linksCount": 123,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:19:03.098Z"
+}

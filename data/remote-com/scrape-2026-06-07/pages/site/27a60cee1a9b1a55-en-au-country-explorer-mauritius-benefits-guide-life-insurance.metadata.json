@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/mauritius/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/en-au/country-explorer/mauritius/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/en-au/country-explorer/mauritius/benefits-guide/life-insurance",
+  "title": "Employee Life Insurance in Mauritius | Insurance Plans",
+  "description": "Provide peace of mind with life insurance coverage for your employees in Mauritius. Explore the policies and benefits available.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265530,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/27a60cee1a9b1a55-en-au-country-explorer-mauritius-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/27a60cee1a9b1a55-en-au-country-explorer-mauritius-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 4733,
+  "linksCount": 116,
+  "lastmod": "2025-05-31",
+  "scrapedAt": "2026-06-07T09:06:21.547Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/australia",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/australia",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/australia",
+  "title": "第三方雇佣托管服务与薪资服务 | 澳大利亚",
+  "description": "是否在澳大利亚雇佣员工与合同工？Remote 可通过我们的整合型全球 HR 平台协助管理。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 343839,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e57a5f5303032d19-zh-cn-country-explorer-australia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e57a5f5303032d19-zh-cn-country-explorer-australia.direct.json",
+  "markdownChars": 2920,
+  "linksCount": 125,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:06:49.051Z"
+}

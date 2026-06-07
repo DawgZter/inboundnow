@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/hr-glossary/pto",
+  "sourceURL": "https://remote.com/en-ph/resources/hr-glossary/pto",
+  "finalURL": "https://remote.com/en-ph/resources/hr-glossary/pto",
+  "title": "Paid time off (PTO)",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252076,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c4dff9aeb835f630-en-ph-resources-hr-glossary-pto.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c4dff9aeb835f630-en-ph-resources-hr-glossary-pto.direct.json",
+  "markdownChars": 3676,
+  "linksCount": 119,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:16:35.511Z"
+}

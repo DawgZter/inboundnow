@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/us-state-explorer/california/contractor-management",
+  "sourceURL": "https://remote.com/en-au/us-state-explorer/california/contractor-management",
+  "finalURL": "https://remote.com/en-au/us-state-explorer/california/contractor-management",
+  "title": "Contractor Management in California",
+  "description": "Manage and pay contractors in California with ease. Stay compliant, process payments easily, and reduce risk with a streamlined solution for hiring contractors with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257454,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6dd4a6a13dedcad6-en-au-us-state-explorer-california-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6dd4a6a13dedcad6-en-au-us-state-explorer-california-contractor-management.direct.json",
+  "markdownChars": 2206,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:01:44.378Z"
+}

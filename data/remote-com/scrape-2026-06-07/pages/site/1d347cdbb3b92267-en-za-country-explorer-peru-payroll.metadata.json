@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/peru/payroll",
+  "sourceURL": "https://remote.com/en-za/country-explorer/peru/payroll",
+  "finalURL": "https://remote.com/en-za/country-explorer/peru/payroll",
+  "title": "Pay Employees in Peru | Payroll Services",
+  "description": "Pay employees in Peru effortlessly with our flexible payroll services. Run payroll, manage expenses and run reports, all from one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260046,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1d347cdbb3b92267-en-za-country-explorer-peru-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1d347cdbb3b92267-en-za-country-explorer-peru-payroll.direct.json",
+  "markdownChars": 2989,
+  "linksCount": 128,
+  "lastmod": "2025-11-08",
+  "scrapedAt": "2026-06-07T09:07:53.856Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/pays-bas/employer-of-record",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/pays-bas/employer-of-record",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/pays-bas/employer-of-record",
+  "title": "Employer of Record aux Pays‑Bas | Services EOR",
+  "description": "Simplifiez l’emploi aux Pays‑Bas grâce à nos services d’Employer of Record. Gérez la paie, les avantages et la conformité en toute simplicité.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264404,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3d6c51cae15e82f2-fr-fr-explorateur-de-pays-pays-bas-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3d6c51cae15e82f2-fr-fr-explorateur-de-pays-pays-bas-employer-of-record.direct.json",
+  "markdownChars": 3805,
+  "linksCount": 125,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:11:34.335Z"
+}

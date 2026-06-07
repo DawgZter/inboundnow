@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/ouganda/guide-avantages",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/ouganda/guide-avantages",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/ouganda/guide-avantages",
+  "title": "Avantages sociaux en Ouganda | Plans d’avantages sociaux Remote",
+  "description": "Découvrez les avantages sociaux essentiels en Ouganda et comment ils vous aident à attirer et à fidéliser les meilleurs talents, notamment l’assurance santé, les congés payés et autres prestations.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 273638,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8998f67072a6a40-fr-fr-explorateur-de-pays-ouganda-guide-avantages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8998f67072a6a40-fr-fr-explorateur-de-pays-ouganda-guide-avantages.direct.json",
+  "markdownChars": 1789,
+  "linksCount": 122,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:06:24.431Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/sri-lanka/benefits-guide/health-benefits",
+  "sourceURL": "https://remote.com/country-explorer/sri-lanka/benefits-guide/health-benefits",
+  "finalURL": "https://remote.com/country-explorer/sri-lanka/benefits-guide/health-benefits",
+  "title": "Health Benefits in Sri Lanka | Wellbeing Support",
+  "description": "Support your team with Health benefits in Sri Lanka.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 282663,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1818e9ce8b19822-country-explorer-sri-lanka-benefits-guide-health-benefits.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1818e9ce8b19822-country-explorer-sri-lanka-benefits-guide-health-benefits.direct.json",
+  "markdownChars": 18790,
+  "linksCount": 116,
+  "lastmod": "2025-06-09",
+  "scrapedAt": "2026-06-07T09:05:52.493Z"
+}

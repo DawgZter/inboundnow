@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/island/contractor-management",
+  "sourceURL": "https://remote.com/de-de/country-explorer/island/contractor-management",
+  "finalURL": "https://remote.com/de-de/country-explorer/island/contractor-management",
+  "title": "Auftragnehmer:innen in Island verwalten | Contractor Management",
+  "description": "Willst du Auftragnehmer:innen in Island beauftragen? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management-Diensten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258601,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ba9bf3b69b9d073-de-de-country-explorer-island-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ba9bf3b69b9d073-de-de-country-explorer-island-contractor-management.direct.json",
+  "markdownChars": 2605,
+  "linksCount": 122,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:19:03.651Z"
+}

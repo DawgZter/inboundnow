@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/betaald-ziekteverlof",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/betaald-ziekteverlof",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/betaald-ziekteverlof",
+  "title": "Wat is betaald ziekteverlof? | Remote",
+  "description": "Betaald ziekteverlof is een arbeidsvoordeel waardoor werknemers vrij kunnen nemen van het werk om medische redenen terwijl ze hun normale loon blijven ontvangen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251196,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7c13691517d4ae47-nl-be-bronnen-hr-woordenlijst-betaald-ziekteverlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7c13691517d4ae47-nl-be-bronnen-hr-woordenlijst-betaald-ziekteverlof.direct.json",
+  "markdownChars": 4820,
+  "linksCount": 126,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:05:19.029Z"
+}

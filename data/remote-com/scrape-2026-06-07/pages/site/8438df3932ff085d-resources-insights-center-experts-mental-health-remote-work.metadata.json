@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/insights-center/experts-mental-health-remote-work",
+  "sourceURL": "https://remote.com/resources/insights-center/experts-mental-health-remote-work",
+  "finalURL": "https://remote.com/resources/insights-center/experts-mental-health-remote-work",
+  "title": "7 mental health tips for working at home",
+  "description": "Whether you need tips for your remote team or want to improve your own mental wellbeing, we’re here to help. Our network of remote work experts have shared some of their best tips to protect your energy, support your team, and enjoy the full mental health benefits of remote work.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265500,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8438df3932ff085d-resources-insights-center-experts-mental-health-remote-work.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8438df3932ff085d-resources-insights-center-experts-mental-health-remote-work.direct.json",
+  "markdownChars": 13999,
+  "linksCount": 125,
+  "lastmod": "2025-05-27",
+  "scrapedAt": "2026-06-07T09:02:34.388Z"
+}

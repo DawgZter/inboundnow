@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/partenaire-rh",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/partenaire-rh",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/partenaire-rh",
+  "title": "Qu'est-ce qu'un partenaire commercial RH ?",
+  "description": "Comprendre le rôle d'un partenaire commercial en ressources humaines (HRBP) et comment l'embauche d'un tel partenaire peut aider votre entreprise à atteindre ses objectifs.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261707,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d5efa6dc73068b0-fr-fr-ressources-glossaire-rh-partenaire-rh.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d5efa6dc73068b0-fr-fr-ressources-glossaire-rh-partenaire-rh.direct.json",
+  "markdownChars": 8547,
+  "linksCount": 121,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:14.032Z"
+}

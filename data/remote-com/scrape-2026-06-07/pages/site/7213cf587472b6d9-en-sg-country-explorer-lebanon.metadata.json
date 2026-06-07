@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/lebanon",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/lebanon",
+  "finalURL": "https://remote.com/en-sg/country-explorer/lebanon",
+  "title": "Employer of Record & Payroll Services | Lebanon",
+  "description": "Hiring employees and contractors in Lebanon? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 342286,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7213cf587472b6d9-en-sg-country-explorer-lebanon.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7213cf587472b6d9-en-sg-country-explorer-lebanon.direct.json",
+  "markdownChars": 6505,
+  "linksCount": 124,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:13:58.632Z"
+}

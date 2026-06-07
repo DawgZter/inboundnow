@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/us-state-explorer/louisiana/employer-of-record",
+  "sourceURL": "https://remote.com/en-ph/us-state-explorer/louisiana/employer-of-record",
+  "finalURL": "https://remote.com/en-ph/us-state-explorer/louisiana/employer-of-record",
+  "title": "Employer of Record services in Louisiana",
+  "description": "Use employer of record services in Louisiana make hiring, managing, and paying top talent easy. Stay compliant in Louisiana and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258541,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d259b85c344efaaa-en-ph-us-state-explorer-louisiana-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d259b85c344efaaa-en-ph-us-state-explorer-louisiana-employer-of-record.direct.json",
+  "markdownChars": 3316,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:05:48.061Z"
+}

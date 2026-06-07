@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/hr-glossary/remote-workforce",
+  "sourceURL": "https://remote.com/en-gb/resources/hr-glossary/remote-workforce",
+  "finalURL": "https://remote.com/en-gb/resources/hr-glossary/remote-workforce",
+  "title": "What is a remote workforce?",
+  "description": "Unlock the potential of a remote workforce: freedom, innovation, and global talent at your fingertips. Learn about the future of work with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254466,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d064a42879485283-en-gb-resources-hr-glossary-remote-workforce.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d064a42879485283-en-gb-resources-hr-glossary-remote-workforce.direct.json",
+  "markdownChars": 4986,
+  "linksCount": 123,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:08:38.097Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/liechtenstein/contractor-management",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/liechtenstein/contractor-management",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/liechtenstein/contractor-management",
+  "title": "在列支敦士登管理合同工 | 合同工管理",
+  "description": "在列支敦士登雇佣合同工时，使用 Remote 的灵活合同工管理服务，可轻松管理并支付全球合同工。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253936,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1b025cc62c67d553-zh-cn-country-explorer-liechtenstein-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1b025cc62c67d553-zh-cn-country-explorer-liechtenstein-contractor-management.direct.json",
+  "markdownChars": 756,
+  "linksCount": 115,
+  "lastmod": "2025-12-22",
+  "scrapedAt": "2026-06-07T09:14:30.284Z"
+}

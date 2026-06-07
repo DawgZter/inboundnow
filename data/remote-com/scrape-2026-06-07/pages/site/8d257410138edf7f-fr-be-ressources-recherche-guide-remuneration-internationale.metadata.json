@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/recherche/guide-remuneration-internationale",
+  "sourceURL": "https://remote.com/fr-be/ressources/recherche/guide-remuneration-internationale",
+  "finalURL": "https://remote.com/fr-be/ressources/recherche/guide-remuneration-internationale",
+  "title": "Guide de la rémunération internationale | Remote | Remote",
+  "description": "Consultez le Guide de la rémunération internationale de Remote, et découvrez comment créer des offres compétitives au niveau local tout en maintenant l'équité salariale au sein de votre équipe mondiale.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265822,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d257410138edf7f-fr-be-ressources-recherche-guide-remuneration-internationale.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d257410138edf7f-fr-be-ressources-recherche-guide-remuneration-internationale.direct.json",
+  "markdownChars": 1243,
+  "linksCount": 112,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:01:28.845Z"
+}

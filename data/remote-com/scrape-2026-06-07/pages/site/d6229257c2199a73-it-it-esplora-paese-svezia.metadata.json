@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/svezia",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/svezia",
+  "finalURL": "https://remote.com/it-it/esplora-paese/svezia",
+  "title": "Employer of Record (EOR) e Payroll | Svezia",
+  "description": "Assumi personale e contractor in Svezia? Remote può aiutarti a gestire personale e contractor tramite la nostra Piattaforma HR integrata.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 239317,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d6229257c2199a73-it-it-esplora-paese-svezia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d6229257c2199a73-it-it-esplora-paese-svezia.direct.json",
+  "markdownChars": 6446,
+  "linksCount": 47,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:01:35.821Z"
+}

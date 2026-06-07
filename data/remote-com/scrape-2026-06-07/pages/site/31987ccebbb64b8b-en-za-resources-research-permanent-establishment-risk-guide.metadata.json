@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/resources/research/permanent-establishment-risk-guide",
+  "sourceURL": "https://remote.com/en-za/resources/research/permanent-establishment-risk-guide",
+  "finalURL": "https://remote.com/en-za/resources/research/permanent-establishment-risk-guide",
+  "title": "The Permanent Establishment problem: your risk management guide | Remote",
+  "description": "Get Remote’s guide to learn more about minimizing permanent establishment risk. This guide is the ideal blueprint for leaders managing tax obligations for a globally distributed team. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253582,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31987ccebbb64b8b-en-za-resources-research-permanent-establishment-risk-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31987ccebbb64b8b-en-za-resources-research-permanent-establishment-risk-guide.direct.json",
+  "markdownChars": 977,
+  "linksCount": 108,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:01:12.220Z"
+}

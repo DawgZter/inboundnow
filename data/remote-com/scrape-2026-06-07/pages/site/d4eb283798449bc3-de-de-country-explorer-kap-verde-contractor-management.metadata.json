@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/kap-verde/contractor-management",
+  "sourceURL": "https://remote.com/de-de/country-explorer/kap-verde/contractor-management",
+  "finalURL": "https://remote.com/de-de/country-explorer/kap-verde/contractor-management",
+  "title": "Auftragnehmer:innen in Kap Verde verwalten | Contractor Management",
+  "description": "Beauftragst du Auftragnehmer:innen in Kap Verde? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management-Diensten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256669,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d4eb283798449bc3-de-de-country-explorer-kap-verde-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d4eb283798449bc3-de-de-country-explorer-kap-verde-contractor-management.direct.json",
+  "markdownChars": 2561,
+  "linksCount": 118,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:17:11.440Z"
+}

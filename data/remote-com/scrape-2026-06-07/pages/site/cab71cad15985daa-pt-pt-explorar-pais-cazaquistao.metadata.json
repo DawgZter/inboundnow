@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/cazaquistao",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/cazaquistao",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/cazaquistao",
+  "title": "Employer of Record (EOR) e processamento salarial | Cazaquistão",
+  "description": "Queres contratar trabalhadores e independentes no Cazaquistão? A Remote ajuda-te a gerir a tua equipa através da nossa plataforma global de RH.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 205821,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cab71cad15985daa-pt-pt-explorar-pais-cazaquistao.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cab71cad15985daa-pt-pt-explorar-pais-cazaquistao.direct.json",
+  "markdownChars": 3797,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:17:57.218Z"
+}

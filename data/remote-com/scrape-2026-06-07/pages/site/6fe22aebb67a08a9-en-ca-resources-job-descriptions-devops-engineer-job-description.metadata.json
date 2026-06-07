@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/job-descriptions/devops-engineer-job-description",
+  "sourceURL": "https://remote.com/en-ca/resources/job-descriptions/devops-engineer-job-description",
+  "finalURL": "https://remote.com/en-ca/resources/job-descriptions/devops-engineer-job-description",
+  "title": "DevOps engineer job description",
+  "description": "Review the job description for DevOps engineer, responsible for managing infrastructure, automating workflows, and ensuring seamless integration and deployment of applications.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260488,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6fe22aebb67a08a9-en-ca-resources-job-descriptions-devops-engineer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6fe22aebb67a08a9-en-ca-resources-job-descriptions-devops-engineer-job-description.direct.json",
+  "markdownChars": 4344,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:09:32.831Z"
+}

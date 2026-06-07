@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/front-end-software-engineer-baanomschrijving",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/front-end-software-engineer-baanomschrijving",
+  "finalURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/front-end-software-engineer-baanomschrijving",
+  "title": "Functieomschrijving Front-end software engineer",
+  "description": "Bekijk de functiebeschrijving voor een front-end software engineer, verantwoordelijk voor het ontwikkelen van gebruikersinterfaces, het optimaliseren van webprestaties en het zorgen voor een naadloze gebruikerservaring.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264359,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cea129d05d837c73-nl-nl-bronnen-functiebeschrijvingen-front-end-software-engineer-baanomschrijving.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cea129d05d837c73-nl-nl-bronnen-functiebeschrijvingen-front-end-software-engineer-baanomschrijving.direct.json",
+  "markdownChars": 5125,
+  "linksCount": 115,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:10:28.562Z"
+}

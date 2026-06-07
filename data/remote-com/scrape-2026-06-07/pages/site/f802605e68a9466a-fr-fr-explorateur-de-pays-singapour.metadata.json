@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/singapour",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/singapour",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/singapour",
+  "title": "Employer of Record (EOR) et services de paie | Singapour",
+  "description": "Recruter des employés et des freelances : Singapour Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 352522,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f802605e68a9466a-fr-fr-explorateur-de-pays-singapour.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f802605e68a9466a-fr-fr-explorateur-de-pays-singapour.direct.json",
+  "markdownChars": 8339,
+  "linksCount": 126,
+  "lastmod": "2025-10-07",
+  "scrapedAt": "2026-06-07T09:18:26.997Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-trabajo-disenador-web",
+  "sourceURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-trabajo-disenador-web",
+  "finalURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-trabajo-disenador-web",
+  "title": "Descripción del trabajo de diseñador web",
+  "description": "Revisa la descripción del trabajo de un diseñador web, responsable de crear sitios web visualmente atractivos y fáciles de usar, optimizar la funcionalidad y mejorar la experiencia del usuario.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261726,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4284c826bfb8cafc-es-es-recursos-descripciones-puestos-trabajo-descripcion-trabajo-disenador-web.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4284c826bfb8cafc-es-es-recursos-descripciones-puestos-trabajo-descripcion-trabajo-disenador-web.direct.json",
+  "markdownChars": 3997,
+  "linksCount": 113,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:18:43.674Z"
+}

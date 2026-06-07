@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/angola/contractor-management",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/angola/contractor-management",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/angola/contractor-management",
+  "title": "Gestão de trabalhadores independentes de Angola | Contractor Management",
+  "description": "Queres contratar trabalhadores independentes de Angola? Gere e paga a trabalhadores independentes em todo o mundo sem esforço com o Contractor Management flexível da Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 151251,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1b80c0e82a3203fb-pt-pt-explorar-pais-angola-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1b80c0e82a3203fb-pt-pt-explorar-pais-angola-contractor-management.direct.json",
+  "markdownChars": 2503,
+  "linksCount": 39,
+  "lastmod": "2026-03-24",
+  "scrapedAt": "2026-06-07T09:12:43.454Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/letonia",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/letonia",
+  "finalURL": "https://remote.com/es-es/explorador-paises/letonia",
+  "title": "Employer of Record & Payroll Services | Letonia",
+  "description": "¿Contratas empleados y trabajadores autónomos en Letonia? Remote puede ayudarte a gestionar empleados y trabajadores autónomos mediante nuestra plataforma integrada de RR. HH. globales.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 344452,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f459b18474946c79-es-es-explorador-paises-letonia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f459b18474946c79-es-es-explorador-paises-letonia.direct.json",
+  "markdownChars": 6673,
+  "linksCount": 122,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:08:08.932Z"
+}

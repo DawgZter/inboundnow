@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/iceland/contractor-management",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/iceland/contractor-management",
+  "finalURL": "https://remote.com/en-sg/country-explorer/iceland/contractor-management",
+  "title": "Manage Contractors in Iceland | Contractor Management",
+  "description": "Hiring a contractor in Iceland? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259430,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3a8f7d101f605b24-en-sg-country-explorer-iceland-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3a8f7d101f605b24-en-sg-country-explorer-iceland-contractor-management.direct.json",
+  "markdownChars": 2268,
+  "linksCount": 125,
+  "lastmod": "2025-08-26",
+  "scrapedAt": "2026-06-07T09:16:29.666Z"
+}

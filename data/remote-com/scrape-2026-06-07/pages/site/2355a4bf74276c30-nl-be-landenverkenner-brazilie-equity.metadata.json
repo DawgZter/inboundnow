@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/brazilie/equity",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/brazilie/equity",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/brazilie/equity",
+  "title": "Aandelenopties voor werknemers in Brazilië",
+  "description": "Ontdek de regels in Brazilië voor aandelengerelateerde beloningen en aandelenopties. Neem weloverwogen beslissingen over wereldwijde beloning met Remote’s Country Explorer.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258424,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2355a4bf74276c30-nl-be-landenverkenner-brazilie-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2355a4bf74276c30-nl-be-landenverkenner-brazilie-equity.direct.json",
+  "markdownChars": 5385,
+  "linksCount": 127,
+  "lastmod": "2025-12-15",
+  "scrapedAt": "2026-06-07T09:04:12.261Z"
+}

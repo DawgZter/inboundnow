@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/zweden/belastingen",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/zweden/belastingen",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/zweden/belastingen",
+  "title": "Loonlijst belasting beheren in Zweden | Belasting naleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Zweden. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260798,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7ce0a2d36aac37c2-nl-nl-landenverkenner-zweden-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7ce0a2d36aac37c2-nl-nl-landenverkenner-zweden-belastingen.direct.json",
+  "markdownChars": 1168,
+  "linksCount": 125,
+  "lastmod": "2025-11-18",
+  "scrapedAt": "2026-06-07T09:05:02.650Z"
+}

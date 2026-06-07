@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/us-state-explorer/arizona/employment-termination",
+  "sourceURL": "https://remote.com/en-ie/us-state-explorer/arizona/employment-termination",
+  "finalURL": "https://remote.com/en-ie/us-state-explorer/arizona/employment-termination",
+  "title": "Terminate Employees in Arizona | Employment Termination",
+  "description": "Looking to terminate an employee in Arizona? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256084,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5e13f9358ddda2a2-en-ie-us-state-explorer-arizona-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5e13f9358ddda2a2-en-ie-us-state-explorer-arizona-employment-termination.direct.json",
+  "markdownChars": 1675,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:14:12.584Z"
+}

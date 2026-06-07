@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/armenia/contractor-management",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/armenia/contractor-management",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/armenia/contractor-management",
+  "title": "アルメニアでの契約者管理 | 契約社員管理",
+  "description": "アルメニアで契約者を雇用する場合、当社の柔軟な契約社員管理サービスにより、グローバルな契約者を簡単に管理・支払いできます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259683,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2936390a5dd1faaa-ja-jp-country-explorer-armenia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2936390a5dd1faaa-ja-jp-country-explorer-armenia-contractor-management.direct.json",
+  "markdownChars": 1042,
+  "linksCount": 122,
+  "lastmod": "2025-10-28",
+  "scrapedAt": "2026-06-07T09:01:40.520Z"
+}

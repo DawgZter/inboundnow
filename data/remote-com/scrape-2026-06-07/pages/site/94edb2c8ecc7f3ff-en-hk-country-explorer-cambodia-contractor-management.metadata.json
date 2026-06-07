@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/cambodia/contractor-management",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/cambodia/contractor-management",
+  "finalURL": "https://remote.com/en-hk/country-explorer/cambodia/contractor-management",
+  "title": "Manage Contractors in Cambodia | Contractor Management",
+  "description": "Hiring a contractor in Cambodia? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254419,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/94edb2c8ecc7f3ff-en-hk-country-explorer-cambodia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/94edb2c8ecc7f3ff-en-hk-country-explorer-cambodia-contractor-management.direct.json",
+  "markdownChars": 2064,
+  "linksCount": 115,
+  "lastmod": "2025-08-20",
+  "scrapedAt": "2026-06-07T09:18:01.064Z"
+}

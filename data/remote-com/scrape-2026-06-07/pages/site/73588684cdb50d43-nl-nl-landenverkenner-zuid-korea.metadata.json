@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/zuid-korea",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/zuid-korea",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/zuid-korea",
+  "title": "Employer of Record & Payroll-diensten | Zuid-Korea",
+  "description": "Wil je werknemers en zzp'ers werven in Zuid-Korea? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 347686,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/73588684cdb50d43-nl-nl-landenverkenner-zuid-korea.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/73588684cdb50d43-nl-nl-landenverkenner-zuid-korea.direct.json",
+  "markdownChars": 7027,
+  "linksCount": 125,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:01:43.330Z"
+}

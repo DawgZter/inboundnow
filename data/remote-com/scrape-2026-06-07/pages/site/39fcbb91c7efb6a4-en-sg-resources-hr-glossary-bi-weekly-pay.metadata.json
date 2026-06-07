@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/hr-glossary/bi-weekly-pay",
+  "sourceURL": "https://remote.com/en-sg/resources/hr-glossary/bi-weekly-pay",
+  "finalURL": "https://remote.com/en-sg/resources/hr-glossary/bi-weekly-pay",
+  "title": "What is bi-weekly pay?",
+  "description": "Understand what bi-weekly pay is and how it works, including the key things you need to be aware of.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250685,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/39fcbb91c7efb6a4-en-sg-resources-hr-glossary-bi-weekly-pay.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/39fcbb91c7efb6a4-en-sg-resources-hr-glossary-bi-weekly-pay.direct.json",
+  "markdownChars": 2541,
+  "linksCount": 118,
+  "lastmod": "2025-07-17",
+  "scrapedAt": "2026-06-07T09:17:52.289Z"
+}

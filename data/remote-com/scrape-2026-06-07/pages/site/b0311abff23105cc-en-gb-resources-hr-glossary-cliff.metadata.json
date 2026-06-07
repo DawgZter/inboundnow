@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/hr-glossary/cliff",
+  "sourceURL": "https://remote.com/en-gb/resources/hr-glossary/cliff",
+  "finalURL": "https://remote.com/en-gb/resources/hr-glossary/cliff",
+  "title": "What is a cliff?",
+  "description": "In employee stock option programs, it’s important to understand what a cliff period is and how it works. Learn more.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250208,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b0311abff23105cc-en-gb-resources-hr-glossary-cliff.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b0311abff23105cc-en-gb-resources-hr-glossary-cliff.direct.json",
+  "markdownChars": 2226,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:41.412Z"
+}

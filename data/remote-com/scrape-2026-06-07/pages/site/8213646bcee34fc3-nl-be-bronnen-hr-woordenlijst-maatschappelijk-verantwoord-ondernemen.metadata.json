@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/maatschappelijk-verantwoord-ondernemen",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/maatschappelijk-verantwoord-ondernemen",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/maatschappelijk-verantwoord-ondernemen",
+  "title": "What is corporate social responsibility?",
+  "description": "Ontdek meer over maatschappelijk verantwoord ondernemen (MVO) en de ecologische, ethische, filantropische en economische verplichtingen van bedrijven.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259272,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8213646bcee34fc3-nl-be-bronnen-hr-woordenlijst-maatschappelijk-verantwoord-ondernemen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8213646bcee34fc3-nl-be-bronnen-hr-woordenlijst-maatschappelijk-verantwoord-ondernemen.direct.json",
+  "markdownChars": 11013,
+  "linksCount": 127,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:02:35.886Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/brazil/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/brazil/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/en-hk/country-explorer/brazil/benefits-guide/life-insurance",
+  "title": "Employee Life Insurance in Brazil | Insurance Plans",
+  "description": "Provide peace of mind with life insurance coverage for your employees in Brazil. Explore the policies and benefits available.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264050,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9126c559036668c7-en-hk-country-explorer-brazil-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9126c559036668c7-en-hk-country-explorer-brazil-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 2146,
+  "linksCount": 118,
+  "lastmod": "2025-06-01",
+  "scrapedAt": "2026-06-07T09:08:20.078Z"
+}

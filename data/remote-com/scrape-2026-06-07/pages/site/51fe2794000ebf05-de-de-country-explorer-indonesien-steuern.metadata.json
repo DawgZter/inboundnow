@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/indonesien/steuern",
+  "sourceURL": "https://remote.com/de-de/country-explorer/indonesien/steuern",
+  "finalURL": "https://remote.com/de-de/country-explorer/indonesien/steuern",
+  "title": "Lohnnebenkosten in Indonesia | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Indonesien.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260145,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/51fe2794000ebf05-de-de-country-explorer-indonesien-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/51fe2794000ebf05-de-de-country-explorer-indonesien-steuern.direct.json",
+  "markdownChars": 1173,
+  "linksCount": 122,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:02:21.624Z"
+}

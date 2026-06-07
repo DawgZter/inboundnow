@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/congo",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/congo",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/congo",
+  "title": "Employer of Record (EOR) と給与処理サービス｜コンゴ（ブラザヴィル）",
+  "description": "コンゴ（ブラザヴィル）で従業員や契約社員を採用・管理していますか？Remoteは統合されたグローバルHRプラットフォームを通じて、採用から管理までを支援します。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 310761,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1752596224d67faf-ja-jp-country-explorer-congo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1752596224d67faf-ja-jp-country-explorer-congo.direct.json",
+  "markdownChars": 1668,
+  "linksCount": 118,
+  "lastmod": "2025-09-18",
+  "scrapedAt": "2026-06-07T09:17:58.337Z"
+}

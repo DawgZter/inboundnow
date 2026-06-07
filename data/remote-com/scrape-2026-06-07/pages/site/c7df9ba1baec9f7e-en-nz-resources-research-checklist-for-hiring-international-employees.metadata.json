@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/research/checklist-for-hiring-international-employees",
+  "sourceURL": "https://remote.com/en-nz/resources/research/checklist-for-hiring-international-employees",
+  "finalURL": "https://remote.com/en-nz/resources/research/checklist-for-hiring-international-employees",
+  "title": "Building a Global Team: Checklist for Hiring International Employees | Remote",
+  "description": "Ensure a smooth and compliant process for building a global team with our comprehensive checklist. Discover practical tactics and strategic advice from Remote's HR and employment law experts to help you navigate the complexities of managing a distributed workforce. Get started today and protect your business while building a globally distributed team.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 261656,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c7df9ba1baec9f7e-en-nz-resources-research-checklist-for-hiring-international-employees.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c7df9ba1baec9f7e-en-nz-resources-research-checklist-for-hiring-international-employees.direct.json",
+  "markdownChars": 1245,
+  "linksCount": 113,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:15:32.080Z"
+}

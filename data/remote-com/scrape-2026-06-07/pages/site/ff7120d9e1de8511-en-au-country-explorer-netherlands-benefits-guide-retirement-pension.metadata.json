@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/netherlands/benefits-guide/retirement-pension",
+  "sourceURL": "https://remote.com/en-au/country-explorer/netherlands/benefits-guide/retirement-pension",
+  "finalURL": "https://remote.com/en-au/country-explorer/netherlands/benefits-guide/retirement-pension",
+  "title": "Retirement & Pension Benefits in Netherlands | Wellbeing Support",
+  "description": "Support your team with Retirement &amp; Pension benefits in Netherlands.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264645,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff7120d9e1de8511-en-au-country-explorer-netherlands-benefits-guide-retirement-pension.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff7120d9e1de8511-en-au-country-explorer-netherlands-benefits-guide-retirement-pension.direct.json",
+  "markdownChars": 2989,
+  "linksCount": 118,
+  "lastmod": "2026-05-18",
+  "scrapedAt": "2026-06-07T09:16:54.327Z"
+}

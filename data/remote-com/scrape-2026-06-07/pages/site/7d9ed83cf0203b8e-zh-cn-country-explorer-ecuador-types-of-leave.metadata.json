@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/ecuador/types-of-leave",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/ecuador/types-of-leave",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/ecuador/types-of-leave",
+  "title": "厄瓜多尔的假期类型 | 员工休假法规",
+  "description": "了解厄瓜多尔的员工休假法规，确保贵公司遵守相关政策并提供有竞争力的带薪休假。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257246,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7d9ed83cf0203b8e-zh-cn-country-explorer-ecuador-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7d9ed83cf0203b8e-zh-cn-country-explorer-ecuador-types-of-leave.direct.json",
+  "markdownChars": 699,
+  "linksCount": 120,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:01:41.901Z"
+}

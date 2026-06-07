@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/leistungsbonus",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/leistungsbonus",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/leistungsbonus",
+  "title": "What is a performance bonus?",
+  "description": "Erfahre mehr über Leistungsprämien und ihre Auswirkungen auf die Motivation und Produktivität deiner Mitarbeiter. In unserem Glossar erfährst du, welche Rolle sie bei Vergütungsstrategien spielen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255127,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8bcdf054a38e2542-de-at-ressourcen-hr-glossar-leistungsbonus.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8bcdf054a38e2542-de-at-ressourcen-hr-glossar-leistungsbonus.direct.json",
+  "markdownChars": 4788,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:08:13.115Z"
+}

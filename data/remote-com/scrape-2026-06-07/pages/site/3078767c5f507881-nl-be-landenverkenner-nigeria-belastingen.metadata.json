@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/nigeria/belastingen",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/nigeria/belastingen",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/nigeria/belastingen",
+  "title": "Payrollbelastingen beheren in Nigeria | Compliance",
+  "description": "Beheer effectief en compliant payroll-belasting in Nigeria. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256584,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3078767c5f507881-nl-be-landenverkenner-nigeria-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3078767c5f507881-nl-be-landenverkenner-nigeria-belastingen.direct.json",
+  "markdownChars": 1087,
+  "linksCount": 126,
+  "lastmod": "2026-02-25",
+  "scrapedAt": "2026-06-07T09:02:21.122Z"
+}

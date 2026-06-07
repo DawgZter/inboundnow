@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/brazil/employer-of-record",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/brazil/employer-of-record",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/brazil/employer-of-record",
+  "title": "브라질에서의 기록상 고용주(EOR) | EOR 서비스",
+  "description": "Remote의 기록상 고용주(EOR) 서비스로 브라질에서의 고용을 간소화하고 급여·복리후생·규제 준수를 원활하게 관리합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260155,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0648740add2335a7-ko-kr-country-explorer-brazil-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0648740add2335a7-ko-kr-country-explorer-brazil-employer-of-record.direct.json",
+  "markdownChars": 1782,
+  "linksCount": 123,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:08:11.319Z"
+}

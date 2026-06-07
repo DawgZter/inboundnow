@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/futa",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/futa",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/futa",
+  "title": "What is the federal unemployment tax act (FUTA)?",
+  "description": "Den Federal Unemployment Tax Act (FUTA) und seine Bedeutung für die Finanzierung der Arbeitslosigkeit verstehen. In unserem Glossar erfährst du, welche Auswirkungen sie auf Arbeitgeber und Arbeitnehmer hat.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254902,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40b5e45ef58ac320-de-at-ressourcen-hr-glossar-futa.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40b5e45ef58ac320-de-at-ressourcen-hr-glossar-futa.direct.json",
+  "markdownChars": 5119,
+  "linksCount": 120,
+  "lastmod": "2026-02-11",
+  "scrapedAt": "2026-06-07T09:06:23.985Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/barbados/contractor-management",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/barbados/contractor-management",
+  "finalURL": "https://remote.com/it-it/esplora-paese/barbados/contractor-management",
+  "title": "Gestione dei collaboratori in Barbados | Contractor Management",
+  "description": "Vuoi collaborare con freelance in Barbados? Gestisci e paga i tuoi collaboratori globali senza intoppi con i nostri flessibili servizi di Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 152486,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71a4db9199d871aa-it-it-esplora-paese-barbados-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71a4db9199d871aa-it-it-esplora-paese-barbados-contractor-management.direct.json",
+  "markdownChars": 3895,
+  "linksCount": 39,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:12:54.274Z"
+}

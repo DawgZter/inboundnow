@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/us-state-explorer/florida/employer-of-record",
+  "sourceURL": "https://remote.com/en-sg/us-state-explorer/florida/employer-of-record",
+  "finalURL": "https://remote.com/en-sg/us-state-explorer/florida/employer-of-record",
+  "title": "Employer of Record services in Florida",
+  "description": "Use employer of record services in Florida make hiring, managing, and paying top talent easy. Stay compliant in Florida and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258355,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4977c5da0ed3842d-en-sg-us-state-explorer-florida-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4977c5da0ed3842d-en-sg-us-state-explorer-florida-employer-of-record.direct.json",
+  "markdownChars": 3288,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:17:22.279Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/sudafrica/impuestos",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/sudafrica/impuestos",
+  "finalURL": "https://remote.com/es-es/explorador-paises/sudafrica/impuestos",
+  "title": "Gestiona los impuestos de nómina en Sudáfrica | Cumplimiento normativo",
+  "description": "Gestiona los impuestos de nómina en Sudáfrica de forma eficaz y cumpliendo la normativa. Minimiza errores en los impuestos de nómina, cumple la legislación local y evita multas costosas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262418,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb879768297d2fcc-es-es-explorador-paises-sudafrica-impuestos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb879768297d2fcc-es-es-explorador-paises-sudafrica-impuestos.direct.json",
+  "markdownChars": 1427,
+  "linksCount": 123,
+  "lastmod": "2025-09-16",
+  "scrapedAt": "2026-06-07T09:02:22.020Z"
+}

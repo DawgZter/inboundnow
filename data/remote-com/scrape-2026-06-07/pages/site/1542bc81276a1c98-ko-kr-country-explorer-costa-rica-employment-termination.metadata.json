@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/costa-rica/employment-termination",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/costa-rica/employment-termination",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/costa-rica/employment-termination",
+  "title": "코스타리카에서의 직원 해고 | 해고 절차",
+  "description": "코스타리카에서의 직원 해고 시 귀사의 권리와 절차를 포괄적으로 정리한 가이드를 통해 관련 법규를 정확히 이해할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257641,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1542bc81276a1c98-ko-kr-country-explorer-costa-rica-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1542bc81276a1c98-ko-kr-country-explorer-costa-rica-employment-termination.direct.json",
+  "markdownChars": 857,
+  "linksCount": 121,
+  "lastmod": "2025-10-01",
+  "scrapedAt": "2026-06-07T09:16:28.082Z"
+}

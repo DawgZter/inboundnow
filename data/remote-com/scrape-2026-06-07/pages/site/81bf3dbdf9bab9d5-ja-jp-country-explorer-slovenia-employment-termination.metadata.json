@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/slovenia/employment-termination",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/slovenia/employment-termination",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/slovenia/employment-termination",
+  "title": "スロベニアにおける従業員の解雇 | 解雇手続き",
+  "description": "スロベニアで従業員を解雇する際の権利と手続きを包括的に解説するガイドで、雇用主として知っておくべき要点を確認できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259111,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/81bf3dbdf9bab9d5-ja-jp-country-explorer-slovenia-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/81bf3dbdf9bab9d5-ja-jp-country-explorer-slovenia-employment-termination.direct.json",
+  "markdownChars": 815,
+  "linksCount": 122,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:16:42.638Z"
+}

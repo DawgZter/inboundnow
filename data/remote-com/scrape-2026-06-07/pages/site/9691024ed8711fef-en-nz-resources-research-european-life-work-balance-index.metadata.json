@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/research/european-life-work-balance-index",
+  "sourceURL": "https://remote.com/en-nz/resources/research/european-life-work-balance-index",
+  "finalURL": "https://remote.com/en-nz/resources/research/european-life-work-balance-index",
+  "title": "European Life-Work Balance Index 2025 | Best Work-Life Balance Countries Europe",
+  "description": "Thinking of relocating to a new country in Europe for work in 2025? Find out which European countries offer the best life-work balance in Remote’s study.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 649652,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9691024ed8711fef-en-nz-resources-research-european-life-work-balance-index.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9691024ed8711fef-en-nz-resources-research-european-life-work-balance-index.direct.json",
+  "markdownChars": 24484,
+  "linksCount": 171,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:13:46.894Z"
+}

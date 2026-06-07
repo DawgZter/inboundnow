@@ -1,0 +1,18 @@
+{
+  "category": "blog",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/blog/colaboraciones/remote-pento",
+  "sourceURL": "https://remote.com/es-es/blog/colaboraciones/remote-pento",
+  "finalURL": "https://remote.com/es-es/blog/colaboraciones/remote-pento",
+  "title": "Pento se convierte en un empleador equitativo con Remote",
+  "description": "A medida que aumenta su personal internacional, Pento necesita un socio fiable y experto en empleo que le ayude a cumplir la normativa. Por eso confía en Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264328,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/e96c8d4bf852603d-es-es-blog-colaboraciones-remote-pento.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/e96c8d4bf852603d-es-es-blog-colaboraciones-remote-pento.direct.json",
+  "markdownChars": 12129,
+  "linksCount": 114,
+  "lastmod": "2026-05-11",
+  "scrapedAt": "2026-06-07T09:00:57.356Z"
+}

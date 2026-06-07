@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/canada/taxes",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/canada/taxes",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/canada/taxes",
+  "title": "在加拿大管理薪资税 | 税务合规",
+  "description": "在加拿大有效且合规地管理薪资税。最大限度减少薪资税错误，遵守当地法律，避免高额罚款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259913,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f69af3b2bbfff059-zh-cn-country-explorer-canada-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f69af3b2bbfff059-zh-cn-country-explorer-canada-taxes.direct.json",
+  "markdownChars": 937,
+  "linksCount": 122,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:09:53.487Z"
+}

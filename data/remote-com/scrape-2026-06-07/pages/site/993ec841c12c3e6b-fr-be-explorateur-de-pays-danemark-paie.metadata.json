@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/danemark/paie",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/danemark/paie",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/danemark/paie",
+  "title": "Payer des salariés au Danemark | Services de paie",
+  "description": "Payer des salariés au Danemark sans effort grâce à nos services de paie flexibles. Gérez la paie, gérez les notes de frais et générez des rapports, le tout depuis un seul endroit.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264355,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/993ec841c12c3e6b-fr-be-explorateur-de-pays-danemark-paie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/993ec841c12c3e6b-fr-be-explorateur-de-pays-danemark-paie.direct.json",
+  "markdownChars": 4654,
+  "linksCount": 125,
+  "lastmod": "2025-11-13",
+  "scrapedAt": "2026-06-07T09:11:13.749Z"
+}

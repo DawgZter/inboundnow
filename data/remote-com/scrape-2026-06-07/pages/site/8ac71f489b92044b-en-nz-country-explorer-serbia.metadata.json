@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer/serbia",
+  "sourceURL": "https://remote.com/en-nz/country-explorer/serbia",
+  "finalURL": "https://remote.com/en-nz/country-explorer/serbia",
+  "title": "Employer of Record & Payroll Services | Serbia",
+  "description": "Hiring employees and contractors in Serbia? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 342279,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ac71f489b92044b-en-nz-country-explorer-serbia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ac71f489b92044b-en-nz-country-explorer-serbia.direct.json",
+  "markdownChars": 5724,
+  "linksCount": 127,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:13:29.785Z"
+}

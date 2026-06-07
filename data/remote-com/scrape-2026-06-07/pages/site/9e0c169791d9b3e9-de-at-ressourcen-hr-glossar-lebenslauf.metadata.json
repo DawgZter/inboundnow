@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/lebenslauf",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/lebenslauf",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/lebenslauf",
+  "title": "What is a resume",
+  "description": "In unserem ausführlichen HR-Glossar erfährst du, welche Rolle der Lebenslauf im Einstellungsprozess spielt, was seine wichtigsten Elemente sind und wie er sich auf die Bewerbung auswirkt.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254053,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9e0c169791d9b3e9-de-at-ressourcen-hr-glossar-lebenslauf.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9e0c169791d9b3e9-de-at-ressourcen-hr-glossar-lebenslauf.direct.json",
+  "markdownChars": 4549,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:14:40.567Z"
+}

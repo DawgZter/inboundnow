@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-puesto-disenador-instruccional",
+  "sourceURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-puesto-disenador-instruccional",
+  "finalURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-puesto-disenador-instruccional",
+  "title": "Descripción del trabajo de diseñador",
+  "description": "Conoce el papel fundamental de un diseñador instructivo en la creación de materiales educativos eficaces. Visita nuestra biblioteca de descripciones de puestos para explorar las principales responsabilidades y cualificaciones.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262839,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2336e9241bb9f94d-es-es-recursos-descripciones-puestos-trabajo-descripcion-puesto-disenador-instruccional.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2336e9241bb9f94d-es-es-recursos-descripciones-puestos-trabajo-descripcion-puesto-disenador-instruccional.direct.json",
+  "markdownChars": 4563,
+  "linksCount": 113,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:01:30.740Z"
+}

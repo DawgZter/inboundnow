@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/spanje/belastingen",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/spanje/belastingen",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/spanje/belastingen",
+  "title": "Payroll-belasting beheren in Spanje | Belastingnaleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Spanje. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259296,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/356326f37e30caab-nl-be-landenverkenner-spanje-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/356326f37e30caab-nl-be-landenverkenner-spanje-belastingen.direct.json",
+  "markdownChars": 1700,
+  "linksCount": 127,
+  "lastmod": "2025-11-19",
+  "scrapedAt": "2026-06-07T09:13:31.740Z"
+}

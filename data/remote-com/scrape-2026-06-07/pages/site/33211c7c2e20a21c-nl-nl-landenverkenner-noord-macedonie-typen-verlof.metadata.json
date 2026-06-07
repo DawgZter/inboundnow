@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/noord-macedonie/typen-verlof",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/noord-macedonie/typen-verlof",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/noord-macedonie/typen-verlof",
+  "title": "Typen verlof in North Macedonia | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Noord Macedonie. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263370,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33211c7c2e20a21c-nl-nl-landenverkenner-noord-macedonie-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33211c7c2e20a21c-nl-nl-landenverkenner-noord-macedonie-typen-verlof.direct.json",
+  "markdownChars": 3123,
+  "linksCount": 123,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:09:16.221Z"
+}

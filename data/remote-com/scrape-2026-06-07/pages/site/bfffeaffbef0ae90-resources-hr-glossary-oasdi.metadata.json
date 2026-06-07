@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/oasdi",
+  "sourceURL": "https://remote.com/resources/hr-glossary/oasdi",
+  "finalURL": "https://remote.com/resources/hr-glossary/oasdi",
+  "title": "OASDI",
+  "description": "Understand OASDI and how it affects payroll in the US. A must-know for employers hiring in the States, or managing Social Security contributions.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250618,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bfffeaffbef0ae90-resources-hr-glossary-oasdi.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bfffeaffbef0ae90-resources-hr-glossary-oasdi.direct.json",
+  "markdownChars": 3049,
+  "linksCount": 119,
+  "lastmod": "2025-07-16",
+  "scrapedAt": "2026-06-07T09:18:55.275Z"
+}

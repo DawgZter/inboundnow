@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/croacia/impuestos",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/croacia/impuestos",
+  "finalURL": "https://remote.com/es-es/explorador-paises/croacia/impuestos",
+  "title": "Gestiona los impuestos de nómina en Croacia | Cumplimiento normativo",
+  "description": "Gestiona los impuestos de nómina en Croacia de forma eficaz y conforme a la normativa. Minimiza los errores en la nómina, cumple con las leyes locales y evita costosas multas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261266,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5e727751ac4ec072-es-es-explorador-paises-croacia-impuestos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5e727751ac4ec072-es-es-explorador-paises-croacia-impuestos.direct.json",
+  "markdownChars": 1457,
+  "linksCount": 122,
+  "lastmod": "2025-09-16",
+  "scrapedAt": "2026-06-07T09:02:37.351Z"
+}

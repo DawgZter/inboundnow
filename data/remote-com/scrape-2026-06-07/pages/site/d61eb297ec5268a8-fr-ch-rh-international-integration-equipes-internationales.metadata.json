@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/rh-international/integration-equipes-internationales",
+  "sourceURL": "https://remote.com/fr-ch/rh-international/integration-equipes-internationales",
+  "finalURL": "https://remote.com/fr-ch/rh-international/integration-equipes-internationales",
+  "title": "Intégration et visibilité à l'international efficaces | Remote",
+  "description": "Onboard your global team in just a few clicks. Remote’s simple yet powerful platform makes it easy to go from building a salary estimate to issuing your first pay slip.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 348254,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d61eb297ec5268a8-fr-ch-rh-international-integration-equipes-internationales.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d61eb297ec5268a8-fr-ch-rh-international-integration-equipes-internationales.direct.json",
+  "markdownChars": 17076,
+  "linksCount": 124,
+  "lastmod": "2025-04-24",
+  "scrapedAt": "2026-06-07T09:06:27.143Z"
+}

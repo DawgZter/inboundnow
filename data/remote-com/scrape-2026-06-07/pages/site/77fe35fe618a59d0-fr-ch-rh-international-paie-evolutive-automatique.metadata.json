@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/rh-international/paie-evolutive-automatique",
+  "sourceURL": "https://remote.com/fr-ch/rh-international/paie-evolutive-automatique",
+  "finalURL": "https://remote.com/fr-ch/rh-international/paie-evolutive-automatique",
+  "title": "Paie évolutive et automatique | Remote",
+  "description": "Découvrez la paie qui évolue avec votre entreprise. Remote automatise la conformité, rationalise l’intégration et fournit des données claires et exploitables pour une paie performante à chaque cycle.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 340166,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/77fe35fe618a59d0-fr-ch-rh-international-paie-evolutive-automatique.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/77fe35fe618a59d0-fr-ch-rh-international-paie-evolutive-automatique.direct.json",
+  "markdownChars": 4011,
+  "linksCount": 119,
+  "lastmod": "2025-10-09",
+  "scrapedAt": "2026-06-07T09:02:48.470Z"
+}

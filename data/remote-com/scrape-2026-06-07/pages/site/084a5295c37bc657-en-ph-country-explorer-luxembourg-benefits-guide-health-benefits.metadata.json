@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/luxembourg/benefits-guide/health-benefits",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/luxembourg/benefits-guide/health-benefits",
+  "finalURL": "https://remote.com/en-ph/country-explorer/luxembourg/benefits-guide/health-benefits",
+  "title": "Health Benefits in Luxembourg | Wellbeing Support",
+  "description": "Support your team with Health benefits in Luxembourg.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 282485,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/084a5295c37bc657-en-ph-country-explorer-luxembourg-benefits-guide-health-benefits.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/084a5295c37bc657-en-ph-country-explorer-luxembourg-benefits-guide-health-benefits.direct.json",
+  "markdownChars": 18801,
+  "linksCount": 118,
+  "lastmod": "2026-04-30",
+  "scrapedAt": "2026-06-07T09:12:53.428Z"
+}

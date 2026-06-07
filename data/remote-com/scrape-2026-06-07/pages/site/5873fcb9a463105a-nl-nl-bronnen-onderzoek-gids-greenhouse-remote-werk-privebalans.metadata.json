@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/onderzoek/gids-greenhouse-remote-werk-privebalans",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/onderzoek/gids-greenhouse-remote-werk-privebalans",
+  "finalURL": "https://remote.com/nl-nl/bronnen/onderzoek/gids-greenhouse-remote-werk-privebalans",
+  "title": "De werk-privébalans van je werknemers verbeteren | Remote",
+  "description": "Global HR-experts van Greenhouse en Remote delen praktische strategieën waarmee je je team kunt ondersteunen en hun werk-privébalans kunt verbeteren.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 263021,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5873fcb9a463105a-nl-nl-bronnen-onderzoek-gids-greenhouse-remote-werk-privebalans.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5873fcb9a463105a-nl-nl-bronnen-onderzoek-gids-greenhouse-remote-werk-privebalans.direct.json",
+  "markdownChars": 820,
+  "linksCount": 116,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:07:04.831Z"
+}

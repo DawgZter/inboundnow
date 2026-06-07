@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/italie/beeindiging-van-dienstverband",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/italie/beeindiging-van-dienstverband",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/italie/beeindiging-van-dienstverband",
+  "title": "Beëindiging van het dienstverband in Italy | Beëindiging van het dienstverband",
+  "description": "Hoe beëindig je het dienstverband met een werknemer in Italie? Ken je rechten en lees onze uitgebreide gids over de wetgeving voor beëindiging van dienstverbanden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254599,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/985ed532b355af73-nl-be-landenverkenner-italie-beeindiging-van-dienstverband.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/985ed532b355af73-nl-be-landenverkenner-italie-beeindiging-van-dienstverband.direct.json",
+  "markdownChars": 1852,
+  "linksCount": 126,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:01:45.296Z"
+}

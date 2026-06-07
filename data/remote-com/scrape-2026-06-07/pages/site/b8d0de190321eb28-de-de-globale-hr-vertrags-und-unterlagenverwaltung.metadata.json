@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/globale-hr/vertrags-und-unterlagenverwaltung",
+  "sourceURL": "https://remote.com/de-de/globale-hr/vertrags-und-unterlagenverwaltung",
+  "finalURL": "https://remote.com/de-de/globale-hr/vertrags-und-unterlagenverwaltung",
+  "title": "Software zur Verwaltung von Arbeitsverträgen und Personalunterlagen | Remote",
+  "description": "Erfahre, wie du mit der Global HR Plattform von Remote ganz einfach Arbeitsverträge und Unterlagen erstellen, versenden, unterschreiben und speichern kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 316245,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b8d0de190321eb28-de-de-globale-hr-vertrags-und-unterlagenverwaltung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b8d0de190321eb28-de-de-globale-hr-vertrags-und-unterlagenverwaltung.direct.json",
+  "markdownChars": 6070,
+  "linksCount": 119,
+  "lastmod": "2025-08-28",
+  "scrapedAt": "2026-06-07T09:03:58.005Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/georgia/payroll",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/georgia/payroll",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/georgia/payroll",
+  "title": "Payroll Management in Georgia",
+  "description": "Manage payroll in Georgia seamlessly with Remote's payroll software. Stay compliant with Georgia payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258813,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76f59e8c48353c56-en-gb-us-state-explorer-georgia-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76f59e8c48353c56-en-gb-us-state-explorer-georgia-payroll.direct.json",
+  "markdownChars": 4144,
+  "linksCount": 113,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:16:14.762Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/india/contractor-management",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/india/contractor-management",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/india/contractor-management",
+  "title": "在印度管理合同工 | 合同工管理",
+  "description": "在印度雇佣合同工时，使用我们灵活的合同工管理服务，贵公司可轻松管理并支付全球合同工。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257391,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6efa09a0bd22bab4-zh-cn-country-explorer-india-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6efa09a0bd22bab4-zh-cn-country-explorer-india-contractor-management.direct.json",
+  "markdownChars": 805,
+  "linksCount": 122,
+  "lastmod": "2025-12-22",
+  "scrapedAt": "2026-06-07T09:06:13.867Z"
+}

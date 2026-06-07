@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/lesotho",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/lesotho",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/lesotho",
+  "title": "Employer of record en payroll services | Lesotho",
+  "description": "Wil je werknemers en zzp'ers werven in Lesotho? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 313045,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6b1c2ed6b8d171a8-nl-nl-landenverkenner-lesotho.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6b1c2ed6b8d171a8-nl-nl-landenverkenner-lesotho.direct.json",
+  "markdownChars": 3599,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:11:18.755Z"
+}

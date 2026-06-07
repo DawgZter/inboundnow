@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/estonia/employer-of-record",
+  "sourceURL": "https://remote.com/en-za/country-explorer/estonia/employer-of-record",
+  "finalURL": "https://remote.com/en-za/country-explorer/estonia/employer-of-record",
+  "title": "Employer of Record in Estonia | EOR Services",
+  "description": "Simplify employment in Estonia with our Employer of Record services. Handle payroll, benefits, and compliance seamlessly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261416,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/811e8b8f6240ba0e-en-za-country-explorer-estonia-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/811e8b8f6240ba0e-en-za-country-explorer-estonia-employer-of-record.direct.json",
+  "markdownChars": 3208,
+  "linksCount": 128,
+  "lastmod": "2025-05-31",
+  "scrapedAt": "2026-06-07T09:15:56.818Z"
+}

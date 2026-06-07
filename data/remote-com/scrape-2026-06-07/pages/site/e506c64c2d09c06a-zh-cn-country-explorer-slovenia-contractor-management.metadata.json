@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/slovenia/contractor-management",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/slovenia/contractor-management",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/slovenia/contractor-management",
+  "title": "在 斯洛文尼亚 管理合同工 | 合同工管理",
+  "description": "如果贵公司在 斯洛文尼亚 雇佣合同工，Remote 的灵活合同工管理服务可实现全球合同工的高效管理与便捷支付。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256747,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e506c64c2d09c06a-zh-cn-country-explorer-slovenia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e506c64c2d09c06a-zh-cn-country-explorer-slovenia-contractor-management.direct.json",
+  "markdownChars": 837,
+  "linksCount": 120,
+  "lastmod": "2025-12-22",
+  "scrapedAt": "2026-06-07T09:17:06.930Z"
+}

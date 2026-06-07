@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/lebanon/employment-termination",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/lebanon/employment-termination",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/lebanon/employment-termination",
+  "title": "레바논에서의 직원 해고 | 해고 절차",
+  "description": "레바논에서 직원 해고 시 관련 법적 권리와 절차를 포괄적으로 안내합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256816,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3b0b1728a15e8075-ko-kr-country-explorer-lebanon-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3b0b1728a15e8075-ko-kr-country-explorer-lebanon-employment-termination.direct.json",
+  "markdownChars": 679,
+  "linksCount": 121,
+  "lastmod": "2025-10-01",
+  "scrapedAt": "2026-06-07T09:10:19.456Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/republica-checa/impostos",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/republica-checa/impostos",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/republica-checa/impostos",
+  "title": "Gere os impostos do processamento salarial na República Checa | Conformidade fiscal",
+  "description": "Gere os impostos do processamento salarial na República Checa de forma eficaz e em conformidade. Minimiza erros no processamento salarial, cumpre a legislação local e evita coimas elevadas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153745,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0dbf56a9087afaf5-pt-pt-explorar-pais-republica-checa-impostos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0dbf56a9087afaf5-pt-pt-explorar-pais-republica-checa-impostos.direct.json",
+  "markdownChars": 904,
+  "linksCount": 44,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:18:09.088Z"
+}

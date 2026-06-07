@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/checklisten-vorlagen/angebotsschreiben-vorlage",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/checklisten-vorlagen/angebotsschreiben-vorlage",
+  "finalURL": "https://remote.com/de-ch/ressourcen/checklisten-vorlagen/angebotsschreiben-vorlage",
+  "title": "Vorlage für Angebotsschreiben | Remote",
+  "description": "Erstellen Sie klare, rechtskonforme Stellenangebote mit der anpassbaren Angebotsschreiben-Vorlage von Remote. Nutzen Sie diese Vorlage, um das Onboarding zu vereinfachen, Risiken zu minimieren und neue Mitarbeitende zu beeindrucken.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256719,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a9790c59d12033a-de-ch-ressourcen-checklisten-vorlagen-angebotsschreiben-vorlage.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a9790c59d12033a-de-ch-ressourcen-checklisten-vorlagen-angebotsschreiben-vorlage.direct.json",
+  "markdownChars": 9363,
+  "linksCount": 117,
+  "lastmod": "2025-07-10",
+  "scrapedAt": "2026-06-07T09:07:32.656Z"
+}

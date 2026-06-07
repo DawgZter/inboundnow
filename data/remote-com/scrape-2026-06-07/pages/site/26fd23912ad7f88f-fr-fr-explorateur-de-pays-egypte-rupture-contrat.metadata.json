@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/egypte/rupture-contrat",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/egypte/rupture-contrat",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/egypte/rupture-contrat",
+  "title": "{Country} : Résilier le contrat d’un employé en Égypte | Rupture de contrat",
+  "description": "Egypte : Vous avez besoin de résilier le contrat d’un employé ? Découvrez quels sont vos droits grâce à notre guide complet sur les lois régissant la rupture de contrat des employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262291,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/26fd23912ad7f88f-fr-fr-explorateur-de-pays-egypte-rupture-contrat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/26fd23912ad7f88f-fr-fr-explorateur-de-pays-egypte-rupture-contrat.direct.json",
+  "markdownChars": 1920,
+  "linksCount": 124,
+  "lastmod": "2025-09-06",
+  "scrapedAt": "2026-06-07T09:10:01.372Z"
+}

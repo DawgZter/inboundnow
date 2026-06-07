@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/events/hr-fair-brussels-20-november-2025",
+  "sourceURL": "https://remote.com/events/hr-fair-brussels-20-november-2025",
+  "finalURL": "https://remote.com/events/hr-fair-brussels-20-november-2025",
+  "title": "HR Fair Brussels 20 November 2025",
+  "description": "Join Remote at HR Fair Brussels to learn how to manage HR and payroll from end to end, across Belgium and your international operations.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268019,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe7594b3956cb231-events-hr-fair-brussels-20-november-2025.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe7594b3956cb231-events-hr-fair-brussels-20-november-2025.direct.json",
+  "markdownChars": 1182,
+  "linksCount": 107,
+  "lastmod": "2025-11-17",
+  "scrapedAt": "2026-06-07T09:01:43.676Z"
+}

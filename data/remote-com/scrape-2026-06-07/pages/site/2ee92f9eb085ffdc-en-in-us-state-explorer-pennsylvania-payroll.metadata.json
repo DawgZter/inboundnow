@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/us-state-explorer/pennsylvania/payroll",
+  "sourceURL": "https://remote.com/en-in/us-state-explorer/pennsylvania/payroll",
+  "finalURL": "https://remote.com/en-in/us-state-explorer/pennsylvania/payroll",
+  "title": "Payroll Management in Pennsylvania",
+  "description": "Manage payroll in Pennsylvania seamlessly with Remote's payroll software. Stay compliant with Pennsylvania payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259528,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2ee92f9eb085ffdc-en-in-us-state-explorer-pennsylvania-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2ee92f9eb085ffdc-en-in-us-state-explorer-pennsylvania-payroll.direct.json",
+  "markdownChars": 4851,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:07:27.067Z"
+}

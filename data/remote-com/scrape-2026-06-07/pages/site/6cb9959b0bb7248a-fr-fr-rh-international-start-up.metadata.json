@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/rh-international/start-up",
+  "sourceURL": "https://remote.com/fr-fr/rh-international/start-up",
+  "finalURL": "https://remote.com/fr-fr/rh-international/start-up",
+  "title": "La plateforme simple de RH à l’international pour les start-ups | Remote",
+  "description": "Remote permet aux start-ups en pré-série C d’intégrer, gérer et payer leurs collaborateurs internationaux grâce à notre plateforme intégrée et rentable de RH à l’international.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 394358,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6cb9959b0bb7248a-fr-fr-rh-international-start-up.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6cb9959b0bb7248a-fr-fr-rh-international-start-up.direct.json",
+  "markdownChars": 16005,
+  "linksCount": 120,
+  "lastmod": "2025-07-10",
+  "scrapedAt": "2026-06-07T09:01:12.751Z"
+}

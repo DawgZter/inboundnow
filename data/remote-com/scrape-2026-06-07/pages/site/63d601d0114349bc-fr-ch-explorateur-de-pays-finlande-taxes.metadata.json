@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/finlande/taxes",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/finlande/taxes",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/finlande/taxes",
+  "title": "Gestion de la paie taxe en Finlande | Conformité fiscale",
+  "description": "Finlande : Gérez efficacement l’imposition de la paie, en toute conformité. Réduisez les erreurs d’imposition de la paie, respectez le droit local et évitez de coûteuses amendes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263998,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/63d601d0114349bc-fr-ch-explorateur-de-pays-finlande-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/63d601d0114349bc-fr-ch-explorateur-de-pays-finlande-taxes.direct.json",
+  "markdownChars": 1407,
+  "linksCount": 124,
+  "lastmod": "2025-09-01",
+  "scrapedAt": "2026-06-07T09:07:52.088Z"
+}

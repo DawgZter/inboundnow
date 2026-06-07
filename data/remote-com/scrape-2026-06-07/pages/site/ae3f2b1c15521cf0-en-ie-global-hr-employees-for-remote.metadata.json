@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/global-hr/employees-for-remote",
+  "sourceURL": "https://remote.com/en-ie/global-hr/employees-for-remote",
+  "finalURL": "https://remote.com/en-ie/global-hr/employees-for-remote",
+  "title": "Remote for Employees | Remote",
+  "description": "Hiring international employees is complex. Remote makes it easy.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 304727,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae3f2b1c15521cf0-en-ie-global-hr-employees-for-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae3f2b1c15521cf0-en-ie-global-hr-employees-for-remote.direct.json",
+  "markdownChars": 6657,
+  "linksCount": 116,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:01:14.824Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/armenia/employer-of-record",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/armenia/employer-of-record",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/armenia/employer-of-record",
+  "title": "아르메니아에서의 Employer of Record (EOR) | EOR 서비스",
+  "description": "기록상 고용주(EOR) 서비스로 아르메니아에서의 고용을 간소화합니다. 급여, 복리후생 및 규제 준수를 원활하게 관리합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259260,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb96a5bc40c68394-ko-kr-country-explorer-armenia-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb96a5bc40c68394-ko-kr-country-explorer-armenia-employer-of-record.direct.json",
+  "markdownChars": 1674,
+  "linksCount": 121,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:10:32.237Z"
+}

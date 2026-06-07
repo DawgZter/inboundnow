@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/events/trc-amsterdam-6-november-2025",
+  "sourceURL": "https://remote.com/en-nz/events/trc-amsterdam-6-november-2025",
+  "finalURL": "https://remote.com/en-nz/events/trc-amsterdam-6-november-2025",
+  "title": "TRC Amsterdam 6 November 2025",
+  "description": "Recruiters & TA leaders, meet Remote at TRC! Discover how our full HR platform automates hiring, cuts costs, and accelerates global talent acquisition.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263679,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1db995e5be9c74f0-en-nz-events-trc-amsterdam-6-november-2025.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1db995e5be9c74f0-en-nz-events-trc-amsterdam-6-november-2025.direct.json",
+  "markdownChars": 898,
+  "linksCount": 106,
+  "lastmod": "2025-10-31",
+  "scrapedAt": "2026-06-07T09:08:33.323Z"
+}

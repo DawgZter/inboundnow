@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/croatia/taxes",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/croatia/taxes",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/croatia/taxes",
+  "title": "クロアチアの給与処理税の管理 | 税務コンプライアンス",
+  "description": "クロアチアの給与処理に関する税務を効果的かつ法令遵守のもとで管理できます。給与税の誤りを最小限に抑え、現地法を遵守して高額な罰金を回避します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260036,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f1fd93d4e20b1365-ja-jp-country-explorer-croatia-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f1fd93d4e20b1365-ja-jp-country-explorer-croatia-taxes.direct.json",
+  "markdownChars": 633,
+  "linksCount": 123,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:01:56.497Z"
+}

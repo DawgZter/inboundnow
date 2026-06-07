@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/nicaragua/tipi-congedo",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/nicaragua/tipi-congedo",
+  "finalURL": "https://remote.com/it-it/esplora-paese/nicaragua/tipi-congedo",
+  "title": "Tipologie di congedo in Nicaragua | Normativa sul congedo del personale",
+  "description": "Scopri la normativa sui congedi in Nicaragua. Assicurati che la tua azienda sia conforme alle politiche locali e offra ferie retribuite competitive.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153392,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/968766c7b29a756a-it-it-esplora-paese-nicaragua-tipi-congedo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/968766c7b29a756a-it-it-esplora-paese-nicaragua-tipi-congedo.direct.json",
+  "markdownChars": 1883,
+  "linksCount": 43,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:13:53.575Z"
+}

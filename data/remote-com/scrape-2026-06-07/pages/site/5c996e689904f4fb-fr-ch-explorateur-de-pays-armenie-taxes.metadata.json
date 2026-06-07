@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/armenie/taxes",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/armenie/taxes",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/armenie/taxes",
+  "title": "Gestion de la paie taxe en Arménie | Conformité fiscale",
+  "description": "Armenie : Gérez efficacement l’imposition de la paie, en toute conformité. Réduisez les erreurs d’imposition de la paie, respectez le droit local et évitez de coûteuses amendes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260231,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5c996e689904f4fb-fr-ch-explorateur-de-pays-armenie-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5c996e689904f4fb-fr-ch-explorateur-de-pays-armenie-taxes.direct.json",
+  "markdownChars": 1413,
+  "linksCount": 123,
+  "lastmod": "2025-09-01",
+  "scrapedAt": "2026-06-07T09:05:15.319Z"
+}

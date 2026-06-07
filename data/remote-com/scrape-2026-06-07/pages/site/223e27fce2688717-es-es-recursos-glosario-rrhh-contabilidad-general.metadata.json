@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/contabilidad-general",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/contabilidad-general",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/contabilidad-general",
+  "title": "¿Qué es un libro mayor?",
+  "description": "Un libro mayor, o CG, es donde una organización guarda sus datos financieros. Ayuda a mantener registros, realizar un seguimiento de las actividades y generar declaraciones.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259071,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/223e27fce2688717-es-es-recursos-glosario-rrhh-contabilidad-general.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/223e27fce2688717-es-es-recursos-glosario-rrhh-contabilidad-general.direct.json",
+  "markdownChars": 7158,
+  "linksCount": 120,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:15:11.856Z"
+}

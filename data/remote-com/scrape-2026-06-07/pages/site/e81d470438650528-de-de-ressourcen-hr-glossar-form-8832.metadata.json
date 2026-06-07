@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/form-8832",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/form-8832",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/form-8832",
+  "title": "Was ist das Formular 8832?",
+  "description": "Remote is your one-stop solution for hiring talent in any country, helping growing businesses employ top talent from around the world. Our payroll, benefits, taxes, and compliance solution allows companies to access and empower a global workforce.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257750,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e81d470438650528-de-de-ressourcen-hr-glossar-form-8832.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e81d470438650528-de-de-ressourcen-hr-glossar-form-8832.direct.json",
+  "markdownChars": 7676,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:11:20.361Z"
+}

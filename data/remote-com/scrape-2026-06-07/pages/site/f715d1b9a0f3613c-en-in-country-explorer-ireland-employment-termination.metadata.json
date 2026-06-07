@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/ireland/employment-termination",
+  "sourceURL": "https://remote.com/en-in/country-explorer/ireland/employment-termination",
+  "finalURL": "https://remote.com/en-in/country-explorer/ireland/employment-termination",
+  "title": "Terminate Employees in Ireland | Employment Termination",
+  "description": "Looking to terminate an employee in Ireland? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260108,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f715d1b9a0f3613c-en-in-country-explorer-ireland-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f715d1b9a0f3613c-en-in-country-explorer-ireland-employment-termination.direct.json",
+  "markdownChars": 2116,
+  "linksCount": 128,
+  "lastmod": "2025-09-02",
+  "scrapedAt": "2026-06-07T09:08:48.299Z"
+}

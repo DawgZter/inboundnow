@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/us-state-explorer/texas/taxes",
+  "sourceURL": "https://remote.com/en-au/us-state-explorer/texas/taxes",
+  "finalURL": "https://remote.com/en-au/us-state-explorer/texas/taxes",
+  "title": "Manage Payroll Tax in - Texas | Tax Compliance",
+  "description": "Manage payroll taxes in Texas effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255793,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ceb99722ca10dc7-en-au-us-state-explorer-texas-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ceb99722ca10dc7-en-au-us-state-explorer-texas-taxes.direct.json",
+  "markdownChars": 941,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:09:45.654Z"
+}

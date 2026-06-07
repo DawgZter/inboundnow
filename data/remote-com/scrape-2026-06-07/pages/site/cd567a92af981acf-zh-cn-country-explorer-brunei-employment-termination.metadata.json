@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/brunei/employment-termination",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/brunei/employment-termination",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/brunei/employment-termination",
+  "title": "文莱员工解雇",
+  "description": "如需在文莱解雇员工，请阅读我们的全面指南，了解贵公司在员工解雇方面的权利与义务。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251677,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cd567a92af981acf-zh-cn-country-explorer-brunei-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cd567a92af981acf-zh-cn-country-explorer-brunei-employment-termination.direct.json",
+  "markdownChars": 190,
+  "linksCount": 116,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:18:10.128Z"
+}

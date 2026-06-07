@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/uganda/tipi-congedo",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/uganda/tipi-congedo",
+  "finalURL": "https://remote.com/it-it/esplora-paese/uganda/tipi-congedo",
+  "title": "Tipologie di congedo in Uganda | Normativa sul congedo del personale",
+  "description": "Scopri la normativa sui congedi in Uganda. Assicurati che la tua azienda sia conforme alle politiche locali e offra ferie retribuite competitive.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153618,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c7a744a6a6b0cf72-it-it-esplora-paese-uganda-tipi-congedo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c7a744a6a6b0cf72-it-it-esplora-paese-uganda-tipi-congedo.direct.json",
+  "markdownChars": 2334,
+  "linksCount": 43,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:14:59.347Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/moldavie/belastingen",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/moldavie/belastingen",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/moldavie/belastingen",
+  "title": "Payroll-belasting beheren in Moldova | Belastingnaleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Moldavie. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252203,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1f14cdb4477ac875-nl-be-landenverkenner-moldavie-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1f14cdb4477ac875-nl-be-landenverkenner-moldavie-belastingen.direct.json",
+  "markdownChars": 871,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:02:18.996Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/veelgestelde-vragen-in-dienst-via-remote",
+  "sourceURL": "https://remote.com/nl-nl/veelgestelde-vragen-in-dienst-via-remote",
+  "finalURL": "https://remote.com/nl-nl/veelgestelde-vragen-in-dienst-via-remote",
+  "title": "Veelgestelde vragen over werken via Remote en contactgegevens | Remote",
+  "description": "Deze pagina is een handige referentiegids voor werknemers die namens hun bedrijf door Remote zijn aangenomen. Je vindt hier informatie en veelgestelde vragen over met wie je in verschillende situaties contact kunt opnemen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 299383,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/13111ad824036107-nl-nl-veelgestelde-vragen-in-dienst-via-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/13111ad824036107-nl-nl-veelgestelde-vragen-in-dienst-via-remote.direct.json",
+  "markdownChars": 8907,
+  "linksCount": 116,
+  "lastmod": "2025-08-28",
+  "scrapedAt": "2026-06-07T09:03:59.521Z"
+}

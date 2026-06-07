@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/research/the-compliance-balancing-act-remote",
+  "sourceURL": "https://remote.com/en-ca/resources/research/the-compliance-balancing-act-remote",
+  "finalURL": "https://remote.com/en-ca/resources/research/the-compliance-balancing-act-remote",
+  "title": "The Compliance Balancing Act | Remote",
+  "description": "Discover how HR teams can navigate global compliance challenges and enhance diversity initiatives with expert insights and real-world examples in our comprehensive handbook.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 282314,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b9d8166f14888498-en-ca-resources-research-the-compliance-balancing-act-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b9d8166f14888498-en-ca-resources-research-the-compliance-balancing-act-remote.direct.json",
+  "markdownChars": 2132,
+  "linksCount": 108,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:05:52.901Z"
+}

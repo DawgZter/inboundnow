@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/thailand/types-of-leave",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/thailand/types-of-leave",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/thailand/types-of-leave",
+  "title": "泰国休假类型 | 员工休假法规",
+  "description": "了解泰国员工休假法律，确保贵公司休假政策合规并提供有竞争力的带薪休假。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258724,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5e523810357ae4e1-zh-cn-country-explorer-thailand-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5e523810357ae4e1-zh-cn-country-explorer-thailand-types-of-leave.direct.json",
+  "markdownChars": 1219,
+  "linksCount": 121,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:18:56.733Z"
+}

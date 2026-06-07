@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/offer-letter",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/offer-letter",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/offer-letter",
+  "title": "What is an offer letter",
+  "description": "Explore our HR glossary to learn about the offer letter, its role in the hiring process, and how it outlines key terms of employment between employers and candidates.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252821,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cfe52e4f01f97c85-en-hk-resources-hr-glossary-offer-letter.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cfe52e4f01f97c85-en-hk-resources-hr-glossary-offer-letter.direct.json",
+  "markdownChars": 4394,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:17:42.853Z"
+}

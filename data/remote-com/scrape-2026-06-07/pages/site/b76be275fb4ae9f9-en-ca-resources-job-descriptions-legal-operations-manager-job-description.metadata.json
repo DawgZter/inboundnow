@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/job-descriptions/legal-operations-manager-job-description",
+  "sourceURL": "https://remote.com/en-ca/resources/job-descriptions/legal-operations-manager-job-description",
+  "finalURL": "https://remote.com/en-ca/resources/job-descriptions/legal-operations-manager-job-description",
+  "title": "Legal operations manager job description",
+  "description": "Review the job description for a legal operations manager, responsible for optimizing legal processes, managing budgets, and supporting the legal team's operational efficiency.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260196,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b76be275fb4ae9f9-en-ca-resources-job-descriptions-legal-operations-manager-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b76be275fb4ae9f9-en-ca-resources-job-descriptions-legal-operations-manager-job-description.direct.json",
+  "markdownChars": 3602,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:10:17.924Z"
+}

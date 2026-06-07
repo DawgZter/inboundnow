@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/bahrain",
+  "sourceURL": "https://remote.com/country-explorer/bahrain",
+  "finalURL": "https://remote.com/country-explorer/bahrain",
+  "title": "Employer of Record & Payroll Services | Bahrain",
+  "description": "Hiring employees and contractors in Bahrain? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 318685,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1d676778858004c4-country-explorer-bahrain.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1d676778858004c4-country-explorer-bahrain.direct.json",
+  "markdownChars": 4490,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:02:51.868Z"
+}

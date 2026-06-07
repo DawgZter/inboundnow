@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/disciplinary-action",
+  "sourceURL": "https://remote.com/resources/hr-glossary/disciplinary-action",
+  "finalURL": "https://remote.com/resources/hr-glossary/disciplinary-action",
+  "title": "What is disciplinary action?",
+  "description": "Learn about disciplinary action and the types of disciplinary actions an employer can take",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252232,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/45624600b3474aec-resources-hr-glossary-disciplinary-action.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/45624600b3474aec-resources-hr-glossary-disciplinary-action.direct.json",
+  "markdownChars": 4100,
+  "linksCount": 119,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:48.514Z"
+}

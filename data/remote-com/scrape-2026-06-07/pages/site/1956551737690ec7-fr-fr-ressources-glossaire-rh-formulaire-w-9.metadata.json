@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/formulaire-w-9",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/formulaire-w-9",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/formulaire-w-9",
+  "title": "Formulaire W-9",
+  "description": "Learn the W-9 form meaning, what it’s used for in business, and why collecting this form is key to accurate 1099 tax reporting and compliance.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256506,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1956551737690ec7-fr-fr-ressources-glossaire-rh-formulaire-w-9.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1956551737690ec7-fr-fr-ressources-glossaire-rh-formulaire-w-9.direct.json",
+  "markdownChars": 4478,
+  "linksCount": 121,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:30.425Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/checklists-templates/employee-vs-contractor-checklist",
+  "sourceURL": "https://remote.com/en-au/resources/checklists-templates/employee-vs-contractor-checklist",
+  "finalURL": "https://remote.com/en-au/resources/checklists-templates/employee-vs-contractor-checklist",
+  "title": "Employee vs contractor checklist | Remote",
+  "description": " Remote's employee vs contractor checklist can help you differentiate between an employee and a contractor. Use this helpful resource to classify workers correctly and ensure compliance with legal requirements.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252249,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5b1bf4747af15d0-en-au-resources-checklists-templates-employee-vs-contractor-checklist.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5b1bf4747af15d0-en-au-resources-checklists-templates-employee-vs-contractor-checklist.direct.json",
+  "markdownChars": 4891,
+  "linksCount": 113,
+  "lastmod": "2025-06-19",
+  "scrapedAt": "2026-06-07T09:01:30.021Z"
+}

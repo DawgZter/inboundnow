@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/us-state-explorer/michigan",
+  "sourceURL": "https://remote.com/en-ie/us-state-explorer/michigan",
+  "finalURL": "https://remote.com/en-ie/us-state-explorer/michigan",
+  "title": "Employer of Record & Payroll Services | Michigan",
+  "description": "Use our compliance guide to employ in Michigan with ease. Learn about benefits, payroll, leave, and other labor laws in the Wolverine State.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 332005,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1fd9541decaac8e7-en-ie-us-state-explorer-michigan.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1fd9541decaac8e7-en-ie-us-state-explorer-michigan.direct.json",
+  "markdownChars": 7200,
+  "linksCount": 113,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:01:19.256Z"
+}

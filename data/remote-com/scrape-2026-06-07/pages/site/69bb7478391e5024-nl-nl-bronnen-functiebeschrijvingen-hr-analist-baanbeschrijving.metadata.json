@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/hr-analist-baanbeschrijving",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/hr-analist-baanbeschrijving",
+  "finalURL": "https://remote.com/nl-nl/bronnen/functiebeschrijvingen/hr-analist-baanbeschrijving",
+  "title": "Functieomschrijving HR-analist",
+  "description": "Bekijk de functiebeschrijving voor HR-analist, verantwoordelijk voor het analyseren van HR-gegevens, het genereren van rapporten en het bieden van inzichten om HR-processen en de efficiëntie van de organisatie te verbeteren.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264546,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69bb7478391e5024-nl-nl-bronnen-functiebeschrijvingen-hr-analist-baanbeschrijving.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69bb7478391e5024-nl-nl-bronnen-functiebeschrijvingen-hr-analist-baanbeschrijving.direct.json",
+  "markdownChars": 6074,
+  "linksCount": 115,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:06:01.328Z"
+}

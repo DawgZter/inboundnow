@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/checklists-templates/carta-despido",
+  "sourceURL": "https://remote.com/es-es/recursos/checklists-templates/carta-despido",
+  "finalURL": "https://remote.com/es-es/recursos/checklists-templates/carta-despido",
+  "title": "Plantilla de carta de aviso de rescisión | Remote",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254641,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff8c90a5a3884330-es-es-recursos-checklists-templates-carta-despido.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff8c90a5a3884330-es-es-recursos-checklists-templates-carta-despido.direct.json",
+  "markdownChars": 6762,
+  "linksCount": 113,
+  "lastmod": "2025-07-28",
+  "scrapedAt": "2026-06-07T09:18:05.509Z"
+}

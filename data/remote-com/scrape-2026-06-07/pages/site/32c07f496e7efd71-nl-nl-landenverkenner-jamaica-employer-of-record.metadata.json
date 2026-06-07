@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/jamaica/employer-of-record",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/jamaica/employer-of-record",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/jamaica/employer-of-record",
+  "title": "Employer of Record in Jamaica (EOR) | EOR-diensten",
+  "description": "Vereenvoudig de tewerkstelling in Jamaica met onze Employer of Record-diensten. Beheer loonadministratie, secundaire arbeidsvoorwaarden en Compliance moeiteloos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262664,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/32c07f496e7efd71-nl-nl-landenverkenner-jamaica-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/32c07f496e7efd71-nl-nl-landenverkenner-jamaica-employer-of-record.direct.json",
+  "markdownChars": 3640,
+  "linksCount": 123,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:13:25.909Z"
+}

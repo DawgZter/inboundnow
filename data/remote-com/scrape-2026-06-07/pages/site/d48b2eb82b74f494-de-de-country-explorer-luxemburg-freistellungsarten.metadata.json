@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/luxemburg/freistellungsarten",
+  "sourceURL": "https://remote.com/de-de/country-explorer/luxemburg/freistellungsarten",
+  "finalURL": "https://remote.com/de-de/country-explorer/luxemburg/freistellungsarten",
+  "title": "Urlaubsansprüche in Luxembourg | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Luxemburg. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261171,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d48b2eb82b74f494-de-de-country-explorer-luxemburg-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d48b2eb82b74f494-de-de-country-explorer-luxemburg-freistellungsarten.direct.json",
+  "markdownChars": 3403,
+  "linksCount": 122,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:15:05.746Z"
+}

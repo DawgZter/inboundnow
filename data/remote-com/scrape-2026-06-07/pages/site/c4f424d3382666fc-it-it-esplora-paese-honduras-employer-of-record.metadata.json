@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/honduras/employer-of-record",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/honduras/employer-of-record",
+  "finalURL": "https://remote.com/it-it/esplora-paese/honduras/employer-of-record",
+  "title": "Employer of Record (EOR) in Honduras | EOR Services",
+  "description": "Gestisci il tuo personale in Honduras con il nostro Employer of Record (EOR). Ci occupiamo della gestione delle buste paga, dei benefit e della conformità normativa in modo semplice.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155392,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c4f424d3382666fc-it-it-esplora-paese-honduras-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c4f424d3382666fc-it-it-esplora-paese-honduras-employer-of-record.direct.json",
+  "markdownChars": 4017,
+  "linksCount": 43,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:09:34.788Z"
+}

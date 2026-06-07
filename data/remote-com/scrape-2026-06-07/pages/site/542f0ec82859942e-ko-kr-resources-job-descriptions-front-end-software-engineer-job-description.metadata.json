@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/job-descriptions/front-end-software-engineer-job-description",
+  "sourceURL": "https://remote.com/ko-kr/resources/job-descriptions/front-end-software-engineer-job-description",
+  "finalURL": "https://remote.com/ko-kr/resources/job-descriptions/front-end-software-engineer-job-description",
+  "title": "프런트엔드 소프트웨어 엔지니어 직무 설명",
+  "description": "사용자 인터페이스 개발, 웹 성능 최적화, 원활한 사용자 경험 보장 등을 담당하는 프론트엔드 소프트웨어 엔지니어의 직무 설명을 살펴보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261796,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/542f0ec82859942e-ko-kr-resources-job-descriptions-front-end-software-engineer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/542f0ec82859942e-ko-kr-resources-job-descriptions-front-end-software-engineer-job-description.direct.json",
+  "markdownChars": 2338,
+  "linksCount": 114,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:18:56.812Z"
+}

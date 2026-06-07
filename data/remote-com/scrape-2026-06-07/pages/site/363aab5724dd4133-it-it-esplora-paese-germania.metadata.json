@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/germania",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/germania",
+  "finalURL": "https://remote.com/it-it/esplora-paese/germania",
+  "title": "Employer of Record (EOR) e servizi Payroll | Germania",
+  "description": "Vuoi assumere personale e collaboratori in Germania? Remote può aiutarti a gestire personale e collaboratori tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 243589,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/363aab5724dd4133-it-it-esplora-paese-germania.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/363aab5724dd4133-it-it-esplora-paese-germania.direct.json",
+  "markdownChars": 8373,
+  "linksCount": 49,
+  "lastmod": "2026-06-03",
+  "scrapedAt": "2026-06-07T09:01:46.846Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/saint-vincent-grenadines/contractor-management",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/saint-vincent-grenadines/contractor-management",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/saint-vincent-grenadines/contractor-management",
+  "title": "在圣文森特和格林纳丁斯管理合同工 | 合同工管理",
+  "description": "如果贵公司在圣文森特和格林纳丁斯雇佣合同工，使用我们灵活的合同工管理服务即可轻松管理并向全球合同工付款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254815,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89203b4db6fa439b-zh-cn-country-explorer-saint-vincent-grenadines-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89203b4db6fa439b-zh-cn-country-explorer-saint-vincent-grenadines-contractor-management.direct.json",
+  "markdownChars": 805,
+  "linksCount": 115,
+  "lastmod": "2025-12-22",
+  "scrapedAt": "2026-06-07T09:02:20.379Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/brazil/employment-termination",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/brazil/employment-termination",
+  "finalURL": "https://remote.com/en-sg/country-explorer/brazil/employment-termination",
+  "title": "Terminate Employees in Brazil | Employment Termination",
+  "description": "Looking to terminate an employee in Brazil? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260375,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aadbd8c1f038d59a-en-sg-country-explorer-brazil-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aadbd8c1f038d59a-en-sg-country-explorer-brazil-employment-termination.direct.json",
+  "markdownChars": 2406,
+  "linksCount": 127,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:02:51.532Z"
+}

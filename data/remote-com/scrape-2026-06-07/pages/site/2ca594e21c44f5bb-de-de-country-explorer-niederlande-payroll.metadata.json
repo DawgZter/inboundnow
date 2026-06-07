@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/niederlande/payroll",
+  "sourceURL": "https://remote.com/de-de/country-explorer/niederlande/payroll",
+  "finalURL": "https://remote.com/de-de/country-explorer/niederlande/payroll",
+  "title": "Mitarbeiter:innen in den Niederlanden bezahlen | Payroll-Services",
+  "description": "Bezah­le Mitarbeiter:innen in den Niederlanden mühelos mit unseren flexiblen Payroll-Services. Verwalte die Lohn- und Gehaltsabrechnung, verwalte Ausgaben und erstelle Berichte&nbsp;– alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260728,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2ca594e21c44f5bb-de-de-country-explorer-niederlande-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2ca594e21c44f5bb-de-de-country-explorer-niederlande-payroll.direct.json",
+  "markdownChars": 3721,
+  "linksCount": 124,
+  "lastmod": "2025-11-17",
+  "scrapedAt": "2026-06-07T09:06:34.487Z"
+}

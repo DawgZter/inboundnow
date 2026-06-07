@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/guinee-bissau/gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/guinee-bissau/gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/guinee-bissau/gestion-des-freelances",
+  "title": "Gérez vos freelances en Guinée-Bissau | Gestion des freelances",
+  "description": "Faire appel à un freelance en Guinée-Bissau&nbsp;? Gérez et payez facilement vos freelances internationaux grâce à nos services flexibles de Gestion des freelances.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259532,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce681752980a7694-fr-fr-explorateur-de-pays-guinee-bissau-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce681752980a7694-fr-fr-explorateur-de-pays-guinee-bissau-gestion-des-freelances.direct.json",
+  "markdownChars": 2620,
+  "linksCount": 117,
+  "lastmod": "2025-11-04",
+  "scrapedAt": "2026-06-07T09:12:05.265Z"
+}

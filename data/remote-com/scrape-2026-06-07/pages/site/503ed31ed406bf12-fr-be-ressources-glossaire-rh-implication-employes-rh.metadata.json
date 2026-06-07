@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/glossaire-rh/implication-employes-rh",
+  "sourceURL": "https://remote.com/fr-be/ressources/glossaire-rh/implication-employes-rh",
+  "finalURL": "https://remote.com/fr-be/ressources/glossaire-rh/implication-employes-rh",
+  "title": "What is employee engagement?",
+  "description": "Comprenez l'importance de l'engagement des employés et apprenez comment améliorer l'engagement des équipes au sein de votre entreprise.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263843,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/503ed31ed406bf12-fr-be-ressources-glossaire-rh-implication-employes-rh.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/503ed31ed406bf12-fr-be-ressources-glossaire-rh-implication-employes-rh.direct.json",
+  "markdownChars": 10483,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:07:25.835Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/nouvelle-zelande/paie",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/nouvelle-zelande/paie",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/nouvelle-zelande/paie",
+  "title": "Gérez facilement la paie à l’international&nbsp;: Nouvelle‑Zélande",
+  "description": "Payez vos salariés en Nouvelle‑Zélande sans effort grâce à nos services de paie flexibles. Gérez la paie, les frais et les rapports, le tout depuis une seule plateforme.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264099,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/47f0d71d4cc8124c-fr-ch-explorateur-de-pays-nouvelle-zelande-paie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/47f0d71d4cc8124c-fr-ch-explorateur-de-pays-nouvelle-zelande-paie.direct.json",
+  "markdownChars": 3981,
+  "linksCount": 126,
+  "lastmod": "2025-11-13",
+  "scrapedAt": "2026-06-07T09:11:42.501Z"
+}

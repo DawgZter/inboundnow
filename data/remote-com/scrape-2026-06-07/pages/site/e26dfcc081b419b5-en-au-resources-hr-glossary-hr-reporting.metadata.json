@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/hr-glossary/hr-reporting",
+  "sourceURL": "https://remote.com/en-au/resources/hr-glossary/hr-reporting",
+  "finalURL": "https://remote.com/en-au/resources/hr-glossary/hr-reporting",
+  "title": "What is HR reporting?",
+  "description": "Learn more about HR reporting, HR report types, and how to leverage advanced HR management software.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263500,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e26dfcc081b419b5-en-au-resources-hr-glossary-hr-reporting.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e26dfcc081b419b5-en-au-resources-hr-glossary-hr-reporting.direct.json",
+  "markdownChars": 13812,
+  "linksCount": 119,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:09:00.667Z"
+}

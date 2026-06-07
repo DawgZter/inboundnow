@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/email-marketing-spezialist-stellenbeschreibung",
+  "sourceURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/email-marketing-spezialist-stellenbeschreibung",
+  "finalURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/email-marketing-spezialist-stellenbeschreibung",
+  "title": "Stellenbeschreibung für E-Mail-Marketing-Spezialisten",
+  "description": "Schau dir die Stellenbeschreibung für E-Mail-Marketing-Spezialisten an, die für die Erstellung und Verwaltung von E-Mail-Kampagnen, die Analyse von Leistungskennzahlen und die Optimierung von Engagement-Strategien verantwortlich sind.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262730,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6a2b49bef44d169-de-de-ressourcen-stellenbeschreibungen-email-marketing-spezialist-stellenbeschreibung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6a2b49bef44d169-de-de-ressourcen-stellenbeschreibungen-email-marketing-spezialist-stellenbeschreibung.direct.json",
+  "markdownChars": 5689,
+  "linksCount": 114,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:12:10.267Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/panama/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/panama/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/panama/benefits-guide",
+  "title": "巴拿马员工福利 | 福利计划",
+  "description": "了解巴拿马的核心员工福利。掌握健康保险、带薪休假及其他福利，以吸引并留住顶尖人才。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268224,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f3de4ff4f063e78d-zh-cn-country-explorer-panama-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f3de4ff4f063e78d-zh-cn-country-explorer-panama-benefits-guide.direct.json",
+  "markdownChars": 554,
+  "linksCount": 121,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:02:20.472Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/emirados-arabes-unidos/impostos",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/emirados-arabes-unidos/impostos",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/emirados-arabes-unidos/impostos",
+  "title": "Gere os impostos do processamento salarial nos Emirados Árabes Unidos | Conformidade fiscal",
+  "description": "Gere os impostos do processamento salarial nos Emirados Árabes Unidos de forma eficiente e em conformidade. Minimiza erros nos impostos do processamento salarial, cumpre a legislação local e evita coimas elevadas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 152647,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/29fb7649400474c5-pt-pt-explorar-pais-emirados-arabes-unidos-impostos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/29fb7649400474c5-pt-pt-explorar-pais-emirados-arabes-unidos-impostos.direct.json",
+  "markdownChars": 1207,
+  "linksCount": 44,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:10:10.827Z"
+}

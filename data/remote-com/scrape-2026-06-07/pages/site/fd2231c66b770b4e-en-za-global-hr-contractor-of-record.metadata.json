@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/global-hr/contractor-of-record",
+  "sourceURL": "https://remote.com/en-za/global-hr/contractor-of-record",
+  "finalURL": "https://remote.com/en-za/global-hr/contractor-of-record",
+  "title": "Contractor of Record Software | Remote",
+  "description": "Simplify contractor engagement and payments with full compliance and zero hassle. Remote Contractor of Record handles everything—onboarding, compliant contracts, payroll, and legal requirements—so you can focus on growing your business stress-free. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 366912,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd2231c66b770b4e-en-za-global-hr-contractor-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd2231c66b770b4e-en-za-global-hr-contractor-of-record.direct.json",
+  "markdownChars": 5368,
+  "linksCount": 117,
+  "lastmod": "2026-02-17",
+  "scrapedAt": "2026-06-07T09:06:27.681Z"
+}

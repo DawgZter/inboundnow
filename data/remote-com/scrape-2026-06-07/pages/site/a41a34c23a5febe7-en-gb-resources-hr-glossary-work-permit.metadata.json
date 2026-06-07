@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/hr-glossary/work-permit",
+  "sourceURL": "https://remote.com/en-gb/resources/hr-glossary/work-permit",
+  "finalURL": "https://remote.com/en-gb/resources/hr-glossary/work-permit",
+  "title": "What is a work permit?",
+  "description": "Learn more about work permits and why HR leaders must ensure compliance with local immigration laws",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254010,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a41a34c23a5febe7-en-gb-resources-hr-glossary-work-permit.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a41a34c23a5febe7-en-gb-resources-hr-glossary-work-permit.direct.json",
+  "markdownChars": 4820,
+  "linksCount": 122,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:02:01.696Z"
+}

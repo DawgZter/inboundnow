@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/us-state-explorer/west-virginia",
+  "sourceURL": "https://remote.com/en-au/us-state-explorer/west-virginia",
+  "finalURL": "https://remote.com/en-au/us-state-explorer/west-virginia",
+  "title": "Employer of Record & Payroll Services | West Virginia",
+  "description": "Use our compliance guide to employ in West Virginia with ease. Learn about benefits, payroll, leave, and other labor laws in The Mountain State.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 331459,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3545f04282899162-en-au-us-state-explorer-west-virginia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3545f04282899162-en-au-us-state-explorer-west-virginia.direct.json",
+  "markdownChars": 7125,
+  "linksCount": 113,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:02:32.110Z"
+}

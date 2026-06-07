@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/research/equal-pay-reporting-brazil",
+  "sourceURL": "https://remote.com/ko-kr/resources/research/equal-pay-reporting-brazil",
+  "finalURL": "https://remote.com/ko-kr/resources/research/equal-pay-reporting-brazil",
+  "title": "브라질 브라질: 성별 임금 격차 보고서 및 인사이트",
+  "description": "Remote는 브라질 내 EOR로서 보상의 투명성과 공정성을 높이기 위해 노력하며 고객사가 임금 형평성 관련 우수 관행을 적용하도록 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 246091,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1354afc20b71d4ff-ko-kr-resources-research-equal-pay-reporting-brazil.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1354afc20b71d4ff-ko-kr-resources-research-equal-pay-reporting-brazil.direct.json",
+  "markdownChars": 553,
+  "linksCount": 113,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:15:37.237Z"
+}

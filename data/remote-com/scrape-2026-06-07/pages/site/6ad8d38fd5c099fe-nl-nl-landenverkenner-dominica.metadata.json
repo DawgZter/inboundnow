@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/dominica",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/dominica",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/dominica",
+  "title": "Employer of record en payroll services | Dominica",
+  "description": "Wil je werknemers en zzp'ers werven in Dominica? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 323351,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ad8d38fd5c099fe-nl-nl-landenverkenner-dominica.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ad8d38fd5c099fe-nl-nl-landenverkenner-dominica.direct.json",
+  "markdownChars": 5201,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:01:10.270Z"
+}

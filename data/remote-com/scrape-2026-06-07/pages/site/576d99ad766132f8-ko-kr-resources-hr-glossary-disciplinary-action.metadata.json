@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/disciplinary-action",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/disciplinary-action",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/disciplinary-action",
+  "title": "징계란 무엇인가요?",
+  "description": "징계 및 고용주가 취할 수 있는 징계 조치의 유형에 대해 자세히 알아보세요",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255158,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/576d99ad766132f8-ko-kr-resources-hr-glossary-disciplinary-action.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/576d99ad766132f8-ko-kr-resources-hr-glossary-disciplinary-action.direct.json",
+  "markdownChars": 2388,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:13:48.269Z"
+}

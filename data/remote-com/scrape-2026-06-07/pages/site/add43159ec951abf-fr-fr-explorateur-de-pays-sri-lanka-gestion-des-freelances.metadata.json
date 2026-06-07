@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/sri-lanka/gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/sri-lanka/gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/sri-lanka/gestion-des-freelances",
+  "title": "Gérez vos freelances au Sri Lanka | Gestion des freelances",
+  "description": "Vous faites appel à un freelance au Sri Lanka&nbsp;? Gérez et payez vos freelances internationaux sans effort grâce à nos services flexibles de Gestion des freelances.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262257,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/add43159ec951abf-fr-fr-explorateur-de-pays-sri-lanka-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/add43159ec951abf-fr-fr-explorateur-de-pays-sri-lanka-gestion-des-freelances.direct.json",
+  "markdownChars": 2734,
+  "linksCount": 122,
+  "lastmod": "2025-11-04",
+  "scrapedAt": "2026-06-07T09:11:16.422Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/prestatiebeoordeling",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/prestatiebeoordeling",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/prestatiebeoordeling",
+  "title": "Prestatiebeoordeling",
+  "description": "Discover how performance reviews work, why they matter for both employees and managers, and how to complete comprehensive performance reviews in minutes. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258377,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31895dc9bd362eec-nl-nl-bronnen-hr-woordenlijst-prestatiebeoordeling.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31895dc9bd362eec-nl-nl-bronnen-hr-woordenlijst-prestatiebeoordeling.direct.json",
+  "markdownChars": 5418,
+  "linksCount": 123,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:16:13.996Z"
+}

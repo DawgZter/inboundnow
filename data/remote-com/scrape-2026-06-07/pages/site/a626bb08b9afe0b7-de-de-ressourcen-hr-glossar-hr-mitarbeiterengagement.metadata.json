@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/hr-mitarbeiterengagement",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/hr-mitarbeiterengagement",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/hr-mitarbeiterengagement",
+  "title": "Engagement der Beschäftigten",
+  "description": "Verstehe die Bedeutung von Mitarbeiterengagement und lerne, wie du das Engagement deines Teams in deinem Unternehmen verbessern kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260592,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a626bb08b9afe0b7-de-de-ressourcen-hr-glossar-hr-mitarbeiterengagement.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a626bb08b9afe0b7-de-de-ressourcen-hr-glossar-hr-mitarbeiterengagement.direct.json",
+  "markdownChars": 9616,
+  "linksCount": 120,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:02:02.385Z"
+}

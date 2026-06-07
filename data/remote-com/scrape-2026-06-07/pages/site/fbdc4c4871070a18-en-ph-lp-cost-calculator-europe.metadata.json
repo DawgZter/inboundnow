@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/lp/cost-calculator-europe",
+  "sourceURL": "https://remote.com/en-ph/lp/cost-calculator-europe",
+  "finalURL": "https://remote.com/en-ph/lp/cost-calculator-europe",
+  "title": "Calculate Hiring Costs with Remote's Employee Cost Calculator | Remote",
+  "description": "With Remote’s employee cost calculator, you can get a full breakdown of mandatory social contributions and local taxes, as well as the average cost of benefits that are expected by employees in that country – all in just a few clicks!",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 228066,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fbdc4c4871070a18-en-ph-lp-cost-calculator-europe.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fbdc4c4871070a18-en-ph-lp-cost-calculator-europe.direct.json",
+  "markdownChars": 4579,
+  "linksCount": 79,
+  "lastmod": "2026-05-04",
+  "scrapedAt": "2026-06-07T09:01:15.870Z"
+}

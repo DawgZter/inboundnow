@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/gehaltsueberpruefung",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/gehaltsueberpruefung",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/gehaltsueberpruefung",
+  "title": "Was ist eine Gehaltsüberprüfung?",
+  "description": "Learn more about a salary review and how to conduct a salary review.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255648,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8cca1aa5887d157-de-de-ressourcen-hr-glossar-gehaltsueberpruefung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8cca1aa5887d157-de-de-ressourcen-hr-glossar-gehaltsueberpruefung.direct.json",
+  "markdownChars": 5530,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:14:32.706Z"
+}

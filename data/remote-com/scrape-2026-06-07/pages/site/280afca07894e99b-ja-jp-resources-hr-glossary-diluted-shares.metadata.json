@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/diluted-shares",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/diluted-shares",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/diluted-shares",
+  "title": "希薄化後株式",
+  "description": "希薄化した株式、それが株主価値に与える影響、そして希薄化した株式が企業内の所有比率に与える影響について理解するために、HR用語集をご覧ください。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255761,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/280afca07894e99b-ja-jp-resources-hr-glossary-diluted-shares.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/280afca07894e99b-ja-jp-resources-hr-glossary-diluted-shares.direct.json",
+  "markdownChars": 2095,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:04:25.562Z"
+}

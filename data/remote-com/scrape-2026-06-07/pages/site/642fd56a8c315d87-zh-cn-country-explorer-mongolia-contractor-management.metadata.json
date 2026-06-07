@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/mongolia/contractor-management",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/mongolia/contractor-management",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/mongolia/contractor-management",
+  "title": "在蒙古管理合同工 | 合同工管理",
+  "description": "在蒙古雇佣合同工？使用 Remote 的灵活合同工管理服务，可轻松管理并向全球合同工付款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 249553,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/642fd56a8c315d87-zh-cn-country-explorer-mongolia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/642fd56a8c315d87-zh-cn-country-explorer-mongolia-contractor-management.direct.json",
+  "markdownChars": 621,
+  "linksCount": 115,
+  "lastmod": "2026-03-24",
+  "scrapedAt": "2026-06-07T09:07:23.959Z"
+}

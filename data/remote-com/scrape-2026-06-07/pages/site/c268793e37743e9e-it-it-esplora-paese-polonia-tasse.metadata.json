@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/polonia/tasse",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/polonia/tasse",
+  "finalURL": "https://remote.com/it-it/esplora-paese/polonia/tasse",
+  "title": "Gestisci le tasse sulla busta paga in Polonia | Conformità fiscale",
+  "description": "Gestisci le tasse sulla busta paga in Polonia in modo efficace e conforme. Riduci al minimo gli errori nelle buste paga, rispetta le leggi locali ed evita sanzioni costose.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 156461,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c268793e37743e9e-it-it-esplora-paese-polonia-tasse.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c268793e37743e9e-it-it-esplora-paese-polonia-tasse.direct.json",
+  "markdownChars": 1507,
+  "linksCount": 45,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:01:02.771Z"
+}

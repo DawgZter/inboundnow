@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/honduras/steuern",
+  "sourceURL": "https://remote.com/de-de/country-explorer/honduras/steuern",
+  "finalURL": "https://remote.com/de-de/country-explorer/honduras/steuern",
+  "title": "Lohnnebenkosten in Honduras | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Honduras.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260260,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7387916b60d292a4-de-de-country-explorer-honduras-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7387916b60d292a4-de-de-country-explorer-honduras-steuern.direct.json",
+  "markdownChars": 1522,
+  "linksCount": 121,
+  "lastmod": "2025-05-26",
+  "scrapedAt": "2026-06-07T09:08:25.003Z"
+}

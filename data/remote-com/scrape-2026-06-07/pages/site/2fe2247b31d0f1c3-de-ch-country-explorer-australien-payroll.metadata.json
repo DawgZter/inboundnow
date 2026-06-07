@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/australien/payroll",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/australien/payroll",
+  "finalURL": "https://remote.com/de-ch/country-explorer/australien/payroll",
+  "title": "Mitarbeiter:innen in Australien bezahlen | Payroll-Services",
+  "description": "Zahle Mitarbeiter:innen in Australien mühelos mit unseren flexiblen Payroll-Services. Verarbeite Payroll, verwalte Ausgaben und erstelle Berichte – alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260501,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2fe2247b31d0f1c3-de-ch-country-explorer-australien-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2fe2247b31d0f1c3-de-ch-country-explorer-australien-payroll.direct.json",
+  "markdownChars": 4027,
+  "linksCount": 125,
+  "lastmod": "2025-11-28",
+  "scrapedAt": "2026-06-07T09:16:31.566Z"
+}

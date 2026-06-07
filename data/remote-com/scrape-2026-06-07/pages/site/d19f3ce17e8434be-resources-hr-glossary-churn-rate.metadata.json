@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/churn-rate",
+  "sourceURL": "https://remote.com/resources/hr-glossary/churn-rate",
+  "finalURL": "https://remote.com/resources/hr-glossary/churn-rate",
+  "title": "Churn rate",
+  "description": "Explore our HR glossary to understand churn rate, its significance in measuring employee turnover, and how it impacts organizational growth and retention strategies.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251139,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d19f3ce17e8434be-resources-hr-glossary-churn-rate.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d19f3ce17e8434be-resources-hr-glossary-churn-rate.direct.json",
+  "markdownChars": 3216,
+  "linksCount": 119,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:18:36.043Z"
+}

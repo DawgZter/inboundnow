@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/reino-unido/processamento-salarial",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/reino-unido/processamento-salarial",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/reino-unido/processamento-salarial",
+  "title": "Paga a trabalhadores do Reino Unido | Processamento salarial",
+  "description": "Paga a trabalhadores do Reino Unido sem esforço com os nossos serviços flexíveis de processamento salarial. Processa salários, gere despesas e cria relatórios — tudo a partir de um único lugar.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 158044,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cf75ca23b8e943eb-pt-pt-explorar-pais-reino-unido-processamento-salarial.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cf75ca23b8e943eb-pt-pt-explorar-pais-reino-unido-processamento-salarial.direct.json",
+  "markdownChars": 5084,
+  "linksCount": 46,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:01:17.975Z"
+}

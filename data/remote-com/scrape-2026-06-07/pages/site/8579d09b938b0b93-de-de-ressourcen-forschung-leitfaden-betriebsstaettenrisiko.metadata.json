@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-betriebsstaettenrisiko",
+  "sourceURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-betriebsstaettenrisiko",
+  "finalURL": "https://remote.com/de-de/ressourcen/forschung/leitfaden-betriebsstaettenrisiko",
+  "title": "Das Betriebsstättenproblem: Dein Leitfaden zur Risikominderung | Remote",
+  "description": "Hol dir den Leitfaden von Remote und erfahre, was du gegen das Betriebsstättenrisiko Unternehmen kannst. Unser Leitfaden enthält wertvolle Hinweise für Führungskräfte, die sich mit den steuerlichen Aspekten global verteilter Teams auseinandersetzen müssen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 255849,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8579d09b938b0b93-de-de-ressourcen-forschung-leitfaden-betriebsstaettenrisiko.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8579d09b938b0b93-de-de-ressourcen-forschung-leitfaden-betriebsstaettenrisiko.direct.json",
+  "markdownChars": 1555,
+  "linksCount": 110,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:09:55.214Z"
+}

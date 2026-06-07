@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/costa-rica/impostos",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/costa-rica/impostos",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/costa-rica/impostos",
+  "title": "Gere os impostos do processamento salarial na Costa Rica | Conformidade fiscal",
+  "description": "Gere os impostos do processamento salarial na Costa Rica de forma eficiente e em conformidade. Minimiza erros nos impostos do processamento salarial, cumpre as leis locais e evita coimas elevadas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 158042,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c10fc1dff6669890-pt-pt-explorar-pais-costa-rica-impostos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c10fc1dff6669890-pt-pt-explorar-pais-costa-rica-impostos.direct.json",
+  "markdownChars": 1609,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:08:13.262Z"
+}

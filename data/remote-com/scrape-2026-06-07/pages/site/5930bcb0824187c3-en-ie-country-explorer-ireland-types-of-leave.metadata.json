@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/ireland/types-of-leave",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/ireland/types-of-leave",
+  "finalURL": "https://remote.com/en-ie/country-explorer/ireland/types-of-leave",
+  "title": "Types of Leave in Ireland | Employee Leave Laws",
+  "description": "Understand employee leave laws in Ireland. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262012,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5930bcb0824187c3-en-ie-country-explorer-ireland-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5930bcb0824187c3-en-ie-country-explorer-ireland-types-of-leave.direct.json",
+  "markdownChars": 3463,
+  "linksCount": 128,
+  "lastmod": "2025-05-26",
+  "scrapedAt": "2026-06-07T09:16:17.908Z"
+}

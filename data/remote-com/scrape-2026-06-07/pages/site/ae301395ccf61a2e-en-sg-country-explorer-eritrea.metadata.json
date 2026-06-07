@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/eritrea",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/eritrea",
+  "finalURL": "https://remote.com/en-sg/country-explorer/eritrea",
+  "title": "Employer of Record & Payroll Services | Eritrea",
+  "description": "Hiring employees and contractors in Eritrea? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 308119,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae301395ccf61a2e-en-sg-country-explorer-eritrea.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae301395ccf61a2e-en-sg-country-explorer-eritrea.direct.json",
+  "markdownChars": 3127,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:01:29.706Z"
+}

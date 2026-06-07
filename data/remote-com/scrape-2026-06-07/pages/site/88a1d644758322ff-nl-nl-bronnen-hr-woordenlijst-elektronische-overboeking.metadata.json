@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/elektronische-overboeking",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/elektronische-overboeking",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/elektronische-overboeking",
+  "title": "Wat is een elektronische overboeking (EFT)?",
+  "description": "Bedrijven gebruiken EFT voor snelle, veilige geldoverschrijvingen tussen rekeningen, waardoor transacties efficiënter verlopen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259858,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88a1d644758322ff-nl-nl-bronnen-hr-woordenlijst-elektronische-overboeking.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88a1d644758322ff-nl-nl-bronnen-hr-woordenlijst-elektronische-overboeking.direct.json",
+  "markdownChars": 7726,
+  "linksCount": 122,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:24.552Z"
+}

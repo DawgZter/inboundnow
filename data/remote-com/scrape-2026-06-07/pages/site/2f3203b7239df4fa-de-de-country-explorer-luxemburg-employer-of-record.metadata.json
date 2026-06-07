@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/luxemburg/employer-of-record",
+  "sourceURL": "https://remote.com/de-de/country-explorer/luxemburg/employer-of-record",
+  "finalURL": "https://remote.com/de-de/country-explorer/luxemburg/employer-of-record",
+  "title": "Employer of Record in Luxemburg | EOR-Dienstleistungen",
+  "description": "Vereinfache die Beschäftigung in Luxemburg mit unserem Employer-of-Record-(EOR)-Service. Verwalte Payroll, Benefits und Compliance nahtlos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260282,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2f3203b7239df4fa-de-de-country-explorer-luxemburg-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2f3203b7239df4fa-de-de-country-explorer-luxemburg-employer-of-record.direct.json",
+  "markdownChars": 3759,
+  "linksCount": 122,
+  "lastmod": "2025-10-10",
+  "scrapedAt": "2026-06-07T09:01:14.839Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/incentive-based-compensation",
+  "sourceURL": "https://remote.com/resources/hr-glossary/incentive-based-compensation",
+  "finalURL": "https://remote.com/resources/hr-glossary/incentive-based-compensation",
+  "title": "Incentive-based compensation",
+  "description": "Incentive-based compensation — such as bonuses and stock options — can be highly beneficial for certain kinds of roles.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252390,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7edbadbd54d9d85b-resources-hr-glossary-incentive-based-compensation.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7edbadbd54d9d85b-resources-hr-glossary-incentive-based-compensation.direct.json",
+  "markdownChars": 3692,
+  "linksCount": 119,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:01:25.299Z"
+}

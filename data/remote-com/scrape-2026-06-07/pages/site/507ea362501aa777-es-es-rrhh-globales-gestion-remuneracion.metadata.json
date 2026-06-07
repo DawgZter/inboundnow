@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/rrhh-globales/gestion-remuneracion",
+  "sourceURL": "https://remote.com/es-es/rrhh-globales/gestion-remuneracion",
+  "finalURL": "https://remote.com/es-es/rrhh-globales/gestion-remuneracion",
+  "title": "Software de gestión de remuneración | Remote",
+  "description": "Software moderno de planificación de la remuneración de Remote. Crea rangos salariales, automatiza las aprobaciones y sincronízalo todo con las nóminas sin necesidad de hojas de cálculo.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 334389,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/507ea362501aa777-es-es-rrhh-globales-gestion-remuneracion.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/507ea362501aa777-es-es-rrhh-globales-gestion-remuneracion.direct.json",
+  "markdownChars": 4468,
+  "linksCount": 119,
+  "lastmod": "2025-10-26",
+  "scrapedAt": "2026-06-07T09:09:50.676Z"
+}

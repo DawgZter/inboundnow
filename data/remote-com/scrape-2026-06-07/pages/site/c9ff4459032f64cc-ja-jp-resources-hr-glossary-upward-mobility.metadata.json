@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/upward-mobility",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/upward-mobility",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/upward-mobility",
+  "title": "上昇移動とは何か？",
+  "description": "上方移動とは、人々が社会経済的地位を変える頻度のことである。上昇移動が不可欠な理由と、それを向上させる方法を学ぶ。 ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258644,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c9ff4459032f64cc-ja-jp-resources-hr-glossary-upward-mobility.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c9ff4459032f64cc-ja-jp-resources-hr-glossary-upward-mobility.direct.json",
+  "markdownChars": 2655,
+  "linksCount": 128,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:18:37.581Z"
+}

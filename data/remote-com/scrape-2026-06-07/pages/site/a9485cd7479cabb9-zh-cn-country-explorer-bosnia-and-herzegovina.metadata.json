@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/bosnia-and-herzegovina",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/bosnia-and-herzegovina",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/bosnia-and-herzegovina",
+  "title": "第三方雇佣托管服务与薪资 | 波斯尼亚和黑塞哥维那",
+  "description": "在波斯尼亚和黑塞哥维那雇佣员工与合同工时，Remote 可通过其集成的全球 HR 平台协助进行管理。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 335067,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a9485cd7479cabb9-zh-cn-country-explorer-bosnia-and-herzegovina.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a9485cd7479cabb9-zh-cn-country-explorer-bosnia-and-herzegovina.direct.json",
+  "markdownChars": 2308,
+  "linksCount": 122,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:06:06.216Z"
+}

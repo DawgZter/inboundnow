@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/case-studies/bamboohr-remote-embedded-global-hiring",
+  "sourceURL": "https://remote.com/en-ie/resources/case-studies/bamboohr-remote-embedded-global-hiring",
+  "finalURL": "https://remote.com/en-ie/resources/case-studies/bamboohr-remote-embedded-global-hiring",
+  "title": "Remote Embedded x BambooHR: From local to global hiring, with no platform switch",
+  "description": "Discover how BambooHR partnered with Remote Embedded to launch an embedded Employer of Record solution, enabling seamless global hiring and compliance.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256304,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5af291b7a02446e2-en-ie-resources-case-studies-bamboohr-remote-embedded-global-hiring.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5af291b7a02446e2-en-ie-resources-case-studies-bamboohr-remote-embedded-global-hiring.direct.json",
+  "markdownChars": 4260,
+  "linksCount": 112,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:00:57.651Z"
+}

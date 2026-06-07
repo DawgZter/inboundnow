@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/pourquoi-choisir-remote/protection-pi",
+  "sourceURL": "https://remote.com/fr-be/pourquoi-choisir-remote/protection-pi",
+  "finalURL": "https://remote.com/fr-be/pourquoi-choisir-remote/protection-pi",
+  "title": "Remote IP Guard fournit une protection de la propriété intellectuelle pour votre entreprise | Remote",
+  "description": "Embauchez des talents internationaux en quelques minutes. Remote est une révolution pour vos équipes à distance en matière de service de paie, taxes, RH et conformité.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 325730,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/77aad07088b83c81-fr-be-pourquoi-choisir-remote-protection-pi.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/77aad07088b83c81-fr-be-pourquoi-choisir-remote-protection-pi.direct.json",
+  "markdownChars": 7879,
+  "linksCount": 113,
+  "lastmod": "2026-06-03",
+  "scrapedAt": "2026-06-07T09:09:16.889Z"
+}

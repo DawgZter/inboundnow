@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/contract-levenscyclus-beheer",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/contract-levenscyclus-beheer",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/contract-levenscyclus-beheer",
+  "title": "What is contract lifecycle management",
+  "description": "Verken onze HR-woordenlijst om het beheer van de contractlevenscyclus te begrijpen, het belang ervan bij het stroomlijnen van overeenkomsten, het verminderen van risico's en het verbeteren van de bedrijfsvoering.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250614,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3a95b8237fefee46-nl-be-bronnen-hr-woordenlijst-contract-levenscyclus-beheer.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3a95b8237fefee46-nl-be-bronnen-hr-woordenlijst-contract-levenscyclus-beheer.direct.json",
+  "markdownChars": 3907,
+  "linksCount": 123,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:15:46.492Z"
+}

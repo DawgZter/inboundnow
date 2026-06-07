@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/overhead-cost",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/overhead-cost",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/overhead-cost",
+  "title": "Global HR Solutions &amp; Employment Tools for Distributed Teams",
+  "description": "Remote is your one-stop solution for hiring talent in any country, helping growing businesses employ top talent from around the world. Our payroll, benefits, taxes, and compliance solution allows companies to access and empower a global workforce.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253128,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c138c42cd2442747-nl-nl-bronnen-hr-woordenlijst-overhead-cost.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c138c42cd2442747-nl-nl-bronnen-hr-woordenlijst-overhead-cost.direct.json",
+  "markdownChars": 1295,
+  "linksCount": 122,
+  "lastmod": "2025-07-10",
+  "scrapedAt": "2026-06-07T09:18:18.235Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/eslovaquia/processamento-salarial",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/eslovaquia/processamento-salarial",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/eslovaquia/processamento-salarial",
+  "title": "Paga a trabalhadores da Eslováquia | Processamento salarial",
+  "description": "Paga a trabalhadores da Eslováquia sem esforço com os nossos serviços flexíveis de processamento salarial. Processa salários, gere despesas e cria relatórios, tudo num só lugar.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155704,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6b60f28144746aec-pt-pt-explorar-pais-eslovaquia-processamento-salarial.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6b60f28144746aec-pt-pt-explorar-pais-eslovaquia-processamento-salarial.direct.json",
+  "markdownChars": 3798,
+  "linksCount": 45,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:04:09.312Z"
+}

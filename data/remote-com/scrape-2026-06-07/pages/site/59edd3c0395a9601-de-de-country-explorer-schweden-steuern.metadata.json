@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/schweden/steuern",
+  "sourceURL": "https://remote.com/de-de/country-explorer/schweden/steuern",
+  "finalURL": "https://remote.com/de-de/country-explorer/schweden/steuern",
+  "title": "Lohnnebenkosten in Schweden verwalten | Steuerrecht Rechtskonformität",
+  "description": "Bezahle Lohnsteuern in '.Schweden.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257510,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/59edd3c0395a9601-de-de-country-explorer-schweden-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/59edd3c0395a9601-de-de-country-explorer-schweden-steuern.direct.json",
+  "markdownChars": 996,
+  "linksCount": 123,
+  "lastmod": "2025-11-18",
+  "scrapedAt": "2026-06-07T09:11:43.346Z"
+}

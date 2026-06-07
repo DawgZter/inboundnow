@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/research/sensitive-conversations-human-guidance-front",
+  "sourceURL": "https://remote.com/en-sg/resources/research/sensitive-conversations-human-guidance-front",
+  "finalURL": "https://remote.com/en-sg/resources/research/sensitive-conversations-human-guidance-front",
+  "title": "Sensitive conversations, human guidance: get the Guides | Remote",
+  "description": "Short, country-level videos from Remote’s in-house experts explain the common do's and don’ts for compliant offboarding in key regions.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 286534,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/46dfccc7ac01523d-en-sg-resources-research-sensitive-conversations-human-guidance-front.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/46dfccc7ac01523d-en-sg-resources-research-sensitive-conversations-human-guidance-front.direct.json",
+  "markdownChars": 2544,
+  "linksCount": 108,
+  "lastmod": "2025-10-17",
+  "scrapedAt": "2026-06-07T09:01:15.734Z"
+}

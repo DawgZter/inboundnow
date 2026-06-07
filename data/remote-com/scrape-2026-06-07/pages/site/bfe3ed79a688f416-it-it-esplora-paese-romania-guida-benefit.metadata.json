@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/romania/guida-benefit",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/romania/guida-benefit",
+  "finalURL": "https://remote.com/it-it/esplora-paese/romania/guida-benefit",
+  "title": "Benefit per i dipendenti in Romania | Piani di benefit",
+  "description": "Scopri i benefit per i dipendenti essenziali in Romania. Informati su assicurazione sanitaria, congedi retribuiti e altri vantaggi per attirare e trattenere i migliori talenti.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 165389,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bfe3ed79a688f416-it-it-esplora-paese-romania-guida-benefit.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bfe3ed79a688f416-it-it-esplora-paese-romania-guida-benefit.direct.json",
+  "markdownChars": 1599,
+  "linksCount": 44,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:13:13.841Z"
+}

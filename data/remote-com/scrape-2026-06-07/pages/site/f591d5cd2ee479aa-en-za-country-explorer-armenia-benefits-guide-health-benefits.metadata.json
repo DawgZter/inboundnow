@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/armenia/benefits-guide/health-benefits",
+  "sourceURL": "https://remote.com/en-za/country-explorer/armenia/benefits-guide/health-benefits",
+  "finalURL": "https://remote.com/en-za/country-explorer/armenia/benefits-guide/health-benefits",
+  "title": "Health Benefits in Armenia | Wellbeing Support",
+  "description": "Explore a range of health insurance plans in Armenia. Our flexible health insurance options offer varying levels of coverage and benefits.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 282419,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f591d5cd2ee479aa-en-za-country-explorer-armenia-benefits-guide-health-benefits.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f591d5cd2ee479aa-en-za-country-explorer-armenia-benefits-guide-health-benefits.direct.json",
+  "markdownChars": 18779,
+  "linksCount": 118,
+  "lastmod": "2025-11-03",
+  "scrapedAt": "2026-06-07T09:01:33.171Z"
+}

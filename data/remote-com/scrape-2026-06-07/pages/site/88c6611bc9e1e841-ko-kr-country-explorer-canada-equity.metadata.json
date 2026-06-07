@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/canada/equity",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/canada/equity",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/canada/equity",
+  "title": "캐나다에서의 직원 대상 스톡옵션",
+  "description": "캐나다에서의 직원 스톡옵션 과세, 자격 요건 및 부여·행사·매도·보유 단계별 의무를 Remote의 Country Explorer로 확인하여 글로벌 보상 결정을 정확하게 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260918,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88c6611bc9e1e841-ko-kr-country-explorer-canada-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88c6611bc9e1e841-ko-kr-country-explorer-canada-equity.direct.json",
+  "markdownChars": 1847,
+  "linksCount": 124,
+  "lastmod": "2025-12-01",
+  "scrapedAt": "2026-06-07T09:06:20.470Z"
+}

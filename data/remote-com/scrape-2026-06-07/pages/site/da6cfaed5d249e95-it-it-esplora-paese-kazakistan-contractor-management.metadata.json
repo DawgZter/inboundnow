@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/kazakistan/contractor-management",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/kazakistan/contractor-management",
+  "finalURL": "https://remote.com/it-it/esplora-paese/kazakistan/contractor-management",
+  "title": "Gestione dei collaboratori in Kazakistan | Contractor Management",
+  "description": "Vuoi collaborare con freelance in Kazakistan? Gestisci e paga i tuoi collaboratori globali senza intoppi con i nostri flessibili servizi di Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 151159,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/da6cfaed5d249e95-it-it-esplora-paese-kazakistan-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/da6cfaed5d249e95-it-it-esplora-paese-kazakistan-contractor-management.direct.json",
+  "markdownChars": 2468,
+  "linksCount": 39,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:10:42.618Z"
+}

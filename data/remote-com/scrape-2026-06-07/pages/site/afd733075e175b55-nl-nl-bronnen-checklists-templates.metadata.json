@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/checklists-templates",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/checklists-templates",
+  "finalURL": "https://remote.com/nl-nl/bronnen/checklists-templates",
+  "title": "Wereldwijde HR-oplossingen en werkgelegenheidstools voor verspreide teams | Remote",
+  "description": "Remote is je one-stopoplossing voor het werven van talent in elk land. Het helpt groeiende bedrijven bij het in dienst nemen van het beste wereldwijde talent. Onze oplossingen voor payroll, secundaire arbeidsvoorwaarden, belastingen en compliance zorgen ervoor dat bedrijven toegang hebben tot en gebruik kunnen maken van een wereldwijd personeelsbestand.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 374599,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/afd733075e175b55-nl-nl-bronnen-checklists-templates.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/afd733075e175b55-nl-nl-bronnen-checklists-templates.direct.json",
+  "markdownChars": 7288,
+  "linksCount": 140,
+  "lastmod": "2026-04-15",
+  "scrapedAt": "2026-06-07T09:01:07.683Z"
+}

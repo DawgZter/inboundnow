@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/global-hr/integrations-for-customers",
+  "sourceURL": "https://remote.com/ja-jp/global-hr/integrations-for-customers",
+  "finalURL": "https://remote.com/ja-jp/global-hr/integrations-for-customers",
+  "title": "人事関連の技術スタック全体を統合 | Remote",
+  "description": "Remoteは人気のある人事管理と給与支払いツールと連携して、雇用プロセス全体をスムーズにし、重要な従業員情報を安全に同期させることで、スピーディーな業務遂行をサポートします。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 322534,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/306b307dde6c234e-ja-jp-global-hr-integrations-for-customers.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/306b307dde6c234e-ja-jp-global-hr-integrations-for-customers.direct.json",
+  "markdownChars": 3839,
+  "linksCount": 119,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:14:26.942Z"
+}

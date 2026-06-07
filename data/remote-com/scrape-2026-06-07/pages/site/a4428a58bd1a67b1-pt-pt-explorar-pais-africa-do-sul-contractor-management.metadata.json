@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/africa-do-sul/contractor-management",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/africa-do-sul/contractor-management",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/africa-do-sul/contractor-management",
+  "title": "Gestão de trabalhadores independentes na África do Sul | Contractor Management",
+  "description": "Queres contratar trabalhadores independentes na África do Sul? Gere e paga a trabalhadores independentes em todo o mundo sem esforço com os serviços flexíveis Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155713,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a4428a58bd1a67b1-pt-pt-explorar-pais-africa-do-sul-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a4428a58bd1a67b1-pt-pt-explorar-pais-africa-do-sul-contractor-management.direct.json",
+  "markdownChars": 2744,
+  "linksCount": 46,
+  "lastmod": "2026-03-24",
+  "scrapedAt": "2026-06-07T09:14:33.269Z"
+}

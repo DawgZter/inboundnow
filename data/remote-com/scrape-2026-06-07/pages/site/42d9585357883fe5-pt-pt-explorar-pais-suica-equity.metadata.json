@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/suica/equity",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/suica/equity",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/suica/equity",
+  "title": "Opções de ações para trabalhadores da Suíça",
+  "description": "Explora as regras específicas da Suíça para equity e opções de ações para trabalhadores. Toma decisões informadas sobre remuneração global com o Country Explorer da Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 157812,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/42d9585357883fe5-pt-pt-explorar-pais-suica-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/42d9585357883fe5-pt-pt-explorar-pais-suica-equity.direct.json",
+  "markdownChars": 5112,
+  "linksCount": 47,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:12:26.334Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/luxemburgo/rescision-empleo",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/luxemburgo/rescision-empleo",
+  "finalURL": "https://remote.com/es-es/explorador-paises/luxemburgo/rescision-empleo",
+  "title": "Rescindir el contrato a empleados en Luxemburgo | Rescisión de empleo",
+  "description": "¿Necesitas rescindir el contrato a un empleado en Luxemburgo? Descubre tus derechos en nuestra guía completa sobre las leyes de rescisión laboral.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260782,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fba8ebbaae950e4f-es-es-explorador-paises-luxemburgo-rescision-empleo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fba8ebbaae950e4f-es-es-explorador-paises-luxemburgo-rescision-empleo.direct.json",
+  "markdownChars": 2363,
+  "linksCount": 122,
+  "lastmod": "2025-09-24",
+  "scrapedAt": "2026-06-07T09:17:07.489Z"
+}

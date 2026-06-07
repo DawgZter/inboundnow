@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/taiwan/benefits-guide/mental-health",
+  "sourceURL": "https://remote.com/country-explorer/taiwan/benefits-guide/mental-health",
+  "finalURL": "https://remote.com/country-explorer/taiwan/benefits-guide/mental-health",
+  "title": "Mental Health Benefits in Taiwan | Wellbeing Support",
+  "description": "Support your team with Mental Health benefits in Taiwan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269430,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78672c17772a720f-country-explorer-taiwan-benefits-guide-mental-health.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78672c17772a720f-country-explorer-taiwan-benefits-guide-mental-health.direct.json",
+  "markdownChars": 6227,
+  "linksCount": 117,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:09:20.060Z"
+}

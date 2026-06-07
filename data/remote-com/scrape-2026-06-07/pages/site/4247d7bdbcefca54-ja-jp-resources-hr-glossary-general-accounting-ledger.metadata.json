@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/general-accounting-ledger",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/general-accounting-ledger",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/general-accounting-ledger",
+  "title": "総勘定元帳とは何か？",
+  "description": "総勘定元帳（GL）は、組織が財務データを保管する場所である。記録を管理し、活動を追跡し、明細書を作成するのに役立つ。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257621,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4247d7bdbcefca54-ja-jp-resources-hr-glossary-general-accounting-ledger.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4247d7bdbcefca54-ja-jp-resources-hr-glossary-general-accounting-ledger.direct.json",
+  "markdownChars": 2646,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:05:55.307Z"
+}

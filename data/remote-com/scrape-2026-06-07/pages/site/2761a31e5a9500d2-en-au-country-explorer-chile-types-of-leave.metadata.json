@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/chile/types-of-leave",
+  "sourceURL": "https://remote.com/en-au/country-explorer/chile/types-of-leave",
+  "finalURL": "https://remote.com/en-au/country-explorer/chile/types-of-leave",
+  "title": "Types of Leave in Chile | Employee Leave Laws",
+  "description": "Understand employee leave laws in Chile. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259615,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2761a31e5a9500d2-en-au-country-explorer-chile-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2761a31e5a9500d2-en-au-country-explorer-chile-types-of-leave.direct.json",
+  "markdownChars": 2446,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:17:10.670Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/taiwan/taxes",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/taiwan/taxes",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/taiwan/taxes",
+  "title": "台湾の給与税管理 | 税務コンプライアンス",
+  "description": "台湾の給与税を効果的かつ適正に管理し、給与税の誤りを最小限に抑え、現地法を順守して高額な罰金を回避します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261902,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f998d0b933b621ae-ja-jp-country-explorer-taiwan-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f998d0b933b621ae-ja-jp-country-explorer-taiwan-taxes.direct.json",
+  "markdownChars": 781,
+  "linksCount": 123,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:01:10.997Z"
+}

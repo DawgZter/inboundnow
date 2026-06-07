@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/brazil/contractor-management",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/brazil/contractor-management",
+  "finalURL": "https://remote.com/en-ph/country-explorer/brazil/contractor-management",
+  "title": "Manage Contractors in Brazil | Contractor Management",
+  "description": "Hiring a contractor in Brazil? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261676,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aaa0aead2f501536-en-ph-country-explorer-brazil-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aaa0aead2f501536-en-ph-country-explorer-brazil-contractor-management.direct.json",
+  "markdownChars": 3595,
+  "linksCount": 127,
+  "lastmod": "2025-08-26",
+  "scrapedAt": "2026-06-07T09:02:19.534Z"
+}

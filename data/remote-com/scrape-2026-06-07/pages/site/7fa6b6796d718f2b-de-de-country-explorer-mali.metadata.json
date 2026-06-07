@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/mali",
+  "sourceURL": "https://remote.com/de-de/country-explorer/mali",
+  "finalURL": "https://remote.com/de-de/country-explorer/mali",
+  "title": "Employer-of-Record- und Payroll-Services | Mali",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Mali? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 310898,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7fa6b6796d718f2b-de-de-country-explorer-mali.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7fa6b6796d718f2b-de-de-country-explorer-mali.direct.json",
+  "markdownChars": 3724,
+  "linksCount": 118,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:09:27.017Z"
+}

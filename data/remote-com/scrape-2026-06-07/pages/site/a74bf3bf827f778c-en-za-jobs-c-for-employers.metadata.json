@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/jobs/c/for-employers",
+  "sourceURL": "https://remote.com/en-za/jobs/c/for-employers",
+  "finalURL": "https://remote.com/en-za/jobs/c/for-employers",
+  "title": "Remote Talent for employers | Remote",
+  "description": "Struggling to find the right candidates for hard-to-fill roles? Learn how Remote Talent makes it easy for companies to uncover the world's best talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 359855,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a74bf3bf827f778c-en-za-jobs-c-for-employers.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a74bf3bf827f778c-en-za-jobs-c-for-employers.direct.json",
+  "markdownChars": 6242,
+  "linksCount": 111,
+  "lastmod": "2026-01-28",
+  "scrapedAt": "2026-06-07T09:01:28.261Z"
+}

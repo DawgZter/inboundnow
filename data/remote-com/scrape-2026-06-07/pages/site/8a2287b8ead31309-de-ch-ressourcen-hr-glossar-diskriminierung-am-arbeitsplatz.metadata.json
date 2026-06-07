@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/diskriminierung-am-arbeitsplatz",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/diskriminierung-am-arbeitsplatz",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/diskriminierung-am-arbeitsplatz",
+  "title": "What is discrimination in the workplace",
+  "description": "In unserem HR-Glossar erfährst du, was Diskriminierung am Arbeitsplatz bedeutet, wie sie sich auf die Unternehmenskultur auswirkt und wie sie die Bemühungen um Vielfalt, Gleichberechtigung und Integration beeinflusst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254881,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a2287b8ead31309-de-ch-ressourcen-hr-glossar-diskriminierung-am-arbeitsplatz.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a2287b8ead31309-de-ch-ressourcen-hr-glossar-diskriminierung-am-arbeitsplatz.direct.json",
+  "markdownChars": 3951,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:14:18.055Z"
+}

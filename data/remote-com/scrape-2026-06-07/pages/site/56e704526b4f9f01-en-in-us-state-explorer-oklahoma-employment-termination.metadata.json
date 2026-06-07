@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/us-state-explorer/oklahoma/employment-termination",
+  "sourceURL": "https://remote.com/en-in/us-state-explorer/oklahoma/employment-termination",
+  "finalURL": "https://remote.com/en-in/us-state-explorer/oklahoma/employment-termination",
+  "title": "Terminate Employees in Oklahoma | Employment Termination",
+  "description": "Looking to terminate an employee in Oklahoma? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256194,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56e704526b4f9f01-en-in-us-state-explorer-oklahoma-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56e704526b4f9f01-en-in-us-state-explorer-oklahoma-employment-termination.direct.json",
+  "markdownChars": 1695,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:18:01.279Z"
+}

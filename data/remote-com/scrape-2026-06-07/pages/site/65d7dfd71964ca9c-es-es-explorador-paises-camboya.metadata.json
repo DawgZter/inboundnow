@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/camboya",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/camboya",
+  "finalURL": "https://remote.com/es-es/explorador-paises/camboya",
+  "title": "Employer of Record (EOR) y servicios de nómina | Camboya",
+  "description": "¿Contratas empleados y trabajadores autónomos en Camboya? Remote puede ayudarte a gestionar empleados y trabajadores autónomos a través de nuestra plataforma de RR. HH. global integrada.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 349552,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/65d7dfd71964ca9c-es-es-explorador-paises-camboya.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/65d7dfd71964ca9c-es-es-explorador-paises-camboya.direct.json",
+  "markdownChars": 9482,
+  "linksCount": 117,
+  "lastmod": "2025-10-02",
+  "scrapedAt": "2026-06-07T09:02:38.928Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/horaire-employe",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/horaire-employe",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/horaire-employe",
+  "title": "Hourly pay rate: a quick guide",
+  "description": "En savoir plus sur la rémunération horaire de vos employés et sur les conséquences potentielles pour votre entreprise.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258953,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88a16e7ae6a1dfb2-fr-ch-ressources-glossaire-rh-horaire-employe.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88a16e7ae6a1dfb2-fr-ch-ressources-glossaire-rh-horaire-employe.direct.json",
+  "markdownChars": 6770,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:08:52.946Z"
+}

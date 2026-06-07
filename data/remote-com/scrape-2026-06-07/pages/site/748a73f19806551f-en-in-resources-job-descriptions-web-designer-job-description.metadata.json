@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/resources/job-descriptions/web-designer-job-description",
+  "sourceURL": "https://remote.com/en-in/resources/job-descriptions/web-designer-job-description",
+  "finalURL": "https://remote.com/en-in/resources/job-descriptions/web-designer-job-description",
+  "title": "Web designer job description",
+  "description": "Review the job description for a web designer, responsible for creating visually appealing and user-friendly websites, optimizing functionality, and enhancing user experience.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257770,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/748a73f19806551f-en-in-resources-job-descriptions-web-designer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/748a73f19806551f-en-in-resources-job-descriptions-web-designer-job-description.direct.json",
+  "markdownChars": 3457,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:24.322Z"
+}

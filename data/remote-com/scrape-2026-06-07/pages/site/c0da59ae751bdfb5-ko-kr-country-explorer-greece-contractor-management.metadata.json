@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/greece/contractor-management",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/greece/contractor-management",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/greece/contractor-management",
+  "title": "그리스에서의 계약자 관리 | 계약자 관리",
+  "description": "그리스에서 계약자를 고용하면, 정규직 직원 채용에 따른 의무를 지지 않고도 전략적이고 비용 효율적으로 프로젝트를 수행할 수 있습니다. 유연한 계약자 관리 서비스로 글로벌 계약자의 관리와 지급을 손쉽게 처리합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258645,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c0da59ae751bdfb5-ko-kr-country-explorer-greece-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c0da59ae751bdfb5-ko-kr-country-explorer-greece-contractor-management.direct.json",
+  "markdownChars": 1121,
+  "linksCount": 121,
+  "lastmod": "2025-11-07",
+  "scrapedAt": "2026-06-07T09:01:06.958Z"
+}

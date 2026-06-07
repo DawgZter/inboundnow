@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/oostenrijk/equity",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/oostenrijk/equity",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/oostenrijk/equity",
+  "title": "Aandelenopties voor werknemers in Oostenrijk",
+  "description": "Ontdek de specifieke regels voor werknemersaandelen en aandelenopties in Oostenrijk. Neem weloverwogen beslissingen over wereldwijde beloningen met Remote's Country Explorer.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264898,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef94c16a55e81a49-nl-nl-landenverkenner-oostenrijk-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef94c16a55e81a49-nl-nl-landenverkenner-oostenrijk-equity.direct.json",
+  "markdownChars": 4856,
+  "linksCount": 126,
+  "lastmod": "2025-12-15",
+  "scrapedAt": "2026-06-07T09:07:45.085Z"
+}

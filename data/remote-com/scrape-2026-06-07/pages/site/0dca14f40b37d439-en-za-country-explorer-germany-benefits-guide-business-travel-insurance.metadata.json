@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/germany/benefits-guide/business-travel-insurance",
+  "sourceURL": "https://remote.com/en-za/country-explorer/germany/benefits-guide/business-travel-insurance",
+  "finalURL": "https://remote.com/en-za/country-explorer/germany/benefits-guide/business-travel-insurance",
+  "title": "Business Travel Insurance Benefits in Germany | Wellbeing Support",
+  "description": "Do your employees regularly travel for business? Protect their safety and well-being with a range of business travel insurance plans in Germany.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269452,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0dca14f40b37d439-en-za-country-explorer-germany-benefits-guide-business-travel-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0dca14f40b37d439-en-za-country-explorer-germany-benefits-guide-business-travel-insurance.direct.json",
+  "markdownChars": 6055,
+  "linksCount": 119,
+  "lastmod": "2025-10-09",
+  "scrapedAt": "2026-06-07T09:01:17.758Z"
+}

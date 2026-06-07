@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/checklists-templates/remote-checklist-naleving-bij-zzpers",
+  "sourceURL": "https://remote.com/nl-be/bronnen/checklists-templates/remote-checklist-naleving-bij-zzpers",
+  "finalURL": "https://remote.com/nl-be/bronnen/checklists-templates/remote-checklist-naleving-bij-zzpers",
+  "title": "Global HR Solutions en arbeidstools voor verspreide teams | Remote",
+  "description": "Remote is je one-stopoplossing voor het werven van talent in elk land. Het helpt groeiende bedrijven bij het in dienst nemen van het beste wereldwijde talent. Onze oplossingen voor payroll, secundaire arbeidsvoorwaarden, belastingen en compliance zorgen ervoor dat bedrijven toegang hebben tot en gebruik kunnen maken van een wereldwijd personeelsbestand.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 260995,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/47f1490678efc61b-nl-be-bronnen-checklists-templates-remote-checklist-naleving-bij-zzpers.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/47f1490678efc61b-nl-be-bronnen-checklists-templates-remote-checklist-naleving-bij-zzpers.direct.json",
+  "markdownChars": 1359,
+  "linksCount": 117,
+  "lastmod": "2025-06-19",
+  "scrapedAt": "2026-06-07T09:14:52.105Z"
+}

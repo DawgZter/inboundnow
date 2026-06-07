@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/research/contractor-management-report",
+  "sourceURL": "https://remote.com/ko-kr/resources/research/contractor-management-report",
+  "finalURL": "https://remote.com/ko-kr/resources/research/contractor-management-report",
+  "title": "분산된 팀을 위한 글로벌 HR 솔루션 및 채용 도구 | Remote",
+  "description": "프리랜서가 만드는 업무 환경의 미래: 기업의 72%는 유연성 때문에 프리랜서를 선호하고, 46%는 특수 기술을 위해 프리랜서를 이용하며, 2분기에는 계절적 수요로 28% 급증합니다. Remote의 2024년 계약자 관리 보고서에서 빠르게 성장하는 프리랜서 경제에 대한 주요 인사이트를 확인하세요.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 263538,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ad9189838e89e87-ko-kr-resources-research-contractor-management-report.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ad9189838e89e87-ko-kr-resources-research-contractor-management-report.direct.json",
+  "markdownChars": 605,
+  "linksCount": 117,
+  "lastmod": "2025-09-12",
+  "scrapedAt": "2026-06-07T09:06:59.796Z"
+}

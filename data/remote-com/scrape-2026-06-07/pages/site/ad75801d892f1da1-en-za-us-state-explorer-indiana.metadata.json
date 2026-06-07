@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/us-state-explorer/indiana",
+  "sourceURL": "https://remote.com/en-za/us-state-explorer/indiana",
+  "finalURL": "https://remote.com/en-za/us-state-explorer/indiana",
+  "title": "Employer of Record & Payroll Services | Indiana",
+  "description": "Use our compliance guide to employ in Indiana with ease. Learn about benefits, payroll, leave, and other labor laws in The Hoosier State.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 331680,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ad75801d892f1da1-en-za-us-state-explorer-indiana.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ad75801d892f1da1-en-za-us-state-explorer-indiana.direct.json",
+  "markdownChars": 6940,
+  "linksCount": 114,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:02:49.794Z"
+}

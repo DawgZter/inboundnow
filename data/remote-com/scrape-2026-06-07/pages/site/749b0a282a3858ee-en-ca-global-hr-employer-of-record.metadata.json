@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/global-hr/employer-of-record",
+  "sourceURL": "https://remote.com/en-ca/global-hr/employer-of-record",
+  "finalURL": "https://remote.com/en-ca/global-hr/employer-of-record",
+  "title": "Employer of Record (EOR) Services | Remote",
+  "description": "Remote provides employer of record services in countries all over the world. We handle local payroll, taxes, benefits, and compliance so your employees feel as safe and secure as your business does.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 468997,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/749b0a282a3858ee-en-ca-global-hr-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/749b0a282a3858ee-en-ca-global-hr-employer-of-record.direct.json",
+  "markdownChars": 15905,
+  "linksCount": 132,
+  "lastmod": "2026-04-03",
+  "scrapedAt": "2026-06-07T09:12:19.880Z"
+}

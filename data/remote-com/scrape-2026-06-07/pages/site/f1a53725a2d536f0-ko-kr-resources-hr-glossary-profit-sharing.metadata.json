@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/profit-sharing",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/profit-sharing",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/profit-sharing",
+  "title": "이익 공유",
+  "description": "Learn how profit-sharing works, how it differs from bonuses and equity, and why companies use it to motivate, retain, and reward employees.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256155,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f1a53725a2d536f0-ko-kr-resources-hr-glossary-profit-sharing.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f1a53725a2d536f0-ko-kr-resources-hr-glossary-profit-sharing.direct.json",
+  "markdownChars": 2766,
+  "linksCount": 121,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:22.201Z"
+}

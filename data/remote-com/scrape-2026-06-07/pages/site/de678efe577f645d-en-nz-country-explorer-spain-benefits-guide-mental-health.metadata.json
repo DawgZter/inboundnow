@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer/spain/benefits-guide/mental-health",
+  "sourceURL": "https://remote.com/en-nz/country-explorer/spain/benefits-guide/mental-health",
+  "finalURL": "https://remote.com/en-nz/country-explorer/spain/benefits-guide/mental-health",
+  "title": "Mental Health Benefits in Spain | Wellbeing Support",
+  "description": "Support your team with Mental Health benefits in Spain.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269377,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/de678efe577f645d-en-nz-country-explorer-spain-benefits-guide-mental-health.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/de678efe577f645d-en-nz-country-explorer-spain-benefits-guide-mental-health.direct.json",
+  "markdownChars": 6261,
+  "linksCount": 120,
+  "lastmod": "2026-05-25",
+  "scrapedAt": "2026-06-07T09:16:46.037Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/japao/contractor-management",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/japao/contractor-management",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/japao/contractor-management",
+  "title": "Gestão de trabalhadores independentes no Japão | Contractor Management",
+  "description": "Queres contratar trabalhadores independentes no Japão? Gere e paga a trabalhadores independentes em todo o mundo sem esforço com o Contractor Management da Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154011,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7203dc1d931e633f-pt-pt-explorar-pais-japao-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7203dc1d931e633f-pt-pt-explorar-pais-japao-contractor-management.direct.json",
+  "markdownChars": 2595,
+  "linksCount": 44,
+  "lastmod": "2026-03-24",
+  "scrapedAt": "2026-06-07T09:15:45.058Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/pourquoi-choisir-remote/data-protection-guard",
+  "sourceURL": "https://remote.com/fr-fr/pourquoi-choisir-remote/data-protection-guard",
+  "finalURL": "https://remote.com/fr-fr/pourquoi-choisir-remote/data-protection-guard",
+  "title": "Data Protection Guard | Remote",
+  "description": "Remote Data Protection Guard propose des politiques de protection des données, des processus et des contrôles inégalés en matière de conformité avec les législations sur la protection des données les plus strictes à l'échelle mondiale.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260221,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9368cf9b9ed0680b-fr-fr-pourquoi-choisir-remote-data-protection-guard.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9368cf9b9ed0680b-fr-fr-pourquoi-choisir-remote-data-protection-guard.direct.json",
+  "markdownChars": 3869,
+  "linksCount": 114,
+  "lastmod": "2025-07-25",
+  "scrapedAt": "2026-06-07T09:09:43.592Z"
+}

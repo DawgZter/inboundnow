@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/rrhh-globales/prestaciones-globales",
+  "sourceURL": "https://remote.com/es-es/rrhh-globales/prestaciones-globales",
+  "finalURL": "https://remote.com/es-es/rrhh-globales/prestaciones-globales",
+  "title": "Soluciones de prestaciones para empleados globales en equipos globales | Remote",
+  "description": "Descubre cómo puedes ofrecer prestaciones sólidas y culturalmente sensibles que dejen claro a todos los miembros de tu equipo que tu empresa es su empresa.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 352089,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7b2738185c8fcd10-es-es-rrhh-globales-prestaciones-globales.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7b2738185c8fcd10-es-es-rrhh-globales-prestaciones-globales.direct.json",
+  "markdownChars": 12372,
+  "linksCount": 116,
+  "lastmod": "2025-09-03",
+  "scrapedAt": "2026-06-07T09:16:02.689Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-salaires",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-salaires",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-salaires",
+  "title": "Paiement des salaires",
+  "description": "Apprenez-en plus sur le statut de salarié et le fonctionnement du paiement des salaires, y compris les exemptions et les obligations que votre entreprise doit connaître.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260491,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31c38768e0e54374-fr-fr-ressources-glossaire-rh-paiement-salaires.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31c38768e0e54374-fr-fr-ressources-glossaire-rh-paiement-salaires.direct.json",
+  "markdownChars": 8056,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:00:58.429Z"
+}

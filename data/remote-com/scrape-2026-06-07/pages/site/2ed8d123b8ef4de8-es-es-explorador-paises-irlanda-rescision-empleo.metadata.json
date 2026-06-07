@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/irlanda/rescision-empleo",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/irlanda/rescision-empleo",
+  "finalURL": "https://remote.com/es-es/explorador-paises/irlanda/rescision-empleo",
+  "title": "Rescindir el contrato a empleados en Irlanda | Rescisión de empleo",
+  "description": "¿Necesitas rescindir el contrato a un empleado en Irlanda? Conoce tus derechos en nuestra guía completa sobre las leyes de rescisión laboral.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260843,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2ed8d123b8ef4de8-es-es-explorador-paises-irlanda-rescision-empleo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2ed8d123b8ef4de8-es-es-explorador-paises-irlanda-rescision-empleo.direct.json",
+  "markdownChars": 2098,
+  "linksCount": 123,
+  "lastmod": "2025-09-24",
+  "scrapedAt": "2026-06-07T09:18:55.999Z"
+}

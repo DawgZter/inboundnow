@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/technischer-leiter",
+  "sourceURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/technischer-leiter",
+  "finalURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/technischer-leiter",
+  "title": "Stellenbeschreibung für Chief Technology Officer (CTO)",
+  "description": "​​Adaptable job description template for employing a Chief Technology Officer (CTO). Define key duties, skills, and career paths to attract your next hire.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262188,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bd448bce6e273900-de-de-ressourcen-stellenbeschreibungen-technischer-leiter.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bd448bce6e273900-de-de-ressourcen-stellenbeschreibungen-technischer-leiter.direct.json",
+  "markdownChars": 6235,
+  "linksCount": 114,
+  "lastmod": "2025-07-24",
+  "scrapedAt": "2026-06-07T09:01:06.189Z"
+}

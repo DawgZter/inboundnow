@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/checklists-sjablonen/loonrapportage",
+  "sourceURL": "https://remote.com/nl-be/bronnen/checklists-sjablonen/loonrapportage",
+  "finalURL": "https://remote.com/nl-be/bronnen/checklists-sjablonen/loonrapportage",
+  "title": "Sjabloon voor loonrapportage | Remote",
+  "description": "maak-conforme-amerikaanse-loonrapporten-met-deze-sjabloon-op-de-pagina-—-downloaden-is-niet-nodig.-inclusief-belastingoverzichten,-werknemersregisters-en-checklists-voor-het-indienen-van-aangiften.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 249946,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b854e516057b643a-nl-be-bronnen-checklists-sjablonen-loonrapportage.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b854e516057b643a-nl-be-bronnen-checklists-sjablonen-loonrapportage.direct.json",
+  "markdownChars": 4842,
+  "linksCount": 119,
+  "lastmod": "2025-07-23",
+  "scrapedAt": "2026-06-07T09:02:51.023Z"
+}

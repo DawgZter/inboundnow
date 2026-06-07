@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/rrhh-globales/api-remote",
+  "sourceURL": "https://remote.com/es-es/rrhh-globales/api-remote",
+  "finalURL": "https://remote.com/es-es/rrhh-globales/api-remote",
+  "title": "API de Remote | Remote",
+  "description": "La API de Remote permite a nuestros clientes y socios consolidar y compartir fácilmente los datos de los empleados globales en todas las plataformas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 335358,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9671c740421e1317-es-es-rrhh-globales-api-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9671c740421e1317-es-es-rrhh-globales-api-remote.direct.json",
+  "markdownChars": 7754,
+  "linksCount": 124,
+  "lastmod": "2025-10-20",
+  "scrapedAt": "2026-06-07T09:06:50.238Z"
+}

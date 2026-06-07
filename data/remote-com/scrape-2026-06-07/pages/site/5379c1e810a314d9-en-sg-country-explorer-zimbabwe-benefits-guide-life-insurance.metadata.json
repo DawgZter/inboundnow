@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/zimbabwe/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/zimbabwe/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/en-sg/country-explorer/zimbabwe/benefits-guide/life-insurance",
+  "title": "Employee Life Insurance in Zimbabwe | Insurance Plans",
+  "description": "Provide peace of mind with life insurance coverage for your employees in Zimbabwe. Explore the policies and benefits available.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265042,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5379c1e810a314d9-en-sg-country-explorer-zimbabwe-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5379c1e810a314d9-en-sg-country-explorer-zimbabwe-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 4717,
+  "linksCount": 115,
+  "lastmod": "2025-06-01",
+  "scrapedAt": "2026-06-07T09:13:57.746Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/irland/steuern",
+  "sourceURL": "https://remote.com/de-at/country-explorer/irland/steuern",
+  "finalURL": "https://remote.com/de-at/country-explorer/irland/steuern",
+  "title": "Lohnnebenkosten in Ireland | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Irland.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256634,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c6ee436b1b8d3e3d-de-at-country-explorer-irland-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c6ee436b1b8d3e3d-de-at-country-explorer-irland-steuern.direct.json",
+  "markdownChars": 794,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:08:57.992Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/pennsylvania/employer-of-record",
+  "sourceURL": "https://remote.com/us-state-explorer/pennsylvania/employer-of-record",
+  "finalURL": "https://remote.com/us-state-explorer/pennsylvania/employer-of-record",
+  "title": "Employer of Record services in Pennsylvania",
+  "description": "Use employer of record services in Pennsylvania make hiring, managing, and paying top talent easy. Stay compliant in Pennsylvania and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258427,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19537b964ab94fba-us-state-explorer-pennsylvania-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/19537b964ab94fba-us-state-explorer-pennsylvania-employer-of-record.direct.json",
+  "markdownChars": 3380,
+  "linksCount": 113,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:01:37.378Z"
+}

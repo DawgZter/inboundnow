@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/bolivia/benefits-guide",
+  "sourceURL": "https://remote.com/en-au/country-explorer/bolivia/benefits-guide",
+  "finalURL": "https://remote.com/en-au/country-explorer/bolivia/benefits-guide",
+  "title": "Employee Benefits in Bolivia | Benefits Plans",
+  "description": "Discover the essential employee benefits in Bolivia. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271014,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/533f61512ef4938e-en-au-country-explorer-bolivia-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/533f61512ef4938e-en-au-country-explorer-bolivia-benefits-guide.direct.json",
+  "markdownChars": 1441,
+  "linksCount": 126,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:06:05.284Z"
+}

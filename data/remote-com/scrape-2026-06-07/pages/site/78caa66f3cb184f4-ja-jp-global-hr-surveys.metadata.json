@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/global-hr/surveys",
+  "sourceURL": "https://remote.com/ja-jp/global-hr/surveys",
+  "finalURL": "https://remote.com/ja-jp/global-hr/surveys",
+  "title": "従業員アンケートソフトウェア | Remote",
+  "description": "Remote Surveysは、HRプラットフォーム内で手軽に従業員のフィードバックアンケートを実施できる機能です。その他のツールは不要です。AIによるインサイト、リアルタイム分析、組み込みのプライバシー保護を活用して、アンケートの作成・スケジューリング・分析を行えます。Remote HRISと完全に統合され、効率的で安全な運用が可能です。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 392180,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78caa66f3cb184f4-ja-jp-global-hr-surveys.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78caa66f3cb184f4-ja-jp-global-hr-surveys.direct.json",
+  "markdownChars": 3757,
+  "linksCount": 122,
+  "lastmod": "2025-10-01",
+  "scrapedAt": "2026-06-07T09:16:00.272Z"
+}

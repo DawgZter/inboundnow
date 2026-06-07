@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/zwitserland/payroll",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/zwitserland/payroll",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/zwitserland/payroll",
+  "title": "Werknemers betalen in Zwitserland | payrollservices",
+  "description": "Betaal werknemers in Zwitserland moeiteloos met onze flexibele payrollservices. Voer payroll uit, beheer onkosten en genereer rapporten, allemaal vanaf één centrale plek.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257306,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/163fc575b121dda8-nl-be-landenverkenner-zwitserland-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/163fc575b121dda8-nl-be-landenverkenner-zwitserland-payroll.direct.json",
+  "markdownChars": 3866,
+  "linksCount": 128,
+  "lastmod": "2025-12-15",
+  "scrapedAt": "2026-06-07T09:12:29.876Z"
+}

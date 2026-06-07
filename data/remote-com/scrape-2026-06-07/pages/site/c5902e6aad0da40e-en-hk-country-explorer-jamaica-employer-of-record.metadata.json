@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/jamaica/employer-of-record",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/jamaica/employer-of-record",
+  "finalURL": "https://remote.com/en-hk/country-explorer/jamaica/employer-of-record",
+  "title": "Employer of Record in Jamaica | EOR Services",
+  "description": "Simplify employment in Jamaica with our Employer of Record services. Handle payroll, benefits, and compliance seamlessly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259798,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5902e6aad0da40e-en-hk-country-explorer-jamaica-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5902e6aad0da40e-en-hk-country-explorer-jamaica-employer-of-record.direct.json",
+  "markdownChars": 3172,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:09:46.811Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/zypern/payroll",
+  "sourceURL": "https://remote.com/de-at/country-explorer/zypern/payroll",
+  "finalURL": "https://remote.com/de-at/country-explorer/zypern/payroll",
+  "title": "Mitarbeiter:innen in Zypern bezahlen | Payroll-Services",
+  "description": "Zahle Mitarbeiter:innen in Zypern mühelos mit unseren flexiblen Payroll-Services. Führe die Payroll durch, verwalte Ausgaben und erstelle Berichte – alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260145,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/67373e2326d88f58-de-at-country-explorer-zypern-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/67373e2326d88f58-de-at-country-explorer-zypern-payroll.direct.json",
+  "markdownChars": 3982,
+  "linksCount": 124,
+  "lastmod": "2025-11-17",
+  "scrapedAt": "2026-06-07T09:04:11.319Z"
+}

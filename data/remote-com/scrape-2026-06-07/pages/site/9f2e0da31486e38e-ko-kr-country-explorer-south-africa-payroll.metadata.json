@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/south-africa/payroll",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/south-africa/payroll",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/south-africa/payroll",
+  "title": "남아프리카공화국에서 직원 급여 지급 | 급여 서비스",
+  "description": "남아프리카공화국에서 직원에게 급여를 손쉽게 지급하세요. 유연한 급여 관리 서비스로 급여를 운영하고, 비용을 관리하며, 리포트를 한 곳에서 확인할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260427,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f2e0da31486e38e-ko-kr-country-explorer-south-africa-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f2e0da31486e38e-ko-kr-country-explorer-south-africa-payroll.direct.json",
+  "markdownChars": 1648,
+  "linksCount": 124,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:07:21.892Z"
+}

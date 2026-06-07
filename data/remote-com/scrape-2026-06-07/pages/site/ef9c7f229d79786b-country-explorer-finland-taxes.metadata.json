@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/finland/taxes",
+  "sourceURL": "https://remote.com/country-explorer/finland/taxes",
+  "finalURL": "https://remote.com/country-explorer/finland/taxes",
+  "title": "Manage Payroll Tax in Finland | Tax Compliance",
+  "description": "Manage payroll taxes in Finland effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262986,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef9c7f229d79786b-country-explorer-finland-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef9c7f229d79786b-country-explorer-finland-taxes.direct.json",
+  "markdownChars": 1298,
+  "linksCount": 126,
+  "lastmod": "2025-08-29",
+  "scrapedAt": "2026-06-07T09:07:37.665Z"
+}

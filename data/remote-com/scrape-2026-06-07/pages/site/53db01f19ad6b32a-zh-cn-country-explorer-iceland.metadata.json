@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/iceland",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/iceland",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/iceland",
+  "title": "第三方雇佣托管服务 与 薪资服务 | 冰岛",
+  "description": "在冰岛雇佣员工和合同工？Remote 可通过我们一体化的全球 HR 平台帮助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 340725,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/53db01f19ad6b32a-zh-cn-country-explorer-iceland.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/53db01f19ad6b32a-zh-cn-country-explorer-iceland.direct.json",
+  "markdownChars": 2620,
+  "linksCount": 122,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:15:47.352Z"
+}

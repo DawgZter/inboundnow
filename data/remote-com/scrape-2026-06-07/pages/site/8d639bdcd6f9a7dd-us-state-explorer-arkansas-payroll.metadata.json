@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/arkansas/payroll",
+  "sourceURL": "https://remote.com/us-state-explorer/arkansas/payroll",
+  "finalURL": "https://remote.com/us-state-explorer/arkansas/payroll",
+  "title": "Payroll Management in Arkansas",
+  "description": "Manage payroll in Arkansas seamlessly with Remote's payroll software. Stay compliant with Arkansas payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258414,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d639bdcd6f9a7dd-us-state-explorer-arkansas-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d639bdcd6f9a7dd-us-state-explorer-arkansas-payroll.direct.json",
+  "markdownChars": 4311,
+  "linksCount": 112,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:02:17.294Z"
+}

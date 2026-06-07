@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/ukraine/guide-avantages",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/ukraine/guide-avantages",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/ukraine/guide-avantages",
+  "title": "Avantages sociaux en Ukraine | Plans d’avantages sociaux Remote",
+  "description": "Découvrez les avantages sociaux essentiels en Ukraine. Informez-vous sur l’assurance santé, les congés payés et autres avantages pour attirer et fidéliser les meilleurs talents.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 273890,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/66fac358b317174c-fr-fr-explorateur-de-pays-ukraine-guide-avantages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/66fac358b317174c-fr-fr-explorateur-de-pays-ukraine-guide-avantages.direct.json",
+  "markdownChars": 1800,
+  "linksCount": 123,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:02:17.474Z"
+}

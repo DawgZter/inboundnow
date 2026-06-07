@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/grecia",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/grecia",
+  "finalURL": "https://remote.com/es-es/explorador-paises/grecia",
+  "title": "Employer of Record (EOR) y servicios de nóminas | Grecia",
+  "description": "¿Contratas empleados y trabajadores autónomos en Grecia? Remote puede ayudarte a gestionar empleados y trabajadores autónomos a través de nuestra plataforma RR. HH. globales integrada.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 345683,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/66f337eac4a5f093-es-es-explorador-paises-grecia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/66f337eac4a5f093-es-es-explorador-paises-grecia.direct.json",
+  "markdownChars": 7560,
+  "linksCount": 122,
+  "lastmod": "2026-03-31",
+  "scrapedAt": "2026-06-07T09:01:33.983Z"
+}

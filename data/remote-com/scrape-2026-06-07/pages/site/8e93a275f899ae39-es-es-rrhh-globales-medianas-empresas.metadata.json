@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/rrhh-globales/medianas-empresas",
+  "sourceURL": "https://remote.com/es-es/rrhh-globales/medianas-empresas",
+  "finalURL": "https://remote.com/es-es/rrhh-globales/medianas-empresas",
+  "title": "La plataforma de RR. HH. que las medianas empresas necesitan para crecer en todo el mundo | Remote",
+  "description": "La plataforma de Remote está configurada para crecer con las medianas empresas y permitir que tu equipo pueda contratar, gestionar y pagar a gente en cualquier lugar.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 345176,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e93a275f899ae39-es-es-rrhh-globales-medianas-empresas.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e93a275f899ae39-es-es-rrhh-globales-medianas-empresas.direct.json",
+  "markdownChars": 13059,
+  "linksCount": 119,
+  "lastmod": "2025-10-31",
+  "scrapedAt": "2026-06-07T09:02:34.315Z"
+}

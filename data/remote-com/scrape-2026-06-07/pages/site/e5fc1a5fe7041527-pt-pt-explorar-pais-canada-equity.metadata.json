@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/canada/equity",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/canada/equity",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/canada/equity",
+  "title": "Opções de ações para trabalhadores do Canadá",
+  "description": "Explora as regras específicas do Canadá para equity e opções de ações para trabalhadores. Toma decisões informadas sobre remuneração global com o Country Explorer da Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 157019,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e5fc1a5fe7041527-pt-pt-explorar-pais-canada-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e5fc1a5fe7041527-pt-pt-explorar-pais-canada-equity.direct.json",
+  "markdownChars": 4401,
+  "linksCount": 47,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:10:16.160Z"
+}

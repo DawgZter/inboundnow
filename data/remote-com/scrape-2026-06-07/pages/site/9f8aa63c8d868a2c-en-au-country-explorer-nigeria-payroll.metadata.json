@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/nigeria/payroll",
+  "sourceURL": "https://remote.com/en-au/country-explorer/nigeria/payroll",
+  "finalURL": "https://remote.com/en-au/country-explorer/nigeria/payroll",
+  "title": "Pay Employees in Nigeria | Payroll Services",
+  "description": "Pay employees in Nigeria effortlessly with our flexible payroll services. Run payroll, manage expenses and run reports, all from one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260099,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f8aa63c8d868a2c-en-au-country-explorer-nigeria-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f8aa63c8d868a2c-en-au-country-explorer-nigeria-payroll.direct.json",
+  "markdownChars": 3305,
+  "linksCount": 126,
+  "lastmod": "2025-11-08",
+  "scrapedAt": "2026-06-07T09:02:36.458Z"
+}

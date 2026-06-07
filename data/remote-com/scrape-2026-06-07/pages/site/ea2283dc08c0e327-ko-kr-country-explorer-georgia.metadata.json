@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/georgia",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/georgia",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/georgia",
+  "title": "기록상 고용주(EOR) 및 Payroll 서비스 | 조지아",
+  "description": "조지아에서 직원과 계약자를 채용하시나요? Remote는 통합 글로벌 HR 플랫폼을 통해 채용 및 관리를 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 345630,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ea2283dc08c0e327-ko-kr-country-explorer-georgia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ea2283dc08c0e327-ko-kr-country-explorer-georgia.direct.json",
+  "markdownChars": 3934,
+  "linksCount": 123,
+  "lastmod": "2026-05-28",
+  "scrapedAt": "2026-06-07T09:08:22.100Z"
+}

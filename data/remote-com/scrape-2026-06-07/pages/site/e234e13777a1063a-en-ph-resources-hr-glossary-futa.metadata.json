@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/hr-glossary/futa",
+  "sourceURL": "https://remote.com/en-ph/resources/hr-glossary/futa",
+  "finalURL": "https://remote.com/en-ph/resources/hr-glossary/futa",
+  "title": "What is the federal unemployment tax act (FUTA)?",
+  "description": "Understand the Federal Unemployment Tax Act (FUTA) and its significance in unemployment funding. Visit our glossary to learn how it impacts employers and employees.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252558,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e234e13777a1063a-en-ph-resources-hr-glossary-futa.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e234e13777a1063a-en-ph-resources-hr-glossary-futa.direct.json",
+  "markdownChars": 4323,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:10:39.062Z"
+}

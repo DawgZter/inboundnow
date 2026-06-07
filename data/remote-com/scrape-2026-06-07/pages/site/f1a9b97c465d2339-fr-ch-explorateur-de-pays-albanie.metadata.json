@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/albanie",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/albanie",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/albanie",
+  "title": "Employer of Record et services de paie | Albanie",
+  "description": "Recruter des employés et des freelances : Albanie Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 345859,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f1a9b97c465d2339-fr-ch-explorateur-de-pays-albanie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f1a9b97c465d2339-fr-ch-explorateur-de-pays-albanie.direct.json",
+  "markdownChars": 7309,
+  "linksCount": 124,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:01:19.287Z"
+}

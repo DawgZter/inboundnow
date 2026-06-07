@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/us-state-explorer/idaho/employer-of-record",
+  "sourceURL": "https://remote.com/en-ca/us-state-explorer/idaho/employer-of-record",
+  "finalURL": "https://remote.com/en-ca/us-state-explorer/idaho/employer-of-record",
+  "title": "Employer of Record services in Idaho",
+  "description": "Use employer of record services in Idaho make hiring, managing, and paying top talent easy. Stay compliant in Idaho and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259709,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0acdb15cef2a61a0-en-ca-us-state-explorer-idaho-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0acdb15cef2a61a0-en-ca-us-state-explorer-idaho-employer-of-record.direct.json",
+  "markdownChars": 3260,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:15:40.479Z"
+}

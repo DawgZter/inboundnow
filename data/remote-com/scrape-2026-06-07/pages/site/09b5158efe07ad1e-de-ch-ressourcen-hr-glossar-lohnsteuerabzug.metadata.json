@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/lohnsteuerabzug",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/lohnsteuerabzug",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/lohnsteuerabzug",
+  "title": "What are payroll deductions?",
+  "description": " Untersuche die Lohnabzüge und ihre Auswirkungen auf das Nettogehalt der Beschäftigten. Besuche unser Glossar, um die verschiedenen Arten und ihre Bedeutung für das Gehaltsmanagement zu verstehen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254608,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/09b5158efe07ad1e-de-ch-ressourcen-hr-glossar-lohnsteuerabzug.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/09b5158efe07ad1e-de-ch-ressourcen-hr-glossar-lohnsteuerabzug.direct.json",
+  "markdownChars": 3952,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:56.792Z"
+}

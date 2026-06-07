@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/kenya/equity",
+  "sourceURL": "https://remote.com/country-explorer/kenya/equity",
+  "finalURL": "https://remote.com/country-explorer/kenya/equity",
+  "title": "Stock Options for Employees in Kenya",
+  "description": "Explore Kenya specific rules for employee equity and stock options. Make informed decisions about global compensation with Remote’s Country Explorer.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259907,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e19508c38427d80a-country-explorer-kenya-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e19508c38427d80a-country-explorer-kenya-equity.direct.json",
+  "markdownChars": 4435,
+  "linksCount": 122,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:14:21.213Z"
+}

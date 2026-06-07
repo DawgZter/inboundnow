@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recomendar-amistad",
+  "sourceURL": "https://remote.com/es-es/recomendar-amistad",
+  "finalURL": "https://remote.com/es-es/recomendar-amistad",
+  "title": "Soluciones de RR. HH. globales para equipos distribuidos | Remote",
+  "description": "Contrata talento internacional en cuestión de minutos. Remote es la solución de nómina global, impuestos, RR. HH. y cumplimiento normativo más revolucionaria para equipos distribuidos.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 357738,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c4a6e66344048d7-es-es-recomendar-amistad.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c4a6e66344048d7-es-es-recomendar-amistad.direct.json",
+  "markdownChars": 7059,
+  "linksCount": 121,
+  "lastmod": "2026-01-29",
+  "scrapedAt": "2026-06-07T09:17:48.380Z"
+}

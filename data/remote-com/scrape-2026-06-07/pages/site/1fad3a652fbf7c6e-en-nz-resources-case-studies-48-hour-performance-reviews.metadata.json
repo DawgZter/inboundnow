@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/case-studies/48-hour-performance-reviews",
+  "sourceURL": "https://remote.com/en-nz/resources/case-studies/48-hour-performance-reviews",
+  "finalURL": "https://remote.com/en-nz/resources/case-studies/48-hour-performance-reviews",
+  "title": "From two months to two days: 1,800 employee reviews in just 48 hours with Remote Perform",
+  "description": "See how Remote redefined performance management by completing 1,800 employee reviews in just 48 hours with Remote Perform.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254401,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1fad3a652fbf7c6e-en-nz-resources-case-studies-48-hour-performance-reviews.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1fad3a652fbf7c6e-en-nz-resources-case-studies-48-hour-performance-reviews.direct.json",
+  "markdownChars": 5302,
+  "linksCount": 110,
+  "lastmod": "2026-03-31",
+  "scrapedAt": "2026-06-07T09:12:18.504Z"
+}

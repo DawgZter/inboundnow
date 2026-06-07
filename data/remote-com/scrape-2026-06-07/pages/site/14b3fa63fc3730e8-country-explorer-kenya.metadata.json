@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/kenya",
+  "sourceURL": "https://remote.com/country-explorer/kenya",
+  "finalURL": "https://remote.com/country-explorer/kenya",
+  "title": "Employer of Record & Payroll Services | Kenya",
+  "description": "Hiring employees and contractors in Kenya? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 341095,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/14b3fa63fc3730e8-country-explorer-kenya.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/14b3fa63fc3730e8-country-explorer-kenya.direct.json",
+  "markdownChars": 5880,
+  "linksCount": 121,
+  "lastmod": "2025-10-03",
+  "scrapedAt": "2026-06-07T09:02:27.186Z"
+}

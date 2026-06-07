@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/kentucky",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/kentucky",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/kentucky",
+  "title": "Employer of Record & Payroll Services | Kentucky",
+  "description": "Use our compliance guide to employ in Kentucky with ease. Learn about benefits, payroll, leave, and other labor laws in The Bluegrass State.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 332549,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/70fda427c2a4c216-en-gb-us-state-explorer-kentucky.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/70fda427c2a4c216-en-gb-us-state-explorer-kentucky.direct.json",
+  "markdownChars": 7132,
+  "linksCount": 114,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:08:50.511Z"
+}

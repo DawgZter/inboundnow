@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/georgia/contractor-management",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/georgia/contractor-management",
+  "finalURL": "https://remote.com/en-sg/country-explorer/georgia/contractor-management",
+  "title": "Manage Contractors in Georgia | Contractor Management",
+  "description": "Hiring a contractor in Georgia? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259824,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/05c4a9429a7cd498-en-sg-country-explorer-georgia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/05c4a9429a7cd498-en-sg-country-explorer-georgia-contractor-management.direct.json",
+  "markdownChars": 2260,
+  "linksCount": 126,
+  "lastmod": "2025-08-26",
+  "scrapedAt": "2026-06-07T09:10:25.016Z"
+}

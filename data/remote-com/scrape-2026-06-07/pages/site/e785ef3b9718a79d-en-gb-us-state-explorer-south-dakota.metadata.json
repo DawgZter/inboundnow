@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/south-dakota",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/south-dakota",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/south-dakota",
+  "title": "Employer of Record & Payroll Services | South Dakota",
+  "description": "Use our compliance guide to employ in South Dakota with ease. Learn about benefits, payroll, leave, and other labor laws in The Mount Rushmore State.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 332113,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e785ef3b9718a79d-en-gb-us-state-explorer-south-dakota.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e785ef3b9718a79d-en-gb-us-state-explorer-south-dakota.direct.json",
+  "markdownChars": 7232,
+  "linksCount": 114,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:11:50.955Z"
+}

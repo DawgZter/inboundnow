@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/belgium",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/belgium",
+  "finalURL": "https://remote.com/en-ph/country-explorer/belgium",
+  "title": "Employer of Record & Payroll Services | Belgium",
+  "description": "Hiring employees and contractors in Belgium? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 347155,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9b30e7c526d56dc1-en-ph-country-explorer-belgium.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9b30e7c526d56dc1-en-ph-country-explorer-belgium.direct.json",
+  "markdownChars": 6516,
+  "linksCount": 127,
+  "lastmod": "2026-04-10",
+  "scrapedAt": "2026-06-07T09:02:50.604Z"
+}

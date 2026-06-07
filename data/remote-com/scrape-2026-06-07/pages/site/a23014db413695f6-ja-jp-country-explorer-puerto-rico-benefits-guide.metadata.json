@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/puerto-rico/benefits-guide",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/puerto-rico/benefits-guide",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/puerto-rico/benefits-guide",
+  "title": "プエルトリコにおける従業員の福利厚生 | Remoteの福利厚生プラン",
+  "description": "プエルトリコにおける主要な福利厚生を解説し、健康保険、有給休暇などを通じて優秀な人材の獲得と定着を支援します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271427,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a23014db413695f6-ja-jp-country-explorer-puerto-rico-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a23014db413695f6-ja-jp-country-explorer-puerto-rico-benefits-guide.direct.json",
+  "markdownChars": 725,
+  "linksCount": 122,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:06:41.208Z"
+}

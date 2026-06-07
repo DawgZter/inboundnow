@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/ecuador",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/ecuador",
+  "finalURL": "https://remote.com/it-it/esplora-paese/ecuador",
+  "title": "Employer of Record (EOR) e Servizi Payroll | Ecuador",
+  "description": "Vuoi assumere personale e collaboratori in Ecuador? Remote può aiutarti a gestire sia il personale che i collaboratori tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 239060,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5798dda05dcbe9a8-it-it-esplora-paese-ecuador.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5798dda05dcbe9a8-it-it-esplora-paese-ecuador.direct.json",
+  "markdownChars": 6970,
+  "linksCount": 45,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:14:25.913Z"
+}

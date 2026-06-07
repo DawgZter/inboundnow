@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/ghana/contractor-management",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/ghana/contractor-management",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/ghana/contractor-management",
+  "title": "ガーナでの契約社員管理 | 契約社員管理",
+  "description": "ガーナで契約者を雇用しますか？柔軟な契約社員管理サービスで、グローバルな契約者の管理と支払いを手間なく行えます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256576,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7d2fc7323dd870d2-ja-jp-country-explorer-ghana-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7d2fc7323dd870d2-ja-jp-country-explorer-ghana-contractor-management.direct.json",
+  "markdownChars": 968,
+  "linksCount": 117,
+  "lastmod": "2025-10-28",
+  "scrapedAt": "2026-06-07T09:13:33.034Z"
+}

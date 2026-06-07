@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/sweden/employment-termination",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/sweden/employment-termination",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/sweden/employment-termination",
+  "title": "스웨덴에서의 직원 해고 | 해고 절차",
+  "description": "스웨덴에서 직원을 해고할 때의 권리와 절차를 포괄적인 해고 법률 가이드에서 명확하게 설명합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257996,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/75efa2f7925250bf-ko-kr-country-explorer-sweden-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/75efa2f7925250bf-ko-kr-country-explorer-sweden-employment-termination.direct.json",
+  "markdownChars": 684,
+  "linksCount": 123,
+  "lastmod": "2025-10-01",
+  "scrapedAt": "2026-06-07T09:05:59.703Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/griekenland/typen-verlof",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/griekenland/typen-verlof",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/griekenland/typen-verlof",
+  "title": "Typen verlof in Greece | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Griekenland. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256949,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e6bc32c2fc5d06d2-nl-be-landenverkenner-griekenland-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e6bc32c2fc5d06d2-nl-be-landenverkenner-griekenland-typen-verlof.direct.json",
+  "markdownChars": 3594,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:08:04.353Z"
+}

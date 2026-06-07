@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/south-korea/benefits-guide/mental-health",
+  "sourceURL": "https://remote.com/country-explorer/south-korea/benefits-guide/mental-health",
+  "finalURL": "https://remote.com/country-explorer/south-korea/benefits-guide/mental-health",
+  "title": "Mental Health Benefits in South Korea | Wellbeing Support",
+  "description": "Support your team with Mental Health benefits in South Korea.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269865,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7fd747a708167f96-country-explorer-south-korea-benefits-guide-mental-health.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7fd747a708167f96-country-explorer-south-korea-benefits-guide-mental-health.direct.json",
+  "markdownChars": 6252,
+  "linksCount": 117,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:16:57.479Z"
+}

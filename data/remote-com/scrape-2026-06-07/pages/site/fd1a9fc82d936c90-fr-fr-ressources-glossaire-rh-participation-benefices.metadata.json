@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/participation-benefices",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/participation-benefices",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/participation-benefices",
+  "title": "Participation aux bénéfices",
+  "description": "Découvrez comment fonctionne le partage des bénéfices, en quoi il diffère des primes et des actions, et pourquoi les entreprises y ont recours pour motiver, fidéliser et récompenser leurs employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258756,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd1a9fc82d936c90-fr-fr-ressources-glossaire-rh-participation-benefices.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd1a9fc82d936c90-fr-fr-ressources-glossaire-rh-participation-benefices.direct.json",
+  "markdownChars": 5655,
+  "linksCount": 122,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:13:31.152Z"
+}

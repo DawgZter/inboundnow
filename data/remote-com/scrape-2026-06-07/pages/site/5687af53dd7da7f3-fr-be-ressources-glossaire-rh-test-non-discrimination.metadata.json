@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/glossaire-rh/test-non-discrimination",
+  "sourceURL": "https://remote.com/fr-be/ressources/glossaire-rh/test-non-discrimination",
+  "finalURL": "https://remote.com/fr-be/ressources/glossaire-rh/test-non-discrimination",
+  "title": "What is non-discrimination testing?",
+  "description": "Les tests de non-discrimination garantissent une distribution équitable des avantages dans les régimes de salariés, en évitant tout favoritisme à l'égard des personnes fortement rémunérées.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259635,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5687af53dd7da7f3-fr-be-ressources-glossaire-rh-test-non-discrimination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5687af53dd7da7f3-fr-be-ressources-glossaire-rh-test-non-discrimination.direct.json",
+  "markdownChars": 6122,
+  "linksCount": 125,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:10:51.116Z"
+}

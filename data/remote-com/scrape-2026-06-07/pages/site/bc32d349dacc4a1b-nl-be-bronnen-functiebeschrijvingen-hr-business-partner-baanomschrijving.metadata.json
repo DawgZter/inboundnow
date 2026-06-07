@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/hr-business-partner-baanomschrijving",
+  "sourceURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/hr-business-partner-baanomschrijving",
+  "finalURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/hr-business-partner-baanomschrijving",
+  "title": "Functiebeschrijving HR-businesspartner",
+  "description": "Bekijk de functiebeschrijving voor een HR business partner, die verantwoordelijk is voor het afstemmen van HR-strategieën op bedrijfsdoelen, het ondersteunen van werknemersrelaties en het stimuleren van organisatorisch succes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258089,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bc32d349dacc4a1b-nl-be-bronnen-functiebeschrijvingen-hr-business-partner-baanomschrijving.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bc32d349dacc4a1b-nl-be-bronnen-functiebeschrijvingen-hr-business-partner-baanomschrijving.direct.json",
+  "markdownChars": 5558,
+  "linksCount": 117,
+  "lastmod": "2026-02-11",
+  "scrapedAt": "2026-06-07T09:13:31.479Z"
+}

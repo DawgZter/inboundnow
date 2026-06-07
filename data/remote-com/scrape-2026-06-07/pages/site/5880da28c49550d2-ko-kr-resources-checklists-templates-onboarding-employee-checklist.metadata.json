@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/checklists-templates/onboarding-employee-checklist",
+  "sourceURL": "https://remote.com/ko-kr/resources/checklists-templates/onboarding-employee-checklist",
+  "finalURL": "https://remote.com/ko-kr/resources/checklists-templates/onboarding-employee-checklist",
+  "title": "원격 신입 사원을 위한 직원 온보딩 체크리스트 | Remote",
+  "description": "Remote의 직원 온보딩 체크리스트를 통해 전 세계 어디에서든 신입 사원이 순조로운 출발을 할 수 있도록 하세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257648,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5880da28c49550d2-ko-kr-resources-checklists-templates-onboarding-employee-checklist.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5880da28c49550d2-ko-kr-resources-checklists-templates-onboarding-employee-checklist.direct.json",
+  "markdownChars": 4162,
+  "linksCount": 116,
+  "lastmod": "2025-06-12",
+  "scrapedAt": "2026-06-07T09:01:04.127Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/descriptions-postes/analyste-marketing-description-poste",
+  "sourceURL": "https://remote.com/fr-ch/ressources/descriptions-postes/analyste-marketing-description-poste",
+  "finalURL": "https://remote.com/fr-ch/ressources/descriptions-postes/analyste-marketing-description-poste",
+  "title": "Description du poste d'analyste marketing",
+  "description": "Examinez la description du poste d'analyste marketing, chargé d'analyser les données du marché, d'identifier les tendances et de fournir des informations pour optimiser les stratégies et les campagnes de marketing.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265254,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c3342247ea937a50-fr-ch-ressources-descriptions-postes-analyste-marketing-description-poste.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c3342247ea937a50-fr-ch-ressources-descriptions-postes-analyste-marketing-description-poste.direct.json",
+  "markdownChars": 6771,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:08:22.357Z"
+}

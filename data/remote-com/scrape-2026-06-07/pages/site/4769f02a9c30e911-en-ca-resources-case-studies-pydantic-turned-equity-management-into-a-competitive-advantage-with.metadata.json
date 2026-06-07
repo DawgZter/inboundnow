@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/case-studies/pydantic-turned-equity-management-into-a-competitive-advantage-with-remote",
+  "sourceURL": "https://remote.com/en-ca/resources/case-studies/pydantic-turned-equity-management-into-a-competitive-advantage-with-remote",
+  "finalURL": "https://remote.com/en-ca/resources/case-studies/pydantic-turned-equity-management-into-a-competitive-advantage-with-remote",
+  "title": "How Pydantic turned equity management into a competitive advantage with Remote",
+  "description": "Pydantic used Remote to simplify global equity, stay compliant, and attract top AI talent, turning complex hiring into a competitive advantage.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257652,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4769f02a9c30e911-en-ca-resources-case-studies-pydantic-turned-equity-management-into-a-competitive-advantage-with.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4769f02a9c30e911-en-ca-resources-case-studies-pydantic-turned-equity-management-into-a-competitive-advantage-with.direct.json",
+  "markdownChars": 5128,
+  "linksCount": 107,
+  "lastmod": "2025-06-25",
+  "scrapedAt": "2026-06-07T09:01:31.074Z"
+}

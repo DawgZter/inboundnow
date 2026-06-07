@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/unfair-dismissal",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/unfair-dismissal",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/unfair-dismissal",
+  "title": "不当解雇",
+  "description": "不当解雇はビジネスに深刻な法的結果をもたらす可能性があります。不当解雇とはどのようなものなのか、そしてそれを避けるにはどうすればよいのかを学びましょう。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255359,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1474f8d4f876b8e9-ja-jp-resources-hr-glossary-unfair-dismissal.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1474f8d4f876b8e9-ja-jp-resources-hr-glossary-unfair-dismissal.direct.json",
+  "markdownChars": 1866,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:10:48.496Z"
+}

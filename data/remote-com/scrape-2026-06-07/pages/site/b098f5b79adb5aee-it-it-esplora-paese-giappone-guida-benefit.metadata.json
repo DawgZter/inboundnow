@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/giappone/guida-benefit",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/giappone/guida-benefit",
+  "finalURL": "https://remote.com/it-it/esplora-paese/giappone/guida-benefit",
+  "title": "Benefit per i dipendenti in Giappone | Piani di benefit",
+  "description": "Scopri i benefit per i dipendenti essenziali in Giappone. Informati su assicurazione sanitaria, congedi retribuiti e altri vantaggi per attirare e trattenere i migliori talenti.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 165333,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b098f5b79adb5aee-it-it-esplora-paese-giappone-guida-benefit.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b098f5b79adb5aee-it-it-esplora-paese-giappone-guida-benefit.direct.json",
+  "markdownChars": 1609,
+  "linksCount": 44,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:12:56.415Z"
+}

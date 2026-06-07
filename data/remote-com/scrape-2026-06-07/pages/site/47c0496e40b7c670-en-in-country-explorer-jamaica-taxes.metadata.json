@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/jamaica/taxes",
+  "sourceURL": "https://remote.com/en-in/country-explorer/jamaica/taxes",
+  "finalURL": "https://remote.com/en-in/country-explorer/jamaica/taxes",
+  "title": "Manage Payroll Tax in Jamaica | Tax Compliance",
+  "description": "Manage payroll taxes in Jamaica effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257854,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/47c0496e40b7c670-en-in-country-explorer-jamaica-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/47c0496e40b7c670-en-in-country-explorer-jamaica-taxes.direct.json",
+  "markdownChars": 1042,
+  "linksCount": 124,
+  "lastmod": "2025-09-02",
+  "scrapedAt": "2026-06-07T09:18:07.232Z"
+}

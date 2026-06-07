@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/usa",
+  "sourceURL": "https://remote.com/de-de/country-explorer/usa",
+  "finalURL": "https://remote.com/de-de/country-explorer/usa",
+  "title": "Employer of Record (EOR) und Payroll‑Dienste | Vereinigte Staaten",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in USA? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 353461,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5ac0601e2e12818d-de-de-country-explorer-usa.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5ac0601e2e12818d-de-de-country-explorer-usa.direct.json",
+  "markdownChars": 11029,
+  "linksCount": 127,
+  "lastmod": "2026-02-08",
+  "scrapedAt": "2026-06-07T09:11:38.104Z"
+}

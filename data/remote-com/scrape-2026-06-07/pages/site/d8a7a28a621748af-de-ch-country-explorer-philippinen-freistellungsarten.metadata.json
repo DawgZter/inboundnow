@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/philippinen/freistellungsarten",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/philippinen/freistellungsarten",
+  "finalURL": "https://remote.com/de-ch/country-explorer/philippinen/freistellungsarten",
+  "title": "Urlaubsansprüche in Philippines | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Philippinen. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260210,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8a7a28a621748af-de-ch-country-explorer-philippinen-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d8a7a28a621748af-de-ch-country-explorer-philippinen-freistellungsarten.direct.json",
+  "markdownChars": 2327,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:08:57.357Z"
+}

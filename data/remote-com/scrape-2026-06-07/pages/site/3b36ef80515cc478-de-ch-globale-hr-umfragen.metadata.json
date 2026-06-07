@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/globale-hr/umfragen",
+  "sourceURL": "https://remote.com/de-ch/globale-hr/umfragen",
+  "finalURL": "https://remote.com/de-ch/globale-hr/umfragen",
+  "title": "Employee Surveys Software | Remote",
+  "description": "Remote Surveys ist eine genial einfache Möglichkeit, direkt über deine HR-Plattform Umfragen unter deinen Mitarbeiter:innen durchzuführen. Ganz ohne zusätzliche Tools. Erstelle, plane und analysiere Umfragen mit KI-gestützten Insights und Echtzeit-Analysen – völlig anonym und direkt in Remote HRIS.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 391440,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3b36ef80515cc478-de-ch-globale-hr-umfragen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3b36ef80515cc478-de-ch-globale-hr-umfragen.direct.json",
+  "markdownChars": 7738,
+  "linksCount": 123,
+  "lastmod": "2025-10-01",
+  "scrapedAt": "2026-06-07T09:08:13.271Z"
+}

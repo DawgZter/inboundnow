@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/zuid-korea/overzicht-secundaire-arbeidsvoorwaarden",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/zuid-korea/overzicht-secundaire-arbeidsvoorwaarden",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/zuid-korea/overzicht-secundaire-arbeidsvoorwaarden",
+  "title": "Secundaire arbeidsvoorwaarden in Zuid-Korea | Pakketten",
+  "description": "Ontdek de essentiële secundaire arbeidsvoorwaarden in Zuid-Korea. Lees over ziekte-/zorgverzekering, doorbetaald verlof en andere voordelen om toptalent aan te trekken en te behouden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 274310,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/185a741efe308fae-nl-nl-landenverkenner-zuid-korea-overzicht-secundaire-arbeidsvoorwaarden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/185a741efe308fae-nl-nl-landenverkenner-zuid-korea-overzicht-secundaire-arbeidsvoorwaarden.direct.json",
+  "markdownChars": 1804,
+  "linksCount": 124,
+  "lastmod": "2026-01-06",
+  "scrapedAt": "2026-06-07T09:10:44.298Z"
+}

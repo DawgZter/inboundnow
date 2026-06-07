@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/us-state-explorer/kentucky/employer-of-record",
+  "sourceURL": "https://remote.com/en-sg/us-state-explorer/kentucky/employer-of-record",
+  "finalURL": "https://remote.com/en-sg/us-state-explorer/kentucky/employer-of-record",
+  "title": "Employer of Record services in Kentucky",
+  "description": "Use employer of record services in Kentucky make hiring, managing, and paying top talent easy. Stay compliant in Kentucky and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258439,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/50c3e81377cef490-en-sg-us-state-explorer-kentucky-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/50c3e81377cef490-en-sg-us-state-explorer-kentucky-employer-of-record.direct.json",
+  "markdownChars": 3302,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:01:22.688Z"
+}

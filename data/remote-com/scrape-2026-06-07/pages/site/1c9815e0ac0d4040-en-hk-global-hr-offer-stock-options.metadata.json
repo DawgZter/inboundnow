@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/global-hr/offer-stock-options",
+  "sourceURL": "https://remote.com/en-hk/global-hr/offer-stock-options",
+  "finalURL": "https://remote.com/en-hk/global-hr/offer-stock-options",
+  "title": "Stock options and other equity incentives for international employees | Remote",
+  "description": "Hire international talent in minutes. Remote is the most disruptive global payroll, tax, HR and compliance solution for distributed teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 381833,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1c9815e0ac0d4040-en-hk-global-hr-offer-stock-options.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1c9815e0ac0d4040-en-hk-global-hr-offer-stock-options.direct.json",
+  "markdownChars": 6631,
+  "linksCount": 117,
+  "lastmod": "2026-03-19",
+  "scrapedAt": "2026-06-07T09:01:17.210Z"
+}

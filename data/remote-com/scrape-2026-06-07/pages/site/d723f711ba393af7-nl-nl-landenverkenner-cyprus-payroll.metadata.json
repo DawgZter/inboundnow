@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/cyprus/payroll",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/cyprus/payroll",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/cyprus/payroll",
+  "title": "Werknemers in Cyprus betalen | Payrollservices",
+  "description": "Betaal werknemers in Cyprus moeiteloos met onze flexibele payrollservices. Voer payroll uit, beheer onkosten en maak rapporten, allemaal vanaf één plek.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263264,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d723f711ba393af7-nl-nl-landenverkenner-cyprus-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d723f711ba393af7-nl-nl-landenverkenner-cyprus-payroll.direct.json",
+  "markdownChars": 4130,
+  "linksCount": 125,
+  "lastmod": "2025-12-15",
+  "scrapedAt": "2026-06-07T09:07:00.419Z"
+}

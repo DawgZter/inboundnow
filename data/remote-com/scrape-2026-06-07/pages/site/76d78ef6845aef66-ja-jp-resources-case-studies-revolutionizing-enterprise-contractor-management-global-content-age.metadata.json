@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/case-studies/revolutionizing-enterprise-contractor-management-global-content-agency-success",
+  "sourceURL": "https://remote.com/ja-jp/resources/case-studies/revolutionizing-enterprise-contractor-management-global-content-agency-success",
+  "finalURL": "https://remote.com/ja-jp/resources/case-studies/revolutionizing-enterprise-contractor-management-global-content-agency-success",
+  "title": "エンタープライズ契約社員管理を革新：グローバルコンテンツエージェンシーがRemoteで実現した成功事例",
+  "description": "グローバルコンテンツエージェンシーがRemoteを活用して、管理プロセスを効率化し、財務管理を強化することで、新たなレベルの業務効率を実現した方法をご覧ください。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263214,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76d78ef6845aef66-ja-jp-resources-case-studies-revolutionizing-enterprise-contractor-management-global-content-age.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76d78ef6845aef66-ja-jp-resources-case-studies-revolutionizing-enterprise-contractor-management-global-content-age.direct.json",
+  "markdownChars": 2922,
+  "linksCount": 115,
+  "lastmod": "2025-06-13",
+  "scrapedAt": "2026-06-07T09:12:22.657Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/perou/taxes",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/perou/taxes",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/perou/taxes",
+  "title": "Peru : Gérer l’imposition de la paie | Conformité fiscale",
+  "description": "Perou : Gérez efficacement l’imposition de la paie, en toute conformité. Réduisez les erreurs d’imposition de la paie, respectez le droit local et évitez de coûteuses amendes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261206,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ee3cea8f5f16c44e-fr-ch-explorateur-de-pays-perou-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ee3cea8f5f16c44e-fr-ch-explorateur-de-pays-perou-taxes.direct.json",
+  "markdownChars": 1044,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:01:01.219Z"
+}

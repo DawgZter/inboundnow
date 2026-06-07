@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/descriptions-postes/description-poste-responsable-ventes-internes",
+  "sourceURL": "https://remote.com/fr-be/ressources/descriptions-postes/description-poste-responsable-ventes-internes",
+  "finalURL": "https://remote.com/fr-be/ressources/descriptions-postes/description-poste-responsable-ventes-internes",
+  "title": "Description du poste de directeur des ventes internes",
+  "description": "Examinez la description de poste d'un directeur des ventes internes, chargé de diriger l'équipe de vente, d'élaborer des stratégies de vente et d'atteindre les objectifs de chiffre d'affaires grâce à une gestion efficace.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263512,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a1022f67cdf81d70-fr-be-ressources-descriptions-postes-description-poste-responsable-ventes-internes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a1022f67cdf81d70-fr-be-ressources-descriptions-postes-description-poste-responsable-ventes-internes.direct.json",
+  "markdownChars": 4542,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:04:33.761Z"
+}

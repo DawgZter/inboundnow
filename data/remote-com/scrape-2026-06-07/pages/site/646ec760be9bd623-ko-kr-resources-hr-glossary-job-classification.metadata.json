@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/job-classification",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/job-classification",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/job-classification",
+  "title": "직무 분류",
+  "description": "직무 분류의 중요성을 이해하고 조직의 역할을 효과적으로 분류하는 방법을 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259118,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/646ec760be9bd623-ko-kr-resources-hr-glossary-job-classification.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/646ec760be9bd623-ko-kr-resources-hr-glossary-job-classification.direct.json",
+  "markdownChars": 3870,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:09:23.864Z"
+}

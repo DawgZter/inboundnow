@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/slowenien/beendigung-arbeitsverhaltnisses",
+  "sourceURL": "https://remote.com/de-de/country-explorer/slowenien/beendigung-arbeitsverhaltnisses",
+  "finalURL": "https://remote.com/de-de/country-explorer/slowenien/beendigung-arbeitsverhaltnisses",
+  "title": "Arbeitsverhältnisse in Slovenia beenden | Mitarbeiter:innen kündigen",
+  "description": "Du musst eine Teammitglied in Slowenien entlassen? In unserem umfassenden Leitfaden zum Kündigungsrecht erfährst du, was du tun kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258281,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/289ea58c224409a1-de-de-country-explorer-slowenien-beendigung-arbeitsverhaltnisses.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/289ea58c224409a1-de-de-country-explorer-slowenien-beendigung-arbeitsverhaltnisses.direct.json",
+  "markdownChars": 2199,
+  "linksCount": 121,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:01:34.555Z"
+}

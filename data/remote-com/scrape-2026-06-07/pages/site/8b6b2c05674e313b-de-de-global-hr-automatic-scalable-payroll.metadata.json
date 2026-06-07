@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/global-hr/automatic-scalable-payroll",
+  "sourceURL": "https://remote.com/de-de/global-hr/automatic-scalable-payroll",
+  "finalURL": "https://remote.com/de-de/global-hr/automatic-scalable-payroll",
+  "title": "Automatisierte, skalierbare Payroll | Remote",
+  "description": "Discover payroll that grows with your business. Remote automates compliance, streamlines onboarding, and delivers clear, actionable data, so payroll runs efficiently, every time.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 339654,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b6b2c05674e313b-de-de-global-hr-automatic-scalable-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b6b2c05674e313b-de-de-global-hr-automatic-scalable-payroll.direct.json",
+  "markdownChars": 3712,
+  "linksCount": 119,
+  "lastmod": "2025-10-09",
+  "scrapedAt": "2026-06-07T09:13:52.850Z"
+}

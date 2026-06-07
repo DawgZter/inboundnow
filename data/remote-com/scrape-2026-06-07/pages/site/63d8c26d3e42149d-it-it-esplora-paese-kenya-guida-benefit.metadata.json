@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/kenya/guida-benefit",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/kenya/guida-benefit",
+  "finalURL": "https://remote.com/it-it/esplora-paese/kenya/guida-benefit",
+  "title": "Benefit per i dipendenti in Kenya | Piani di benefit",
+  "description": "Scopri i benefit per i dipendenti essenziali in Kenya. Informati su assicurazione sanitaria, congedi retribuiti e altri vantaggi per attirare e trattenere i migliori talenti.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 164751,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/63d8c26d3e42149d-it-it-esplora-paese-kenya-guida-benefit.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/63d8c26d3e42149d-it-it-esplora-paese-kenya-guida-benefit.direct.json",
+  "markdownChars": 1580,
+  "linksCount": 45,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:12:04.207Z"
+}

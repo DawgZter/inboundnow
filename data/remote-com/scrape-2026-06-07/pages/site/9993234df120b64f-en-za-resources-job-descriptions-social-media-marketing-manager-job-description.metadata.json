@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/resources/job-descriptions/social-media-marketing-manager-job-description",
+  "sourceURL": "https://remote.com/en-za/resources/job-descriptions/social-media-marketing-manager-job-description",
+  "finalURL": "https://remote.com/en-za/resources/job-descriptions/social-media-marketing-manager-job-description",
+  "title": "Social media marketing manager job description",
+  "description": "Review the job description for a social media marketing manager, responsible for developing strategies, creating content, and managing social media campaigns to enhance brand presence.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260436,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9993234df120b64f-en-za-resources-job-descriptions-social-media-marketing-manager-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9993234df120b64f-en-za-resources-job-descriptions-social-media-marketing-manager-job-description.direct.json",
+  "markdownChars": 5738,
+  "linksCount": 113,
+  "lastmod": "2025-07-10",
+  "scrapedAt": "2026-06-07T09:10:04.099Z"
+}

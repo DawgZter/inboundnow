@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-gestionnaire-operations-juridiques",
+  "sourceURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-gestionnaire-operations-juridiques",
+  "finalURL": "https://remote.com/fr-ch/ressources/descriptions-postes/description-poste-gestionnaire-operations-juridiques",
+  "title": "Description du poste de responsable des opérations juridiques",
+  "description": "Examinez la description de poste d'un responsable des opérations juridiques, chargé d'optimiser les processus juridiques, de gérer les budgets et de soutenir l'efficacité opérationnelle de l'équipe juridique.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263441,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7179330818747f5b-fr-ch-ressources-descriptions-postes-description-poste-gestionnaire-operations-juridiques.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7179330818747f5b-fr-ch-ressources-descriptions-postes-description-poste-gestionnaire-operations-juridiques.direct.json",
+  "markdownChars": 4528,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:08:58.689Z"
+}

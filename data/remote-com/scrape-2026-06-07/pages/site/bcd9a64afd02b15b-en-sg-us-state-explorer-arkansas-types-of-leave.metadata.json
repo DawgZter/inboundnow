@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/us-state-explorer/arkansas/types-of-leave",
+  "sourceURL": "https://remote.com/en-sg/us-state-explorer/arkansas/types-of-leave",
+  "finalURL": "https://remote.com/en-sg/us-state-explorer/arkansas/types-of-leave",
+  "title": "Types of Leave in Arkansas | Employee Leave Laws",
+  "description": "Understand employee leave laws in Arkansas. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256800,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bcd9a64afd02b15b-en-sg-us-state-explorer-arkansas-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bcd9a64afd02b15b-en-sg-us-state-explorer-arkansas-types-of-leave.direct.json",
+  "markdownChars": 2048,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:18:50.084Z"
+}

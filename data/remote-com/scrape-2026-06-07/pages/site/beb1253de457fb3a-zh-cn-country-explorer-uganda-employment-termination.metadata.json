@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/uganda/employment-termination",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/uganda/employment-termination",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/uganda/employment-termination",
+  "title": "乌干达员工解雇 | 员工解雇",
+  "description": "在乌干达解雇员工前，了解贵公司的权利与义务，以及适用的解雇法律与流程。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255975,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/beb1253de457fb3a-zh-cn-country-explorer-uganda-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/beb1253de457fb3a-zh-cn-country-explorer-uganda-employment-termination.direct.json",
+  "markdownChars": 666,
+  "linksCount": 120,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:04:32.270Z"
+}

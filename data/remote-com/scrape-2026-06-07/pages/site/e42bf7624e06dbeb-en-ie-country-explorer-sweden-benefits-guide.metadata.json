@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/sweden/benefits-guide",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/sweden/benefits-guide",
+  "finalURL": "https://remote.com/en-ie/country-explorer/sweden/benefits-guide",
+  "title": "Employee Benefits in Sweden | Benefits Plans",
+  "description": "Discover the essential employee benefits in Sweden. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271863,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e42bf7624e06dbeb-en-ie-country-explorer-sweden-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e42bf7624e06dbeb-en-ie-country-explorer-sweden-benefits-guide.direct.json",
+  "markdownChars": 1465,
+  "linksCount": 128,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:07:01.898Z"
+}

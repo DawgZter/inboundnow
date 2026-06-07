@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/iles-salomon",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/iles-salomon",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/iles-salomon",
+  "title": "Services de paie et d’Employer of record : Solomon Islands",
+  "description": "Recruter des employés et des freelances : Îles Salomon Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 313011,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/931bd795751eafe3-fr-ch-explorateur-de-pays-iles-salomon.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/931bd795751eafe3-fr-ch-explorateur-de-pays-iles-salomon.direct.json",
+  "markdownChars": 3852,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:09:36.495Z"
+}

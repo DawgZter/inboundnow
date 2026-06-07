@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/hr-talent-sourcing",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/hr-talent-sourcing",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/hr-talent-sourcing",
+  "title": "Global HR Solutions &amp; Employment Tools for Distributed Teams",
+  "description": "Learn more about talent sourcing in HR and how your company can optimize its talent sourcing strategy.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252313,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e103ef4d36f14b04-en-hk-resources-hr-glossary-hr-talent-sourcing.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e103ef4d36f14b04-en-hk-resources-hr-glossary-hr-talent-sourcing.direct.json",
+  "markdownChars": 3808,
+  "linksCount": 119,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:01.202Z"
+}

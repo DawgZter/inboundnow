@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/us-state-explorer/alabama/taxes",
+  "sourceURL": "https://remote.com/en-nz/us-state-explorer/alabama/taxes",
+  "finalURL": "https://remote.com/en-nz/us-state-explorer/alabama/taxes",
+  "title": "Manage Payroll Tax in - Alabama | Tax Compliance",
+  "description": "Manage payroll taxes in Alabama effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256437,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/00e8815a46868d7d-en-nz-us-state-explorer-alabama-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/00e8815a46868d7d-en-nz-us-state-explorer-alabama-taxes.direct.json",
+  "markdownChars": 1066,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:02:00.703Z"
+}

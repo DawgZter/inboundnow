@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/werknemer-overstap",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/werknemer-overstap",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/werknemer-overstap",
+  "title": "What is an employee transfer?",
+  "description": "Leer meer over overplaatsingen van medewerkers en hun invloed op carrièregroei en organisatiestructuur. Bezoek onze verklarende woordenlijst om hun rol in HR-management te begrijpen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251370,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0759c1bace9736e8-nl-be-bronnen-hr-woordenlijst-werknemer-overstap.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0759c1bace9736e8-nl-be-bronnen-hr-woordenlijst-werknemer-overstap.direct.json",
+  "markdownChars": 5078,
+  "linksCount": 123,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:12.026Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/bulgarien/steuern",
+  "sourceURL": "https://remote.com/de-de/country-explorer/bulgarien/steuern",
+  "finalURL": "https://remote.com/de-de/country-explorer/bulgarien/steuern",
+  "title": "Payroll in Bulgarien | Steuerrecht Rechtskonformität",
+  "description": "Bezahle Lohnsteuern in '.Bulgarien.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258764,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/41e11c3edbdcefe7-de-de-country-explorer-bulgarien-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/41e11c3edbdcefe7-de-de-country-explorer-bulgarien-steuern.direct.json",
+  "markdownChars": 1648,
+  "linksCount": 121,
+  "lastmod": "2025-09-01",
+  "scrapedAt": "2026-06-07T09:09:51.327Z"
+}

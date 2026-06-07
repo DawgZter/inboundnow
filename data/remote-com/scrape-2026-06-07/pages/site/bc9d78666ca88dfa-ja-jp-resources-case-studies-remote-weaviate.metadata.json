@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/case-studies/remote-weaviate",
+  "sourceURL": "https://remote.com/ja-jp/resources/case-studies/remote-weaviate",
+  "finalURL": "https://remote.com/ja-jp/resources/case-studies/remote-weaviate",
+  "title": "AIのパイオニアであるWeaviateは、Remoteを使い、どのようにしてワークフォースを120%に増やしたのか",
+  "description": " AIネイティブなインフラへの需要が高まる中、Weaviateはなぜ、全世界のワークフォースのオンボーディング・管理・給与支給のためにRemoteと提携したのでしょうか。その理由をご覧ください。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 266298,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bc9d78666ca88dfa-ja-jp-resources-case-studies-remote-weaviate.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bc9d78666ca88dfa-ja-jp-resources-case-studies-remote-weaviate.direct.json",
+  "markdownChars": 5017,
+  "linksCount": 115,
+  "lastmod": "2025-06-13",
+  "scrapedAt": "2026-06-07T09:01:10.129Z"
+}

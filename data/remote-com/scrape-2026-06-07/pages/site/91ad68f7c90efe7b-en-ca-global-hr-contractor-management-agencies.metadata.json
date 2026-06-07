@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/global-hr/contractor-management-agencies",
+  "sourceURL": "https://remote.com/en-ca/global-hr/contractor-management-agencies",
+  "finalURL": "https://remote.com/en-ca/global-hr/contractor-management-agencies",
+  "title": "Agency Contractor Management Software | Remote",
+  "description": "Remote's Contractor Management software is ideal for agencies. Automate contract templates, agreements, onboarding and payroll – all on one simple hub.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 394195,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/91ad68f7c90efe7b-en-ca-global-hr-contractor-management-agencies.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/91ad68f7c90efe7b-en-ca-global-hr-contractor-management-agencies.direct.json",
+  "markdownChars": 7735,
+  "linksCount": 117,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:02:45.572Z"
+}

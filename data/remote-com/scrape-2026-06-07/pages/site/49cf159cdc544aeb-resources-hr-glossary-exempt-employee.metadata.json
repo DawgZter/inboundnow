@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/exempt-employee",
+  "sourceURL": "https://remote.com/resources/hr-glossary/exempt-employee",
+  "finalURL": "https://remote.com/resources/hr-glossary/exempt-employee",
+  "title": "Exempt employee",
+  "description": "An exempt employee isn’t eligible for overtime pay. Learn how exempt status works, why it matters, and how to stay compliant with hiring. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252834,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/49cf159cdc544aeb-resources-hr-glossary-exempt-employee.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/49cf159cdc544aeb-resources-hr-glossary-exempt-employee.direct.json",
+  "markdownChars": 4202,
+  "linksCount": 119,
+  "lastmod": "2025-08-04",
+  "scrapedAt": "2026-06-07T09:07:04.142Z"
+}

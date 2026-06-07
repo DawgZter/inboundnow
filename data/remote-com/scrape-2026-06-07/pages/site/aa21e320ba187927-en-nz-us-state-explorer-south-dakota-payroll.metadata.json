@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/us-state-explorer/south-dakota/payroll",
+  "sourceURL": "https://remote.com/en-nz/us-state-explorer/south-dakota/payroll",
+  "finalURL": "https://remote.com/en-nz/us-state-explorer/south-dakota/payroll",
+  "title": "Payroll Management in South Dakota",
+  "description": "Manage payroll in South Dakota seamlessly with Remote's payroll software. Stay compliant with South Dakota payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259142,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aa21e320ba187927-en-nz-us-state-explorer-south-dakota-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/aa21e320ba187927-en-nz-us-state-explorer-south-dakota-payroll.direct.json",
+  "markdownChars": 4345,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:08:18.508Z"
+}

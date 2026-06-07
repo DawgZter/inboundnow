@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/feuille-temps",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/feuille-temps",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/feuille-temps",
+  "title": "Feuille de temps",
+  "description": "Une feuille de temps peut avoir un impact significatif sur une entreprise en fournissant un suivi précis des heures de travail des employés, ce qui facilite le traitement des salaires et la gestion des ressources.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256443,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3444f54e625e737f-fr-fr-ressources-glossaire-rh-feuille-temps.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3444f54e625e737f-fr-fr-ressources-glossaire-rh-feuille-temps.direct.json",
+  "markdownChars": 4262,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:49.966Z"
+}

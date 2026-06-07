@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/labor-law",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/labor-law",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/labor-law",
+  "title": "What are labor laws?",
+  "description": "Learn more about labor laws and what they entail. Learn how they benefit employers and employees and how to comply with them to avoid legal troubles.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254288,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/622097f964f3fbaf-en-hk-resources-hr-glossary-labor-law.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/622097f964f3fbaf-en-hk-resources-hr-glossary-labor-law.direct.json",
+  "markdownChars": 5456,
+  "linksCount": 121,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:16:51.916Z"
+}

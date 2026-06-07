@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/hr-glossary/breaks-for-remote-employees",
+  "sourceURL": "https://remote.com/en-ca/resources/hr-glossary/breaks-for-remote-employees",
+  "finalURL": "https://remote.com/en-ca/resources/hr-glossary/breaks-for-remote-employees",
+  "title": "Global HR Solutions &amp; Employment Tools for Distributed Teams",
+  "description": "Breaks for remote employees are scheduled or unscheduled periods during the workday when staff are not expected to perform their job duties. These can include lunch breaks, coffee breaks, or short rest periods. These breaks help remote employees manage stress, prevent burnout, and maintain productivity.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256085,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a9a3a843467387a-en-ca-resources-hr-glossary-breaks-for-remote-employees.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8a9a3a843467387a-en-ca-resources-hr-glossary-breaks-for-remote-employees.direct.json",
+  "markdownChars": 4812,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:11:12.102Z"
+}

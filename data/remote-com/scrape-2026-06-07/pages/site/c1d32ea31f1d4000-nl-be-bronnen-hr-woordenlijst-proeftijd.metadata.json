@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/proeftijd",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/proeftijd",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/proeftijd",
+  "title": "Reclassering",
+  "description": "Ontdek wat een proefperiode is, hoe deze werkt en wat werkgevers en werknemers kunnen verwachten tijdens deze proefperiode.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250413,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1d32ea31f1d4000-nl-be-bronnen-hr-woordenlijst-proeftijd.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1d32ea31f1d4000-nl-be-bronnen-hr-woordenlijst-proeftijd.direct.json",
+  "markdownChars": 4470,
+  "linksCount": 124,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:01:10.650Z"
+}

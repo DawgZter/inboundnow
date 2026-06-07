@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/finland/benefits-guide/wellness",
+  "sourceURL": "https://remote.com/en-in/country-explorer/finland/benefits-guide/wellness",
+  "finalURL": "https://remote.com/en-in/country-explorer/finland/benefits-guide/wellness",
+  "title": "Wellness Benefits in Finland | Wellbeing Support",
+  "description": "Support your team with Wellness benefits in Finland.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261812,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3f247b34ca55fa1b-en-in-country-explorer-finland-benefits-guide-wellness.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3f247b34ca55fa1b-en-in-country-explorer-finland-benefits-guide-wellness.direct.json",
+  "markdownChars": 1591,
+  "linksCount": 117,
+  "lastmod": "2025-12-10",
+  "scrapedAt": "2026-06-07T09:02:48.698Z"
+}

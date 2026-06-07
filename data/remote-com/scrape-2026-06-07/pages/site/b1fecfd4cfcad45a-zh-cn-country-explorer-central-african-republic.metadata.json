@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/central-african-republic",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/central-african-republic",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/central-african-republic",
+  "title": "第三方雇佣托管服务与薪资 | 中非共和国",
+  "description": "在中非共和国雇佣员工和合同工？Remote 可通过综合的全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 308335,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1fecfd4cfcad45a-zh-cn-country-explorer-central-african-republic.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1fecfd4cfcad45a-zh-cn-country-explorer-central-african-republic.direct.json",
+  "markdownChars": 1288,
+  "linksCount": 116,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:18:53.076Z"
+}

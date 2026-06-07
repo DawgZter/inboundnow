@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/ouganda/rupture-contrat",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/ouganda/rupture-contrat",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/ouganda/rupture-contrat",
+  "title": "Uganda : Résilier le contrat d’un employé | Rupture de contrat",
+  "description": "Ouganda : Vous avez besoin de résilier le contrat d’un employé ? Découvrez quels sont vos droits grâce à notre guide complet sur les lois régissant la rupture de contrat des employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261102,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3faea5ba31b24fb8-fr-ch-explorateur-de-pays-ouganda-rupture-contrat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3faea5ba31b24fb8-fr-ch-explorateur-de-pays-ouganda-rupture-contrat.direct.json",
+  "markdownChars": 2136,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:11:46.913Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/global-hr/remote-api/steps-to-integrate",
+  "sourceURL": "https://remote.com/ja-jp/global-hr/remote-api/steps-to-integrate",
+  "finalURL": "https://remote.com/ja-jp/global-hr/remote-api/steps-to-integrate",
+  "title": "海外展開チーム向けのグローバルHRソリューション | Remote",
+  "description": "世界中の優秀な人材を短時間で採用することができます。Remoteは、海外展開チーム向けのグローバル給与処理、税金、人事、および法令遵守のための画期的なソリューションです。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 281838,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a65d874ad447470-ja-jp-global-hr-remote-api-steps-to-integrate.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a65d874ad447470-ja-jp-global-hr-remote-api-steps-to-integrate.direct.json",
+  "markdownChars": 4032,
+  "linksCount": 121,
+  "lastmod": "2025-05-23",
+  "scrapedAt": "2026-06-07T09:04:50.495Z"
+}

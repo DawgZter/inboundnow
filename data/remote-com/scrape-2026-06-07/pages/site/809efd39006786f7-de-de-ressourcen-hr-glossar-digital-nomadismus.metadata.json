@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/digital-nomadismus",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/digital-nomadismus",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/digital-nomadismus",
+  "title": "Digitaler Nomadismus",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253881,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/809efd39006786f7-de-de-ressourcen-hr-glossar-digital-nomadismus.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/809efd39006786f7-de-de-ressourcen-hr-glossar-digital-nomadismus.direct.json",
+  "markdownChars": 3619,
+  "linksCount": 122,
+  "lastmod": "2025-08-05",
+  "scrapedAt": "2026-06-07T09:07:59.206Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/italien",
+  "sourceURL": "https://remote.com/de-de/country-explorer/italien",
+  "finalURL": "https://remote.com/de-de/country-explorer/italien",
+  "title": "Employer of Record (EOR) und Payroll‑Dienste | Italien",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Italien? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 351156,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cb97ee2e0ba26682-de-de-country-explorer-italien.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cb97ee2e0ba26682-de-de-country-explorer-italien.direct.json",
+  "markdownChars": 6897,
+  "linksCount": 125,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:01:51.722Z"
+}

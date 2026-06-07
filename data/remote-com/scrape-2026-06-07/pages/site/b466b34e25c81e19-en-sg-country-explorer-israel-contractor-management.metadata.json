@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/israel/contractor-management",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/israel/contractor-management",
+  "finalURL": "https://remote.com/en-sg/country-explorer/israel/contractor-management",
+  "title": "Manage Contractors in Israel | Contractor Management",
+  "description": "Hiring a contractor in Israel? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259081,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b466b34e25c81e19-en-sg-country-explorer-israel-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b466b34e25c81e19-en-sg-country-explorer-israel-contractor-management.direct.json",
+  "markdownChars": 2232,
+  "linksCount": 124,
+  "lastmod": "2025-08-26",
+  "scrapedAt": "2026-06-07T09:13:21.264Z"
+}

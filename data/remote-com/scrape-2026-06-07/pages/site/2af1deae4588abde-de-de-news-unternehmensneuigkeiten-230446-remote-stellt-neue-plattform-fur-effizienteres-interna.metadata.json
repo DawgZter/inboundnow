@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/news/unternehmensneuigkeiten/230446-remote-stellt-neue-plattform-fur-effizienteres-internationales-wachstum-vor",
+  "sourceURL": "https://remote.com/de-de/news/unternehmensneuigkeiten/230446-remote-stellt-neue-plattform-fur-effizienteres-internationales-wachstum-vor",
+  "finalURL": "https://remote.com/de-de/news/unternehmensneuigkeiten/230446-remote-stellt-neue-plattform-fur-effizienteres-internationales-wachstum-vor",
+  "title": "Remote stellt neue Plattform für effizienteres internationales Wachstum vor",
+  "description": "Remotes Global-HR-Plattform ist eine Komplettlösung für die Einstellung, Verwaltung und Bezahlung von Arbeitskräften auf der ganzen Welt. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257009,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2af1deae4588abde-de-de-news-unternehmensneuigkeiten-230446-remote-stellt-neue-plattform-fur-effizienteres-interna.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2af1deae4588abde-de-de-news-unternehmensneuigkeiten-230446-remote-stellt-neue-plattform-fur-effizienteres-interna.direct.json",
+  "markdownChars": 5354,
+  "linksCount": 112,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:12:25.344Z"
+}

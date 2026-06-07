@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/job-descriptions/process-engineer-job-description",
+  "sourceURL": "https://remote.com/en-au/resources/job-descriptions/process-engineer-job-description",
+  "finalURL": "https://remote.com/en-au/resources/job-descriptions/process-engineer-job-description",
+  "title": "Process engineer job description",
+  "description": "Review the job description for a process engineer, responsible for designing, implementing, and optimizing industrial processes to improve efficiency and quality in production.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259082,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e1d55c1bdb77f821-en-au-resources-job-descriptions-process-engineer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e1d55c1bdb77f821-en-au-resources-job-descriptions-process-engineer-job-description.direct.json",
+  "markdownChars": 4321,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:14:54.210Z"
+}

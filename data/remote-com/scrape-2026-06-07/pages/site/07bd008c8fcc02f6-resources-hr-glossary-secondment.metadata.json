@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/secondment",
+  "sourceURL": "https://remote.com/resources/hr-glossary/secondment",
+  "finalURL": "https://remote.com/resources/hr-glossary/secondment",
+  "title": "Secondment",
+  "description": "Learn what secondment is, why it's used in business, and what  employers should consider when offering temporary role transfers.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 249288,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07bd008c8fcc02f6-resources-hr-glossary-secondment.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07bd008c8fcc02f6-resources-hr-glossary-secondment.direct.json",
+  "markdownChars": 3933,
+  "linksCount": 113,
+  "lastmod": "2025-06-23",
+  "scrapedAt": "2026-06-07T09:01:45.486Z"
+}

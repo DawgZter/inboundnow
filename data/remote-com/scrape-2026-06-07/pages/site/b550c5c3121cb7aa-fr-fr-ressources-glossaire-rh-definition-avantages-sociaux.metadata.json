@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/definition-avantages-sociaux",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/definition-avantages-sociaux",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/definition-avantages-sociaux",
+  "title": "Que sont les avantages sociaux ?",
+  "description": "Découvrez ce que sont les avantages sociaux et quels sont les avantages de les proposer à vos employés. Exemples inclus.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261063,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b550c5c3121cb7aa-fr-fr-ressources-glossaire-rh-definition-avantages-sociaux.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b550c5c3121cb7aa-fr-fr-ressources-glossaire-rh-definition-avantages-sociaux.direct.json",
+  "markdownChars": 7988,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:47.220Z"
+}

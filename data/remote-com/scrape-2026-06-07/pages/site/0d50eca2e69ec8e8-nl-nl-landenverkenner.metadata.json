@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner",
+  "title": "Wereldwijd aannemen: landengidsen voor Compliance en groei",
+  "description": "Naadloos een globaal team aannemen, betalen en beheren. Blijf compliant met lokale arbeidswetten terwijl je je bedrijf internationaal opschaalt. Ontdek onze landengidsen om aan de slag te gaan.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 1834055,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d50eca2e69ec8e8-nl-nl-landenverkenner.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0d50eca2e69ec8e8-nl-nl-landenverkenner.direct.json",
+  "markdownChars": 34158,
+  "linksCount": 305,
+  "lastmod": "2026-04-23",
+  "scrapedAt": "2026-06-07T09:14:56.653Z"
+}

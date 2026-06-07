@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/outil-calcul-risque-requalification-de-contrat-des-freelances",
+  "sourceURL": "https://remote.com/fr-fr/ressources/outil-calcul-risque-requalification-de-contrat-des-freelances",
+  "finalURL": "https://remote.com/fr-fr/ressources/outil-calcul-risque-requalification-de-contrat-des-freelances",
+  "title": "Outil de calcul du risque de requalification de contrat des freelances | Remote",
+  "description": "Quel est le risque de requalification de contrat de vos freelances ? Utilisez notre outil de calcul gratuit pour déterminer si votre entreprise peut être exposée à des pénalités pour cause de requalification de contrat.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 314857,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f0c894d68b7bc02-fr-fr-ressources-outil-calcul-risque-requalification-de-contrat-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9f0c894d68b7bc02-fr-fr-ressources-outil-calcul-risque-requalification-de-contrat-des-freelances.direct.json",
+  "markdownChars": 10350,
+  "linksCount": 117,
+  "lastmod": "2025-07-01",
+  "scrapedAt": "2026-06-07T09:10:28.374Z"
+}

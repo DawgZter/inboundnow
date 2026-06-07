@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/sri-lanka/steuern",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/sri-lanka/steuern",
+  "finalURL": "https://remote.com/de-ch/country-explorer/sri-lanka/steuern",
+  "title": "Lohnnebenkosten in Sri Lanka | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Sri Lanka.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257144,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f7c57a01dff86507-de-ch-country-explorer-sri-lanka-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f7c57a01dff86507-de-ch-country-explorer-sri-lanka-steuern.direct.json",
+  "markdownChars": 1086,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:01:30.226Z"
+}

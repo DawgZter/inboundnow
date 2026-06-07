@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/bangladesh/types-of-leave",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/bangladesh/types-of-leave",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/bangladesh/types-of-leave",
+  "title": "孟加拉国休假类型 | 员工休假法规",
+  "description": "了解孟加拉国的员工休假法规，确保贵公司遵守相关政策并提供具竞争力的带薪休假。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256761,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd73cead295b0dc6-zh-cn-country-explorer-bangladesh-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd73cead295b0dc6-zh-cn-country-explorer-bangladesh-types-of-leave.direct.json",
+  "markdownChars": 646,
+  "linksCount": 120,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:01:05.772Z"
+}

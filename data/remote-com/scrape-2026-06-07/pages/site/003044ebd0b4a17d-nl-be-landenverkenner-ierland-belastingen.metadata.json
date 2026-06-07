@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/ierland/belastingen",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/ierland/belastingen",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/ierland/belastingen",
+  "title": "Payroll-belasting beheren in Ireland | Belastingnaleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Ierland. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253558,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/003044ebd0b4a17d-nl-be-landenverkenner-ierland-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/003044ebd0b4a17d-nl-be-landenverkenner-ierland-belastingen.direct.json",
+  "markdownChars": 823,
+  "linksCount": 127,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:17:26.293Z"
+}

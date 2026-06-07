@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/sweden/employment-termination",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/sweden/employment-termination",
+  "finalURL": "https://remote.com/en-ie/country-explorer/sweden/employment-termination",
+  "title": "Terminate Employees in Sweden | Employment Termination",
+  "description": "Looking to terminate an employee in Sweden? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259332,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/15e7436efc00bdd2-en-ie-country-explorer-sweden-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/15e7436efc00bdd2-en-ie-country-explorer-sweden-employment-termination.direct.json",
+  "markdownChars": 1426,
+  "linksCount": 127,
+  "lastmod": "2025-11-08",
+  "scrapedAt": "2026-06-07T09:11:38.916Z"
+}

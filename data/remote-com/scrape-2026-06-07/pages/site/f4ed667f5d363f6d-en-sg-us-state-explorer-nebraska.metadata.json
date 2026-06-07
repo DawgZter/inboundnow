@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/us-state-explorer/nebraska",
+  "sourceURL": "https://remote.com/en-sg/us-state-explorer/nebraska",
+  "finalURL": "https://remote.com/en-sg/us-state-explorer/nebraska",
+  "title": "Employer of Record & Payroll Services | Nebraska",
+  "description": "Use our compliance guide to employ in Nebraska with ease. Learn about benefits, payroll, leave, and other labor laws in The Cornhusker State.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 331016,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f4ed667f5d363f6d-en-sg-us-state-explorer-nebraska.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f4ed667f5d363f6d-en-sg-us-state-explorer-nebraska.direct.json",
+  "markdownChars": 7014,
+  "linksCount": 113,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:02:03.306Z"
+}

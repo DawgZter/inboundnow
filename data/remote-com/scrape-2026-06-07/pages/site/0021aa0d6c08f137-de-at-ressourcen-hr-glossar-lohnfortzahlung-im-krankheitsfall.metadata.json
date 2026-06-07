@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/lohnfortzahlung-im-krankheitsfall",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/lohnfortzahlung-im-krankheitsfall",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/lohnfortzahlung-im-krankheitsfall",
+  "title": "Was ist bezahlter Krankenurlaub? | Remote",
+  "description": "Bezahlter Krankenurlaub ist eine betriebliche Leistung, die es Arbeitnehmern ermöglicht, sich aus medizinischen Gründen von der Arbeit freistellen zu lassen, während sie weiterhin ihren regulären Lohn erhalten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256199,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0021aa0d6c08f137-de-at-ressourcen-hr-glossar-lohnfortzahlung-im-krankheitsfall.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0021aa0d6c08f137-de-at-ressourcen-hr-glossar-lohnfortzahlung-im-krankheitsfall.direct.json",
+  "markdownChars": 5475,
+  "linksCount": 124,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:17:45.218Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/customer-onboarding-handbook",
+  "sourceURL": "https://remote.com/ja-jp/customer-onboarding-handbook",
+  "finalURL": "https://remote.com/ja-jp/customer-onboarding-handbook",
+  "title": "顧客オンボーディングハンドブック | Remote",
+  "description": "契約社員や従業員のオンボーディングと管理を、あなたとチームにとってもっと簡単にする方法をご紹介します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 298672,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b07dd437cf18ac23-ja-jp-customer-onboarding-handbook.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b07dd437cf18ac23-ja-jp-customer-onboarding-handbook.direct.json",
+  "markdownChars": 2436,
+  "linksCount": 133,
+  "lastmod": "2025-07-23",
+  "scrapedAt": "2026-06-07T09:18:49.452Z"
+}

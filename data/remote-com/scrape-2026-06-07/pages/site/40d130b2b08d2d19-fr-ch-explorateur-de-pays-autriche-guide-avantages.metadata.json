@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/autriche/guide-avantages",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/autriche/guide-avantages",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/autriche/guide-avantages",
+  "title": "Avantages sociaux en Autriche | plans d’avantages sociaux",
+  "description": "Découvrez les avantages sociaux essentiels en Autriche. Informez-vous sur l’assurance maladie, les congés payés et autres avantages afin d’attirer et de fidéliser les meilleurs talents.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 274394,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40d130b2b08d2d19-fr-ch-explorateur-de-pays-autriche-guide-avantages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40d130b2b08d2d19-fr-ch-explorateur-de-pays-autriche-guide-avantages.direct.json",
+  "markdownChars": 1807,
+  "linksCount": 125,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:19:10.310Z"
+}

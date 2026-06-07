@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/malaysia/benefits-leitfaden",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/malaysia/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-ch/country-explorer/malaysia/benefits-leitfaden",
+  "title": "Sozialleistungen in Malaysia | Leistungspläne",
+  "description": "Entdecke die wichtigsten Sozialleistungen in Malaysia. Erfahre, wie Krankenversicherung, bezahlte Freistellung und weitere Vorteile dir helfen, Mitarbeiter:innen anzuziehen und zu behalten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270853,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/52bc1a3909a1ad6c-de-ch-country-explorer-malaysia-benefits-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/52bc1a3909a1ad6c-de-ch-country-explorer-malaysia-benefits-leitfaden.direct.json",
+  "markdownChars": 1655,
+  "linksCount": 125,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:01:59.698Z"
+}

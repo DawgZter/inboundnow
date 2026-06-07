@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/nepotism",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/nepotism",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/nepotism",
+  "title": "What is nepotism?",
+  "description": "Learn about how HR leaders can avoid promoting nepotism at the workplace",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253203,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/403632ae2f4e63a5-en-hk-resources-hr-glossary-nepotism.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/403632ae2f4e63a5-en-hk-resources-hr-glossary-nepotism.direct.json",
+  "markdownChars": 5008,
+  "linksCount": 119,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:16:54.091Z"
+}

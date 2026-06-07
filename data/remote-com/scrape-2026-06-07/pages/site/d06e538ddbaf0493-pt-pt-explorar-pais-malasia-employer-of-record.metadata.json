@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/malasia/employer-of-record",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/malasia/employer-of-record",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/malasia/employer-of-record",
+  "title": "Employer of Record (EOR) e processamento salarial | Malásia",
+  "description": "Simplifica a contratação na Malásia com o nosso Employer of Record (EOR). Gere o processamento salarial, os benefícios e a conformidade da tua equipa sem complicações.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155660,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d06e538ddbaf0493-pt-pt-explorar-pais-malasia-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d06e538ddbaf0493-pt-pt-explorar-pais-malasia-employer-of-record.direct.json",
+  "markdownChars": 3618,
+  "linksCount": 44,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:04:10.496Z"
+}

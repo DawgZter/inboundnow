@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/ukraine/rupture-contrat",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/ukraine/rupture-contrat",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/ukraine/rupture-contrat",
+  "title": "Ukraine : Résilier le contrat d’un employé | Rupture de contrat",
+  "description": "Ukraine : Vous avez besoin de résilier le contrat d’un employé ? Découvrez quels sont vos droits grâce à notre guide complet sur les lois régissant la rupture de contrat des employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262682,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6174e73252fff7cb-fr-be-explorateur-de-pays-ukraine-rupture-contrat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6174e73252fff7cb-fr-be-explorateur-de-pays-ukraine-rupture-contrat.direct.json",
+  "markdownChars": 2767,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:15:33.526Z"
+}

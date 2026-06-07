@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/niger/contractor-management",
+  "sourceURL": "https://remote.com/de-de/country-explorer/niger/contractor-management",
+  "finalURL": "https://remote.com/de-de/country-explorer/niger/contractor-management",
+  "title": "Auftragnehmer:innen in Niger verwalten | Contractor Management",
+  "description": "Beauftragst du Auftragnehmer:innen in Niger? Verwalte und bezahle weltweite Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management‑Dienstleistungen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256263,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d04a03a3a192f21f-de-de-country-explorer-niger-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d04a03a3a192f21f-de-de-country-explorer-niger-contractor-management.direct.json",
+  "markdownChars": 2369,
+  "linksCount": 118,
+  "lastmod": "2025-10-30",
+  "scrapedAt": "2026-06-07T09:04:11.539Z"
+}

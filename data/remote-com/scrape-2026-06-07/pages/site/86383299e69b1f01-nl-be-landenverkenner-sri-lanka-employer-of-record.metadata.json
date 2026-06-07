@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/sri-lanka/employer-of-record",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/sri-lanka/employer-of-record",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/sri-lanka/employer-of-record",
+  "title": "Employer of Record in Sri Lanka (EOR) | EOR-diensten",
+  "description": "Vereenvoudig tewerkstelling in Sri Lanka met onze Employer of Record (EOR)-diensten. Beheer payroll, benefits en Compliance moeiteloos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256150,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/86383299e69b1f01-nl-be-landenverkenner-sri-lanka-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/86383299e69b1f01-nl-be-landenverkenner-sri-lanka-employer-of-record.direct.json",
+  "markdownChars": 3544,
+  "linksCount": 125,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:12:34.618Z"
+}

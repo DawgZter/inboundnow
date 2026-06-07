@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/hr-glossary/deferred-compensation",
+  "sourceURL": "https://remote.com/en-sg/resources/hr-glossary/deferred-compensation",
+  "finalURL": "https://remote.com/en-sg/resources/hr-glossary/deferred-compensation",
+  "title": "What is deferred compensation?",
+  "description": "Understand how deferred compensation works, and how it can be used to attract top talent for your business.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253710,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e29339765c157add-en-sg-resources-hr-glossary-deferred-compensation.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e29339765c157add-en-sg-resources-hr-glossary-deferred-compensation.direct.json",
+  "markdownChars": 5061,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:47.214Z"
+}

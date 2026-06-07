@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-concepteur-contenu",
+  "sourceURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-concepteur-contenu",
+  "finalURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-concepteur-contenu",
+  "title": "Description du poste de concepteur de contenu",
+  "description": "Examinez la description de poste d'un concepteur de contenu, chargé de créer et d'optimiser le contenu, de veiller à sa clarté et à sa facilité d'utilisation, et de l'aligner sur les besoins des utilisateurs et les objectifs de l'entreprise.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263608,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71a200c32c457539-fr-fr-ressources-descriptions-postes-description-poste-concepteur-contenu.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71a200c32c457539-fr-fr-ressources-descriptions-postes-description-poste-concepteur-contenu.direct.json",
+  "markdownChars": 4728,
+  "linksCount": 114,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:12:26.330Z"
+}

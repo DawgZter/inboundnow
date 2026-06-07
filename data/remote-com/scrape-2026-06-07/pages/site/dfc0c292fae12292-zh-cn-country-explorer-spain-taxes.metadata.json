@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/spain/taxes",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/spain/taxes",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/spain/taxes",
+  "title": "在西班牙管理薪资税 | 税务合规",
+  "description": "帮助贵公司在西班牙有效且合规地管理薪资税，最大限度减少错误，遵守当地法律并避免高额罚款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260607,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dfc0c292fae12292-zh-cn-country-explorer-spain-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dfc0c292fae12292-zh-cn-country-explorer-spain-taxes.direct.json",
+  "markdownChars": 673,
+  "linksCount": 122,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:18:48.310Z"
+}

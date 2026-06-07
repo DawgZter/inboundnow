@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/czech-republic/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/czech-republic/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/czech-republic/benefits-guide",
+  "title": "捷克共和国的员工福利 | 福利计划",
+  "description": "了解捷克共和国的核心员工福利，包括健康保险、带薪休假与其他补充福利，帮助贵公司制定具有竞争力的福利方案以吸引并留住顶尖人才。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269653,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/996f23eb28a607e7-zh-cn-country-explorer-czech-republic-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/996f23eb28a607e7-zh-cn-country-explorer-czech-republic-benefits-guide.direct.json",
+  "markdownChars": 588,
+  "linksCount": 122,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:12:27.936Z"
+}

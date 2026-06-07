@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/macau/contractor-management",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/macau/contractor-management",
+  "finalURL": "https://remote.com/es-es/explorador-paises/macau/contractor-management",
+  "title": "Gestiona trabajadores autónomos en Macau | Contractor Management",
+  "description": "¿Contratas a un trabajador autónomo en Macau? Gestiona y paga a trabajadores autónomos globales sin complicaciones con nuestros flexibles servicios de Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257911,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b031380324a0ae48-es-es-explorador-paises-macau-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b031380324a0ae48-es-es-explorador-paises-macau-contractor-management.direct.json",
+  "markdownChars": 2543,
+  "linksCount": 116,
+  "lastmod": "2025-10-31",
+  "scrapedAt": "2026-06-07T09:11:51.537Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/lp/hris-lp",
+  "sourceURL": "https://remote.com/de-at/lp/hris-lp",
+  "finalURL": "https://remote.com/de-at/lp/hris-lp",
+  "title": "Globale HR- und Employment-Tools für verteilte Teams | Remote",
+  "description": "Remote ist deine Komplettlösung für die Einstellung von Top-Talenten in allen Ländern. Unsere Lösung für Payroll, Benefits, Steuern und Compliance ermöglicht es Unternehmen, globale Teams aufzubauen und zu verwalten.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 383526,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a122e8aad8c3398e-de-at-lp-hris-lp.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a122e8aad8c3398e-de-at-lp-hris-lp.direct.json",
+  "markdownChars": 5187,
+  "linksCount": 123,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:15:13.218Z"
+}

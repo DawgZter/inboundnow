@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/job-descriptions/seo-specialist-job-description",
+  "sourceURL": "https://remote.com/resources/job-descriptions/seo-specialist-job-description",
+  "finalURL": "https://remote.com/resources/job-descriptions/seo-specialist-job-description",
+  "title": "SEO specialist job description",
+  "description": "Review the job description for an SEO specialist, responsible for optimizing website content, analyzing performance data, and implementing strategies to improve search engine rankings.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257801,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e8a7f94302223533-resources-job-descriptions-seo-specialist-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e8a7f94302223533-resources-job-descriptions-seo-specialist-job-description.direct.json",
+  "markdownChars": 3416,
+  "linksCount": 112,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:04:13.835Z"
+}

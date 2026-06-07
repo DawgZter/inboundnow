@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/mexico/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/mexico/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/mexico/benefits-guide",
+  "title": "墨西哥员工福利 | 福利计划",
+  "description": "了解墨西哥的关键员工福利，包括医疗保险、带薪休假及其他福利，帮助贵公司吸引并留住顶尖人才。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268815,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/761544e221633aeb-zh-cn-country-explorer-mexico-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/761544e221633aeb-zh-cn-country-explorer-mexico-benefits-guide.direct.json",
+  "markdownChars": 561,
+  "linksCount": 122,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:10:54.632Z"
+}

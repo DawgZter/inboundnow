@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/job-descriptions/project-manager-job-description",
+  "sourceURL": "https://remote.com/resources/job-descriptions/project-manager-job-description",
+  "finalURL": "https://remote.com/resources/job-descriptions/project-manager-job-description",
+  "title": "Project manager job description",
+  "description": "Review the job description for project manager, responsible for planning, executing, and finalizing projects within scope, budget, and timeline. Explore essential skills and qualifications.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257945,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71cfba9f589cce42-resources-job-descriptions-project-manager-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/71cfba9f589cce42-resources-job-descriptions-project-manager-job-description.direct.json",
+  "markdownChars": 3583,
+  "linksCount": 112,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:01:47.926Z"
+}

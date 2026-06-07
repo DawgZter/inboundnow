@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/belgium/payroll",
+  "sourceURL": "https://remote.com/en-au/country-explorer/belgium/payroll",
+  "finalURL": "https://remote.com/en-au/country-explorer/belgium/payroll",
+  "title": "Pay Employees in Belgium | Payroll Services",
+  "description": "Pay employees in Belgium effortlessly with our flexible payroll services. Run payroll, manage expenses and run reports, all from one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260881,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76a3c0d8b3aad471-en-au-country-explorer-belgium-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76a3c0d8b3aad471-en-au-country-explorer-belgium-payroll.direct.json",
+  "markdownChars": 3639,
+  "linksCount": 126,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:14:39.518Z"
+}

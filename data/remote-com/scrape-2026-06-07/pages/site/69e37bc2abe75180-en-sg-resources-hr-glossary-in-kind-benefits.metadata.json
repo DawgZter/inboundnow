@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/hr-glossary/in-kind-benefits",
+  "sourceURL": "https://remote.com/en-sg/resources/hr-glossary/in-kind-benefits",
+  "finalURL": "https://remote.com/en-sg/resources/hr-glossary/in-kind-benefits",
+  "title": "What are in-kind benefits?",
+  "description": "Explore in kind benefits and their significance in employee compensation. Visit our glossary to understand how these non-cash perks can enhance overall job satisfaction.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252837,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69e37bc2abe75180-en-sg-resources-hr-glossary-in-kind-benefits.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/69e37bc2abe75180-en-sg-resources-hr-glossary-in-kind-benefits.direct.json",
+  "markdownChars": 4048,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:11:38.623Z"
+}

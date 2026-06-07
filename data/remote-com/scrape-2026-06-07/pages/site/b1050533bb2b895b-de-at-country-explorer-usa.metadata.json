@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/usa",
+  "sourceURL": "https://remote.com/de-at/country-explorer/usa",
+  "finalURL": "https://remote.com/de-at/country-explorer/usa",
+  "title": "Employer of Record & Payroll Services | Vereinigte Staaten",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in USA? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 353198,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1050533bb2b895b-de-at-country-explorer-usa.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b1050533bb2b895b-de-at-country-explorer-usa.direct.json",
+  "markdownChars": 10833,
+  "linksCount": 128,
+  "lastmod": "2026-02-08",
+  "scrapedAt": "2026-06-07T09:12:10.278Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/globale-hr/remote-workday-integration",
+  "sourceURL": "https://remote.com/de-ch/globale-hr/remote-workday-integration",
+  "finalURL": "https://remote.com/de-ch/globale-hr/remote-workday-integration",
+  "title": "Workday-Integration | Remote",
+  "description": "Nutze Remotes Integration mit Workday, um deine HR- und Payroll-Daten immer synchron zu halten. Automatisiere Personaldaten, synchronisiere Urlaubstage und führe die Payroll aus – ohne doppelte Eingaben.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 338218,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e7cbd5f5782a3c4-de-ch-globale-hr-remote-workday-integration.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e7cbd5f5782a3c4-de-ch-globale-hr-remote-workday-integration.direct.json",
+  "markdownChars": 3761,
+  "linksCount": 123,
+  "lastmod": "2025-09-11",
+  "scrapedAt": "2026-06-07T09:15:38.047Z"
+}

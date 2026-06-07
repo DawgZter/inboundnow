@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/thailand/contractor-management",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/thailand/contractor-management",
+  "finalURL": "https://remote.com/en-hk/country-explorer/thailand/contractor-management",
+  "title": "Manage Contractors in Thailand | Contractor Management",
+  "description": "Hiring a contractor in Thailand? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259634,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7303e4e10b7a4b25-en-hk-country-explorer-thailand-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7303e4e10b7a4b25-en-hk-country-explorer-thailand-contractor-management.direct.json",
+  "markdownChars": 2293,
+  "linksCount": 125,
+  "lastmod": "2025-08-26",
+  "scrapedAt": "2026-06-07T09:09:37.305Z"
+}

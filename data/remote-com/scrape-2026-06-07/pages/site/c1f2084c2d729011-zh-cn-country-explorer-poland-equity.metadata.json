@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/poland/equity",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/poland/equity",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/poland/equity",
+  "title": "波兰员工股票期权",
+  "description": "了解波兰员工股权与股票期权的具体规则，并使用 Remote 的 Country Explorer 为贵公司的全球薪酬决策提供合规与税务参考。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258683,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1f2084c2d729011-zh-cn-country-explorer-poland-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1f2084c2d729011-zh-cn-country-explorer-poland-equity.direct.json",
+  "markdownChars": 1247,
+  "linksCount": 124,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:09:19.755Z"
+}

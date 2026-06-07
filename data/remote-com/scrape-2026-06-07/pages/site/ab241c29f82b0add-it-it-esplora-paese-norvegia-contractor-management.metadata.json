@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/norvegia/contractor-management",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/norvegia/contractor-management",
+  "finalURL": "https://remote.com/it-it/esplora-paese/norvegia/contractor-management",
+  "title": "Gestione dei collaboratori in Norvegia | Contractor Management",
+  "description": "Vuoi collaborare con freelance in Norvegia? Gestisci e paga i tuoi collaboratori globali in modo semplice e conforme con i nostri servizi flessibili di Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153986,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ab241c29f82b0add-it-it-esplora-paese-norvegia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ab241c29f82b0add-it-it-esplora-paese-norvegia-contractor-management.direct.json",
+  "markdownChars": 2618,
+  "linksCount": 44,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:15:45.058Z"
+}

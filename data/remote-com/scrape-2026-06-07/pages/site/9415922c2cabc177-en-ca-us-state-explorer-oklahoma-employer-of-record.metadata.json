@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/us-state-explorer/oklahoma/employer-of-record",
+  "sourceURL": "https://remote.com/en-ca/us-state-explorer/oklahoma/employer-of-record",
+  "finalURL": "https://remote.com/en-ca/us-state-explorer/oklahoma/employer-of-record",
+  "title": "Employer of Record services in Oklahoma",
+  "description": "Use employer of record services in Oklahoma make hiring, managing, and paying top talent easy. Stay compliant in Oklahoma and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259961,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9415922c2cabc177-en-ca-us-state-explorer-oklahoma-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9415922c2cabc177-en-ca-us-state-explorer-oklahoma-employer-of-record.direct.json",
+  "markdownChars": 3302,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:16:06.031Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/nicaragua/employer-of-record",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/nicaragua/employer-of-record",
+  "finalURL": "https://remote.com/es-es/explorador-paises/nicaragua/employer-of-record",
+  "title": "Employer of Record en Nicaragua (EOR) | servicios EOR",
+  "description": "Simplifica la contratación en Nicaragua con nuestros servicios de Employer of Record. Gestiona nómina, prestaciones y cumplimiento normativo sin complicaciones.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262079,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5a82f655fb308c55-es-es-explorador-paises-nicaragua-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5a82f655fb308c55-es-es-explorador-paises-nicaragua-employer-of-record.direct.json",
+  "markdownChars": 3799,
+  "linksCount": 121,
+  "lastmod": "2025-09-29",
+  "scrapedAt": "2026-06-07T09:18:03.604Z"
+}

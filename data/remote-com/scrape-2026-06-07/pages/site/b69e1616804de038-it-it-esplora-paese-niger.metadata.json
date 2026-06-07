@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/niger",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/niger",
+  "finalURL": "https://remote.com/it-it/esplora-paese/niger",
+  "title": "Servizi Employer of Record (EOR) e Payroll | Niger",
+  "description": "Vuoi assumere personale e contractor in Niger? Remote ti aiuta a gestire personale e contractor tramite la Piattaforma HR di Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 204343,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b69e1616804de038-it-it-esplora-paese-niger.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b69e1616804de038-it-it-esplora-paese-niger.direct.json",
+  "markdownChars": 3286,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:01:36.837Z"
+}

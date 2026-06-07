@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/namibia/contractor-management",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/namibia/contractor-management",
+  "finalURL": "https://remote.com/de-ch/country-explorer/namibia/contractor-management",
+  "title": "Auftragnehmer:innen in Namibia verwalten | Contractor Management",
+  "description": "Auftragnehmer:in in Namibia beauftragen? Verwalte und bezahle weltweite Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management‑Leistungen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256612,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e8c6dc1904620482-de-ch-country-explorer-namibia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e8c6dc1904620482-de-ch-country-explorer-namibia-contractor-management.direct.json",
+  "markdownChars": 2476,
+  "linksCount": 120,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:16:09.327Z"
+}

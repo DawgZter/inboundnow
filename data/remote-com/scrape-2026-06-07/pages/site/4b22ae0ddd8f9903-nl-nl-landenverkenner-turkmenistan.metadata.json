@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/turkmenistan",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/turkmenistan",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/turkmenistan",
+  "title": "Employer of record en payroll services | Turkmenistan",
+  "description": "Wil je werknemers en zzp'ers werven in Turkmenistan? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 313416,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b22ae0ddd8f9903-nl-nl-landenverkenner-turkmenistan.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b22ae0ddd8f9903-nl-nl-landenverkenner-turkmenistan.direct.json",
+  "markdownChars": 3829,
+  "linksCount": 119,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:02:15.854Z"
+}

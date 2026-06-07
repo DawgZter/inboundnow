@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/cipro/cessazione-rapporto-lavoro",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/cipro/cessazione-rapporto-lavoro",
+  "finalURL": "https://remote.com/it-it/esplora-paese/cipro/cessazione-rapporto-lavoro",
+  "title": "Interrompere rapporti di lavoro a Cipro | Cessazione del rapporto di lavoro",
+  "description": "Vuoi interrompere un rapporto di lavoro in Cipro? Scopri i tuoi diritti nella nostra guida completa sulle leggi relative alla cessazione del rapporto di lavoro.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154023,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c72fa2cffe15d5b8-it-it-esplora-paese-cipro-cessazione-rapporto-lavoro.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c72fa2cffe15d5b8-it-it-esplora-paese-cipro-cessazione-rapporto-lavoro.direct.json",
+  "markdownChars": 2002,
+  "linksCount": 44,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:14:28.506Z"
+}

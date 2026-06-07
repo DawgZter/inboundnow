@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/mexiko",
+  "sourceURL": "https://remote.com/de-at/country-explorer/mexiko",
+  "finalURL": "https://remote.com/de-at/country-explorer/mexiko",
+  "title": "Arbeitgeber-von-Record- und Payroll-Services | Mexiko",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Mexiko? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 343713,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b400a8a78cc5b6e8-de-at-country-explorer-mexiko.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b400a8a78cc5b6e8-de-at-country-explorer-mexiko.direct.json",
+  "markdownChars": 8695,
+  "linksCount": 125,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:14:42.466Z"
+}

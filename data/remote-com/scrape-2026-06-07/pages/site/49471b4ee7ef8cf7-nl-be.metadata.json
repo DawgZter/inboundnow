@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/",
+  "sourceURL": "https://remote.com/nl-be/",
+  "finalURL": "https://remote.com/nl-be/",
+  "title": "Remote: global HR-infrastructuur | Wereldwijde EOR, payroll en compliance",
+  "description": "Neem binnen een paar minuten internationaal talent in dienst. Remote is de meest revolutionaire oplossing voor global payroll, belastingen, HR en compliance voor verspreide teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 560218,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/49471b4ee7ef8cf7-nl-be.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/49471b4ee7ef8cf7-nl-be.direct.json",
+  "markdownChars": 10290,
+  "linksCount": 131,
+  "lastmod": "2026-05-22",
+  "scrapedAt": "2026-06-07T09:11:32.879Z"
+}

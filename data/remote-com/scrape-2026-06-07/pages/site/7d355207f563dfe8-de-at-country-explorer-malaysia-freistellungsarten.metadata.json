@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/malaysia/freistellungsarten",
+  "sourceURL": "https://remote.com/de-at/country-explorer/malaysia/freistellungsarten",
+  "finalURL": "https://remote.com/de-at/country-explorer/malaysia/freistellungsarten",
+  "title": "Urlaubsansprüche in Malaysia | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Malaysia. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260065,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7d355207f563dfe8-de-at-country-explorer-malaysia-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7d355207f563dfe8-de-at-country-explorer-malaysia-freistellungsarten.direct.json",
+  "markdownChars": 2578,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:14:03.946Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/global-hr/talent-management",
+  "sourceURL": "https://remote.com/en-au/global-hr/talent-management",
+  "finalURL": "https://remote.com/en-au/global-hr/talent-management",
+  "title": "Talent management & employee lifecycle | Remote",
+  "description": "Navigate employment lifecycle and master talent management using Remote's global HR platform. Optimize onboarding, offboarding, and retention strategies for workforce success.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 302270,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/817fab9dbdf53c3c-en-au-global-hr-talent-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/817fab9dbdf53c3c-en-au-global-hr-talent-management.direct.json",
+  "markdownChars": 4956,
+  "linksCount": 117,
+  "lastmod": "2025-04-24",
+  "scrapedAt": "2026-06-07T09:08:33.856Z"
+}

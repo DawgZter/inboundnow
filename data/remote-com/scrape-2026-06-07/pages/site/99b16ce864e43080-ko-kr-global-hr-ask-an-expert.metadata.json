@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/global-hr/ask-an-expert",
+  "sourceURL": "https://remote.com/ko-kr/global-hr/ask-an-expert",
+  "finalURL": "https://remote.com/ko-kr/global-hr/ask-an-expert",
+  "title": "전문가 상담 | Remote",
+  "description": "Remote의 HR, 세무, 글로벌 인재 이동 전문가로부터 1:1 가이드를 받으세요. 규정에 맞게 그리고 빠르게 결정을 내릴 수 있게 도움을 주는 전문가 상담",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 341908,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/99b16ce864e43080-ko-kr-global-hr-ask-an-expert.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/99b16ce864e43080-ko-kr-global-hr-ask-an-expert.direct.json",
+  "markdownChars": 2772,
+  "linksCount": 121,
+  "lastmod": "2025-11-05",
+  "scrapedAt": "2026-06-07T09:07:08.518Z"
+}

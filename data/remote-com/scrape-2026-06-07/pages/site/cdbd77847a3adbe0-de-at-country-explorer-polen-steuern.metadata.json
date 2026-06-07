@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/polen/steuern",
+  "sourceURL": "https://remote.com/de-at/country-explorer/polen/steuern",
+  "finalURL": "https://remote.com/de-at/country-explorer/polen/steuern",
+  "title": "Lohnnebenkosten in Poland | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Polen.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260135,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cdbd77847a3adbe0-de-at-country-explorer-polen-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cdbd77847a3adbe0-de-at-country-explorer-polen-steuern.direct.json",
+  "markdownChars": 1149,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:14:23.078Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/forschung/remote-influencer-report",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/forschung/remote-influencer-report",
+  "finalURL": "https://remote.com/de-ch/ressourcen/forschung/remote-influencer-report",
+  "title": "Remote Influencer Report | Remote",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 280764,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9d7b67e7e83b4bef-de-ch-ressourcen-forschung-remote-influencer-report.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9d7b67e7e83b4bef-de-ch-ressourcen-forschung-remote-influencer-report.direct.json",
+  "markdownChars": 4879,
+  "linksCount": 116,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:11:42.502Z"
+}

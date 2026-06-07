@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/malta/freistellungsarten",
+  "sourceURL": "https://remote.com/de-de/country-explorer/malta/freistellungsarten",
+  "finalURL": "https://remote.com/de-de/country-explorer/malta/freistellungsarten",
+  "title": "Freistellungsarten in Malta | Gesetzliche Urlaubsregelungen für Mitarbeiter:innen",
+  "description": "Erfahre mehr zum Urlaubsrecht in Malta. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259409,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a18f6b1e1cee7d84-de-de-country-explorer-malta-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a18f6b1e1cee7d84-de-de-country-explorer-malta-freistellungsarten.direct.json",
+  "markdownChars": 3347,
+  "linksCount": 121,
+  "lastmod": "2026-02-03",
+  "scrapedAt": "2026-06-07T09:07:56.544Z"
+}

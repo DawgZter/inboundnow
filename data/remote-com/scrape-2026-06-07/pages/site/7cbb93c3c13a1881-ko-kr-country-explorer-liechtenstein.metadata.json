@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/liechtenstein",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/liechtenstein",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/liechtenstein",
+  "title": "기록상 고용주(EOR) 및 Payroll 서비스 | 리히텐슈타인",
+  "description": "리히텐슈타인에서 직원과 계약자를 채용하시나요? Remote는 통합 글로벌 HR 플랫폼을 통해 직원과 계약자의 관리를 지원합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 310526,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7cbb93c3c13a1881-ko-kr-country-explorer-liechtenstein.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7cbb93c3c13a1881-ko-kr-country-explorer-liechtenstein.direct.json",
+  "markdownChars": 1758,
+  "linksCount": 118,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:01:59.207Z"
+}

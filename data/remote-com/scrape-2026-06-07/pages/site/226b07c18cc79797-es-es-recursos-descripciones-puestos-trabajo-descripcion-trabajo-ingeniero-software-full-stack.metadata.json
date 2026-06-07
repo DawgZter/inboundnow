@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-trabajo-ingeniero-software-full-stack",
+  "sourceURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-trabajo-ingeniero-software-full-stack",
+  "finalURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-trabajo-ingeniero-software-full-stack",
+  "title": "Ingeniero software stack completo descripción del trabajo",
+  "description": "Revisa la descripción del puesto de ingeniero de software full-stack, responsable de desarrollar y mantener los componentes front-end y back-end de las aplicaciones web.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263726,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/226b07c18cc79797-es-es-recursos-descripciones-puestos-trabajo-descripcion-trabajo-ingeniero-software-full-stack.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/226b07c18cc79797-es-es-recursos-descripciones-puestos-trabajo-descripcion-trabajo-ingeniero-software-full-stack.direct.json",
+  "markdownChars": 5370,
+  "linksCount": 113,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:09:30.365Z"
+}

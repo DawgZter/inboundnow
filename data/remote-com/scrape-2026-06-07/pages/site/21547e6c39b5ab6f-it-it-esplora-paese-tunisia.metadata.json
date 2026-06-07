@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/tunisia",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/tunisia",
+  "finalURL": "https://remote.com/it-it/esplora-paese/tunisia",
+  "title": "Employer of Record & Payroll Services | Tunisia",
+  "description": "Vuoi assumere personale e collaboratori in Tunisia? Remote può aiutarti a gestire il personale e i collaboratori tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 237564,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/21547e6c39b5ab6f-it-it-esplora-paese-tunisia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/21547e6c39b5ab6f-it-it-esplora-paese-tunisia.direct.json",
+  "markdownChars": 6902,
+  "linksCount": 45,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:13:03.896Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/direct-ondergeschikten",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/direct-ondergeschikten",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/direct-ondergeschikten",
+  "title": "What is a direct report?",
+  "description": "Begrijp wat een directielid is en hoe je bedrijf managers in staat kan stellen om hun directieleden effectief en succesvol te ondersteunen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251197,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5c423c9f77d62169-nl-be-bronnen-hr-woordenlijst-direct-ondergeschikten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5c423c9f77d62169-nl-be-bronnen-hr-woordenlijst-direct-ondergeschikten.direct.json",
+  "markdownChars": 5173,
+  "linksCount": 123,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:15:05.040Z"
+}

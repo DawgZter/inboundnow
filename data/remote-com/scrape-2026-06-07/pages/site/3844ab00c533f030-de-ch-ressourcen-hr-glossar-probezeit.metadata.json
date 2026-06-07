@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/probezeit",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/probezeit",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/probezeit",
+  "title": "Bewährung",
+  "description": "Erfahren Sie, was eine Probezeit ist, wie sie funktioniert und was Arbeitgeber und Arbeitnehmer während dieser Testphase des Arbeitsverhältnisses erwarten können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254927,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3844ab00c533f030-de-ch-ressourcen-hr-glossar-probezeit.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3844ab00c533f030-de-ch-ressourcen-hr-glossar-probezeit.direct.json",
+  "markdownChars": 4605,
+  "linksCount": 123,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:16:55.174Z"
+}

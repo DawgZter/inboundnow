@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/hr-glossary/garden-leave",
+  "sourceURL": "https://remote.com/en-gb/resources/hr-glossary/garden-leave",
+  "finalURL": "https://remote.com/en-gb/resources/hr-glossary/garden-leave",
+  "title": "Garden leave",
+  "description": "Garden leave is when an employee stays on payroll but is asked not to work during their notice period. Learn how and when employers can use it effectively.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251733,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5d37e98a15f8c00d-en-gb-resources-hr-glossary-garden-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5d37e98a15f8c00d-en-gb-resources-hr-glossary-garden-leave.direct.json",
+  "markdownChars": 3228,
+  "linksCount": 119,
+  "lastmod": "2025-07-19",
+  "scrapedAt": "2026-06-07T09:00:57.647Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/vadersverlof",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/vadersverlof",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/vadersverlof",
+  "title": "Vaderschapsverlof",
+  "description": "Ontdek wat vaderschapsverlof is, hoe het niet-biologische ouders ondersteunt en hoe bedrijven het gebruiken om gelijkheid te bevorderen en te voldoen aan wereldwijde nalevingsvereisten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257885,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1b24b2e79dbb1750-nl-nl-bronnen-hr-woordenlijst-vadersverlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1b24b2e79dbb1750-nl-nl-bronnen-hr-woordenlijst-vadersverlof.direct.json",
+  "markdownChars": 5036,
+  "linksCount": 123,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:01:51.463Z"
+}

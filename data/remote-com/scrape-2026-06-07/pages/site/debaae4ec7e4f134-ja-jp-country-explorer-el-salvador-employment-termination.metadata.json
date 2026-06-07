@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/el-salvador/employment-termination",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/el-salvador/employment-termination",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/el-salvador/employment-termination",
+  "title": "エルサルバドルにおける従業員の解雇 | 解雇手続き",
+  "description": "エルサルバドルで従業員を解雇する場合の権利を、解雇法に関する包括的ガイドで確認できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258499,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/debaae4ec7e4f134-ja-jp-country-explorer-el-salvador-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/debaae4ec7e4f134-ja-jp-country-explorer-el-salvador-employment-termination.direct.json",
+  "markdownChars": 598,
+  "linksCount": 122,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:08:30.385Z"
+}

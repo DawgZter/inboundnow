@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/mauritania",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/mauritania",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/mauritania",
+  "title": "第三方雇佣托管服务与薪资服务 | 毛里塔尼亚",
+  "description": "在毛里塔尼亚雇佣员工和合同工？Remote 可通过我们集成的全球 HR 平台帮助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 308686,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cdde11473a6fe614-zh-cn-country-explorer-mauritania.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cdde11473a6fe614-zh-cn-country-explorer-mauritania.direct.json",
+  "markdownChars": 1319,
+  "linksCount": 117,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:01:45.441Z"
+}

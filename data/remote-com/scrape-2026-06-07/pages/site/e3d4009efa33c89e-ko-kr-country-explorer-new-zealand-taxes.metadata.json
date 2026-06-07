@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/new-zealand/taxes",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/new-zealand/taxes",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/new-zealand/taxes",
+  "title": "뉴질랜드에서의 급여세 관리 | 세무 준수",
+  "description": "뉴질랜드에서의 급여세를 효과적이고 (규정) 준수 방식으로 관리합니다. 급여세 오류를 최소화하고 현지 법규를 준수하며 과도한 벌금을 피합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260510,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e3d4009efa33c89e-ko-kr-country-explorer-new-zealand-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e3d4009efa33c89e-ko-kr-country-explorer-new-zealand-taxes.direct.json",
+  "markdownChars": 941,
+  "linksCount": 123,
+  "lastmod": "2026-05-06",
+  "scrapedAt": "2026-06-07T09:07:51.363Z"
+}

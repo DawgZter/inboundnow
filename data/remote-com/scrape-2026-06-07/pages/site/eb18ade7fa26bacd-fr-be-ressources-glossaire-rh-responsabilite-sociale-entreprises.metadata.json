@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/glossaire-rh/responsabilite-sociale-entreprises",
+  "sourceURL": "https://remote.com/fr-be/ressources/glossaire-rh/responsabilite-sociale-entreprises",
+  "finalURL": "https://remote.com/fr-be/ressources/glossaire-rh/responsabilite-sociale-entreprises",
+  "title": "What is corporate social responsibility?",
+  "description": "Découvrez la responsabilité sociale des entreprises (RSE) et les obligations environnementales, éthiques, philanthropiques et économiques des entreprises.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 266931,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb18ade7fa26bacd-fr-be-ressources-glossaire-rh-responsabilite-sociale-entreprises.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb18ade7fa26bacd-fr-be-ressources-glossaire-rh-responsabilite-sociale-entreprises.direct.json",
+  "markdownChars": 12150,
+  "linksCount": 125,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:05:08.846Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/employment-faq",
+  "sourceURL": "https://remote.com/en-gb/employment-faq",
+  "finalURL": "https://remote.com/en-gb/employment-faq",
+  "title": "Remote Employment FAQs & Who to Contact | Remote",
+  "description": "This page is a handy reference guide for employees hired by Remote on behalf of their company. It includes details, frequently asked questions, and information about who to contact in different situations.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 294764,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7dbf3140b8c35133-en-gb-employment-faq.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7dbf3140b8c35133-en-gb-employment-faq.direct.json",
+  "markdownChars": 8086,
+  "linksCount": 112,
+  "lastmod": "2025-08-18",
+  "scrapedAt": "2026-06-07T09:06:00.432Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/singapour/employer-of-record",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/singapour/employer-of-record",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/singapour/employer-of-record",
+  "title": "Employer of Record à Singapour | services EOR",
+  "description": "Simplifiez l’emploi à Singapour grâce à nos services d’Employer of Record. Gérez la paie, les avantages et la conformité en toute simplicité.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263817,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ccd02e56cf789546-fr-fr-explorateur-de-pays-singapour-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ccd02e56cf789546-fr-fr-explorateur-de-pays-singapour-employer-of-record.direct.json",
+  "markdownChars": 3825,
+  "linksCount": 124,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:15:51.388Z"
+}

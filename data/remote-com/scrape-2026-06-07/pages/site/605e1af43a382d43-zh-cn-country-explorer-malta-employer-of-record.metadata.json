@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/malta/employer-of-record",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/malta/employer-of-record",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/malta/employer-of-record",
+  "title": "马耳他的第三方雇佣托管服务 (EOR) | EOR 服务",
+  "description": "借助我们的第三方雇佣托管服务 (EOR)，在马耳他简化雇佣流程。无缝管理薪资、福利和合规。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257219,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/605e1af43a382d43-zh-cn-country-explorer-malta-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/605e1af43a382d43-zh-cn-country-explorer-malta-employer-of-record.direct.json",
+  "markdownChars": 1158,
+  "linksCount": 120,
+  "lastmod": "2025-12-22",
+  "scrapedAt": "2026-06-07T09:10:19.474Z"
+}

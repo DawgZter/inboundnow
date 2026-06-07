@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/vietnam/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/country-explorer/vietnam/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/country-explorer/vietnam/benefits-guide/life-insurance",
+  "title": "Life Insurance Benefits in Vietnam | Wellbeing Support",
+  "description": "Support your team with Life Insurance benefits in Vietnam.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 266556,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/334f8b7d62e09a4f-country-explorer-vietnam-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/334f8b7d62e09a4f-country-explorer-vietnam-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 4757,
+  "linksCount": 116,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:07:47.554Z"
+}

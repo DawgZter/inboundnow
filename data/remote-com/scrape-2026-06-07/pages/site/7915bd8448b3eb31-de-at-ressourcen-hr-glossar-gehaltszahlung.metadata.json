@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/gehaltszahlung",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/gehaltszahlung",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/gehaltszahlung",
+  "title": "How does salary pay work?",
+  "description": "Erfahre mehr zu festen Gehältern, einschließlich zu Ausnahmen und Pflichten, die dein Unternehmen kennen sollte.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256424,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7915bd8448b3eb31-de-at-ressourcen-hr-glossar-gehaltszahlung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7915bd8448b3eb31-de-at-ressourcen-hr-glossar-gehaltszahlung.direct.json",
+  "markdownChars": 6937,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:05:11.501Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/hr-glossary/agent-of-record",
+  "sourceURL": "https://remote.com/en-hk/resources/hr-glossary/agent-of-record",
+  "finalURL": "https://remote.com/en-hk/resources/hr-glossary/agent-of-record",
+  "title": "Agent of record (AOR)",
+  "description": "An Agent of Record (AOR) is authorized to manage insurance policies on an employer’s behalf. Learn how AORs support benefits, compliance, and renewals.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250869,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/73e881d58cd5b934-en-hk-resources-hr-glossary-agent-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/73e881d58cd5b934-en-hk-resources-hr-glossary-agent-of-record.direct.json",
+  "markdownChars": 2518,
+  "linksCount": 118,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:10:26.546Z"
+}

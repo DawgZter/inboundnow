@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/benin/contractor-management",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/benin/contractor-management",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/benin/contractor-management",
+  "title": "ベニンでの契約社員管理 | 契約社員管理",
+  "description": "ベニンで契約者を採用する場合、Remoteの柔軟な契約社員管理サービスで世界中の契約者の管理と支払いを手間なく行えます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257719,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/242ad1eb843371f0-ja-jp-country-explorer-benin-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/242ad1eb843371f0-ja-jp-country-explorer-benin-contractor-management.direct.json",
+  "markdownChars": 1398,
+  "linksCount": 117,
+  "lastmod": "2025-10-28",
+  "scrapedAt": "2026-06-07T09:05:46.921Z"
+}

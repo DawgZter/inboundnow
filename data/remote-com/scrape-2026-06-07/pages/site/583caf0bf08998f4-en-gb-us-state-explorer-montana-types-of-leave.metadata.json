@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/montana/types-of-leave",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/montana/types-of-leave",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/montana/types-of-leave",
+  "title": "Types of Leave in Montana | Employee Leave Laws",
+  "description": "Understand employee leave laws in Montana. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257908,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/583caf0bf08998f4-en-gb-us-state-explorer-montana-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/583caf0bf08998f4-en-gb-us-state-explorer-montana-types-of-leave.direct.json",
+  "markdownChars": 2479,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:01:34.936Z"
+}

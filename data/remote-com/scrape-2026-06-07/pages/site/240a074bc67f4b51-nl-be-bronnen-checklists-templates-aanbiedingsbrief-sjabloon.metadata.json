@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/checklists-templates/aanbiedingsbrief-sjabloon",
+  "sourceURL": "https://remote.com/nl-be/bronnen/checklists-templates/aanbiedingsbrief-sjabloon",
+  "finalURL": "https://remote.com/nl-be/bronnen/checklists-templates/aanbiedingsbrief-sjabloon",
+  "title": "Offertebrief template | Remote",
+  "description": "Maak duidelijke, conforme arbeidsaanbiedingen met de aanpasbare aanbiedingsbrief-sjabloon van Remote. Gebruik deze sjabloon om onboarding te stroomlijnen, risico’s te verkleinen en nieuwe medewerkers te imponeren.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251946,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/240a074bc67f4b51-nl-be-bronnen-checklists-templates-aanbiedingsbrief-sjabloon.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/240a074bc67f4b51-nl-be-bronnen-checklists-templates-aanbiedingsbrief-sjabloon.direct.json",
+  "markdownChars": 9025,
+  "linksCount": 118,
+  "lastmod": "2025-07-10",
+  "scrapedAt": "2026-06-07T09:18:42.536Z"
+}

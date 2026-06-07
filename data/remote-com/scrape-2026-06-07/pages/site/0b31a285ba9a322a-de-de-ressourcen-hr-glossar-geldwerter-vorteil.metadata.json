@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/geldwerter-vorteil",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/geldwerter-vorteil",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/geldwerter-vorteil",
+  "title": "Unterstelltes Einkommen",
+  "description": "Erfahre, was ein geldwerter Vorteil ist und wie er sich auf die Steuerzahlungen deines Unternehmens auswirkt.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253850,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b31a285ba9a322a-de-de-ressourcen-hr-glossar-geldwerter-vorteil.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b31a285ba9a322a-de-de-ressourcen-hr-glossar-geldwerter-vorteil.direct.json",
+  "markdownChars": 3986,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:10:05.546Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/honduras",
+  "sourceURL": "https://remote.com/en-in/country-explorer/honduras",
+  "finalURL": "https://remote.com/en-in/country-explorer/honduras",
+  "title": "Employer of Record & Payroll Services | Honduras",
+  "description": "Hiring employees and contractors in Honduras? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 340144,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fa0ca74a90c72537-en-in-country-explorer-honduras.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fa0ca74a90c72537-en-in-country-explorer-honduras.direct.json",
+  "markdownChars": 5623,
+  "linksCount": 126,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:01:11.026Z"
+}

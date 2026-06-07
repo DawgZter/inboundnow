@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/marokko",
+  "sourceURL": "https://remote.com/de-at/country-explorer/marokko",
+  "finalURL": "https://remote.com/de-at/country-explorer/marokko",
+  "title": "Arbeitgeber-von-Record- und Payroll-Services | Marokko",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Marokko? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 343859,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e375e351db4c0c4b-de-at-country-explorer-marokko.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e375e351db4c0c4b-de-at-country-explorer-marokko.direct.json",
+  "markdownChars": 6859,
+  "linksCount": 124,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:08:05.790Z"
+}

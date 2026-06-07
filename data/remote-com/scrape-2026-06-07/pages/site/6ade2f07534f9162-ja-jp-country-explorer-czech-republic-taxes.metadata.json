@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/czech-republic/taxes",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/czech-republic/taxes",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/czech-republic/taxes",
+  "title": "チェコ共和国の給与税管理｜税務コンプライアンス",
+  "description": "チェコ共和国における貴社の給与税を効果的かつ法令に準拠して管理します。給与税の誤りを最小限に抑え、現地法を順守して高額な罰金を回避できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259083,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ade2f07534f9162-ja-jp-country-explorer-czech-republic-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ade2f07534f9162-ja-jp-country-explorer-czech-republic-taxes.direct.json",
+  "markdownChars": 398,
+  "linksCount": 123,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:01:03.825Z"
+}

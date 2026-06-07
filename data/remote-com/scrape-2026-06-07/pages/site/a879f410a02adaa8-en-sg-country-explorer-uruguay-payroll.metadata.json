@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/uruguay/payroll",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/uruguay/payroll",
+  "finalURL": "https://remote.com/en-sg/country-explorer/uruguay/payroll",
+  "title": "Pay Employees in Uruguay | Payroll Services",
+  "description": "Pay employees in Uruguay effortlessly with our flexible payroll services. Run payroll, manage expenses and run reports, all from one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260775,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a879f410a02adaa8-en-sg-country-explorer-uruguay-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a879f410a02adaa8-en-sg-country-explorer-uruguay-payroll.direct.json",
+  "markdownChars": 3574,
+  "linksCount": 127,
+  "lastmod": "2025-11-08",
+  "scrapedAt": "2026-06-07T09:01:39.762Z"
+}

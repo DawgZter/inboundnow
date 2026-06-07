@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/research/set-up-as-freelance-contractor",
+  "sourceURL": "https://remote.com/en-ph/resources/research/set-up-as-freelance-contractor",
+  "finalURL": "https://remote.com/en-ph/resources/research/set-up-as-freelance-contractor",
+  "title": "How to set up and get paid as a freelance contractor | Remote | Remote",
+  "description": "Learn how to easily set up and get paid as a freelancer or independent contractor so you can take local and international clients",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 300911,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b98fb8dc6c9cdbf-en-ph-resources-research-set-up-as-freelance-contractor.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b98fb8dc6c9cdbf-en-ph-resources-research-set-up-as-freelance-contractor.direct.json",
+  "markdownChars": 18600,
+  "linksCount": 142,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:11:07.370Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/ukraine/employment-termination",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/ukraine/employment-termination",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/ukraine/employment-termination",
+  "title": "ウクライナでの従業員解雇 | 解雇手続き",
+  "description": "ウクライナで従業員を解雇する際の権利と手続きを、雇用解雇法に関する包括的なガイドでご確認ください。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260125,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3e9e8ee11c53c1c5-ja-jp-country-explorer-ukraine-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3e9e8ee11c53c1c5-ja-jp-country-explorer-ukraine-employment-termination.direct.json",
+  "markdownChars": 1040,
+  "linksCount": 123,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:10:17.251Z"
+}

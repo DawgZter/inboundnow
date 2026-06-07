@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/payroll-report",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/payroll-report",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/payroll-report",
+  "title": "급여 보고서",
+  "description": "급여 보고서의 개념, 비즈니스에서 급여 보고서의 중요성, 급여 보고서가 직원 관리 및 재무 계획에 미치는 영향을 이해하려면 종합적인 HR 용어집을 살펴보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253568,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2249894be0fb6b13-ko-kr-resources-hr-glossary-payroll-report.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2249894be0fb6b13-ko-kr-resources-hr-glossary-payroll-report.direct.json",
+  "markdownChars": 1710,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:11:11.746Z"
+}

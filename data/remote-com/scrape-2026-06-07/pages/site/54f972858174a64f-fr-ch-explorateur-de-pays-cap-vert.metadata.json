@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/cap-vert",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/cap-vert",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/cap-vert",
+  "title": "Services de paie et d’Employer of record : Cape Verde",
+  "description": "Recruter des employés et des freelances : Cap-Vert Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 312688,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/54f972858174a64f-fr-ch-explorateur-de-pays-cap-vert.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/54f972858174a64f-fr-ch-explorateur-de-pays-cap-vert.direct.json",
+  "markdownChars": 3791,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:02:44.073Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/about",
+  "sourceURL": "https://remote.com/en-ca/about",
+  "finalURL": "https://remote.com/en-ca/about",
+  "title": "About Remote | Remote",
+  "description": "Remote enables companies to simplify how they employ global talent with disruptive global payroll, tax, HR and compliance solutions for a distributed workforce.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 320407,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5d21f03f2473570c-en-ca-about.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5d21f03f2473570c-en-ca-about.direct.json",
+  "markdownChars": 1704,
+  "linksCount": 131,
+  "lastmod": "2026-04-30",
+  "scrapedAt": "2026-06-07T09:06:43.755Z"
+}

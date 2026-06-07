@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/sao-cristovao-e-nevis",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/sao-cristovao-e-nevis",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/sao-cristovao-e-nevis",
+  "title": "Employer of Record (EOR) e processamento salarial | São Cristóvão e Neves",
+  "description": "Queres contratar trabalhadores e independentes em São Cristóvão e Neves? A Remote ajuda-te a gerir a tua equipa através da nossa plataforma global de RH.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 214360,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dd4c3b90cf5a945d-pt-pt-explorar-pais-sao-cristovao-e-nevis.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dd4c3b90cf5a945d-pt-pt-explorar-pais-sao-cristovao-e-nevis.direct.json",
+  "markdownChars": 3976,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:01:04.325Z"
+}

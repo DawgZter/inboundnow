@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/colombia/cessazione-rapporto-lavoro",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/colombia/cessazione-rapporto-lavoro",
+  "finalURL": "https://remote.com/it-it/esplora-paese/colombia/cessazione-rapporto-lavoro",
+  "title": "Interrompere rapporti di lavoro in Colombia | Cessazione del rapporto di lavoro",
+  "description": "Vuoi interrompere un rapporto di lavoro in Colombia? Comprendi i tuoi diritti nella nostra guida completa sulle leggi relative alla cessazione del rapporto di lavoro.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155284,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3b710d89204725d8-it-it-esplora-paese-colombia-cessazione-rapporto-lavoro.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3b710d89204725d8-it-it-esplora-paese-colombia-cessazione-rapporto-lavoro.direct.json",
+  "markdownChars": 3229,
+  "linksCount": 44,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:04:21.914Z"
+}

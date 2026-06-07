@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/us-state-explorer/missouri/taxes",
+  "sourceURL": "https://remote.com/en-sg/us-state-explorer/missouri/taxes",
+  "finalURL": "https://remote.com/en-sg/us-state-explorer/missouri/taxes",
+  "title": "Manage Payroll Tax in - Missouri | Tax Compliance",
+  "description": "Manage payroll taxes in Missouri effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256493,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/44c7d54211f5c529-en-sg-us-state-explorer-missouri-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/44c7d54211f5c529-en-sg-us-state-explorer-missouri-taxes.direct.json",
+  "markdownChars": 1070,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:01:02.356Z"
+}

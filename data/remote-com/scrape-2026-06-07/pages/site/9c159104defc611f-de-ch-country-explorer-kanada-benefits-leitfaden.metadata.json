@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/kanada/benefits-leitfaden",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/kanada/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-ch/country-explorer/kanada/benefits-leitfaden",
+  "title": "Sozialleistungen in Kanada | Leistungspläne",
+  "description": "Entdecke die wichtigsten Sozialleistungen in Kanada und erfahre, wie Krankenversicherung, bezahlter Urlaub und weitere Vorteile dir helfen, Mitarbeiter:innen zu gewinnen und zu binden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271285,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9c159104defc611f-de-ch-country-explorer-kanada-benefits-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9c159104defc611f-de-ch-country-explorer-kanada-benefits-leitfaden.direct.json",
+  "markdownChars": 1676,
+  "linksCount": 126,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:06:14.530Z"
+}

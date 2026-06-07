@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/hr-glossary/federal-holiday",
+  "sourceURL": "https://remote.com/en-ph/resources/hr-glossary/federal-holiday",
+  "finalURL": "https://remote.com/en-ph/resources/hr-glossary/federal-holiday",
+  "title": "Federal holiday",
+  "description": "A federal holiday is a US government-recognized public holiday. Learn how it affects scheduling, pay, and compliance for private-sector employers.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252122,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6f3910ac28ecc6cd-en-ph-resources-hr-glossary-federal-holiday.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6f3910ac28ecc6cd-en-ph-resources-hr-glossary-federal-holiday.direct.json",
+  "markdownChars": 3404,
+  "linksCount": 120,
+  "lastmod": "2025-07-19",
+  "scrapedAt": "2026-06-07T09:13:31.340Z"
+}

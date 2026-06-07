@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/us-state-explorer/illinois/payroll",
+  "sourceURL": "https://remote.com/en-ph/us-state-explorer/illinois/payroll",
+  "finalURL": "https://remote.com/en-ph/us-state-explorer/illinois/payroll",
+  "title": "Payroll Management in Illinois",
+  "description": "Manage payroll in Illinois seamlessly with Remote's payroll software. Stay compliant with Illinois payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258444,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/79a15383a3bc624e-en-ph-us-state-explorer-illinois-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/79a15383a3bc624e-en-ph-us-state-explorer-illinois-payroll.direct.json",
+  "markdownChars": 3944,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:01:06.775Z"
+}

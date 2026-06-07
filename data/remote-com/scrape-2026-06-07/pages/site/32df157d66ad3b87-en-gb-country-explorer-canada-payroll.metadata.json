@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/canada/payroll",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/canada/payroll",
+  "finalURL": "https://remote.com/en-gb/country-explorer/canada/payroll",
+  "title": "Pay Employees in Canada | Payroll Services",
+  "description": "Pay employees in Canada effortlessly with our flexible payroll services. Run payroll, manage expenses and run reports, all from one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263012,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/32df157d66ad3b87-en-gb-country-explorer-canada-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/32df157d66ad3b87-en-gb-country-explorer-canada-payroll.direct.json",
+  "markdownChars": 4169,
+  "linksCount": 131,
+  "lastmod": "2025-11-08",
+  "scrapedAt": "2026-06-07T09:15:25.475Z"
+}

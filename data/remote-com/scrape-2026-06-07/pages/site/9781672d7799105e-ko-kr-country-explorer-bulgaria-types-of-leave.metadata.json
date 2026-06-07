@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/bulgaria/types-of-leave",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/bulgaria/types-of-leave",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/bulgaria/types-of-leave",
+  "title": "Tipos de permiso en Bulgaria | Legislación sobre permisos de empleados",
+  "description": "불가리아의 직원 휴가 법규를 이해하여 귀사의 휴가 정책 준수를 보장하고 경쟁력 있는 연차 유급 휴가를 제공할 수 있도록 합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258455,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9781672d7799105e-ko-kr-country-explorer-bulgaria-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9781672d7799105e-ko-kr-country-explorer-bulgaria-types-of-leave.direct.json",
+  "markdownChars": 2251,
+  "linksCount": 121,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:06:03.544Z"
+}

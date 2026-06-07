@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/globale-hr/payroll-reporting",
+  "sourceURL": "https://remote.com/de-ch/globale-hr/payroll-reporting",
+  "finalURL": "https://remote.com/de-ch/globale-hr/payroll-reporting",
+  "title": "Payroll-Reporting-Bibliothek | Remote",
+  "description": "Remotes Payroll-Reporting-Bibliothek ist ein leistungsstarkes Tool für die Analyse der Lohn- und Lohnnebenkosten. Es hilft dir bei der effizienten Finanzverwaltung, der Strukturierung deiner Belegschaft und der Planung für die Zukunft.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 314025,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23f9bf03313e6a44-de-ch-globale-hr-payroll-reporting.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23f9bf03313e6a44-de-ch-globale-hr-payroll-reporting.direct.json",
+  "markdownChars": 6234,
+  "linksCount": 119,
+  "lastmod": "2025-05-18",
+  "scrapedAt": "2026-06-07T09:17:35.180Z"
+}

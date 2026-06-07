@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/product-marketing-manager-baanomschrijving",
+  "sourceURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/product-marketing-manager-baanomschrijving",
+  "finalURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/product-marketing-manager-baanomschrijving",
+  "title": "Functieomschrijving product marketing manager",
+  "description": "Bekijk de functiebeschrijving voor product marketing manager, verantwoordelijk voor het ontwikkelen van marketingstrategieën, het lanceren van producten en het stimuleren van klantbetrokkenheid en verkoop.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257986,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b75dec1e265041e-nl-be-bronnen-functiebeschrijvingen-product-marketing-manager-baanomschrijving.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0b75dec1e265041e-nl-be-bronnen-functiebeschrijvingen-product-marketing-manager-baanomschrijving.direct.json",
+  "markdownChars": 5291,
+  "linksCount": 117,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:17:00.298Z"
+}

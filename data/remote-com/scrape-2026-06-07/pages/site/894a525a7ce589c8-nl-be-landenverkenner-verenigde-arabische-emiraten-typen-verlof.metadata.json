@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/verenigde-arabische-emiraten/typen-verlof",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/verenigde-arabische-emiraten/typen-verlof",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/verenigde-arabische-emiraten/typen-verlof",
+  "title": "Typen verlof in United Arab Emirates | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Verenigde Arabische Emiraten. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256836,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/894a525a7ce589c8-nl-be-landenverkenner-verenigde-arabische-emiraten-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/894a525a7ce589c8-nl-be-landenverkenner-verenigde-arabische-emiraten-typen-verlof.direct.json",
+  "markdownChars": 2001,
+  "linksCount": 126,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:13:50.239Z"
+}

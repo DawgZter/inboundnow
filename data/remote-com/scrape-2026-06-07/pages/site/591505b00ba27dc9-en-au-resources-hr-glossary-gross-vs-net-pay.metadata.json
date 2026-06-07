@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/hr-glossary/gross-vs-net-pay",
+  "sourceURL": "https://remote.com/en-au/resources/hr-glossary/gross-vs-net-pay",
+  "finalURL": "https://remote.com/en-au/resources/hr-glossary/gross-vs-net-pay",
+  "title": "Gross vs net pay",
+  "description": "Understanding the distinction between gross and net pay is crucial for managing your employment budget and comprehending business profitability.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250891,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/591505b00ba27dc9-en-au-resources-hr-glossary-gross-vs-net-pay.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/591505b00ba27dc9-en-au-resources-hr-glossary-gross-vs-net-pay.direct.json",
+  "markdownChars": 2473,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:20.383Z"
+}

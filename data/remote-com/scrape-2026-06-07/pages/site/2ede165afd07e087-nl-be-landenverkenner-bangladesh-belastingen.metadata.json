@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/bangladesh/belastingen",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/bangladesh/belastingen",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/bangladesh/belastingen",
+  "title": "Loonlijst belasting in Bangladesh beheren | Naleving belasting",
+  "description": "Beheer effectief en compliant payroll-belasting in Bangladesh. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253933,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2ede165afd07e087-nl-be-landenverkenner-bangladesh-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2ede165afd07e087-nl-be-landenverkenner-bangladesh-belastingen.direct.json",
+  "markdownChars": 1081,
+  "linksCount": 125,
+  "lastmod": "2025-09-01",
+  "scrapedAt": "2026-06-07T09:11:07.941Z"
+}

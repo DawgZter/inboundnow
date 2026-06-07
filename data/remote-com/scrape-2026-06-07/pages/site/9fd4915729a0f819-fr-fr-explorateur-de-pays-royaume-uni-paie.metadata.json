@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/royaume-uni/paie",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/royaume-uni/paie",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/royaume-uni/paie",
+  "title": "Payer des salariés au Royaume-Uni | Services de paie",
+  "description": "Payez vos salariés au Royaume‑Uni sans effort grâce à nos services de paie flexibles. Gérez la paie, les dépenses et les rapports, le tout depuis une seule plateforme.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265380,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9fd4915729a0f819-fr-fr-explorateur-de-pays-royaume-uni-paie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9fd4915729a0f819-fr-fr-explorateur-de-pays-royaume-uni-paie.direct.json",
+  "markdownChars": 4856,
+  "linksCount": 125,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:07:22.463Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/insights-center/pay-equity-for-global-teams",
+  "sourceURL": "https://remote.com/resources/insights-center/pay-equity-for-global-teams",
+  "finalURL": "https://remote.com/resources/insights-center/pay-equity-for-global-teams",
+  "title": "How to achieve pay equity for global teams",
+  "description": "Learn how to achieve pay equity for your global team, and create a fair, inclusive environment that drives satisfaction and productivity.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257410,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fba053d10630e46f-resources-insights-center-pay-equity-for-global-teams.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fba053d10630e46f-resources-insights-center-pay-equity-for-global-teams.direct.json",
+  "markdownChars": 8116,
+  "linksCount": 113,
+  "lastmod": "2025-05-27",
+  "scrapedAt": "2026-06-07T09:07:37.091Z"
+}

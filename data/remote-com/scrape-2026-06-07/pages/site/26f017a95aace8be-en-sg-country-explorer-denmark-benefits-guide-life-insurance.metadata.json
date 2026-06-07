@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/denmark/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/denmark/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/en-sg/country-explorer/denmark/benefits-guide/life-insurance",
+  "title": "Life Insurance Benefits in Denmark | Wellbeing Support",
+  "description": "Support your team with Life Insurance benefits in Denmark.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 266341,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/26f017a95aace8be-en-sg-country-explorer-denmark-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/26f017a95aace8be-en-sg-country-explorer-denmark-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 4811,
+  "linksCount": 119,
+  "lastmod": "2025-12-21",
+  "scrapedAt": "2026-06-07T09:10:45.168Z"
+}

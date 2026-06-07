@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/global-hr/remote-voor-werknemers",
+  "sourceURL": "https://remote.com/nl-be/global-hr/remote-voor-werknemers",
+  "finalURL": "https://remote.com/nl-be/global-hr/remote-voor-werknemers",
+  "title": "Remote voor werknemers | Remote",
+  "description": "Internationale werknemers in dienst nemen is complex. Remote maakt het makkelijk.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 302874,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fdbb7da5b7e1e199-nl-be-global-hr-remote-voor-werknemers.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fdbb7da5b7e1e199-nl-be-global-hr-remote-voor-werknemers.direct.json",
+  "markdownChars": 7207,
+  "linksCount": 121,
+  "lastmod": "2025-05-14",
+  "scrapedAt": "2026-06-07T09:17:02.310Z"
+}

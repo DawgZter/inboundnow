@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/portugal/contractor-management",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/portugal/contractor-management",
+  "finalURL": "https://remote.com/de-ch/country-explorer/portugal/contractor-management",
+  "title": "Auftragnehmer:innen in Portugal verwalten | Contractor Management",
+  "description": "Beauftragst du eine:n Auftragnehmer:in in Portugal? Verwalte und bezahle weltweite Auftragnehmer:innen mühelos mit unserem flexiblen Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259356,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1aef00eebe4a443b-de-ch-country-explorer-portugal-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1aef00eebe4a443b-de-ch-country-explorer-portugal-contractor-management.direct.json",
+  "markdownChars": 2646,
+  "linksCount": 125,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:07:10.828Z"
+}

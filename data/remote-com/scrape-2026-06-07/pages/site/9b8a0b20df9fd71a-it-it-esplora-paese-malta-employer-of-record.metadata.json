@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/malta/employer-of-record",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/malta/employer-of-record",
+  "finalURL": "https://remote.com/it-it/esplora-paese/malta/employer-of-record",
+  "title": "Employer of Record (EOR) a Malta | Servizi EOR",
+  "description": "Gestisci il tuo personale a Malta con il nostro Employer of Record (EOR). Affidaci la gestione delle buste paga, dei benefit e della conformità normativa in modo semplice.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154728,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9b8a0b20df9fd71a-it-it-esplora-paese-malta-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9b8a0b20df9fd71a-it-it-esplora-paese-malta-employer-of-record.direct.json",
+  "markdownChars": 3583,
+  "linksCount": 43,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:08:00.314Z"
+}

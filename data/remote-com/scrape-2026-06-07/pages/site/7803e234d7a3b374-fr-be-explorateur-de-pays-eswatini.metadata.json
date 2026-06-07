@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/eswatini",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/eswatini",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/eswatini",
+  "title": "Services de paie et d’Employer of record : Eswatini",
+  "description": "Recruter des employés et des freelances : Eswatini Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 313270,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7803e234d7a3b374-fr-be-explorateur-de-pays-eswatini.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7803e234d7a3b374-fr-be-explorateur-de-pays-eswatini.direct.json",
+  "markdownChars": 3784,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:01:00.668Z"
+}

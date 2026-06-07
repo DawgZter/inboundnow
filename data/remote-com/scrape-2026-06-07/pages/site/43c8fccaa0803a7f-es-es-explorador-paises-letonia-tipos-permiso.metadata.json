@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/letonia/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/letonia/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/letonia/tipos-permiso",
+  "title": "Tipos de permiso en Letonia | Legislación sobre permisos de empleados",
+  "description": "Conoce la normativa sobre permisos de los empleados en Letonia. Asegúrate de que tu empresa cumple con las políticas y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261251,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/43c8fccaa0803a7f-es-es-explorador-paises-letonia-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/43c8fccaa0803a7f-es-es-explorador-paises-letonia-tipos-permiso.direct.json",
+  "markdownChars": 2412,
+  "linksCount": 121,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:14:45.823Z"
+}

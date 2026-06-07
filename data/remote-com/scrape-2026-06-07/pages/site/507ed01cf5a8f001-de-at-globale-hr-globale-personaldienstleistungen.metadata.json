@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/globale-hr/globale-personaldienstleistungen",
+  "sourceURL": "https://remote.com/de-at/globale-hr/globale-personaldienstleistungen",
+  "finalURL": "https://remote.com/de-at/globale-hr/globale-personaldienstleistungen",
+  "title": "Globale Personaldienstleistungen: Stelle Talente weltweit ein | Remote",
+  "description": "Want to build a global team? Remote offers to help companies hire abroad with ease. Learn more now!",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 330089,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/507ed01cf5a8f001-de-at-globale-hr-globale-personaldienstleistungen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/507ed01cf5a8f001-de-at-globale-hr-globale-personaldienstleistungen.direct.json",
+  "markdownChars": 8718,
+  "linksCount": 118,
+  "lastmod": "2025-04-24",
+  "scrapedAt": "2026-06-07T09:07:42.577Z"
+}

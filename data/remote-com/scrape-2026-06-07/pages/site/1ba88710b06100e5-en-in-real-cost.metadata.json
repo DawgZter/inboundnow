@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/real-cost",
+  "sourceURL": "https://remote.com/en-in/real-cost",
+  "finalURL": "https://remote.com/en-in/real-cost",
+  "title": "The Real Cost of Opening a Business Entity | Remote",
+  "description": "Creating and maintaining your own entity in another country requires a lot of time, money, and risk. Bypass the hard parts of international hiring with Remote EOR instead!",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258881,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1ba88710b06100e5-en-in-real-cost.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1ba88710b06100e5-en-in-real-cost.direct.json",
+  "markdownChars": 2098,
+  "linksCount": 111,
+  "lastmod": "2026-05-07",
+  "scrapedAt": "2026-06-07T09:17:27.017Z"
+}

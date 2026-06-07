@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/malta/benefits-leitfaden",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/malta/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-ch/country-explorer/malta/benefits-leitfaden",
+  "title": "Sozialleistungen in Malta | Leistungspläne",
+  "description": "Entdecke essentielle Sozialleistungen für Mitarbeiter:innen in Malta. Erfahre, wie Krankenversicherung, bezahlter Urlaub und weitere Vorteile dir helfen, Top‑Talente zu gewinnen und zu binden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270158,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/436cbe63d8f54367-de-ch-country-explorer-malta-benefits-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/436cbe63d8f54367-de-ch-country-explorer-malta-benefits-leitfaden.direct.json",
+  "markdownChars": 1628,
+  "linksCount": 124,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:09:45.642Z"
+}

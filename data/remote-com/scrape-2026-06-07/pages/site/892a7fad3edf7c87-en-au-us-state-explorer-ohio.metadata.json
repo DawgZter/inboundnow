@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/us-state-explorer/ohio",
+  "sourceURL": "https://remote.com/en-au/us-state-explorer/ohio",
+  "finalURL": "https://remote.com/en-au/us-state-explorer/ohio",
+  "title": "Employer of Record & Payroll Services | Ohio",
+  "description": "Use our compliance guide to employ in Ohio with ease. Learn about benefits, payroll, leave, and other labor laws in the Buckeye State.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 330981,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/892a7fad3edf7c87-en-au-us-state-explorer-ohio.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/892a7fad3edf7c87-en-au-us-state-explorer-ohio.direct.json",
+  "markdownChars": 6977,
+  "linksCount": 113,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:01:54.024Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/paraguay/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/paraguay/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/paraguay/tipos-permiso",
+  "title": "Tipos de permiso en Paraguay | Leyes sobre permisos para empleados",
+  "description": "Entiende la legislación sobre permisos para empleados en Paraguay. Asegúrate de que tu empresa cumple las políticas de permisos y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260663,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/10c88c9a42a84fd5-es-es-explorador-paises-paraguay-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/10c88c9a42a84fd5-es-es-explorador-paises-paraguay-tipos-permiso.direct.json",
+  "markdownChars": 1751,
+  "linksCount": 121,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:13:41.504Z"
+}

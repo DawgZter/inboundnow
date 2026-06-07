@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/tunisia/impostos",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/tunisia/impostos",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/tunisia/impostos",
+  "title": "Gere os impostos do processamento salarial na Tunísia | Conformidade fiscal",
+  "description": "Gere os impostos do processamento salarial na Tunísia de forma eficiente e em conformidade. Minimiza erros no processamento salarial, cumpre a legislação local e evita coimas elevadas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 151529,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/388bde1e9334c2e2-pt-pt-explorar-pais-tunisia-impostos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/388bde1e9334c2e2-pt-pt-explorar-pais-tunisia-impostos.direct.json",
+  "markdownChars": 974,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:10:29.156Z"
+}

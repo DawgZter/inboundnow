@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/ucrania/tipos-permiso",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/ucrania/tipos-permiso",
+  "finalURL": "https://remote.com/es-es/explorador-paises/ucrania/tipos-permiso",
+  "title": "Tipos de permiso en Ucrania | Legislación sobre permisos de empleados",
+  "description": "Conoce la normativa de permisos para empleados en Ucrania. Asegúrate de que tu empresa cumple las políticas y ofrece vacaciones pagadas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262729,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1555b450b406f46-es-es-explorador-paises-ucrania-tipos-permiso.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1555b450b406f46-es-es-explorador-paises-ucrania-tipos-permiso.direct.json",
+  "markdownChars": 3344,
+  "linksCount": 122,
+  "lastmod": "2025-09-22",
+  "scrapedAt": "2026-06-07T09:08:41.194Z"
+}

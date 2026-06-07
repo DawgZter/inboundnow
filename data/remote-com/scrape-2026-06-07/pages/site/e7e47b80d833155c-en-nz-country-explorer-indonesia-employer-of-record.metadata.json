@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer/indonesia/employer-of-record",
+  "sourceURL": "https://remote.com/en-nz/country-explorer/indonesia/employer-of-record",
+  "finalURL": "https://remote.com/en-nz/country-explorer/indonesia/employer-of-record",
+  "title": "Employer of Record in Indonesia | EOR Services",
+  "description": "Simplify employment in Indonesia with our Employer of Record services. Handle payroll, benefits, and compliance seamlessly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260677,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e7e47b80d833155c-en-nz-country-explorer-indonesia-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e7e47b80d833155c-en-nz-country-explorer-indonesia-employer-of-record.direct.json",
+  "markdownChars": 3231,
+  "linksCount": 126,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:18:34.861Z"
+}

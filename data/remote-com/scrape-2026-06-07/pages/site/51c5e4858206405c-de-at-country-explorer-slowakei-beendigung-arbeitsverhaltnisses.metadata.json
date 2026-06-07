@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/slowakei/beendigung-arbeitsverhaltnisses",
+  "sourceURL": "https://remote.com/de-at/country-explorer/slowakei/beendigung-arbeitsverhaltnisses",
+  "finalURL": "https://remote.com/de-at/country-explorer/slowakei/beendigung-arbeitsverhaltnisses",
+  "title": "Arbeitsverhältnisse in Slovakia beenden | Mitarbeiter:innen kündigen",
+  "description": "Du musst eine Teammitglied in Slowakei entlassen? In unserem umfassenden Leitfaden zum Kündigungsrecht erfährst du, was du tun kannst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258664,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/51c5e4858206405c-de-at-country-explorer-slowakei-beendigung-arbeitsverhaltnisses.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/51c5e4858206405c-de-at-country-explorer-slowakei-beendigung-arbeitsverhaltnisses.direct.json",
+  "markdownChars": 2108,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:17:36.033Z"
+}

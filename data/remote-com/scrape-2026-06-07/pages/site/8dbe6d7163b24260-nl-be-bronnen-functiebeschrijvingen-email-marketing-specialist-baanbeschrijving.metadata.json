@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/email-marketing-specialist-baanbeschrijving",
+  "sourceURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/email-marketing-specialist-baanbeschrijving",
+  "finalURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/email-marketing-specialist-baanbeschrijving",
+  "title": "Functieomschrijving specialist e-mailmarketing",
+  "description": "Bekijk de functiebeschrijving voor e-mailmarketingspecialist, verantwoordelijk voor het maken en beheren van e-mailcampagnes, het analyseren van prestatiecijfers en het optimaliseren van engagementstrategieën.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258279,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8dbe6d7163b24260-nl-be-bronnen-functiebeschrijvingen-email-marketing-specialist-baanbeschrijving.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8dbe6d7163b24260-nl-be-bronnen-functiebeschrijvingen-email-marketing-specialist-baanbeschrijving.direct.json",
+  "markdownChars": 5481,
+  "linksCount": 117,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:06:23.462Z"
+}

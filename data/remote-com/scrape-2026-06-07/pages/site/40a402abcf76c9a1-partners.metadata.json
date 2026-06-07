@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/partners",
+  "sourceURL": "https://remote.com/partners",
+  "finalURL": "https://remote.com/partners",
+  "title": "Explore Remote partner programs | Remote",
+  "description": "Ready to help shape the future of remote work and grow your business? Learn more about becoming a Remote partner.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 315013,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40a402abcf76c9a1-partners.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40a402abcf76c9a1-partners.direct.json",
+  "markdownChars": 4080,
+  "linksCount": 111,
+  "lastmod": "2026-02-12",
+  "scrapedAt": "2026-06-07T09:07:27.595Z"
+}

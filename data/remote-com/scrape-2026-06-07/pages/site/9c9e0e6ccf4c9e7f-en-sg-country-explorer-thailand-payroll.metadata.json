@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/thailand/payroll",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/thailand/payroll",
+  "finalURL": "https://remote.com/en-sg/country-explorer/thailand/payroll",
+  "title": "Pay Employees in Thailand | Payroll Services",
+  "description": "Pay employees in Thailand effortlessly with our flexible payroll services. Run payroll, manage expenses and run reports, all from one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262297,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9c9e0e6ccf4c9e7f-en-sg-country-explorer-thailand-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9c9e0e6ccf4c9e7f-en-sg-country-explorer-thailand-payroll.direct.json",
+  "markdownChars": 4520,
+  "linksCount": 126,
+  "lastmod": "2025-09-05",
+  "scrapedAt": "2026-06-07T09:14:00.020Z"
+}

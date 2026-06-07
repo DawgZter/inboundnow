@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/rh-globais/processamento-salarial-global",
+  "sourceURL": "https://remote.com/pt-pt/rh-globais/processamento-salarial-global",
+  "finalURL": "https://remote.com/pt-pt/rh-globais/processamento-salarial-global",
+  "title": "Processamento salarial global e internacional simplificado | Remote",
+  "description": "Consolida o teu processamento salarial em diversos países com a Remote. Nós tratamos dos impostos, pagamentos e conformidade com o Remote Global Payroll.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 336411,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6b24a055d194595b-pt-pt-rh-globais-processamento-salarial-global.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6b24a055d194595b-pt-pt-rh-globais-processamento-salarial-global.direct.json",
+  "markdownChars": 13286,
+  "linksCount": 51,
+  "lastmod": "2026-04-20",
+  "scrapedAt": "2026-06-07T09:12:00.932Z"
+}

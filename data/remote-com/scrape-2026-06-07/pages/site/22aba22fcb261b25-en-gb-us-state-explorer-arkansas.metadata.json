@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/arkansas",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/arkansas",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/arkansas",
+  "title": "Employer of Record | Arkansas: Remote’s compliance guide",
+  "description": "Use our compliance guide to employ in Arkansas with ease. Learn about benefits, payroll, leave, and other labor laws in The Natural State.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 331701,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/22aba22fcb261b25-en-gb-us-state-explorer-arkansas.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/22aba22fcb261b25-en-gb-us-state-explorer-arkansas.direct.json",
+  "markdownChars": 7115,
+  "linksCount": 114,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:01:34.642Z"
+}

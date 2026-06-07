@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/denemarken/payroll",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/denemarken/payroll",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/denemarken/payroll",
+  "title": "Werknemers betalen in Denemarken | Payrollservices",
+  "description": "Betaal werknemers in Denemarken moeiteloos met onze flexibele payrollservices. Voer payroll uit, beheer onkosten en genereer rapporten, alles vanuit één plek.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263722,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fc138c477118df78-nl-nl-landenverkenner-denemarken-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fc138c477118df78-nl-nl-landenverkenner-denemarken-payroll.direct.json",
+  "markdownChars": 4400,
+  "linksCount": 125,
+  "lastmod": "2025-12-15",
+  "scrapedAt": "2026-06-07T09:01:35.618Z"
+}

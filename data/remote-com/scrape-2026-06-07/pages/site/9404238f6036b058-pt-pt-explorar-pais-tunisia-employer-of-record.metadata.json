@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/tunisia/employer-of-record",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/tunisia/employer-of-record",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/tunisia/employer-of-record",
+  "title": "Employer of Record (EOR) e processamento salarial | Tunísia",
+  "description": "Simplifica a contratação na Tunísia com o nosso Employer of Record. Gere o processamento salarial, os benefícios e a conformidade da tua equipa sem complicações.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154933,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9404238f6036b058-pt-pt-explorar-pais-tunisia-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9404238f6036b058-pt-pt-explorar-pais-tunisia-employer-of-record.direct.json",
+  "markdownChars": 3511,
+  "linksCount": 43,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:13:33.578Z"
+}

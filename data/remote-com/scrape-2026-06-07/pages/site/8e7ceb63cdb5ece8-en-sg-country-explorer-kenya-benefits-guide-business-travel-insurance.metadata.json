@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/kenya/benefits-guide/business-travel-insurance",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/kenya/benefits-guide/business-travel-insurance",
+  "finalURL": "https://remote.com/en-sg/country-explorer/kenya/benefits-guide/business-travel-insurance",
+  "title": "Business Travel Insurance Benefits in Kenya | Wellbeing Support",
+  "description": "Do your employees regularly travel for business? Protect their safety and well-being with a range of business travel insurance plans in Kenya.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 265998,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e7ceb63cdb5ece8-en-sg-country-explorer-kenya-benefits-guide-business-travel-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8e7ceb63cdb5ece8-en-sg-country-explorer-kenya-benefits-guide-business-travel-insurance.direct.json",
+  "markdownChars": 5889,
+  "linksCount": 112,
+  "lastmod": "2025-10-09",
+  "scrapedAt": "2026-06-07T09:06:41.263Z"
+}

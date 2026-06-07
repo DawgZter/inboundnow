@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/bolivien",
+  "sourceURL": "https://remote.com/de-at/country-explorer/bolivien",
+  "finalURL": "https://remote.com/de-at/country-explorer/bolivien",
+  "title": "Employer-of-Record- und Payroll-Services in Bolivien",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Bolivien? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 342478,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ada8ec98d6b51c25-de-at-country-explorer-bolivien.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ada8ec98d6b51c25-de-at-country-explorer-bolivien.direct.json",
+  "markdownChars": 7220,
+  "linksCount": 123,
+  "lastmod": "2026-01-22",
+  "scrapedAt": "2026-06-07T09:01:29.250Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-conseiller-general",
+  "sourceURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-conseiller-general",
+  "finalURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-conseiller-general",
+  "title": "Description du poste de conseiller général",
+  "description": "Examinez la description du poste de conseiller général, chargé de superviser les questions juridiques, de fournir des conseils juridiques stratégiques et de veiller au respect des lois et des réglementations.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263109,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1a862d44754041b-fr-fr-ressources-descriptions-postes-description-poste-conseiller-general.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1a862d44754041b-fr-fr-ressources-descriptions-postes-description-poste-conseiller-general.direct.json",
+  "markdownChars": 4422,
+  "linksCount": 114,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:17:19.780Z"
+}

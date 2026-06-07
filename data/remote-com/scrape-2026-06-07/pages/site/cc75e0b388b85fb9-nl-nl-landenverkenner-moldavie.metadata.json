@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/moldavie",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/moldavie",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/moldavie",
+  "title": "Employer of Record (EOR) en Payroll-diensten | Moldavië",
+  "description": "Wil je werknemers en zzp'ers werven in Moldavië? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 343938,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc75e0b388b85fb9-nl-nl-landenverkenner-moldavie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc75e0b388b85fb9-nl-nl-landenverkenner-moldavie.direct.json",
+  "markdownChars": 5707,
+  "linksCount": 124,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:02:34.027Z"
+}

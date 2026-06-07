@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/new-zealand/taxes",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/new-zealand/taxes",
+  "finalURL": "https://remote.com/en-ph/country-explorer/new-zealand/taxes",
+  "title": "Manage Payroll Tax in New Zealand | Tax Compliance",
+  "description": "Manage payroll taxes in New Zealand effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261834,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b26235c0a672a62-en-ph-country-explorer-new-zealand-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4b26235c0a672a62-en-ph-country-explorer-new-zealand-taxes.direct.json",
+  "markdownChars": 1815,
+  "linksCount": 127,
+  "lastmod": "2026-05-06",
+  "scrapedAt": "2026-06-07T09:01:01.554Z"
+}

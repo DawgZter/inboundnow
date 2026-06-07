@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/bosnie-herzegovine",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/bosnie-herzegovine",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/bosnie-herzegovine",
+  "title": "Employer of Record (EOR) et services de paie | Bosnie-Herzégovine",
+  "description": "Recruter des employés et des freelances : Bosnie-Herzégovine Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 341497,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6b72b5c877c9ef17-fr-fr-explorateur-de-pays-bosnie-herzegovine.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6b72b5c877c9ef17-fr-fr-explorateur-de-pays-bosnie-herzegovine.direct.json",
+  "markdownChars": 6366,
+  "linksCount": 123,
+  "lastmod": "2025-10-06",
+  "scrapedAt": "2026-06-07T09:17:52.165Z"
+}

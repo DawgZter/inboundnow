@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/panama/taxes",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/panama/taxes",
+  "finalURL": "https://remote.com/en-ie/country-explorer/panama/taxes",
+  "title": "Manage Payroll Tax in Panama | Tax Compliance",
+  "description": "Manage payroll taxes in Panama effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259637,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/469aeca12b7110dd-en-ie-country-explorer-panama-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/469aeca12b7110dd-en-ie-country-explorer-panama-taxes.direct.json",
+  "markdownChars": 1164,
+  "linksCount": 125,
+  "lastmod": "2025-09-06",
+  "scrapedAt": "2026-06-07T09:01:55.395Z"
+}

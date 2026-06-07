@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-puesto-jefe-proyecto",
+  "sourceURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-puesto-jefe-proyecto",
+  "finalURL": "https://remote.com/es-es/recursos/descripciones-puestos-trabajo/descripcion-puesto-jefe-proyecto",
+  "title": "Descripción del puesto de gestor de proyectos",
+  "description": "Revisa la descripción del puesto de gestor de proyectos, responsable de planificar, ejecutar y finalizar los proyectos dentro del alcance, el presupuesto y el calendario. Explora las competencias y cualificaciones esenciales.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262165,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5451aef476b9a36d-es-es-recursos-descripciones-puestos-trabajo-descripcion-puesto-jefe-proyecto.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5451aef476b9a36d-es-es-recursos-descripciones-puestos-trabajo-descripcion-puesto-jefe-proyecto.direct.json",
+  "markdownChars": 4235,
+  "linksCount": 113,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:04:24.509Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/us-state-explorer/wyoming/employment-termination",
+  "sourceURL": "https://remote.com/en-hk/us-state-explorer/wyoming/employment-termination",
+  "finalURL": "https://remote.com/en-hk/us-state-explorer/wyoming/employment-termination",
+  "title": "Terminate Employees in Wyoming | Employment Termination",
+  "description": "Looking to terminate an employee in Wyoming? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256236,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f01b1acb58d22c49-en-hk-us-state-explorer-wyoming-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f01b1acb58d22c49-en-hk-us-state-explorer-wyoming-employment-termination.direct.json",
+  "markdownChars": 1694,
+  "linksCount": 112,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:11:45.375Z"
+}

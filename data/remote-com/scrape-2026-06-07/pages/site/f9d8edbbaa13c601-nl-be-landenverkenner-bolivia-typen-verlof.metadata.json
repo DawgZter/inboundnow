@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/bolivia/typen-verlof",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/bolivia/typen-verlof",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/bolivia/typen-verlof",
+  "title": "Typen verlof in Bolivia | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Bolivia. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255699,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f9d8edbbaa13c601-nl-be-landenverkenner-bolivia-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f9d8edbbaa13c601-nl-be-landenverkenner-bolivia-typen-verlof.direct.json",
+  "markdownChars": 2503,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:01:31.622Z"
+}

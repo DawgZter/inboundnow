@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/kosovo/benefits-guide/business-travel-insurance",
+  "sourceURL": "https://remote.com/country-explorer/kosovo/benefits-guide/business-travel-insurance",
+  "finalURL": "https://remote.com/country-explorer/kosovo/benefits-guide/business-travel-insurance",
+  "title": "Business Travel Insurance in Kosovo | Insurance Plans",
+  "description": "Do your employees regularly travel for business? Protect their safety and well-being with a range of business travel insurance plans in Kosovo.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269564,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d29b4dc67ace0ef-country-explorer-kosovo-benefits-guide-business-travel-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d29b4dc67ace0ef-country-explorer-kosovo-benefits-guide-business-travel-insurance.direct.json",
+  "markdownChars": 6033,
+  "linksCount": 116,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:18:55.436Z"
+}

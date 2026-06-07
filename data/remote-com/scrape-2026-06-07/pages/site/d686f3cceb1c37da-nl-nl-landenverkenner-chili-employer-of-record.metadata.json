@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/chili/employer-of-record",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/chili/employer-of-record",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/chili/employer-of-record",
+  "title": "Employer of Record (EOR) in Chili | EOR-diensten",
+  "description": "Vereenvoudig tewerkstelling in Chili met onze Employer of Record (EOR)-diensten. Beheer loonlijst, benefits en Compliance naadloos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262488,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d686f3cceb1c37da-nl-nl-landenverkenner-chili-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d686f3cceb1c37da-nl-nl-landenverkenner-chili-employer-of-record.direct.json",
+  "markdownChars": 3616,
+  "linksCount": 124,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:13:11.289Z"
+}

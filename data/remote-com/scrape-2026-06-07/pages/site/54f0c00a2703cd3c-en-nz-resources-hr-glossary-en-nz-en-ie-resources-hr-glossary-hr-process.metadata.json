@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/hr-glossary/en-nz/en-ie/resources/hr-glossary/hr-process",
+  "sourceURL": "https://remote.com/en-nz/resources/hr-glossary/en-nz/en-ie/resources/hr-glossary/hr-process",
+  "finalURL": "https://remote.com/en-nz/resources/hr-glossary/en-nz/en-ie/resources/hr-glossary/hr-process",
+  "title": "What is HR process?",
+  "description": "Discover HR processes and their impact on managing the employee lifecycle and improving efficiency. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251531,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/54f0c00a2703cd3c-en-nz-resources-hr-glossary-en-nz-en-ie-resources-hr-glossary-hr-process.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/54f0c00a2703cd3c-en-nz-resources-hr-glossary-en-nz-en-ie-resources-hr-glossary-hr-process.direct.json",
+  "markdownChars": 2352,
+  "linksCount": 118,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:12.951Z"
+}

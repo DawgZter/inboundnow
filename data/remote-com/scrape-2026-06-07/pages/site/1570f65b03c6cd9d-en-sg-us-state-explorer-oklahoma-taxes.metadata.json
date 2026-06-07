@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/us-state-explorer/oklahoma/taxes",
+  "sourceURL": "https://remote.com/en-sg/us-state-explorer/oklahoma/taxes",
+  "finalURL": "https://remote.com/en-sg/us-state-explorer/oklahoma/taxes",
+  "title": "Manage Payroll Tax in - Oklahoma | Tax Compliance",
+  "description": "Manage payroll taxes in Oklahoma effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256509,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1570f65b03c6cd9d-en-sg-us-state-explorer-oklahoma-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1570f65b03c6cd9d-en-sg-us-state-explorer-oklahoma-taxes.direct.json",
+  "markdownChars": 1078,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:01:53.631Z"
+}

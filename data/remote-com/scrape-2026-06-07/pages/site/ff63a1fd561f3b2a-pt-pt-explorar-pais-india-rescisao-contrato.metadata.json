@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/india/rescisao-contrato",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/india/rescisao-contrato",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/india/rescisao-contrato",
+  "title": "Cessação do contrato de trabalho na Índia | Cessação do contrato de trabalho",
+  "description": "Queres rescindir um contrato de trabalho em India? Entende os teus direitos no nosso guia completo sobre as leis de cessação do contrato de trabalho.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 153767,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff63a1fd561f3b2a-pt-pt-explorar-pais-india-rescisao-contrato.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff63a1fd561f3b2a-pt-pt-explorar-pais-india-rescisao-contrato.direct.json",
+  "markdownChars": 1851,
+  "linksCount": 45,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:06:59.470Z"
+}

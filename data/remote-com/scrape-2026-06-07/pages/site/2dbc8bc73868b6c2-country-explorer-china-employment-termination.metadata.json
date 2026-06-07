@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/china/employment-termination",
+  "sourceURL": "https://remote.com/country-explorer/china/employment-termination",
+  "finalURL": "https://remote.com/country-explorer/china/employment-termination",
+  "title": "Terminate Employees in China | Employment Termination",
+  "description": "Looking to terminate an employee in China? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259142,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2dbc8bc73868b6c2-country-explorer-china-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2dbc8bc73868b6c2-country-explorer-china-employment-termination.direct.json",
+  "markdownChars": 1506,
+  "linksCount": 124,
+  "lastmod": "2025-05-16",
+  "scrapedAt": "2026-06-07T09:04:04.452Z"
+}

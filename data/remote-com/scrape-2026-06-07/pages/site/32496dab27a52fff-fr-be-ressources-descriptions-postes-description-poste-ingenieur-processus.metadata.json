@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/descriptions-postes/description-poste-ingenieur-processus",
+  "sourceURL": "https://remote.com/fr-be/ressources/descriptions-postes/description-poste-ingenieur-processus",
+  "finalURL": "https://remote.com/fr-be/ressources/descriptions-postes/description-poste-ingenieur-processus",
+  "title": "Description du poste d'ingénieur des procédés",
+  "description": "Examinez la description de poste d'un ingénieur en procédés, responsable de la conception, de la mise en œuvre et de l'optimisation des procédés industriels afin d'améliorer l'efficacité et la qualité de la production.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264385,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/32496dab27a52fff-fr-be-ressources-descriptions-postes-description-poste-ingenieur-processus.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/32496dab27a52fff-fr-be-ressources-descriptions-postes-description-poste-ingenieur-processus.direct.json",
+  "markdownChars": 5484,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:12:25.658Z"
+}

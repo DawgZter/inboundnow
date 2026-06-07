@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/global-hr/global-benefits",
+  "sourceURL": "https://remote.com/en-ca/global-hr/global-benefits",
+  "finalURL": "https://remote.com/en-ca/global-hr/global-benefits",
+  "title": "Global Employee Benefits Solutions for Global Teams | Remote",
+  "description": "Learn how you can provide robust, culturally aware benefits that will show everyone on your team that they belong in your organisation.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 348367,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8c51b279442aa0f7-en-ca-global-hr-global-benefits.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8c51b279442aa0f7-en-ca-global-hr-global-benefits.direct.json",
+  "markdownChars": 10436,
+  "linksCount": 114,
+  "lastmod": "2025-08-27",
+  "scrapedAt": "2026-06-07T09:18:46.079Z"
+}

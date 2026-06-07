@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/india",
+  "sourceURL": "https://remote.com/en-za/country-explorer/india",
+  "finalURL": "https://remote.com/en-za/country-explorer/india",
+  "title": "Employer of Record & Payroll Services | India",
+  "description": "Hiring employees and contractors in India? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 359842,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a099bbe17a71ed7-en-za-country-explorer-india.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a099bbe17a71ed7-en-za-country-explorer-india.direct.json",
+  "markdownChars": 8090,
+  "linksCount": 133,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:01:27.670Z"
+}

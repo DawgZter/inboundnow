@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/latvia/contractor-management",
+  "sourceURL": "https://remote.com/country-explorer/latvia/contractor-management",
+  "finalURL": "https://remote.com/country-explorer/latvia/contractor-management",
+  "title": "Manage Contractors in Latvia | Contractor Management",
+  "description": "Hiring a contractor in Latvia? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260547,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c7c8c37c2a776c82-country-explorer-latvia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c7c8c37c2a776c82-country-explorer-latvia-contractor-management.direct.json",
+  "markdownChars": 2265,
+  "linksCount": 125,
+  "lastmod": "2025-08-18",
+  "scrapedAt": "2026-06-07T09:01:39.181Z"
+}

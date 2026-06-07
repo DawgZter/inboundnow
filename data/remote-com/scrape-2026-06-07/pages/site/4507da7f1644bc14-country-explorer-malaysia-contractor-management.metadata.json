@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/malaysia/contractor-management",
+  "sourceURL": "https://remote.com/country-explorer/malaysia/contractor-management",
+  "finalURL": "https://remote.com/country-explorer/malaysia/contractor-management",
+  "title": "Manage Contractors in Malaysia | Contractor Management",
+  "description": "Hiring a contractor in Malaysia? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261362,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4507da7f1644bc14-country-explorer-malaysia-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4507da7f1644bc14-country-explorer-malaysia-contractor-management.direct.json",
+  "markdownChars": 2310,
+  "linksCount": 126,
+  "lastmod": "2025-08-18",
+  "scrapedAt": "2026-06-07T09:13:19.671Z"
+}

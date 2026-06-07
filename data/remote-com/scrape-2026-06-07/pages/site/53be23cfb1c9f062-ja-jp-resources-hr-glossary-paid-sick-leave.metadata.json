@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/paid-sick-leave",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/paid-sick-leave",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/paid-sick-leave",
+  "title": "有給病気休暇とは何か？",
+  "description": "有給病気休暇は、従業員が通常の賃金を受け取りながら、健康上の理由で仕事を休むことができる職場の福利厚生である。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255431,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/53be23cfb1c9f062-ja-jp-resources-hr-glossary-paid-sick-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/53be23cfb1c9f062-ja-jp-resources-hr-glossary-paid-sick-leave.direct.json",
+  "markdownChars": 1872,
+  "linksCount": 124,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:17:22.417Z"
+}

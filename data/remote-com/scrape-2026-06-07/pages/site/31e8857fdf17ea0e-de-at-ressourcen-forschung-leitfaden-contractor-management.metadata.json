@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/forschung/leitfaden-contractor-management",
+  "sourceURL": "https://remote.com/de-at/ressourcen/forschung/leitfaden-contractor-management",
+  "finalURL": "https://remote.com/de-at/ressourcen/forschung/leitfaden-contractor-management",
+  "title": "Leitfaden zur Auswahl des richtigen Contractor-Management-Systems | Remote",
+  "description": "Unser kostenloser Leitfaden richtet sich speziell an wachstumsorientierte Unternehmen. Sie erfahren darin, wie sie das beste Softwaresystem finden, auswählen und implementieren können.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 262537,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31e8857fdf17ea0e-de-at-ressourcen-forschung-leitfaden-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/31e8857fdf17ea0e-de-at-ressourcen-forschung-leitfaden-contractor-management.direct.json",
+  "markdownChars": 947,
+  "linksCount": 114,
+  "lastmod": "2025-07-10",
+  "scrapedAt": "2026-06-07T09:13:44.612Z"
+}

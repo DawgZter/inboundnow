@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/resources/research/employer-of-record-selection-guide",
+  "sourceURL": "https://remote.com/en-za/resources/research/employer-of-record-selection-guide",
+  "finalURL": "https://remote.com/en-za/resources/research/employer-of-record-selection-guide",
+  "title": "The employer of record selection guide bundle | Remote",
+  "description": "Get three free expert resources to help you research, compare, and select the best employer of record (EOR) software for your international employment needs.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259352,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b922426cdd5e4593-en-za-resources-research-employer-of-record-selection-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b922426cdd5e4593-en-za-resources-research-employer-of-record-selection-guide.direct.json",
+  "markdownChars": 687,
+  "linksCount": 111,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:02:19.625Z"
+}

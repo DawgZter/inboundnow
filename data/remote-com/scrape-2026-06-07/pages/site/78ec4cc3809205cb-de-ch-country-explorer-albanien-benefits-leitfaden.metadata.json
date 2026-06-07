@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/albanien/benefits-leitfaden",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/albanien/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-ch/country-explorer/albanien/benefits-leitfaden",
+  "title": "Sozialleistungen in Albanien | Sozialleistungspläne",
+  "description": "Entdecke Sozialleistungen in Albanien: Krankenversicherung, bezahlter Urlaub und weitere Leistungen, mit denen du Top‑Mitarbeiter:innen anziehst und hältst.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270228,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78ec4cc3809205cb-de-ch-country-explorer-albanien-benefits-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78ec4cc3809205cb-de-ch-country-explorer-albanien-benefits-leitfaden.direct.json",
+  "markdownChars": 1669,
+  "linksCount": 124,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:14:08.084Z"
+}

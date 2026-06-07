@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/us-state-explorer/illinois",
+  "sourceURL": "https://remote.com/en-ph/us-state-explorer/illinois",
+  "finalURL": "https://remote.com/en-ph/us-state-explorer/illinois",
+  "title": "Employer of Record & Payroll Services | Illinois",
+  "description": "Use our compliance guide to employ in Illinois with ease. Learn about benefits, payroll, leave, and other labor laws in the Prairie State.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 332392,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4597d4092c23b2ac-en-ph-us-state-explorer-illinois.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4597d4092c23b2ac-en-ph-us-state-explorer-illinois.direct.json",
+  "markdownChars": 7551,
+  "linksCount": 113,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:01:40.872Z"
+}

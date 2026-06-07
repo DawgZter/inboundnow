@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/post-tax-deductions",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/post-tax-deductions",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/post-tax-deductions",
+  "title": "税引後控除",
+  "description": "Learn what post-tax deductions are, how they work, and why companies use them for benefits, legal obligations, and employee-directed contributions.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256071,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9a2d090aeae9c773-ja-jp-resources-hr-glossary-post-tax-deductions.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9a2d090aeae9c773-ja-jp-resources-hr-glossary-post-tax-deductions.direct.json",
+  "markdownChars": 2171,
+  "linksCount": 122,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:14:29.118Z"
+}

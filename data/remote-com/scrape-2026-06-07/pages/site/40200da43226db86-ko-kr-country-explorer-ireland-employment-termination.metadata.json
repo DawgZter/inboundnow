@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/ireland/employment-termination",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/ireland/employment-termination",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/ireland/employment-termination",
+  "title": "아일랜드에서의 직원 해고 | 해고 절차",
+  "description": "아일랜드에서 직원을 해고하려는 경우, 포괄적인 해고 가이드를 통해 귀사의 권리와 의무를 명확히 설명합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258257,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40200da43226db86-ko-kr-country-explorer-ireland-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/40200da43226db86-ko-kr-country-explorer-ireland-employment-termination.direct.json",
+  "markdownChars": 959,
+  "linksCount": 123,
+  "lastmod": "2025-10-01",
+  "scrapedAt": "2026-06-07T09:07:22.727Z"
+}

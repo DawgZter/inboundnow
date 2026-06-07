@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/global-hr/rsu-grants",
+  "sourceURL": "https://remote.com/en-ie/global-hr/rsu-grants",
+  "finalURL": "https://remote.com/en-ie/global-hr/rsu-grants",
+  "title": "Grant RSUs to Your Global Team | Remote",
+  "description": "Ensure global compliance for RSU grants with Remote’s expert equity teams. Unlike competitors, Remote handles withholding, reporting, and offers true RSU solutions.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271409,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7b3dae85bdc07bb5-en-ie-global-hr-rsu-grants.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7b3dae85bdc07bb5-en-ie-global-hr-rsu-grants.direct.json",
+  "markdownChars": 3710,
+  "linksCount": 108,
+  "lastmod": "2025-07-24",
+  "scrapedAt": "2026-06-07T09:16:37.042Z"
+}

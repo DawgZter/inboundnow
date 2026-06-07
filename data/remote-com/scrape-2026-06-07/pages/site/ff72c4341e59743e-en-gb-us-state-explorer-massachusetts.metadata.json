@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/massachusetts",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/massachusetts",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/massachusetts",
+  "title": "Employer of Record & Payroll Services | Massachusetts",
+  "description": "Use our compliance guide to employ in Massachusetts with ease. Learn about benefits, payroll, leave, and other labor laws in the Bay State.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 332299,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff72c4341e59743e-en-gb-us-state-explorer-massachusetts.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff72c4341e59743e-en-gb-us-state-explorer-massachusetts.direct.json",
+  "markdownChars": 7430,
+  "linksCount": 114,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:18:24.503Z"
+}

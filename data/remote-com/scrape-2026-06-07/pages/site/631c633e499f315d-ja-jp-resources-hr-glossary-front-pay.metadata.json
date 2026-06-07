@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/front-pay",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/front-pay",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/front-pay",
+  "title": "前払金",
+  "description": "Front pay compensates US employees for future lost earnings after unlawful termination. Learn when it applies and how employers can reduce legal risk.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254129,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/631c633e499f315d-ja-jp-resources-hr-glossary-front-pay.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/631c633e499f315d-ja-jp-resources-hr-glossary-front-pay.direct.json",
+  "markdownChars": 1656,
+  "linksCount": 123,
+  "lastmod": "2025-07-19",
+  "scrapedAt": "2026-06-07T09:01:26.034Z"
+}

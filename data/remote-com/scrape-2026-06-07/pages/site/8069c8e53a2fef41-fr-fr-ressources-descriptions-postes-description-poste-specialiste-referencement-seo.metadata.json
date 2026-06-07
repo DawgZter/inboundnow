@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-specialiste-referencement-seo",
+  "sourceURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-specialiste-referencement-seo",
+  "finalURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-specialiste-referencement-seo",
+  "title": "Description du poste de spécialiste en référencement",
+  "description": "Examinez la description de poste d'un spécialiste en référencement, chargé d'optimiser le contenu des sites web, d'analyser les données de performance et de mettre en œuvre des stratégies pour améliorer le classement dans les moteurs de recherche.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263637,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8069c8e53a2fef41-fr-fr-ressources-descriptions-postes-description-poste-specialiste-referencement-seo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8069c8e53a2fef41-fr-fr-ressources-descriptions-postes-description-poste-specialiste-referencement-seo.direct.json",
+  "markdownChars": 4581,
+  "linksCount": 114,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:16:09.700Z"
+}

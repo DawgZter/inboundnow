@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/hr-glossary/americans-with-disabilities-act-ada-compliance",
+  "sourceURL": "https://remote.com/en-au/resources/hr-glossary/americans-with-disabilities-act-ada-compliance",
+  "finalURL": "https://remote.com/en-au/resources/hr-glossary/americans-with-disabilities-act-ada-compliance",
+  "title": "What is the ADA?",
+  "description": "Learn what is covered under the Americans With Disabilities Act (ADA) and why ADA compliance is so important for your business.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255865,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/20f0c17b1b29f9ca-en-au-resources-hr-glossary-americans-with-disabilities-act-ada-compliance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/20f0c17b1b29f9ca-en-au-resources-hr-glossary-americans-with-disabilities-act-ada-compliance.direct.json",
+  "markdownChars": 5679,
+  "linksCount": 119,
+  "lastmod": "2025-07-17",
+  "scrapedAt": "2026-06-07T09:11:51.497Z"
+}

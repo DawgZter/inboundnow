@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/job-descriptions/process-engineer-job-description",
+  "sourceURL": "https://remote.com/ko-kr/resources/job-descriptions/process-engineer-job-description",
+  "finalURL": "https://remote.com/ko-kr/resources/job-descriptions/process-engineer-job-description",
+  "title": "프로세스 엔지니어 작업 설명",
+  "description": "생산의 효율성과 품질을 개선하기 위해 산업 프로세스를 설계, 구현 및 최적화하는 업무를 담당하는 프로세스 엔지니어의 직무 설명을 검토하세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261037,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/967ef29b94f8387e-ko-kr-resources-job-descriptions-process-engineer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/967ef29b94f8387e-ko-kr-resources-job-descriptions-process-engineer-job-description.direct.json",
+  "markdownChars": 2210,
+  "linksCount": 114,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:09:35.597Z"
+}

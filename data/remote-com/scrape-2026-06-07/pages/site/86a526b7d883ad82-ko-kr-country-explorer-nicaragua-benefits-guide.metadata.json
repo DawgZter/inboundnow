@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/nicaragua/benefits-guide",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/nicaragua/benefits-guide",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/nicaragua/benefits-guide",
+  "title": "니카라과의 직원 복리후생 | 복리후생 플랜",
+  "description": "니카라과에서 필요한 직원 복리후생을 확인하고, 건강 보험, 유급 휴가 및 우수 인재를 유치하고 유지하기 위한 기타 혜택에 대해 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269968,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/86a526b7d883ad82-ko-kr-country-explorer-nicaragua-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/86a526b7d883ad82-ko-kr-country-explorer-nicaragua-benefits-guide.direct.json",
+  "markdownChars": 793,
+  "linksCount": 122,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:14:53.679Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/hong-kong/taxes",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/hong-kong/taxes",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/hong-kong/taxes",
+  "title": "Gestion de la paie Taxes à Hong Kong | Conformité Taxes",
+  "description": "Hong Kong : Gérez efficacement l’imposition de la paie, en toute conformité. Réduisez les erreurs d’imposition de la paie, respectez le droit local et évitez de coûteuses amendes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263087,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7fc1441cae44fbbf-fr-fr-explorateur-de-pays-hong-kong-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7fc1441cae44fbbf-fr-fr-explorateur-de-pays-hong-kong-taxes.direct.json",
+  "markdownChars": 1425,
+  "linksCount": 123,
+  "lastmod": "2025-09-01",
+  "scrapedAt": "2026-06-07T09:13:20.519Z"
+}

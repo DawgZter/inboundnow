@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/country-explorer/france/taxes",
+  "sourceURL": "https://remote.com/en-ca/country-explorer/france/taxes",
+  "finalURL": "https://remote.com/en-ca/country-explorer/france/taxes",
+  "title": "Manage Payroll Tax in France | Tax Compliance",
+  "description": "Manage payroll taxes in France effectively and compliantly. Minimise payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259678,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dedebbd68a4898cc-en-ca-country-explorer-france-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dedebbd68a4898cc-en-ca-country-explorer-france-taxes.direct.json",
+  "markdownChars": 1189,
+  "linksCount": 120,
+  "lastmod": "2026-03-03",
+  "scrapedAt": "2026-06-07T09:01:48.932Z"
+}

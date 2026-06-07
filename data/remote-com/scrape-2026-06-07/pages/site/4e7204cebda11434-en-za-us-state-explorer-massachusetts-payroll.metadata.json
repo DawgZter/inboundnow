@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/us-state-explorer/massachusetts/payroll",
+  "sourceURL": "https://remote.com/en-za/us-state-explorer/massachusetts/payroll",
+  "finalURL": "https://remote.com/en-za/us-state-explorer/massachusetts/payroll",
+  "title": "Payroll Management in Massachusetts",
+  "description": "Manage payroll in Massachusetts seamlessly with Remote's payroll software. Stay compliant with Massachusetts payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259484,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4e7204cebda11434-en-za-us-state-explorer-massachusetts-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4e7204cebda11434-en-za-us-state-explorer-massachusetts-payroll.direct.json",
+  "markdownChars": 4524,
+  "linksCount": 113,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:18:25.124Z"
+}

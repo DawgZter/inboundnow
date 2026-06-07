@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/antidiskriminierungstests",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/antidiskriminierungstests",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/antidiskriminierungstests",
+  "title": "Was sind Antidiskriminierungstests? | Remote",
+  "description": "Die Prüfung der Nichtdiskriminierung gewährleistet eine gerechte Verteilung der Leistungen in den Arbeitnehmerplänen und verhindert eine Bevorzugung von hoch bezahlten Personen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257289,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ca4e7239e6c4bfb7-de-at-ressourcen-hr-glossar-antidiskriminierungstests.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ca4e7239e6c4bfb7-de-at-ressourcen-hr-glossar-antidiskriminierungstests.direct.json",
+  "markdownChars": 6161,
+  "linksCount": 125,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:15:21.083Z"
+}

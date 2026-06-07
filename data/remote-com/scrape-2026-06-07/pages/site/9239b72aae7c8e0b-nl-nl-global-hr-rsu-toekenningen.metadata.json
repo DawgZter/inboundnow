@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/global-hr/rsu-toekenningen",
+  "sourceURL": "https://remote.com/nl-nl/global-hr/rsu-toekenningen",
+  "finalURL": "https://remote.com/nl-nl/global-hr/rsu-toekenningen",
+  "title": "Je internationale team RSU's aanbieden | Remote",
+  "description": "Zorg dat je internationaal compliant blijft voor RSU-toekenningen met de deskundige aandelenteams van Remote. In tegenstelling tot concurrenten regelt Remote de inhoudingen, administratie en bieden we volwaardige RSU solutions aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 276178,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9239b72aae7c8e0b-nl-nl-global-hr-rsu-toekenningen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9239b72aae7c8e0b-nl-nl-global-hr-rsu-toekenningen.direct.json",
+  "markdownChars": 4212,
+  "linksCount": 112,
+  "lastmod": "2025-07-24",
+  "scrapedAt": "2026-06-07T09:13:32.072Z"
+}

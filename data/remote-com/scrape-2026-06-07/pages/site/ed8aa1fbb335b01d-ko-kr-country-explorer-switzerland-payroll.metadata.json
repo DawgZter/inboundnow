@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/switzerland/payroll",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/switzerland/payroll",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/switzerland/payroll",
+  "title": "스위스에서 직원에게 급여 지급 | 급여 서비스",
+  "description": "유연한 급여 서비스로 스위스의 직원 급여를 손쉽게 지급하세요. 급여를 처리하고, 비용을 관리하며, 보고서를 작성하는 모든 작업을 한곳에서 수행할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260368,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ed8aa1fbb335b01d-ko-kr-country-explorer-switzerland-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ed8aa1fbb335b01d-ko-kr-country-explorer-switzerland-payroll.direct.json",
+  "markdownChars": 1698,
+  "linksCount": 124,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:09:15.791Z"
+}

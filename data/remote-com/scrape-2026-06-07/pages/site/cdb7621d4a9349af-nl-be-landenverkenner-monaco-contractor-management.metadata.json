@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/monaco/contractor-management",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/monaco/contractor-management",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/monaco/contractor-management",
+  "title": "Contractors beheren in Monaco | Contractor Management",
+  "description": "Een zzp’er aannemen in Monaco? Beheer en betaal wereldwijde zzp’ers moeiteloos met onze flexibele Contractor Management-diensten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252002,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cdb7621d4a9349af-nl-be-landenverkenner-monaco-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cdb7621d4a9349af-nl-be-landenverkenner-monaco-contractor-management.direct.json",
+  "markdownChars": 2300,
+  "linksCount": 120,
+  "lastmod": "2025-11-06",
+  "scrapedAt": "2026-06-07T09:07:58.094Z"
+}

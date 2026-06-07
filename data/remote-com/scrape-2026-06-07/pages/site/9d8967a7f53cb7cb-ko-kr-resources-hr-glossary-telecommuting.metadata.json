@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/telecommuting",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/telecommuting",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/telecommuting",
+  "title": "재택근무",
+  "description": "재택근무에 대해 자세히 알아보세요. 유연 근무제가 직원과 고용주 모두에게 어떻게 도움이 되는지 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257030,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9d8967a7f53cb7cb-ko-kr-resources-hr-glossary-telecommuting.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9d8967a7f53cb7cb-ko-kr-resources-hr-glossary-telecommuting.direct.json",
+  "markdownChars": 3156,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:11:46.348Z"
+}

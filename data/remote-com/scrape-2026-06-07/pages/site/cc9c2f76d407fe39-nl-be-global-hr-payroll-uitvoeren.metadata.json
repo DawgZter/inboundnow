@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/global-hr/payroll-uitvoeren",
+  "sourceURL": "https://remote.com/nl-be/global-hr/payroll-uitvoeren",
+  "finalURL": "https://remote.com/nl-be/global-hr/payroll-uitvoeren",
+  "title": "Voer je payroll uit met Remote en vereenvoudig internationale groei | Remote",
+  "description": "Manage payroll and taxes, administer benefits, and ensure compliance for all your employees, wherever they are located.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 309170,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc9c2f76d407fe39-nl-be-global-hr-payroll-uitvoeren.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc9c2f76d407fe39-nl-be-global-hr-payroll-uitvoeren.direct.json",
+  "markdownChars": 4302,
+  "linksCount": 120,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:06:48.487Z"
+}

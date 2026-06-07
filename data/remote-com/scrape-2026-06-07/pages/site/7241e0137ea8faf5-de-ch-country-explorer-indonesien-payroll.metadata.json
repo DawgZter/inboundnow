@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/indonesien/payroll",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/indonesien/payroll",
+  "finalURL": "https://remote.com/de-ch/country-explorer/indonesien/payroll",
+  "title": "Mitarbeiter:innen in Indonesien bezahlen | Payroll-Services",
+  "description": "Bezahl Mitarbeiter:innen in Indonesien mühelos mit unseren flexiblen Payroll-Services. Führe die Lohn- und Gehaltsabrechnung durch, verwalte Ausgaben und erstelle Berichte – alles an einem Ort.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260003,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7241e0137ea8faf5-de-ch-country-explorer-indonesien-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7241e0137ea8faf5-de-ch-country-explorer-indonesien-payroll.direct.json",
+  "markdownChars": 3619,
+  "linksCount": 124,
+  "lastmod": "2025-11-28",
+  "scrapedAt": "2026-06-07T09:17:42.521Z"
+}

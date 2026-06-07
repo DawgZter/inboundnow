@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/lp/lp-hris",
+  "sourceURL": "https://remote.com/nl-be/lp/lp-hris",
+  "finalURL": "https://remote.com/nl-be/lp/lp-hris",
+  "title": "Global HR solutions en tools voor verspreide teams | Remote",
+  "description": "Remote is je one-stopoplossing om in elk land talent aan te nemen. We helpen groeiende bedrijven bij het in dienst nemen van toptalent van over de hele wereld. Onze oplossingen voor payroll, secundaire arbeidsvoorwaarden, belastingen en compliance zorgen ervoor dat bedrijven internationaal talent kunnen aannemen en ondersteunen.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 381674,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cac56e869c382469-nl-be-lp-lp-hris.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cac56e869c382469-nl-be-lp-lp-hris.direct.json",
+  "markdownChars": 4633,
+  "linksCount": 125,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:17:29.787Z"
+}

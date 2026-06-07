@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/taiwan/employer-of-record",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/taiwan/employer-of-record",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/taiwan/employer-of-record",
+  "title": "Employer of Record en Taïwan | Services EOR",
+  "description": "Simplifiez l’emploi en Taïwan grâce à nos services d’Employer of Record. Gérez la paie, les avantages et la conformité en toute simplicité.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263395,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a29db9fa49d1c1a-fr-be-explorateur-de-pays-taiwan-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a29db9fa49d1c1a-fr-be-explorateur-de-pays-taiwan-employer-of-record.direct.json",
+  "markdownChars": 3682,
+  "linksCount": 125,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:19:03.313Z"
+}

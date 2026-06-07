@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/full-time-hours",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/full-time-hours",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/full-time-hours",
+  "title": "フルタイムとは何ですか？",
+  "description": "フルタイム勤務の概念と、人事リーダーがグローバルな文脈でフルタイム勤務を効果的に管理する方法について詳しく学ぶ。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256655,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/86f23492177670f7-ja-jp-resources-hr-glossary-full-time-hours.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/86f23492177670f7-ja-jp-resources-hr-glossary-full-time-hours.direct.json",
+  "markdownChars": 2399,
+  "linksCount": 121,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:15:47.236Z"
+}

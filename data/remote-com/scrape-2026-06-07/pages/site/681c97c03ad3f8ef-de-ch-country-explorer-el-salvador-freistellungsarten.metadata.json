@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/el-salvador/freistellungsarten",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/el-salvador/freistellungsarten",
+  "finalURL": "https://remote.com/de-ch/country-explorer/el-salvador/freistellungsarten",
+  "title": "Urlaubsansprüche in El Salvador | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in El Salvador. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259094,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/681c97c03ad3f8ef-de-ch-country-explorer-el-salvador-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/681c97c03ad3f8ef-de-ch-country-explorer-el-salvador-freistellungsarten.direct.json",
+  "markdownChars": 2166,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:07:36.051Z"
+}

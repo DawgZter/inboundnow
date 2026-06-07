@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/glossaire-rh/stress-professionnel",
+  "sourceURL": "https://remote.com/fr-be/ressources/glossaire-rh/stress-professionnel",
+  "finalURL": "https://remote.com/fr-be/ressources/glossaire-rh/stress-professionnel",
+  "title": "What is occupational stress?",
+  "description": "Comprenez l'impact du stress professionnel sur le lieu de travail et apprenez des stratégies proactives pour améliorer le bien-être et la productivité de vos employés.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258271,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b97e14cb3891a227-fr-be-ressources-glossaire-rh-stress-professionnel.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b97e14cb3891a227-fr-be-ressources-glossaire-rh-stress-professionnel.direct.json",
+  "markdownChars": 5690,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:02:33.564Z"
+}

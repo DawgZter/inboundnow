@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/lp/cost-calculator-global",
+  "sourceURL": "https://remote.com/en-gb/lp/cost-calculator-global",
+  "finalURL": "https://remote.com/en-gb/lp/cost-calculator-global",
+  "title": "Calculate Hiring Costs with Remote's Employee Cost Calculator | Remote",
+  "description": "With Remote’s employee cost calculator, you can get a full breakdown of mandatory social contributions and local taxes, as well as the average cost of benefits that are expected by employees in that country – all in just a few clicks!",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 227647,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/49674a3e6eaac674-en-gb-lp-cost-calculator-global.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/49674a3e6eaac674-en-gb-lp-cost-calculator-global.direct.json",
+  "markdownChars": 4401,
+  "linksCount": 80,
+  "lastmod": "2026-05-04",
+  "scrapedAt": "2026-06-07T09:09:58.833Z"
+}

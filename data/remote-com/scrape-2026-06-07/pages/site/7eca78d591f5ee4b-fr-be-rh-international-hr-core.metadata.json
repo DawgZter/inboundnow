@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/rh-international/hr-core",
+  "sourceURL": "https://remote.com/fr-be/rh-international/hr-core",
+  "finalURL": "https://remote.com/fr-be/rh-international/hr-core",
+  "title": "HR Core par Remote Intégrez les employés, gérez les dépenses et les congés | Remote",
+  "description": "Centralisez les tâches RH avec HR Core : intégrez les employés, gérez efficacement les dépenses et les congés avec la plateforme unique de Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 443675,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7eca78d591f5ee4b-fr-be-rh-international-hr-core.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7eca78d591f5ee4b-fr-be-rh-international-hr-core.direct.json",
+  "markdownChars": 14231,
+  "linksCount": 123,
+  "lastmod": "2026-06-04",
+  "scrapedAt": "2026-06-07T09:00:59.477Z"
+}

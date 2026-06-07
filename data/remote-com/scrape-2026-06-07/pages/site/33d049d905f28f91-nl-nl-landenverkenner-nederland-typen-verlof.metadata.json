@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/nederland/typen-verlof",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/nederland/typen-verlof",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/nederland/typen-verlof",
+  "title": "Typen verlof in Netherlands | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Nederland. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263833,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33d049d905f28f91-nl-nl-landenverkenner-nederland-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/33d049d905f28f91-nl-nl-landenverkenner-nederland-typen-verlof.direct.json",
+  "markdownChars": 3857,
+  "linksCount": 125,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:05:44.077Z"
+}

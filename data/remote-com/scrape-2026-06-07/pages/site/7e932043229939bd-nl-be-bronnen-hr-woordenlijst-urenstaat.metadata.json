@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/urenstaat",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/urenstaat",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/urenstaat",
+  "title": "Timesheet",
+  "description": "Een urenstaat kan een grote invloed hebben op een bedrijf door het nauwkeurig bijhouden van de uren van werknemers, wat helpt bij de salarisverwerking en het beheer van resources.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 249569,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7e932043229939bd-nl-be-bronnen-hr-woordenlijst-urenstaat.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7e932043229939bd-nl-be-bronnen-hr-woordenlijst-urenstaat.direct.json",
+  "markdownChars": 3957,
+  "linksCount": 123,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:37.054Z"
+}

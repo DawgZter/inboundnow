@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/south-africa/benefits-guide",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/south-africa/benefits-guide",
+  "finalURL": "https://remote.com/en-gb/country-explorer/south-africa/benefits-guide",
+  "title": "Employee Benefits in South Africa | Benefits Plans",
+  "description": "Discover the essential employee benefits in South Africa. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 272684,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5c87da741b8dcf9c-en-gb-country-explorer-south-africa-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5c87da741b8dcf9c-en-gb-country-explorer-south-africa-benefits-guide.direct.json",
+  "markdownChars": 1491,
+  "linksCount": 129,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:10:04.099Z"
+}

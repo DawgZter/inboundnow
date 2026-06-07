@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/anciennete-employe",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/anciennete-employe",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/anciennete-employe",
+  "title": "Qu'est-ce que l'ancienneté ?",
+  "description": "Découvrez pourquoi chaque responsable RH doit comprendre le concept d'ancienneté lorsqu'il gère une équipe internationale.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258422,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/650e43c942cc6e6e-fr-fr-ressources-glossaire-rh-anciennete-employe.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/650e43c942cc6e6e-fr-fr-ressources-glossaire-rh-anciennete-employe.direct.json",
+  "markdownChars": 5750,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:10:34.859Z"
+}

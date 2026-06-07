@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/emirats-arabes-unis/types-conges",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/emirats-arabes-unis/types-conges",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/emirats-arabes-unis/types-conges",
+  "title": "United Arab Emirates : Types de congé | Lois sur les congés des employés",
+  "description": "Emirats Arabes Unis : Maitrisez les lois locales sur les congés des employés. Veillez à ce que votre entreprise respecte les normes applicables en la matière et propose des congés payés compétitifs.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263408,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f3d4faf9e8e19ab3-fr-be-explorateur-de-pays-emirats-arabes-unis-types-conges.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f3d4faf9e8e19ab3-fr-be-explorateur-de-pays-emirats-arabes-unis-types-conges.direct.json",
+  "markdownChars": 1997,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:07:09.441Z"
+}

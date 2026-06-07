@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/us-state-explorer/minnesota/employer-of-record",
+  "sourceURL": "https://remote.com/en-ph/us-state-explorer/minnesota/employer-of-record",
+  "finalURL": "https://remote.com/en-ph/us-state-explorer/minnesota/employer-of-record",
+  "title": "Employer of Record services in Minnesota",
+  "description": "Use employer of record services in Minnesota make hiring, managing, and paying top talent easy. Stay compliant in Minnesota and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258542,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/15b8c00290e90213-en-ph-us-state-explorer-minnesota-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/15b8c00290e90213-en-ph-us-state-explorer-minnesota-employer-of-record.direct.json",
+  "markdownChars": 3316,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:16:51.588Z"
+}

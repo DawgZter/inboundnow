@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/morocco/contractor-management",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/morocco/contractor-management",
+  "finalURL": "https://remote.com/en-sg/country-explorer/morocco/contractor-management",
+  "title": "Manage Contractors in Morocco | Contractor Management",
+  "description": "Hiring a contractor in Morocco? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258959,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23e5af6b55ce3814-en-sg-country-explorer-morocco-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23e5af6b55ce3814-en-sg-country-explorer-morocco-contractor-management.direct.json",
+  "markdownChars": 2257,
+  "linksCount": 124,
+  "lastmod": "2025-08-20",
+  "scrapedAt": "2026-06-07T09:01:31.637Z"
+}

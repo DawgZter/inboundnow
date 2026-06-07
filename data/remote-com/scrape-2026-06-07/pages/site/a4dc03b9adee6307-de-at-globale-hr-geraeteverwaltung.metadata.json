@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/globale-hr/geraeteverwaltung",
+  "sourceURL": "https://remote.com/de-at/globale-hr/geraeteverwaltung",
+  "finalURL": "https://remote.com/de-at/globale-hr/geraeteverwaltung",
+  "title": "Geräteverwaltung | Remote",
+  "description": "Nutze die Geräteverwaltung von Remote, um Geräte für dein globales Team zu beschaffen, diese zuzuteilen und zu verwalten. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 337728,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a4dc03b9adee6307-de-at-globale-hr-geraeteverwaltung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a4dc03b9adee6307-de-at-globale-hr-geraeteverwaltung.direct.json",
+  "markdownChars": 5587,
+  "linksCount": 121,
+  "lastmod": "2025-08-22",
+  "scrapedAt": "2026-06-07T09:06:41.114Z"
+}

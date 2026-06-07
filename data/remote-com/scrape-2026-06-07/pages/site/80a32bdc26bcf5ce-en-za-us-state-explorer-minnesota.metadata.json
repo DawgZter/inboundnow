@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/us-state-explorer/minnesota",
+  "sourceURL": "https://remote.com/en-za/us-state-explorer/minnesota",
+  "finalURL": "https://remote.com/en-za/us-state-explorer/minnesota",
+  "title": "Employer of Record & Payroll Services | Minnesota",
+  "description": " Use our compliance guide to employ in Minnesota with ease. Learn about benefits, payroll, leave, and other labor laws in The North Star State.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 331989,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/80a32bdc26bcf5ce-en-za-us-state-explorer-minnesota.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/80a32bdc26bcf5ce-en-za-us-state-explorer-minnesota.direct.json",
+  "markdownChars": 7332,
+  "linksCount": 114,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:01:28.461Z"
+}

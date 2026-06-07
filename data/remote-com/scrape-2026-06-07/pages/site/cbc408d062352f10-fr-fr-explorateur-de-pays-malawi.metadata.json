@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/malawi",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/malawi",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/malawi",
+  "title": "Services de paie et d’Employer of record : Malawi",
+  "description": "Recruter des employés et des freelances : Malawi Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 313429,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cbc408d062352f10-fr-fr-explorateur-de-pays-malawi.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cbc408d062352f10-fr-fr-explorateur-de-pays-malawi.direct.json",
+  "markdownChars": 3762,
+  "linksCount": 118,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:08:07.325Z"
+}

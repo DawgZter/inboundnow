@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/kazakhstan",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/kazakhstan",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/kazakhstan",
+  "title": "Services de paie et d’Employer of record : Kazakhstan",
+  "description": "Recruter des employés et des freelances : Kazakhstan Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 313186,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8dde1088441be7c4-fr-ch-explorateur-de-pays-kazakhstan.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8dde1088441be7c4-fr-ch-explorateur-de-pays-kazakhstan.direct.json",
+  "markdownChars": 3888,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:05:23.852Z"
+}

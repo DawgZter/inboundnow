@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/coree-du-sud",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/coree-du-sud",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/coree-du-sud",
+  "title": "Employer of Record &amp; Gestion de la paie | Corée du Sud",
+  "description": "Recruter des employés et des freelances : Corée du Sud Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 349341,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56836962d80a8e11-fr-ch-explorateur-de-pays-coree-du-sud.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56836962d80a8e11-fr-ch-explorateur-de-pays-coree-du-sud.direct.json",
+  "markdownChars": 7891,
+  "linksCount": 126,
+  "lastmod": "2026-01-27",
+  "scrapedAt": "2026-06-07T09:19:10.467Z"
+}

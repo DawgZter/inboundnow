@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/warum-remote/remote-im-vergleich/rippling-vs-remote",
+  "sourceURL": "https://remote.com/de-ch/warum-remote/remote-im-vergleich/rippling-vs-remote",
+  "finalURL": "https://remote.com/de-ch/warum-remote/remote-im-vergleich/rippling-vs-remote",
+  "title": "Rippling vs. Remote – die Alternative zu Rippling | Remote",
+  "description": "Stelle in wenigen Minuten dein internationales Team zusammen. Remote ist der aktuell gefragteste Anbieter von globalen Payroll-, HR-, Steuer- und Compliance-Lösungen für verteilte Teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 390403,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/afa5d7c5fbceb166-de-ch-warum-remote-remote-im-vergleich-rippling-vs-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/afa5d7c5fbceb166-de-ch-warum-remote-remote-im-vergleich-rippling-vs-remote.direct.json",
+  "markdownChars": 14282,
+  "linksCount": 124,
+  "lastmod": "2026-04-01",
+  "scrapedAt": "2026-06-07T09:10:07.183Z"
+}

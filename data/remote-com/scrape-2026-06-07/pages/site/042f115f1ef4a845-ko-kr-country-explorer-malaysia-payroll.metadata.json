@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/malaysia/payroll",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/malaysia/payroll",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/malaysia/payroll",
+  "title": "말레이시아에서 직원에게 급여 지급 | 급여 서비스",
+  "description": "유연한 급여 서비스로 말레이시아에서 직원에게 손쉽게 급여를 지급하세요. 하나의 플랫폼에서 급여 운영, 비용 관리와 보고서 작성을 모두 처리할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259750,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/042f115f1ef4a845-ko-kr-country-explorer-malaysia-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/042f115f1ef4a845-ko-kr-country-explorer-malaysia-payroll.direct.json",
+  "markdownChars": 1882,
+  "linksCount": 123,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:15:37.838Z"
+}

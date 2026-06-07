@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-bihebdomadaire",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-bihebdomadaire",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/paiement-bihebdomadaire",
+  "title": "Salaire bihebdomadaire",
+  "description": "Comprendre ce qu'est la rémunération à la quinzaine et comment elle fonctionne, y compris les éléments clés dont vous devez tenir compte.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255084,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/242ac0df9a18aec3-fr-fr-ressources-glossaire-rh-paiement-bihebdomadaire.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/242ac0df9a18aec3-fr-fr-ressources-glossaire-rh-paiement-bihebdomadaire.direct.json",
+  "markdownChars": 2948,
+  "linksCount": 121,
+  "lastmod": "2025-07-17",
+  "scrapedAt": "2026-06-07T09:08:02.802Z"
+}

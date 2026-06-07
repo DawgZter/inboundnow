@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/luxembourg/benefits-guide",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/luxembourg/benefits-guide",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/luxembourg/benefits-guide",
+  "title": "ルクセンブルクにおける従業員の福利厚生 | Remoteの福利厚生プラン",
+  "description": "ルクセンブルクにおける必須の福利厚生を解説し、健康保険、有給休暇、その他の特典を通じて優秀な人材の獲得と定着を支援します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271777,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/885cf20bee36a630-ja-jp-country-explorer-luxembourg-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/885cf20bee36a630-ja-jp-country-explorer-luxembourg-benefits-guide.direct.json",
+  "markdownChars": 739,
+  "linksCount": 123,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:10:57.401Z"
+}

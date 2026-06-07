@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/uberprufung-der-leistung",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/uberprufung-der-leistung",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/uberprufung-der-leistung",
+  "title": "Überprüfung der Leistung",
+  "description": "Discover how performance reviews work, why they matter for both employees and managers, and how to complete comprehensive performance reviews in minutes. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256141,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c3782bb46ceb889-de-ch-ressourcen-hr-glossar-uberprufung-der-leistung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2c3782bb46ceb889-de-ch-ressourcen-hr-glossar-uberprufung-der-leistung.direct.json",
+  "markdownChars": 5266,
+  "linksCount": 123,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:01:01.948Z"
+}

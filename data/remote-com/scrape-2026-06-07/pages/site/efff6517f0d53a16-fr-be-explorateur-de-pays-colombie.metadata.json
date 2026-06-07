@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/colombie",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/colombie",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/colombie",
+  "title": "Employer of record et de gestion de la paie | Colombie",
+  "description": "Recruter des employés et des entrepreneurs en Colombie ? Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 350938,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/efff6517f0d53a16-fr-be-explorateur-de-pays-colombie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/efff6517f0d53a16-fr-be-explorateur-de-pays-colombie.direct.json",
+  "markdownChars": 8317,
+  "linksCount": 125,
+  "lastmod": "2026-01-16",
+  "scrapedAt": "2026-06-07T09:13:26.795Z"
+}

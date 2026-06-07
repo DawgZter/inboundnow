@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/slowakije/typen-verlof",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/slowakije/typen-verlof",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/slowakije/typen-verlof",
+  "title": "Typen verlof in Slovakia | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Slowakije. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258320,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1c67e7e00f5f2a09-nl-be-landenverkenner-slowakije-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1c67e7e00f5f2a09-nl-be-landenverkenner-slowakije-typen-verlof.direct.json",
+  "markdownChars": 3945,
+  "linksCount": 126,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:05:53.599Z"
+}

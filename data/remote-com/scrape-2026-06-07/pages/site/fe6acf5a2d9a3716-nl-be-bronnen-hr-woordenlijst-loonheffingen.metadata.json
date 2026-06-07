@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/loonheffingen",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/loonheffingen",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/loonheffingen",
+  "title": "What are payroll deductions?",
+  "description": " Bekijk de loonheffingen en hun invloed op het nettoloon van werknemers. Bezoek onze verklarende woordenlijst om de verschillende soorten en hun betekenis voor salarismanagement te begrijpen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250343,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe6acf5a2d9a3716-nl-be-bronnen-hr-woordenlijst-loonheffingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe6acf5a2d9a3716-nl-be-bronnen-hr-woordenlijst-loonheffingen.direct.json",
+  "markdownChars": 3940,
+  "linksCount": 123,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:11:47.207Z"
+}

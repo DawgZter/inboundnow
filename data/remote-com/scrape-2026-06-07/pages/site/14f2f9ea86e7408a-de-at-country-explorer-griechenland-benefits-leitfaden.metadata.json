@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/griechenland/benefits-leitfaden",
+  "sourceURL": "https://remote.com/de-at/country-explorer/griechenland/benefits-leitfaden",
+  "finalURL": "https://remote.com/de-at/country-explorer/griechenland/benefits-leitfaden",
+  "title": "Sozialleistungen in Griechenland | Leistungspläne",
+  "description": "Entdecke übliche Sozialleistungen in Griechenland, z. B. Krankenversicherung, bezahlter Urlaub und weitere Vorteile, damit du Mitarbeiter:innen besser bindest.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270065,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/14f2f9ea86e7408a-de-at-country-explorer-griechenland-benefits-leitfaden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/14f2f9ea86e7408a-de-at-country-explorer-griechenland-benefits-leitfaden.direct.json",
+  "markdownChars": 1663,
+  "linksCount": 123,
+  "lastmod": "2025-12-31",
+  "scrapedAt": "2026-06-07T09:01:26.242Z"
+}

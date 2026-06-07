@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/reino-unido/nominas",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/reino-unido/nominas",
+  "finalURL": "https://remote.com/es-es/explorador-paises/reino-unido/nominas",
+  "title": "Paga a empleados en Reino Unido | Servicios de nómina",
+  "description": "Paga a empleados en Reino Unido sin esfuerzo con nuestros servicios flexibles de nómina. Gestiona la nómina, administra gastos y genera informes, todo desde un único lugar.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264275,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8fec47f4d74fe7f3-es-es-explorador-paises-reino-unido-nominas.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8fec47f4d74fe7f3-es-es-explorador-paises-reino-unido-nominas.direct.json",
+  "markdownChars": 4938,
+  "linksCount": 124,
+  "lastmod": "2025-11-12",
+  "scrapedAt": "2026-06-07T09:08:31.639Z"
+}

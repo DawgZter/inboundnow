@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/checklists-templates",
+  "sourceURL": "https://remote.com/fr-fr/ressources/checklists-templates",
+  "finalURL": "https://remote.com/fr-fr/ressources/checklists-templates",
+  "title": "Solutions RH globales et outils d'emploi pour les équipes distribuées | Remote",
+  "description": "Grâce à Remote, vous disposez d'une solution unique pour recruter des talents dans n'importe quel pays, ce qui permet aux entreprises en pleine croissance d'employer les meilleurs talents du monde entier. Grâce à notre solution de gestion de la paie, des avantages sociaux, des impôts et de la conformité, les entreprises peuvent accéder à une main-d'œuvre internationale et permettre aux talents du monde entier de gagner en autonomie et responsabilité.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 376045,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0990619510c4e455-fr-fr-ressources-checklists-templates.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0990619510c4e455-fr-fr-ressources-checklists-templates.direct.json",
+  "markdownChars": 8019,
+  "linksCount": 140,
+  "lastmod": "2026-04-15",
+  "scrapedAt": "2026-06-07T09:09:44.619Z"
+}

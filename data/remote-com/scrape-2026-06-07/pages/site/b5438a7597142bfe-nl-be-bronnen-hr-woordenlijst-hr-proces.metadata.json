@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/hr-proces",
+  "sourceURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/hr-proces",
+  "finalURL": "https://remote.com/nl-be/bronnen/hr-woordenlijst/hr-proces",
+  "title": "What is HR process?",
+  "description": " Ontdek HR-processen en hun invloed op het beheren van de levenscyclus van werknemers en het verbeteren van de efficiëntie. Bezoek onze verklarende woordenlijst om hun belangrijkste onderdelen en voordelen te begrijpen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 248331,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b5438a7597142bfe-nl-be-bronnen-hr-woordenlijst-hr-proces.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b5438a7597142bfe-nl-be-bronnen-hr-woordenlijst-hr-proces.direct.json",
+  "markdownChars": 2552,
+  "linksCount": 123,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:07:09.332Z"
+}

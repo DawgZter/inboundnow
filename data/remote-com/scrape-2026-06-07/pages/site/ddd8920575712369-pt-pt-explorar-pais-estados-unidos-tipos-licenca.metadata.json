@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/estados-unidos/tipos-licenca",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/estados-unidos/tipos-licenca",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/estados-unidos/tipos-licenca",
+  "title": "Regimes de licenças nos Estados Unidos | Legislação sobre os regimes de licenças",
+  "description": "Percebe os regimes de licenças nos Estados Unidos. Garante que o teu negócio cumpre as políticas sobre o regime de licenças e oferece férias remuneradas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154974,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ddd8920575712369-pt-pt-explorar-pais-estados-unidos-tipos-licenca.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ddd8920575712369-pt-pt-explorar-pais-estados-unidos-tipos-licenca.direct.json",
+  "markdownChars": 1859,
+  "linksCount": 45,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:14:39.393Z"
+}

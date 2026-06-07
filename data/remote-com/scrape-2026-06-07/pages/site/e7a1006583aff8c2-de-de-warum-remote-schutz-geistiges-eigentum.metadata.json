@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/warum-remote/schutz-geistiges-eigentum",
+  "sourceURL": "https://remote.com/de-de/warum-remote/schutz-geistiges-eigentum",
+  "finalURL": "https://remote.com/de-de/warum-remote/schutz-geistiges-eigentum",
+  "title": "Remote IP Guard: Wirksamer Schutz deines geistigen Eigentums | Remote",
+  "description": "Stelle in wenigen Minuten dein internationales Team zusammen. Remote ist der aktuell gefragteste Anbieter von globalen Payroll-, HR-, Steuer- und Rechtslösungen für verteilte Teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 323098,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e7a1006583aff8c2-de-de-warum-remote-schutz-geistiges-eigentum.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e7a1006583aff8c2-de-de-warum-remote-schutz-geistiges-eigentum.direct.json",
+  "markdownChars": 7814,
+  "linksCount": 113,
+  "lastmod": "2025-07-02",
+  "scrapedAt": "2026-06-07T09:18:16.942Z"
+}

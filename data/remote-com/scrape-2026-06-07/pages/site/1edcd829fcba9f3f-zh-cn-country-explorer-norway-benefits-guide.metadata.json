@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/norway/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/norway/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/norway/benefits-guide",
+  "title": "挪威员工福利 | 福利计划",
+  "description": "了解挪威的核心员工福利，包括健康保险、带薪休假及其他权益，掌握通过量身定制的福利计划实现合规、全面保障与福利公平性的方法，从而助力贵公司吸引并留住顶尖人才。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268673,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1edcd829fcba9f3f-zh-cn-country-explorer-norway-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1edcd829fcba9f3f-zh-cn-country-explorer-norway-benefits-guide.direct.json",
+  "markdownChars": 549,
+  "linksCount": 121,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:15:27.818Z"
+}

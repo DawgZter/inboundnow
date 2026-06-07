@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/brand-designer-job-description",
+  "sourceURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/brand-designer-job-description",
+  "finalURL": "https://remote.com/de-de/ressourcen/stellenbeschreibungen/brand-designer-job-description",
+  "title": "Brand Designer Job Beschreibung",
+  "description": "Überprüfe die Stellenbeschreibung für einen Markendesigner, der für die Erstellung von visuellen Identitäten, die Entwicklung von Markenrichtlinien und die Sicherstellung einer einheitlichen Markenbotschaft auf allen Plattformen verantwortlich ist.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260192,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ee77584e2422d648-de-de-ressourcen-stellenbeschreibungen-brand-designer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ee77584e2422d648-de-de-ressourcen-stellenbeschreibungen-brand-designer-job-description.direct.json",
+  "markdownChars": 3848,
+  "linksCount": 114,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:17.964Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/uruguay/tipi-congedo",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/uruguay/tipi-congedo",
+  "finalURL": "https://remote.com/it-it/esplora-paese/uruguay/tipi-congedo",
+  "title": "Tipologie di congedo in Uruguay | Normativa sul congedo del personale",
+  "description": "Comprendi la normativa sul congedo in Uruguay. Assicurati che la tua azienda sia conforme alle politiche sui congedi e offra ferie retribuite competitive.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155814,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2264fe0e8dbd0af0-it-it-esplora-paese-uruguay-tipi-congedo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2264fe0e8dbd0af0-it-it-esplora-paese-uruguay-tipi-congedo.direct.json",
+  "markdownChars": 2828,
+  "linksCount": 44,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:05:06.548Z"
+}

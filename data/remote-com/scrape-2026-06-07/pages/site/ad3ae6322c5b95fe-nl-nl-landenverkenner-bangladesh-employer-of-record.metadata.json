@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/bangladesh/employer-of-record",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/bangladesh/employer-of-record",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/bangladesh/employer-of-record",
+  "title": "Employer of Record in Bangladesh | EOR-diensten",
+  "description": "Vereenvoudig tewerkstelling in Bangladesh met onze Employer of Record-diensten. Beheer loonlijst, secundaire arbeidsvoorwaarden en compliance naadloos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262864,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ad3ae6322c5b95fe-nl-nl-landenverkenner-bangladesh-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ad3ae6322c5b95fe-nl-nl-landenverkenner-bangladesh-employer-of-record.direct.json",
+  "markdownChars": 3740,
+  "linksCount": 123,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:10:39.696Z"
+}

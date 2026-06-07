@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/etudes-de-cas/remote-weaviate",
+  "sourceURL": "https://remote.com/fr-be/ressources/etudes-de-cas/remote-weaviate",
+  "finalURL": "https://remote.com/fr-be/ressources/etudes-de-cas/remote-weaviate",
+  "title": "Comment Weaviate, l'as de l'IA, a développé ses effectifs de 120 % avec Remote",
+  "description": "Alors que la demande d'infrastructures d'IA natives monte en flèche, découvrez pourquoi Weaviate s'associe à Remote pour intégrer, gérer et payer ses équipes internationales.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 267209,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a9118befbc87891-fr-be-ressources-etudes-de-cas-remote-weaviate.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a9118befbc87891-fr-be-ressources-etudes-de-cas-remote-weaviate.direct.json",
+  "markdownChars": 12070,
+  "linksCount": 115,
+  "lastmod": "2025-06-26",
+  "scrapedAt": "2026-06-07T09:16:44.653Z"
+}

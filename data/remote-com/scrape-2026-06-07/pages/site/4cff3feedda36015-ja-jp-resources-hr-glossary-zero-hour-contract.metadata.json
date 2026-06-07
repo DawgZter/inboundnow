@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/zero-hour-contract",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/zero-hour-contract",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/zero-hour-contract",
+  "title": "ゼロ時間契約",
+  "description": "ゼロ時間労働契約が雇用の柔軟性と雇用の安定に与える影響を理解すること。雇用者と労働者の双方にどのような影響があるかについては、用語集をご覧ください。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254291,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4cff3feedda36015-ja-jp-resources-hr-glossary-zero-hour-contract.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4cff3feedda36015-ja-jp-resources-hr-glossary-zero-hour-contract.direct.json",
+  "markdownChars": 1554,
+  "linksCount": 121,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:14:11.847Z"
+}

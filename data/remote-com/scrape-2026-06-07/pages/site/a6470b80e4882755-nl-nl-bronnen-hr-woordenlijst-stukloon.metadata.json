@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/stukloon",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/stukloon",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/stukloon",
+  "title": "Stukloon is een effectieve beloningsstrategie die bedrijven kan helpen om werknemers te motiveren, de productiviteit te verhogen en de arbeidskosten te beheersen.",
+  "description": "Bezoek onze HR-woordenlijst om meer te weten te komen over stukloon, de rol ervan in beloningsstructuren en hoe het de productiviteit en inkomsten in prestatiegerichte bedrijfstakken beïnvloedt.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257672,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6470b80e4882755-nl-nl-bronnen-hr-woordenlijst-stukloon.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6470b80e4882755-nl-nl-bronnen-hr-woordenlijst-stukloon.direct.json",
+  "markdownChars": 5034,
+  "linksCount": 122,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:13:10.603Z"
+}

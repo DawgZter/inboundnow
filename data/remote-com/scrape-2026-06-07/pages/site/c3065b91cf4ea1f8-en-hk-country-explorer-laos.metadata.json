@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/laos",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/laos",
+  "finalURL": "https://remote.com/en-hk/country-explorer/laos",
+  "title": "Employer of Record & Payroll Services | Laos",
+  "description": "Hiring employees and contractors in Laos? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 308265,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c3065b91cf4ea1f8-en-hk-country-explorer-laos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c3065b91cf4ea1f8-en-hk-country-explorer-laos.direct.json",
+  "markdownChars": 3067,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:01:57.071Z"
+}

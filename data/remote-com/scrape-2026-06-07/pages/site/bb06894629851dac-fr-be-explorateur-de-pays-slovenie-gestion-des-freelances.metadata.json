@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/slovenie/gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/slovenie/gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/slovenie/gestion-des-freelances",
+  "title": "Gérez vos freelances en Slovénie | Gestion des freelances",
+  "description": "Vous souhaitez faire appel à un freelance en Slovénie&nbsp;? Gérez et payez vos freelances internationaux en toute simplicité grâce à nos services flexibles de Gestion des freelances.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262158,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb06894629851dac-fr-be-explorateur-de-pays-slovenie-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bb06894629851dac-fr-be-explorateur-de-pays-slovenie-gestion-des-freelances.direct.json",
+  "markdownChars": 2673,
+  "linksCount": 123,
+  "lastmod": "2025-11-06",
+  "scrapedAt": "2026-06-07T09:01:43.142Z"
+}

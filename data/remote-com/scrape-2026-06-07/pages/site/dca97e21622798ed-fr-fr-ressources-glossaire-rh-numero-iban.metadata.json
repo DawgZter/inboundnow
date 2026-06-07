@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/numero-iban",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/numero-iban",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/numero-iban",
+  "title": "Numéro IBAN",
+  "description": "Découvrez l'importance du numéro IBAN dans les opérations bancaires et les transactions internationales. Consultez notre glossaire pour comprendre son rôle dans la sécurisation et l'exactitude des paiements.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255874,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dca97e21622798ed-fr-fr-ressources-glossaire-rh-numero-iban.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dca97e21622798ed-fr-fr-ressources-glossaire-rh-numero-iban.direct.json",
+  "markdownChars": 3520,
+  "linksCount": 120,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:10:11.327Z"
+}

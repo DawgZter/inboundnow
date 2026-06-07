@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/tanzania/contractor-management",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/tanzania/contractor-management",
+  "finalURL": "https://remote.com/en-gb/country-explorer/tanzania/contractor-management",
+  "title": "Manage Contractors in Tanzania | Contractor Management",
+  "description": "Hiring a contractor in Tanzania? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254711,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/feeae7af9b812731-en-gb-country-explorer-tanzania-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/feeae7af9b812731-en-gb-country-explorer-tanzania-contractor-management.direct.json",
+  "markdownChars": 2067,
+  "linksCount": 116,
+  "lastmod": "2025-08-26",
+  "scrapedAt": "2026-06-07T09:09:42.557Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/us-state-explorer/ohio/payroll",
+  "sourceURL": "https://remote.com/en-ph/us-state-explorer/ohio/payroll",
+  "finalURL": "https://remote.com/en-ph/us-state-explorer/ohio/payroll",
+  "title": "Payroll Management in Ohio",
+  "description": "Manage payroll in Ohio seamlessly with Remote's payroll software. Stay compliant with Ohio payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258851,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce9b8c6ae94be761-en-ph-us-state-explorer-ohio-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce9b8c6ae94be761-en-ph-us-state-explorer-ohio-payroll.direct.json",
+  "markdownChars": 4588,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:02:45.576Z"
+}

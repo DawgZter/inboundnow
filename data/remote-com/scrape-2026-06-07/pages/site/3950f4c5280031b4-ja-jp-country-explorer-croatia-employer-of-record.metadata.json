@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/croatia/employer-of-record",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/croatia/employer-of-record",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/croatia/employer-of-record",
+  "title": "クロアチアでのEmployer of Record (EOR) | EORサービス",
+  "description": "クロアチアでの雇用を簡素化します。RemoteのEmployer of Record (EOR)サービスで、給与処理、福利厚生、法令遵守をスムーズに管理できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261253,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3950f4c5280031b4-ja-jp-country-explorer-croatia-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3950f4c5280031b4-ja-jp-country-explorer-croatia-employer-of-record.direct.json",
+  "markdownChars": 1518,
+  "linksCount": 123,
+  "lastmod": "2025-09-30",
+  "scrapedAt": "2026-06-07T09:07:34.479Z"
+}

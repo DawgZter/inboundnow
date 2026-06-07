@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/job-descriptions/sales-development-representative-job-description",
+  "sourceURL": "https://remote.com/en-ie/resources/job-descriptions/sales-development-representative-job-description",
+  "finalURL": "https://remote.com/en-ie/resources/job-descriptions/sales-development-representative-job-description",
+  "title": "Sales development representative job description",
+  "description": "Review the job description for a sales development representative, responsible for identifying and qualifying leads, building client relationships, and supporting sales strategies.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258843,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d801f4ad409e31a7-en-ie-resources-job-descriptions-sales-development-representative-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d801f4ad409e31a7-en-ie-resources-job-descriptions-sales-development-representative-job-description.direct.json",
+  "markdownChars": 3617,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:13:38.269Z"
+}

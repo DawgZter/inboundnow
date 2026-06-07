@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/news/product/remote-launches-recruit-talent-sourcing-made-simple-through-ai",
+  "sourceURL": "https://remote.com/news/product/remote-launches-recruit-talent-sourcing-made-simple-through-ai",
+  "finalURL": "https://remote.com/news/product/remote-launches-recruit-talent-sourcing-made-simple-through-ai",
+  "title": "Remote launches Recruit, talent sourcing made simple through AI",
+  "description": "United States Life-Work Balance Index 2025: Top 10 States With The Best Life-Work Balance",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253954,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dd2c9b5ebe8763f7-news-product-remote-launches-recruit-talent-sourcing-made-simple-through-ai.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dd2c9b5ebe8763f7-news-product-remote-launches-recruit-talent-sourcing-made-simple-through-ai.direct.json",
+  "markdownChars": 4808,
+  "linksCount": 115,
+  "lastmod": "2025-05-26",
+  "scrapedAt": "2026-06-07T09:07:46.658Z"
+}

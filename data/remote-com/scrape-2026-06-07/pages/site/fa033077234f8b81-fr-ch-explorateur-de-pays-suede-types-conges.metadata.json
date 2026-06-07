@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/suede/types-conges",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/suede/types-conges",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/suede/types-conges",
+  "title": "Sweden : Types de congé | Lois sur les congés des employés",
+  "description": "Suede : Maitrisez les lois locales sur les congés des employés. Veillez à ce que votre entreprise respecte les normes applicables en la matière et propose des congés payés compétitifs.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262496,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fa033077234f8b81-fr-ch-explorateur-de-pays-suede-types-conges.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fa033077234f8b81-fr-ch-explorateur-de-pays-suede-types-conges.direct.json",
+  "markdownChars": 2344,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:07:44.223Z"
+}

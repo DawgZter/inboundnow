@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/calculator-voor-werknemerskosten",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/calculator-voor-werknemerskosten",
+  "finalURL": "https://remote.com/nl-nl/bronnen/calculator-voor-werknemerskosten",
+  "title": "Arbeidskosten berekenen met de werknemerskostencalculator | Remote",
+  "description": "Met de werknemerskostencalculator van Remote krijg je een volledige uitsplitsing van verplichte sociale bijdragen en lokale belastingen, evenals de gemiddelde kosten voor secundaire arbeidsvoorwaarden die werknemers in dat land verwachten. Allemaal met een paar klikken!",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 342279,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1d43c673dde5efeb-nl-nl-bronnen-calculator-voor-werknemerskosten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1d43c673dde5efeb-nl-nl-bronnen-calculator-voor-werknemerskosten.direct.json",
+  "markdownChars": 10113,
+  "linksCount": 121,
+  "lastmod": "2026-04-23",
+  "scrapedAt": "2026-06-07T09:11:00.350Z"
+}

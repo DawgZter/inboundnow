@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/casestudys/prestatiebeoordelingen-binnen-48-uur",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/casestudys/prestatiebeoordelingen-binnen-48-uur",
+  "finalURL": "https://remote.com/nl-nl/bronnen/casestudys/prestatiebeoordelingen-binnen-48-uur",
+  "title": "Van 2 maanden naar 48 uur: Sneller beoordelen met Remote Perform",
+  "description": "Bekijk hoe Remote prestatiebeoordelingen opnieuw vormgaf door met Remote Perform 1800 werknemersbeoordelingen in slechts 48 uur af te ronden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258996,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1449d72b1e342ad2-nl-nl-bronnen-casestudys-prestatiebeoordelingen-binnen-48-uur.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1449d72b1e342ad2-nl-nl-bronnen-casestudys-prestatiebeoordelingen-binnen-48-uur.direct.json",
+  "markdownChars": 6118,
+  "linksCount": 114,
+  "lastmod": "2025-12-25",
+  "scrapedAt": "2026-06-07T09:17:14.222Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/licenciement-abusif",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/licenciement-abusif",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/licenciement-abusif",
+  "title": "What is an unfair dismissal?",
+  "description": "Les licenciements abusifs peuvent avoir de graves conséquences juridiques pour votre entreprise. Découvrez ce qu'ils sont - et comment les éviter.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257102,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef909b634c5c0234-fr-ch-ressources-glossaire-rh-licenciement-abusif.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef909b634c5c0234-fr-ch-ressources-glossaire-rh-licenciement-abusif.direct.json",
+  "markdownChars": 4837,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:14:01.861Z"
+}

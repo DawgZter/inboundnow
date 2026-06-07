@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/glossaire-rh/effectifs",
+  "sourceURL": "https://remote.com/fr-ch/ressources/glossaire-rh/effectifs",
+  "finalURL": "https://remote.com/fr-ch/ressources/glossaire-rh/effectifs",
+  "title": "What is a headcount?",
+  "description": "Découvrez l'importance des effectifs dans la planification et la gestion des ressources humaines. Consultez notre glossaire pour savoir comment il influence la structure et la stratégie de l'organisation.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256505,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/337344cf099c36e3-fr-ch-ressources-glossaire-rh-effectifs.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/337344cf099c36e3-fr-ch-ressources-glossaire-rh-effectifs.direct.json",
+  "markdownChars": 4702,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:11:06.438Z"
+}

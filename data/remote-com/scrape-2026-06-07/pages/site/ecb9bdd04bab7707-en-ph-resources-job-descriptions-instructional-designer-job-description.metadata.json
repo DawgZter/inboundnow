@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/job-descriptions/instructional-designer-job-description",
+  "sourceURL": "https://remote.com/en-ph/resources/job-descriptions/instructional-designer-job-description",
+  "finalURL": "https://remote.com/en-ph/resources/job-descriptions/instructional-designer-job-description",
+  "title": "Instructional designer job description",
+  "description": "Learn about the critical role of an instructional designer in creating effective educational materials. Visit our job description library to explore key responsibilities and qualifications.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259012,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ecb9bdd04bab7707-en-ph-resources-job-descriptions-instructional-designer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ecb9bdd04bab7707-en-ph-resources-job-descriptions-instructional-designer-job-description.direct.json",
+  "markdownChars": 4030,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:09:22.089Z"
+}

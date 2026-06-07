@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer/jamaica",
+  "sourceURL": "https://remote.com/en-nz/country-explorer/jamaica",
+  "finalURL": "https://remote.com/en-nz/country-explorer/jamaica",
+  "title": "Employer of Record & Payroll Services | Jamaica",
+  "description": "Hiring employees and contractors in Jamaica? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 338960,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f6fdb2dacd864682-en-nz-country-explorer-jamaica.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f6fdb2dacd864682-en-nz-country-explorer-jamaica.direct.json",
+  "markdownChars": 5196,
+  "linksCount": 125,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:06:15.776Z"
+}

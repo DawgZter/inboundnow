@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/libye/gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/libye/gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/libye/gestion-des-freelances",
+  "title": "Gérez vos freelances en Libye | Gestion des freelances",
+  "description": "Faire appel à un freelance en Libye&nbsp;? Gérez et payez vos freelances internationaux sans effort grâce à nos services flexibles de Gestion des freelances.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259413,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bfa595769378d11c-fr-fr-explorateur-de-pays-libye-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bfa595769378d11c-fr-fr-explorateur-de-pays-libye-gestion-des-freelances.direct.json",
+  "markdownChars": 2942,
+  "linksCount": 117,
+  "lastmod": "2025-11-04",
+  "scrapedAt": "2026-06-07T09:07:20.335Z"
+}

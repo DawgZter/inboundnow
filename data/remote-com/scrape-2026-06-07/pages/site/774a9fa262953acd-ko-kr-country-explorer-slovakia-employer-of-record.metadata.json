@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/slovakia/employer-of-record",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/slovakia/employer-of-record",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/slovakia/employer-of-record",
+  "title": "슬로바키아에서의 기록상 고용주(EOR) | EOR 서비스",
+  "description": "슬로바키아에서의 채용을 기록상 고용주(EOR) 서비스로 간소화합니다. 급여, 복리후생, 규제 준수를 원활하게 관리합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259965,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/774a9fa262953acd-ko-kr-country-explorer-slovakia-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/774a9fa262953acd-ko-kr-country-explorer-slovakia-employer-of-record.direct.json",
+  "markdownChars": 1707,
+  "linksCount": 122,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:01:39.134Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/c/smb-lets-pick-up-where-we-left-off",
+  "sourceURL": "https://remote.com/en-gb/c/smb-lets-pick-up-where-we-left-off",
+  "finalURL": "https://remote.com/en-gb/c/smb-lets-pick-up-where-we-left-off",
+  "title": "Let's pick up where we left off",
+  "description": "Simplify Payroll and HR for 2026 with Remote’s all-in-one, HMRC-recognised platform. Book a demo by 15 Dec 2025 and get a £50 gift card.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 303173,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ea3571d6de505e82-en-gb-c-smb-lets-pick-up-where-we-left-off.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ea3571d6de505e82-en-gb-c-smb-lets-pick-up-where-we-left-off.direct.json",
+  "markdownChars": 2739,
+  "linksCount": 108,
+  "lastmod": "2025-11-14",
+  "scrapedAt": "2026-06-07T09:13:31.152Z"
+}

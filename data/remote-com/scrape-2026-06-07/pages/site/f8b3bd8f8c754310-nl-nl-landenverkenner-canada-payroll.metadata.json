@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/canada/payroll",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/canada/payroll",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/canada/payroll",
+  "title": "Werknemers betalen in Canada | Payrollservices",
+  "description": "Werknemers in Canada moeiteloos betalen met onze flexibele payrollservices. Payroll uitvoeren, onkosten beheren en rapporten draaien, alles vanuit één plek.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264289,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8b3bd8f8c754310-nl-nl-landenverkenner-canada-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8b3bd8f8c754310-nl-nl-landenverkenner-canada-payroll.direct.json",
+  "markdownChars": 4623,
+  "linksCount": 126,
+  "lastmod": "2025-12-15",
+  "scrapedAt": "2026-06-07T09:06:43.326Z"
+}

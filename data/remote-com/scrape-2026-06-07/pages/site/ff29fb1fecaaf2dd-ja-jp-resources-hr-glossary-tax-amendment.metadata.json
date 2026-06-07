@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/tax-amendment",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/tax-amendment",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/tax-amendment",
+  "title": "修正申告とは何ですか？",
+  "description": "HR用語集では、修正申告、財務報告への影響、企業や個人の納税義務やコンプライアンスへの影響について解説しています。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253382,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff29fb1fecaaf2dd-ja-jp-resources-hr-glossary-tax-amendment.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff29fb1fecaaf2dd-ja-jp-resources-hr-glossary-tax-amendment.direct.json",
+  "markdownChars": 1367,
+  "linksCount": 121,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:01.723Z"
+}

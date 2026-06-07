@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/autorisation-travail",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/autorisation-travail",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/autorisation-travail",
+  "title": "Qu'est-ce qu'un permis de travail ?",
+  "description": "En savoir plus sur les autorisations de travail et sur les raisons pour lesquelles les responsables RH doivent être attentifs au respect de la législation locale en matière d'immigration",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259198,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/997d8120d8a471ce-fr-fr-ressources-glossaire-rh-autorisation-travail.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/997d8120d8a471ce-fr-fr-ressources-glossaire-rh-autorisation-travail.direct.json",
+  "markdownChars": 6005,
+  "linksCount": 126,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:14:59.975Z"
+}

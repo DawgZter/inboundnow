@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/croatia/benefits-guide",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/croatia/benefits-guide",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/croatia/benefits-guide",
+  "title": "크로아티아의 직원 복리후생 | 복리후생 플랜",
+  "description": "크로아티아에서 제공해야 하는 필수 직원 복리후생을 한곳에 정리하여, 건강보험·유급 휴가·기타 혜택이 우수 인재를 유치하고 유지하는 방법을 설명합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 270508,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6022dd2eae46720a-ko-kr-country-explorer-croatia-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6022dd2eae46720a-ko-kr-country-explorer-croatia-benefits-guide.direct.json",
+  "markdownChars": 805,
+  "linksCount": 123,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:17:25.347Z"
+}

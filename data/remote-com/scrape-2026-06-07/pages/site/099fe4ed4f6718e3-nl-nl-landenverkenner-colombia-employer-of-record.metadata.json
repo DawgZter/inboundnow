@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/colombia/employer-of-record",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/colombia/employer-of-record",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/colombia/employer-of-record",
+  "title": "Employer of Record in Colombia (EOR) | EOR-diensten",
+  "description": "Maak tewerkstelling in Colombia eenvoudiger met onze Employer of Record-diensten. Beheer payroll, benefits en Compliance moeiteloos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263238,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/099fe4ed4f6718e3-nl-nl-landenverkenner-colombia-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/099fe4ed4f6718e3-nl-nl-landenverkenner-colombia-employer-of-record.direct.json",
+  "markdownChars": 3652,
+  "linksCount": 125,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:08:54.780Z"
+}

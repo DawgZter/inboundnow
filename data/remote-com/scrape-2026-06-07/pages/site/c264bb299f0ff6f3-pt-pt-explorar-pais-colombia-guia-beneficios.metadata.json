@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/colombia/guia-beneficios",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/colombia/guia-beneficios",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/colombia/guia-beneficios",
+  "title": "Benefícios para trabalhadores da Colômbia | Planos de benefícios",
+  "description": "Descobre os benefícios essenciais para trabalhadores da Colômbia. Sabe mais sobre seguros de saúde, férias pagas e outras regalias para atrair e reter os melhores talentos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 166198,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c264bb299f0ff6f3-pt-pt-explorar-pais-colombia-guia-beneficios.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c264bb299f0ff6f3-pt-pt-explorar-pais-colombia-guia-beneficios.direct.json",
+  "markdownChars": 1616,
+  "linksCount": 45,
+  "lastmod": "2026-03-23",
+  "scrapedAt": "2026-06-07T09:07:07.179Z"
+}

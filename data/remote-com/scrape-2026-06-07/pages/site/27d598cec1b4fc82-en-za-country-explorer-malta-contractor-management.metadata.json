@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/malta/contractor-management",
+  "sourceURL": "https://remote.com/en-za/country-explorer/malta/contractor-management",
+  "finalURL": "https://remote.com/en-za/country-explorer/malta/contractor-management",
+  "title": "Manage Contractors in Malta | Contractor Management",
+  "description": "Hiring a contractor in Malta? Manage and pay global contractors effortlessly with our flexible Contractor Management services. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259372,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/27d598cec1b4fc82-en-za-country-explorer-malta-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/27d598cec1b4fc82-en-za-country-explorer-malta-contractor-management.direct.json",
+  "markdownChars": 2253,
+  "linksCount": 126,
+  "lastmod": "2025-08-20",
+  "scrapedAt": "2026-06-07T09:01:41.422Z"
+}

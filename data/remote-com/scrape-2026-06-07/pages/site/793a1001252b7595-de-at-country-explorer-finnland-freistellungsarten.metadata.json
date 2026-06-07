@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/finnland/freistellungsarten",
+  "sourceURL": "https://remote.com/de-at/country-explorer/finnland/freistellungsarten",
+  "finalURL": "https://remote.com/de-at/country-explorer/finnland/freistellungsarten",
+  "title": "Urlaubsansprüche in Finland | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Finnland. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261408,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/793a1001252b7595-de-at-country-explorer-finnland-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/793a1001252b7595-de-at-country-explorer-finnland-freistellungsarten.direct.json",
+  "markdownChars": 3420,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:10:23.147Z"
+}

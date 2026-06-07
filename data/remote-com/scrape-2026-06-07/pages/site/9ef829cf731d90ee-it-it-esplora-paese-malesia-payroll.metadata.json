@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/malesia/payroll",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/malesia/payroll",
+  "finalURL": "https://remote.com/it-it/esplora-paese/malesia/payroll",
+  "title": "Gestione pagamenti in Malesia | Remote Payroll",
+  "description": "Vuoi gestire i pagamenti in Malesia in modo semplice? Gestisci il payroll, le spese e la reportistica da un’unica piattaforma grazie ai nostri servizi Payroll flessibili.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155298,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ef829cf731d90ee-it-it-esplora-paese-malesia-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9ef829cf731d90ee-it-it-esplora-paese-malesia-payroll.direct.json",
+  "markdownChars": 3915,
+  "linksCount": 45,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:08:06.125Z"
+}

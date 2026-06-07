@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer",
+  "sourceURL": "https://remote.com/en-nz/country-explorer",
+  "finalURL": "https://remote.com/en-nz/country-explorer",
+  "title": "Hire Globally: Country Guides for Compliance and Growth",
+  "description": "Hire, pay, and manage your global workforce seamlessly. Stay compliant with local employment laws while scaling your business internationally. Explore our country hiring guides to get started.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 1828423,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a159b365a9376f5-en-nz-country-explorer.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1a159b365a9376f5-en-nz-country-explorer.direct.json",
+  "markdownChars": 34276,
+  "linksCount": 301,
+  "lastmod": "2026-04-22",
+  "scrapedAt": "2026-06-07T09:05:45.249Z"
+}

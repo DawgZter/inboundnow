@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/hr-glossary/human-resource-information-system",
+  "sourceURL": "https://remote.com/en-ie/resources/hr-glossary/human-resource-information-system",
+  "finalURL": "https://remote.com/en-ie/resources/hr-glossary/human-resource-information-system",
+  "title": "Human resources information system (HRIS)",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252605,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f9223fccf8473c0d-en-ie-resources-hr-glossary-human-resource-information-system.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f9223fccf8473c0d-en-ie-resources-hr-glossary-human-resource-information-system.direct.json",
+  "markdownChars": 3549,
+  "linksCount": 118,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:14:39.600Z"
+}

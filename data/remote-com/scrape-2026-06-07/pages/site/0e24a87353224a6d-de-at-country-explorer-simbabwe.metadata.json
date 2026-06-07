@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/simbabwe",
+  "sourceURL": "https://remote.com/de-at/country-explorer/simbabwe",
+  "finalURL": "https://remote.com/de-at/country-explorer/simbabwe",
+  "title": "Employer-of-Record- und Payroll-Services | Simbabwe",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Simbabwe? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 341540,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e24a87353224a6d-de-at-country-explorer-simbabwe.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e24a87353224a6d-de-at-country-explorer-simbabwe.direct.json",
+  "markdownChars": 5910,
+  "linksCount": 124,
+  "lastmod": "2025-10-07",
+  "scrapedAt": "2026-06-07T09:14:14.469Z"
+}

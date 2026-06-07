@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/forschung/leitfaden-auswahl-employer-of-record",
+  "sourceURL": "https://remote.com/de-at/ressourcen/forschung/leitfaden-auswahl-employer-of-record",
+  "finalURL": "https://remote.com/de-at/ressourcen/forschung/leitfaden-auswahl-employer-of-record",
+  "title": "Unser Infopaket zur Auswahl des richtigen Employer of Record | Remote",
+  "description": "Hol dir die kostenlosen Leitfäden unserer Expert:innen und erfahre, wie du EOR-Software findest, vergleichst und die beste Lösung für deine Anforderungen auswählst.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 262070,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/26c4f4119e28fd73-de-at-ressourcen-forschung-leitfaden-auswahl-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/26c4f4119e28fd73-de-at-ressourcen-forschung-leitfaden-auswahl-employer-of-record.direct.json",
+  "markdownChars": 794,
+  "linksCount": 113,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:06:19.689Z"
+}

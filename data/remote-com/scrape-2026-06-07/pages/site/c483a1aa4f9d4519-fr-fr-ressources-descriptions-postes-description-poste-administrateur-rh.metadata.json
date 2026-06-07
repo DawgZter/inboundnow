@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-administrateur-rh",
+  "sourceURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-administrateur-rh",
+  "finalURL": "https://remote.com/fr-fr/ressources/descriptions-postes/description-poste-administrateur-rh",
+  "title": "Description du poste d'administrateur RH",
+  "description": "Examinez la description du poste d'administrateur RH, chargé de gérer les dossiers des employés, de soutenir les processus de recrutement et de veiller au respect des politiques de ressources humaines\".",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264141,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c483a1aa4f9d4519-fr-fr-ressources-descriptions-postes-description-poste-administrateur-rh.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c483a1aa4f9d4519-fr-fr-ressources-descriptions-postes-description-poste-administrateur-rh.direct.json",
+  "markdownChars": 5422,
+  "linksCount": 114,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:14:18.603Z"
+}

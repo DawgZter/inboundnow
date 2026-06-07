@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/headcount",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/headcount",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/headcount",
+  "title": "ヘッドカウントとは何か？",
+  "description": "人員計画と管理におけるヘッドカウントの重要性を知る。組織構造や戦略にどのような影響を与えるかについては、用語集をご覧ください。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254444,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe3d43e9750d2d44-ja-jp-resources-hr-glossary-headcount.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe3d43e9750d2d44-ja-jp-resources-hr-glossary-headcount.direct.json",
+  "markdownChars": 1752,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:08:19.035Z"
+}

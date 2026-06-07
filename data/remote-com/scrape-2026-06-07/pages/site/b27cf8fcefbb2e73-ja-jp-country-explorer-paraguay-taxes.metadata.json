@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/paraguay/taxes",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/paraguay/taxes",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/paraguay/taxes",
+  "title": "パラグアイにおける給与税の管理 | 税務コンプライアンス",
+  "description": "貴社のパラグアイにおける給与税を効果的かつ適切に管理します。給与税の誤りを最小限に抑え、現地法を順守して高額な罰金を回避できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256974,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b27cf8fcefbb2e73-ja-jp-country-explorer-paraguay-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b27cf8fcefbb2e73-ja-jp-country-explorer-paraguay-taxes.direct.json",
+  "markdownChars": 451,
+  "linksCount": 122,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:13:56.674Z"
+}

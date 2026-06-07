@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/discrimination-sur-lieu-travail",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/discrimination-sur-lieu-travail",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/discrimination-sur-lieu-travail",
+  "title": "Qu'est-ce que la discrimination sur le lieu de travail ?",
+  "description": "Explorez notre glossaire RH pour comprendre la discrimination sur le lieu de travail, son impact sur la culture d'entreprise et la manière dont elle influence les efforts en matière de diversité, d'équité et d'inclusion.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257256,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e84920ce8c9b87eb-fr-fr-ressources-glossaire-rh-discrimination-sur-lieu-travail.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e84920ce8c9b87eb-fr-fr-ressources-glossaire-rh-discrimination-sur-lieu-travail.direct.json",
+  "markdownChars": 4106,
+  "linksCount": 121,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:11:32.005Z"
+}

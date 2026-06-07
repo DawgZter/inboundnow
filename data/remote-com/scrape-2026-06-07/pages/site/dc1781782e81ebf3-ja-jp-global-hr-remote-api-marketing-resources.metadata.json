@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/global-hr/remote-api/marketing-resources",
+  "sourceURL": "https://remote.com/ja-jp/global-hr/remote-api/marketing-resources",
+  "finalURL": "https://remote.com/ja-jp/global-hr/remote-api/marketing-resources",
+  "title": "海外展開するチーム向けのグローバルHRソリューション | Remote",
+  "description": "世界中の優秀な人材を短時間で採用することができます。Remoteは、海外展開チーム向けのグローバル給与処理、税金、人事、および法令遵守のための画期的なソリューションです。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268838,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dc1781782e81ebf3-ja-jp-global-hr-remote-api-marketing-resources.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dc1781782e81ebf3-ja-jp-global-hr-remote-api-marketing-resources.direct.json",
+  "markdownChars": 894,
+  "linksCount": 116,
+  "lastmod": "2025-05-18",
+  "scrapedAt": "2026-06-07T09:08:28.285Z"
+}

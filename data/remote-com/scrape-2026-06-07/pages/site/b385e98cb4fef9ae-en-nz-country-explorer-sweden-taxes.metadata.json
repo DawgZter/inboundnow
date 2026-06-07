@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer/sweden/taxes",
+  "sourceURL": "https://remote.com/en-nz/country-explorer/sweden/taxes",
+  "finalURL": "https://remote.com/en-nz/country-explorer/sweden/taxes",
+  "title": "Manage Payroll Tax in Sweden | Tax Compliance",
+  "description": "Manage payroll taxes in Sweden effectively and compliantly. Minimise payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258587,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b385e98cb4fef9ae-en-nz-country-explorer-sweden-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b385e98cb4fef9ae-en-nz-country-explorer-sweden-taxes.direct.json",
+  "markdownChars": 970,
+  "linksCount": 127,
+  "lastmod": "2025-11-18",
+  "scrapedAt": "2026-06-07T09:10:43.766Z"
+}

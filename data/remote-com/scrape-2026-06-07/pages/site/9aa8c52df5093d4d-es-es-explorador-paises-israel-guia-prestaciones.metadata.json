@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/israel/guia-prestaciones",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/israel/guia-prestaciones",
+  "finalURL": "https://remote.com/es-es/explorador-paises/israel/guia-prestaciones",
+  "title": "Prestaciones para empleados en Israel | planes de prestaciones",
+  "description": "Descubre las prestaciones esenciales para empleados en Israel. Infórmate sobre el seguro médico, el permiso retribuido y otras prestaciones para captar y retener al mejor talento.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 272897,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9aa8c52df5093d4d-es-es-explorador-paises-israel-guia-prestaciones.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9aa8c52df5093d4d-es-es-explorador-paises-israel-guia-prestaciones.direct.json",
+  "markdownChars": 1696,
+  "linksCount": 122,
+  "lastmod": "2025-12-29",
+  "scrapedAt": "2026-06-07T09:07:33.479Z"
+}

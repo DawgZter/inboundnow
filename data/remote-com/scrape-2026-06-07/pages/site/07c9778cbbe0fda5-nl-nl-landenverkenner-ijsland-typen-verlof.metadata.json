@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/ijsland/typen-verlof",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/ijsland/typen-verlof",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/ijsland/typen-verlof",
+  "title": "Typen verlof in Iceland | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Ijsland. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262492,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07c9778cbbe0fda5-nl-nl-landenverkenner-ijsland-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/07c9778cbbe0fda5-nl-nl-landenverkenner-ijsland-typen-verlof.direct.json",
+  "markdownChars": 2879,
+  "linksCount": 123,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:13:22.455Z"
+}

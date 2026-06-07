@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/us-state-explorer/oklahoma/payroll",
+  "sourceURL": "https://remote.com/en-ph/us-state-explorer/oklahoma/payroll",
+  "finalURL": "https://remote.com/en-ph/us-state-explorer/oklahoma/payroll",
+  "title": "Payroll Management in Oklahoma",
+  "description": "Manage payroll in Oklahoma seamlessly with Remote's payroll software. Stay compliant with Oklahoma payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259084,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/182b6025d8f1428c-en-ph-us-state-explorer-oklahoma-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/182b6025d8f1428c-en-ph-us-state-explorer-oklahoma-payroll.direct.json",
+  "markdownChars": 4555,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:11:20.086Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/hr-glossary/absence-management",
+  "sourceURL": "https://remote.com/en-gb/resources/hr-glossary/absence-management",
+  "finalURL": "https://remote.com/en-gb/resources/hr-glossary/absence-management",
+  "title": "What is absence management?",
+  "description": "Learn more about absence management and how HR leaders can set up an absence management system",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254375,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8195cd466224a1ba-en-gb-resources-hr-glossary-absence-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8195cd466224a1ba-en-gb-resources-hr-glossary-absence-management.direct.json",
+  "markdownChars": 5361,
+  "linksCount": 121,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:16:39.132Z"
+}

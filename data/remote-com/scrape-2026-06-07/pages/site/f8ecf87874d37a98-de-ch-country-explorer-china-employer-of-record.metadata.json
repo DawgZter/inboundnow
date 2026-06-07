@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/china/employer-of-record",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/china/employer-of-record",
+  "finalURL": "https://remote.com/de-ch/country-explorer/china/employer-of-record",
+  "title": "Employer of Record in China | EOR-Dienstleistungen",
+  "description": "Vereinfache die Beschäftigung in China mit unseren Employer-of-Record-(EOR)-Diensten. Verwalte Payroll, Benefits und Compliance nahtlos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260238,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8ecf87874d37a98-de-ch-country-explorer-china-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f8ecf87874d37a98-de-ch-country-explorer-china-employer-of-record.direct.json",
+  "markdownChars": 3742,
+  "linksCount": 125,
+  "lastmod": "2025-10-13",
+  "scrapedAt": "2026-06-07T09:06:05.679Z"
+}

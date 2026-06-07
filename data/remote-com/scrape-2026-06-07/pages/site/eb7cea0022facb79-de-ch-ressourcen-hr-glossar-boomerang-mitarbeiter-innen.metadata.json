@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/boomerang-mitarbeiter-innen",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/boomerang-mitarbeiter-innen",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/boomerang-mitarbeiter-innen",
+  "title": "What are boomerang employees?",
+  "description": "Verstehe, wie sich die Wiedereinstellung eines Bumerang-Mitarbeiters positiv auf dein Unternehmen auswirken kann, und überlege dir die wichtigsten Fragen, die du ihm stellen solltest.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256862,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb7cea0022facb79-de-ch-ressourcen-hr-glossar-boomerang-mitarbeiter-innen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb7cea0022facb79-de-ch-ressourcen-hr-glossar-boomerang-mitarbeiter-innen.direct.json",
+  "markdownChars": 6193,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:12:57.377Z"
+}

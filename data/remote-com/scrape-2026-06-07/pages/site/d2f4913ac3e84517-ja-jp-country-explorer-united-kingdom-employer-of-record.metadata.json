@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/united-kingdom/employer-of-record",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/united-kingdom/employer-of-record",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/united-kingdom/employer-of-record",
+  "title": "英国でのEmployer of Record (EOR) | EORサービス",
+  "description": "英国での雇用をシンプルに。RemoteのEmployer of Record (EOR)サービスで、給与処理、福利厚生、法令遵守を円滑に管理できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262168,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d2f4913ac3e84517-ja-jp-country-explorer-united-kingdom-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d2f4913ac3e84517-ja-jp-country-explorer-united-kingdom-employer-of-record.direct.json",
+  "markdownChars": 1505,
+  "linksCount": 125,
+  "lastmod": "2025-09-30",
+  "scrapedAt": "2026-06-07T09:16:00.984Z"
+}

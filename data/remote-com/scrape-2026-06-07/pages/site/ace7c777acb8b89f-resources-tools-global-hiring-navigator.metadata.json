@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/tools/global-hiring-navigator",
+  "sourceURL": "https://remote.com/resources/tools/global-hiring-navigator",
+  "finalURL": "https://remote.com/resources/tools/global-hiring-navigator",
+  "title": "Global Hiring Navigator",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259766,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ace7c777acb8b89f-resources-tools-global-hiring-navigator.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ace7c777acb8b89f-resources-tools-global-hiring-navigator.direct.json",
+  "markdownChars": 5246,
+  "linksCount": 105,
+  "lastmod": "2025-09-13",
+  "scrapedAt": "2026-06-07T09:18:48.049Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/nigeria/taxes",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/nigeria/taxes",
+  "finalURL": "https://remote.com/en-gb/country-explorer/nigeria/taxes",
+  "title": "Manage Payroll Tax in Nigeria | Tax Compliance",
+  "description": "Manage payroll taxes in Nigeria effectively and compliantly. Minimise payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260801,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e1917152c66de1cd-en-gb-country-explorer-nigeria-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e1917152c66de1cd-en-gb-country-explorer-nigeria-taxes.direct.json",
+  "markdownChars": 1010,
+  "linksCount": 126,
+  "lastmod": "2026-02-25",
+  "scrapedAt": "2026-06-07T09:09:43.796Z"
+}

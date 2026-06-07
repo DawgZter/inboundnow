@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/congo/gestion-des-freelances",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/congo/gestion-des-freelances",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/congo/gestion-des-freelances",
+  "title": "Gérer les freelances au Congo | Gestion des freelances",
+  "description": "Vous faites appel à un freelance au Congo&nbsp;? Gérez et payez facilement vos freelances internationaux grâce à nos services flexibles de Gestion des freelances.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259049,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4e907d1871a32e67-fr-ch-explorateur-de-pays-congo-gestion-des-freelances.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4e907d1871a32e67-fr-ch-explorateur-de-pays-congo-gestion-des-freelances.direct.json",
+  "markdownChars": 2772,
+  "linksCount": 119,
+  "lastmod": "2025-11-06",
+  "scrapedAt": "2026-06-07T09:13:58.806Z"
+}

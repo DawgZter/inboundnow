@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/suriname",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/suriname",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/suriname",
+  "title": "Services de paie et d’Employer of record : Suriname",
+  "description": "Recruter des employés et des freelances : Suriname Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 312864,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e62ffe4c5da0be1c-fr-ch-explorateur-de-pays-suriname.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e62ffe4c5da0be1c-fr-ch-explorateur-de-pays-suriname.direct.json",
+  "markdownChars": 3853,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:09:04.360Z"
+}

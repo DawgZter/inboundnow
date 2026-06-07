@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/serbia/employment-termination",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/serbia/employment-termination",
+  "finalURL": "https://remote.com/en-ph/country-explorer/serbia/employment-termination",
+  "title": "Terminate Employees in Serbia | Employment Termination",
+  "description": "Looking to terminate an employee in Serbia? Understand your rights in our comprehensive guide to employee termination laws.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259061,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9db9482c624bb707-en-ph-country-explorer-serbia-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9db9482c624bb707-en-ph-country-explorer-serbia-employment-termination.direct.json",
+  "markdownChars": 1524,
+  "linksCount": 126,
+  "lastmod": "2025-05-26",
+  "scrapedAt": "2026-06-07T09:15:26.337Z"
+}

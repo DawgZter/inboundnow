@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/newsletter-abonnieren",
+  "sourceURL": "https://remote.com/de-at/newsletter-abonnieren",
+  "finalURL": "https://remote.com/de-at/newsletter-abonnieren",
+  "title": "Newsletter abonnieren",
+  "description": "Newsletter abonnieren",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 247260,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b029c69387a05ae-de-at-newsletter-abonnieren.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b029c69387a05ae-de-at-newsletter-abonnieren.direct.json",
+  "markdownChars": 182,
+  "linksCount": 113,
+  "lastmod": "2025-06-20",
+  "scrapedAt": "2026-06-07T09:01:08.626Z"
+}

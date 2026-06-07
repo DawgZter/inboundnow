@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/autriche/paie",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/autriche/paie",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/autriche/paie",
+  "title": "Payer des salariés en Autriche | Services de paie",
+  "description": "Payez vos salariés en Autriche en toute simplicité grâce à nos services de paie flexibles. Gérez la paie, traitez les dépenses et générez des rapports depuis une plateforme unique.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264416,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0996775264e0b0be-fr-be-explorateur-de-pays-autriche-paie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0996775264e0b0be-fr-be-explorateur-de-pays-autriche-paie.direct.json",
+  "markdownChars": 4205,
+  "linksCount": 126,
+  "lastmod": "2025-11-13",
+  "scrapedAt": "2026-06-07T09:02:36.300Z"
+}

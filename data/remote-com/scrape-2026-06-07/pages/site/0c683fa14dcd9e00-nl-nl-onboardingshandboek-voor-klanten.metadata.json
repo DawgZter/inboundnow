@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/onboardingshandboek-voor-klanten",
+  "sourceURL": "https://remote.com/nl-nl/onboardingshandboek-voor-klanten",
+  "finalURL": "https://remote.com/nl-nl/onboardingshandboek-voor-klanten",
+  "title": "Onboardingshandboek voor klanten | Remote",
+  "description": "Hier zijn een paar manieren waarop we de onboarding en het beheer van zzp'ers en werknemers eenvoudiger maken voor jou en je team:",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 300338,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0c683fa14dcd9e00-nl-nl-onboardingshandboek-voor-klanten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0c683fa14dcd9e00-nl-nl-onboardingshandboek-voor-klanten.direct.json",
+  "markdownChars": 6099,
+  "linksCount": 132,
+  "lastmod": "2025-07-23",
+  "scrapedAt": "2026-06-07T09:15:58.503Z"
+}

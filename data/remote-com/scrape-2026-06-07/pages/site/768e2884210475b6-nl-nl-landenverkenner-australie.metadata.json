@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/australie",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/australie",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/australie",
+  "title": "Employer of Record (EOR) en Payroll-diensten | Australië",
+  "description": "Wil je werknemers en zzp'ers werven in Australië? Remote helpt je bij het beheren van werknemers en zzp'ers via ons geïntegreerde global HR-platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 350687,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/768e2884210475b6-nl-nl-landenverkenner-australie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/768e2884210475b6-nl-nl-landenverkenner-australie.direct.json",
+  "markdownChars": 8530,
+  "linksCount": 127,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:14:18.349Z"
+}

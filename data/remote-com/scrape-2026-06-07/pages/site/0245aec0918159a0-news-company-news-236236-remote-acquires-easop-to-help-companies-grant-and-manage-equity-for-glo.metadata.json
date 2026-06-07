@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/news/company-news/236236-remote-acquires-easop-to-help-companies-grant-and-manage-equity-for-global-talent",
+  "sourceURL": "https://remote.com/news/company-news/236236-remote-acquires-easop-to-help-companies-grant-and-manage-equity-for-global-talent",
+  "finalURL": "https://remote.com/news/company-news/236236-remote-acquires-easop-to-help-companies-grant-and-manage-equity-for-global-talent",
+  "title": "Remote acquires Easop to help companies grant and manage equity for global talent",
+  "description": "Acquisition enhances capabilities of the Remote global HR platform to automate compliance for fast-growing distributed companies",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254187,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0245aec0918159a0-news-company-news-236236-remote-acquires-easop-to-help-companies-grant-and-manage-equity-for-glo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0245aec0918159a0-news-company-news-236236-remote-acquires-easop-to-help-companies-grant-and-manage-equity-for-glo.direct.json",
+  "markdownChars": 3898,
+  "linksCount": 112,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:05:52.261Z"
+}

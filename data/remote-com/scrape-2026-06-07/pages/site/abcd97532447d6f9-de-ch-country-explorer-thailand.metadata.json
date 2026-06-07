@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/thailand",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/thailand",
+  "finalURL": "https://remote.com/de-ch/country-explorer/thailand",
+  "title": "Employer-of-Record- und Payroll-Services | Thailand",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Thailand? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 348024,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/abcd97532447d6f9-de-ch-country-explorer-thailand.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/abcd97532447d6f9-de-ch-country-explorer-thailand.direct.json",
+  "markdownChars": 8004,
+  "linksCount": 126,
+  "lastmod": "2025-10-07",
+  "scrapedAt": "2026-06-07T09:18:38.251Z"
+}

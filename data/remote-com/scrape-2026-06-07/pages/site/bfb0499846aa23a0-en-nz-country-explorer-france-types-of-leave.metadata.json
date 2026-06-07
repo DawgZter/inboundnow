@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/country-explorer/france/types-of-leave",
+  "sourceURL": "https://remote.com/en-nz/country-explorer/france/types-of-leave",
+  "finalURL": "https://remote.com/en-nz/country-explorer/france/types-of-leave",
+  "title": "Types of Leave in France | Employee Leave Laws",
+  "description": "Understand employee leave laws in France. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255485,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bfb0499846aa23a0-en-nz-country-explorer-france-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bfb0499846aa23a0-en-nz-country-explorer-france-types-of-leave.direct.json",
+  "markdownChars": 1247,
+  "linksCount": 120,
+  "lastmod": "2026-03-03",
+  "scrapedAt": "2026-06-07T09:16:35.750Z"
+}

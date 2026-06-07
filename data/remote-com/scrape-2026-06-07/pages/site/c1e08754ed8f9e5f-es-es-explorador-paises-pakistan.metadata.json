@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/pakistan",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/pakistan",
+  "finalURL": "https://remote.com/es-es/explorador-paises/pakistan",
+  "title": "Employer of Record (EOR) y servicios de nómina | Pakistán",
+  "description": "¿Contratas empleados y trabajadores autónomos en Pakistán? Remote puede ayudarte a gestionar empleados y trabajadores autónomos a través de nuestra plataforma RR. HH. global integrada.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 347301,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1e08754ed8f9e5f-es-es-explorador-paises-pakistan.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c1e08754ed8f9e5f-es-es-explorador-paises-pakistan.direct.json",
+  "markdownChars": 7718,
+  "linksCount": 122,
+  "lastmod": "2025-09-02",
+  "scrapedAt": "2026-06-07T09:06:29.396Z"
+}

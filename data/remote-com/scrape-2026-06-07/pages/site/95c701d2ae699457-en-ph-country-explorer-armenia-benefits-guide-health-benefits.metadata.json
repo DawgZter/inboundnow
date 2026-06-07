@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/armenia/benefits-guide/health-benefits",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/armenia/benefits-guide/health-benefits",
+  "finalURL": "https://remote.com/en-ph/country-explorer/armenia/benefits-guide/health-benefits",
+  "title": "Health Benefits in Armenia | Wellbeing Support",
+  "description": "Support your team with Health benefits in Armenia.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 281975,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/95c701d2ae699457-en-ph-country-explorer-armenia-benefits-guide-health-benefits.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/95c701d2ae699457-en-ph-country-explorer-armenia-benefits-guide-health-benefits.direct.json",
+  "markdownChars": 18771,
+  "linksCount": 117,
+  "lastmod": "2025-11-03",
+  "scrapedAt": "2026-06-07T09:18:33.092Z"
+}

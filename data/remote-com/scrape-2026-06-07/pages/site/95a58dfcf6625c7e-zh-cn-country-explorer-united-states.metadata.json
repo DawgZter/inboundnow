@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/united-states",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/united-states",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/united-states",
+  "title": "第三方雇佣托管服务（EOR）与薪资服务 | 美国",
+  "description": "在美国招聘员工和合同工？Remote 可通过我们一体化的全球 HR 平台协助管理员工与合同工。",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 349280,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/95a58dfcf6625c7e-zh-cn-country-explorer-united-states.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/95a58dfcf6625c7e-zh-cn-country-explorer-united-states.direct.json",
+  "markdownChars": 3904,
+  "linksCount": 127,
+  "lastmod": "2026-02-08",
+  "scrapedAt": "2026-06-07T09:12:47.843Z"
+}

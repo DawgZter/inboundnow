@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/georgia",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/georgia",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/georgia",
+  "title": "Employer of Record（EOR） & 給与処理サービス | ジョージア",
+  "description": "ジョージアで従業員や契約社員を採用していますか？Remoteは統合されたグローバルHRプラットフォームを通じて、従業員および契約社員管理を支援します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 347461,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fafb351b49c74628-ja-jp-country-explorer-georgia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fafb351b49c74628-ja-jp-country-explorer-georgia.direct.json",
+  "markdownChars": 3995,
+  "linksCount": 124,
+  "lastmod": "2026-05-28",
+  "scrapedAt": "2026-06-07T09:01:51.352Z"
+}

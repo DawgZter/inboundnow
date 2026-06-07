@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/svezia/guida-benefit",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/svezia/guida-benefit",
+  "finalURL": "https://remote.com/it-it/esplora-paese/svezia/guida-benefit",
+  "title": "Benefit per i dipendenti in Svezia | Piani di benefit",
+  "description": "Scopri i benefit per i dipendenti essenziali in Svezia. Informati su assicurazione sanitaria, congedi retribuiti e altri vantaggi per attirare e trattenere i migliori talenti.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 166385,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23364eeebae17fd6-it-it-esplora-paese-svezia-guida-benefit.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/23364eeebae17fd6-it-it-esplora-paese-svezia-guida-benefit.direct.json",
+  "markdownChars": 1620,
+  "linksCount": 46,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:05:34.441Z"
+}

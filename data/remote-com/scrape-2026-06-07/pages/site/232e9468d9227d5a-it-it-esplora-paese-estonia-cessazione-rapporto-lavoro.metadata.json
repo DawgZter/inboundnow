@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/estonia/cessazione-rapporto-lavoro",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/estonia/cessazione-rapporto-lavoro",
+  "finalURL": "https://remote.com/it-it/esplora-paese/estonia/cessazione-rapporto-lavoro",
+  "title": "Terminate Employees in Estonia | Employment Termination",
+  "description": "Vuoi interrompere un rapporto di lavoro in Estonia? Scopri i tuoi diritti nella nostra guida completa sulle leggi relative alla cessazione del rapporto di lavoro.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154860,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/232e9468d9227d5a-it-it-esplora-paese-estonia-cessazione-rapporto-lavoro.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/232e9468d9227d5a-it-it-esplora-paese-estonia-cessazione-rapporto-lavoro.direct.json",
+  "markdownChars": 2424,
+  "linksCount": 45,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:08:54.344Z"
+}

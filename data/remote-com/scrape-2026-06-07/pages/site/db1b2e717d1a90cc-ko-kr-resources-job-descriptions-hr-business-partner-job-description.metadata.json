@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/job-descriptions/hr-business-partner-job-description",
+  "sourceURL": "https://remote.com/ko-kr/resources/job-descriptions/hr-business-partner-job-description",
+  "finalURL": "https://remote.com/ko-kr/resources/job-descriptions/hr-business-partner-job-description",
+  "title": "HR 비즈니스 파트너 직업 설명",
+  "description": "HR 전략을 비즈니스 목표에 맞추고, 직원 관계를 지원하며, 조직의 성공을 이끄는 HR 비즈니스 파트너의 직무 설명을 검토하세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261240,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db1b2e717d1a90cc-ko-kr-resources-job-descriptions-hr-business-partner-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db1b2e717d1a90cc-ko-kr-resources-job-descriptions-hr-business-partner-job-description.direct.json",
+  "markdownChars": 2373,
+  "linksCount": 114,
+  "lastmod": "2025-07-18",
+  "scrapedAt": "2026-06-07T09:06:57.382Z"
+}

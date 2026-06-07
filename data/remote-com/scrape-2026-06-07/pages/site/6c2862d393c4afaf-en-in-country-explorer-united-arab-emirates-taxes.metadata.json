@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/country-explorer/united-arab-emirates/taxes",
+  "sourceURL": "https://remote.com/en-in/country-explorer/united-arab-emirates/taxes",
+  "finalURL": "https://remote.com/en-in/country-explorer/united-arab-emirates/taxes",
+  "title": "Manage Payroll Tax in United Arab Emirates | Tax Compliance",
+  "description": "Manage payroll taxes in United Arab Emirates effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257009,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c2862d393c4afaf-en-in-country-explorer-united-arab-emirates-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c2862d393c4afaf-en-in-country-explorer-united-arab-emirates-taxes.direct.json",
+  "markdownChars": 1036,
+  "linksCount": 124,
+  "lastmod": "2025-05-26",
+  "scrapedAt": "2026-06-07T09:14:09.462Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/klippe",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/klippe",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/klippe",
+  "title": "Cliff",
+  "description": "Bei Aktienoptionsprogrammen für Arbeitnehmer ist es wichtig zu verstehen, was eine Cliff Period ist und wie sie funktioniert. Erfahre mehr.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251583,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ebb57602a1817355-de-de-ressourcen-hr-glossar-klippe.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ebb57602a1817355-de-de-ressourcen-hr-glossar-klippe.direct.json",
+  "markdownChars": 2380,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:14:16.345Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/ressources/glossaire-rh/form-w-3",
+  "sourceURL": "https://remote.com/fr-fr/ressources/glossaire-rh/form-w-3",
+  "finalURL": "https://remote.com/fr-fr/ressources/glossaire-rh/form-w-3",
+  "title": "Formulaire W-3",
+  "description": "Comprendre ce qu'est le formulaire W-3, à qui il est destiné et pourquoi votre entreprise doit le remplir dans les délais et avec précision.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261431,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/395ef550aa2e74de-fr-fr-ressources-glossaire-rh-form-w-3.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/395ef550aa2e74de-fr-fr-ressources-glossaire-rh-form-w-3.direct.json",
+  "markdownChars": 8200,
+  "linksCount": 127,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:52.378Z"
+}

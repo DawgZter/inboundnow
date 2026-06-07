@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/verdienststeigerung",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/verdienststeigerung",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/verdienststeigerung",
+  "title": "What is a merit increase?",
+  "description": "Erfahre mehr über Leistungserhöhungen und ihre Rolle bei der Anerkennung von Mitarbeiterleistungen und der Förderung der Motivation. In unserem Glossar erfährst du, wie sie sich auf Vergütungsstrategien auswirken.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253838,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/447390666340414f-de-at-ressourcen-hr-glossar-verdienststeigerung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/447390666340414f-de-at-ressourcen-hr-glossar-verdienststeigerung.direct.json",
+  "markdownChars": 3746,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:16:07.394Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/customer-experience-stellenbeschreibung-spezialist-fur-kundenerfahrung",
+  "sourceURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/customer-experience-stellenbeschreibung-spezialist-fur-kundenerfahrung",
+  "finalURL": "https://remote.com/de-at/ressourcen/stellenbeschreibungen/customer-experience-stellenbeschreibung-spezialist-fur-kundenerfahrung",
+  "title": "Stellenbeschreibung Spezialist für Kundenerfahrung",
+  "description": "Überprüfe die Stellenbeschreibung für den Customer Experience Specialist, der für die Steigerung der Kundenzufriedenheit, die Lösung von Problemen und die Verbesserung der Kundeninteraktion insgesamt verantwortlich ist.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262387,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/011e0977dbcc8462-de-at-ressourcen-stellenbeschreibungen-customer-experience-stellenbeschreibung-spezialist-fur-ku.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/011e0977dbcc8462-de-at-ressourcen-stellenbeschreibungen-customer-experience-stellenbeschreibung-spezialist-fur-ku.direct.json",
+  "markdownChars": 5058,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:14:32.210Z"
+}

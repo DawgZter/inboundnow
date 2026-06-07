@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/argentinien/freistellungsarten",
+  "sourceURL": "https://remote.com/de-at/country-explorer/argentinien/freistellungsarten",
+  "finalURL": "https://remote.com/de-at/country-explorer/argentinien/freistellungsarten",
+  "title": "Urlaubsansprüche in Argentina | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Argentinien. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261828,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/780c59624451feed-de-at-country-explorer-argentinien-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/780c59624451feed-de-at-country-explorer-argentinien-freistellungsarten.direct.json",
+  "markdownChars": 4595,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:18:46.466Z"
+}

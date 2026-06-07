@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/south-korea/taxes",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/south-korea/taxes",
+  "finalURL": "https://remote.com/en-hk/country-explorer/south-korea/taxes",
+  "title": "Manage Payroll Tax in South Korea | Tax Compliance",
+  "description": "Manage payroll taxes in South Korea effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263383,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9dd87fe97f9ed4ef-en-hk-country-explorer-south-korea-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9dd87fe97f9ed4ef-en-hk-country-explorer-south-korea-taxes.direct.json",
+  "markdownChars": 1961,
+  "linksCount": 126,
+  "lastmod": "2025-09-09",
+  "scrapedAt": "2026-06-07T09:15:22.579Z"
+}

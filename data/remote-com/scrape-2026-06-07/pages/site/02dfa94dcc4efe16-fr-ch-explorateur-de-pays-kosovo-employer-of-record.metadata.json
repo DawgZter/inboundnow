@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/kosovo/employer-of-record",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/kosovo/employer-of-record",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/kosovo/employer-of-record",
+  "title": "Employer of Record au Kosovo | services EOR",
+  "description": "Simplifiez l’emploi au Kosovo grâce à nos services d’Employer of Record. Gérez la paie, les avantages et la conformité en toute simplicité.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262440,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/02dfa94dcc4efe16-fr-ch-explorateur-de-pays-kosovo-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/02dfa94dcc4efe16-fr-ch-explorateur-de-pays-kosovo-employer-of-record.direct.json",
+  "markdownChars": 3628,
+  "linksCount": 123,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:14:30.933Z"
+}

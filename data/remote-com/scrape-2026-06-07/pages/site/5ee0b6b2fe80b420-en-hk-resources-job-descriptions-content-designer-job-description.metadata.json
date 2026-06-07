@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/resources/job-descriptions/content-designer-job-description",
+  "sourceURL": "https://remote.com/en-hk/resources/job-descriptions/content-designer-job-description",
+  "finalURL": "https://remote.com/en-hk/resources/job-descriptions/content-designer-job-description",
+  "title": "Content designer job description",
+  "description": "Review the job description for a content designer, responsible for creating and optimizing content, ensuring clarity and usability, and aligning with user needs and business goals.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258342,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5ee0b6b2fe80b420-en-hk-resources-job-descriptions-content-designer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5ee0b6b2fe80b420-en-hk-resources-job-descriptions-content-designer-job-description.direct.json",
+  "markdownChars": 3706,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:07:58.625Z"
+}

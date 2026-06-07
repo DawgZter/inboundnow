@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/country-explorer/cape-verde",
+  "sourceURL": "https://remote.com/en-au/country-explorer/cape-verde",
+  "finalURL": "https://remote.com/en-au/country-explorer/cape-verde",
+  "title": "Employer of Record & Payroll Services | Cape Verde",
+  "description": "Hiring employees and contractors in Cape Verde? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 308318,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/22563a7d8e3d84a8-en-au-country-explorer-cape-verde.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/22563a7d8e3d84a8-en-au-country-explorer-cape-verde.direct.json",
+  "markdownChars": 3150,
+  "linksCount": 116,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:07:31.563Z"
+}

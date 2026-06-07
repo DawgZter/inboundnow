@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/malta",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/malta",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/malta",
+  "title": "Employer of Record (EOR) e processamento salarial | Malta",
+  "description": "Queres contratar trabalhadores e independentes em Malta? A Remote ajuda-te a gerir a tua equipa através da nossa plataforma global de RH integrada.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 237938,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ab5f7588d48ea8ee-pt-pt-explorar-pais-malta.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ab5f7588d48ea8ee-pt-pt-explorar-pais-malta.direct.json",
+  "markdownChars": 6504,
+  "linksCount": 45,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:12:59.370Z"
+}

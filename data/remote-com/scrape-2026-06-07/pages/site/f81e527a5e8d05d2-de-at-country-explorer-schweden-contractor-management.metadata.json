@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/schweden/contractor-management",
+  "sourceURL": "https://remote.com/de-at/country-explorer/schweden/contractor-management",
+  "finalURL": "https://remote.com/de-at/country-explorer/schweden/contractor-management",
+  "title": "Auftragnehmer:innen in Schweden verwalten | Contractor Management",
+  "description": "Auftragnehmer:innen in Schweden beauftragen? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management‑Lösungen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261133,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f81e527a5e8d05d2-de-at-country-explorer-schweden-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f81e527a5e8d05d2-de-at-country-explorer-schweden-contractor-management.direct.json",
+  "markdownChars": 4121,
+  "linksCount": 125,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:17:44.125Z"
+}

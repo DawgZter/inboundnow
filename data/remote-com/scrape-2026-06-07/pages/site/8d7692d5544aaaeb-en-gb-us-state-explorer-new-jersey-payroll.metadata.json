@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/us-state-explorer/new-jersey/payroll",
+  "sourceURL": "https://remote.com/en-gb/us-state-explorer/new-jersey/payroll",
+  "finalURL": "https://remote.com/en-gb/us-state-explorer/new-jersey/payroll",
+  "title": "Payroll Management in New Jersey",
+  "description": "Manage payroll in New Jersey seamlessly with Remote's payroll software. Stay compliant with New Jersey payroll regulations while managing wages, taxes, and employees efficiently.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259704,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d7692d5544aaaeb-en-gb-us-state-explorer-new-jersey-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8d7692d5544aaaeb-en-gb-us-state-explorer-new-jersey-payroll.direct.json",
+  "markdownChars": 4773,
+  "linksCount": 113,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:14:26.935Z"
+}

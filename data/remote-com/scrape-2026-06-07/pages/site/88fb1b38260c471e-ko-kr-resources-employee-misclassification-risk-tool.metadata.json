@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/employee-misclassification-risk-tool",
+  "sourceURL": "https://remote.com/ko-kr/resources/employee-misclassification-risk-tool",
+  "finalURL": "https://remote.com/ko-kr/resources/employee-misclassification-risk-tool",
+  "title": "직원 오분류 리스크 평가 도구 | Remote",
+  "description": "귀사의 직원 오분류 리스크는 어느 정도일까요? 무료 평가 도구를 사용해 귀사가 오분류로 처벌을 받을 위험에 노출되어 있는지 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 310363,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88fb1b38260c471e-ko-kr-resources-employee-misclassification-risk-tool.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/88fb1b38260c471e-ko-kr-resources-employee-misclassification-risk-tool.direct.json",
+  "markdownChars": 4001,
+  "linksCount": 117,
+  "lastmod": "2025-07-01",
+  "scrapedAt": "2026-06-07T09:02:31.433Z"
+}

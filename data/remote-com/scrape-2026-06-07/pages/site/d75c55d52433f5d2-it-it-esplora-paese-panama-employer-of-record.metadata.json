@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/panama/employer-of-record",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/panama/employer-of-record",
+  "finalURL": "https://remote.com/it-it/esplora-paese/panama/employer-of-record",
+  "title": "Employer of Record (EOR) a Panama | Servizi EOR",
+  "description": "Gestisci il tuo personale a Panama con il nostro Employer of Record (EOR). Ci occupiamo della gestione delle buste paga, dei benefit e della conformità normativa in modo semplice.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154801,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d75c55d52433f5d2-it-it-esplora-paese-panama-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d75c55d52433f5d2-it-it-esplora-paese-panama-employer-of-record.direct.json",
+  "markdownChars": 3584,
+  "linksCount": 43,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:15:11.857Z"
+}

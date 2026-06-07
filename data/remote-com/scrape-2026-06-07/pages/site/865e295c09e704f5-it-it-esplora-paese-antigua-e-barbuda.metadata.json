@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/antigua-e-barbuda",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/antigua-e-barbuda",
+  "finalURL": "https://remote.com/it-it/esplora-paese/antigua-e-barbuda",
+  "title": "Employer of Record (EOR) e servizi Payroll | Antigua e Barbuda",
+  "description": "Assumere personale e contractor in Antigua e Barbuda? Remote può aiutarti a gestire personale e contractor attraverso la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 214730,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/865e295c09e704f5-it-it-esplora-paese-antigua-e-barbuda.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/865e295c09e704f5-it-it-esplora-paese-antigua-e-barbuda.direct.json",
+  "markdownChars": 4931,
+  "linksCount": 40,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:06:24.343Z"
+}

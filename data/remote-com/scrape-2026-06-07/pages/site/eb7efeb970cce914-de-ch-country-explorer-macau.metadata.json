@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/macau",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/macau",
+  "finalURL": "https://remote.com/de-ch/country-explorer/macau",
+  "title": "Employer-of-Record- und Payroll-Services | Macau",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Macau? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 320745,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb7efeb970cce914-de-ch-country-explorer-macau.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb7efeb970cce914-de-ch-country-explorer-macau.direct.json",
+  "markdownChars": 5797,
+  "linksCount": 120,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:07:02.984Z"
+}

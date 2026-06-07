@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/research/state-of-payroll-report-united-states",
+  "sourceURL": "https://remote.com/en-au/resources/research/state-of-payroll-report-united-states",
+  "finalURL": "https://remote.com/en-au/resources/research/state-of-payroll-report-united-states",
+  "title": "US State of Payroll Report | Remote",
+  "description": "Get our US Payroll Report for insights on the impact of payroll errors in US(along with the solution to fast, accurate payroll management)",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 260225,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e5b95dbeab25af09-en-au-resources-research-state-of-payroll-report-united-states.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e5b95dbeab25af09-en-au-resources-research-state-of-payroll-report-united-states.direct.json",
+  "markdownChars": 1320,
+  "linksCount": 107,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:12:26.330Z"
+}

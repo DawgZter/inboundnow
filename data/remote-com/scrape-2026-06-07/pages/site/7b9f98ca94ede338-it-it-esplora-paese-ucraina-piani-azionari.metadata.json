@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/ucraina/piani-azionari",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/ucraina/piani-azionari",
+  "finalURL": "https://remote.com/it-it/esplora-paese/ucraina/piani-azionari",
+  "title": "Stock option per il personale in Ucraina",
+  "description": "Scopri le normative specifiche in Ucraina su equity e stock option per il personale. Prendi decisioni informate sui compensi internazionali con Remote Explorer.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 156884,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7b9f98ca94ede338-it-it-esplora-paese-ucraina-piani-azionari.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7b9f98ca94ede338-it-it-esplora-paese-ucraina-piani-azionari.direct.json",
+  "markdownChars": 5060,
+  "linksCount": 46,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:02:02.027Z"
+}

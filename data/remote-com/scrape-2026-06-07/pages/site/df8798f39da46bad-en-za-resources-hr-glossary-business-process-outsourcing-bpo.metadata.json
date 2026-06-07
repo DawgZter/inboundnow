@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/resources/hr-glossary/business-process-outsourcing-bpo",
+  "sourceURL": "https://remote.com/en-za/resources/hr-glossary/business-process-outsourcing-bpo",
+  "finalURL": "https://remote.com/en-za/resources/hr-glossary/business-process-outsourcing-bpo",
+  "title": "What is business process outsourcing (BPO)?",
+  "description": "Business process outsourcing (BPO) is the practice of outsourcing key business tasks to a third party. BPO can help businesses be more efficient, productive, and profitable.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256502,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/df8798f39da46bad-en-za-resources-hr-glossary-business-process-outsourcing-bpo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/df8798f39da46bad-en-za-resources-hr-glossary-business-process-outsourcing-bpo.direct.json",
+  "markdownChars": 7011,
+  "linksCount": 119,
+  "lastmod": "2025-07-17",
+  "scrapedAt": "2026-06-07T09:18:18.005Z"
+}

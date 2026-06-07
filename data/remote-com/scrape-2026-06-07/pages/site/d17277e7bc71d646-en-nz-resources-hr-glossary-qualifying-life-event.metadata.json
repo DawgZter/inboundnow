@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/resources/hr-glossary/qualifying-life-event",
+  "sourceURL": "https://remote.com/en-nz/resources/hr-glossary/qualifying-life-event",
+  "finalURL": "https://remote.com/en-nz/resources/hr-glossary/qualifying-life-event",
+  "title": "What is a qualifying life event?",
+  "description": "A qualifying life event is a significant change, like marriage or job loss, allowing adjustments to health insurance outside the regular enrollment period.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255764,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d17277e7bc71d646-en-nz-resources-hr-glossary-qualifying-life-event.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d17277e7bc71d646-en-nz-resources-hr-glossary-qualifying-life-event.direct.json",
+  "markdownChars": 6557,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:18.022Z"
+}

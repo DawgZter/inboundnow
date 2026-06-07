@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/irlande/equity",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/irlande/equity",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/irlande/equity",
+  "title": "Options d’actions pour les salariés en Irlande",
+  "description": "Découvrez les règles spécifiques à l’Irlande en matière d’equity et d’options sur actions. Prenez des décisions éclairées sur la rémunération globale grâce à l’Explorateur de pays de Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 264954,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/399931db89c03305-fr-fr-explorateur-de-pays-irlande-equity.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/399931db89c03305-fr-fr-explorateur-de-pays-irlande-equity.direct.json",
+  "markdownChars": 4279,
+  "linksCount": 125,
+  "lastmod": "2025-11-27",
+  "scrapedAt": "2026-06-07T09:08:30.477Z"
+}

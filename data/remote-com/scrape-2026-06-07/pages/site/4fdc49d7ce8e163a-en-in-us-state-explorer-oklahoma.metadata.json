@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/us-state-explorer/oklahoma",
+  "sourceURL": "https://remote.com/en-in/us-state-explorer/oklahoma",
+  "finalURL": "https://remote.com/en-in/us-state-explorer/oklahoma",
+  "title": "Employer of Record & Payroll Services | Oklahoma",
+  "description": "Use our compliance guide to employ in Oklahoma with ease. Learn about benefits, payroll, leave, and other labor laws in The Sooner State.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 331345,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4fdc49d7ce8e163a-en-in-us-state-explorer-oklahoma.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/4fdc49d7ce8e163a-en-in-us-state-explorer-oklahoma.direct.json",
+  "markdownChars": 7043,
+  "linksCount": 113,
+  "lastmod": "2025-10-08",
+  "scrapedAt": "2026-06-07T09:02:34.374Z"
+}

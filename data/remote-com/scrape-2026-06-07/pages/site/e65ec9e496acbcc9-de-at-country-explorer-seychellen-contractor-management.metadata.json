@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/seychellen/contractor-management",
+  "sourceURL": "https://remote.com/de-at/country-explorer/seychellen/contractor-management",
+  "finalURL": "https://remote.com/de-at/country-explorer/seychellen/contractor-management",
+  "title": "Manage Contractors in Seychelles | Contractor Management",
+  "description": "Willst du eine:n Auftragnehmer:in auf den Seychellen beauftragen? Verwalte und bezahle weltweite Auftragnehmer:innen mühelos mit unserem flexiblen Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256989,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e65ec9e496acbcc9-de-at-country-explorer-seychellen-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e65ec9e496acbcc9-de-at-country-explorer-seychellen-contractor-management.direct.json",
+  "markdownChars": 2909,
+  "linksCount": 119,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:01:24.607Z"
+}

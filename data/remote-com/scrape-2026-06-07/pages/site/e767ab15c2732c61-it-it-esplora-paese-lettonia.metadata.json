@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/lettonia",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/lettonia",
+  "finalURL": "https://remote.com/it-it/esplora-paese/lettonia",
+  "title": "Employer of Record & Payroll Services | Lettonia",
+  "description": "Assumi personale e collaboratori in Lettonia? Remote può aiutarti a gestirli tramite la nostra Piattaforma HR globale integrata.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 236416,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e767ab15c2732c61-it-it-esplora-paese-lettonia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e767ab15c2732c61-it-it-esplora-paese-lettonia.direct.json",
+  "markdownChars": 6247,
+  "linksCount": 45,
+  "lastmod": "2026-03-02",
+  "scrapedAt": "2026-06-07T09:12:10.971Z"
+}

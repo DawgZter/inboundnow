@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/hr-glossary/diluted-shares",
+  "sourceURL": "https://remote.com/en-ph/resources/hr-glossary/diluted-shares",
+  "finalURL": "https://remote.com/en-ph/resources/hr-glossary/diluted-shares",
+  "title": "What are diluted shares",
+  "description": "Explore our HR glossary to understand diluted shares, their impact on shareholder value, and how they affect ownership percentages within a company.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253148,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef34d16ac698dd40-en-ph-resources-hr-glossary-diluted-shares.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ef34d16ac698dd40-en-ph-resources-hr-glossary-diluted-shares.direct.json",
+  "markdownChars": 4690,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:12:44.152Z"
+}

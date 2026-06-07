@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/bosnia-and-herzegovina/benefits-guide",
+  "sourceURL": "https://remote.com/country-explorer/bosnia-and-herzegovina/benefits-guide",
+  "finalURL": "https://remote.com/country-explorer/bosnia-and-herzegovina/benefits-guide",
+  "title": "Employee Benefits in Bosnia and Herzegovina | Benefits Plans",
+  "description": "Discover the essential employee benefits in Bosnia and Herzegovina. Learn about health insurance, paid leave, and other perks to attract and retain top talent.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 272974,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5aadde3d5f01a4a-country-explorer-bosnia-and-herzegovina-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c5aadde3d5f01a4a-country-explorer-bosnia-and-herzegovina-benefits-guide.direct.json",
+  "markdownChars": 1507,
+  "linksCount": 124,
+  "lastmod": "2025-05-17",
+  "scrapedAt": "2026-06-07T09:01:06.979Z"
+}

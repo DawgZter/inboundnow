@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/roemenie/belastingen",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/roemenie/belastingen",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/roemenie/belastingen",
+  "title": "Loonlijst belasting beheren in Roemenië | Belasting naleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Roemenie. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255688,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/753cde7f91861005-nl-be-landenverkenner-roemenie-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/753cde7f91861005-nl-be-landenverkenner-roemenie-belastingen.direct.json",
+  "markdownChars": 1224,
+  "linksCount": 125,
+  "lastmod": "2025-06-27",
+  "scrapedAt": "2026-06-07T09:16:35.010Z"
+}

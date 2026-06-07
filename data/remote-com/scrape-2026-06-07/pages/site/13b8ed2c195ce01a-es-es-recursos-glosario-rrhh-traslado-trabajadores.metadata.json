@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/traslado-trabajadores",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/traslado-trabajadores",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/traslado-trabajadores",
+  "title": "Traslado de empleados",
+  "description": "Infórmate sobre los traslados de empleados y su impacto en el crecimiento profesional y la estructura organizativa. Visita nuestro glosario para comprender su papel en la gestión de los RRHH.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256994,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/13b8ed2c195ce01a-es-es-recursos-glosario-rrhh-traslado-trabajadores.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/13b8ed2c195ce01a-es-es-recursos-glosario-rrhh-traslado-trabajadores.direct.json",
+  "markdownChars": 5104,
+  "linksCount": 119,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:01:59.803Z"
+}

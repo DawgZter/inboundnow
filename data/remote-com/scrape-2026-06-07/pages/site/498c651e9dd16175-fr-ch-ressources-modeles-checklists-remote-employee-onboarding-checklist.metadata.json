@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/modeles-checklists/remote-employee-onboarding-checklist",
+  "sourceURL": "https://remote.com/fr-ch/ressources/modeles-checklists/remote-employee-onboarding-checklist",
+  "finalURL": "https://remote.com/fr-ch/ressources/modeles-checklists/remote-employee-onboarding-checklist",
+  "title": "Checklist pour l'intégration des employés à distance | Remote",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258859,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/498c651e9dd16175-fr-ch-ressources-modeles-checklists-remote-employee-onboarding-checklist.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/498c651e9dd16175-fr-ch-ressources-modeles-checklists-remote-employee-onboarding-checklist.direct.json",
+  "markdownChars": 8964,
+  "linksCount": 113,
+  "lastmod": "2025-06-19",
+  "scrapedAt": "2026-06-07T09:13:49.702Z"
+}

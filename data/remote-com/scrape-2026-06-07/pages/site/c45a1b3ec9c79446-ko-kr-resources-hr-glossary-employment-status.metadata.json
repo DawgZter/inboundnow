@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/employment-status",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/employment-status",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/employment-status",
+  "title": "고용 상태에는 어떤 유형이 있나요?",
+  "description": "고용 상태와 법무 및 인사 담당자가 잘못된 분류 위험을 피하기 위해 고용법을 준수해야 하는 방법에 대해 자세히 알아보세요.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257292,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c45a1b3ec9c79446-ko-kr-resources-hr-glossary-employment-status.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c45a1b3ec9c79446-ko-kr-resources-hr-glossary-employment-status.direct.json",
+  "markdownChars": 2946,
+  "linksCount": 125,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:42.104Z"
+}

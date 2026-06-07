@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/rh-international/creation-entite-international",
+  "sourceURL": "https://remote.com/fr-ch/rh-international/creation-entite-international",
+  "finalURL": "https://remote.com/fr-ch/rh-international/creation-entite-international",
+  "title": "Création d’une entité à l’international | Remote",
+  "description": "Grâce à Remote, vous disposez d’une solution unique pour embaucher des talents dans n’importe quel pays, ce qui permet aux entreprises en pleine croissance de faire appel aux meilleurs talents du monde entier. Grâce à notre solution de gestion de la paie, des avantages sociaux, des impôts et de la conformité, les entreprises peuvent accéder aux talents du monde entier et autonomiser leurs équipes internationales.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 292719,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a38170d95283a13d-fr-ch-rh-international-creation-entite-international.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a38170d95283a13d-fr-ch-rh-international-creation-entite-international.direct.json",
+  "markdownChars": 4607,
+  "linksCount": 112,
+  "lastmod": "2025-06-28",
+  "scrapedAt": "2026-06-07T09:01:11.143Z"
+}

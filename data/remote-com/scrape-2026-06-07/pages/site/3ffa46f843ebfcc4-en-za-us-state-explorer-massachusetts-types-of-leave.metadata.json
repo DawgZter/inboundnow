@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/us-state-explorer/massachusetts/types-of-leave",
+  "sourceURL": "https://remote.com/en-za/us-state-explorer/massachusetts/types-of-leave",
+  "finalURL": "https://remote.com/en-za/us-state-explorer/massachusetts/types-of-leave",
+  "title": "Types of Leave in Massachusetts | Employee Leave Laws",
+  "description": "Understand employee leave laws in Massachusetts. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258668,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3ffa46f843ebfcc4-en-za-us-state-explorer-massachusetts-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3ffa46f843ebfcc4-en-za-us-state-explorer-massachusetts-types-of-leave.direct.json",
+  "markdownChars": 2985,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:01:52.211Z"
+}

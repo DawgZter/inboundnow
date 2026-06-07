@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/rh-international/mobilite-mondiale",
+  "sourceURL": "https://remote.com/fr-ch/rh-international/mobilite-mondiale",
+  "finalURL": "https://remote.com/fr-ch/rh-international/mobilite-mondiale",
+  "title": "Services de mobilité mondiale | Remote",
+  "description": "Mobilité de Remote rationalise les déménagements dans le monde entier. Gestion des visas, de la conformité fiscale et de la paie pour que chaque déménagement s’effectue de manière conforme, rapide et sans stress.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 351910,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb47e21de857a235-fr-ch-rh-international-mobilite-mondiale.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/eb47e21de857a235-fr-ch-rh-international-mobilite-mondiale.direct.json",
+  "markdownChars": 8613,
+  "linksCount": 118,
+  "lastmod": "2026-04-15",
+  "scrapedAt": "2026-06-07T09:11:17.406Z"
+}

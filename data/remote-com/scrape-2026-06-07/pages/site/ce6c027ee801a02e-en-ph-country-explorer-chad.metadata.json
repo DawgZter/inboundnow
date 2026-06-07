@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/chad",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/chad",
+  "finalURL": "https://remote.com/en-ph/country-explorer/chad",
+  "title": "Employer of Record & Payroll Services | Chad",
+  "description": "Hiring employees and contractors in Chad? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 308439,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce6c027ee801a02e-en-ph-country-explorer-chad.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce6c027ee801a02e-en-ph-country-explorer-chad.direct.json",
+  "markdownChars": 3103,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:01:42.431Z"
+}

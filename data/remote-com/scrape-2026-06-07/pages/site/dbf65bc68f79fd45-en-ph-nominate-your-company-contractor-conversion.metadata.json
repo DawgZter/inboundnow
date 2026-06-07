@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/nominate-your-company/contractor-conversion",
+  "sourceURL": "https://remote.com/en-ph/nominate-your-company/contractor-conversion",
+  "finalURL": "https://remote.com/en-ph/nominate-your-company/contractor-conversion",
+  "title": "Contractor Conversion | Remote",
+  "description": "Remote now allows contractors and employees to nominate their managers and HR leaders to receive information from Remote!",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 245006,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dbf65bc68f79fd45-en-ph-nominate-your-company-contractor-conversion.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dbf65bc68f79fd45-en-ph-nominate-your-company-contractor-conversion.direct.json",
+  "markdownChars": 486,
+  "linksCount": 110,
+  "lastmod": "2025-07-01",
+  "scrapedAt": "2026-06-07T09:07:41.083Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/united-arab-emirates/benefits-guide/health-benefits",
+  "sourceURL": "https://remote.com/country-explorer/united-arab-emirates/benefits-guide/health-benefits",
+  "finalURL": "https://remote.com/country-explorer/united-arab-emirates/benefits-guide/health-benefits",
+  "title": "Health Benefits in United Arab Emirates | Wellbeing Support",
+  "description": "Support your team with Health benefits in United Arab Emirates.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 284731,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/587dd32f9d76eede-country-explorer-united-arab-emirates-benefits-guide-health-benefits.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/587dd32f9d76eede-country-explorer-united-arab-emirates-benefits-guide-health-benefits.direct.json",
+  "markdownChars": 19407,
+  "linksCount": 116,
+  "lastmod": "2026-05-20",
+  "scrapedAt": "2026-06-07T09:09:49.561Z"
+}

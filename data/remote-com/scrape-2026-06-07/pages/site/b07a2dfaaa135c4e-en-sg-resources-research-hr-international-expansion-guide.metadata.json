@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/research/hr-international-expansion-guide",
+  "sourceURL": "https://remote.com/en-sg/resources/research/hr-international-expansion-guide",
+  "finalURL": "https://remote.com/en-sg/resources/research/hr-international-expansion-guide",
+  "title": "International Expansion Strategy for Your Business | Remote",
+  "description": "Looking to expand your business globally? Learn how to navigate the complexities of international expansion and achieve success on a worldwide scale.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 342131,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b07a2dfaaa135c4e-en-sg-resources-research-hr-international-expansion-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b07a2dfaaa135c4e-en-sg-resources-research-hr-international-expansion-guide.direct.json",
+  "markdownChars": 41259,
+  "linksCount": 135,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:15:46.447Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/kosovo/employment-termination",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/kosovo/employment-termination",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/kosovo/employment-termination",
+  "title": "科索沃员工解雇 | 员工解雇",
+  "description": "在科索沃解雇员工前，请阅读本指南以全面了解相关法律、解雇流程及贵公司的权利。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256100,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1dab6bb056ebd34d-zh-cn-country-explorer-kosovo-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1dab6bb056ebd34d-zh-cn-country-explorer-kosovo-employment-termination.direct.json",
+  "markdownChars": 694,
+  "linksCount": 120,
+  "lastmod": "2025-10-15",
+  "scrapedAt": "2026-06-07T09:09:03.164Z"
+}

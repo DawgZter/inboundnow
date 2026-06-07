@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/guatemala/overzicht-secundaire-arbeidsvoorwaarden",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/guatemala/overzicht-secundaire-arbeidsvoorwaarden",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/guatemala/overzicht-secundaire-arbeidsvoorwaarden",
+  "title": "Secundaire arbeidsvoorwaarden in Guatemala | Pakketten",
+  "description": "Ontdek de belangrijkste secundaire arbeidsvoorwaarden in Guatemala. Lees meer over zorgverzekering, betaald verlof en andere secundaire arbeidsvoorwaarden om toptalent aan te trekken en te behouden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 267216,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2d63cd0da3d02804-nl-be-landenverkenner-guatemala-overzicht-secundaire-arbeidsvoorwaarden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2d63cd0da3d02804-nl-be-landenverkenner-guatemala-overzicht-secundaire-arbeidsvoorwaarden.direct.json",
+  "markdownChars": 1662,
+  "linksCount": 125,
+  "lastmod": "2026-01-06",
+  "scrapedAt": "2026-06-07T09:05:54.560Z"
+}

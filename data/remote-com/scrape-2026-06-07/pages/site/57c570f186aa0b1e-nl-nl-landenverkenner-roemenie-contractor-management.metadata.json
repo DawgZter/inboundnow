@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/roemenie/contractor-management",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/roemenie/contractor-management",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/roemenie/contractor-management",
+  "title": "Manage Contractors in Romania | Contractor Management (Contractor Management beheren in Roemenië)",
+  "description": "Een zzp'er inhuren in Roemenië? Beheer en betaal wereldwijd zzp'ers moeiteloos met onze flexibele Contractor Management-diensten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261728,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/57c570f186aa0b1e-nl-nl-landenverkenner-roemenie-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/57c570f186aa0b1e-nl-nl-landenverkenner-roemenie-contractor-management.direct.json",
+  "markdownChars": 2643,
+  "linksCount": 123,
+  "lastmod": "2025-11-06",
+  "scrapedAt": "2026-06-07T09:18:40.996Z"
+}

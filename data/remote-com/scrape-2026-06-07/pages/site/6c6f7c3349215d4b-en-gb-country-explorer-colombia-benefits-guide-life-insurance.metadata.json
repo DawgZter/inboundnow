@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/country-explorer/colombia/benefits-guide/life-insurance",
+  "sourceURL": "https://remote.com/en-gb/country-explorer/colombia/benefits-guide/life-insurance",
+  "finalURL": "https://remote.com/en-gb/country-explorer/colombia/benefits-guide/life-insurance",
+  "title": "Employee Life Insurance in Colombia | Insurance Plans",
+  "description": "Provide peace of mind with life insurance coverage for your employees in Colombia. Explore the policies and benefits available.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 266246,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c6f7c3349215d4b-en-gb-country-explorer-colombia-benefits-guide-life-insurance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c6f7c3349215d4b-en-gb-country-explorer-colombia-benefits-guide-life-insurance.direct.json",
+  "markdownChars": 4742,
+  "linksCount": 118,
+  "lastmod": "2025-06-01",
+  "scrapedAt": "2026-06-07T09:09:02.421Z"
+}

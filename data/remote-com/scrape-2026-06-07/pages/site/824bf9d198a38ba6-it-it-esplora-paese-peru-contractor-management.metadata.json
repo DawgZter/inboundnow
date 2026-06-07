@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/it-it/esplora-paese/peru/contractor-management",
+  "sourceURL": "https://remote.com/it-it/esplora-paese/peru/contractor-management",
+  "finalURL": "https://remote.com/it-it/esplora-paese/peru/contractor-management",
+  "title": "Gestione dei collaboratori in Perù | Contractor Management",
+  "description": "Vuoi collaborare con freelance in Perù? Gestisci e paga i tuoi collaboratori globali in modo semplice e conforme con i nostri servizi flessibili di Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 154285,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/824bf9d198a38ba6-it-it-esplora-paese-peru-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/824bf9d198a38ba6-it-it-esplora-paese-peru-contractor-management.direct.json",
+  "markdownChars": 2585,
+  "linksCount": 45,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:04:17.065Z"
+}

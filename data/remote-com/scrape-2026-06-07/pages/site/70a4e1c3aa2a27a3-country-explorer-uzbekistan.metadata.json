@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/uzbekistan",
+  "sourceURL": "https://remote.com/country-explorer/uzbekistan",
+  "finalURL": "https://remote.com/country-explorer/uzbekistan",
+  "title": "Employer of Record & Payroll Services | Uzbekistan",
+  "description": "Hiring employees and contractors in Uzbekistan? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 309189,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/70a4e1c3aa2a27a3-country-explorer-uzbekistan.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/70a4e1c3aa2a27a3-country-explorer-uzbekistan.direct.json",
+  "markdownChars": 3236,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:17:40.429Z"
+}

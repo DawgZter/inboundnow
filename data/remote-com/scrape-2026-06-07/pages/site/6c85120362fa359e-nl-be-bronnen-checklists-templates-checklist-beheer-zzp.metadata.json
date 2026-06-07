@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/checklists-templates/checklist-beheer-zzp",
+  "sourceURL": "https://remote.com/nl-be/bronnen/checklists-templates/checklist-beheer-zzp",
+  "finalURL": "https://remote.com/nl-be/bronnen/checklists-templates/checklist-beheer-zzp",
+  "title": "Global HR Solutions en arbeidstools voor verspreide teams | Remote",
+  "description": "Use this checklist to help you hire, onboard, pay, and manage contractors with speed and compliance.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262056,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c85120362fa359e-nl-be-bronnen-checklists-templates-checklist-beheer-zzp.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c85120362fa359e-nl-be-bronnen-checklists-templates-checklist-beheer-zzp.direct.json",
+  "markdownChars": 5709,
+  "linksCount": 116,
+  "lastmod": "2025-06-19",
+  "scrapedAt": "2026-06-07T09:06:42.353Z"
+}

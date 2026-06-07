@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/descriptions-postes/description-poste-concepteur-pedagogique",
+  "sourceURL": "https://remote.com/fr-be/ressources/descriptions-postes/description-poste-concepteur-pedagogique",
+  "finalURL": "https://remote.com/fr-be/ressources/descriptions-postes/description-poste-concepteur-pedagogique",
+  "title": "Description du poste de concepteur pédagogique",
+  "description": "Découvrez le rôle essentiel d'un concepteur pédagogique dans la création de matériel éducatif efficace. Consultez notre bibliothèque de descriptions de postes pour découvrir les principales responsabilités et qualifications.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263870,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/98ab54af2b12a44c-fr-be-ressources-descriptions-postes-description-poste-concepteur-pedagogique.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/98ab54af2b12a44c-fr-be-ressources-descriptions-postes-description-poste-concepteur-pedagogique.direct.json",
+  "markdownChars": 4877,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:52.378Z"
+}

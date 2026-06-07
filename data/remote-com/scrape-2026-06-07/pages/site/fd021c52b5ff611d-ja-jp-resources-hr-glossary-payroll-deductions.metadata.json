@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/payroll-deductions",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/payroll-deductions",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/payroll-deductions",
+  "title": "給与控除",
+  "description": " 給与所得控除と、それが従業員の純支給に与える影響を調べます。給与管理における様々な種類とその意義については、用語集をご覧ください。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254652,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd021c52b5ff611d-ja-jp-resources-hr-glossary-payroll-deductions.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd021c52b5ff611d-ja-jp-resources-hr-glossary-payroll-deductions.direct.json",
+  "markdownChars": 1643,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:15:08.253Z"
+}

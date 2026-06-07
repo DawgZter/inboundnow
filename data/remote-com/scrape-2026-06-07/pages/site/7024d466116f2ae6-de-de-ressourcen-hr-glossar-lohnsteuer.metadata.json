@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/lohnsteuer",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/lohnsteuer",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/lohnsteuer",
+  "title": "Lohnsummensteuer",
+  "description": "Erfahre, wie die Lohnsteuer in den USA und international berechnet wird und warum es so wichtig ist, es richtig zu machen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256991,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7024d466116f2ae6-de-de-ressourcen-hr-glossar-lohnsteuer.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7024d466116f2ae6-de-de-ressourcen-hr-glossar-lohnsteuer.direct.json",
+  "markdownChars": 6864,
+  "linksCount": 124,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:01:33.370Z"
+}

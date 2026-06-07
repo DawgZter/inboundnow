@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/reguliere-werktijden",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/reguliere-werktijden",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/reguliere-werktijden",
+  "title": "Normale tijd",
+  "description": "Leer hoe reguliere werkt en begrijp hoe het de wettelijke verplichtingen, salarisstructuren en de balans tussen werk en privé van je werknemers kan beïnvloeden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258304,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89a85030f2424bdb-nl-nl-bronnen-hr-woordenlijst-reguliere-werktijden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/89a85030f2424bdb-nl-nl-bronnen-hr-woordenlijst-reguliere-werktijden.direct.json",
+  "markdownChars": 5955,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:15:28.397Z"
+}

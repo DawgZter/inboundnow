@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/why-remote/customer-experience",
+  "sourceURL": "https://remote.com/en-au/why-remote/customer-experience",
+  "finalURL": "https://remote.com/en-au/why-remote/customer-experience",
+  "title": "Superior Customer Experience | Remote",
+  "description": "Remote’s superior customer experience program is designed to provide timely, empathetic support to Remote users.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 308438,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c1af9f6d1b32d2b-en-au-why-remote-customer-experience.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c1af9f6d1b32d2b-en-au-why-remote-customer-experience.direct.json",
+  "markdownChars": 3765,
+  "linksCount": 114,
+  "lastmod": "2025-07-02",
+  "scrapedAt": "2026-06-07T09:02:31.101Z"
+}

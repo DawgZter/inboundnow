@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/events/saasiest-amsterdam-1-2-october-2025",
+  "sourceURL": "https://remote.com/en-za/events/saasiest-amsterdam-1-2-october-2025",
+  "finalURL": "https://remote.com/en-za/events/saasiest-amsterdam-1-2-october-2025",
+  "title": "Saasiest Amsterdam 1-2 October 2025",
+  "description": "Meet Remote at Saasiest! Founders & CEOs — let’s talk scaling global teams, increasing compliance, and growing smart.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 268164,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fc21dd45d0c21f66-en-za-events-saasiest-amsterdam-1-2-october-2025.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fc21dd45d0c21f66-en-za-events-saasiest-amsterdam-1-2-october-2025.direct.json",
+  "markdownChars": 829,
+  "linksCount": 106,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:01:58.094Z"
+}

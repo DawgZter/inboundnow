@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/resources/hr-glossary/restricted-stock-unit",
+  "sourceURL": "https://remote.com/ko-kr/resources/hr-glossary/restricted-stock-unit",
+  "finalURL": "https://remote.com/ko-kr/resources/hr-glossary/restricted-stock-unit",
+  "title": "제한된 주식 단위(RSU)",
+  "description": "RSUs are equity awards that convert into company shares after vesting. Learn how they work and what employers must do to offer them compliantly.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254265,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e210051ae6fbfd74-ko-kr-resources-hr-glossary-restricted-stock-unit.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e210051ae6fbfd74-ko-kr-resources-hr-glossary-restricted-stock-unit.direct.json",
+  "markdownChars": 2002,
+  "linksCount": 122,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:11:30.250Z"
+}

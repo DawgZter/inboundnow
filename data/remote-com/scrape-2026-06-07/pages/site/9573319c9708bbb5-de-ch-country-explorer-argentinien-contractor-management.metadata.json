@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/argentinien/contractor-management",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/argentinien/contractor-management",
+  "finalURL": "https://remote.com/de-ch/country-explorer/argentinien/contractor-management",
+  "title": "Auftragnehmer:innen in Argentinien verwalten | Contractor Management",
+  "description": "Beauftragst du eine:n Auftragnehmer:in in Argentinien? Verwalte und bezahle Auftragnehmer:innen weltweit mühelos mit unseren flexiblen Contractor Management-Diensten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259485,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9573319c9708bbb5-de-ch-country-explorer-argentinien-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9573319c9708bbb5-de-ch-country-explorer-argentinien-contractor-management.direct.json",
+  "markdownChars": 2624,
+  "linksCount": 125,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:08:01.328Z"
+}

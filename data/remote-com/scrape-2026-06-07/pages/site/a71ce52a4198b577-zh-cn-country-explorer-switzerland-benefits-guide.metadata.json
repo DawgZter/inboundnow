@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/switzerland/benefits-guide",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/switzerland/benefits-guide",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/switzerland/benefits-guide",
+  "title": "瑞士员工福利 | 福利计划",
+  "description": "了解瑞士的核心员工福利，掌握健康保险、带薪休假与其他福利，以便吸引并留住顶尖人才。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 269489,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a71ce52a4198b577-zh-cn-country-explorer-switzerland-benefits-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a71ce52a4198b577-zh-cn-country-explorer-switzerland-benefits-guide.direct.json",
+  "markdownChars": 563,
+  "linksCount": 123,
+  "lastmod": "2026-01-05",
+  "scrapedAt": "2026-06-07T09:01:29.705Z"
+}

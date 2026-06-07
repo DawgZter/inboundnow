@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/forschung/leitfaden-globale-verguetung",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/forschung/leitfaden-globale-verguetung",
+  "finalURL": "https://remote.com/de-ch/ressourcen/forschung/leitfaden-globale-verguetung",
+  "title": "Leitfaden zur globalen Vergütung | Remote | Remote",
+  "description": "Lies unseren Leitfaden zur globalen Vergütung und erfahre, wie du attraktive lokale Angebote machst und dein globales Team gerecht bezahlst.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 263022,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dc22296a0c18c066-de-ch-ressourcen-forschung-leitfaden-globale-verguetung.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/dc22296a0c18c066-de-ch-ressourcen-forschung-leitfaden-globale-verguetung.direct.json",
+  "markdownChars": 1036,
+  "linksCount": 113,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:12:17.514Z"
+}

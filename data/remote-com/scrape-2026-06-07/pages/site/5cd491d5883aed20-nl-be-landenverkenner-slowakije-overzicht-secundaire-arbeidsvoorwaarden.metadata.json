@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/slowakije/overzicht-secundaire-arbeidsvoorwaarden",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/slowakije/overzicht-secundaire-arbeidsvoorwaarden",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/slowakije/overzicht-secundaire-arbeidsvoorwaarden",
+  "title": "Secundaire arbeidsvoorwaarden in Slowakije | arbeidsvoorwaardenpakketten",
+  "description": "Ontdek de belangrijkste secundaire arbeidsvoorwaarden in Slowakije. Lees over gezondheidsverzekeringen, betaald verlof en andere voordelen om toptalent aan te trekken en te behouden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 267722,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5cd491d5883aed20-nl-be-landenverkenner-slowakije-overzicht-secundaire-arbeidsvoorwaarden.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5cd491d5883aed20-nl-be-landenverkenner-slowakije-overzicht-secundaire-arbeidsvoorwaarden.direct.json",
+  "markdownChars": 1692,
+  "linksCount": 126,
+  "lastmod": "2026-01-06",
+  "scrapedAt": "2026-06-07T09:17:28.400Z"
+}

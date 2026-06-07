@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/hr-glossary/affirmative-action",
+  "sourceURL": "https://remote.com/resources/hr-glossary/affirmative-action",
+  "finalURL": "https://remote.com/resources/hr-glossary/affirmative-action",
+  "title": "What is affirmative action in the workplace?",
+  "description": "Understand what affirmative action in the workplace is, and see some examples of it in action.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254380,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f7a246adc415bfde-resources-hr-glossary-affirmative-action.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f7a246adc415bfde-resources-hr-glossary-affirmative-action.direct.json",
+  "markdownChars": 6063,
+  "linksCount": 120,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:11:43.547Z"
+}

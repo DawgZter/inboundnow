@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/colombia/taxes",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/colombia/taxes",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/colombia/taxes",
+  "title": "コロンビアの給与税管理 | 税務コンプライアンス",
+  "description": "コロンビアの給与税を効果的かつ法令遵守で管理できます。給与税の誤りを最小化し、現地法を順守して高額な罰金を回避します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263156,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/67eee63da28572d9-ja-jp-country-explorer-colombia-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/67eee63da28572d9-ja-jp-country-explorer-colombia-taxes.direct.json",
+  "markdownChars": 731,
+  "linksCount": 123,
+  "lastmod": "2025-09-19",
+  "scrapedAt": "2026-06-07T09:13:14.896Z"
+}

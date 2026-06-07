@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/hr-glossary/equity-philosophy",
+  "sourceURL": "https://remote.com/en-ie/resources/hr-glossary/equity-philosophy",
+  "finalURL": "https://remote.com/en-ie/resources/hr-glossary/equity-philosophy",
+  "title": "What is an equity philosophy?",
+  "description": "Learn about equity philosophies — and why they should be a cornerstone of your company's diversity, equity, and inclusion (DEI) policy.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252329,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c36f02c3e64f860a-en-ie-resources-hr-glossary-equity-philosophy.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c36f02c3e64f860a-en-ie-resources-hr-glossary-equity-philosophy.direct.json",
+  "markdownChars": 3772,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:02:53.775Z"
+}

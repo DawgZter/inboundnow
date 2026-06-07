@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/recherche/checklist-embaucher-ingenieurs-logiciels-distance",
+  "sourceURL": "https://remote.com/fr-be/ressources/recherche/checklist-embaucher-ingenieurs-logiciels-distance",
+  "finalURL": "https://remote.com/fr-be/ressources/recherche/checklist-embaucher-ingenieurs-logiciels-distance",
+  "title": "Checklist : Embaucher des ingénieurs logiciels à distance | Remote",
+  "description": "Utilisez la checklist de Remote sur l'embauche d'ingénieurs logiciels internationaux pour découvrir comment attirer des talents d'élite à distance, puis les intégrer, les payer et les gérer en toute simplicité.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 265580,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f175f559467eea92-fr-be-ressources-recherche-checklist-embaucher-ingenieurs-logiciels-distance.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f175f559467eea92-fr-be-ressources-recherche-checklist-embaucher-ingenieurs-logiciels-distance.direct.json",
+  "markdownChars": 1224,
+  "linksCount": 115,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:10:23.008Z"
+}

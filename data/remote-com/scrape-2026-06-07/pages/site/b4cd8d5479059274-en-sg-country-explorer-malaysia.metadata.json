@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/malaysia",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/malaysia",
+  "finalURL": "https://remote.com/en-sg/country-explorer/malaysia",
+  "title": "Employer of Record & Payroll Services | Malaysia",
+  "description": "Hiring employees and contractors in Malaysia? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 340396,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b4cd8d5479059274-en-sg-country-explorer-malaysia.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b4cd8d5479059274-en-sg-country-explorer-malaysia.direct.json",
+  "markdownChars": 6036,
+  "linksCount": 127,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:02:19.318Z"
+}

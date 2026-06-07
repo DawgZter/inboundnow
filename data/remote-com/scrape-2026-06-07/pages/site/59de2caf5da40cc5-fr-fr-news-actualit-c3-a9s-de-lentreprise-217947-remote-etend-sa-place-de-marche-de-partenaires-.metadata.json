@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/news/actualit%C3%A9s-de-lentreprise/217947-remote-etend-sa-place-de-marche-de-partenaires-pour-promouvoir-le-developpement-durable",
+  "sourceURL": "https://remote.com/fr-fr/news/actualit%C3%A9s-de-lentreprise/217947-remote-etend-sa-place-de-marche-de-partenaires-pour-promouvoir-le-developpement-durable",
+  "finalURL": "https://remote.com/fr-fr/news/actualit%C3%A9s-de-lentreprise/217947-remote-etend-sa-place-de-marche-de-partenaires-pour-promouvoir-le-developpement-durable",
+  "title": "Remote étend sa place de marché de partenaires pour promouvoir le développement durable",
+  "description": "Grâce à l'expansion de la place de marché de Remote, les clients de l'entreprise dans le monde entier pourront prendre des mesures contre le changement climatique.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260369,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/59de2caf5da40cc5-fr-fr-news-actualit-c3-a9s-de-lentreprise-217947-remote-etend-sa-place-de-marche-de-partenaires-.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/59de2caf5da40cc5-fr-fr-news-actualit-c3-a9s-de-lentreprise-217947-remote-etend-sa-place-de-marche-de-partenaires-.direct.json",
+  "markdownChars": 4761,
+  "linksCount": 128,
+  "lastmod": "2025-08-08",
+  "scrapedAt": "2026-06-07T09:16:33.516Z"
+}

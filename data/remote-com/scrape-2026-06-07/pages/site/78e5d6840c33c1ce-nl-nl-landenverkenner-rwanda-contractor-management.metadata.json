@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/rwanda/contractor-management",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/rwanda/contractor-management",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/rwanda/contractor-management",
+  "title": "Contractors beheren in Rwanda | Contractor Management",
+  "description": "Wil je een zzp'er in Rwanda inhuren? Beheer en betaal wereldwijde zzp'ers moeiteloos met onze flexibele Contractor Management-diensten.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258536,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78e5d6840c33c1ce-nl-nl-landenverkenner-rwanda-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/78e5d6840c33c1ce-nl-nl-landenverkenner-rwanda-contractor-management.direct.json",
+  "markdownChars": 2471,
+  "linksCount": 118,
+  "lastmod": "2025-11-06",
+  "scrapedAt": "2026-06-07T09:01:28.972Z"
+}

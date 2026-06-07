@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/global-hr/kleine-bedrijven",
+  "sourceURL": "https://remote.com/nl-nl/global-hr/kleine-bedrijven",
+  "finalURL": "https://remote.com/nl-nl/global-hr/kleine-bedrijven",
+  "title": "Global HR solutions voor verspreide teams | Remote",
+  "description": "Werf binnen een paar minuten internationaal talent. Remote is de meest revolutionaire oplossing voor wereldwijde payroll, belastingen, HR en naleving voor verspreide teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 404122,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd8550c310d652e4-nl-nl-global-hr-kleine-bedrijven.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fd8550c310d652e4-nl-nl-global-hr-kleine-bedrijven.direct.json",
+  "markdownChars": 17993,
+  "linksCount": 125,
+  "lastmod": "2025-04-23",
+  "scrapedAt": "2026-06-07T09:09:33.879Z"
+}

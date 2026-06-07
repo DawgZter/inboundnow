@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/mongolie",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/mongolie",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/mongolie",
+  "title": "Services de paie et d’Employer of record : Mongolia",
+  "description": "Recruter des employés et des freelances : Mongolie Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 340808,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d5a340a50079697d-fr-ch-explorateur-de-pays-mongolie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d5a340a50079697d-fr-ch-explorateur-de-pays-mongolie.direct.json",
+  "markdownChars": 6255,
+  "linksCount": 119,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:10:21.229Z"
+}

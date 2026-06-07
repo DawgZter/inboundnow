@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/explorateur-de-pays/bangladesh",
+  "sourceURL": "https://remote.com/fr-ch/explorateur-de-pays/bangladesh",
+  "finalURL": "https://remote.com/fr-ch/explorateur-de-pays/bangladesh",
+  "title": "Employer of record et services de gestion de la paie | Bangladesh",
+  "description": "Recruter des employés et des freelances : Bangladesh Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 348826,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce7f30d255d0de44-fr-ch-explorateur-de-pays-bangladesh.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ce7f30d255d0de44-fr-ch-explorateur-de-pays-bangladesh.direct.json",
+  "markdownChars": 6892,
+  "linksCount": 125,
+  "lastmod": "2025-10-06",
+  "scrapedAt": "2026-06-07T09:14:29.358Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/us-state-explorer/massachusetts/employer-of-record",
+  "sourceURL": "https://remote.com/en-au/us-state-explorer/massachusetts/employer-of-record",
+  "finalURL": "https://remote.com/en-au/us-state-explorer/massachusetts/employer-of-record",
+  "title": "Employer of Record services in Massachusetts",
+  "description": "Use employer of record services in Massachusetts make hiring, managing, and paying top talent easy. Stay compliant in Massachusetts and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258879,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3c024645821ef016-en-au-us-state-explorer-massachusetts-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3c024645821ef016-en-au-us-state-explorer-massachusetts-employer-of-record.direct.json",
+  "markdownChars": 3372,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:18:02.514Z"
+}

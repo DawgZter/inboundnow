@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/kenia/freistellungsarten",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/kenia/freistellungsarten",
+  "finalURL": "https://remote.com/de-ch/country-explorer/kenia/freistellungsarten",
+  "title": "Urlaubsansprüche in Kenya | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Kenia. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259045,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c244f8e4492f7728-de-ch-country-explorer-kenia-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c244f8e4492f7728-de-ch-country-explorer-kenia-freistellungsarten.direct.json",
+  "markdownChars": 1985,
+  "linksCount": 124,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:02:52.564Z"
+}

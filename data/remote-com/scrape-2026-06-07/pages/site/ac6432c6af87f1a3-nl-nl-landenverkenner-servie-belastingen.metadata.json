@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/servie/belastingen",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/servie/belastingen",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/servie/belastingen",
+  "title": "Payroll-belasting beheren in Serbia | Belastingnaleving",
+  "description": "Beheer effectief en compliant payroll-belasting in Servie. Verminder fouten in de payroll-belasting, houd je aan de lokale wetgeving en voorkom dure boetes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261054,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ac6432c6af87f1a3-nl-nl-landenverkenner-servie-belastingen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ac6432c6af87f1a3-nl-nl-landenverkenner-servie-belastingen.direct.json",
+  "markdownChars": 1162,
+  "linksCount": 124,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:16:41.507Z"
+}

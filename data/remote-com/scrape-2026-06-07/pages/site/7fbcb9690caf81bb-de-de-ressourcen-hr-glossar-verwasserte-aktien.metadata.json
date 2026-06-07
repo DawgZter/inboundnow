@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/hr-glossar/verwasserte-aktien",
+  "sourceURL": "https://remote.com/de-de/ressourcen/hr-glossar/verwasserte-aktien",
+  "finalURL": "https://remote.com/de-de/ressourcen/hr-glossar/verwasserte-aktien",
+  "title": "Verwässerte Aktien",
+  "description": "In unserem HR-Glossar erfährst du, was verwässerte Aktien sind, wie sie sich auf den Shareholder Value auswirken und wie sie die Eigentumsverhältnisse in einem Unternehmen beeinflussen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255466,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7fbcb9690caf81bb-de-de-ressourcen-hr-glossar-verwasserte-aktien.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7fbcb9690caf81bb-de-de-ressourcen-hr-glossar-verwasserte-aktien.direct.json",
+  "markdownChars": 5345,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:16:16.376Z"
+}

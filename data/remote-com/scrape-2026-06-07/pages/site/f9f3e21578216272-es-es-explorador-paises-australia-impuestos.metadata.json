@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/australia/impuestos",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/australia/impuestos",
+  "finalURL": "https://remote.com/es-es/explorador-paises/australia/impuestos",
+  "title": "Gestiona el impuesto sobre la nómina en Australia | Cumplimiento normativo",
+  "description": "Gestiona los impuestos sobre la nómina en Australia de forma eficaz y conforme a la normativa. Minimiza los errores en el impuesto sobre la nómina, cumple con las leyes locales y evita costosas multas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 271705,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f9f3e21578216272-es-es-explorador-paises-australia-impuestos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f9f3e21578216272-es-es-explorador-paises-australia-impuestos.direct.json",
+  "markdownChars": 3568,
+  "linksCount": 122,
+  "lastmod": "2026-03-03",
+  "scrapedAt": "2026-06-07T09:10:50.796Z"
+}

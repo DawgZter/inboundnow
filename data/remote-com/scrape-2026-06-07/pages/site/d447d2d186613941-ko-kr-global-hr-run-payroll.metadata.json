@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/global-hr/run-payroll",
+  "sourceURL": "https://remote.com/ko-kr/global-hr/run-payroll",
+  "finalURL": "https://remote.com/ko-kr/global-hr/run-payroll",
+  "title": "Remote로 급여를 지급하고 사업을 해외로 손쉽게 확장하세요",
+  "description": "직원이 어느 국가에서 근무하든 급여와 세금, 복리후생을 관리하고 관련 규정을 준수할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 314758,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d447d2d186613941-ko-kr-global-hr-run-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d447d2d186613941-ko-kr-global-hr-run-payroll.direct.json",
+  "markdownChars": 2347,
+  "linksCount": 118,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:01:52.451Z"
+}

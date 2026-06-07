@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/dominica",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/dominica",
+  "finalURL": "https://remote.com/en-sg/country-explorer/dominica",
+  "title": "Employer of Record & Payroll Services | Dominica",
+  "description": "Hiring employees and contractors in Dominica? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 318336,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c35e2a7b8de21f88-en-sg-country-explorer-dominica.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c35e2a7b8de21f88-en-sg-country-explorer-dominica.direct.json",
+  "markdownChars": 4650,
+  "linksCount": 116,
+  "lastmod": "2025-06-04",
+  "scrapedAt": "2026-06-07T09:01:18.517Z"
+}

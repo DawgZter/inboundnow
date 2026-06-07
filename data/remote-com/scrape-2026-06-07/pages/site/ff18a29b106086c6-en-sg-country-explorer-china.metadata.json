@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/china",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/china",
+  "finalURL": "https://remote.com/en-sg/country-explorer/china",
+  "title": "Employer of Record & Payroll Services | China",
+  "description": "Hiring employees and contractors in China? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 351345,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff18a29b106086c6-en-sg-country-explorer-china.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ff18a29b106086c6-en-sg-country-explorer-china.direct.json",
+  "markdownChars": 7719,
+  "linksCount": 125,
+  "lastmod": "2026-04-25",
+  "scrapedAt": "2026-06-07T09:01:03.289Z"
+}

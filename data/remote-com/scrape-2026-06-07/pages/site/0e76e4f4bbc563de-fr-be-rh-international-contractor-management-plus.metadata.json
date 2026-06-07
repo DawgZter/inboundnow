@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/rh-international/contractor-management-plus",
+  "sourceURL": "https://remote.com/fr-be/rh-international/contractor-management-plus",
+  "finalURL": "https://remote.com/fr-be/rh-international/contractor-management-plus",
+  "title": "Gestion des freelances Plus : Garantie contre la requalification de contrat | Remote",
+  "description": "Le module Contractor Management Plus de Remote renforce votre sécurité en matière de risque de requalification de contrat. Embauchez des freelances en toute confiance grâce à l'assurance de Remote contre le risque de requalification de contrat.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 340599,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e76e4f4bbc563de-fr-be-rh-international-contractor-management-plus.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e76e4f4bbc563de-fr-be-rh-international-contractor-management-plus.direct.json",
+  "markdownChars": 5502,
+  "linksCount": 119,
+  "lastmod": "2025-05-19",
+  "scrapedAt": "2026-06-07T09:14:13.112Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/romania/payroll",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/romania/payroll",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/romania/payroll",
+  "title": "루마니아에서 직원에게 급여 지급하기 | 급여 서비스",
+  "description": "유연한 급여 관리로 루마니아에서 직원에게 손쉽게 급여를 지급하세요. 한곳에서 급여를 운영하고, 비용을 관리하며, 리포트를 생성할 수 있습니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260220,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/97f062552c14a9f9-ko-kr-country-explorer-romania-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/97f062552c14a9f9-ko-kr-country-explorer-romania-payroll.direct.json",
+  "markdownChars": 2019,
+  "linksCount": 123,
+  "lastmod": "2026-05-22",
+  "scrapedAt": "2026-06-07T09:14:01.136Z"
+}

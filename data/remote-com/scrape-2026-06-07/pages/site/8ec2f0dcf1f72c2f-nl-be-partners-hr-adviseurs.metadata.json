@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/partners/hr-adviseurs",
+  "sourceURL": "https://remote.com/nl-be/partners/hr-adviseurs",
+  "finalURL": "https://remote.com/nl-be/partners/hr-adviseurs",
+  "title": "Referral programma voor HR-consultants | Remote",
+  "description": " Wees de betrouwbare adviseur die je groeiende klanten nodig hebben. Geef je klanten wat ze nodig hebben om wereldwijd te kunnen opschalen met speciale kortingen op de oplossingen van Remote voor global payroll, secundaire arbeidsvoorwaarden en naleving.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 299347,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ec2f0dcf1f72c2f-nl-be-partners-hr-adviseurs.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8ec2f0dcf1f72c2f-nl-be-partners-hr-adviseurs.direct.json",
+  "markdownChars": 4927,
+  "linksCount": 118,
+  "lastmod": "2026-04-10",
+  "scrapedAt": "2026-06-07T09:05:56.362Z"
+}

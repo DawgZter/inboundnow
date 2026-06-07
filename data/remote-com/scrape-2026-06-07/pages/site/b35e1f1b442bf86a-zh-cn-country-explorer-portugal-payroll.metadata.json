@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/portugal/payroll",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/portugal/payroll",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/portugal/payroll",
+  "title": "在葡萄牙为员工支付薪资 | 薪资服务",
+  "description": "使用灵活的薪资服务，在葡萄牙轻松为员工发放薪资。集中管理薪资、报销与报表，一处完成。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257244,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b35e1f1b442bf86a-zh-cn-country-explorer-portugal-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b35e1f1b442bf86a-zh-cn-country-explorer-portugal-payroll.direct.json",
+  "markdownChars": 1096,
+  "linksCount": 122,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:12:21.607Z"
+}

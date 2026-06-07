@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ko-kr/country-explorer/china/employer-of-record",
+  "sourceURL": "https://remote.com/ko-kr/country-explorer/china/employer-of-record",
+  "finalURL": "https://remote.com/ko-kr/country-explorer/china/employer-of-record",
+  "title": "중국에서의 기록상 고용주(EOR) | EOR 서비스",
+  "description": "Remote의 기록상 고용주(EOR) 서비스를 통해 중국에서의 고용을 간소화할 수 있습니다. 급여, 복리후생, 규제 준수를 원활하게 처리합니다.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259871,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2896f9811265f477-ko-kr-country-explorer-china-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2896f9811265f477-ko-kr-country-explorer-china-employer-of-record.direct.json",
+  "markdownChars": 1673,
+  "linksCount": 123,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:07:42.795Z"
+}

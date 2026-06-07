@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/global-hr/remote-for-good",
+  "sourceURL": "https://remote.com/global-hr/remote-for-good",
+  "finalURL": "https://remote.com/global-hr/remote-for-good",
+  "title": "Remote for Good: Expand your global team and your mission | Remote",
+  "description": "We’re here to help you scale your impact worldwide. Let us handle your day-to-day HR operations so you can focus on your mission.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 308240,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9a228d28b2ce3c21-global-hr-remote-for-good.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9a228d28b2ce3c21-global-hr-remote-for-good.direct.json",
+  "markdownChars": 9403,
+  "linksCount": 114,
+  "lastmod": "2025-06-02",
+  "scrapedAt": "2026-06-07T09:06:19.129Z"
+}

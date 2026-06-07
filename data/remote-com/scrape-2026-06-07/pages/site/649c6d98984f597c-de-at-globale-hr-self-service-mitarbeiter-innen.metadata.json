@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/globale-hr/self-service-mitarbeiter-innen",
+  "sourceURL": "https://remote.com/de-at/globale-hr/self-service-mitarbeiter-innen",
+  "finalURL": "https://remote.com/de-at/globale-hr/self-service-mitarbeiter-innen",
+  "title": "Self-Service für Mitarbeiter:innen | Remote",
+  "description": "Empower your global team with self-service access to payslips, PTO requests, benefits, and more. Use our web or mobile app for on-the-go efficiency.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 305133,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/649c6d98984f597c-de-at-globale-hr-self-service-mitarbeiter-innen.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/649c6d98984f597c-de-at-globale-hr-self-service-mitarbeiter-innen.direct.json",
+  "markdownChars": 4812,
+  "linksCount": 118,
+  "lastmod": "2025-04-23",
+  "scrapedAt": "2026-06-07T09:15:00.698Z"
+}

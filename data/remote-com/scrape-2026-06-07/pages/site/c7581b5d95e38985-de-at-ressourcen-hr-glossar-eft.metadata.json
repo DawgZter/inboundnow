@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/eft",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/eft",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/eft",
+  "title": "What is electronic funds transfer (EFT)?",
+  "description": "Unternehmen nutzen EFT für schnelle, sichere Geldüberweisungen zwischen Konten, um die Effizienz von Transaktionen zu steigern.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256806,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c7581b5d95e38985-de-at-ressourcen-hr-glossar-eft.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c7581b5d95e38985-de-at-ressourcen-hr-glossar-eft.direct.json",
+  "markdownChars": 7220,
+  "linksCount": 120,
+  "lastmod": "2026-02-11",
+  "scrapedAt": "2026-06-07T09:01:51.404Z"
+}

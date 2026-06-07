@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/el-salvador",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/el-salvador",
+  "finalURL": "https://remote.com/es-es/explorador-paises/el-salvador",
+  "title": "Employer of Record y servicios de nóminas | El Salvador",
+  "description": "¿Contratas empleados y trabajadores autónomos en El Salvador? Remote puede ayudarte a gestionar empleados y trabajadores autónomos a través de nuestra plataforma RR. HH. global integrada.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 343968,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b5008ef5fdbf9dd5-es-es-explorador-paises-el-salvador.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b5008ef5fdbf9dd5-es-es-explorador-paises-el-salvador.direct.json",
+  "markdownChars": 6216,
+  "linksCount": 122,
+  "lastmod": "2025-09-02",
+  "scrapedAt": "2026-06-07T09:12:53.950Z"
+}

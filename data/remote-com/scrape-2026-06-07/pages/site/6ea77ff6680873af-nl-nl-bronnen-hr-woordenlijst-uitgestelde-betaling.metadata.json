@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/uitgestelde-betaling",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/uitgestelde-betaling",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/uitgestelde-betaling",
+  "title": "Uitgestelde vergoeding",
+  "description": "Begrijp hoe uitgestelde compensatie werkt en hoe het kan worden gebruikt om toptalent aan te trekken voor je bedrijf.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258376,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ea77ff6680873af-nl-nl-bronnen-hr-woordenlijst-uitgestelde-betaling.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6ea77ff6680873af-nl-nl-bronnen-hr-woordenlijst-uitgestelde-betaling.direct.json",
+  "markdownChars": 5945,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:02:19.070Z"
+}

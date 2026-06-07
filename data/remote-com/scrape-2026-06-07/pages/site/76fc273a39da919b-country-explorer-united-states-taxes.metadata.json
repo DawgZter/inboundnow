@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/country-explorer/united-states/taxes",
+  "sourceURL": "https://remote.com/country-explorer/united-states/taxes",
+  "finalURL": "https://remote.com/country-explorer/united-states/taxes",
+  "title": "Manage Payroll Tax in United States | Tax Compliance",
+  "description": "Manage payroll taxes in United States effectively and compliantly. Minimize payroll tax errors, abide by local laws, and avoid expensive fines.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263957,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76fc273a39da919b-country-explorer-united-states-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/76fc273a39da919b-country-explorer-united-states-taxes.direct.json",
+  "markdownChars": 1416,
+  "linksCount": 133,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:06:15.017Z"
+}

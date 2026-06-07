@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/fidschi",
+  "sourceURL": "https://remote.com/de-de/country-explorer/fidschi",
+  "finalURL": "https://remote.com/de-de/country-explorer/fidschi",
+  "title": "Employer-of-Record- und Payroll-Services | Fiji",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in Fidschi? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 311227,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2174b82c1fa45a0a-de-de-country-explorer-fidschi.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2174b82c1fa45a0a-de-de-country-explorer-fidschi.direct.json",
+  "markdownChars": 3805,
+  "linksCount": 118,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:01:08.838Z"
+}

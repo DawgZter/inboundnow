@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-nz/global-hr/remote-api/marketing-resources",
+  "sourceURL": "https://remote.com/en-nz/global-hr/remote-api/marketing-resources",
+  "finalURL": "https://remote.com/en-nz/global-hr/remote-api/marketing-resources",
+  "title": "Global HR Solutions for Distributed Teams | Remote",
+  "description": "Hire international talent in minutes. Remote is the most disruptive global payroll, tax, HR and compliance solution for distributed teams.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 266254,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b72faccfcfa142ce-en-nz-global-hr-remote-api-marketing-resources.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/b72faccfcfa142ce-en-nz-global-hr-remote-api-marketing-resources.direct.json",
+  "markdownChars": 1600,
+  "linksCount": 114,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:07:34.159Z"
+}

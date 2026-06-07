@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/czech-republic/employment-termination",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/czech-republic/employment-termination",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/czech-republic/employment-termination",
+  "title": "チェコ共和国での従業員解雇 | 雇用の解雇",
+  "description": "チェコ共和国で従業員を解雇する際の権利と手続きを、従業員解雇法に関する包括的ガイドで分かりやすく解説します。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259790,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/394d33dbc5b39a6a-ja-jp-country-explorer-czech-republic-employment-termination.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/394d33dbc5b39a6a-ja-jp-country-explorer-czech-republic-employment-termination.direct.json",
+  "markdownChars": 744,
+  "linksCount": 123,
+  "lastmod": "2025-12-06",
+  "scrapedAt": "2026-06-07T09:02:33.376Z"
+}

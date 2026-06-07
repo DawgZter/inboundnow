@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/nettoloon",
+  "sourceURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/nettoloon",
+  "finalURL": "https://remote.com/nl-nl/bronnen/hr-woordenlijst/nettoloon",
+  "title": "Wat is het nettoloon?",
+  "description": "Meer weten over take home pay en hoe je take home pay berekent?",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255542,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae42782d5c65e04a-nl-nl-bronnen-hr-woordenlijst-nettoloon.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae42782d5c65e04a-nl-nl-bronnen-hr-woordenlijst-nettoloon.direct.json",
+  "markdownChars": 3627,
+  "linksCount": 122,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:06:18.897Z"
+}

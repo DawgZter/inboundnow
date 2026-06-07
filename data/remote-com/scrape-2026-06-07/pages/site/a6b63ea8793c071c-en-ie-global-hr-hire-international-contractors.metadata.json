@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/global-hr/hire-international-contractors",
+  "sourceURL": "https://remote.com/en-ie/global-hr/hire-international-contractors",
+  "finalURL": "https://remote.com/en-ie/global-hr/hire-international-contractors",
+  "title": "Hire international contractors | Remote",
+  "description": "Onboard contractors, sign compliant contracts, and pay contractors around the world with zero hidden fees - only with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 377423,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6b63ea8793c071c-en-ie-global-hr-hire-international-contractors.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a6b63ea8793c071c-en-ie-global-hr-hire-international-contractors.direct.json",
+  "markdownChars": 10779,
+  "linksCount": 115,
+  "lastmod": "2025-04-23",
+  "scrapedAt": "2026-06-07T09:08:48.326Z"
+}

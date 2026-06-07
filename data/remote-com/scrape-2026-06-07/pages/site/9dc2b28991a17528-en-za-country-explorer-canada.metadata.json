@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/canada",
+  "sourceURL": "https://remote.com/en-za/country-explorer/canada",
+  "finalURL": "https://remote.com/en-za/country-explorer/canada",
+  "title": "Employer of Record & Payroll Services | Canada",
+  "description": "Hiring employees and contractors in Canada? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 347659,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9dc2b28991a17528-en-za-country-explorer-canada.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9dc2b28991a17528-en-za-country-explorer-canada.direct.json",
+  "markdownChars": 7323,
+  "linksCount": 133,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:06:28.733Z"
+}

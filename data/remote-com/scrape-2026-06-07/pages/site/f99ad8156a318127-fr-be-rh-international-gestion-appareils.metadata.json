@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/rh-international/gestion-appareils",
+  "sourceURL": "https://remote.com/fr-be/rh-international/gestion-appareils",
+  "finalURL": "https://remote.com/fr-be/rh-international/gestion-appareils",
+  "title": "Gestion des appareils | Remote",
+  "description": "Acquérez, déployez et gérez vos appareils en toute simplicité pour votre équipe mondiale, avec la gestion des appareils de Remote. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 341777,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f99ad8156a318127-fr-be-rh-international-gestion-appareils.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f99ad8156a318127-fr-be-rh-international-gestion-appareils.direct.json",
+  "markdownChars": 5809,
+  "linksCount": 121,
+  "lastmod": "2025-08-22",
+  "scrapedAt": "2026-06-07T09:02:49.944Z"
+}

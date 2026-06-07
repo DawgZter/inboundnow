@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/checklists-templates/hr-onboarding-checklist",
+  "sourceURL": "https://remote.com/en-gb/resources/checklists-templates/hr-onboarding-checklist",
+  "finalURL": "https://remote.com/en-gb/resources/checklists-templates/hr-onboarding-checklist",
+  "title": "HR onboarding checklist for human resource professionals | Remote",
+  "description": "Your HR onboarding checklist for hiring a new employee ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 252108,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d7c7f14214422a65-en-gb-resources-checklists-templates-hr-onboarding-checklist.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d7c7f14214422a65-en-gb-resources-checklists-templates-hr-onboarding-checklist.direct.json",
+  "markdownChars": 5146,
+  "linksCount": 114,
+  "lastmod": "2025-07-02",
+  "scrapedAt": "2026-06-07T09:01:47.951Z"
+}

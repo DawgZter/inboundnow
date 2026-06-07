@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/hr-glossary/fte",
+  "sourceURL": "https://remote.com/en-ie/resources/hr-glossary/fte",
+  "finalURL": "https://remote.com/en-ie/resources/hr-glossary/fte",
+  "title": "What is FTE?",
+  "description": "FTE can significantly impact a company by influencing budgeting, staffing, and resource allocation decisions.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250491,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2ffc77ecf2f9f7c-en-ie-resources-hr-glossary-fte.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f2ffc77ecf2f9f7c-en-ie-resources-hr-glossary-fte.direct.json",
+  "markdownChars": 2957,
+  "linksCount": 118,
+  "lastmod": "2025-08-09",
+  "scrapedAt": "2026-06-07T09:09:41.373Z"
+}

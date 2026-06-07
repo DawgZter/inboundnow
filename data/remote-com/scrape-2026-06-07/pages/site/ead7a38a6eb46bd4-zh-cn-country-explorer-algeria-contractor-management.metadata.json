@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/algeria/contractor-management",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/algeria/contractor-management",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/algeria/contractor-management",
+  "title": "在阿尔及利亚管理合同工 | 合同工管理",
+  "description": "如果贵公司在阿尔及利亚雇佣合同工，使用 Remote 的灵活合同工管理服务，可帮助贵公司轻松管理并向全球合同工付款。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253738,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ead7a38a6eb46bd4-zh-cn-country-explorer-algeria-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ead7a38a6eb46bd4-zh-cn-country-explorer-algeria-contractor-management.direct.json",
+  "markdownChars": 764,
+  "linksCount": 115,
+  "lastmod": "2025-12-22",
+  "scrapedAt": "2026-06-07T09:10:44.955Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/research/global-payroll-report",
+  "sourceURL": "https://remote.com/resources/research/global-payroll-report",
+  "finalURL": "https://remote.com/resources/research/global-payroll-report",
+  "title": "Global Payroll Report 2026",
+  "description": "Download Remote's Global Payroll for insights on how you can turn your company's pay strategy into a retention powerhouse.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 294773,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f69d764d3121becb-resources-research-global-payroll-report.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/f69d764d3121becb-resources-research-global-payroll-report.direct.json",
+  "markdownChars": 4291,
+  "linksCount": 113,
+  "lastmod": "2026-04-07",
+  "scrapedAt": "2026-06-07T09:06:45.213Z"
+}

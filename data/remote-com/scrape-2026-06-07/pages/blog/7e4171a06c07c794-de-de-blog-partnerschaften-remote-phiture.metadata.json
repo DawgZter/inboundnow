@@ -1,0 +1,18 @@
+{
+  "category": "blog",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/blog/partnerschaften/remote-phiture",
+  "sourceURL": "https://remote.com/de-de/blog/partnerschaften/remote-phiture",
+  "finalURL": "https://remote.com/de-de/blog/partnerschaften/remote-phiture",
+  "title": "Wie Phiture 55 Mitarbeiter:innen in 19 Ländern mit Remote verwaltet",
+  "description": "Zur rechtskonformen Vergrößerung seiner internationalen Belegschaft brauchte Phiture einen globalen Personalpartner, dem es vertrauen konnte. Lies hier, warum der Mobile-Marketing-Berater auf Remote setzt.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260626,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/7e4171a06c07c794-de-de-blog-partnerschaften-remote-phiture.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/blog/7e4171a06c07c794-de-de-blog-partnerschaften-remote-phiture.direct.json",
+  "markdownChars": 10260,
+  "linksCount": 114,
+  "lastmod": "2026-05-11",
+  "scrapedAt": "2026-06-07T09:00:57.039Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/job-descriptions/hr-business-partner-job-description",
+  "sourceURL": "https://remote.com/resources/job-descriptions/hr-business-partner-job-description",
+  "finalURL": "https://remote.com/resources/job-descriptions/hr-business-partner-job-description",
+  "title": "HR business partner job description",
+  "description": "Review the job description for an HR business partner, responsible for aligning HR strategies with business goals, supporting employee relations, and driving organizational success.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259216,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c33cd83b7869299b-resources-job-descriptions-hr-business-partner-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c33cd83b7869299b-resources-job-descriptions-hr-business-partner-job-description.direct.json",
+  "markdownChars": 4666,
+  "linksCount": 112,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:18:00.361Z"
+}

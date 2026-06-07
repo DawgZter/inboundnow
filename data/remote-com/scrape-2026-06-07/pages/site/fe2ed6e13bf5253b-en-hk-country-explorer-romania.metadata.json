@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-hk/country-explorer/romania",
+  "sourceURL": "https://remote.com/en-hk/country-explorer/romania",
+  "finalURL": "https://remote.com/en-hk/country-explorer/romania",
+  "title": "Employer of Record & Payroll Services | Romania",
+  "description": "Hiring employees and contractors in Romania? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 345509,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe2ed6e13bf5253b-en-hk-country-explorer-romania.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fe2ed6e13bf5253b-en-hk-country-explorer-romania.direct.json",
+  "markdownChars": 6505,
+  "linksCount": 127,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:05:50.260Z"
+}

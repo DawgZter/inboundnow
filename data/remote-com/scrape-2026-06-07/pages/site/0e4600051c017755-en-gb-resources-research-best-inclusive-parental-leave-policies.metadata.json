@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/resources/research/best-inclusive-parental-leave-policies",
+  "sourceURL": "https://remote.com/en-gb/resources/research/best-inclusive-parental-leave-policies",
+  "finalURL": "https://remote.com/en-gb/resources/research/best-inclusive-parental-leave-policies",
+  "title": "Global Working Parents Report | Remote | Remote",
+  "description": "Remote conducted a global survey of 13,850 working parents across 13 countries to find the most inclusive parental leave policies around the world. Find out which countries lead the way",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 381883,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e4600051c017755-en-gb-resources-research-best-inclusive-parental-leave-policies.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0e4600051c017755-en-gb-resources-research-best-inclusive-parental-leave-policies.direct.json",
+  "markdownChars": 30392,
+  "linksCount": 140,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:12:20.073Z"
+}

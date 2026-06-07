@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/ressourcen/hr-glossar/abwesenheitsurlaub",
+  "sourceURL": "https://remote.com/de-ch/ressourcen/hr-glossar/abwesenheitsurlaub",
+  "finalURL": "https://remote.com/de-ch/ressourcen/hr-glossar/abwesenheitsurlaub",
+  "title": "What is bereavement leave?",
+  "description": "Verstehe die Bedeutung des Trauerurlaubs für Beschäftigte, die mit einem Verlust fertig werden müssen. In unserem Glossar erfährst du, wie sie in die Arbeitsplatzpolitik passt und das Wohlbefinden der Beschäftigten unterstützt.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253493,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e2b4d00b30ef78ad-de-ch-ressourcen-hr-glossar-abwesenheitsurlaub.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e2b4d00b30ef78ad-de-ch-ressourcen-hr-glossar-abwesenheitsurlaub.direct.json",
+  "markdownChars": 3227,
+  "linksCount": 122,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:20.580Z"
+}

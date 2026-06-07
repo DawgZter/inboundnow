@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/country-explorer/canada/types-of-leave",
+  "sourceURL": "https://remote.com/en-za/country-explorer/canada/types-of-leave",
+  "finalURL": "https://remote.com/en-za/country-explorer/canada/types-of-leave",
+  "title": "Types of Leave in Canada | Employee Leave Laws",
+  "description": "Understand employee leave laws in Canada. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263188,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/28db4bb53e74fcd3-en-za-country-explorer-canada-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/28db4bb53e74fcd3-en-za-country-explorer-canada-types-of-leave.direct.json",
+  "markdownChars": 2682,
+  "linksCount": 130,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:01:20.895Z"
+}

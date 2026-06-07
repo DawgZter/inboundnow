@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-au/resources/job-descriptions/email-marketing-specialist-job-description",
+  "sourceURL": "https://remote.com/en-au/resources/job-descriptions/email-marketing-specialist-job-description",
+  "finalURL": "https://remote.com/en-au/resources/job-descriptions/email-marketing-specialist-job-description",
+  "title": "Email marketing specialist job description",
+  "description": "Review the job description for email marketing specialist, responsible for creating and managing email campaigns, analyzing performance metrics, and optimizing engagement strategies.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260060,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c51af36dc95a0579-en-au-resources-job-descriptions-email-marketing-specialist-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c51af36dc95a0579-en-au-resources-job-descriptions-email-marketing-specialist-job-description.direct.json",
+  "markdownChars": 4869,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:01:14.903Z"
+}

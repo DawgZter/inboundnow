@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/costa-rica/contractor-management",
+  "sourceURL": "https://remote.com/de-at/country-explorer/costa-rica/contractor-management",
+  "finalURL": "https://remote.com/de-at/country-explorer/costa-rica/contractor-management",
+  "title": "Auftragnehmer:innen in Costa Rica verwalten | Contractor Management",
+  "description": "Stellst du eine:n Auftragnehmer:in in Costa Rica ein? Verwalte und bezahle globale Auftragnehmer:innen mühelos mit unseren flexiblen Diensten für Contractor Management.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258929,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8636f8a9ccd2c329-de-at-country-explorer-costa-rica-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8636f8a9ccd2c329-de-at-country-explorer-costa-rica-contractor-management.direct.json",
+  "markdownChars": 2764,
+  "linksCount": 123,
+  "lastmod": "2025-12-17",
+  "scrapedAt": "2026-06-07T09:06:25.975Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ca/resources/hr-glossary/pre-money-valuation",
+  "sourceURL": "https://remote.com/en-ca/resources/hr-glossary/pre-money-valuation",
+  "finalURL": "https://remote.com/en-ca/resources/hr-glossary/pre-money-valuation",
+  "title": "What is pre money valuation",
+  "description": "Explore our HR glossary to understand pre money valuation, its role in investment deals, and how it impacts company value before external funding or financing.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 253620,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ec318b6f96a96b71-en-ca-resources-hr-glossary-pre-money-valuation.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ec318b6f96a96b71-en-ca-resources-hr-glossary-pre-money-valuation.direct.json",
+  "markdownChars": 3427,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:04:02.463Z"
+}

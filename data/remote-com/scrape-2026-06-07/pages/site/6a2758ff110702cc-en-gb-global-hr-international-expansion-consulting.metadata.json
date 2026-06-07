@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/global-hr/international-expansion-consulting",
+  "sourceURL": "https://remote.com/en-gb/global-hr/international-expansion-consulting",
+  "finalURL": "https://remote.com/en-gb/global-hr/international-expansion-consulting",
+  "title": "Consulting Services | Remote",
+  "description": "Take your global growth plans to the next level, talk with our experts and get the answers you need to simplify and streamline your expansion.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 361569,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6a2758ff110702cc-en-gb-global-hr-international-expansion-consulting.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6a2758ff110702cc-en-gb-global-hr-international-expansion-consulting.direct.json",
+  "markdownChars": 6542,
+  "linksCount": 115,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:17:06.344Z"
+}

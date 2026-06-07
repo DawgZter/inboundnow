@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/ressources/descriptions-postes/representant-developpement-ventes-description-poste",
+  "sourceURL": "https://remote.com/fr-ch/ressources/descriptions-postes/representant-developpement-ventes-description-poste",
+  "finalURL": "https://remote.com/fr-ch/ressources/descriptions-postes/representant-developpement-ventes-description-poste",
+  "title": "Description du poste de représentant du développement des ventes",
+  "description": "Examinez la description de poste d'un représentant en développement des ventes, chargé d'identifier et de qualifier les clients potentiels, d'établir des relations avec les clients et de soutenir les stratégies de vente.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263861,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56f7f2e544b6187c-fr-ch-ressources-descriptions-postes-representant-developpement-ventes-description-poste.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/56f7f2e544b6187c-fr-ch-ressources-descriptions-postes-representant-developpement-ventes-description-poste.direct.json",
+  "markdownChars": 4687,
+  "linksCount": 115,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:04:35.690Z"
+}

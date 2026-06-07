@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/argentine/guide-avantages",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/argentine/guide-avantages",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/argentine/guide-avantages",
+  "title": "Avantages sociaux en Argentine | Plans d’avantages sociaux",
+  "description": "Découvrez les avantages sociaux essentiels en Argentine et comment l’assurance santé, les congés payés et d’autres avantages peuvent vous aider à attirer et à fidéliser les meilleurs talents.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 274324,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0befa51c5573ce3a-fr-fr-explorateur-de-pays-argentine-guide-avantages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0befa51c5573ce3a-fr-fr-explorateur-de-pays-argentine-guide-avantages.direct.json",
+  "markdownChars": 1792,
+  "linksCount": 123,
+  "lastmod": "2026-01-09",
+  "scrapedAt": "2026-06-07T09:13:53.495Z"
+}

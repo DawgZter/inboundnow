@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/country-explorer/moldova/employer-of-record",
+  "sourceURL": "https://remote.com/ja-jp/country-explorer/moldova/employer-of-record",
+  "finalURL": "https://remote.com/ja-jp/country-explorer/moldova/employer-of-record",
+  "title": "モルドバでのEmployer of Record (EOR) | EORサービス",
+  "description": "モルドバでの雇用を当社のEmployer of Record (EOR)サービスで簡素化します。給与処理、福利厚生、法令遵守を円滑に管理できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260616,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8baee950e64c9f2e-ja-jp-country-explorer-moldova-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8baee950e64c9f2e-ja-jp-country-explorer-moldova-employer-of-record.direct.json",
+  "markdownChars": 1483,
+  "linksCount": 122,
+  "lastmod": "2025-09-30",
+  "scrapedAt": "2026-06-07T09:06:08.935Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/research/set-up-as-freelance-contractor",
+  "sourceURL": "https://remote.com/ja-jp/resources/research/set-up-as-freelance-contractor",
+  "finalURL": "https://remote.com/ja-jp/resources/research/set-up-as-freelance-contractor",
+  "title": "フリーランス契約社員として独立し、給与を受け取る方法 | Remote | Remote",
+  "description": "国内外の顧客を獲得できるよう、フリーランサーや契約社員として独立し、給与を受け取る方法を理解しましょう。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 299217,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/810be1dbf01dfe54-ja-jp-resources-research-set-up-as-freelance-contractor.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/810be1dbf01dfe54-ja-jp-resources-research-set-up-as-freelance-contractor.direct.json",
+  "markdownChars": 8080,
+  "linksCount": 138,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:18:48.049Z"
+}

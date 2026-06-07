@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/country-explorer/italy",
+  "sourceURL": "https://remote.com/en-sg/country-explorer/italy",
+  "finalURL": "https://remote.com/en-sg/country-explorer/italy",
+  "title": "Employer of Record & Payroll Services | Italy",
+  "description": "Hiring employees and contractors in Italy? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 347640,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8233d62f17ba6ff0-en-sg-country-explorer-italy.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8233d62f17ba6ff0-en-sg-country-explorer-italy.direct.json",
+  "markdownChars": 5848,
+  "linksCount": 123,
+  "lastmod": "2026-03-26",
+  "scrapedAt": "2026-06-07T09:01:07.593Z"
+}

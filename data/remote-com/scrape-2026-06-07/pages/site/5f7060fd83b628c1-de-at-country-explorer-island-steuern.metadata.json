@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/island/steuern",
+  "sourceURL": "https://remote.com/de-at/country-explorer/island/steuern",
+  "finalURL": "https://remote.com/de-at/country-explorer/island/steuern",
+  "title": "Lohnnebenkosten in Iceland | Steuerrecht",
+  "description": "Bezahle Lohnsteuern in '.Island.' effizient und rechtskonform. Vermeide Berechnungsfehler, die deinem Unternehmen teuer zu stehen kommen können.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258514,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5f7060fd83b628c1-de-at-country-explorer-island-steuern.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5f7060fd83b628c1-de-at-country-explorer-island-steuern.direct.json",
+  "markdownChars": 1341,
+  "linksCount": 122,
+  "lastmod": "2025-05-26",
+  "scrapedAt": "2026-06-07T09:06:25.602Z"
+}

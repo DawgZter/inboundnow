@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/marrocos/impostos",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/marrocos/impostos",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/marrocos/impostos",
+  "title": "Gere os impostos do processamento salarial em Marrocos | Conformidade fiscal",
+  "description": "Gere os impostos do processamento salarial em Marrocos de forma eficiente e em conformidade. Minimiza erros no processamento salarial, cumpre a legislação local e evita coimas elevadas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 156752,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e11a1c09153786a0-pt-pt-explorar-pais-marrocos-impostos.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e11a1c09153786a0-pt-pt-explorar-pais-marrocos-impostos.direct.json",
+  "markdownChars": 1659,
+  "linksCount": 43,
+  "lastmod": "2026-02-27",
+  "scrapedAt": "2026-06-07T09:06:20.822Z"
+}

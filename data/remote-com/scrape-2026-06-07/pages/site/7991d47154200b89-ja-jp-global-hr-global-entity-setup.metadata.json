@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/global-hr/global-entity-setup",
+  "sourceURL": "https://remote.com/ja-jp/global-hr/global-entity-setup",
+  "finalURL": "https://remote.com/ja-jp/global-hr/global-entity-setup",
+  "title": "グローバル法人の設立 | Remote",
+  "description": "Remoteは、さまざまな国から人材を採用するためのワンストップ型ソリューションです。成長企業が世界中の優秀な人材を採用できるようサポートします。当社の給与、福利厚生、税金、コンプライアンに対応したスソリューションにより、企業はグローバルなリソースを活用できます。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 290493,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7991d47154200b89-ja-jp-global-hr-global-entity-setup.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7991d47154200b89-ja-jp-global-hr-global-entity-setup.direct.json",
+  "markdownChars": 1660,
+  "linksCount": 112,
+  "lastmod": "2025-06-28",
+  "scrapedAt": "2026-06-07T09:01:04.462Z"
+}

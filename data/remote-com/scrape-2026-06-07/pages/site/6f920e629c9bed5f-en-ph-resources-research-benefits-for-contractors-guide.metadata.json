@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/research/benefits-for-contractors-guide",
+  "sourceURL": "https://remote.com/en-ph/resources/research/benefits-for-contractors-guide",
+  "finalURL": "https://remote.com/en-ph/resources/research/benefits-for-contractors-guide",
+  "title": "Benefits for Contractors Guide | Remote | Remote",
+  "description": "Share this guide with your team and network, and anyone eager to learn how to offer benefits to international contractors.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259740,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6f920e629c9bed5f-en-ph-resources-research-benefits-for-contractors-guide.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6f920e629c9bed5f-en-ph-resources-research-benefits-for-contractors-guide.direct.json",
+  "markdownChars": 1146,
+  "linksCount": 113,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:01:28.775Z"
+}

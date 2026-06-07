@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/global-hr/learning-management",
+  "sourceURL": "https://remote.com/en-sg/global-hr/learning-management",
+  "finalURL": "https://remote.com/en-sg/global-hr/learning-management",
+  "title": "Learning Management Software | Remote",
+  "description": "Discover Remote Learning, a modern learning management system built into your HRIS. Automate development, connect learning to performance, and track team progress in one place.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 330870,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/67764a5343bf9283-en-sg-global-hr-learning-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/67764a5343bf9283-en-sg-global-hr-learning-management.direct.json",
+  "markdownChars": 3118,
+  "linksCount": 118,
+  "lastmod": "2025-08-27",
+  "scrapedAt": "2026-06-07T09:01:05.494Z"
+}

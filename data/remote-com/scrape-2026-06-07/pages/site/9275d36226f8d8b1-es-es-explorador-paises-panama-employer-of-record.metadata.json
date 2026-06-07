@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/panama/employer-of-record",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/panama/employer-of-record",
+  "finalURL": "https://remote.com/es-es/explorador-paises/panama/employer-of-record",
+  "title": "Employer of Record en Panamá (EOR) | Servicios de EOR",
+  "description": "Simplifica la contratación en Panamá con nuestros servicios de Employer of Record. Gestiona la nómina, las prestaciones y el cumplimiento normativo sin complicaciones.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261776,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9275d36226f8d8b1-es-es-explorador-paises-panama-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/9275d36226f8d8b1-es-es-explorador-paises-panama-employer-of-record.direct.json",
+  "markdownChars": 3619,
+  "linksCount": 121,
+  "lastmod": "2025-09-29",
+  "scrapedAt": "2026-06-07T09:00:59.941Z"
+}

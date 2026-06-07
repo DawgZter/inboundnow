@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/global-hr/payroll-reporting",
+  "sourceURL": "https://remote.com/en-sg/global-hr/payroll-reporting",
+  "finalURL": "https://remote.com/en-sg/global-hr/payroll-reporting",
+  "title": "Payroll Reporting Library | Remote",
+  "description": "Remote’s Payroll Reporting Library is a powerful tool that helps analyze business data, manage finances, optimize the workforce, and plan efficiently for the future.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 311586,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c8a4485ca000cf0a-en-sg-global-hr-payroll-reporting.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c8a4485ca000cf0a-en-sg-global-hr-payroll-reporting.direct.json",
+  "markdownChars": 5723,
+  "linksCount": 120,
+  "lastmod": "2025-04-23",
+  "scrapedAt": "2026-06-07T09:01:13.249Z"
+}

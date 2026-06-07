@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/explorador-paises/belgica/rescision-empleo",
+  "sourceURL": "https://remote.com/es-es/explorador-paises/belgica/rescision-empleo",
+  "finalURL": "https://remote.com/es-es/explorador-paises/belgica/rescision-empleo",
+  "title": "Rescindir a empleados en Bélgica | Rescisión de empleo",
+  "description": "¿Necesitas rescindir el contrato a un empleado en Bélgica? Descubre tus derechos en nuestra guía completa sobre las leyes de rescisión laboral.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260496,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ad0c2afc94cfdcde-es-es-explorador-paises-belgica-rescision-empleo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ad0c2afc94cfdcde-es-es-explorador-paises-belgica-rescision-empleo.direct.json",
+  "markdownChars": 2269,
+  "linksCount": 122,
+  "lastmod": "2025-09-24",
+  "scrapedAt": "2026-06-07T09:08:14.454Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/thailand/beeindiging-van-dienstverband",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/thailand/beeindiging-van-dienstverband",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/thailand/beeindiging-van-dienstverband",
+  "title": "Beëindiging van het dienstverband in Thailand | Beëindiging van het dienstverband",
+  "description": "Hoe beëindig je het dienstverband met een werknemer in Thailand? Ken je rechten en lees onze uitgebreide gids over de wetgeving voor beëindiging van dienstverbanden.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 261302,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae0bb765f4694049-nl-nl-landenverkenner-thailand-beeindiging-van-dienstverband.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ae0bb765f4694049-nl-nl-landenverkenner-thailand-beeindiging-van-dienstverband.direct.json",
+  "markdownChars": 1955,
+  "linksCount": 124,
+  "lastmod": "2025-09-23",
+  "scrapedAt": "2026-06-07T09:02:02.966Z"
+}

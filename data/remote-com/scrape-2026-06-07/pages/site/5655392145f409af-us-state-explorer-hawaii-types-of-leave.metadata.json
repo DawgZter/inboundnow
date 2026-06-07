@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/us-state-explorer/hawaii/types-of-leave",
+  "sourceURL": "https://remote.com/us-state-explorer/hawaii/types-of-leave",
+  "finalURL": "https://remote.com/us-state-explorer/hawaii/types-of-leave",
+  "title": "Types of Leave in Hawaii | Employee Leave Laws",
+  "description": "Understand employee leave laws in Hawaii. Ensure your business complies with leave policies and offers competitive PTO.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257528,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5655392145f409af-us-state-explorer-hawaii-types-of-leave.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5655392145f409af-us-state-explorer-hawaii-types-of-leave.direct.json",
+  "markdownChars": 2535,
+  "linksCount": 112,
+  "lastmod": "2025-04-28",
+  "scrapedAt": "2026-06-07T09:11:40.393Z"
+}

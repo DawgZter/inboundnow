@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/uruguay/payroll",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/uruguay/payroll",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/uruguay/payroll",
+  "title": "Werknemers betalen in Uruguay | Payrollservices",
+  "description": "Betaal werknemers in Uruguay moeiteloos met onze flexibele Payrollservices. Voer payroll uit, beheer onkosten en maak rapportages, allemaal vanuit één plek.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256528,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b75caa062248a0c-nl-be-landenverkenner-uruguay-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8b75caa062248a0c-nl-be-landenverkenner-uruguay-payroll.direct.json",
+  "markdownChars": 3828,
+  "linksCount": 127,
+  "lastmod": "2025-12-15",
+  "scrapedAt": "2026-06-07T09:10:25.239Z"
+}

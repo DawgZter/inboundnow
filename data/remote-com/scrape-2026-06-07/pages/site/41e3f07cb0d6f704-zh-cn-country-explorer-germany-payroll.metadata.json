@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/germany/payroll",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/germany/payroll",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/germany/payroll",
+  "title": "在德国为员工发薪 | 薪资服务",
+  "description": "使用我们灵活的薪资服务，轻松在德国为员工发薪。统一平台即可执行薪资、管理报销并生成报告。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257596,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/41e3f07cb0d6f704-zh-cn-country-explorer-germany-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/41e3f07cb0d6f704-zh-cn-country-explorer-germany-payroll.direct.json",
+  "markdownChars": 1037,
+  "linksCount": 123,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:09:29.840Z"
+}

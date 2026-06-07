@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/resources/recruiting-internationally-tech-talent-report",
+  "sourceURL": "https://remote.com/resources/recruiting-internationally-tech-talent-report",
+  "finalURL": "https://remote.com/resources/recruiting-internationally-tech-talent-report",
+  "title": "Expert advice on recruiting internationally | Remote",
+  "description": "Over 1400 business leaders across the world shared their views and attitudes with Remote about finding the best tech talent. Learn how hiring internationally can help you find top class professionals.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 389880,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6decb66abed90bfe-resources-recruiting-internationally-tech-talent-report.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6decb66abed90bfe-resources-recruiting-internationally-tech-talent-report.direct.json",
+  "markdownChars": 20043,
+  "linksCount": 117,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:16:26.119Z"
+}

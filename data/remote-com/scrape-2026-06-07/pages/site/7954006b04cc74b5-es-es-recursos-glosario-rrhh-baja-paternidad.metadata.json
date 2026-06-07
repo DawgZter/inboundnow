@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/recursos/glosario-rrhh/baja-paternidad",
+  "sourceURL": "https://remote.com/es-es/recursos/glosario-rrhh/baja-paternidad",
+  "finalURL": "https://remote.com/es-es/recursos/glosario-rrhh/baja-paternidad",
+  "title": "Baja de paternidad",
+  "description": "Descubra qué es el permiso de paternidad, cómo ayuda a los padres que no dan a luz y cómo lo utilizan las empresas para promover la igualdad y cumplir con los requisitos normativos a nivel mundial.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257431,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7954006b04cc74b5-es-es-recursos-glosario-rrhh-baja-paternidad.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7954006b04cc74b5-es-es-recursos-glosario-rrhh-baja-paternidad.direct.json",
+  "markdownChars": 5283,
+  "linksCount": 121,
+  "lastmod": "2025-07-22",
+  "scrapedAt": "2026-06-07T09:01:08.430Z"
+}

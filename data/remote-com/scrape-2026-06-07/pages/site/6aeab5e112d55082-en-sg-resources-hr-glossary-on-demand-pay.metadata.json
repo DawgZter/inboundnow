@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/resources/hr-glossary/on-demand-pay",
+  "sourceURL": "https://remote.com/en-sg/resources/hr-glossary/on-demand-pay",
+  "finalURL": "https://remote.com/en-sg/resources/hr-glossary/on-demand-pay",
+  "title": "What is on-demand pay?",
+  "description": "Explore the concept of on-demand pay and its benefits for employers and employees. Visit our glossary to see how this flexible payment option is changing the workplace.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 251928,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6aeab5e112d55082-en-sg-resources-hr-glossary-on-demand-pay.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6aeab5e112d55082-en-sg-resources-hr-glossary-on-demand-pay.direct.json",
+  "markdownChars": 3383,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:04:17.276Z"
+}

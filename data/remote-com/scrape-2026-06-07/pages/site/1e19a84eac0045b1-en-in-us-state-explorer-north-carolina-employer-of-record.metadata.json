@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-in/us-state-explorer/north-carolina/employer-of-record",
+  "sourceURL": "https://remote.com/en-in/us-state-explorer/north-carolina/employer-of-record",
+  "finalURL": "https://remote.com/en-in/us-state-explorer/north-carolina/employer-of-record",
+  "title": "Employer of Record services in North Carolina",
+  "description": "Use employer of record services in North Carolina make hiring, managing, and paying top talent easy. Stay compliant in North Carolina and streamline your payroll with Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258811,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1e19a84eac0045b1-en-in-us-state-explorer-north-carolina-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/1e19a84eac0045b1-en-in-us-state-explorer-north-carolina-employer-of-record.direct.json",
+  "markdownChars": 3386,
+  "linksCount": 113,
+  "lastmod": "2026-01-14",
+  "scrapedAt": "2026-06-07T09:01:31.973Z"
+}

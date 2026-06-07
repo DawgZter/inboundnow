@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/hr-glossar/business-visum",
+  "sourceURL": "https://remote.com/de-at/ressourcen/hr-glossar/business-visum",
+  "finalURL": "https://remote.com/de-at/ressourcen/hr-glossar/business-visum",
+  "title": "What is a business visa?",
+  "description": "Erfahre, wie wichtig ein Geschäftsvisum für internationale Reisen und Arbeit ist. In unserem Glossar erfährst du, welche Auswirkungen dies auf die globalen Geschäftsabläufe und die Einhaltung von Vorschriften hat.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254326,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5566eff1b6c08c71-de-at-ressourcen-hr-glossar-business-visum.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/5566eff1b6c08c71-de-at-ressourcen-hr-glossar-business-visum.direct.json",
+  "markdownChars": 4346,
+  "linksCount": 121,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:01:32.953Z"
+}

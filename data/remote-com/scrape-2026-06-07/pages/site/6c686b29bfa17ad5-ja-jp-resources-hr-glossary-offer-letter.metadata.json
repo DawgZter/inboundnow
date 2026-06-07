@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/ja-jp/resources/hr-glossary/offer-letter",
+  "sourceURL": "https://remote.com/ja-jp/resources/hr-glossary/offer-letter",
+  "finalURL": "https://remote.com/ja-jp/resources/hr-glossary/offer-letter",
+  "title": "オファーレター",
+  "description": "HR用語集では、オファーレターについて、採用プロセスにおけるその役割、雇用主と求職者の間の主要な雇用条件の概要についてご紹介しています。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255771,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c686b29bfa17ad5-ja-jp-resources-hr-glossary-offer-letter.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6c686b29bfa17ad5-ja-jp-resources-hr-glossary-offer-letter.direct.json",
+  "markdownChars": 2104,
+  "linksCount": 121,
+  "lastmod": "2025-05-29",
+  "scrapedAt": "2026-06-07T09:17:34.191Z"
+}

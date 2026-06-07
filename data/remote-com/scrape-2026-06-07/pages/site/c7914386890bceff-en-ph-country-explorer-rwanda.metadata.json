@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/country-explorer/rwanda",
+  "sourceURL": "https://remote.com/en-ph/country-explorer/rwanda",
+  "finalURL": "https://remote.com/en-ph/country-explorer/rwanda",
+  "title": "Employer of Record & Payroll Services | Rwanda",
+  "description": "Hiring employees and contractors in Rwanda? Remote can help manage employees and contractors through our integrated global hr platform. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 308771,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c7914386890bceff-en-ph-country-explorer-rwanda.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c7914386890bceff-en-ph-country-explorer-rwanda.direct.json",
+  "markdownChars": 3150,
+  "linksCount": 116,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:17:23.766Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-ch/country-explorer/sao-tome-principe",
+  "sourceURL": "https://remote.com/de-ch/country-explorer/sao-tome-principe",
+  "finalURL": "https://remote.com/de-ch/country-explorer/sao-tome-principe",
+  "title": "Employer-of-Record- und Payroll-Services | São Tomé und Príncipe",
+  "description": "Du suchst Mitarbeiter:innen und Auftragnehmer:innen in São Tomé und Príncipe? Remote unterstützt dich mit seiner integrierten globalen HR-Plattform bei der Verwaltung von Mitarbeiter:innen und Auftragnehmer:innen. ",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 311540,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/18a669f49375cad1-de-ch-country-explorer-sao-tome-principe.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/18a669f49375cad1-de-ch-country-explorer-sao-tome-principe.direct.json",
+  "markdownChars": 3946,
+  "linksCount": 120,
+  "lastmod": "2025-06-03",
+  "scrapedAt": "2026-06-07T09:15:33.216Z"
+}

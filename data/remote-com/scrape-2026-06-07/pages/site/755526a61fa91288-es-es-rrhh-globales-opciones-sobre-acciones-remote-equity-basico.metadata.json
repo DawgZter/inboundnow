@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/rrhh-globales/opciones-sobre-acciones/remote-equity-basico",
+  "sourceURL": "https://remote.com/es-es/rrhh-globales/opciones-sobre-acciones/remote-equity-basico",
+  "finalURL": "https://remote.com/es-es/rrhh-globales/opciones-sobre-acciones/remote-equity-basico",
+  "title": "Soluciones de RR. HH. globales y herramientas de empleo para equipos distribuidos | Remote",
+  "description": "",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 373097,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/755526a61fa91288-es-es-rrhh-globales-opciones-sobre-acciones-remote-equity-basico.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/755526a61fa91288-es-es-rrhh-globales-opciones-sobre-acciones-remote-equity-basico.direct.json",
+  "markdownChars": 8388,
+  "linksCount": 117,
+  "lastmod": "2025-11-19",
+  "scrapedAt": "2026-06-07T09:06:03.784Z"
+}

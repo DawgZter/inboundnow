@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/explorateur-de-pays/royaume-uni/taxes",
+  "sourceURL": "https://remote.com/fr-be/explorateur-de-pays/royaume-uni/taxes",
+  "finalURL": "https://remote.com/fr-be/explorateur-de-pays/royaume-uni/taxes",
+  "title": "United Kingdom : Gérer l’imposition de la paie | Conformité fiscale",
+  "description": "Royaume Uni : Gérez efficacement l’imposition de la paie, en toute conformité. Réduisez les erreurs d’imposition de la paie, respectez le droit local et évitez de coûteuses amendes.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 263142,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7d82b5a5be3fc122-fr-be-explorateur-de-pays-royaume-uni-taxes.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/7d82b5a5be3fc122-fr-be-explorateur-de-pays-royaume-uni-taxes.direct.json",
+  "markdownChars": 1266,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:11:12.795Z"
+}

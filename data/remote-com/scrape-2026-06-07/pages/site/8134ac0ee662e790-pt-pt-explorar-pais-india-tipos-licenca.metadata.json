@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/pt-pt/explorar-pais/india/tipos-licenca",
+  "sourceURL": "https://remote.com/pt-pt/explorar-pais/india/tipos-licenca",
+  "finalURL": "https://remote.com/pt-pt/explorar-pais/india/tipos-licenca",
+  "title": "Regimes de licenças na Índia | Legislação sobre os regimes de licenças",
+  "description": "Percebe a legislação sobre os regimes de licenças na Índia. Garante que o teu negócio cumpre as políticas sobre o regime de licenças e oferece férias remuneradas competitivas.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 155020,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8134ac0ee662e790-pt-pt-explorar-pais-india-tipos-licenca.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/8134ac0ee662e790-pt-pt-explorar-pais-india-tipos-licenca.direct.json",
+  "markdownChars": 2384,
+  "linksCount": 45,
+  "lastmod": "2026-02-26",
+  "scrapedAt": "2026-06-07T09:06:23.622Z"
+}

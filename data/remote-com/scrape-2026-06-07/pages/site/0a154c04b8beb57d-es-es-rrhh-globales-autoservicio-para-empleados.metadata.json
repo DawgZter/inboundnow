@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/es-es/rrhh-globales/autoservicio-para-empleados",
+  "sourceURL": "https://remote.com/es-es/rrhh-globales/autoservicio-para-empleados",
+  "finalURL": "https://remote.com/es-es/rrhh-globales/autoservicio-para-empleados",
+  "title": "Autoservicio para empleados | Remote",
+  "description": "Deja que tu equipo global se beneficie del autoservicio en cuanto a nóminas, solicitudes de vacaciones, prestaciones y mucho más. Utiliza nuestra web o aplicación móvil para aumentar la eficacia desde cualquier parte.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 307252,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a154c04b8beb57d-es-es-rrhh-globales-autoservicio-para-empleados.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a154c04b8beb57d-es-es-rrhh-globales-autoservicio-para-empleados.direct.json",
+  "markdownChars": 4673,
+  "linksCount": 117,
+  "lastmod": "2025-04-23",
+  "scrapedAt": "2026-06-07T09:11:16.481Z"
+}

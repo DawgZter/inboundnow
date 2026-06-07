@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/gegevens-analist-baanomschrijving",
+  "sourceURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/gegevens-analist-baanomschrijving",
+  "finalURL": "https://remote.com/nl-be/bronnen/functiebeschrijvingen/gegevens-analist-baanomschrijving",
+  "title": "Functieomschrijving gegevensanalist",
+  "description": "Bekijk de functiebeschrijving voor een gegevensanalist, die verantwoordelijk is voor het verzamelen, analyseren en interpreteren van gegevens om organisaties te helpen weloverwogen zakelijke beslissingen te nemen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 257253,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/13a7250560f036b0-nl-be-bronnen-functiebeschrijvingen-gegevens-analist-baanomschrijving.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/13a7250560f036b0-nl-be-bronnen-functiebeschrijvingen-gegevens-analist-baanomschrijving.direct.json",
+  "markdownChars": 5064,
+  "linksCount": 117,
+  "lastmod": "2025-06-06",
+  "scrapedAt": "2026-06-07T09:07:03.254Z"
+}

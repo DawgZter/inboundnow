@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/global-hr/global-payroll",
+  "sourceURL": "https://remote.com/global-hr/global-payroll",
+  "finalURL": "https://remote.com/global-hr/global-payroll",
+  "title": "Global and International Payroll Made Easy | Remote",
+  "description": "Consolidate your multi-country payroll process with Remote. We’ll handle taxes, payments, and compliance with Remote Global Payroll.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 447359,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e2dfc1a215a360d5-global-hr-global-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/e2dfc1a215a360d5-global-hr-global-payroll.direct.json",
+  "markdownChars": 10917,
+  "linksCount": 128,
+  "lastmod": "2026-04-10",
+  "scrapedAt": "2026-06-07T09:18:51.664Z"
+}

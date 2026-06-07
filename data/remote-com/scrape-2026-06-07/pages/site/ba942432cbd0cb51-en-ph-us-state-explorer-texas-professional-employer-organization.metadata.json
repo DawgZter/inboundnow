@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/us-state-explorer/texas/professional-employer-organization",
+  "sourceURL": "https://remote.com/en-ph/us-state-explorer/texas/professional-employer-organization",
+  "finalURL": "https://remote.com/en-ph/us-state-explorer/texas/professional-employer-organization",
+  "title": "Scale your team with a PEO in Texas",
+  "description": "Simplify HR and payroll with a PEO in Texas. Learn how to stay compliant, offer better benefits, and scale your team with confidence.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259247,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ba942432cbd0cb51-en-ph-us-state-explorer-texas-professional-employer-organization.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ba942432cbd0cb51-en-ph-us-state-explorer-texas-professional-employer-organization.direct.json",
+  "markdownChars": 3882,
+  "linksCount": 112,
+  "lastmod": "2026-01-13",
+  "scrapedAt": "2026-06-07T09:12:11.840Z"
+}

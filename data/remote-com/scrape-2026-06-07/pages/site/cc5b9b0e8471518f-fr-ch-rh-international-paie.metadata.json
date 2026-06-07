@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-ch/rh-international/paie",
+  "sourceURL": "https://remote.com/fr-ch/rh-international/paie",
+  "finalURL": "https://remote.com/fr-ch/rh-international/paie",
+  "title": "Paie multipays – Gestion intégrée de la paie | Remote",
+  "description": "Streamline your international payroll processing with Global Payroll Payments. Automate secure payments to employees and tax authorities around the world. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 330883,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc5b9b0e8471518f-fr-ch-rh-international-paie.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/cc5b9b0e8471518f-fr-ch-rh-international-paie.direct.json",
+  "markdownChars": 11101,
+  "linksCount": 120,
+  "lastmod": "2025-04-25",
+  "scrapedAt": "2026-06-07T09:15:35.999Z"
+}

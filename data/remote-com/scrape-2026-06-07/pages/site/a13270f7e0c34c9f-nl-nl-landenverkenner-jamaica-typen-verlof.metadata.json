@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-nl/landenverkenner/jamaica/typen-verlof",
+  "sourceURL": "https://remote.com/nl-nl/landenverkenner/jamaica/typen-verlof",
+  "finalURL": "https://remote.com/nl-nl/landenverkenner/jamaica/typen-verlof",
+  "title": "Typen verlof in Jamaica | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Jamaica. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 260645,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a13270f7e0c34c9f-nl-nl-landenverkenner-jamaica-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/a13270f7e0c34c9f-nl-nl-landenverkenner-jamaica-typen-verlof.direct.json",
+  "markdownChars": 1539,
+  "linksCount": 123,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:02:35.653Z"
+}

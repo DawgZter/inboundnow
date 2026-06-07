@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/hr-glossary/operating-budget",
+  "sourceURL": "https://remote.com/en-ph/resources/hr-glossary/operating-budget",
+  "finalURL": "https://remote.com/en-ph/resources/hr-glossary/operating-budget",
+  "title": "What is an operating budget?",
+  "description": "Understand what an operating budget is, why it's important, and how your business can create and manage one effectively.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254023,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0309559f911d75f9-en-ph-resources-hr-glossary-operating-budget.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0309559f911d75f9-en-ph-resources-hr-glossary-operating-budget.direct.json",
+  "markdownChars": 5392,
+  "linksCount": 118,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:07:54.722Z"
+}

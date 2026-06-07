@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/italie/employer-of-record",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/italie/employer-of-record",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/italie/employer-of-record",
+  "title": "Employer of Record in Italië | EOR-diensten",
+  "description": "Vereenvoudig tewerkstelling in Italië met onze Employer of Record-diensten. Beheer payroll, benefits en Compliance moeiteloos.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 255971,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/08d1164c527335bc-nl-be-landenverkenner-italie-employer-of-record.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/08d1164c527335bc-nl-be-landenverkenner-italie-employer-of-record.direct.json",
+  "markdownChars": 3446,
+  "linksCount": 127,
+  "lastmod": "2025-10-29",
+  "scrapedAt": "2026-06-07T09:06:18.778Z"
+}

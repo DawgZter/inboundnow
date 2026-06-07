@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/country-explorer/irland/contractor-management",
+  "sourceURL": "https://remote.com/de-de/country-explorer/irland/contractor-management",
+  "finalURL": "https://remote.com/de-de/country-explorer/irland/contractor-management",
+  "title": "Auftragnehmer:innen in Irland verwalten | Contractor Management",
+  "description": "Beauftragst du Auftragnehmer:innen in Irland? Verwalte und bezahle weltweite Auftragnehmer:innen mühelos mit unseren flexiblen Contractor Management‑Dienstleistungen.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259760,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3e66236a227c7041-de-de-country-explorer-irland-contractor-management.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3e66236a227c7041-de-de-country-explorer-irland-contractor-management.direct.json",
+  "markdownChars": 2671,
+  "linksCount": 124,
+  "lastmod": "2025-10-30",
+  "scrapedAt": "2026-06-07T09:07:55.437Z"
+}

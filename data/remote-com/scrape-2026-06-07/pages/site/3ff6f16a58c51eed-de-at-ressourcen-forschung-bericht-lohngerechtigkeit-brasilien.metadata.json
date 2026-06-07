@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/ressourcen/forschung/bericht-lohngerechtigkeit-brasilien",
+  "sourceURL": "https://remote.com/de-at/ressourcen/forschung/bericht-lohngerechtigkeit-brasilien",
+  "finalURL": "https://remote.com/de-at/ressourcen/forschung/bericht-lohngerechtigkeit-brasilien",
+  "title": "Brasilien: Bericht und Insights zur Lohngerechtigkeit | Remote",
+  "description": "Als Employer of Record (EOR) unterstützt Remote seine Kunden in Brasilien bei der Einführung von Best Practices zur Lohngerechtigkeit und setzt sich für mehr Transparenz und faire Gehälter ein.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 246578,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3ff6f16a58c51eed-de-at-ressourcen-forschung-bericht-lohngerechtigkeit-brasilien.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3ff6f16a58c51eed-de-at-ressourcen-forschung-bericht-lohngerechtigkeit-brasilien.direct.json",
+  "markdownChars": 1277,
+  "linksCount": 114,
+  "lastmod": "2025-10-14",
+  "scrapedAt": "2026-06-07T09:18:52.525Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-gb/global-hr/time-and-attendance-tracking",
+  "sourceURL": "https://remote.com/en-gb/global-hr/time-and-attendance-tracking",
+  "finalURL": "https://remote.com/en-gb/global-hr/time-and-attendance-tracking",
+  "title": "Time & Attendance Tracking | Remote",
+  "description": "Effortlessly track time & attendance for employees and contractors in a unified platform. Convenient time-off requests, calendar view & greater visibility all on Remote.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 321369,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c832ba5ffe58d8d0-en-gb-global-hr-time-and-attendance-tracking.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/c832ba5ffe58d8d0-en-gb-global-hr-time-and-attendance-tracking.direct.json",
+  "markdownChars": 6191,
+  "linksCount": 123,
+  "lastmod": "2025-04-29",
+  "scrapedAt": "2026-06-07T09:00:58.981Z"
+}

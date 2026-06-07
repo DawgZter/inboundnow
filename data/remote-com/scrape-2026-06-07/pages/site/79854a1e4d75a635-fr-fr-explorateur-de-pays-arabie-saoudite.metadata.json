@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/explorateur-de-pays/arabie-saoudite",
+  "sourceURL": "https://remote.com/fr-fr/explorateur-de-pays/arabie-saoudite",
+  "finalURL": "https://remote.com/fr-fr/explorateur-de-pays/arabie-saoudite",
+  "title": "Employer of Record (EOR) et services de paie | Arabie saoudite",
+  "description": "Recruter des employés et des freelances : Arabie saoudite Remote permet de gérer les employés et les freelances par le biais de sa plateforme de RH à l’international intégrée. ",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 345102,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/79854a1e4d75a635-fr-fr-explorateur-de-pays-arabie-saoudite.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/79854a1e4d75a635-fr-fr-explorateur-de-pays-arabie-saoudite.direct.json",
+  "markdownChars": 6350,
+  "linksCount": 123,
+  "lastmod": "2025-10-07",
+  "scrapedAt": "2026-06-07T09:02:23.205Z"
+}

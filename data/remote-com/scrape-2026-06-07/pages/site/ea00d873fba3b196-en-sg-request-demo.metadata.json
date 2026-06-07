@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-sg/request-demo",
+  "sourceURL": "https://remote.com/en-sg/request-demo",
+  "finalURL": "https://remote.com/en-sg/request-demo",
+  "title": "Book a Demo | Remote",
+  "description": "Book a Live Demo today and complete your to-do list without opening a second tab. Approve payroll, manage your team, find qualified candidates, and consolidate your HR data, all on one platform.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 266533,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ea00d873fba3b196-en-sg-request-demo.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/ea00d873fba3b196-en-sg-request-demo.direct.json",
+  "markdownChars": 281,
+  "linksCount": 111,
+  "lastmod": "2026-02-14",
+  "scrapedAt": "2026-06-07T09:08:20.078Z"
+}

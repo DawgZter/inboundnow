@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/ressources/recherche/guide-expert-conformite-rh-remote",
+  "sourceURL": "https://remote.com/fr-be/ressources/recherche/guide-expert-conformite-rh-remote",
+  "finalURL": "https://remote.com/fr-be/ressources/recherche/guide-expert-conformite-rh-remote",
+  "title": "Guide d’expert de conformité RH | Remote",
+  "description": "Téléchargez gratuitement notre guide pour protéger votre entreprise en pleine expansion internationale contre les risques de conformité RH. Bénéficiez de conseils d’experts sur l’attribution des statuts, les avantages sociaux et la paie",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 274932,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3f18c31736abf5e2-fr-be-ressources-recherche-guide-expert-conformite-rh-remote.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/3f18c31736abf5e2-fr-be-ressources-recherche-guide-expert-conformite-rh-remote.direct.json",
+  "markdownChars": 1295,
+  "linksCount": 114,
+  "lastmod": "2026-01-30",
+  "scrapedAt": "2026-06-07T09:06:07.040Z"
+}

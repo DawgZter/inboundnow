@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/rh-international/paie-multipays",
+  "sourceURL": "https://remote.com/fr-fr/rh-international/paie-multipays",
+  "finalURL": "https://remote.com/fr-fr/rh-international/paie-multipays",
+  "title": "La paie multipays et internationale facilitée | Remote",
+  "description": "Consolidez vos services de paie multipays avec Remote. Nous nous occupons des taxes, des paiements et de la conformité via le service de paie multipays de Remote.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 446935,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/04ac6c6beab1d0a3-fr-fr-rh-international-paie-multipays.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/04ac6c6beab1d0a3-fr-fr-rh-international-paie-multipays.direct.json",
+  "markdownChars": 13639,
+  "linksCount": 127,
+  "lastmod": "2026-04-20",
+  "scrapedAt": "2026-06-07T09:18:43.606Z"
+}

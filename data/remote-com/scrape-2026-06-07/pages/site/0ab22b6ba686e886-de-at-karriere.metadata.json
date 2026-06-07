@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/karriere",
+  "sourceURL": "https://remote.com/de-at/karriere",
+  "finalURL": "https://remote.com/de-at/karriere",
+  "title": "Karriere bei Remote | Remote",
+  "description": "Wenn du eine kreative Aufgabe suchst, die dich erfüllt und an keinen Ort der Welt bindet, bist du bei uns genau richtig.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 306196,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0ab22b6ba686e886-de-at-karriere.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0ab22b6ba686e886-de-at-karriere.direct.json",
+  "markdownChars": 8430,
+  "linksCount": 121,
+  "lastmod": "2025-12-01",
+  "scrapedAt": "2026-06-07T09:07:48.420Z"
+}

@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-at/country-explorer/portugal/freistellungsarten",
+  "sourceURL": "https://remote.com/de-at/country-explorer/portugal/freistellungsarten",
+  "finalURL": "https://remote.com/de-at/country-explorer/portugal/freistellungsarten",
+  "title": "Urlaubsansprüche in Portugal | Urlaubsrecht",
+  "description": "Erfahre mehr zum Urlaubsrecht in Portugal. Stelle sicher, dass sich dein Unternehmen an die Gesetze hält und attraktive Urlaubsregelungen anbietet.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 258397,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/82eefb36d2efc5b0-de-at-country-explorer-portugal-freistellungsarten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/82eefb36d2efc5b0-de-at-country-explorer-portugal-freistellungsarten.direct.json",
+  "markdownChars": 2267,
+  "linksCount": 123,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:02:30.339Z"
+}

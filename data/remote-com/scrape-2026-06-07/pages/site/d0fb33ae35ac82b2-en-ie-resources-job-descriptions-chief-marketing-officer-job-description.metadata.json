@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/resources/job-descriptions/chief-marketing-officer-job-description",
+  "sourceURL": "https://remote.com/en-ie/resources/job-descriptions/chief-marketing-officer-job-description",
+  "finalURL": "https://remote.com/en-ie/resources/job-descriptions/chief-marketing-officer-job-description",
+  "title": "Chief marketing officer job description",
+  "description": "Review the job description for a Chief Marketing Officer, responsible for overseeing marketing strategies, driving brand growth, and leading the marketing team to achieve business goals.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 259119,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d0fb33ae35ac82b2-en-ie-resources-job-descriptions-chief-marketing-officer-job-description.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/d0fb33ae35ac82b2-en-ie-resources-job-descriptions-chief-marketing-officer-job-description.direct.json",
+  "markdownChars": 4257,
+  "linksCount": 112,
+  "lastmod": "2025-06-05",
+  "scrapedAt": "2026-06-07T09:02:21.624Z"
+}

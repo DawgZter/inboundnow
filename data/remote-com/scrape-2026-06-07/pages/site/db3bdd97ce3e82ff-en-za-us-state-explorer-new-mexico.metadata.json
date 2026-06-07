@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-za/us-state-explorer/new-mexico",
+  "sourceURL": "https://remote.com/en-za/us-state-explorer/new-mexico",
+  "finalURL": "https://remote.com/en-za/us-state-explorer/new-mexico",
+  "title": "Employer of Record & Payroll Services | New Mexico",
+  "description": "Use our compliance guide to employ in New Mexico with ease. Learn about benefits, payroll, leave, and other labor laws in the Land of Enchantment.",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 332368,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db3bdd97ce3e82ff-en-za-us-state-explorer-new-mexico.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/db3bdd97ce3e82ff-en-za-us-state-explorer-new-mexico.direct.json",
+  "markdownChars": 7401,
+  "linksCount": 114,
+  "lastmod": "2025-05-01",
+  "scrapedAt": "2026-06-07T09:16:15.833Z"
+}

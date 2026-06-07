@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/de-de/ressourcen/forschung/life-work-balance-index-us-bundesstaaten",
+  "sourceURL": "https://remote.com/de-de/ressourcen/forschung/life-work-balance-index-us-bundesstaaten",
+  "finalURL": "https://remote.com/de-de/ressourcen/forschung/life-work-balance-index-us-bundesstaaten",
+  "title": "US-Index für Work-Life-Balance 2025 | Die besten Bundesstaaten für die Vereinbarkeit von Beruf und Privatleben …",
+  "description": "Um herauszufinden, welche Bundesstaaten Angestellten die beste Life-Work-Balance bieten, haben Remotes Expert:innen für globale HR die Daten aus dem Index 2025 analysiert.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 665377,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/36d11864034bd26f-de-de-ressourcen-forschung-life-work-balance-index-us-bundesstaaten.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/36d11864034bd26f-de-de-ressourcen-forschung-life-work-balance-index-us-bundesstaaten.direct.json",
+  "markdownChars": 23788,
+  "linksCount": 170,
+  "lastmod": "2025-07-09",
+  "scrapedAt": "2026-06-07T09:01:34.949Z"
+}

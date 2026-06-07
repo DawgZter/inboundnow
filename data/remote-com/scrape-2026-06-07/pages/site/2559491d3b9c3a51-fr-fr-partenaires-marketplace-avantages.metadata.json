@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-fr/partenaires/marketplace-avantages",
+  "sourceURL": "https://remote.com/fr-fr/partenaires/marketplace-avantages",
+  "finalURL": "https://remote.com/fr-fr/partenaires/marketplace-avantages",
+  "title": "Marketplace d’avantages partenaires | Remote",
+  "description": "Découvrez nos remises partenaires et des avantages exclusifs, réservés aux clients de Remote. Accédez à de nouveaux outils et services pour assurer la prospérité de votre équipe mondiale.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 320763,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2559491d3b9c3a51-fr-fr-partenaires-marketplace-avantages.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/2559491d3b9c3a51-fr-fr-partenaires-marketplace-avantages.direct.json",
+  "markdownChars": 3073,
+  "linksCount": 118,
+  "lastmod": "2025-11-19",
+  "scrapedAt": "2026-06-07T09:08:34.786Z"
+}

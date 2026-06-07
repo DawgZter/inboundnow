@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ie/country-explorer/brazil/benefits-guide/meals",
+  "sourceURL": "https://remote.com/en-ie/country-explorer/brazil/benefits-guide/meals",
+  "finalURL": "https://remote.com/en-ie/country-explorer/brazil/benefits-guide/meals",
+  "title": "Meals Benefits in Brazil Guide",
+  "description": "Learn about Meals in Brazil: what’s required and how Remote helps you stay compliant with local employment regulations.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 262663,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/504cfa613678696b-en-ie-country-explorer-brazil-benefits-guide-meals.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/504cfa613678696b-en-ie-country-explorer-brazil-benefits-guide-meals.direct.json",
+  "markdownChars": 1548,
+  "linksCount": 118,
+  "lastmod": "2025-05-30",
+  "scrapedAt": "2026-06-07T09:17:43.574Z"
+}

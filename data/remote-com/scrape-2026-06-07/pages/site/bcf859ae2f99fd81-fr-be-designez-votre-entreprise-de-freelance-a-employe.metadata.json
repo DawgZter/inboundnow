@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/fr-be/designez-votre-entreprise/de-freelance-a-employe",
+  "sourceURL": "https://remote.com/fr-be/designez-votre-entreprise/de-freelance-a-employe",
+  "finalURL": "https://remote.com/fr-be/designez-votre-entreprise/de-freelance-a-employe",
+  "title": "De freelance à employé | Remote",
+  "description": "Remote permet désormais aux freelances et aux employés de désigner leurs responsables et leaders RH afin qu’ils reçoivent des informations de la part de Remote !",
+  "statusCode": 200,
+  "contentType": "text/html;charset=utf-8",
+  "bytes": 248948,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bcf859ae2f99fd81-fr-be-designez-votre-entreprise-de-freelance-a-employe.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/bcf859ae2f99fd81-fr-be-designez-votre-entreprise-de-freelance-a-employe.direct.json",
+  "markdownChars": 568,
+  "linksCount": 113,
+  "lastmod": "2025-07-28",
+  "scrapedAt": "2026-06-07T09:09:20.921Z"
+}

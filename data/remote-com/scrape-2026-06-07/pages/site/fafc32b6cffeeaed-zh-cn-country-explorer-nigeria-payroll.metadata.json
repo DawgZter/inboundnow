@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/zh-cn/country-explorer/nigeria/payroll",
+  "sourceURL": "https://remote.com/zh-cn/country-explorer/nigeria/payroll",
+  "finalURL": "https://remote.com/zh-cn/country-explorer/nigeria/payroll",
+  "title": "在尼日利亚支付员工薪资 | 薪资服务",
+  "description": "在尼日利亚为员工支付薪资轻而易举，使用我们的灵活薪资服务。可在同一平台上执行薪资发放、管理报销并生成报表。",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 256545,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fafc32b6cffeeaed-zh-cn-country-explorer-nigeria-payroll.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/fafc32b6cffeeaed-zh-cn-country-explorer-nigeria-payroll.direct.json",
+  "markdownChars": 1179,
+  "linksCount": 121,
+  "lastmod": "2025-12-23",
+  "scrapedAt": "2026-06-07T09:17:04.404Z"
+}

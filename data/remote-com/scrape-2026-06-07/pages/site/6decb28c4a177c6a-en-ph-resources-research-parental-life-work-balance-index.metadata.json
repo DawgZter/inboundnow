@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/en-ph/resources/research/parental-life-work-balance-index",
+  "sourceURL": "https://remote.com/en-ph/resources/research/parental-life-work-balance-index",
+  "finalURL": "https://remote.com/en-ph/resources/research/parental-life-work-balance-index",
+  "title": "Parental Life-Work Balance Index | Best countries to raise a family | Remote",
+  "description": "Where is the best place to raise a child as a working parent? Our study reveals the leading countries offering the best life-work balance for families.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 454416,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6decb28c4a177c6a-en-ph-resources-research-parental-life-work-balance-index.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/6decb28c4a177c6a-en-ph-resources-research-parental-life-work-balance-index.direct.json",
+  "markdownChars": 19175,
+  "linksCount": 126,
+  "lastmod": "2025-06-30",
+  "scrapedAt": "2026-06-07T09:12:28.453Z"
+}

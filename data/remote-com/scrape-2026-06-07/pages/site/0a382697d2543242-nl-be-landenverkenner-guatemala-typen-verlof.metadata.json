@@ -1,0 +1,18 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/nl-be/landenverkenner/guatemala/typen-verlof",
+  "sourceURL": "https://remote.com/nl-be/landenverkenner/guatemala/typen-verlof",
+  "finalURL": "https://remote.com/nl-be/landenverkenner/guatemala/typen-verlof",
+  "title": "Typen verlof in Guatemala | Verlofwetten voor werknemers",
+  "description": "Inzicht in verlofwetten voor werknemers in Guatemala. Zorg dat je bedrijf voldoet aan de regelgeving voor verlof en bied concurrerend betaald verlof aan.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 254196,
+  "markdownPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a382697d2543242-nl-be-landenverkenner-guatemala-typen-verlof.md",
+  "rawPath": "/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape/pages/site/0a382697d2543242-nl-be-landenverkenner-guatemala-typen-verlof.direct.json",
+  "markdownChars": 1733,
+  "linksCount": 125,
+  "lastmod": "2025-05-28",
+  "scrapedAt": "2026-06-07T09:17:38.931Z"
+}
