@@ -5,17 +5,10 @@ import { readFile } from "node:fs/promises";
 const PORT = Number(process.env.PORT || 4188);
 const PREFIX = "/__remote";
 const DEFAULT_TARGET = "https://remote.com/";
+const CAL_EMBED_URL = process.env.CAL_URL || "https://cal.com/remote";
 
-// Local support widget injected into every proxied HTML page.
-const SUPPORT_ASSET_PATH = "/__support-assets/reps.png";
-const SUPPORT_REPS_IMAGE = new URL("./support-reps.png", import.meta.url);
-const SUPPORT_AVATAR_PATH = "/__support-assets/reps-avatar.png";
-const SUPPORT_AVATAR_IMAGE = new URL("./support-reps-avatar.png", import.meta.url);
-const CLICKY_CURSOR_PATH = "/__support-assets/clicky-cursor.svg";
-const CLICKY_CURSOR_IMAGE = new URL(
-  "../../install-this-i-want-to-test/outputs/clicky-cursor.svg",
-  import.meta.url,
-);
+const CLICKY_CURSOR_PATH = "/__ocw-assets/clicky-cursor.svg";
+const CLICKY_CURSOR_IMAGE = new URL("./assets/clicky-cursor.svg", import.meta.url);
 
 const HOP_BY_HOP_HEADERS = new Set([
   "connection",
@@ -211,146 +204,9 @@ function injectedHelper(baseUrl) {
   ].join("\n");
 }
 
-function injectedSupportWidget() {
-  const assetUrl = "http://localhost:" + PORT + SUPPORT_ASSET_PATH;
-  const avatarUrl = "http://localhost:" + PORT + SUPPORT_AVATAR_PATH;
-  return `
-<div id="rsw-root" data-rsw-open="false" aria-live="polite">
-  <style>
-    #rsw-root, #rsw-root *, #rsw-root *::before, #rsw-root *::after { box-sizing: border-box; }
-    #rsw-root {
-      position: fixed; left: 24px; bottom: 24px; z-index: 2147483647;
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      -webkit-font-smoothing: antialiased; text-align: left; color: #141415; line-height: 1.45;
-    }
-    #rsw-root button { font-family: inherit; cursor: pointer; border: 0; background: none; }
-
-    /* Launcher */
-    .rsw-launcher {
-      position: relative; display: flex; align-items: center; justify-content: center;
-      width: 60px; height: 60px; border-radius: 50% !important;
-      background: linear-gradient(135deg, #0564ff 0%, #0047bc 100%) !important;
-      box-shadow: 0 12px 30px rgba(5, 100, 255, 0.38), 0 2px 6px rgba(0, 35, 92, 0.25);
-      transition: transform 0.18s ease, box-shadow 0.18s ease;
-    }
-    .rsw-launcher:hover { transform: translateY(-2px) scale(1.03); box-shadow: 0 16px 38px rgba(5, 100, 255, 0.45); }
-    .rsw-launcher:active { transform: translateY(0) scale(0.98); }
-    .rsw-launcher svg { width: 26px; height: 26px; color: #fff; transition: opacity 0.15s ease, transform 0.2s ease; }
-    .rsw-ic-photo {
-      position: absolute; inset: 0; width: 100% !important; height: 100% !important; max-width: none !important;
-      object-fit: cover; object-position: 50% 35%; border-radius: 50% !important; border: 2px solid #fff !important;
-      transition: opacity 0.18s ease, transform 0.2s ease;
-    }
-    .rsw-launcher .rsw-ic-close { position: absolute; opacity: 0; transform: rotate(-30deg) scale(0.6); z-index: 1; }
-    #rsw-root[data-rsw-open="true"] .rsw-ic-photo { opacity: 0; transform: scale(0.6); }
-    #rsw-root[data-rsw-open="true"] .rsw-launcher .rsw-ic-close { opacity: 1; transform: rotate(0) scale(1); }
-    .rsw-badge {
-      position: absolute; top: -3px; right: -3px; min-width: 20px; height: 20px; padding: 0 5px;
-      display: flex; align-items: center; justify-content: center;
-      background: #00235c; color: #fff; font-size: 10px; font-weight: 700; letter-spacing: 0.3px;
-      border-radius: 10px; border: 2px solid #fff; z-index: 5;
-    }
-
-    /* Panel */
-    .rsw-panel {
-      position: absolute; left: 0; bottom: 74px; width: 366px; max-width: calc(100vw - 48px);
-      background: #fff; border-radius: 18px; overflow: hidden;
-      box-shadow: 0 24px 60px rgba(0, 35, 92, 0.22), 0 4px 14px rgba(0, 35, 92, 0.12);
-      transform-origin: left bottom; transform: translateY(10px) scale(0.97); opacity: 0;
-      visibility: hidden; pointer-events: none;
-      transition: opacity 0.2s ease, transform 0.22s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.2s;
-    }
-    #rsw-root[data-rsw-open="true"] .rsw-panel { opacity: 1; transform: translateY(0) scale(1); visibility: visible; pointer-events: auto; }
-
-    /* Intro view */
-    .rsw-hero { position: relative; height: 150px; background: #00235c; }
-    .rsw-hero img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 26%; display: block; }
-    .rsw-hero::after {
-      content: ""; position: absolute; inset: 0;
-      background: linear-gradient(180deg, rgba(0,35,92,0) 40%, rgba(0,35,92,0.55) 100%);
-    }
-    .rsw-status {
-      position: absolute; left: 16px; bottom: 14px; z-index: 1;
-      display: inline-flex; align-items: center; gap: 7px;
-      background: rgba(255,255,255,0.96); color: #00235c;
-      padding: 5px 11px; border-radius: 999px; font-size: 12px; font-weight: 600;
-      box-shadow: 0 2px 8px rgba(0,35,92,0.18);
-    }
-    .rsw-dot { width: 8px; height: 8px; border-radius: 50%; background: #f5a623; box-shadow: 0 0 0 3px rgba(245,166,35,0.22); }
-    .rsw-intro-body { padding: 20px 20px 18px; }
-    .rsw-intro-body h3 { margin: 0 0 8px; font-size: 18px; font-weight: 700; color: #141415; letter-spacing: -0.01em; white-space: nowrap; }
-    .rsw-intro-body p { margin: 0 0 18px; font-size: 14px; color: #595b5f; }
-    .rsw-start {
-      display: flex; align-items: center; justify-content: center; gap: 9px; width: 100%;
-      padding: 13px 16px; border-radius: 12px; font-size: 15px; font-weight: 600; color: #fff;
-      background: linear-gradient(135deg, #0564ff 0%, #0047bc 100%) !important;
-      box-shadow: 0 8px 20px rgba(5,100,255,0.32); transition: transform 0.16s ease, box-shadow 0.16s ease;
-    }
-    .rsw-start:hover { transform: translateY(-1px); box-shadow: 0 12px 26px rgba(5,100,255,0.4); }
-    .rsw-start svg { width: 21px; height: 28px; overflow: visible; }
-    @media (max-width: 480px) { #rsw-root { left: 16px; bottom: 16px; } .rsw-panel { bottom: 70px; } }
-  </style>
-
-  <div class="rsw-panel" role="dialog" aria-label="Remote support">
-    <!-- Intro -->
-    <div class="rsw-intro">
-      <div class="rsw-hero">
-        <img src="${assetUrl}" alt="Remote Global Employment Specialists" />
-        <span class="rsw-status"><span class="rsw-dot"></span>Specialists offline</span>
-      </div>
-      <div class="rsw-intro-body">
-        <h3>Talk to our employment team</h3>
-        <p>Our specialists are offline right now — but you don't have to wait. Chat with their AI personas: a fully conversational agent that answers in real time and walks you around the page as you talk, pulling up exactly what you need on global hiring, payroll, and compliance.</p>
-        <button class="rsw-start" type="button">
-          <svg viewBox="0 0 96 128" fill="none" aria-hidden="true">
-            <defs>
-              <filter id="rsw-btn-glow" x="-45%" y="-45%" width="190%" height="190%" color-interpolation-filters="sRGB">
-                <feGaussianBlur in="SourceGraphic" stdDeviation="3.8" result="blur"/>
-                <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.0196  0 0 0 0 0.3922  0 0 0 0 1  0 0 0 0.42 0" result="blueGlow"/>
-                <feMerge><feMergeNode in="blueGlow"/></feMerge>
-              </filter>
-              <filter id="rsw-btn-shadow" x="-30%" y="-30%" width="170%" height="170%" color-interpolation-filters="sRGB">
-                <feDropShadow dx="0" dy="3.4" stdDeviation="2.8" flood-color="#000000" flood-opacity="0.24"/>
-              </filter>
-            </defs>
-            <path d="M23.52 19 L23.52 96 L40.08 77 L50.88 110 L67.44 100 L56.64 70 L78.24 70 Z" fill="none" stroke="#0564FF" stroke-width="12.6" stroke-linejoin="round" opacity="0.42" filter="url(#rsw-btn-glow)"/>
-            <g filter="url(#rsw-btn-shadow)">
-              <path d="M23.52 19 L23.52 96 L40.08 77 L50.88 110 L67.44 100 L56.64 70 L78.24 70 Z" fill="#0564FF"/>
-              <path d="M23.52 19 L23.52 96 L40.08 77 L50.88 110 L67.44 100 L56.64 70 L78.24 70 Z" fill="none" stroke="#FFFFFF" stroke-width="4.35" stroke-linejoin="round" opacity="0.96"/>
-            </g>
-          </svg>
-          Chat with our AI personas
-        </button>
-      </div>
-    </div>
-  </div>
-
-  <button class="rsw-launcher" type="button" aria-label="Open support chat">
-    <span class="rsw-badge">AI</span>
-    <img class="rsw-ic-photo" src="${avatarUrl}" alt="Our Global Employment Specialists" />
-    <svg class="rsw-ic-close" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></svg>
-  </button>
-
-  <script>
-  (function(){
-    if (window.__rswInit) return; window.__rswInit = true;
-    var root = document.getElementById('rsw-root');
-    if (!root) return;
-    // Keep the widget last in <body> so it shares the top stacking order with the host's
-    // highest-z elements (e.g. modals) and wins the tie, and re-assert if the host appends later.
-    function keepOnTop(){ if (document.body && document.body.lastElementChild !== root) document.body.appendChild(root); }
-    keepOnTop();
-    try { new MutationObserver(keepOnTop).observe(document.body, { childList: true }); } catch (e) {}
-    var launcher = root.querySelector('.rsw-launcher');
-    function setOpen(open){ root.setAttribute('data-rsw-open', open ? 'true' : 'false'); }
-    launcher.addEventListener('click', function(){ setOpen(root.getAttribute('data-rsw-open') !== 'true'); });
-  })();
-  </script>
-</div>`;
-}
-
-function injectedClickyMvp() {
+function injectedOpenClickyWeb() {
   const cursorUrl = "http://localhost:" + PORT + CLICKY_CURSOR_PATH;
+  const calUrl = escapeAttr(CAL_EMBED_URL);
   return `
 <div id="ocw-root" aria-live="polite">
   <style>
@@ -420,6 +276,11 @@ function injectedClickyMvp() {
       margin-top: 10px; min-height: 18px; font-size: 11px; color: #4b5563;
       white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
     }
+    .ocw-transcript {
+      margin: 0 0 10px; min-height: 54px; padding: 10px 11px; border-radius: 8px;
+      border: 1px solid rgba(17, 24, 39, 0.10); background: rgba(249, 250, 251, 0.88);
+      color: #253041; font-size: 12px; line-height: 1.45;
+    }
 
     .ocw-cursor {
       --ocw-cursor-scale: 1;
@@ -461,7 +322,7 @@ function injectedClickyMvp() {
     .ocw-highlight.is-visible { opacity: 1; }
 
     .ocw-scheduler {
-      position: fixed; right: 18px; bottom: 18px; width: 390px; max-width: calc(100vw - 36px);
+      position: fixed; right: 18px; bottom: 18px; width: 520px; max-width: calc(100vw - 36px);
       pointer-events: auto; background: #fff; border: 1px solid rgba(17, 24, 39, 0.12); border-radius: 8px;
       box-shadow: 0 22px 56px rgba(15, 23, 42, 0.22); opacity: 0; transform: translateY(12px) scale(0.98);
       visibility: hidden; transition: opacity 180ms ease, transform 180ms ease, visibility 180ms;
@@ -479,16 +340,37 @@ function injectedClickyMvp() {
       color: #374151;
     }
     .ocw-scheduler-body { padding: 14px; }
-    .ocw-slots { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-top: 10px; }
-    .ocw-slot {
-      min-height: 39px; border: 1px solid rgba(5, 100, 255, 0.22); border-radius: 8px;
-      background: rgba(5, 100, 255, 0.06); color: #003284; font-size: 12px; font-weight: 700; cursor: pointer;
+    .ocw-cal-frame {
+      display: block; width: 100%; height: min(640px, calc(100vh - 180px)); min-height: 420px;
+      border: 1px solid rgba(17, 24, 39, 0.10); border-radius: 8px; background: #fff;
     }
     .ocw-scheduler-body p { margin: 0; font-size: 12px; color: #4b5563; }
+    .ocw-cal-link {
+      display: inline-flex; margin-top: 8px; color: #0564ff; font-size: 12px; font-weight: 700;
+      text-decoration: none;
+    }
+
+    .ocw-booking-prompt {
+      position: fixed; right: 18px; bottom: 18px; width: 360px; max-width: calc(100vw - 36px);
+      pointer-events: auto; padding: 14px; background: #fff; border: 1px solid rgba(17, 24, 39, 0.12);
+      border-radius: 8px; box-shadow: 0 20px 46px rgba(15, 23, 42, 0.18);
+      opacity: 0; transform: translateY(10px) scale(0.98); visibility: hidden;
+      transition: opacity 160ms ease, transform 160ms ease, visibility 160ms;
+    }
+    .ocw-booking-prompt.is-open { opacity: 1; transform: translateY(0) scale(1); visibility: visible; }
+    .ocw-booking-prompt strong { display: block; margin-bottom: 6px; font-size: 13px; color: #111827; }
+    .ocw-booking-prompt p { margin: 0 0 12px; color: #4b5563; font-size: 12px; line-height: 1.4; }
+    .ocw-prompt-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    .ocw-prompt-actions button {
+      min-height: 38px; border-radius: 8px; border: 1px solid rgba(17, 24, 39, 0.12);
+      background: #fff; color: #111827; cursor: pointer; font-size: 12px; font-weight: 720;
+    }
+    .ocw-prompt-actions .primary { background: #0564ff; border-color: #0564ff; color: #fff; }
 
     @media (max-width: 700px) {
       .ocw-panel { left: 12px; right: 12px; top: 12px; width: auto; }
       .ocw-scheduler { left: 12px; right: 12px; bottom: 12px; width: auto; }
+      .ocw-booking-prompt { left: 12px; right: 12px; bottom: 12px; width: auto; }
     }
   </style>
 
@@ -502,22 +384,24 @@ function injectedClickyMvp() {
     <div class="ocw-head">
       <img class="ocw-mark" src="${cursorUrl}" alt="" aria-hidden="true" />
       <div class="ocw-title">
-        <strong>OpenClicky-Web MVP</strong>
-        <span>Deterministic browser action bus</span>
+        <strong>Remote AI guide</strong>
+        <span>Voice-ready website co-pilot</span>
       </div>
     </div>
     <div class="ocw-body">
+      <p class="ocw-transcript">Ask how Remote helps with global payroll and I will guide the page while answering.</p>
       <div class="ocw-grid">
-        <button class="ocw-action primary" data-ocw-action="tour" type="button">Run guided motion</button>
-        <button class="ocw-action" data-ocw-action="demo" type="button">Point demo</button>
+        <button class="ocw-action primary" data-ocw-action="payrollFlow" type="button">Ask payroll question</button>
         <button class="ocw-action" data-ocw-action="payroll" type="button">Show payroll</button>
+        <button class="ocw-action" data-ocw-action="showBookingPrompt" type="button">Book meeting</button>
+        <button class="ocw-action" data-ocw-action="snapshot" type="button">Snapshot</button>
+        <button class="ocw-action" data-ocw-action="demo" type="button">Point demo</button>
         <button class="ocw-action" data-ocw-action="country" type="button">Country explorer</button>
         <button class="ocw-action" data-ocw-action="pricing" type="button">Pricing</button>
         <button class="ocw-action" data-ocw-action="clickDemo" type="button">Click demo</button>
-        <button class="ocw-action" data-ocw-action="schedule" type="button">Open Cal</button>
       </div>
       <form class="ocw-command">
-        <input class="ocw-input" value="show payroll" autocomplete="off" aria-label="Deterministic action command" />
+        <input class="ocw-input" value="How does Remote help with global payroll?" autocomplete="off" aria-label="Voice guide command" />
         <button class="ocw-run" type="submit">Run</button>
       </form>
       <div class="ocw-size">
@@ -533,17 +417,21 @@ function injectedClickyMvp() {
 
   <section class="ocw-scheduler" aria-label="Scheduling preview">
     <div class="ocw-scheduler-head">
-      <strong>Cal.com scheduling preview</strong>
+      <strong>Schedule a Remote walkthrough</strong>
       <button class="ocw-close" data-ocw-action="closeSchedule" type="button" aria-label="Close scheduler">x</button>
     </div>
     <div class="ocw-scheduler-body">
-      <p>This is the local MVP mount point. The production version would embed Cal.com or call the Cal API after confirmation.</p>
-      <div class="ocw-slots">
-        <button class="ocw-slot" type="button">Today 2:30 PM</button>
-        <button class="ocw-slot" type="button">Tomorrow 10:00 AM</button>
-        <button class="ocw-slot" type="button">Thu 1:00 PM</button>
-        <button class="ocw-slot" type="button">Fri 9:30 AM</button>
-      </div>
+      <iframe class="ocw-cal-frame" src="${calUrl}" title="Cal.com scheduling"></iframe>
+      <a class="ocw-cal-link" href="${calUrl}" target="_blank" rel="noreferrer">Open scheduler in a new tab</a>
+    </div>
+  </section>
+
+  <section class="ocw-booking-prompt" aria-label="Booking confirmation">
+    <strong>Want to book a walkthrough?</strong>
+    <p>I can open the scheduler in this page so you can choose a time with a Remote specialist.</p>
+    <div class="ocw-prompt-actions">
+      <button class="primary" data-ocw-action="confirmBooking" type="button">Yes, open Cal</button>
+      <button data-ocw-action="dismissBookingPrompt" type="button">Not now</button>
     </div>
   </section>
 
@@ -558,29 +446,37 @@ function injectedClickyMvp() {
     var caption = root.querySelector('.ocw-caption');
     var highlight = root.querySelector('.ocw-highlight');
     var status = root.querySelector('.ocw-status');
+    var transcript = root.querySelector('.ocw-transcript');
     var scheduler = root.querySelector('.ocw-scheduler');
+    var bookingPrompt = root.querySelector('.ocw-booking-prompt');
     var commandInput = root.querySelector('.ocw-input');
     var sizeSlider = root.querySelector('.ocw-size-slider');
     var sizeValue = root.querySelector('.ocw-size-value');
     var current = { x: Math.max(24, window.innerWidth - 92), y: Math.max(24, window.innerHeight - 92) };
     var actionLock = Promise.resolve();
     var sizeStorageKey = 'openClickyWebMvp.cursorSizePercent';
+    var events = [];
+    var remoteBasePath = '/__remote/https/remote.com';
 
     var specs = {
       demo: [
         { selector: 'a[href],button,[role="button"]', text: ['book a demo', 'request demo', 'get a demo'], href: ['demo', 'request'] }
       ],
       payroll: [
-        { selector: 'a[href],button,[role="button"],h1,h2,h3,h4,p,span,div', text: ['global payroll', 'run payroll', 'payroll'], href: ['payroll'] }
+        { selector: 'a[href],button,[role="button"]', text: ['global payroll', 'run payroll', 'payroll'], href: ['payroll'] },
+        { selector: 'h1,h2,h3,h4,section,p,span,div', text: ['global payroll', 'run payroll', 'payroll'], href: ['payroll'] }
       ],
       country: [
-        { selector: 'a[href],button,[role="button"],h1,h2,h3,h4,p,span,div', text: ['country explorer', 'country', 'explorer'], href: ['country'] }
+        { selector: 'a[href],button,[role="button"]', text: ['country explorer', 'country', 'explorer'], href: ['country'] },
+        { selector: 'h1,h2,h3,h4,section,p,span,div', text: ['country explorer', 'country', 'explorer'], href: ['country'] }
       ],
       pricing: [
-        { selector: 'a[href],button,[role="button"],h1,h2,h3,h4,p,span,div', text: ['pricing', 'price'], href: ['pricing'] }
+        { selector: 'a[href],button,[role="button"]', text: ['pricing', 'price'], href: ['pricing'] },
+        { selector: 'h1,h2,h3,h4,section,p,span,div', text: ['pricing', 'price'], href: ['pricing'] }
       ],
       eor: [
-        { selector: 'a[href],button,[role="button"],h1,h2,h3,h4,p,span,div', text: ['employer of record', 'eor'], href: ['employer-of-record', 'eor'] }
+        { selector: 'a[href],button,[role="button"]', text: ['employer of record', 'eor'], href: ['employer-of-record', 'eor'] },
+        { selector: 'h1,h2,h3,h4,section,p,span,div', text: ['employer of record', 'eor'], href: ['employer-of-record', 'eor'] }
       ]
     };
 
@@ -590,6 +486,36 @@ function injectedClickyMvp() {
 
     function setStatus(text) {
       if (status) status.textContent = text;
+    }
+
+    function emit(type, detail) {
+      var event = {
+        type: type,
+        detail: detail || {},
+        ts: new Date().toISOString()
+      };
+      events.push(event);
+      if (events.length > 80) events.shift();
+      try { window.dispatchEvent(new CustomEvent('openClickyWeb:event', { detail: event })); } catch (e) {}
+      return event;
+    }
+
+    function updateTranscript(text) {
+      if (transcript) transcript.textContent = text;
+    }
+
+    function speak(text) {
+      updateTranscript(text);
+      window.__ocwLastSpeech = text;
+      showCaption(text, current.x, current.y);
+      try {
+        if (!window.speechSynthesis || !window.SpeechSynthesisUtterance) return;
+        window.speechSynthesis.cancel();
+        var utterance = new SpeechSynthesisUtterance(text);
+        utterance.lang = 'en-US';
+        utterance.rate = 1.03;
+        window.speechSynthesis.speak(utterance);
+      } catch (e) {}
     }
 
     function clampSizePercent(value) {
@@ -626,8 +552,14 @@ function injectedClickyMvp() {
       return String(value || '').replace(/\s+/g, ' ').trim().toLowerCase();
     }
 
+    function compactText(value, maxLength) {
+      var text = String(value || '').replace(/\s+/g, ' ').trim();
+      var max = maxLength || 180;
+      return text.length > max ? text.slice(0, max - 1) + '...' : text;
+    }
+
     function isOurUi(element) {
-      return !!(element && element.closest && (element.closest('#ocw-root') || element.closest('#rsw-root')));
+      return !!(element && element.closest && element.closest('#ocw-root'));
     }
 
     function isVisible(element) {
@@ -743,14 +675,151 @@ function injectedClickyMvp() {
       highlight.classList.remove('is-visible');
     }
 
+    function ensureElementId(element) {
+      if (!element || !element.setAttribute) return '';
+      if (!element.dataset.ocwId) {
+        element.dataset.ocwId = 'ocw_' + Math.random().toString(36).slice(2, 9);
+      }
+      return element.dataset.ocwId;
+    }
+
+    function elementSummary(element) {
+      if (!element || !element.getBoundingClientRect) return null;
+      var rect = element.getBoundingClientRect();
+      return {
+        id: ensureElementId(element),
+        tag: (element.tagName || '').toLowerCase(),
+        role: element.getAttribute('role') || '',
+        label: compactText(element.getAttribute('aria-label') || element.getAttribute('title') || '', 120),
+        text: compactText(element.innerText || element.textContent || '', 180),
+        href: element.getAttribute('href') || element.getAttribute('data-href') || '',
+        bounds: {
+          x: Math.round(rect.left),
+          y: Math.round(rect.top),
+          width: Math.round(rect.width),
+          height: Math.round(rect.height)
+        },
+        visible: isVisible(element)
+      };
+    }
+
+    function collectElements(selector, limit) {
+      return Array.prototype.slice.call(document.querySelectorAll(selector))
+        .filter(isVisible)
+        .slice(0, limit)
+        .map(elementSummary)
+        .filter(Boolean);
+    }
+
+    function snapshotPage() {
+      var textNodes = collectElements('main p, main li, section p, h1, h2, h3', 40)
+        .map(function(item){ return item.text; })
+        .filter(Boolean);
+      var snapshot = {
+        url: location.href,
+        title: document.title,
+        headings: collectElements('h1,h2,h3,h4', 30),
+        ctas: collectElements('a[href],button,[role="button"]', 60),
+        navLinks: collectElements('nav a[href],header a[href]', 40),
+        visibleText: textNodes.join(' ').slice(0, 4000),
+        elements: collectElements('a[href],button,[role="button"],h1,h2,h3,h4,section', 120),
+        viewport: { width: window.innerWidth, height: window.innerHeight, scrollY: Math.round(window.scrollY) }
+      };
+      window.__ocwLastSnapshot = snapshot;
+      emit('snapshotTaken', { counts: {
+        headings: snapshot.headings.length,
+        ctas: snapshot.ctas.length,
+        navLinks: snapshot.navLinks.length,
+        elements: snapshot.elements.length
+      }});
+      return snapshot;
+    }
+
+    function resolveTarget(target) {
+      if (target && target.nodeType === 1) return target;
+      if (typeof target === 'string') {
+        var key = normalized(target);
+        if (specs[key]) return findTarget(key);
+        try {
+          var selected = document.querySelector(target);
+          if (selected && isVisible(selected)) return selected;
+        } catch (e) {}
+        return findTarget(key) || resolveTarget({ text: [target] });
+      }
+      if (!target || typeof target !== 'object') return null;
+      if (target.key) return findTarget(target.key);
+      if (target.ocwId) {
+        var byId = document.querySelector('[data-ocw-id="' + String(target.ocwId).replace(/"/g, '') + '"]');
+        if (byId && isVisible(byId)) return byId;
+      }
+
+      var rule = {
+        selector: target.selector || 'a[href],button,[role="button"],h1,h2,h3,h4,section,p,span,div',
+        text: Array.isArray(target.text) ? target.text : (target.text ? [target.text] : []),
+        href: Array.isArray(target.href) ? target.href : (target.href ? [target.href] : [])
+      };
+      if (target.role) rule.text.push(target.role);
+      if (target.label) rule.text.push(target.label);
+
+      var best = null;
+      var candidates = [];
+      try {
+        candidates = Array.prototype.slice.call(document.querySelectorAll(rule.selector));
+      } catch (e) {
+        candidates = [];
+      }
+      candidates.forEach(function(element){
+        var score = rule.text.length || rule.href.length ? scoreElement(element, rule) : (isVisible(element) ? 1 : -1);
+        if (score <= 0) return;
+        var rect = element.getBoundingClientRect();
+        var rank = score - Math.max(0, rect.top) / 5000;
+        if (!best || rank > best.rank) best = { element: element, rank: rank };
+      });
+      return best && best.element;
+    }
+
+    async function waitForLayout(element) {
+      var last = element.getBoundingClientRect();
+      for (var i = 0; i < 8; i += 1) {
+        await sleep(120);
+        var next = element.getBoundingClientRect();
+        if (Math.abs(next.top - last.top) < 2 && Math.abs(next.left - last.left) < 2) return;
+        last = next;
+      }
+    }
+
+    async function scrollToElement(target) {
+      var element = resolveTarget(target);
+      if (!element) throw new Error('Target not found');
+      emit('targetResolved', { target: elementSummary(element) });
+      element.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
+      emit('scrollStarted', { target: element.dataset.ocwId || ensureElementId(element) });
+      await waitForLayout(element);
+      return element;
+    }
+
+    async function highlightElement(target) {
+      var element = resolveTarget(target);
+      if (!element) throw new Error('Target not found');
+      showHighlight(element);
+      emit('highlightShown', { target: elementSummary(element) });
+      return element;
+    }
+
     async function moveToElement(element, label) {
       if (!element) throw new Error('Target not found');
-      element.scrollIntoView({ behavior: 'smooth', block: 'center', inline: 'center' });
-      await sleep(760);
+      await scrollToElement(element);
       showHighlight(element);
       var point = viewportPointFor(element);
       await moveCursor(point.x, point.y, label || targetLabel(element, 'Selected target'), 780);
+      emit('cursorMoved', { target: elementSummary(element), x: point.x, y: point.y });
       return point;
+    }
+
+    async function moveCursorToElement(target, label) {
+      var element = resolveTarget(target);
+      if (!element) throw new Error('Target not found');
+      return moveToElement(element, label);
     }
 
     function dispatchMouse(element, type, point) {
@@ -784,16 +853,54 @@ function injectedClickyMvp() {
         }, 180);
       }
       await sleep(280);
+      emit('clicked', { target: elementSummary(element) });
+    }
+
+    function toProxyLocation(rawUrl) {
+      if (!rawUrl) return location.href;
+      try {
+        var url = new URL(rawUrl, location.href);
+        if (url.origin === location.origin) return url.href;
+        if (/^https?:$/.test(url.protocol)) {
+          return location.origin + '/__remote/' + url.protocol.slice(0, -1) + '/' + url.host + url.pathname + url.search + url.hash;
+        }
+      } catch (e) {
+        if (String(rawUrl).charAt(0) === '/') return location.origin + rawUrl;
+      }
+      return rawUrl;
+    }
+
+    function navigate(rawUrl, pendingAction) {
+      var next = toProxyLocation(rawUrl);
+      if (pendingAction) {
+        try { window.sessionStorage.setItem('ocwPendingAction', pendingAction); } catch (e) {}
+      }
+      emit('navigated', { href: next });
+      location.href = next;
+    }
+
+    function showBookingPrompt() {
+      if (bookingPrompt) bookingPrompt.classList.add('is-open');
+      setStatus('Asked for booking confirmation.');
+      showCaption('Would you like to book a walkthrough?', Math.max(32, window.innerWidth - 330), Math.max(32, window.innerHeight - 180));
+      emit('bookingPromptShown', {});
+    }
+
+    function dismissBookingPrompt() {
+      if (bookingPrompt) bookingPrompt.classList.remove('is-open');
+      setStatus('Booking prompt dismissed.');
     }
 
     function openScheduler() {
+      if (bookingPrompt) bookingPrompt.classList.remove('is-open');
       scheduler.classList.add('is-open');
-      setStatus('Opened Cal.com scheduling preview.');
+      setStatus('Opened Cal.com scheduler.');
+      emit('calOpened', {});
     }
 
     function closeScheduler() {
       scheduler.classList.remove('is-open');
-      setStatus('Closed scheduling preview.');
+      setStatus('Closed scheduler.');
     }
 
     async function pointTarget(key, spokenLabel) {
@@ -808,8 +915,99 @@ function injectedClickyMvp() {
       return true;
     }
 
+    var payrollAnswer = 'Remote helps with global payroll by giving companies one place to pay distributed employees, handle local payroll rules, support multiple countries, and keep compliance work connected to hiring and HR operations.';
+
+    async function runPayrollFlow(afterNavigation) {
+      setStatus('Answering global payroll question.');
+      snapshotPage();
+      speak(payrollAnswer);
+      emit('agentAnswered', { text: payrollAnswer });
+      await sleep(afterNavigation ? 650 : 950);
+
+      var payrollTarget = findTarget('payroll');
+      if (!payrollTarget && !afterNavigation) {
+        setStatus('Navigating to Remote payroll page.');
+        showCaption('I will open the payroll page, then point out the relevant section.', current.x, current.y);
+        await sleep(500);
+        navigate(remoteBasePath + '/global-payroll', 'payrollFlowAfterNav');
+        return;
+      }
+
+      if (payrollTarget) {
+        await moveToElement(payrollTarget, 'Remote global payroll');
+        await sleep(650);
+      } else {
+        showCaption('I could not find payroll text after navigation, but I can still open scheduling.', current.x, current.y);
+      }
+
+      speak('If this is relevant, I can book a walkthrough with a Remote specialist now.');
+      await sleep(600);
+      showBookingPrompt();
+    }
+
+    function runDispatchedAction(action) {
+      if (typeof action === 'string') return runAction(action);
+      if (!action || typeof action.type !== 'string') throw new Error('Action must include a type');
+      emit('queued', { id: action.id || '', type: action.type });
+
+      if (action.type === 'moveCursorToElement') return moveCursorToElement(action.target, action.caption);
+      if (action.type === 'highlightElement') return highlightElement(action.target);
+      if (action.type === 'scrollToElement') return scrollToElement(action.target);
+      if (action.type === 'clickElement') return clickElement(resolveTarget(action.target), action.caption);
+      if (action.type === 'navigate') return navigate(action.url || action.href || action.target);
+      if (action.type === 'showCaption') {
+        showCaption(action.caption || action.text || '', current.x, current.y);
+        emit('captionShown', { text: action.caption || action.text || '' });
+        return Promise.resolve();
+      }
+      if (action.type === 'openCal') {
+        openScheduler();
+        return Promise.resolve();
+      }
+      if (action.type === 'showBookingPrompt') {
+        showBookingPrompt();
+        return Promise.resolve();
+      }
+      if (action.type === 'snapshotPage') return Promise.resolve(snapshotPage());
+      if (action.type === 'payrollFlow') return runPayrollFlow(false);
+      throw new Error('Unknown action type: ' + action.type);
+    }
+
     async function runAction(action) {
       var key = normalized(action);
+
+      if (
+        key === 'payrollflow' ||
+        key === 'payroll flow' ||
+        key === 'payrollflowafternav' ||
+        key.indexOf('how does remote help with global payroll') >= 0
+      ) {
+        await runPayrollFlow(key === 'payrollflowafternav');
+        return;
+      }
+
+      if (key === 'snapshot' || key === 'page snapshot') {
+        var snapshot = snapshotPage();
+        setStatus('Snapshot: ' + snapshot.headings.length + ' headings, ' + snapshot.ctas.length + ' CTAs.');
+        showCaption('Snapshot captured for the agent.', current.x, current.y);
+        return;
+      }
+
+      if (key === 'showbookingprompt' || key === 'book meeting' || key === 'booking prompt') {
+        showBookingPrompt();
+        return;
+      }
+
+      if (key === 'confirmbooking') {
+        openScheduler();
+        await moveCursor(Math.max(32, window.innerWidth - 344), Math.max(32, window.innerHeight - 228), 'Cal.com scheduler', 620);
+        return;
+      }
+
+      if (key === 'dismissbookingprompt') {
+        dismissBookingPrompt();
+        return;
+      }
 
       if (key === 'tour' || key === 'demo tour' || key === 'guided motion' || key === 'run guided motion') {
         setStatus('Running guided motion.');
@@ -819,8 +1017,8 @@ function injectedClickyMvp() {
         await sleep(500);
         await pointTarget('country', 'For country-specific guidance, this is the explorer.');
         await sleep(500);
-        openScheduler();
-        await moveCursor(Math.max(32, window.innerWidth - 356), Math.max(32, window.innerHeight - 250), 'Then I can open scheduling.', 620);
+        showBookingPrompt();
+        await moveCursor(Math.max(32, window.innerWidth - 356), Math.max(32, window.innerHeight - 250), 'Then I can offer scheduling.', 620);
         return;
       }
 
@@ -872,8 +1070,8 @@ function injectedClickyMvp() {
       }
 
       if (key === 'schedule' || key === 'open cal' || key === 'cal' || key === 'calendar') {
-        openScheduler();
-        await moveCursor(Math.max(32, window.innerWidth - 344), Math.max(32, window.innerHeight - 228), 'Scheduling preview', 620);
+        showBookingPrompt();
+        await moveCursor(Math.max(32, window.innerWidth - 344), Math.max(32, window.innerHeight - 228), 'Booking prompt', 620);
         return;
       }
 
@@ -887,8 +1085,9 @@ function injectedClickyMvp() {
     }
 
     function enqueue(action) {
-      actionLock = actionLock.then(function(){ return runAction(action); }).catch(function(error){
+      actionLock = actionLock.then(function(){ return runDispatchedAction(action); }).catch(function(error){
         setStatus(error && error.message ? error.message : String(error));
+        emit('failed', { message: error && error.message ? error.message : String(error) });
       });
       return actionLock;
     }
@@ -910,17 +1109,36 @@ function injectedClickyMvp() {
       moveCursor(Math.min(current.x, window.innerWidth - 16), Math.min(current.y, window.innerHeight - 16), caption.textContent, 120);
     });
 
-    window.OpenClickyWebMVP = {
-      run: enqueue,
+    window.OpenClickyWeb = {
+      dispatch: enqueue,
+      events: function(){ return events.slice(); },
+      snapshotPage: snapshotPage,
       find: findTarget,
-      moveTo: function(key){ return enqueue(key); },
-      clickDemo: function(){ return enqueue('click demo'); },
-      openCal: function(){ return enqueue('open cal'); }
+      moveCursorToElement: function(target, caption){ return enqueue({ type: 'moveCursorToElement', target: target, caption: caption }); },
+      highlightElement: function(target){ return enqueue({ type: 'highlightElement', target: target }); },
+      scrollToElement: function(target){ return enqueue({ type: 'scrollToElement', target: target }); },
+      clickElement: function(target, caption){ return enqueue({ type: 'clickElement', target: target, caption: caption }); },
+      navigate: function(url){ return enqueue({ type: 'navigate', url: url }); },
+      showCaption: function(text){ return enqueue({ type: 'showCaption', text: text }); },
+      openCal: function(){ return enqueue({ type: 'openCal' }); },
+      showBookingPrompt: function(){ return enqueue({ type: 'showBookingPrompt' }); },
+      runPayrollFlow: function(){ return enqueue({ type: 'payrollFlow' }); },
+      run: enqueue
     };
+    window.OpenClickyWebMVP = window.OpenClickyWeb;
 
     window.setTimeout(function(){
+      var pending = '';
+      try {
+        pending = window.sessionStorage.getItem('ocwPendingAction') || '';
+        window.sessionStorage.removeItem('ocwPendingAction');
+      } catch (e) {}
       moveCursor(Math.max(28, window.innerWidth - 92), Math.max(28, window.innerHeight - 92), 'Ready to guide.', 420);
-      window.setTimeout(function(){ caption.classList.remove('is-visible'); }, 1400);
+      if (pending) {
+        enqueue(pending);
+      } else {
+        window.setTimeout(function(){ caption.classList.remove('is-visible'); }, 1400);
+      }
     }, 300);
   })();
   </script>
@@ -958,13 +1176,12 @@ function rewriteHtml(html, baseUrl) {
     rewritten = helper + rewritten;
   }
 
-  // Inject after URL rewriting so the widget's own (local) asset URLs are left intact.
-  const widget = injectedSupportWidget();
-  const clickyMvp = injectedClickyMvp();
+  // Inject after URL rewriting so the widget's own local asset URLs are left intact.
+  const widget = injectedOpenClickyWeb();
   if (/<\/body>/i.test(rewritten)) {
-    rewritten = rewritten.replace(/<\/body>/i, widget + clickyMvp + "</body>");
+    rewritten = rewritten.replace(/<\/body>/i, widget + "</body>");
   } else {
-    rewritten = rewritten + widget + clickyMvp;
+    rewritten = rewritten + widget;
   }
 
   return rewritten;
@@ -1200,23 +1417,21 @@ const server = createServer(async (req, res) => {
       return;
     }
 
-    const supportAsset =
-      localUrl.pathname === SUPPORT_ASSET_PATH ? { url: SUPPORT_REPS_IMAGE, contentType: "image/png" } :
-      localUrl.pathname === SUPPORT_AVATAR_PATH ? { url: SUPPORT_AVATAR_IMAGE, contentType: "image/png" } :
+    const localAsset =
       localUrl.pathname === CLICKY_CURSOR_PATH ? { url: CLICKY_CURSOR_IMAGE, contentType: "image/svg+xml; charset=utf-8" } :
       null;
-    if (supportAsset) {
+    if (localAsset) {
       try {
-        const image = await readFile(supportAsset.url);
+        const image = await readFile(localAsset.url);
         res.writeHead(200, {
-          "content-type": supportAsset.contentType,
+          "content-type": localAsset.contentType,
           "cache-control": "public, max-age=86400",
           "access-control-allow-origin": "*",
         });
         res.end(image);
       } catch {
         res.writeHead(404, { "content-type": "text/plain; charset=utf-8" });
-        res.end("Support asset not found.");
+        res.end("Local asset not found.");
       }
       return;
     }
