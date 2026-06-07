@@ -1,21 +1,14 @@
-# Remote.com Scrape Fixture
+# Remote.com Retrieval Corpus
 
-This folder contains the indexable portion of the partial Remote.com scrape captured on 2026-06-07.
+This folder contains the committed Remote.com retrieval corpus used by the local Moss indexer.
 
-Source on the local workstation:
+The bundle was generated from the 2026-06-07 Remote.com scrape source artifact provided for this repo.
 
-```text
-/Users/karimyahia/Documents/Codex/2026-06-07/do-you-have-access-to-my/outputs/remote_com_scrape
-```
+The committed import keeps:
 
-The repo import keeps:
+- `remote-com-documents.json.gz`: a compressed Moss-style JSON document array with 10,842 documents.
+- this README.
 
-- scrape provenance files: `README.md`, `manifest.json`, sitemap and selected URL JSON files
-- saved markdown pages under `pages/`
-- per-page `*.metadata.json`
-- scrape logs under `logs/`
-
-The repo import intentionally omits raw per-page fetch payloads (`*.direct.json`, `*.firecrawl.json`) and Firecrawl job records because they are not needed to build a Moss document file or the local retrieval artifact. Generated Moss documents and local indexes are written under `artifacts/`, which is gitignored.
+The repo import intentionally omits the loose markdown workspace, raw per-page fetch payloads (`*.direct.json`, `*.firecrawl.json`), Firecrawl job records, scrape logs, sitemap URL lists, selected URL lists, and latest-blog URL lists. Generated Moss documents and local indexes are written under `artifacts/`, which is gitignored.
 
 The scrape is partial. The source manifest reports 10,842 completed pages and 31,343 selected URLs remaining when the run was stopped by user request.
-

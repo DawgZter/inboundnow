@@ -1,0 +1,16 @@
+{
+  "category": "blog",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/blog/remotes-next-chapter-in-global-payroll",
+  "sourceURL": "https://remote.com/blog/remotes-next-chapter-in-global-payroll",
+  "finalURL": "https://remote.com/blog/remotes-next-chapter-in-global-payroll",
+  "title": "Remote's next chapter in global payroll",
+  "description": "Remote is enhancing global payroll by simplifying connections for companies and AI.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 250388,
+  "markdownChars": 228,
+  "linksCount": 110,
+  "lastmod": "2026-05-13",
+  "scrapedAt": "2026-06-07T09:00:57.013Z"
+}

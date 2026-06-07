@@ -10,7 +10,7 @@ const root = new URL("..", import.meta.url);
 const rootPath = fileURLToPath(root);
 const node = process.execPath;
 const env = process.env;
-const { port, mossIndexPath, mossSourcePath, processes } = resolveInboundNowStartConfig(env);
+const { port, mossIndexPath, mossSourcePath, mossSourceType, processes } = resolveInboundNowStartConfig(env);
 
 const children = [];
 let shuttingDown = false;
@@ -76,7 +76,7 @@ async function ensureMossIndex() {
     cwd: rootPath,
     env: {
       ...env,
-      MOSS_SOURCE_TYPE: env.MOSS_SOURCE_TYPE || "remote-com-scrape",
+      MOSS_SOURCE_TYPE: mossSourceType,
       MOSS_SOURCE_PATH: mossSourcePath,
       MOSS_INDEX_PATH: mossIndexPath,
     },

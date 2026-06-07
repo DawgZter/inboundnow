@@ -70,23 +70,23 @@ MOSS_PROVIDER=local-runtime-client MOSS_RUNTIME_URL=http://127.0.0.1:4321 npm ru
 
 This proves local artifact retrieval only. It is not hosted Moss, not Moss SDK proof, and it must not use `autoRefresh`, cloud polling, `pushIndex()`, runtime document upload, session document upload, or session embedding upload.
 
-## Remote.com Scrape Corpus
+## Remote.com Retrieval Corpus
 
-The imported scrape lives at `data/remote-com/scrape-2026-06-07`. It is partial: the source manifest reports 10,842 completed pages and 31,343 selected URLs still remaining when the run was stopped by user request.
+The imported retrieval corpus lives at `data/remote-com/remote-com-documents.json.gz`. It is a compressed 10,842-document Moss-style JSON bundle generated from the partial 2026-06-07 Remote.com scrape. The original scrape manifest reported 31,343 selected URLs still remaining when the run was stopped by user request.
 
-Build a local JSON retrieval artifact from the imported corpus:
+Build a local JSON retrieval artifact from the committed compressed corpus:
 
 ```bash
 npm run moss:index:remote
 ```
 
-Export the same corpus in the Moss CLI document format:
+Decompress/export the same corpus in the Moss CLI document format:
 
 ```bash
 npm run moss:docs:remote
 ```
 
-That writes `artifacts/moss/remote-com-documents.json` with 10,842 documents. The latest local run produced a 62,531,653-byte Moss document file and a 102 MB local retrieval artifact. Both generated files stay under gitignored `artifacts/`.
+That writes `artifacts/moss/remote-com-documents.json` with 10,842 documents. The latest local run produced a 64,883,180-byte exported JSON file, a 16,470,463-byte committed gzip bundle, and a 102 MB local retrieval artifact. Generated files stay under gitignored `artifacts/`.
 
 Run the full local scrape-corpus proof when you want the slower end-to-end check:
 
@@ -100,7 +100,7 @@ Run the heavier LiveKit plus scrape-corpus proof when you want to verify the age
 npm run smoke:livekit:moss-remote
 ```
 
-This builds the 10,842-document local Remote.com artifact under `artifacts/`, starts the local Moss runtime in artifact mode, starts local LiveKit with the bridge disabled, runs the agent with `MOSS_PROVIDER=local-runtime-client`, and verifies the emitted `agent.answer` includes bounded Remote scrape snippets plus local artifact metadata before the typed browser action is sent.
+This builds the 10,842-document local Remote.com artifact from the committed gzip bundle under `artifacts/`, starts the local Moss runtime in artifact mode, starts local LiveKit with the bridge disabled, runs the agent with `MOSS_PROVIDER=local-runtime-client`, and verifies the emitted `agent.answer` includes bounded Remote snippets plus local artifact metadata before the typed browser action is sent.
 
 Hosted Moss index creation uses the official Moss CLI path. Install and authenticate once, then upload:
 

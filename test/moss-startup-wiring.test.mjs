@@ -16,7 +16,8 @@ test("startup defaults wire Moss runtime and agent providers locally", () => {
   assert.equal(config.mossAgentProvider, "local-runtime-client");
   assert.equal(config.mossRuntimeUrl, "http://127.0.0.1:4321");
   assert.equal(config.mossIndexPath, "artifacts/moss/remote-com-local-index.json");
-  assert.equal(config.mossSourcePath, "data/remote-com/scrape-2026-06-07");
+  assert.equal(config.mossSourcePath, "data/remote-com/remote-com-documents.json.gz");
+  assert.equal(config.mossSourceType, "json-gzip");
 
   assert.equal(moss.env.MOSS_RUNTIME_PROVIDER, "local-artifact");
   assert.equal(moss.env.MOSS_INDEX_PATH, "artifacts/moss/remote-com-local-index.json");

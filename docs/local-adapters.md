@@ -12,7 +12,7 @@ This document is the proof boundary for the local voice-agent harness.
 - Voice switching: browser, bridge, and LiveKit messages carry a per-session voice profile; typed commands such as "switch to a warmer voice" update the session voice without restarting.
 - Adapter plumbing: dependency-free local stubs and status reporting under
   `apps/agent/adapters`.
-- Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`; local artifact retrieval is exercised by `npm run smoke:moss:local`; the partial Remote.com scrape corpus can be built with `npm run moss:index:remote`, smoked through the local runtime with `npm run smoke:moss:remote`, and smoked through a LiveKit agent turn with `npm run smoke:livekit:moss-remote`.
+- Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`; local artifact retrieval is exercised by `npm run smoke:moss:local`; the compressed Remote.com retrieval corpus can be built with `npm run moss:index:remote`, smoked through the local runtime with `npm run smoke:moss:remote`, and smoked through a LiveKit agent turn with `npm run smoke:livekit:moss-remote`.
 - Browser action execution: `window.InboundNow.dispatch(...)` inside the proxied Remote page.
 
 ## GPU Requirement
@@ -136,7 +136,7 @@ Local artifact retrieval is not hosted Moss and not Moss SDK proof; it only prov
 
 queryLocalIndex scores over the full local document text but returns bounded query-centered excerpts with source metadata, original document length, matched tokens, and excerpted status. Agent messages preserve localOnly and artifact metadata so browser/LiveKit evidence can prove the runtime boundary without shipping full page bodies.
 
-The imported Remote.com scrape corpus lives under `data/remote-com/scrape-2026-06-07`. It is partial and locale-heavy: 10,842 completed pages were imported from the source artifact, while 31,343 selected URLs remained unfinished. The parser converts `pages/**/*.md` plus `*.metadata.json` into Moss-style `{id,title,url,text,tags,metadata}` records; raw fetch payloads and Firecrawl job records are intentionally omitted from git.
+The imported Remote.com retrieval corpus lives at `data/remote-com/remote-com-documents.json.gz`. It is partial and locale-heavy: 10,842 completed pages were imported from the source artifact, while 31,343 selected URLs remained unfinished. The committed bundle contains the Moss-style `{id,title,url,text,tags,metadata}` records used by the local indexer and hosted-upload export path. Raw fetch payloads, Firecrawl job records, crawl logs, sitemap lists, selected URL lists, and the loose markdown workspace are intentionally omitted from git. The loose scrape parser remains covered by the tiny `fixtures/remote-com-scrape-mini` fixture for private regeneration work.
 
 To hand the corpus to hosted Moss, run `npm run moss:docs:remote`, configure the official Moss CLI with `moss init`, then run `npm run moss:upload:remote`. That hosted upload path is index-generation proof only; runtime use for this MVP still loads local artifacts and must remain free of forbidden cloud polling/upload behavior.
 

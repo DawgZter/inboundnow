@@ -70,8 +70,8 @@ async function waitForJson(url, options = {}, timeoutMs = 15_000) {
 
 async function runIndexer() {
   const child = spawnLogged("indexer", process.execPath, ["services/moss-indexer/build-local-index.mjs"], {
-    MOSS_SOURCE_TYPE: "remote-com-scrape",
-    MOSS_SOURCE_PATH: "data/remote-com/scrape-2026-06-07",
+    MOSS_SOURCE_TYPE: "json-gzip",
+    MOSS_SOURCE_PATH: "data/remote-com/remote-com-documents.json.gz",
     MOSS_INDEX_PATH: indexPath,
     MOSS_INDEX_BUILT_AT: "2026-06-07T09:19:45.903Z",
   });

@@ -7,7 +7,8 @@ export function resolveInboundNowStartConfig(env = process.env) {
   const qwenBaseUrl = env.LLM_BASE_URL || "http://127.0.0.1:" + qwenPort + "/v1";
   const mossRuntimeUrl = env.MOSS_RUNTIME_URL || "http://127.0.0.1:" + mossPort;
   const mossIndexPath = env.MOSS_INDEX_PATH || "artifacts/moss/remote-com-local-index.json";
-  const mossSourcePath = env.MOSS_SOURCE_PATH || "data/remote-com/scrape-2026-06-07";
+  const mossSourcePath = env.MOSS_SOURCE_PATH || "data/remote-com/remote-com-documents.json.gz";
+  const mossSourceType = env.MOSS_SOURCE_TYPE || "json-gzip";
   const mossRuntimeProvider = env.MOSS_RUNTIME_PROVIDER || "local-artifact";
   const mossAgentProvider = env.MOSS_AGENT_PROVIDER || env.AGENT_MOSS_PROVIDER || env.MOSS_PROVIDER || "local-runtime-client";
 
@@ -21,6 +22,7 @@ export function resolveInboundNowStartConfig(env = process.env) {
     mossRuntimeUrl,
     mossIndexPath,
     mossSourcePath,
+    mossSourceType,
     mossRuntimeProvider,
     mossAgentProvider,
     processes: [

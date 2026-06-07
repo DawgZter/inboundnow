@@ -1,5 +1,9 @@
 import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
+import { promisify } from "node:util";
+import { gunzip } from "node:zlib";
+
+const gunzipAsync = promisify(gunzip);
 
 const DEFAULT_MIN_TOKEN_LENGTH = 3;
 const DEFAULT_SNIPPET_CHARS = 720;
@@ -164,6 +168,12 @@ export function queryLocalIndex(index, query, options = {}) {
 
 export async function readJson(pathname) {
   return JSON.parse(await readFile(resolve(process.cwd(), pathname), "utf8"));
+}
+
+export async function readJsonGzip(pathname) {
+  const compressed = await readFile(resolve(process.cwd(), pathname));
+  const json = await gunzipAsync(compressed);
+  return JSON.parse(json.toString("utf8"));
 }
 
 export async function writeJson(pathname, value) {

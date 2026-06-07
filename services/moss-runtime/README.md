@@ -23,7 +23,7 @@ curl -X POST http://127.0.0.1:4321/query \
   -d '{"query":"global payroll","topK":3}'
 ```
 
-Remote.com scrape artifact mode:
+Remote.com corpus artifact mode:
 
 ```bash
 npm run moss:index:remote
@@ -33,7 +33,7 @@ curl -X POST http://127.0.0.1:4321/query \
   -d '{"query":"Remote MCP global payroll","topK":5}'
 ```
 
-The scrape corpus is partial and imported under `data/remote-com/scrape-2026-06-07`. Generated local indexes remain under gitignored `artifacts/`.
+The retrieval corpus is partial and committed as `data/remote-com/remote-com-documents.json.gz`. Generated local indexes remain under gitignored `artifacts/`.
 
 One-command proof:
 
@@ -41,7 +41,7 @@ One-command proof:
 npm run smoke:moss:local
 ```
 
-Full scrape-corpus proof:
+Full corpus proof:
 
 ```bash
 npm run smoke:moss:remote

@@ -1,0 +1,15 @@
+{
+  "category": "site",
+  "scrapeMethod": "direct-fetch",
+  "requestedURL": "https://remote.com/global-hr/employer-of-record",
+  "sourceURL": "https://remote.com/global-hr/employer-of-record",
+  "finalURL": "https://remote.com/global-hr/employer-of-record",
+  "title": "Employer of record services",
+  "description": "Remote employer of record services for global hiring and payroll.",
+  "statusCode": 200,
+  "contentType": "text/html; charset=UTF-8",
+  "bytes": 180000,
+  "markdownChars": 236,
+  "linksCount": 72,
+  "scrapedAt": "2026-06-07T09:01:00.000Z"
+}

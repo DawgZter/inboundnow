@@ -18,7 +18,7 @@ The target experience is simple: open the local website lab, click to start the 
 
 - Work in git the entire time.
 - Make frequent checkpoint commits and keep the repo clean between milestones.
-- Preserve clean commit metadata: no co-author tags and no Codex author metadata.
+- Preserve clean commit metadata: no co-author tags and no tool-generated author metadata.
 - Spawn multiple subagents throughout to move faster and improve quality.
 - Use subagents for repo exploration, local-model runtime research, H100/Vast.ai setup review, LiveKit media debugging, Parakeet ASR verification, VibeVoice/Miso LoRA TTS integration, Moss retrieval quality, browser UX review, security/boundary review, and end-to-end verification.
 - Keep proof boundaries explicit. Do not claim ASR, LLM, TTS, Moss, browser mic, or voice clone proof unless the repo has a fresh local artifact showing it.

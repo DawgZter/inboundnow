@@ -15,7 +15,7 @@
     "dev:tts:realtime": "bash scripts/vast-h100/start-vibevoice-realtime.sh",
     "dev:tts:miso-one": "bash scripts/vast-h100/start-miso-one-tts.sh",
     "moss:index": "node services/moss-indexer/build-local-index.mjs",
-    "moss:index:remote": "MOSS_SOURCE_TYPE=remote-com-scrape MOSS_SOURCE_PATH=data/remote-com/scrape-2026-06-07 MOSS_INDEX_PATH=artifacts/moss/remote-com-local-index.json node services/moss-indexer/build-local-index.mjs",
+    "moss:index:remote": "MOSS_SOURCE_TYPE=json-gzip MOSS_SOURCE_PATH=data/remote-com/remote-com-documents.json.gz MOSS_INDEX_PATH=artifacts/moss/remote-com-local-index.json node services/moss-indexer/build-local-index.mjs",
     "moss:docs:remote": "node scripts/export-remote-com-scrape-documents.mjs",
     "moss:upload:remote": "bash scripts/upload-remote-com-to-moss.sh",
     "smoke:adapters": "node apps/agent/scripts/smoke-adapters.mjs",

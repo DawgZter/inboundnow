@@ -27,7 +27,7 @@ Click Start AI Persona on the default page. If local livekit-server is running, 
     Prospect talks
     -> local LiveKit mic path or browser speech capture over the local bridge
     -> Parakeet-compatible ASR boundary
-    -> local Moss retrieval over the Remote.com scrape
+    -> local Moss retrieval over the Remote.com corpus
     -> Qwen-class planner through an OpenAI-compatible local endpoint
     -> streamed Miso One / VibeVoice-compatible TTS boundary or browser fallback chunks
     -> inboundnow browser action bus
@@ -76,8 +76,8 @@ The cursor resolver accepts target keys, CSS selectors, planner labels, intent t
 
 ## Local Data
 
-The imported Remote.com retrieval corpus is committed at data/remote-com/scrape-2026-06-07.
-The generated local Moss index lives at artifacts/moss/remote-com-local-index.json. That artifact is ignored because it is large, so npm start rebuilds it from the committed scrape when needed.
+The imported Remote.com retrieval corpus is committed as a compressed document bundle at data/remote-com/remote-com-documents.json.gz.
+The generated local Moss index lives at artifacts/moss/remote-com-local-index.json. That artifact is ignored because it is large, so npm start rebuilds it from the committed bundle when needed.
 
 Useful commands:
 
