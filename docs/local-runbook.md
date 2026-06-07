@@ -93,6 +93,14 @@ Run the full local scrape-corpus proof when you want the slower end-to-end check
 npm run smoke:moss:remote
 ```
 
+Run the heavier LiveKit plus scrape-corpus proof when you want to verify the agent path and not just the retrieval service path:
+
+```bash
+npm run smoke:livekit:moss-remote
+```
+
+This builds the 10,842-document local Remote.com artifact under `artifacts/`, starts the local Moss runtime in artifact mode, starts local LiveKit with the bridge disabled, runs the agent with `MOSS_PROVIDER=local-runtime-client`, and verifies the emitted `agent.answer` includes bounded Remote scrape snippets plus local artifact metadata before the typed browser action is sent.
+
 Hosted Moss index creation uses the official Moss CLI path. Install and authenticate once, then upload:
 
 ```bash

@@ -12,7 +12,7 @@ This document is the proof boundary for the local voice-agent harness.
 - Voice switching: browser, bridge, and LiveKit messages carry a per-session voice profile; typed commands such as "switch to a warmer voice" update the session voice without restarting.
 - Adapter plumbing: dependency-free local stubs and status reporting under
   `apps/agent/adapters`.
-- Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`; local artifact retrieval is exercised by `npm run smoke:moss:local`; the partial Remote.com scrape corpus can be built with `npm run moss:index:remote` and fully smoked with `npm run smoke:moss:remote`.
+- Moss retrieval: local fixture retrieval from `fixtures/moss/remote-snippets.json`; local artifact retrieval is exercised by `npm run smoke:moss:local`; the partial Remote.com scrape corpus can be built with `npm run moss:index:remote`, smoked through the local runtime with `npm run smoke:moss:remote`, and smoked through a LiveKit agent turn with `npm run smoke:livekit:moss-remote`.
 - Browser action execution: `window.OpenClickyWeb.dispatch(...)` inside the proxied Remote page.
 
 ## GPU Requirement
@@ -124,6 +124,8 @@ in fixture. Real Moss proof requires querying a prebuilt local Moss artifact at
 runtime without the forbidden cloud/upload behaviors.
 
 Local artifact retrieval is not hosted Moss and not Moss SDK proof; it only proves querying a prebuilt local JSON retrieval artifact through the Moss adapter boundary.
+
+queryLocalIndex scores over the full local document text but returns bounded query-centered excerpts with source metadata, original document length, matched tokens, and excerpted status. Agent messages preserve localOnly and artifact metadata so browser/LiveKit evidence can prove the runtime boundary without shipping full page bodies.
 
 The imported Remote.com scrape corpus lives under `data/remote-com/scrape-2026-06-07`. It is partial and locale-heavy: 10,842 completed pages were imported from the source artifact, while 31,343 selected URLs remained unfinished. The parser converts `pages/**/*.md` plus `*.metadata.json` into Moss-style `{id,title,url,text,tags,metadata}` records; raw fetch payloads and Firecrawl job records are intentionally omitted from git.
 

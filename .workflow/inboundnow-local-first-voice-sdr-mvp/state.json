@@ -44,6 +44,18 @@
       "agent": "Euler (019ea220-f0c8-7102-83d0-0cdb7b6fe8d7)",
       "status": "completed",
       "result": "results/round3-browser-asr-proof.md"
+    },
+    {
+      "id": "round4-moss-retrieval-review",
+      "agent": "Turing (019ea240-7832-7a23-beeb-9605ca401307)",
+      "status": "completed",
+      "result": "results/round4-livekit-remote-moss-proof.md"
+    },
+    {
+      "id": "round4-h100-runtime-review",
+      "agent": "Banach (019ea240-7a50-7af2-8a0b-872506db5ccc)",
+      "status": "completed",
+      "result": "results/round4-livekit-remote-moss-proof.md"
     }
   ],
   "verification": {
@@ -124,6 +136,20 @@
         "command": "npm run smoke:browser:asr-ui",
         "artifact": "artifacts/smoke/browser-asr-ui-2026-06-07T13-20-16-822Z/result.json",
         "notes": "Browser-visible ASR proof copy, listening/no-audio chips, final transcript fallback, warm voice persistence, and streamed speech start verified."
+      },
+      {
+        "id": "remote-moss-bounded-snippets",
+        "status": "passed",
+        "command": "npm run smoke:moss:remote",
+        "artifact": "artifacts/smoke/moss-remote-2026-06-07T13-29-46-759Z/result.json",
+        "notes": "Remote.com scrape corpus indexed locally with 10,842 documents; local runtime/client query returned bounded scrape-origin snippets with payroll/MCP/compliance matches."
+      },
+      {
+        "id": "livekit-agent-remote-moss",
+        "status": "passed",
+        "command": "npm run smoke:livekit:moss-remote",
+        "artifact": "artifacts/smoke/livekit-moss-remote-2026-06-07T13-29-04-783Z/result.json",
+        "notes": "Bridge disabled; LiveKit agent used MOSS_PROVIDER=local-runtime-client against the Remote.com scrape local artifact and emitted answer, speech stream, and payrollFlow action."
       }
     ]
   }

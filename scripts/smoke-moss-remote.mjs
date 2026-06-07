@@ -94,8 +94,17 @@ function assertRemoteResult(result) {
   assert.equal(result.artifact.schema, "inboundnow.local-retrieval.v1");
   assert.ok(result.artifact.documentCount >= 10_800);
   assert.ok(result.snippets.length > 0);
-  const joined = result.snippets.map((snippet) => snippet.title + " " + snippet.text).join("\n");
-  assert.match(joined, /Remote|payroll|MCP/i);
+  assert.ok(result.snippets.every((snippet) => snippet.text.length <= 760));
+  assert.ok(result.snippets.every((snippet) => snippet.metadata?.source === "remote_com_scrape"));
+  assert.ok(result.snippets.every((snippet) => snippet.metadata?.documentChars >= snippet.text.length));
+  assert.ok(result.snippets.some((snippet) => (snippet.metadata?.matchedTokens || []).includes("payroll")));
+  assert.ok(result.snippets.some((snippet) => {
+    const matched = snippet.metadata?.matchedTokens || [];
+    return matched.includes("compliance") || matched.includes("mcp");
+  }));
+  const joined = result.snippets.map((snippet) => snippet.title + " " + snippet.url + " " + snippet.text).join("\n");
+  assert.match(joined, /Remote/i);
+  assert.match(joined, /payroll/i);
 }
 
 await mkdir(artifactDir, { recursive: true });
@@ -166,4 +175,3 @@ try {
 } finally {
   stopAll();
 }
-

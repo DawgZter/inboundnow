@@ -84,6 +84,20 @@ async function safeRetrieval(question) {
   }
 }
 
+function retrievalForMessage(retrieval) {
+  if (!retrieval) return null;
+  const snippets = Array.isArray(retrieval.snippets) ? retrieval.snippets.slice(0, 3) : [];
+  return {
+    provider: retrieval.provider || "",
+    localOnly: retrieval.localOnly !== false,
+    simulated: !!retrieval.simulated,
+    artifact: retrieval.artifact || null,
+    error: retrieval.error || "",
+    count: snippets.length,
+    snippets,
+  };
+}
+
 function speechStreamingEnabled() {
   return !["0", "false", "no", "off"].includes(String(process.env.TTS_STREAMING || "1").trim().toLowerCase());
 }
@@ -220,14 +234,7 @@ async function handleQuestion(sendReply, message, context = {}) {
     planner: planResult.planner,
     voiceProfile: activeVoiceProfile,
     voiceSwitch: voiceSwitchMetadata,
-    retrieval: retrieval
-      ? {
-          provider: retrieval.provider || "",
-          simulated: !!retrieval.simulated,
-          count: Array.isArray(retrieval.snippets) ? retrieval.snippets.length : 0,
-          snippets: Array.isArray(retrieval.snippets) ? retrieval.snippets.slice(0, 3) : [],
-        }
-      : null,
+    retrieval: retrievalForMessage(retrieval),
   });
 
   await sendSpeechStream(sendReply, {

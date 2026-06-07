@@ -214,7 +214,7 @@ Current proof level:
 - `Send simulated transcript` sends a final transcript message through the same agent path as future ASR final transcripts; this is transcript fallback proof, not Parakeet proof.
 - ASR, LLM, and TTS have local-first adapter contracts and deterministic local stubs; these prove wiring and guardrails only, not local model proof.
 - Agent answers now emit `agent.speech.start/chunk/end` before page actions, and the browser queues chunks through `speechSynthesis` for lower perceived latency. This is streamed browser fallback speech, not VibeVoice model proof.
-- Local artifact retrieval is available through the Moss adapter boundary with `npm run smoke:moss:local`; this is local JSON artifact proof, not hosted Moss or Moss SDK proof.
+- Local artifact retrieval is available through the Moss adapter boundary with `npm run smoke:moss:local`; `npm run smoke:moss:remote` and `npm run smoke:livekit:moss-remote` prove the imported Remote.com scrape corpus can ground an agent turn through the local Moss runtime client. This is local JSON artifact proof, not hosted Moss or Moss SDK proof.
 - Cal.com is not loaded until the user confirms the booking prompt.
 
 For the real local-model GPU lane, use docs/vast-h100-runbook.md and the scripts under scripts/vast-h100/.
@@ -227,6 +227,8 @@ Useful local adapter checks:
 npm run smoke:adapters
 npm run smoke:planner
 npm run smoke:moss:local
+npm run smoke:moss:remote
+npm run smoke:livekit:moss-remote
 npm run smoke:asr:local
 npm run smoke:tts:local
 npm run smoke:local

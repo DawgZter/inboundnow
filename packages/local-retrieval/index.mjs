@@ -2,6 +2,20 @@ import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 
 const DEFAULT_MIN_TOKEN_LENGTH = 3;
+const DEFAULT_SNIPPET_CHARS = 720;
+const STOP_TOKENS = new Set([
+  "and",
+  "are",
+  "does",
+  "for",
+  "from",
+  "help",
+  "how",
+  "remote",
+  "the",
+  "this",
+  "with",
+]);
 
 export function tokenize(value) {
   return String(value || "")
@@ -60,20 +74,75 @@ function scoreDocument(queryTokens, document) {
   return score;
 }
 
+function matchedTokens(queryTokens, document) {
+  const tokenSet = new Set(document.tokens || tokenize([document.title, document.url, document.text, ...(document.tags || [])].join(" ")));
+  return Array.from(new Set(queryTokens.filter((token) => tokenSet.has(token))));
+}
+
+function preferredSnippetTokens(queryTokens) {
+  const preferred = queryTokens.filter((token) => !STOP_TOKENS.has(token));
+  return preferred.length ? preferred : queryTokens;
+}
+
+function firstMatchOffset(text, queryTokens) {
+  const haystack = String(text || "").toLowerCase();
+  for (const token of preferredSnippetTokens(queryTokens)) {
+    const index = haystack.indexOf(token);
+    if (index !== -1) return index;
+  }
+  return 0;
+}
+
+function wordBoundaryStart(text, offset) {
+  let cursor = Math.max(0, offset);
+  while (cursor > 0 && /\S/.test(text[cursor - 1])) cursor -= 1;
+  return cursor;
+}
+
+function wordBoundaryEnd(text, offset) {
+  let cursor = Math.min(text.length, offset);
+  while (cursor < text.length && /\S/.test(text[cursor])) cursor += 1;
+  return cursor;
+}
+
+function excerptText(text, queryTokens, maxChars = DEFAULT_SNIPPET_CHARS) {
+  const source = String(text || "").replace(/\s+/g, " ").trim();
+  const limit = Math.max(160, Math.min(1600, Number(maxChars || DEFAULT_SNIPPET_CHARS)));
+  if (source.length <= limit) return source;
+
+  const matchOffset = firstMatchOffset(source, queryTokens);
+  const start = wordBoundaryStart(source, Math.max(0, matchOffset - Math.floor(limit * 0.35)));
+  const end = wordBoundaryEnd(source, Math.min(source.length, start + limit));
+  const prefix = start > 0 ? "... " : "";
+  const suffix = end < source.length ? " ..." : "";
+  return prefix + source.slice(start, end).trim() + suffix;
+}
+
 export function queryLocalIndex(index, query, options = {}) {
   const topK = Math.max(1, Math.min(12, Number(options.topK || 3)));
+  const snippetChars = Number(options.snippetChars || DEFAULT_SNIPPET_CHARS);
   const queryTokens = tokenize(query);
   const documents = Array.isArray(index.documents) ? index.documents : [];
   const snippets = documents
-    .map((document) => ({
-      id: document.id,
-      title: document.title,
-      url: document.url,
-      text: document.text,
-      tags: document.tags || [],
-      metadata: document.metadata || {},
-      score: scoreDocument(queryTokens, document),
-    }))
+    .map((document) => {
+      const score = scoreDocument(queryTokens, document);
+      const matched = matchedTokens(queryTokens, document);
+      return {
+        id: document.id,
+        title: document.title,
+        url: document.url,
+        text: excerptText(document.text, queryTokens, snippetChars),
+        tags: document.tags || [],
+        metadata: {
+          ...(document.metadata || {}),
+          documentChars: String(document.text || "").length,
+          snippetChars,
+          matchedTokens: matched,
+          excerpted: String(document.text || "").length > snippetChars,
+        },
+        score,
+      };
+    })
     .filter((snippet) => snippet.score > 0)
     .sort((a, b) => b.score - a.score || a.id.localeCompare(b.id))
     .slice(0, topK);

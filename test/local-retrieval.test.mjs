@@ -41,3 +41,31 @@ test("queryLocalIndex returns payroll snippets from the local artifact", async (
   assert.equal(result.snippets[0].id, "remote-global-payroll");
   assert.match(result.snippets[0].text, /country-specific payroll rules/i);
 });
+
+test("queryLocalIndex returns bounded excerpts around query terms", () => {
+  const before = "Intro filler without the target phrase. ".repeat(40);
+  const after = " Extra implementation notes after the relevant part.".repeat(40);
+  const index = buildLocalIndex([
+    {
+      id: "long-payroll-doc",
+      title: "Long payroll guide",
+      url: "https://remote.com/long-payroll-guide",
+      text: before + "Remote global payroll keeps country-specific rules and compliance workflows close to HR." + after,
+      tags: ["payroll", "global"],
+    },
+  ], {
+    source: "test",
+    builtAt: "2026-06-07T00:00:00.000Z",
+  });
+
+  const result = queryLocalIndex(index, "global payroll compliance", { topK: 1, snippetChars: 220 });
+
+  assert.equal(result.snippets.length, 1);
+  assert.ok(result.snippets[0].text.length <= 235);
+  assert.match(result.snippets[0].text, /global payroll/i);
+  assert.match(result.snippets[0].text, /compliance workflows/i);
+  assert.equal(result.snippets[0].metadata.excerpted, true);
+  assert.equal(result.snippets[0].metadata.snippetChars, 220);
+  assert.ok(result.snippets[0].metadata.documentChars > result.snippets[0].text.length);
+  assert.deepEqual(result.snippets[0].metadata.matchedTokens, ["global", "payroll", "compliance"]);
+});

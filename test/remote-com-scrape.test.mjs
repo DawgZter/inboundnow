@@ -28,6 +28,8 @@ test("Remote scrape documents can be queried through the local retrieval artifac
   assert.equal(result.localOnly, true);
   assert.equal(result.artifact.documentCount, 100);
   assert.ok(result.snippets.length > 0);
-  assert.ok(result.snippets.some((snippet) => /Remote MCP|global payroll/i.test(snippet.text)));
+  assert.ok(result.snippets.every((snippet) => snippet.text.length <= 760));
+  assert.ok(result.snippets.every((snippet) => snippet.metadata.source === "remote_com_scrape"));
+  assert.ok(result.snippets.every((snippet) => snippet.metadata.documentChars >= snippet.text.length));
+  assert.ok(result.snippets.some((snippet) => /Remote MCP|global payroll/i.test(snippet.title + " " + snippet.text)));
 });
-
